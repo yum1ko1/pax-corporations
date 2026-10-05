@@ -1,0 +1,885 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Камбоджа",
+	"iso": "KHM",
+	"data_date": "2026-03",
+	"average_wage": 250,
+	"companies": [
+		{
+			"id": "acleda",
+			"название": {
+				"ru": "ACLEDA Bank",
+				"en": "ACLEDA Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейший банк Камбоджи.",
+				"en": "Cambodia's largest bank."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 433,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "ACLEDA NGO и сотрудники",
+						"en": "ACLEDA NGO and staff"
+					},
+					"type": "сама",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "ORIX (Япония)",
+						"en": "ORIX (Japan)"
+					},
+					"type": "company",
+					"доля": 0.18,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.42
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ин Чанни",
+					"en": "In Channy"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2001,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 13000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пномпень",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.56,
+					"д": 104.92,
+					"province": 827,
+					"staff": 5000,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.acledabank.com.kh/ | CSX: ABC Annual Report 2024; National Bank of Cambodia"
+		},
+		{
+			"id": "canadia_bank",
+			"название": {
+				"ru": "Canadia Bank / Canadia Investment Holding",
+				"en": "Canadia Bank / Canadia Investment Holding"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая национальная финансово-девелоперская группа Пунь Кхьеу Се (старейший банк Камбоджи с активами свыше $8 млрд, девелопмент делового центра Koh Pich и строительство нового столичного мегааэропорта Течо стоимостью $1.5 млрд). https://www.canadiabank.com.kh/",
+				"en": "Canadia Bank / Canadia Investment Holding — a construction company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 20,
+				"debt": 95,
+				"money": 32,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 770,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5285,
+					"д": 104.9303,
+					"province": 827,
+					"staff": 231,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aba_bank",
+			"название": {
+				"ru": "ABA Bank (Advanced Bank of Asia)",
+				"en": "ABA Bank (Advanced Bank of Asia)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк Камбоджи по величине активов и лидер в розничном мобильном банкинге (дочерняя структура National Bank of Canada; активы свыше $11.5 млрд, чистая прибыль ~$280 млн, 9,000 сотр.). https://www.ababank.com/",
+				"en": "ABA Bank (Advanced Bank of Asia) — a financial company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 280,
+				"debt": 0,
+				"money": 0,
+				"dividends": 84
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 385
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 471,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5476,
+					"д": 104.9004,
+					"province": 827,
+					"staff": 141,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_group",
+			"название": {
+				"ru": "Royal Group of Companies",
+				"en": "Royal Group of Companies"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий многопрофильный частный конгломерат Неак Окна Кит Менга (мобильный оператор Cellcard / CamGSM, котируется на CSX: CGSM; телекомпания CTN, Wing Bank — финтех номер один, концессия железных дорог Royal Railway). https://www.royalgroup.com.kh/",
+				"en": "Royal Group of Companies — a IT and telecom company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 86,
+				"profit": 11,
+				"debt": 27,
+				"money": 14,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 163
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 227,
+			"wage": 448,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5591,
+					"д": 104.9418,
+					"province": 827,
+					"staff": 68,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sihanoukville_autonomous",
+			"название": {
+				"ru": "Sihanoukville Autonomous Port (PAS) / Phnom Penh Autonomous Port (PPAP)",
+				"en": "Sihanoukville Autonomous Port (PAS) / Phnom Penh Autonomous Port (PPAP)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие государственные портовые операторы (глубоководный порт Сиануквиль обрабатывает 70% контейнерного грузооборота страны, речной терминал Пномпеня; котируются на CSX: PAS и CSX: PPAP). https://www.pas.gov.kh/ | https://ppap.com.kh/",
+				"en": "Sihanoukville Autonomous Port (PAS) / Phnom Penh Autonomous Port (PPAP) — a transport company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 72,
+				"profit": 5,
+				"debt": 36,
+				"money": 15,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 51
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камбоджа)",
+						"en": "The state (Cambodia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камбоджа"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 180,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5791,
+					"д": 104.9052,
+					"province": 827,
+					"staff": 54,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "electricite_du",
+			"название": {
+				"ru": "Electricite du Cambodge (EDC)",
+				"en": "Electricite du Cambodge (EDC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация Королевства Камбоджа (управление единой национальной распределительной сетью, ГЭС на реках Сесан и Камчай, импорт электричества из Лаоса; выручка свыше $1.5 млрд). https://www.edc.com.kh/",
+				"en": "Electricite du Cambodge (EDC) — a energy company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 139,
+				"debt": 912,
+				"money": 192,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1978
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камбоджа)",
+						"en": "The state (Cambodia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камбоджа"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2668,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5594,
+					"д": 104.9067,
+					"province": 827,
+					"staff": 800,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chip_mong",
+			"название": {
+				"ru": "Chip Mong Group",
+				"en": "Chip Mong Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Влиятельный многопрофильный промышленный холдинг (производство цемента Chip Mong Insee, крупный пивоваренный комплекс Khmer Beverages — пиво Cambodia Beer, коммерческий банк Chip Mong Bank, девелопмент; 7,000 сотр.). https://www.chipmong.com/",
+				"en": "Chip Mong Group — a consumer and retail company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 72,
+				"profit": 6,
+				"debt": 17,
+				"money": 6,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 99
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 216,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5433,
+					"д": 104.8762,
+					"province": 827,
+					"staff": 64,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nagacorp_ltd",
+			"название": {
+				"ru": "NagaCorp Ltd.",
+				"en": "NagaCorp Ltd."
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший гостинично-развлекательный и казино-комплекс Индокитая NagaWorld в Пномпене (эксклюзивная правительственная игорная франшиза в радиусе 200 км от столицы, выручка свыше $500 млн, HKEX: 3918). https://www.nagacorp.com/",
+				"en": "NagaCorp Ltd. — a metals and mining company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 56,
+				"debt": 167,
+				"money": 60,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1444,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.6014,
+					"д": 104.9046,
+					"province": 827,
+					"staff": 433,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "smart_axiata",
+			"название": {
+				"ru": "Smart Axiata",
+				"en": "Smart Axiata"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине оператор мобильной связи и широкополосного интернета (свыше 7.5 млн абонентов, дочерняя структура холдинга Axiata Group; выручка ~$350 млн). https://www.smart.com.kh/",
+				"en": "Smart Axiata — a IT and telecom company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 45,
+				"debt": 111,
+				"money": 58,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 663
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 927,
+			"wage": 448,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5933,
+					"д": 104.9214,
+					"province": 827,
+					"staff": 278,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "phnom_penh",
+			"название": {
+				"ru": "Phnom Penh Water Supply Authority (PPWSA)",
+				"en": "Phnom Penh Water Supply Authority (PPWSA)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монопольный оператор водоснабжения столичного региона (мировой эталон эффективности муниципальных систем водоочистки, CSX: PWSA). https://ppwsa.com.kh/",
+				"en": "Phnom Penh Water Supply Authority (PPWSA) — a IT and telecom company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 86,
+				"profit": 11,
+				"debt": 27,
+				"money": 14,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 163
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камбоджа)",
+						"en": "The state (Cambodia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камбоджа"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 227,
+			"wage": 448,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.587,
+					"д": 104.943,
+					"province": 827,
+					"staff": 68,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tehniko_artilleriyskoe",
+			"название": {
+				"ru": "Технико-артиллерийское управление Королевских вооруженных сил (RCAF Technical & Ordnance Department)",
+				"en": "Технико-артиллерийское управление Королевских вооруженных сил (RCAF Technical & Ordnance Department)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Технико-артиллерийское управление Королевских вооруженных сил (RCAF Technical & Ordnance Department) — a defence company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 31,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 58
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камбоджа)",
+						"en": "The state (Cambodia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камбоджа"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 93,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пном Пен",
+						"en": "Phnom Penh"
+					},
+					"ш": 11.5878,
+					"д": 104.8825,
+					"province": 827,
+					"staff": 27,
+					"fine": 2095
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sudoremontnyy_kompleks",
+			"название": {
+				"ru": "Судоремонтный комплекс военно-морской базы Реам (Ream Naval Base)",
+				"en": "Судоремонтный комплекс военно-морской базы Реам (Ream Naval Base)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-морской пункт базирования и судоремонта ВМС Камбоджи в провинции Сиануквиль (модернизированный сухой док и мастерские для ремонта патрульных ракетно-артиллерийских катеров водоизмещением до 1,500 тонн)",
+				"en": "Судоремонтный комплекс военно-морской базы Реам (Ream Naval Base) — a defence company of Cambodia."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камбоджа)",
+						"en": "The state (Cambodia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камбоджа"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сиануквиль",
+						"en": "Sihanoukville"
+					},
+					"ш": 10.6386,
+					"д": 103.5244,
+					"province": 147,
+					"staff": 22,
+					"fine": 2104
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

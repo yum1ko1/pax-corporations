@@ -1,0 +1,673 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Габон",
+	"iso": "GAB",
+	"data_date": "2026-03",
+	"average_wage": 450,
+	"companies": [
+		{
+			"id": "comilog",
+			"название": {
+				"ru": "Comilog",
+				"en": "Comilog"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1953,
+			"description": {
+				"ru": "Марганец Моанды, дочка французской Eramet.",
+				"en": "Moanda's manganese, a subsidiary of France's Eramet."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 200,
+				"debt": 300,
+				"money": 100,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Eramet",
+						"en": "Eramet"
+					},
+					"type": "company",
+					"доля": 0.64,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Государство Габона",
+						"en": "The Gabonese state"
+					},
+					"type": "polity",
+					"доля": 0.29,
+					"country": "Габон"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.07
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Леод-Поль Батоло",
+					"en": "Léod Paul Batolo"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 7000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Моанда",
+						"en": "Moanda"
+					},
+					"ш": -1.55,
+					"д": 13.2,
+					"province": 265,
+					"staff": 7000,
+					"fine": 1208
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.comilog.eramet.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "gabon_oil",
+			"название": {
+				"ru": "Gabon Oil Company (GOC)",
+				"en": "Gabon Oil Company (GOC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Государственная национальная нефтегазовая корпорация (после приобретения активов Assala Energy у фонда Carlyle за $1.3 млрд в 2024 году контролирует ключевые наземные месторождения нефти Габона; выручка ~$1.5 млрд). https://gabonoil.com/",
+				"en": "Gabon Oil Company (GOC) — a oil and gas company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 89,
+				"debt": 423,
+				"money": 142,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 933
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Габон)",
+						"en": "The state (Gabon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Габон"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1311,
+			"wage": 805,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.4035,
+					"д": 9.4545,
+					"province": 575,
+					"staff": 393,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "perenco_gabon",
+			"название": {
+				"ru": "Perenco Gabon",
+				"en": "Perenco Gabon"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный нефтегазодобывающий оператор Габона (эксплуатирует морские и береговые лицензионные блоки, нефтяной терминал Кап-Лопес; суточная добыча около 100,000 баррелей нефтяного эквивалента, выручка ~$2.0 млрд). https://www.perenco.com/",
+				"en": "Perenco Gabon — a oil and gas company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 119,
+				"debt": 563,
+				"money": 190,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1244
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1748,
+			"wage": 805,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.3735,
+					"д": 9.4702,
+					"province": 575,
+					"staff": 524,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bgfibank_group",
+			"название": {
+				"ru": "BGFIBank Group (BGFIBank Gabon)",
+				"en": "BGFIBank Group (BGFIBank Gabon)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая пан-африканская частная банковская группа в Центральной Африке со штаб-квартирой в Либревиле (активы ~$7.0 млрд, чистая прибыль ~$120 млн, сеть в 12 странах CEMAC и Франции, генеральный директор Анри-Клод Ойима). https://www.groupebgfibank.com/",
+				"en": "BGFIBank Group (BGFIBank Gabon) — a financial company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 120,
+				"debt": 0,
+				"money": 0,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.4614,
+					"д": 9.4263,
+					"province": 575,
+					"staff": 450,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "totalenergies_ep",
+			"название": {
+				"ru": "TotalEnergies EP Gabon",
+				"en": "TotalEnergies EP Gabon"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Историческое дочернее предприятие французского концерна TotalEnergies, котирующееся на бирже Euronext Paris (добыча зрелых морских месторождений нефти Torpille, Anguille; выручка ~$500 млн). https://totalenergies.ga/",
+				"en": "TotalEnergies EP Gabon — a financial company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 141,
+				"debt": 0,
+				"money": 0,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1167
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1428,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.4614,
+					"д": 9.4263,
+					"province": 575,
+					"staff": 428,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "seeg",
+			"название": {
+				"ru": "SEEG (Société d'Énergie et d'Eau du Gabon)",
+				"en": "SEEG (Société d'Énergie et d'Eau du Gabon)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная естественная монополия по генерации электроэнергии (ГЭС Кингеле, Чибанга) и водоснабжению городов Габона (выручка ~$400 млн, 2,500 сотр.). https://www.seeg-gabon.com/",
+				"en": "SEEG (Société d'Énergie et d'Eau du Gabon) — a energy company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 37,
+				"debt": 243,
+				"money": 51,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 528
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Габон)",
+						"en": "The state (Gabon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Габон"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 711,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.4032,
+					"д": 9.4847,
+					"province": 575,
+					"staff": 213,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "setrag",
+			"название": {
+				"ru": "Setrag (Société d'Exploitation du Transgabonais)",
+				"en": "Setrag (Société d'Exploitation du Transgabonais)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Концессионный оператор Трансгабонской железной дороги (648 км магистрали от рудников Моанды до глубоководного терминала Овендо; дочерняя структура Comilog/Eramet; выручка ~$200 млн). https://www.setrag.ga/",
+				"en": "Setrag (Société d'Exploitation du Transgabonais) — a metals and mining company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 22,
+				"debt": 67,
+				"money": 24,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 240
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 577,
+			"wage": 804,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.3735,
+					"д": 9.4702,
+					"province": 575,
+					"staff": 173,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "olam_palm",
+			"название": {
+				"ru": "Olam Palm Gabon / GSEZ",
+				"en": "Olam Palm Gabon / GSEZ"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший агропромышленный комплекс в Экваториальной Африке (плантации масличной пальмы, заводы по производству пальмового масла) и особая экономическая зона Нкок (Nkok SEZ — переработка тропической древесины окуме). https://www.gsez.com/",
+				"en": "Olam Palm Gabon / GSEZ — a consumer and retail company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 14,
+				"debt": 42,
+				"money": 15,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 252
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 552,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.4172,
+					"д": 9.4785,
+					"province": 575,
+					"staff": 165,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_du",
+			"название": {
+				"ru": "Direction du Matériel du Génie et des Transmissions (DMGT)",
+				"en": "Direction du Matériel du Génie et des Transmissions (DMGT)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральная ремонтно-восстановительная база и мастерские Вооруженных сил Габона и Республиканской гвардии в Либревиле (регламентное техобслуживание колесной бронетехники ERC-90 Sagaie, Panhard VBL, БТР Arquus Bastion, грузовиков и легкого стрелкового оружия)",
+				"en": "Direction du Matériel du Génie et des Transmissions (DMGT) — a defence company of Gabon."
+			},
+			"fundamental": {
+				"выручка": 77,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 144
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Габон)",
+						"en": "The state (Gabon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Габон"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 231,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Либревил",
+						"en": "Libreville"
+					},
+					"ш": 0.3735,
+					"д": 9.4702,
+					"province": 575,
+					"staff": 69,
+					"fine": 1201
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

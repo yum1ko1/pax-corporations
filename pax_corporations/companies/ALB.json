@@ -1,0 +1,741 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Албания",
+	"iso": "ALB",
+	"data_date": "2026-03",
+	"average_wage": 750.0,
+	"companies": [
+		{
+			"id": "kesh",
+			"название": {
+				"ru": "KESH",
+				"en": "KESH"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1957,
+			"description": {
+				"ru": "ГЭС на Дрине — почти вся электроэнергия Албании.",
+				"en": "The Drin dams — almost all of Albania's power."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 45,
+				"debt": 450,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Албании",
+						"en": "The Albanian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виола Хаджиадеми",
+					"en": "Viola Haxhiademi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 1250,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.33,
+					"д": 19.82,
+					"province": 100,
+					"staff": 600,
+					"fine": 80
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Фиерза",
+						"en": "Fierza dam"
+					},
+					"ш": 42.25,
+					"д": 20.04,
+					"province": 100,
+					"staff": 600,
+					"fine": 72
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.kesh.al/ | Верифицировано 2025–2026: выручка ~420M, прибыль ~45M, CEO Viola Haxhiademi (назначена дек 2025)"
+		},
+		{
+			"id": "kastrati_group",
+			"название": {
+				"ru": "Kastrati Group",
+				"en": "Kastrati Group"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефтепродукты / Инфраструктура / Ритейл — крупнейший частный холдинг Албании (оптовая торговля топливом, концессия международного аэропорта Тираны, автодороги; выручка >$800 млн)",
+				"en": "Kastrati Group — a oil and gas company of Albania."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 48,
+				"debt": 225,
+				"money": 76,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 498
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 699,
+			"wage": 1342,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3,
+					"д": 19.797,
+					"province": 100,
+					"staff": 209,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "balfin_group",
+			"название": {
+				"ru": "Balfin Group",
+				"en": "Balfin Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Инвестиции / Ритейл / Недвижимость — крупнейшая инвестиционная группа Балкан (сеть Neptun, ТРЦ, девелопмент; выручка ~€760 млн / ~$800 млн)",
+				"en": "Balfin Group — a financial company of Albania."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 225,
+				"debt": 0,
+				"money": 0,
+				"dividends": 68
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1867
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2285,
+			"wage": 1232,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3605,
+					"д": 19.8569,
+					"province": 100,
+					"staff": 685,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bankers_petroleum",
+			"название": {
+				"ru": "Bankers Petroleum Albania",
+				"en": "Bankers Petroleum Albania"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Добыча нефти — крупнейший добытчик нефти в стране (разработка месторождения Patos-Marinza)",
+				"en": "Bankers Petroleum Albania — a oil and gas company of Albania."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 17,
+				"debt": 79,
+				"money": 27,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 174
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 244,
+			"wage": 1342,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3129,
+					"д": 19.8221,
+					"province": 100,
+					"staff": 73,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banka_komb",
+			"название": {
+				"ru": "Banka Kombëtare Tregtare (BKT)",
+				"en": "Banka Kombëtare Tregtare (BKT)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Банки и финансы — старейший и крупнейший коммерческий банк Албании по размеру активов и капитала",
+				"en": "Banka Kombëtare Tregtare (BKT) — a financial company of Albania."
+			},
+			"fundamental": {
+				"выручка": 214,
+				"profit": 60,
+				"debt": 0,
+				"money": 0,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 499
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 611,
+			"wage": 1232,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3075,
+					"д": 19.807,
+					"province": 100,
+					"staff": 183,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "oshee_group",
+			"название": {
+				"ru": "OSHEE Group",
+				"en": "OSHEE Group"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Энергетика / Дистрибуция — государственная группа компаний распределения и сбыта электроэнергии (выручка >$600 млн)",
+				"en": "OSHEE Group — a energy company of Albania."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 55,
+				"debt": 365,
+				"money": 77,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 791
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Албания)",
+						"en": "The state (Albania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1067,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.2977,
+					"д": 19.8274,
+					"province": 100,
+					"staff": 320,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kombinati_mekanik",
+			"название": {
+				"ru": "Kombinati Mekanik Poliçan (Poliçan Military Complex)",
+				"en": "Kombinati Mekanik Poliçan (Poliçan Military Complex)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "главный государственный военный завод по производству стрелковых боеприпасов, минометных мин и ручных гранат",
+				"en": "Kombinati Mekanik Poliçan (Poliçan Military Complex) — a defence company of Albania."
+			},
+			"fundamental": {
+				"выручка": 76,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 142
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Албания)",
+						"en": "The state (Albania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 228,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3408,
+					"д": 19.7866,
+					"province": 100,
+					"staff": 68,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uzina_mekanike",
+			"название": {
+				"ru": "Uzina Mekanike Gramsh (Gramsh Firearms Plant)",
+				"en": "Uzina Mekanike Gramsh (Gramsh Firearms Plant)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "государственный оружейный завод (производство и модернизация стрелкового оружия, автоматов серии AK и компонентов)",
+				"en": "Uzina Mekanike Gramsh (Gramsh Firearms Plant) — a defence company of Albania."
+			},
+			"fundamental": {
+				"выручка": 63,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Албания)",
+						"en": "The state (Albania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 189,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.3524,
+					"д": 19.7907,
+					"province": 100,
+					"staff": 56,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uzina_e",
+			"название": {
+				"ru": "Uzina e Lëndëve Plasëse Mjekës (Mjekës Explosives Plant)",
+				"en": "Uzina e Lëndëve Plasëse Mjekës (Mjekës Explosives Plant)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "военный химический завод по производству взрывчатых веществ, ракетных топлив и порохов",
+				"en": "Uzina e Lëndëve Plasëse Mjekës (Mjekës Explosives Plant) — a defence company of Albania."
+			},
+			"fundamental": {
+				"выручка": 52,
+				"profit": 3,
+				"debt": 13,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 98
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Албания)",
+						"en": "The state (Albania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 156,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.2927,
+					"д": 19.8145,
+					"province": 100,
+					"staff": 46,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kantieri_detar",
+			"название": {
+				"ru": "Kantieri Detar Pashaliman (Pashaliman Naval Shipyard)",
+				"en": "Kantieri Detar Pashaliman (Pashaliman Naval Shipyard)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "военный судоремонтный завод на базе ВМС Албании Пашалиман",
+				"en": "Kantieri Detar Pashaliman (Pashaliman Naval Shipyard) — a defence company of Albania."
+			},
+			"fundamental": {
+				"выручка": 42,
+				"profit": 3,
+				"debt": 11,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 79
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Албания)",
+						"en": "The state (Albania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Албания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 126,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тирана",
+						"en": "Tirana"
+					},
+					"ш": 41.34,
+					"д": 19.8143,
+					"province": 100,
+					"staff": 37,
+					"fine": 80
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

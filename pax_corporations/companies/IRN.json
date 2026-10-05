@@ -1,0 +1,1290 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Иран",
+	"iso": "IRN",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "nioc",
+			"название": {
+				"ru": "NIOC",
+				"en": "National Iranian Oil Company"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1948,
+			"description": {
+				"ru": "Нефть Ирана под санкциями — главный покупатель Китай.",
+				"en": "Iran's oil under sanctions — China is the main buyer."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 8000,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 6000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирана",
+						"en": "The Iranian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хамид Бовард",
+					"en": "Hamid Bovard"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 100000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7,
+					"д": 51.42,
+					"province": 913,
+					"staff": 10000,
+					"fine": 1808
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Хузестан",
+						"en": "Khuzestan"
+					},
+					"ш": 31.3,
+					"д": 48.7,
+					"province": 222,
+					"staff": 30000,
+					"fine": 1811
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Южный Парс (газ)",
+						"en": "South Pars (gas)"
+					},
+					"ш": 27.5,
+					"д": 52.6,
+					"province": 910,
+					"staff": 10000,
+					"fine": 1802
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://en.nioc.ir/ | Отчёты NIOC 2024–2025; https://en.nioc.ir/"
+		},
+		{
+			"id": "mobarakeh",
+			"название": {
+				"ru": "Mobarakeh Steel",
+				"en": "Mobarakeh Steel"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "смешанная",
+			"founded": 1971,
+			"description": {
+				"ru": "Крупнейший сталевар Ближнего Востока.",
+				"en": "The largest steelmaker of the Middle East."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 800,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды Ирана",
+						"en": "Iranian state funds"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Иран"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мохаммад Ясер Тайеби",
+					"en": "Mohammad Yaser Tayebnia"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 16000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исфахан",
+						"en": "Isfahan"
+					},
+					"ш": 32.35,
+					"д": 51.38,
+					"province": 908,
+					"staff": 16000,
+					"fine": 1803
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://msc.ir/ | Отчёты Mobarakeh Steel 2024–2025; https://msc.ir/"
+		},
+		{
+			"id": "bankmelli",
+			"название": {
+				"ru": "Bank Melli",
+				"en": "Bank Melli Iran"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1928,
+			"description": {
+				"ru": "Крупнейший банк Ирана, под санкциями.",
+				"en": "Iran's largest bank, under sanctions."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирана",
+						"en": "The Iranian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абулфазл Наджарзаде",
+					"en": "Abolfazl Najarzadeh"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 40000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.69,
+					"д": 51.42,
+					"province": 913,
+					"staff": 8000,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://bmi.ir/ | Отчёты Bank Melli Iran 2024–2025; https://bmi.ir/"
+		},
+		{
+			"id": "mci",
+			"название": {
+				"ru": "MCI (Hamrah-e Aval)",
+				"en": "MCI (Hamrah-e Aval)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейший мобильный оператор Ирана.",
+				"en": "Iran's largest mobile operator."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 400,
+				"debt": 300,
+				"money": 200,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Telecommunication Co. of Iran (КСИР)",
+						"en": "Telecommunication Co. of Iran (IRGC)"
+					},
+					"type": "polity",
+					"доля": 0.65,
+					"country": "Иран"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мехди Ахаван Бехабади",
+					"en": "Mehdi Akhavan Behabadi"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 6000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.75,
+					"д": 51.41,
+					"province": 913,
+					"staff": 4000,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://mci.ir/ | Отчёты MCI 2024–2025; https://mci.ir/"
+		},
+		{
+			"id": "irankhodro",
+			"название": {
+				"ru": "Iran Khodro",
+				"en": "Iran Khodro"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "смешанная",
+			"founded": 1962,
+			"description": {
+				"ru": "Крупнейший автопроизводитель Ирана.",
+				"en": "Iran's largest carmaker."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": -500,
+				"debt": 3000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды Ирана",
+						"en": "Iranian state funds"
+					},
+					"type": "polity",
+					"доля": 0.4,
+					"country": "Иран"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адель Пирмохаммади",
+					"en": "Adel Pirmohammadi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "автомобильный инженер",
+					"en": "автомобилист"
+				}
+			},
+			"staff": 50000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7,
+					"д": 51.25,
+					"province": 913,
+					"staff": 30000,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.ikco.ir/ | Отчёты Iran Khodro 2024–2025; https://www.ikco.ir/"
+		},
+		{
+			"id": "persian_gulf",
+			"название": {
+				"ru": "Persian Gulf Petrochemical Industries (PGPIC) / NPC",
+				"en": "Persian Gulf Petrochemical Industries (PGPIC) / NPC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший нефтехимический холдинг Ирана и второй на Ближнем Востоке (объединяет заводы полимеров, метанола, этилена и аммиака в Ассалуйе и Бендер-Имаме; выручка свыше $12 млрд, капитализация ~$18 млрд). https://pgpic.ir/",
+				"en": "Persian Gulf Petrochemical Industries (PGPIC) / NPC — a oil and gas company of Iran."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 715,
+				"debt": 3381,
+				"money": 1140,
+				"dividends": 214
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10493,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7108,
+					"д": 51.4336,
+					"province": 913,
+					"staff": 3147,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_iranian",
+			"название": {
+				"ru": "National Iranian Gas Company (NIGC)",
+				"en": "National Iranian Gas Company (NIGC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монополист по добыче, подготовке, очистке и трубопроводному транзиту природного газа (эксплуатация гигантского шельфового месторождения Южный Парс и магистральных газопроводов IGAT; выручка свыше $15 млрд). https://www.nigc.ir/",
+				"en": "National Iranian Gas Company (NIGC) — a oil and gas company of Iran."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 893,
+				"debt": 4226,
+				"money": 1425,
+				"dividends": 268
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9330
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13116,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6808,
+					"д": 51.4236,
+					"province": 913,
+					"staff": 3934,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_iranian_2",
+			"название": {
+				"ru": "National Iranian Copper Industries (NICICO)",
+				"en": "National Iranian Copper Industries (NICICO)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель рафинированной меди и концентрата на Ближнем Востоке (карьеры-гиганты Сарчешме и Сунгун; капитализация ~$8 млрд, выручка ~$3.0 млрд). https://nicico.com/",
+				"en": "National Iranian Copper Industries (NICICO) — a metals and mining company of Iran."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 333,
+				"debt": 1000,
+				"money": 360,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8666,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7134,
+					"д": 51.4098,
+					"province": 913,
+					"staff": 2599,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "saipa_group",
+			"название": {
+				"ru": "SAIPA Group",
+				"en": "SAIPA Group"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине автоконцерн Ирана (выпуск свыше 400,000 легковых автомобилей Shahin, Saina, Quick и коммерческих грузовиков Zamyad в год; выручка ~$3.5 млрд, 40,000 сотр.). https://www.saipacorp.com/",
+				"en": "SAIPA Group — a automotive company of Iran."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 190,
+				"debt": 1050,
+				"money": 446,
+				"dividends": 57
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1944
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6057,
+			"wage": 286,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6873,
+					"д": 51.4468,
+					"province": 913,
+					"staff": 1817,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "khouzestan_steel",
+			"название": {
+				"ru": "Khouzestan Steel (KSC) & Esfahan Steel (ESCO)",
+				"en": "Khouzestan Steel (KSC) & Esfahan Steel (ESCO)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие металлургические комбинаты Ирана (KSC — крупнейший экспортер стальных слябов и заготовки, ESCO — исторический гигант полного цикла с коксохимическим и доменным производством; суммарная выручка ~$4.0 млрд). https://www.ksc.ir/ | https://www.esfahansteel.ir/",
+				"en": "Khouzestan Steel (KSC) & Esfahan Steel (ESCO) — a metals and mining company of Iran."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 444,
+				"debt": 1333,
+				"money": 480,
+				"dividends": 133
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11555,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6826,
+					"д": 51.3959,
+					"province": 913,
+					"staff": 3466,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_pasargad",
+			"название": {
+				"ru": "Bank Pasargad & Bank Mellat",
+				"en": "Bank Pasargad & Bank Mellat"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие коммерческие публичные банки Ирана по величине активов и кредитного портфеля на Тегеранской бирже (активы каждого превышают $20 млрд в эквиваленте). https://www.bpi.ir/ | https://www.bankmellat.ir/",
+				"en": "Bank Pasargad & Bank Mellat — a financial company of Iran."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 443,
+				"debt": 0,
+				"money": 0,
+				"dividends": 133
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3675
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7005,
+					"д": 51.4364,
+					"province": 913,
+					"staff": 1350,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mapna_group",
+			"название": {
+				"ru": "Mapna Group",
+				"en": "Mapna Group"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший энергетический и машиностроительный холдинг Ирана (производство мощных газовых и паровых турбин, генераторов, строительство ТЭС и ВИЭ «под ключ», выпуск магистральных локомотивов; выручка ~$3.5 млрд, 20,000 сотр.). https://mapnagroup.com/",
+				"en": "Mapna Group — a energy company of Iran."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 324,
+				"debt": 2127,
+				"money": 448,
+				"dividends": 97
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4616
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6226,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6934,
+					"д": 51.3879,
+					"province": 913,
+					"staff": 1867,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "iran_air",
+			"название": {
+				"ru": "Iran Air (Homa)",
+				"en": "Iran Air (Homa)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная флагманская авиакомпания Ирана (базовые хабы — Мехрабад и международный аэропорт Имама Хомейни в Тегеране). https://www.iranair.com/",
+				"en": "Iran Air (Homa) — a transport company of Iran."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 93,
+				"debt": 707,
+				"money": 290,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6838,
+					"д": 51.4034,
+					"province": 913,
+					"staff": 1050,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defense_industries",
+			"название": {
+				"ru": "Defense Industries Organization (DIO / Sasad)",
+				"en": "Defense Industries Organization (DIO / Sasad)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный промышленный холдинг сухопутного вооружения Министерства обороны Ирана (MODAFL)",
+				"en": "Defense Industries Organization (DIO / Sasad) — a defence company of Iran."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7135,
+					"д": 51.4315,
+					"province": 913,
+					"staff": 540,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aerospace_industries",
+			"название": {
+				"ru": "Aerospace Industries Organization (AIO / Sanam)",
+				"en": "Aerospace Industries Organization (AIO / Sanam)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стратегический центр ракетного вооружения MODAFL",
+				"en": "Aerospace Industries Organization (AIO / Sanam) — a defence company of Iran."
+			},
+			"fundamental": {
+				"выручка": 562,
+				"profit": 37,
+				"debt": 145,
+				"money": 86,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1054
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1686,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.7235,
+					"д": 51.4272,
+					"province": 913,
+					"staff": 505,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "marine_industries",
+			"название": {
+				"ru": "Marine Industries Organization (MIO / Shahid Darvishi / Shahid Jolaei)",
+				"en": "Marine Industries Organization (MIO / Shahid Darvishi / Shahid Jolaei)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военное кораблестроение ВМС Ирана и КСИР",
+				"en": "Marine Industries Organization (MIO / Shahid Darvishi / Shahid Jolaei) — a defence company of Iran."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 35,
+				"debt": 135,
+				"money": 81,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 984
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1575,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6874,
+					"д": 51.4339,
+					"province": 913,
+					"staff": 472,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "iran_electronics",
+			"название": {
+				"ru": "Iran Electronics Industries (IEI / SAIRAN)",
+				"en": "Iran Electronics Industries (IEI / SAIRAN)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный концерн оборонной радиоэлектроники",
+				"en": "Iran Electronics Industries (IEI / SAIRAN) — a defence company of Iran."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 35,
+				"debt": 135,
+				"money": 81,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 984
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иран)",
+						"en": "The state (Iran)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иран"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1575,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тегеран",
+						"en": "Tehran"
+					},
+					"ш": 35.6693,
+					"д": 51.4106,
+					"province": 913,
+					"staff": 472,
+					"fine": 1808
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

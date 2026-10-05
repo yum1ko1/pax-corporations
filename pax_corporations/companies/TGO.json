@@ -1,0 +1,1174 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Того",
+	"iso": "TGO",
+	"data_date": "2026-03",
+	"average_wage": 150,
+	"companies": [
+		{
+			"id": "ecobank",
+			"название": {
+				"ru": "Ecobank Transnational",
+				"en": "Ecobank Transnational"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1985,
+			"description": {
+				"ru": "Банк из Ломе, работающий в 33 странах Африки.",
+				"en": "A bank from Lomé working in 33 African countries."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 24600,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Nedbank",
+						"en": "Nedbank"
+					},
+					"type": "company",
+					"доля": 0.21,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "QNB",
+						"en": "QNB"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Катар",
+					"company": "qnb"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.59
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джереми Авори",
+					"en": "Jeremy Awori"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "кениец",
+					"en": "кениец"
+				}
+			},
+			"staff": 14000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.13,
+					"д": 1.22,
+					"province": 285,
+					"staff": 2000,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://ecobank.com/group/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "port_autonome_7",
+			"название": {
+				"ru": "Port Autonome de Lomé (PAL)",
+				"en": "Port Autonome de Lomé (PAL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — единственный глубоководный порт естественного заложения на побережье Западной Африки (глубина 16.6 м, главный транзитный хаб для Мали, Буркина-Фасо и Нигера). [Выручка: 220 млн $ (145 000 млн XOF), Чистая прибыль: 55 млн $, Штат: 1 500 чел., Руководитель: Контр-адмирал Фогана Аджо Адегнон (Fogan Adegnon), генеральный директор, 1958 г.р.]. Официальные источники: https://www.togo-port.net/, h",
+				"en": "Port Autonome de Lomé (PAL) — a transport company of Togo."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 47,
+				"debt": 354,
+				"money": 145,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1750,
+			"wage": 245,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1358,
+					"д": 1.2163,
+					"province": 285,
+					"staff": 525,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lom_container",
+			"название": {
+				"ru": "Lomé Container Terminal (LCT / Terminal Investment Limited - MSC)",
+				"en": "Lomé Container Terminal (LCT / Terminal Investment Limited - MSC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — крупнейший контейнерный терминал в Гвинейском заливе мощностью перевалки свыше 2.2 млн TEU в год. [Выручка: 180 млн $, Чистая прибыль: 45 млн $, Штат: 850 чел., Руководитель: Грегори Клевин (Gregory Kiezik), генеральный директор, 1972 г.р.]. Официальные источники: https://www.lct-togo.com/, https://www.lct-togo.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Lomé Container Terminal (LCT / Terminal Investment Limited - MSC) — a consumer and retail company of Togo."
+			},
+			"fundamental": {
+				"выручка": 472,
+				"profit": 37,
+				"debt": 109,
+				"money": 39,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 647
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1416,
+			"wage": 167,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.149,
+					"д": 1.2554,
+					"province": 285,
+					"staff": 424,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "asky_airlines",
+			"название": {
+				"ru": "ASKY Airlines",
+				"en": "ASKY Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Ломе — ведущая панафриканская частная авиакомпания со штаб-квартирой и хабом в Ломе (маршрутная сеть охватывает 26 стран Центральной и Западной Африки, стратегический партнер Ethiopian Airlines). [Выручка: 280 млн $, Чистая прибыль: 25 млн $, Штат: 700 чел., Руководитель: Эшету Береке (Esayas Woldemariam Hailu), генеральный директор с 2022 года, 1968 г.р.]. Официальные источники: https://www.flyas",
+				"en": "ASKY Airlines — a transport company of Togo."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 16,
+				"debt": 124,
+				"money": 51,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 175
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 612,
+			"wage": 245,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1549,
+					"д": 1.226,
+					"province": 285,
+					"staff": 183,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ceet",
+			"название": {
+				"ru": "CEET (Compagnie Energie Electrique du Togo)",
+				"en": "CEET (Compagnie Energie Electrique du Togo)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Ломе — национальная государственная электроэнергетическая распределительная компания Того. [Выручка: 240 млн $ (160 000 млн XOF), Чистая прибыль: 15 млн $, Штат: 1 800 чел., Руководитель: Дебо-Кваба Кокуми (Débo-K'Mba Kokoumi), генеральный директор с 2023 года, 1974 г.р.]. Официальные источники: https://www.ceet.tg/, https://www.ceet.tg/investors (Годовой отчет / Раскрытие информации)",
+				"en": "CEET (Compagnie Energie Electrique du Togo) — a energy company of Togo."
+			},
+			"fundamental": {
+				"выручка": 205,
+				"profit": 19,
+				"debt": 125,
+				"money": 26,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 270
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 364,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1344,
+					"д": 1.1922,
+					"province": 285,
+					"staff": 109,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "togocom",
+			"название": {
+				"ru": "TogoCom (Togo Telecom / Togocel)",
+				"en": "TogoCom (Togo Telecom / Togocel)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Ломе — национальный оператор фиксированной, мобильной связи и финтех-сервисов T-Money (в составе холдинга Axian Telecom). [Выручка: 210 млн $, Чистая прибыль: 30 млн $, Штат: 1 200 чел., Руководитель: Пьер-Антуан Леганье (Pierre-Antoine Legagneur), с 2023 года, 1975 г.р.]. Официальные источники: https://www.togocom.tg/, https://www.togocom.tg/investors (Годовой отчет / Раскрытие информации)",
+				"en": "TogoCom (Togo Telecom / Togocel) — a IT and telecom company of Togo."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 21,
+				"debt": 52,
+				"money": 28,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 312
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 437,
+			"wage": 269,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1095,
+					"д": 1.2242,
+					"province": 285,
+					"staff": 131,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "snpt",
+			"название": {
+				"ru": "SNPT (Société Nouvelle des Phosphates du Togo)",
+				"en": "SNPT (Société Nouvelle des Phosphates du Togo)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Кпеме / Ломе — государственная корпорация по добыче и экспорту фосфоритов (месторождение Хахотоэ-Кпеме), один из крупнейших источников валютной выручки страны. [Выручка: 190 млн $, Чистая прибыль: 35 млн $, Штат: 1 600 чел., Руководитель: Мишель Кези (Michel Kézié), генеральный директор, 1971 г.р.]. Официальные источники: https://snpt.tg/, https://snpt.tg/investors (Годовой отчет / Раскрытие инфор",
+				"en": "SNPT (Société Nouvelle des Phosphates du Togo) — a metals and mining company of Togo."
+			},
+			"fundamental": {
+				"выручка": 125,
+				"profit": 14,
+				"debt": 42,
+				"money": 15,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 361,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1222,
+					"д": 1.2208,
+					"province": 285,
+					"staff": 108,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "oragroup",
+			"название": {
+				"ru": "Oragroup (Orabank)",
+				"en": "Oragroup (Orabank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Ломе — панафриканская банковская группа со штаб-квартирой в Ломе, представленная в 12 странах Западной и Центральной Африки. [Выручка: 350 млн $ (230 000 млн XOF), Чистая прибыль: 40 млн $, Штат: 2 100 чел., Руководитель: Фердинанд Нгонь Кеме (Ferdinand Ngon Kemoum), с 2019 года, 1966 г.р.]. Официальные источники: https://www.orabank.net/, https://www.orabank.net/investors (Годовой отчет / Раскрыт",
+				"en": "Oragroup (Orabank) — a financial company of Togo."
+			},
+			"fundamental": {
+				"выручка": 86,
+				"profit": 24,
+				"debt": 0,
+				"money": 0,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 201
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 245,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1646,
+					"д": 1.2446,
+					"province": 285,
+					"staff": 73,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cimtogo",
+			"название": {
+				"ru": "CimTogo (Ciments du Togo / Heidelberg Materials)",
+				"en": "CimTogo (Ciments du Togo / Heidelberg Materials)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — ведущий национальный производитель высокомарочного цемента в Того. [Выручка: 130 млн $, Чистая прибыль: 18 млн $, Штат: 400 чел., Руководитель: Эрик Готье (Éric Gauthier), генеральный директор, 1969 г.р.]. Официальные источники: https://www.heidelbergmaterials.com/, https://www.heidelbergmaterials.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "CimTogo (Ciments du Togo / Heidelberg Materials) — a construction company of Togo."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 7,
+				"debt": 31,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 248,
+			"wage": 192,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.089,
+					"д": 1.2042,
+					"province": 285,
+					"staff": 74,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "coris_bank",
+			"название": {
+				"ru": "Coris Bank International Togo",
+				"en": "Coris Bank International Togo"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — один из наиболее динамично развивающихся коммерческих банков Того, лидер в кредитовании малого и среднего бизнеса. [Выручка: 75 млн $, Чистая прибыль: 18 млн $, Штат: 350 чел., Руководитель: Алассан Каборе (Alassane Kaboré), управляющий директор, 1976 г.р.]. Официальные источники: https://togo.coris-bank.com/, https://togo.coris-bank.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Coris Bank International Togo — a financial company of Togo."
+			},
+			"fundamental": {
+				"выручка": 72,
+				"profit": 20,
+				"debt": 0,
+				"money": 0,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 168
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 205,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1242,
+					"д": 1.232,
+					"province": 285,
+					"staff": 61,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "togolese_foundation",
+			"название": {
+				"ru": "Togolese Foundation for Agribusiness / Nouvelle Minoterie du Togo (NMT)",
+				"en": "Togolese Foundation for Agribusiness / Nouvelle Minoterie du Togo (NMT)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — крупнейший мукомольный и пищеперерабатывающий комбинат Того. [Выручка: 90 млн $, Чистая прибыль: 8 млн $, Штат: 450 чел., Руководитель: Коффи Амузу (Koffi Amuzou), генеральный директор, 1973 г.р.]. Официальные источники: https://www.nmt.tg/, https://www.nmt.tg/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Togolese Foundation for Agribusiness / Nouvelle Minoterie du Togo (NMT) — a consumer and retail company of Togo."
+			},
+			"fundamental": {
+				"выручка": 65,
+				"profit": 5,
+				"debt": 15,
+				"money": 5,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 89
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 195,
+			"wage": 167,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.0956,
+					"д": 1.183,
+					"province": 285,
+					"staff": 58,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ateliers_centraux",
+			"название": {
+				"ru": "Ateliers Centraux du Matériel des FAT",
+				"en": "Ateliers Centraux du Matériel des FAT"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лагерь генерала Гнасингбе Эйадемы, Ломе — центральная база технического обслуживания Вооруженных сил Того (FAT): восстановление и капитальный ремонт колесной бронетехники (Mamba Mk7 MRAP, Bastion APC, разведывательных броневиков AML-90, EE-9 Cascavel) и армейских грузовиков для антитеррористических операций на севере страны (операция Koundjouaré). (Ремонт бронетранспортеров, бронеавтомобилей MRAP,",
+				"en": "Ateliers Centraux du Matériel des FAT — a defence company of Togo."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1084,
+					"д": 1.2433,
+					"province": 285,
+					"staff": 22,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_navale_5",
+			"название": {
+				"ru": "Base Navale de Lomé & Ateliers Maritimes",
+				"en": "Base Navale de Lomé & Ateliers Maritimes"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская база Ломе — главная база ВМС Того: обеспечение базирования и ремонт патрульных катеров открытого моря Ocea FPB 98 (Agou, Oti) и патрульных катеров Defiant 85, охраняющих рейдовые стоянки судов и нефтяные танкеры в Гвинейском заливе. (Береговые радары наблюдения за судоходством, докование патрульных катеров, борьба с морским пиратством.) [Выручка: 20 млн $, Чистая прибыль: 1 млн $, Ш",
+				"en": "Base Navale de Lomé & Ateliers Maritimes — a defence company of Togo."
+			},
+			"fundamental": {
+				"выручка": 22,
+				"profit": 1,
+				"debt": 6,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 41
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 66,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1213,
+					"д": 1.2167,
+					"province": 285,
+					"staff": 19,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_10",
+			"название": {
+				"ru": "Base Aérienne de Niamtougou & Base Aérienne de Lomé",
+				"en": "Base Aérienne de Niamtougou & Base Aérienne de Lomé"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиабаза Ньямтугу / Авиабаза Ломе — оперативные базы ВВС Того: базирование и обслуживание ударных беспилотных комплексов Bayraktar TB2, легких штурмовиков Dassault/Dornier Alpha Jet и боевых вертолетов Ми-35М и Ми-17. (Эксплуатация ударных дронов TB2, обслуживание штурмовиков Alpha Jet, противопартизанская разведка.) [Выручка: 30 млн $, Чистая прибыль: 2 млн $, Штат: 450 чел.]. Официальные источни",
+				"en": "Base Aérienne de Niamtougou & Base Aérienne de Lomé — a defence company of Togo."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1219,
+					"д": 1.2355,
+					"province": 285,
+					"staff": 18,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_des_5",
+			"название": {
+				"ru": "Direction des Télécommunications et Informatique des FAT (DTI)",
+				"en": "Direction des Télécommunications et Informatique des FAT (DTI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — армейский технический департамент военной связи: развертывание защищенной тактической связи, радиоэлектронного контроля границ в Сахельском регионе и комплексов нейтрализации дронов (C-UAS). (Военная цифровая радиосвязь, защита блокпостов от дронов-камикадзе, тактическая координация.) [Выручка: 15 млн $, Чистая прибыль: 1 млн $, Штат: 250 чел.]. Официальные источники: https://defense.gouv.t",
+				"en": "Direction des Télécommunications et Informatique des FAT (DTI) — a defence company of Togo."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Того)",
+						"en": "The state (Togo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Того"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.0939,
+					"д": 1.1934,
+					"province": 285,
+					"staff": 18,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_12",
+			"название": {
+				"ru": "Société Togolaise de Gardiennage et de Sécurité (STGS Defence)",
+				"en": "Société Togolaise de Gardiennage et de Sécurité (STGS Defence)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ломе — ведущая частная военизированная корпорация безопасности и сопровождения грузов в порту Ломе и зонах добычи фосфатов (бронированные машины сопровождения, системы охранного видеонаблюдения). (Бронированная инкассация, охрана портовой инфраструктуры, антитеррористический мониторинг.) [Выручка: 18 млн $, Чистая прибыль: 2 млн $, Штат: 2 500 чел., Руководитель: Жан-Пьер Коку (Jean-Pierre Kokou),",
+				"en": "Société Togolaise de Gardiennage et de Sécurité (STGS Defence) — a defence company of Togo."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ломе",
+						"en": "Lomé"
+					},
+					"ш": 6.1564,
+					"д": 1.194,
+					"province": 285,
+					"staff": 18,
+					"fine": 3914
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

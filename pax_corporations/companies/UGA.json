@@ -1,0 +1,1250 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Уганда",
+	"iso": "UGA",
+	"data_date": "2026-03",
+	"average_wage": 120,
+	"companies": [
+		{
+			"id": "mtnuganda",
+			"название": {
+				"ru": "MTN Uganda",
+				"en": "MTN Uganda"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший оператор Уганды.",
+				"en": "Uganda's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 150,
+				"debt": 100,
+				"money": 50,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 22400,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "MTN Group",
+						"en": "MTN Group"
+					},
+					"type": "company",
+					"доля": 0.76,
+					"country": "ЮАР",
+					"company": "mtn"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.24
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сильвия Мулинге",
+					"en": "Sylvia Mulinge"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "кенийка",
+					"en": "кенийка"
+				}
+			},
+			"staff": 1300,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.33,
+					"д": 32.58,
+					"province": 781,
+					"staff": 1300,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mtn.co.ug/"
+		},
+		{
+			"id": "stanbicug",
+			"название": {
+				"ru": "Stanbic Uganda",
+				"en": "Stanbic Uganda"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1906,
+			"description": {
+				"ru": "Крупнейший банк Уганды, дочка Standard Bank.",
+				"en": "Uganda's largest bank, a Standard Bank subsidiary."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 51000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Standard Bank",
+						"en": "Standard Bank"
+					},
+					"type": "company",
+					"доля": 0.8,
+					"country": "ЮАР",
+					"company": "standardbank"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.2
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мумба Калифунгва",
+					"en": "Mumba Kalifungwa"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 2000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.32,
+					"д": 32.58,
+					"province": 781,
+					"staff": 1500,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.stanbicbank.co.ug/"
+		},
+		{
+			"id": "uganda_national",
+			"название": {
+				"ru": "Uganda National Oil Company (UNOC)",
+				"en": "Uganda National Oil Company (UNOC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтегазовая компания, участник нефтепровода EACOP и проектов озера Альберт",
+				"en": "Uganda National Oil Company (UNOC) — a oil and gas company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 20,
+				"debt": 400,
+				"money": 80,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Proscovia Nabbanja",
+					"en": "Proscovia Nabbanja"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3522,
+					"д": 32.5723,
+					"province": 781,
+					"staff": 105,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.unoc.co.ug/"
+		},
+		{
+			"id": "umeme_limited",
+			"название": {
+				"ru": "Umeme Limited",
+				"en": "Umeme Limited"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Основная электрораспределительная компания Уганды, обслуживающая более 1.7 млн абонентов",
+				"en": "Umeme Limited — a energy company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 40,
+				"debt": 180,
+				"money": 45,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Celestino Babungi",
+					"en": "Celestino Babungi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3496,
+					"д": 32.5809,
+					"province": 781,
+					"staff": 540,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.umeme.co.ug/"
+		},
+		{
+			"id": "uganda_electricity",
+			"название": {
+				"ru": "Uganda Electricity Generation Company (UEGCL)",
+				"en": "Uganda Electricity Generation Company (UEGCL)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оператор гидроэлектростанций Карума (600 МВт) и Исимба (183 МВт)",
+				"en": "Uganda Electricity Generation Company (UEGCL) — a energy company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 25,
+				"debt": 1200,
+				"money": 60,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Harrison Mutikanga",
+					"en": "Harrison Mutikanga"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 650,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3364,
+					"д": 32.5524,
+					"province": 781,
+					"staff": 195,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://uegcl.com/"
+		},
+		{
+			"id": "airtel_uganda",
+			"название": {
+				"ru": "Airtel Uganda",
+				"en": "Airtel Uganda"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине оператор мобильной связи и мобильного банкинга Airtel Money в Уганде",
+				"en": "Airtel Uganda — a IT and telecom company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 85,
+				"debt": 80,
+				"money": 50,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 750
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Manoj Murali",
+					"en": "Manoj Murali"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3326,
+					"д": 32.5792,
+					"province": 781,
+					"staff": 270,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.airtel.co.ug/"
+		},
+		{
+			"id": "centenary_rural",
+			"название": {
+				"ru": "Centenary Rural Development Bank",
+				"en": "Centenary Rural Development Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий коммерческий банк для сельского хозяйства и микрофинансирования",
+				"en": "Centenary Rural Development Bank — a financial company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 70,
+				"debt": 0,
+				"money": 0,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Fabian Kasi",
+					"en": "Fabian Kasi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3200,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3117,
+					"д": 32.602,
+					"province": 781,
+					"staff": 960,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://centenarybank.co.ug/"
+		},
+		{
+			"id": "uganda_airlines",
+			"название": {
+				"ru": "Uganda Airlines",
+				"en": "Uganda Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная государственная авиакомпания с флотом Airbus A330-800neo и CRJ-900",
+				"en": "Uganda Airlines — a transport company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": -35,
+				"debt": 150,
+				"money": 25,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jenifer Bamuturaki",
+					"en": "Jenifer Bamuturaki"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3368,
+					"д": 32.5637,
+					"province": 781,
+					"staff": 180,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://ugandairlines.com/"
+		},
+		{
+			"id": "madhvani_group",
+			"название": {
+				"ru": "Madhvani Group (Kakira Sugar)",
+				"en": "Madhvani Group (Kakira Sugar)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший и крупнейший промышленно-аграрный конгломерат Уганды (сахар, этанол, электроэнергия, отели)",
+				"en": "Madhvani Group (Kakira Sugar) — a energy company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 40,
+				"debt": 120,
+				"money": 40,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mayur Madhvani",
+					"en": "Mayur Madhvani"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Kakira"
+					},
+					"ш": 0.473,
+					"д": 33.2501,
+					"province": 781,
+					"staff": 3600,
+					"fine": 4196
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.madhvani.net/"
+		},
+		{
+			"id": "mukwano_group",
+			"название": {
+				"ru": "Mukwano Group of Companies",
+				"en": "Mukwano Group of Companies"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Диверсифицированная индустриальная группа: производство мыла, растительных масел, напитков и упаковки",
+				"en": "Mukwano Group of Companies — a consumer and retail company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 30,
+				"debt": 90,
+				"money": 35,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Alykhan Karmali",
+					"en": "Alykhan Karmali"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7000,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3105,
+					"д": 32.5866,
+					"province": 781,
+					"staff": 2100,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://mukwano.com/"
+		},
+		{
+			"id": "tororo_cement",
+			"название": {
+				"ru": "Tororo Cement Limited",
+				"en": "Tororo Cement Limited"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий производитель цемента, извести и строительных смесей в Уганде",
+				"en": "Tororo Cement Limited — a construction company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 210,
+				"profit": 30,
+				"debt": 40,
+				"money": 30,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brij Mohan Gagrani",
+					"en": "Brij Mohan Gagrani"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1100,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тороро",
+						"en": "Tororo"
+					},
+					"ш": 0.6879,
+					"д": 34.2072,
+					"province": 781,
+					"staff": 330,
+					"fine": 4247
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tororocement.com/"
+		},
+		{
+			"id": "bank_of_4",
+			"название": {
+				"ru": "Bank of Baroda Uganda",
+				"en": "Bank of Baroda Uganda"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокорентабельный коммерческий банк, дочерняя структура индийского государственного Bank of Baroda",
+				"en": "Bank of Baroda Uganda — a financial company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 35,
+				"debt": 0,
+				"money": 0,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Shashi Dhar",
+					"en": "Shashi Dhar"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3364,
+					"д": 32.5983,
+					"province": 781,
+					"staff": 150,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.bankofbaroda.ug/"
+		},
+		{
+			"id": "luwero_industries",
+			"название": {
+				"ru": "Luwero Industries Limited (NEC Nakasongola)",
+				"en": "Luwero Industries Limited (NEC Nakasongola)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оборонный завод: сборка бронеавтомобилей Chui MRAP, бронемашин Mamba, производство патронов и взрывчатки",
+				"en": "Luwero Industries Limited (NEC Nakasongola) — a defence company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 4,
+				"debt": 15,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Major General Sabiiti Muzeyi",
+					"en": "Major General Sabiiti Muzeyi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Luwero"
+					},
+					"ш": 0.8675,
+					"д": 32.4495,
+					"province": 781,
+					"staff": 255,
+					"fine": 4222
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.nec.go.tz/"
+		},
+		{
+			"id": "national_enterprise",
+			"название": {
+				"ru": "National Enterprise Corporation (NEC Defence Services)",
+				"en": "National Enterprise Corporation (NEC Defence Services)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Коммерческое и производственное крыло Сил народной обороны Уганды (UPDF), занимающееся логистикой, фортификацией и медоборудованием",
+				"en": "National Enterprise Corporation (NEC Defence Services) — a defence company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 6,
+				"debt": 20,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 90
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lieutenant General James Mugira",
+					"en": "Lieutenant General James Mugira"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3026,
+					"д": 32.5778,
+					"province": 781,
+					"staff": 360,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.nec.go.tz/"
+		},
+		{
+			"id": "updf_air",
+			"название": {
+				"ru": "UPDF Air Force Engineering Base (Entebbe)",
+				"en": "UPDF Air Force Engineering Base (Entebbe)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Регламентный центр сервисного обслуживания многоцелевых истребителей Су-30МК2 и ударных вертолетов Ми-24",
+				"en": "UPDF Air Force Engineering Base (Entebbe) — a defence company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 8,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General David Gonyi",
+					"en": "Brigadier General David Gonyi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ентеббе",
+						"en": "Entebbe"
+					},
+					"ш": 0.0733,
+					"д": 32.5113,
+					"province": 781,
+					"staff": 135,
+					"fine": 4221
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defence.go.ug/"
+		},
+		{
+			"id": "uganda_marine",
+			"название": {
+				"ru": "Uganda Marine Police & Naval Depot (Port Bell)",
+				"en": "Uganda Marine Police & Naval Depot (Port Bell)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "База обслуживания и ремонта патрульных и перехватывающих катеров на озере Виктория",
+				"en": "Uganda Marine Police & Naval Depot (Port Bell) — a defence company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 4,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Engineer Commander Bernard Rubahamya",
+					"en": "Engineer Commander Bernard Rubahamya"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3275,
+					"д": 32.5694,
+					"province": 781,
+					"staff": 90,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.upf.go.ug/"
+		},
+		{
+			"id": "kyampisi_communications",
+			"название": {
+				"ru": "Kyampisi Communications & Electronics Depot",
+				"en": "Kyampisi Communications & Electronics Depot"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Техническое подразделение по сервисному обслуживанию систем тактической военной радиосвязи, РЭБ и радаров",
+				"en": "Kyampisi Communications & Electronics Depot — a defence company of Uganda."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 3,
+				"money": 2,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уганда)",
+						"en": "The state (Uganda)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уганда"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Godfrey Kigozi",
+					"en": "Colonel Godfrey Kigozi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 250,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампала",
+						"en": "Kampala"
+					},
+					"ш": 0.3499,
+					"д": 32.5821,
+					"province": 781,
+					"staff": 75,
+					"fine": 4218
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defence.go.ug/"
+		}
+	]
+}

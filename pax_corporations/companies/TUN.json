@@ -1,0 +1,1253 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Тунис",
+	"iso": "TUN",
+	"data_date": "2026-03",
+	"average_wage": 350,
+	"companies": [
+		{
+			"id": "biat",
+			"название": {
+				"ru": "BIAT",
+				"en": "BIAT"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1976,
+			"description": {
+				"ru": "Крупнейший частный банк Туниса.",
+				"en": "Tunisia's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 150,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 40,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мабрук и акционеры",
+						"en": "The Mabrouk family and shareholders"
+					},
+					"type": "founder",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эльес Бен Райана",
+					"en": "Elyes Ben Rayana"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 2300,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8,
+					"д": 10.18,
+					"province": 428,
+					"staff": 1500,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.biat.com.tn/"
+		},
+		{
+			"id": "gct",
+			"название": {
+				"ru": "Groupe Chimique Tunisien",
+				"en": "Groupe Chimique Tunisien"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "государственная",
+			"founded": 1947,
+			"description": {
+				"ru": "Фосфаты и удобрения Габеса.",
+				"en": "Phosphates and fertilisers of Gabès."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": -100,
+				"debt": 1500,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Туниса",
+						"en": "The Tunisian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдельваххаб Аджруд",
+					"en": "Abdelwaheb Ajroud"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 9000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.81,
+					"д": 10.17,
+					"province": 428,
+					"staff": 500,
+					"fine": 4046
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Габес",
+						"en": "Gabès"
+					},
+					"ш": 33.88,
+					"д": 10.1,
+					"province": 93,
+					"staff": 4000,
+					"fine": 4049
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "http://www.gct.com.tn/"
+		},
+		{
+			"id": "entreprise_tunisienne",
+			"название": {
+				"ru": "Entreprise Tunisienne d'Activités Pétrolières (ETAP)",
+				"en": "Entreprise Tunisienne d'Activités Pétrolières (ETAP)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная компания по разведке, добыче и разделу продукции углеводородов",
+				"en": "Entreprise Tunisienne d'Activités Pétrolières (ETAP) — a metals and mining company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 850,
+				"profit": 70,
+				"debt": 600,
+				"money": 120,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Abdelwahab Khammassi",
+					"en": "Abdelwahab Khammassi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1100,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.7887,
+					"д": 10.1698,
+					"province": 428,
+					"staff": 330,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.etap.com.tn/"
+		},
+		{
+			"id": "soci_t_10",
+			"название": {
+				"ru": "Société Tunisienne de l'Electricité et du Gaz (STEG)",
+				"en": "Société Tunisienne de l'Electricité et du Gaz (STEG)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный монопольный оператор генерации электроэнергии и распределения газа",
+				"en": "Société Tunisienne de l'Electricité et du Gaz (STEG) — a energy company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": -150,
+				"debt": 2800,
+				"money": 150,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Fayçal Trifa",
+					"en": "Fayçal Trifa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13500,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8352,
+					"д": 10.1919,
+					"province": 428,
+					"staff": 4050,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.steg.com.tn/"
+		},
+		{
+			"id": "banque_nationale_2",
+			"название": {
+				"ru": "Banque Nationale Agricole (BNA)",
+				"en": "Banque Nationale Agricole (BNA)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупный государственный банк Туниса, лидер по кредитованию сельскохозяйственного сектора",
+				"en": "Banque Nationale Agricole (BNA) — a financial company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 60,
+				"debt": 0,
+				"money": 0,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ahmed Ben Moulehem",
+					"en": "Ahmed Ben Moulehem"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3100,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8335,
+					"д": 10.1776,
+					"province": 428,
+					"staff": 930,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.bna.tn/"
+		},
+		{
+			"id": "tunisie_telecom",
+			"название": {
+				"ru": "Tunisie Telecom",
+				"en": "Tunisie Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный телекоммуникационный оператор фиксированной и мобильной связи Туниса",
+				"en": "Tunisie Telecom — a IT and telecom company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 480,
+				"profit": 25,
+				"debt": 350,
+				"money": 60,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lassâad Ben Dhiab",
+					"en": "Lassâad Ben Dhiab"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8043,
+					"д": 10.1569,
+					"province": 428,
+					"staff": 1650,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tunisietelecom.tn/"
+		},
+		{
+			"id": "banque_de_2",
+			"название": {
+				"ru": "Banque de Tunisie (BT)",
+				"en": "Banque de Tunisie (BT)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший и высоконадежный коммерческий банк Туниса, ассоциированный с группами Crédit Mutuel",
+				"en": "Banque de Tunisie (BT) — a financial company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 55,
+				"debt": 0,
+				"money": 0,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 550
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Hichem Rebai",
+					"en": "Hichem Rebai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1600,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.791,
+					"д": 10.1543,
+					"province": 428,
+					"staff": 480,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.bt.com.tn/"
+		},
+		{
+			"id": "compagnie_des_2",
+			"название": {
+				"ru": "Compagnie des Phosphates de Gafsa (CPG)",
+				"en": "Compagnie des Phosphates de Gafsa (CPG)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная компания по добыче фосфатов в бассейне Гафса, сырьевая база химической индустрии",
+				"en": "Compagnie des Phosphates de Gafsa (CPG) — a metals and mining company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": -30,
+				"debt": 500,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ridha Chalghoum",
+					"en": "Ridha Chalghoum"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6800,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гафса",
+						"en": "Gafsa"
+					},
+					"ш": 34.4012,
+					"д": 8.7918,
+					"province": 428,
+					"staff": 2040,
+					"fine": 4050
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.cpg.com.tn/"
+		},
+		{
+			"id": "tunisair",
+			"название": {
+				"ru": "Tunisair",
+				"en": "Tunisair"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиаперевозчик Тунисской Республики, выполняющий рейсы в Европу, Африку и на Ближний Восток",
+				"en": "Tunisair — a transport company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 520,
+				"profit": -60,
+				"debt": 750,
+				"money": 35,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Helmi Hassine",
+					"en": "Helmi Hassine"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3200,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.7824,
+					"д": 10.1516,
+					"province": 428,
+					"staff": 960,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tunisair.com/"
+		},
+		{
+			"id": "soci_t_11",
+			"название": {
+				"ru": "Société Tunisienne des Industries de Raffinage (STIR)",
+				"en": "Société Tunisienne des Industries de Raffinage (STIR)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный в Тунисе нефтеперерабатывающий завод, расположенный в Бизерте",
+				"en": "Société Tunisienne des Industries de Raffinage (STIR) — a oil and gas company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 20,
+				"debt": 400,
+				"money": 80,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Nabil Smida",
+					"en": "Nabil Smida"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8126,
+					"д": 10.157,
+					"province": 428,
+					"staff": 270,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.stir.com.tn/"
+		},
+		{
+			"id": "attijari_bank",
+			"название": {
+				"ru": "Attijari Bank Tunisie",
+				"en": "Attijari Bank Tunisie"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Входит в состав марокканской банковской группы Attijariwafa Bank, один из лидеров розничного банкинга",
+				"en": "Attijari Bank Tunisie — a financial company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 340,
+				"profit": 70,
+				"debt": 0,
+				"money": 0,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Saïd Sebti",
+					"en": "Saïd Sebti"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8417,
+					"д": 10.1442,
+					"province": 428,
+					"staff": 540,
+					"fine": 4040
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.attijaribank.com.tn/"
+		},
+		{
+			"id": "ooredoo_tunisie",
+			"название": {
+				"ru": "Ooredoo Tunisie",
+				"en": "Ooredoo Tunisie"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий мобильный оператор Туниса, дочерняя структура катарской Ooredoo Group",
+				"en": "Ooredoo Tunisie — a IT and telecom company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 45,
+				"debt": 150,
+				"money": 70,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mansoor Rashid Al-Khater",
+					"en": "Mansoor Rashid Al-Khater"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1300,
+			"wage": 850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8001,
+					"д": 10.1826,
+					"province": 428,
+					"staff": 390,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ooredoo.tn/"
+		},
+		{
+			"id": "chantier_militaire",
+			"название": {
+				"ru": "Chantier Militaire de Constructions et Réparations Navales (CMRN Bizerte)",
+				"en": "Chantier Militaire de Constructions et Réparations Navales (CMRN Bizerte)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская верфь в Бизерте, строящая патрульные катера класса Istiklal и ремонтирующая корабли ВМС Туниса",
+				"en": "Chantier Militaire de Constructions et Réparations Navales (CMRN Bizerte) — a defence company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 3,
+				"debt": 15,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Capitaine de Vaisseau Karim Bouzidi",
+					"en": "Capitaine de Vaisseau Karim Bouzidi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бизерта",
+						"en": "Bizerte"
+					},
+					"ш": 37.2914,
+					"д": 9.8572,
+					"province": 428,
+					"staff": 240,
+					"fine": 4043
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defense.tn/"
+		},
+		{
+			"id": "direction_du_6",
+			"название": {
+				"ru": "Direction du Matériel de l'Armée de Terre (Ateliers Centraux)",
+				"en": "Direction du Matériel de l'Armée de Terre (Ateliers Centraux)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные ремонтные армейские мастерские по модернизации бронетранспортеров M113, EE-11 Urutu и артиллерии",
+				"en": "Direction du Matériel de l'Armée de Terre (Ateliers Centraux) — a defence company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 2,
+				"debt": 10,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel-Major Hassen Gharbi",
+					"en": "Colonel-Major Hassen Gharbi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 700,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8479,
+					"д": 10.1926,
+					"province": 428,
+					"staff": 210,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defense.tn/"
+		},
+		{
+			"id": "base_a_11",
+			"название": {
+				"ru": "Base Aérienne de Sidi Ahmed (Ateliers Aéronautiques)",
+				"en": "Base Aérienne de Sidi Ahmed (Ateliers Aéronautiques)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-техническая база ВВС Туниса, обеспечивающая сервис истребителей F-5E Tiger II и учебно-боевых самолетов L-59",
+				"en": "Base Aérienne de Sidi Ahmed (Ateliers Aéronautiques) — a defence company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Ridha Zribi",
+					"en": "Colonel Ridha Zribi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8526,
+					"д": 10.1459,
+					"province": 428,
+					"staff": 180,
+					"fine": 4040
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defense.tn/"
+		},
+		{
+			"id": "soci_t_13",
+			"название": {
+				"ru": "Société Tunisienne de Matériel Militaire et Blindés (STMM El Aouina)",
+				"en": "Société Tunisienne de Matériel Militaire et Blindés (STMM El Aouina)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Предприятие по сборке тактических бронеавтомобилей, бронированию легкой колесной техники и навесному оборудованию",
+				"en": "Société Tunisienne de Matériel Militaire et Blindés (STMM El Aouina) — a defence company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Mohamed Larbi",
+					"en": "Colonel Mohamed Larbi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8404,
+					"д": 10.1462,
+					"province": 428,
+					"staff": 135,
+					"fine": 4040
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defense.tn/"
+		},
+		{
+			"id": "centre_de",
+			"название": {
+				"ru": "Centre de Recherche et d'Études Militaires (CREM Tunisie)",
+				"en": "Centre de Recherche et d'Études Militaires (CREM Tunisie)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-исследовательский центр разработки БПЛА тактического звена, радиоэлектронных систем и ночной оптики",
+				"en": "Centre de Recherche et d'Études Militaires (CREM Tunisie) — a defence company of Tunisia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 2,
+				"debt": 5,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тунис)",
+						"en": "The state (Tunisia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тунис"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Général Mohamed Salah Hamdi",
+					"en": "Général Mohamed Salah Hamdi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тунис",
+						"en": "Tunis"
+					},
+					"ш": 36.8154,
+					"д": 10.1333,
+					"province": 428,
+					"staff": 105,
+					"fine": 4046
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.defense.tn/"
+		}
+	]
+}

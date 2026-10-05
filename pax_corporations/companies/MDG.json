@@ -1,0 +1,1179 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мадагаскар",
+	"iso": "MDG",
+	"data_date": "2026-03",
+	"average_wage": 80,
+	"companies": [
+		{
+			"id": "ambatovy",
+			"название": {
+				"ru": "Ambatovy",
+				"en": "Ambatovy"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Никель и кобальт Мадагаскара, контроль у Sumitomo.",
+				"en": "Madagascar's nickel and cobalt, controlled by Sumitomo."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": -60,
+				"debt": 1400,
+				"money": 280,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Sumitomo",
+						"en": "Sumitomo"
+					},
+					"type": "company",
+					"доля": 0.54,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "KOMIR (Корея)",
+						"en": "KOMIR (Korea)"
+					},
+					"type": "company",
+					"доля": 0.46,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Заборовски",
+					"en": "Mark Zaborowski"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горный инженер (экс-Sumitomo)",
+					"en": "горняк"
+				}
+			},
+			"staff": 9000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Туамасина",
+						"en": "Toamasina"
+					},
+					"ш": -18.15,
+					"д": 49.4,
+					"province": 790,
+					"staff": 3000,
+					"fine": 2492
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Амбатови",
+						"en": "Ambatovy mine"
+					},
+					"ш": -18.85,
+					"д": 48.33,
+					"province": 790,
+					"staff": 6000,
+					"fine": 2484
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.ambatovy.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "groupe_axian",
+			"название": {
+				"ru": "Groupe Axian (Axian Group)",
+				"en": "Groupe Axian (Axian Group)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Многоотраслевой конгломерат (телекоммуникации Telma, банкинг BNI Madagascar, энергетика Jovena, недвижимость, финтех MVola — ) [Выручка: $1,400 млн, Чистая прибыль: $120 млн, Долг: $600 млн, Деньги: $180 млн, Дивиденды: $40 млн, Капитализация: $1,800 млн (крупнейшая частная группа Мадагаскара, экспансия в 15 стран Африки), Штат: 7,500 чел., Зарплата: $320/мес, Руководитель: Хассанейн Хириджи (Hass",
+				"en": "Groupe Axian (Axian Group) — a financial company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 120,
+				"debt": 600,
+				"money": 180,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.899,
+					"д": 47.4995,
+					"province": 790,
+					"staff": 1200,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "jirama",
+			"название": {
+				"ru": "JIRAMA (Jiro sy Rano Malagasy)",
+				"en": "JIRAMA (Jiro sy Rano Malagasy)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1958,
+			"description": {
+				"ru": "Электроэнергетика и водоснабжение (государственная национальная монополия — ) [Выручка: $280 млн, Чистая прибыль: -$60 млн (хронический субсидируемый дефицит и кризис генерации), Долг: $500 млн, Деньги: $20 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 6,500 чел., Зарплата: $250/мес, Руководитель: Рон Вайс (Ron Weiss), Генеральный директор с апреля 2024 года (экс-глава Израи",
+				"en": "JIRAMA (Jiro sy Rano Malagasy) — a energy company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": -60,
+				"debt": 500,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 369
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 498,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.8892,
+					"д": 47.524,
+					"province": 790,
+					"staff": 149,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "star_madagascar",
+			"название": {
+				"ru": "STAR Madagascar (Société Tananarivienne d'Articles Réfrigérés)",
+				"en": "STAR Madagascar (Société Tananarivienne d'Articles Réfrigérés)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Пивоваренная и безалкогольная промышленность (национальное пиво Three Horses Beer - THB, боттлер Coca-Cola, входит в Groupe Castel — ) [Выручка: $300 млн, Чистая прибыль: $35 млн, Долг: $50 млн, Деньги: $30 млн, Дивиденды: $20 млн, Капитализация: $350 млн, Штат: 2,500 чел., Зарплата: $280/мес, Руководитель: Марк Позментье (Marc Pozmentier), Генеральный директор с 2021 года, родился в 1965 году.]. ",
+				"en": "STAR Madagascar (Société Tananarivienne d'Articles Réfrigérés) — a consumer and retail company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 35,
+				"debt": 50,
+				"money": 30,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 89,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.931,
+					"д": 47.5325,
+					"province": 790,
+					"staff": 270,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "qit_madagascar",
+			"название": {
+				"ru": "QIT Madagascar Minerals (QMM Rio Tinto)",
+				"en": "QIT Madagascar Minerals (QMM Rio Tinto)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Горнорудная промышленность (добыча титанового сырья — ильменита и циркона в Форт-Дофине / Толагнаро — ) [Выручка: $250 млн, Чистая прибыль: $40 млн, Долг: $100 млн, Деньги: $40 млн, Дивиденды: $15 млн, Капитализация: $450 млн (Rio Tinto 80%, Правительство Мадагаскара 20%), Штат: 2,000 чел., Зарплата: $350/мес, Руководитель: Давид-Александр Шемен (David-Alexandre Chemin), Управляющий директор с 202",
+				"en": "QIT Madagascar Minerals (QMM Rio Tinto) — a metals and mining company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 40,
+				"debt": 100,
+				"money": 40,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 722,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9471,
+					"д": 47.5421,
+					"province": 790,
+					"staff": 216,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "telma_madagascar",
+			"название": {
+				"ru": "Telma Madagascar (Telecom Malagasy)",
+				"en": "Telma Madagascar (Telecom Malagasy)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2007,
+			"description": {
+				"ru": "Телекоммуникации и мобильная связь (крупнейший оператор мобильной и фиксированной связи, 5G, оптическая сеть — ) [Выручка: $350 млн, Чистая прибыль: $50 млн, Долг: $120 млн, Деньги: $50 млн, Дивиденды: $25 млн, Капитализация: $600 млн (дочерняя структура Axian Group), Штат: 1,500 чел., Зарплата: $450/мес, Руководитель: Патрик Писаль-Амида (Patrick Pisal-Hamida), Главный исполнительный директор с 2",
+				"en": "Telma Madagascar (Telecom Malagasy) — a IT and telecom company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 50,
+				"debt": 120,
+				"money": 50,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 927,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.8908,
+					"д": 47.4974,
+					"province": 790,
+					"staff": 278,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "bni_madagascar",
+			"название": {
+				"ru": "BNI Madagascar",
+				"en": "BNI Madagascar"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Банковские и финансовые услуги (старейший и крупнейший коммерческий банк страны с 1868 года — ) [Выручка: $120 млн, Чистая прибыль: $30 млн, Долг: $0 (активы $1.3 млрд), Деньги: $0, Дивиденды: $15 млн, Капитализация: $180 млн (акционеры: Axian Group и CIEL Group), Штат: 1,400 чел., Зарплата: $500/мес, Руководитель: Александр Мей (Alexandre Mey), Генеральный директор с 2018 года, родился в 1974 год",
+				"en": "BNI Madagascar — a financial company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 30,
+				"debt": 1300,
+				"money": 0,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 342,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9513,
+					"д": 47.5448,
+					"province": 790,
+					"staff": 102,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_6",
+			"название": {
+				"ru": "Société du Port à Gestion Autonome de Toamasina (SPAT)",
+				"en": "Société du Port à Gestion Autonome de Toamasina (SPAT)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2011,
+			"description": {
+				"ru": "Портовое хозяйство и морская логистика (порт Туамасина обрабатывает более 90% контейнерного грузооборота острова — ) [Выручка: $110 млн, Чистая прибыль: $25 млн, Долг: $200 млн (льготные японские кредиты JICA на глубоководное расширение), Деньги: $35 млн, Дивиденды: $10 млн, Капитализация: $300 млн (государственное портовое управление), Штат: 1,200 чел., Зарплата: $350/мес, Руководитель: Кристиан ",
+				"en": "Société du Port à Gestion Autonome de Toamasina (SPAT) — a transport company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 25,
+				"debt": 200,
+				"money": 35,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 275,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тоамасина",
+						"en": "Toamasina"
+					},
+					"ш": -18.1554,
+					"д": 49.3924,
+					"province": 790,
+					"staff": 82,
+					"fine": 2492
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "groupe_sipromad",
+			"название": {
+				"ru": "Groupe Sipromad",
+				"en": "Groupe Sipromad"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1960,
+			"description": {
+				"ru": "Многопрофильный конгломерат (фармацевтика, полиграфия, авиаперевозки Madagascar Airways, девелопмент — ) [Выручка: $300 млн, Чистая прибыль: $20 млн, Долг: $100 млн, Деньги: $40 млн, Дивиденды: $8 млн, Капитализация: $350 млн, Штат: 3,000 чел., Зарплата: $280/мес, Руководитель: Ильяс Акбарали (Ylias Akbaraly), Председатель совета директоров, родился в 1960 году.]. Официальные источники: https://ww",
+				"en": "Groupe Sipromad — a transport company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 20,
+				"debt": 100,
+				"money": 40,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9318,
+					"д": 47.5691,
+					"province": 790,
+					"staff": 225,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "groupe_filatex",
+			"название": {
+				"ru": "Groupe Filatex",
+				"en": "Groupe Filatex"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1986,
+			"description": {
+				"ru": "Недвижимость, возобновляемая солнечная энергетика, индустриальные зоны свободной торговли — [Выручка: $200 млн, Чистая прибыль: $25 млн, Долг: $80 млн, Деньги: $30 млн, Дивиденды: $10 млн, Капитализация: $250 млн, Штат: 2,500 чел., Зарплата: $300/мес, Руководитель: Хаснайн Явархуссен (Hasnaine Yavarhoussen), Главный исполнительный директор, родился в 1986 году.]. Официальные источники: https://www",
+				"en": "Groupe Filatex — a energy company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 25,
+				"debt": 80,
+				"money": 30,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 355,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.8789,
+					"д": 47.5156,
+					"province": 790,
+					"staff": 106,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "madagascar_airlines",
+			"название": {
+				"ru": "Madagascar Airlines (ранее Air Madagascar)",
+				"en": "Madagascar Airlines (ранее Air Madagascar)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Авиаперевозки (национальный авиаперевозчик, объединенный флот с Tsaradia — ) [Выручка: $80 млн, Чистая прибыль: -$15 млн (программа реструктуризации), Долг: $90 млн, Деньги: $10 млн, Дивиденды: $0, Капитализация: $0 (государственная собственность), Штат: 1,000 чел., Зарплата: $500/мес, Руководитель: Тьерри де Байёль (Thierry de Bailleul), Генеральный директор с 2022 года, родился в 1963 году.]. Оф",
+				"en": "Madagascar Airlines (ранее Air Madagascar) — a transport company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": -15,
+				"debt": 90,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 57
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 200,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9486,
+					"д": 47.5193,
+					"province": 790,
+					"staff": 60,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "secren",
+			"название": {
+				"ru": "SECREN (Société d’Études, de Construction et de Réparation Navales)",
+				"en": "SECREN (Société d’Études, de Construction et de Réparation Navales)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший военно-морской судостроительный и судоремонтный завод в западной части Индийского океана — Официальные источники: https://www.secren.mg, https://www.secren.mg/defense (Оборонные программы)",
+				"en": "SECREN (Société d’Études, de Construction et de Réparation Navales) — a defence company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абель Нани (Abel Nany), Генеральный директор SECREN]",
+					"en": "Абель Нани (Abel Nany), Генеральный директор SECREN]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9435,
+					"д": 47.559,
+					"province": 790,
+					"staff": 22,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_du_2",
+			"название": {
+				"ru": "Direction du Matériel et des Ateliers des Forces Armées (DMA / CAPSAT Soanierana)",
+				"en": "Direction du Matériel et des Ateliers des Forces Armées (DMA / CAPSAT Soanierana)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главные бронетанковые и артиллерийско-ремонтные мастерские Сухопутных войск Мадагаскара — Официальные источники: https://www.defense.gov.mg, https://www.defense.gov.mg/defense (Оборонные программы)",
+				"en": "Direction du Matériel et des Ateliers des Forces Armées (DMA / CAPSAT Soanierana) — a defence company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 75
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор службы материально-технического обеспечения Министерства вооруженных сил (Colonel / Directeur du Materiel des Forces Armees)]",
+					"en": "Директор службы материально-технического обеспечения Министерства вооруженных сил (Colonel / Directeur du Materiel des Forces Armees)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 120,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9405,
+					"д": 47.5242,
+					"province": 790,
+					"staff": 36,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_4",
+			"название": {
+				"ru": "Base Aérienne 213 Ivato (Ateliers Techniques de l'Armée de l'Air)",
+				"en": "Base Aérienne 213 Ivato (Ateliers Techniques de l'Armée de l'Air)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-техническая база и авиаремонтные мастерские ВВС Мадагаскара — Официальные источники: https://www.defense.gov.mg, https://www.defense.gov.mg/defense (Оборонные программы)",
+				"en": "Base Aérienne 213 Ivato (Ateliers Techniques de l'Armée de l'Air) — a defence company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 38,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 71
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир 213-й авиабазы (Colonel / Commandant de la Base Aerienne 213)]",
+					"en": "Командир 213-й авиабазы (Colonel / Commandant de la Base Aerienne 213)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 114,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Ivato"
+					},
+					"ш": -18.84,
+					"д": 47.4944,
+					"province": 790,
+					"staff": 34,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_navale_2",
+			"название": {
+				"ru": "Base Navale d'Antsiranana et de Toamasina (Marine Nationale Malgache)",
+				"en": "Base Navale d'Antsiranana et de Toamasina (Marine Nationale Malgache)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Основные базы береговой охраны и ремонта быстроходных катеров береговой обороны — Официальные источники: https://www.defense.gov.mg, https://www.defense.gov.mg/defense (Оборонные программы)",
+				"en": "Base Navale d'Antsiranana et de Toamasina (Marine Nationale Malgache) — a defence company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 34,
+				"profit": 2,
+				"debt": 9,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 64
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник штаба ВМС Мадагаскара (Contre-amiral / Chef d'Etat-Major de la Marine)]",
+					"en": "Начальник штаба ВМС Мадагаскара (Contre-amiral / Chef d'Etat-Major de la Marine)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 102,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тоамасина",
+						"en": "Toamasina"
+					},
+					"ш": -18.1856,
+					"д": 49.4375,
+					"province": 790,
+					"staff": 30,
+					"fine": 2492
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "d_p",
+			"название": {
+				"ru": "Dépôt Central des Munitions et d'Armement d'Ambohidrapeto",
+				"en": "Dépôt Central des Munitions et d'Armement d'Ambohidrapeto"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный армейский арсенал и склад боеприпасов Вооруженных сил — Официальные источники: https://www.defense.gov.mg, https://www.defense.gov.mg/defense (Оборонные программы)",
+				"en": "Dépôt Central des Munitions et d'Armement d'Ambohidrapeto — a defence company of Madagascar."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 56
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мадагаскар)",
+						"en": "The state (Madagascar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мадагаскар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Комендант центрального арсенала (Commandant du Depot Central)]",
+					"en": "Комендант центрального арсенала (Commandant du Depot Central)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антананариво",
+						"en": "Antananarivo"
+					},
+					"ш": -18.9101,
+					"д": 47.5248,
+					"province": 790,
+					"staff": 27,
+					"fine": 2486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

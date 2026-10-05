@@ -1,0 +1,2868 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Швеция",
+	"iso": "SWE",
+	"data_date": "2026-03",
+	"average_wage": 4200,
+	"companies": [
+		{
+			"id": "investor",
+			"название": {
+				"ru": "Investor AB",
+				"en": "Investor AB"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1916,
+			"description": {
+				"ru": "Холдинг Валленбергов: Atlas Copco, ABB, AstraZeneca, SEB.",
+				"en": "The Wallenberg holding: Atlas Copco, ABB, AstraZeneca, SEB."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 6000,
+				"debt": 8000,
+				"money": 4000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3060,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонды Валленбергов",
+						"en": "Wallenberg foundations"
+					},
+					"type": "крупный",
+					"доля": 0.5,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Седерхольм",
+					"en": "Christian Cederholm"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управляющий империей Валленбергов",
+					"en": "управляющий империей Валленбергов"
+				}
+			},
+			"staff": 17000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 100,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.investorab.com/investors-media/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "atlascopco",
+			"название": {
+				"ru": "Atlas Copco",
+				"en": "Atlas Copco"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1873,
+			"description": {
+				"ru": "Компрессоры, вакуумная техника, инструменты.",
+				"en": "Compressors, vacuum technology, tools."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 2900,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 4870,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.17,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вагнер Рего",
+					"en": "Vagner Rego"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бразилец-инженер",
+					"en": "бразилец-инженер"
+				}
+			},
+			"staff": 55000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Накка",
+						"en": "Nacka"
+					},
+					"ш": 59.31,
+					"д": 18.16,
+					"province": 688,
+					"staff": 3000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.atlascopcogroup.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "volvo",
+			"название": {
+				"ru": "Volvo Group",
+				"en": "Volvo Group"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1927,
+			"description": {
+				"ru": "Грузовики, автобусы, строительная техника.",
+				"en": "Trucks, buses, construction equipment."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 4600,
+				"debt": 12000,
+				"money": 7000,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 2030,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Industrivärden",
+						"en": "Industrivärden"
+					},
+					"type": "company",
+					"доля": 0.28,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.72
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мартин Лундштедт",
+					"en": "Martin Lundstedt"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "грузовик-менеджер",
+					"en": "грузовик-менеджер"
+				}
+			},
+			"staff": 100000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гётеборг",
+						"en": "Gothenburg"
+					},
+					"ш": 57.7,
+					"д": 11.97,
+					"province": 767,
+					"staff": 15000,
+					"fine": 3837
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.volvogroup.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ericsson",
+			"название": {
+				"ru": "Ericsson",
+				"en": "Ericsson"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1876,
+			"description": {
+				"ru": "Оборудование для мобильных сетей.",
+				"en": "Mobile network equipment."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 200,
+				"debt": 4000,
+				"money": 5000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 3330,
+				"market_cap": 27000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.08,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Industrivärden",
+						"en": "Industrivärden"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бёрье Экхольм",
+					"en": "Börje Ekholm"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший инвестор Валленбергов",
+					"en": "бывший инвестор Валленбергов"
+				}
+			},
+			"staff": 94000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хиста, Стокгольм",
+						"en": "Kista, Stockholm"
+					},
+					"ш": 59.4,
+					"д": 17.95,
+					"province": 688,
+					"staff": 10000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ericsson.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "assaabloy",
+			"название": {
+				"ru": "Assa Abloy",
+				"en": "Assa Abloy"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший производитель замков и дверей.",
+				"en": "The world's largest lock and door maker."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 1700,
+				"debt": 6000,
+				"money": 800,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1110,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Latour",
+						"en": "Latour"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нико Дельво",
+					"en": "Nico Delvaux"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бельгиец, скупает конкурентов",
+					"en": "бельгиец, скупает конкурентов"
+				}
+			},
+			"staff": 63000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.34,
+					"д": 18.05,
+					"province": 688,
+					"staff": 1000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.assaabloy.com/group/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "hm",
+			"название": {
+				"ru": "H&M",
+				"en": "H&M"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1947,
+			"description": {
+				"ru": "Второй продавец одежды в мире.",
+				"en": "The world's second fashion retailer."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 1100,
+				"debt": 3000,
+				"money": 2500,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1610,
+				"market_cap": 23000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Перссон",
+						"en": "The Persson family"
+					},
+					"type": "founder",
+					"доля": 0.69
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.31
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даниэль Эрвер",
+					"en": "Daniel Ervér"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1983,
+				"доля": 0.0,
+				"характер": {
+					"ru": "молодой, чистит сеть",
+					"en": "молодой, чистит сеть"
+				}
+			},
+			"staff": 100000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.06,
+					"province": 688,
+					"staff": 3000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://hmgroup.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sandvik",
+			"название": {
+				"ru": "Sandvik",
+				"en": "Sandvik"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1862,
+			"description": {
+				"ru": "Инструменты, горное оборудование, сплавы.",
+				"en": "Tools, mining equipment, alloys."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 1400,
+				"debt": 5000,
+				"money": 800,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 1254,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Industrivärden",
+						"en": "Industrivärden"
+					},
+					"type": "company",
+					"доля": 0.13,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стефан Видинг",
+					"en": "Stefan Widing"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 40000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 500,
+					"fine": 3834
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Сандвикен",
+						"en": "Sandviken"
+					},
+					"ш": 60.62,
+					"д": 16.78,
+					"province": 640,
+					"staff": 5000,
+					"fine": 3818
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.home.sandvik/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "seb",
+			"название": {
+				"ru": "SEB",
+				"en": "SEB"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1856,
+			"description": {
+				"ru": "Банк Валленбергов.",
+				"en": "The Wallenberg bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 3200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 2100,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.21,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.79
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Юхан Торгебю",
+					"en": "Johan Torgeby"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 19000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 5000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://sebgroup.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "handelsbanken",
+			"название": {
+				"ru": "Handelsbanken",
+				"en": "Handelsbanken"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1871,
+			"description": {
+				"ru": "Консервативный банк с децентрализованными отделениями.",
+				"en": "A conservative bank with decentralised branches."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 2600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 1980,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Industrivärden",
+						"en": "Industrivärden"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Микаэль Грин",
+					"en": "Michael Green"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир",
+					"en": "осторожный банкир"
+				}
+			},
+			"staff": 11000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 3000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.handelsbanken.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "swedbank",
+			"название": {
+				"ru": "Swedbank",
+				"en": "Swedbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1820,
+			"description": {
+				"ru": "Крупнейший розничный банк Швеции и Прибалтики.",
+				"en": "The largest retail bank of Sweden and the Baltics."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 3100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1130,
+				"market_cap": 23000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йенс Хенрикссон",
+					"en": "Jens Henriksson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший замминистра финансов",
+					"en": "бывший замминистра финансов"
+				}
+			},
+			"staff": 17000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сундбюберг",
+						"en": "Sundbyberg"
+					},
+					"ш": 59.36,
+					"д": 17.97,
+					"province": 688,
+					"staff": 4000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.swedbank.com/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hexagon",
+			"название": {
+				"ru": "Hexagon",
+				"en": "Hexagon"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Датчики и софт для измерений и цифровых двойников.",
+				"en": "Sensors and software for measurement and digital twins."
+			},
+			"fundamental": {
+				"выручка": 5700,
+				"profit": 1000,
+				"debt": 4000,
+				"money": 500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2680,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Мелкер Шёрлинг",
+						"en": "Melker Schörling"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андерс Свенссон",
+					"en": "Anders Svensson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "делит компанию",
+					"en": "делит компанию"
+				}
+			},
+			"staff": 25000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.34,
+					"д": 18.07,
+					"province": 688,
+					"staff": 500,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://hexagon.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "epiroc",
+			"название": {
+				"ru": "Epiroc",
+				"en": "Epiroc"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Буровые установки для шахт.",
+				"en": "Mining drill rigs."
+			},
+			"fundamental": {
+				"выручка": 5700,
+				"profit": 950,
+				"debt": 1500,
+				"money": 800,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1210,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.17,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хелена Хедблом",
+					"en": "Helena Hedblom"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горный инженер",
+					"en": "горный инженер"
+				}
+			},
+			"staff": 19000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Накка",
+						"en": "Nacka"
+					},
+					"ш": 59.3,
+					"д": 18.17,
+					"province": 688,
+					"staff": 1000,
+					"fine": 3834
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Эребру",
+						"en": "Örebro"
+					},
+					"ш": 59.27,
+					"д": 15.21,
+					"province": 69,
+					"staff": 2500,
+					"fine": 3823
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.epirocgroup.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "essity",
+			"название": {
+				"ru": "Essity",
+				"en": "Essity"
+			},
+			"sector": "retail",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Гигиенические товары: Tena, Libero, Tork.",
+				"en": "Hygiene products: Tena, Libero, Tork."
+			},
+			"fundamental": {
+				"выручка": 13500,
+				"profit": 1400,
+				"debt": 4000,
+				"money": 800,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 702,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Svenska Cellulosa (SCA)",
+						"en": "Svenska Cellulosa (SCA)"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ульрика Кольсруд",
+					"en": "Ulrika Kolsrud"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный менеджер",
+					"en": "осторожный менеджер"
+				}
+			},
+			"staff": 36000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.06,
+					"province": 688,
+					"staff": 500,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.essity.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "skf",
+			"название": {
+				"ru": "SKF",
+				"en": "SKF"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1907,
+			"description": {
+				"ru": "Крупнейший производитель подшипников.",
+				"en": "The largest bearing maker."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 500,
+				"debt": 2000,
+				"money": 1500,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 455,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд FAM",
+						"en": "FAM foundation"
+					},
+					"type": "крупный",
+					"доля": 0.12,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.88
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рикард Густафсон",
+					"en": "Rickard Gustafson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "делит компанию надвое",
+					"en": "делит компанию надвое"
+				}
+			},
+			"staff": 38000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гётеборг",
+						"en": "Gothenburg"
+					},
+					"ш": 57.72,
+					"д": 11.95,
+					"province": 767,
+					"staff": 5000,
+					"fine": 3837
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.skf.com/group/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "alfalaval",
+			"название": {
+				"ru": "Alfa Laval",
+				"en": "Alfa Laval"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1883,
+			"description": {
+				"ru": "Теплообменники, сепараторы, насосы.",
+				"en": "Heat exchangers, separators, pumps."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 800,
+				"debt": 1500,
+				"money": 700,
+				"dividends": 330
+			},
+			"рынок": {
+				"shares_mln": 413,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tetra Laval",
+						"en": "Tetra Laval"
+					},
+					"type": "company",
+					"доля": 0.3,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Том Эрикссон",
+					"en": "Tom Erixon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 22000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лунд",
+						"en": "Lund"
+					},
+					"ш": 55.71,
+					"д": 13.19,
+					"province": 767,
+					"staff": 3000,
+					"fine": 3838
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.alfalaval.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "saab",
+			"название": {
+				"ru": "Saab",
+				"en": "Saab"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1937,
+			"description": {
+				"ru": "Истребители Gripen, ракеты, подлодки.",
+				"en": "Gripen fighters, missiles, submarines."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 500,
+				"debt": 500,
+				"money": 1000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 535,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.3,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Микаэль Юханссон",
+					"en": "Micael Johansson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "растёт на перевооружении Европы",
+					"en": "растёт на перевооружении Европы"
+				}
+			},
+			"staff": 25000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 500,
+					"fine": 3834
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Линчёпинг — Gripen",
+						"en": "Linköping — Gripen"
+					},
+					"ш": 58.4,
+					"д": 15.62,
+					"province": 767,
+					"staff": 7000,
+					"fine": 3824
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Верфь Карлскруна",
+						"en": "Karlskrona shipyard"
+					},
+					"ш": 56.16,
+					"д": 15.59,
+					"province": 767,
+					"staff": 2000,
+					"fine": 3836
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.saab.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "volvocars",
+			"название": {
+				"ru": "Volvo Cars",
+				"en": "Volvo Cars"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1927,
+			"description": {
+				"ru": "Легковые Volvo, контролирует Geely.",
+				"en": "Volvo cars, controlled by Geely."
+			},
+			"fundamental": {
+				"выручка": 37000,
+				"profit": 1500,
+				"debt": 5000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2980,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Geely",
+						"en": "Geely"
+					},
+					"type": "company",
+					"доля": 0.79,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.21
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джим Роуэн",
+					"en": "Jim Rowan"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вернулся спасать марку",
+					"en": "вернулся спасать марку"
+				}
+			},
+			"staff": 42000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гётеборг, Торсланда",
+						"en": "Gothenburg, Torslanda"
+					},
+					"ш": 57.72,
+					"д": 11.85,
+					"province": 767,
+					"staff": 15000,
+					"fine": 3837
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.volvocars.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "spotify",
+			"название": {
+				"ru": "Spotify",
+				"en": "Spotify"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Крупнейший музыкальный стриминг мира.",
+				"en": "The world's largest music streaming service."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 1200,
+				"debt": 1500,
+				"money": 8000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 205,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Даниэль Эк",
+						"en": "Daniel Ek"
+					},
+					"type": "founder",
+					"доля": 0.15
+				},
+				{
+					"кто": {
+						"ru": "Tencent",
+						"en": "Tencent"
+					},
+					"type": "company",
+					"доля": 0.08,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даниэль Эк",
+					"en": "Daniel Ek"
+				},
+				"роль": "founder",
+				"с_года": 2006,
+				"born_year": 1983,
+				"доля": 0.15,
+				"характер": {
+					"ru": "основатель, одержим ростом",
+					"en": "основатель, одержим ростом"
+				}
+			},
+			"staff": 7500,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.34,
+					"д": 18.06,
+					"province": 688,
+					"staff": 3000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.spotify.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "telia",
+			"название": {
+				"ru": "Telia",
+				"en": "Telia"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1853,
+			"description": {
+				"ru": "Оператор связи Швеции, Финляндии, Прибалтики.",
+				"en": "Telecom of Sweden, Finland and the Baltics."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 500,
+				"debt": 9000,
+				"money": 1000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 3930,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Швеции",
+						"en": "The Swedish state"
+					},
+					"type": "polity",
+					"доля": 0.4,
+					"country": "Швеция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Патрик Хофбауэр",
+					"en": "Patrik Hofbauer"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "режет штат",
+					"en": "режет штат"
+				}
+			},
+			"staff": 17000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сольна",
+						"en": "Solna"
+					},
+					"ш": 59.36,
+					"д": 18.0,
+					"province": 688,
+					"staff": 3000,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.teliacompany.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "boliden",
+			"название": {
+				"ru": "Boliden",
+				"en": "Boliden"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1931,
+			"description": {
+				"ru": "Медь, цинк и никель Швеции и Финляндии.",
+				"en": "Copper, zinc and nickel of Sweden and Finland."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 700,
+				"debt": 1500,
+				"money": 500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 274,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Микаэль Штеффенсен",
+					"en": "Mikael Staffas"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 6500,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.33,
+					"д": 18.07,
+					"province": 688,
+					"staff": 100,
+					"fine": 3834
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Айтик",
+						"en": "Aitik mine"
+					},
+					"ш": 67.07,
+					"д": 20.95,
+					"province": 64,
+					"staff": 1000,
+					"fine": 3830
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Рённшер",
+						"en": "Rönnskär smelter"
+					},
+					"ш": 64.66,
+					"д": 21.27,
+					"province": 66,
+					"staff": 800,
+					"fine": 3832
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.boliden.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lkab",
+			"название": {
+				"ru": "LKAB (Luossavaara-Kiirunavaara Aktiebolag)",
+				"en": "LKAB (Luossavaara-Kiirunavaara Aktiebolag)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2015,
+			"description": {
+				"ru": "Лулео / Кируна — государственная горнорудная корпорация, крупнейший производитель высококачественных железнорудных окатышей в ЕС и пионер зеленой стали HYBRIT. [Выручка: 4 200 млн $ (44 000 млн SEK), Чистая прибыль: 1 100 млн $, Штат: 4 600 чел., Руководитель: Ян Мострём (Jan Moström), с 2015 года, 1959 г.р.]. Официальные источники: https://lkab.com/en/about-lkab/financial-information/, https://lk",
+				"en": "LKAB (Luossavaara-Kiirunavaara Aktiebolag) — a metals and mining company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2975,
+				"profit": 331,
+				"debt": 992,
+				"money": 357,
+				"dividends": 99
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3570
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8594,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.294,
+					"д": 18.1072,
+					"province": 688,
+					"staff": 2578,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vattenfall",
+			"название": {
+				"ru": "Vattenfall",
+				"en": "Vattenfall"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Сольна / Стокгольм — одна из крупнейших государственных энергетических корпораций Европы (ГЭС, АЭС Форсмарк и Рингхальс, шельфовые ветропарки в Швеции, ФРГ, Нидерландах и Великобритании). [Выручка: 27 000 млн $ (280 000 млн SEK), Чистая прибыль: 1 800 млн $, Штат: 21 000 чел., Руководитель: Анна Борг (Anna Borg), с 2020 года, 1971 г.р.]. Официальные источники: https://group.vattenfall.com/investor",
+				"en": "Vattenfall — a energy company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 259,
+				"debt": 1702,
+				"money": 358,
+				"dividends": 78
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3693
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4981,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.302,
+					"д": 18.0634,
+					"province": 688,
+					"staff": 1494,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "scania_ab",
+			"название": {
+				"ru": "Scania AB (Traton Group / Volkswagen)",
+				"en": "Scania AB (Traton Group / Volkswagen)"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Сёдертелье — ведущий мировой производитель тяжелых магистральных грузовиков, строительных шасси, автобусов и судовых двигателей. [Выручка: 19 000 млн $ (200 000 млн SEK), Чистая прибыль: 1 900 млн $, Штат: 58 000 чел., Руководитель: Кристиан Левин (Christian Levin), с 2021 года, 1967 г.р.]. Официальные источники: https://www.scania.com/group/en/home/investors.html",
+				"en": "Scania AB (Traton Group / Volkswagen) — a automotive company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 152,
+				"debt": 840,
+				"money": 357,
+				"dividends": 46
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1556
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4846,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3196,
+					"д": 18.0926,
+					"province": 688,
+					"staff": 1453,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "skanska",
+			"название": {
+				"ru": "Skanska",
+				"en": "Skanska"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Стокгольм — один из крупнейших мировых строительно-девелоперских концернов (крупные инфраструктурные проекты в Скандинавии, Великобритании и США). [Выручка: 16 000 млн $ (165 000 млн SEK), Чистая прибыль: 450 млн $, Штат: 27 000 чел., Руководитель: Андерс Даниэльссон (Anders Danielsson), с 2018 года, 1966 г.р.]. Официальные источники: https://group.skanska.com/investors/",
+				"en": "Skanska — a construction company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 233,
+				"debt": 1086,
+				"money": 367,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3532
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8807,
+			"wage": 5372,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3372,
+					"д": 18.0726,
+					"province": 688,
+					"staff": 2642,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sca",
+			"название": {
+				"ru": "SCA (Svenska Cellulosa Aktiebolaget)",
+				"en": "SCA (Svenska Cellulosa Aktiebolaget)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Сундсвалль — крупнейший частный лесовладелец в Европе (2.7 млн га сертифицированных лесов), производитель целлюлозы, упаковочного картона и пиломатериалов. [Выручка: 1 900 млн $ (20 000 млн SEK), Чистая прибыль: 380 млн $, Штат: 3 300 чел., Руководитель: Ульф Ларссон (Ulf Larsson), с 2017 года, 1962 г.р.]. Официальные источники: https://www.sca.com/en/investors/",
+				"en": "SCA (Svenska Cellulosa Aktiebolaget) — a consumer and retail company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 218,
+				"debt": 646,
+				"money": 233,
+				"dividends": 65
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3836
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8400,
+			"wage": 4667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сундсвалль",
+						"en": "Sundsvall"
+					},
+					"ш": 62.422,
+					"д": 17.3178,
+					"province": 640,
+					"staff": 2520,
+					"fine": 3831
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "electrolux_group",
+			"название": {
+				"ru": "Electrolux Group",
+				"en": "Electrolux Group"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2025,
+			"description": {
+				"ru": "Стокгольм — мировой производитель бытовой техники и профессионального оборудования (бренды Electrolux, AEG, Frigidaire). [Выручка: 13 000 млн $ (135 000 млн SEK), Чистая прибыль: -350 млн $, Штат: 45 000 чел., Руководитель: Яннис Каридас (Yannis Karidas), с 2025 года / Йонас Самуэльсон (2016–2024), 1968 г.р.]. Официальные источники: https://www.electroluxgroup.com/en/category/investors/",
+				"en": "Electrolux Group — a metals and mining company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 311,
+				"debt": 933,
+				"money": 336,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3360
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8088,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3534,
+					"д": 18.0801,
+					"province": 688,
+					"staff": 2426,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "securitas_ab",
+			"название": {
+				"ru": "Securitas AB",
+				"en": "Securitas AB"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Стокгольм — мировой лидер комплексных охранных услуг, электронного мониторинга и защиты критической инфраструктуры (приобрел Stanley Security). [Выручка: 15 000 млн $ (160 000 млн SEK), Чистая прибыль: 480 млн $, Штат: 350 000 чел., Руководитель: Магнус Альквист (Magnus Ahlqvist), с 2018 года, 1974 г.р.]. Официальные источники: https://www.securitas.com/en/investors/",
+				"en": "Securitas AB — a energy company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 259,
+				"debt": 1702,
+				"money": 358,
+				"dividends": 78
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3693
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4981,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3159,
+					"д": 18.0514,
+					"province": 688,
+					"staff": 1494,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "husqvarna_group",
+			"название": {
+				"ru": "Husqvarna Group",
+				"en": "Husqvarna Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Стокгольм / Хускварна — старейший мировой лидер в производстве роботизированных газонокосилок, профессиональной садово-парковой и строительной техники. [Выручка: 5 000 млн $ (53 000 млн SEK), Чистая прибыль: 220 млн $, Штат: 14 000 чел., Руководитель: Павел Хайман (Pavel Hajman), с 2023 года, 1965 г.р.]. Официальные источники: https://www.husqvarnagroup.com/en/investors",
+				"en": "Husqvarna Group — a construction company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 233,
+				"debt": 1086,
+				"money": 367,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3532
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8807,
+			"wage": 5372,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3307,
+					"д": 18.03,
+					"province": 688,
+					"staff": 2642,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ica_gruppen",
+			"название": {
+				"ru": "ICA Gruppen",
+				"en": "ICA Gruppen"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Сольна / Стокгольм — крупнейшая продуктовая розничная сеть Швеции и стран Балтии (доля шведского продуктового рынка около 50%). [Выручка: 14 000 млн $ (145 000 млн SEK), Чистая прибыль: 380 млн $, Штат: 24 000 чел., Руководитель: Нина Еншё (Nina Jönsson), с 2023 года, 1966 г.р.]. Официальные источники: https://www.icagruppen.se/en/investors/",
+				"en": "ICA Gruppen — a consumer and retail company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2625,
+				"profit": 204,
+				"debt": 606,
+				"money": 219,
+				"dividends": 61
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3596
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7875,
+			"wage": 4667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.356,
+					"д": 18.0614,
+					"province": 688,
+					"staff": 2362,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sweco",
+			"название": {
+				"ru": "Sweco",
+				"en": "Sweco"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Стокгольм — ведущая европейская консалтинговая инжиниринговая и архитектурная компания (проектирование экологичных городов, транспортных коридоров и энергосистем). [Выручка: 2 800 млн $ (29 000 млн SEK), Чистая прибыль: 180 млн $, Штат: 22 000 чел., Руководитель: Оса Бергман (Åsa Bergman), с 2018 года, 1967 г.р.]. Официальные источники: https://www.swecogroup.com/investor-relations/",
+				"en": "Sweco — a transport company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 2450,
+				"profit": 163,
+				"debt": 1237,
+				"money": 507,
+				"dividends": 49
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1750
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6125,
+			"wage": 6873,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3535,
+					"д": 18.04,
+					"province": 688,
+					"staff": 1837,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bae_systems",
+			"название": {
+				"ru": "BAE Systems Bofors AB",
+				"en": "BAE Systems Bofors AB"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2014,
+			"description": {
+				"ru": "Карлскуга — легендарное артиллерийское предприятие шведского ВПК: колесные 155-мм САУ Archer, корабельные артиллерийские комплексы Bofors 40 Mk4 и 57 Mk3, высокоточные корректируемые снаряды Excalibur и боеприпасы 3P. (Высокоточная самоходная колесная артиллерия 155 мм, морская зенитная артиллерия, интеллектуальные боеприпасы.) [Выручка: 650 млн $, Чистая прибыль: 65 млн $, Штат: 1 200 чел., Руков",
+				"en": "BAE Systems Bofors AB — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 1012,
+				"profit": 67,
+				"debt": 260,
+				"money": 156,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1898
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3036,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3652,
+					"д": 18.0792,
+					"province": 688,
+					"staff": 910,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bae_systems_2",
+			"название": {
+				"ru": "BAE Systems Hägglunds AB",
+				"en": "BAE Systems Hägglunds AB"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2011,
+			"description": {
+				"ru": "Эрншёльдсвик — один из мировых лидеров по производству тяжелой гусеничной бронетехники: боевые машины пехоты CV90 (состоят на вооружении Швеции, Нидерландов, Швейцарии, Норвегии, Чехии, Словакии и Украины), двухзвенные вездеходы BvS10. (Тяжелые гусеничные БМП CV90, амфибийные двухзвенные бронетранспортеры BvS10, защита от ПТРК и мин.) [Выручка: 1 100 млн $, Чистая прибыль: 110 млн $, Штат: 2 200 ч",
+				"en": "BAE Systems Hägglunds AB — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 975,
+				"profit": 65,
+				"debt": 251,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1828
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2925,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3456,
+					"д": 18.0806,
+					"province": 688,
+					"staff": 877,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "saab_kockums",
+			"название": {
+				"ru": "Saab Kockums AB",
+				"en": "Saab Kockums AB"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Карлскруна / Мальмё — головная военно-морская верфь Швеции: проектирование и строительство малозаметных неатомных подводных лодок с воздухонезависимой энергетической установкой Стирлинга класса Blekinge (A26) и малозаметных стелс-корветов класса Visby. (Подводные лодки с двигателями Стирлинга, стелс-корабли из углепластиковых композитов, автономные подводные аппараты AUV.) [Выручка: 550 млн $, Чис",
+				"en": "Saab Kockums AB — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 938,
+				"profit": 63,
+				"debt": 241,
+				"money": 144,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1759
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2814,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карлскруна",
+						"en": "Karlskrona"
+					},
+					"ш": 56.1283,
+					"д": 15.5958,
+					"province": 767,
+					"staff": 844,
+					"fine": 3836
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aimpoint_ab",
+			"название": {
+				"ru": "Aimpoint AB",
+				"en": "Aimpoint AB"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мальмё — мировой изобретатель и крупнейший производитель коллиматорных оптических прицелов для армейского стрелкового оружия (стандартный прицел ВС США — M68 CCO, ВС Швеции и спецподразделений армий НАТО). (Военные коллиматорные прицелы закрытого типа, увеличители (magnifiers), оптико-электронные прицельные комплексы.) [Выручка: 150 млн $, Чистая прибыль: 35 млн $, Штат: 350 чел., Руководитель: Ле",
+				"en": "Aimpoint AB — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 231,
+				"money": 138,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1688
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2700,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.2952,
+					"д": 18.0803,
+					"province": 688,
+					"staff": 810,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gkn_aerospace",
+			"название": {
+				"ru": "GKN Aerospace Sweden AB (бывш. Volvo Aero)",
+				"en": "GKN Aerospace Sweden AB (бывш. Volvo Aero)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Тролльхеттан — ведущее шведское предприятие военного авиадвигателестроения: производство и глубокая модернизация турбореактивных двигателей RM12 и RM16 (F414-GE-39E) для многоцелевых истребителей Saab JAS 39 Gripen C/D и Gripen E. (Реактивные авиационные двигатели боевых самолетов, форсажные камеры, детали горячего тракта турбин.) [Выручка: 600 млн $ (оборонный сектор), Чистая прибыль: 50 млн $, Ш",
+				"en": "GKN Aerospace Sweden AB (бывш. Volvo Aero) — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 231,
+				"money": 138,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1688
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2700,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тролльхеттан",
+						"en": "Trollhättan"
+					},
+					"ш": 58.2674,
+					"д": 12.3284,
+					"province": 767,
+					"staff": 810,
+					"fine": 3837
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nammo_sweden",
+			"название": {
+				"ru": "Nammo Sweden AB",
+				"en": "Nammo Sweden AB"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Вингокер / Карлсборг — шведское подразделение скандинавской группы Nammo: специализированные заводы по выпуску малокалиберных бронебойных боеприпасов, артиллерийских порохов и демилитаризации устаревших ракетных систем. (Патроны специального назначения, пороховые заряды, боевые части гранатометов M72 LAW.) [Выручка: 180 млн $, Чистая прибыль: 20 млн $, Штат: 450 чел., Руководитель: Йорген Хольм (J",
+				"en": "Nammo Sweden AB — a defence company of Sweden."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 231,
+				"money": 138,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1688
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швеция)",
+						"en": "The state (Sweden)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швеция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2700,
+			"wage": 6300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стокгольм",
+						"en": "Stockholm"
+					},
+					"ш": 59.3408,
+					"д": 18.0373,
+					"province": 688,
+					"staff": 810,
+					"fine": 3834
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

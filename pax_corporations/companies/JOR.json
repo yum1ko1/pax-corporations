@@ -1,0 +1,1203 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Иордания",
+	"iso": "JOR",
+	"data_date": "2026-03",
+	"average_wage": 600,
+	"companies": [
+		{
+			"id": "arabbank",
+			"название": {
+				"ru": "Arab Bank",
+				"en": "Arab Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1930,
+			"description": {
+				"ru": "Крупнейший банк Иордании, работает в 28 странах.",
+				"en": "Jordan's largest bank, in 28 countries."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 640,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Шоман",
+						"en": "The Shoman family"
+					},
+					"type": "founder",
+					"доля": 0.15
+				},
+				{
+					"кто": {
+						"ru": "Saudi Oger (Харири)",
+						"en": "Saudi Oger (Hariri)"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ранда ас-Садик",
+					"en": "Randa Al-Sadik"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая женщина во главе банка",
+					"en": "первая женщина во главе банка"
+				}
+			},
+			"staff": 8000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.95,
+					"д": 35.91,
+					"province": 223,
+					"staff": 3000,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.arabbank.com/ | ASE: ARBK Annual Report 2024; Central Bank of Jordan"
+		},
+		{
+			"id": "arabpotash",
+			"название": {
+				"ru": "Arab Potash",
+				"en": "Arab Potash"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "смешанная",
+			"founded": 1956,
+			"description": {
+				"ru": "Калий из Мёртвого моря.",
+				"en": "Potash from the Dead Sea."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 350,
+				"debt": 100,
+				"money": 500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 83,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Иордании",
+						"en": "The Jordanian state"
+					},
+					"type": "polity",
+					"доля": 0.26,
+					"country": "Иордания"
+				},
+				{
+					"кто": {
+						"ru": "PCA (Manaseer)",
+						"en": "PCA (Manaseer)"
+					},
+					"type": "крупный",
+					"доля": 0.28,
+					"country": "Иордания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.46
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маан Энсур",
+					"en": "Ma'en Nsour"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 2000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.96,
+					"д": 35.9,
+					"province": 223,
+					"staff": 300,
+					"fine": 1992
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Гор-ас-Сафи",
+						"en": "Ghor Al-Safi"
+					},
+					"ш": 31.05,
+					"д": 35.47,
+					"province": 223,
+					"staff": 1700,
+					"fine": 2000
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.arabpotash.com/ | ASE: APOT Annual Report 2024; Arab Potash Company Disclosures"
+		},
+		{
+			"id": "jordan_phosphate",
+			"название": {
+				"ru": "Jordan Phosphate Mines Company (JPMC)",
+				"en": "Jordan Phosphate Mines Company (JPMC)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по значимости национальный промышленный гигант и один из ведущих мировых экспортеров фосфатного сырья и фосфорных удобрений (карьеры Эш-Шидия, Эль-Абьяд, Эль-Хаса, заводы диаммонийфосфата в Акабе; выручка свыше $1.8 млрд, чистая прибыль ~$600 млн, ASE: JOPH). https://www.jordanphosphate.com/",
+				"en": "Jordan Phosphate Mines Company (JPMC) — a metals and mining company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 600,
+				"debt": 600,
+				"money": 216,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2160
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5200,
+			"wage": 1071,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9348,
+					"д": 35.936,
+					"province": 223,
+					"staff": 1560,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jordan_petroleum",
+			"название": {
+				"ru": "Jordan Petroleum Refinery Company (JPRC / JoPetrol)",
+				"en": "Jordan Petroleum Refinery Company (JPRC / JoPetrol)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный нефтеперерабатывающий завод Иордании в Эз-Зарке и крупнейшая розничная сеть АЗС (производство бензина, дизеля, авиакеросина, мазута и масел; выручка свыше $2.5 млрд, 3,500 сотр., ASE: JOPT). https://www.jopetrol.com.jo/",
+				"en": "Jordan Petroleum Refinery Company (JPRC / JoPetrol) — a oil and gas company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 149,
+				"debt": 704,
+				"money": 237,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1555
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2186,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9597,
+					"д": 35.9466,
+					"province": 223,
+					"staff": 655,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hikma_pharmaceuticals",
+			"название": {
+				"ru": "Hikma Pharmaceuticals",
+				"en": "Hikma Pharmaceuticals"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1978,
+			"description": {
+				"ru": "Международный фармацевтический гигант с иорданскими корнями (основан в Аммане в 1978 г., котируется на LSE: HIK; выпуск инъекционных препаратов, госпитальных дженериков и рецептурных лекарств; выручка ~$3.0 млрд, чистая прибыль ~$350 млн, 9,000 сотр.). https://www.hikma.com/",
+				"en": "Hikma Pharmaceuticals — a pharmaceutical company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 350,
+				"debt": 1397,
+				"money": 392,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 11135
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5478,
+			"wage": 870,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9229,
+					"д": 35.929,
+					"province": 223,
+					"staff": 1643,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jordan_telecom",
+			"название": {
+				"ru": "Jordan Telecom Group (Orange Jordan)",
+				"en": "Jordan Telecom Group (Orange Jordan)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий интегрированный телеком-оператор страны (фиксированная и мобильная связь, оптоволоконный интернет, облачные дата-центры; выручка ~$500 млн, подразделение Orange). https://www.orange.jo/",
+				"en": "Jordan Telecom Group (Orange Jordan) — a IT and telecom company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 65,
+				"debt": 159,
+				"money": 83,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 947
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1324,
+			"wage": 1076,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9428,
+					"д": 35.972,
+					"province": 223,
+					"staff": 397,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zain_jordan",
+			"название": {
+				"ru": "Zain Jordan",
+				"en": "Zain Jordan"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лидер мобильного рынка Иордании по числу активных абонентов и покрытию 4G/5G (свыше 4 млн клиентов, дочерняя структура Zain Group; выручка ~$550 млн). https://www.jo.zain.com/",
+				"en": "Zain Jordan — a IT and telecom company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 71,
+				"debt": 175,
+				"money": 92,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1041
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1456,
+			"wage": 1076,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9923,
+					"д": 35.9131,
+					"province": 223,
+					"staff": 436,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "housing_bank",
+			"название": {
+				"ru": "Housing Bank for Trade and Finance (HBTF)",
+				"en": "Housing Bank for Trade and Finance (HBTF)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк Иордании (активы свыше $12 млрд, чистая прибыль ~$200 млн, более 110 отделений в Иордании, филиалы в Палестине и Бахрейне). https://www.hbtf.com/",
+				"en": "Housing Bank for Trade and Finance (HBTF) — a financial company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 630,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1470
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 986,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9192,
+					"д": 35.9842,
+					"province": 223,
+					"staff": 540,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_jordanian",
+			"название": {
+				"ru": "Royal Jordanian Airlines",
+				"en": "Royal Jordanian Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная флагманская авиакомпания Иордании (член альянса oneworld, хаб в аэропорту Королевы Алии в Аммане, парк Boeing 787 Dreamliner и Airbus A320/A321). https://www.rj.com/",
+				"en": "Royal Jordanian Airlines — a transport company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 35,
+				"debt": 265,
+				"money": 109,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1312,
+			"wage": 982,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9909,
+					"д": 35.9076,
+					"province": 223,
+					"staff": 393,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_electric",
+			"название": {
+				"ru": "National Electric Power Company (NEPCO)",
+				"en": "National Electric Power Company (NEPCO)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монопольный оператор электросетей и магистральной передачи энергии, диспетчер всей энергосистемы и импорта природного газа. https://www.nepco.com.jo/",
+				"en": "National Electric Power Company (NEPCO) — a energy company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 39,
+				"debt": 255,
+				"money": 54,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 554
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 747,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9314,
+					"д": 35.9377,
+					"province": 223,
+					"staff": 224,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "manaseer_group",
+			"название": {
+				"ru": "Manaseer Group",
+				"en": "Manaseer Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный промышленный конгломерат Иордании (цементные заводы, строительные материалы, добыча полезных ископаемых, автозаправочные комплексы Manaseer Oil & Gas; свыше 10,000 сотр.). https://www.manaseergroup.com/",
+				"en": "Manaseer Group — a construction company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 27,
+				"debt": 124,
+				"money": 42,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 404
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1006,
+			"wage": 767,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9283,
+					"д": 35.9375,
+					"province": 223,
+					"staff": 301,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jordan_design",
+			"название": {
+				"ru": "Jordan Design and Development Bureau (JODDB / бывш. KADDB)",
+				"en": "Jordan Design and Development Bureau (JODDB / бывш. KADDB)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный государственный центр оборонных исследований, разработки и производства вооружений Вооруженных сил Иордании (JAF)",
+				"en": "Jordan Design and Development Bureau (JODDB / бывш. KADDB) — a defence company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 94,
+				"profit": 6,
+				"debt": 24,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 176
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 282,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.941,
+					"д": 35.9309,
+					"province": 223,
+					"staff": 84,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jadara_equipment",
+			"название": {
+				"ru": "Jadara Equipment & Defence Systems",
+				"en": "Jadara Equipment & Defence Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик и производитель современных противотанковых ракетных комплексов и реактивных гранатометов (лицензионный выпуск РПГ-32 «Нашшаб», ПТРК Terminator, легкие комплексы Raptor-MV). https://www.jadara.jo/",
+				"en": "Jadara Equipment & Defence Systems — a defence company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 88,
+				"profit": 6,
+				"debt": 23,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 165
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 264,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9876,
+					"д": 35.9455,
+					"province": 223,
+					"staff": 79,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aselsan_middle",
+			"название": {
+				"ru": "Aselsan Middle East (AME)",
+				"en": "Aselsan Middle East (AME)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное оборонное предприятие Aselsan (Турция) и JODDB в Аммане (производство тепловизоров, приборов ночного видения, оптико-электронных прицелов и лазерных целеуказателей для бронетехники и пехоты). https://aselsanme.com/",
+				"en": "Aselsan Middle East (AME) — a defence company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 82,
+				"profit": 5,
+				"debt": 21,
+				"money": 13,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 154
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 246,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9457,
+					"д": 35.9415,
+					"province": 223,
+					"staff": 73,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jordan_light",
+			"название": {
+				"ru": "Jordan Light Weapons Manufacturing (JLWM)",
+				"en": "Jordan Light Weapons Manufacturing (JLWM)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное предприятие с группой Caracal (EDGE Group) по производству стрелкового оружия (штурмовые карабины Caracal CAR 816 калибра 5.56-мм, снайперские винтовки, тактические пистолеты)",
+				"en": "Jordan Light Weapons Manufacturing (JLWM) — a defence company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 81,
+				"profit": 5,
+				"debt": 21,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 152
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 243,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амман",
+						"en": "Amman"
+					},
+					"ш": 31.9806,
+					"д": 35.9233,
+					"province": 223,
+					"staff": 72,
+					"fine": 1992
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "king_hussein",
+			"название": {
+				"ru": "King Hussein Main Workshops (Zarqa)",
+				"en": "King Hussein Main Workshops (Zarqa)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные бронетанковые ремонтные заводы и арсеналы Вооруженных сил Иордании в Эз-Зарке (капитальный ремонт, сервис и модернизация бронетанковой техники и артиллерии)",
+				"en": "King Hussein Main Workshops (Zarqa) — a defence company of Jordan."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Иордания)",
+						"en": "The state (Jordan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Иордания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Зарка",
+						"en": "Zarqa"
+					},
+					"ш": 32.0375,
+					"д": 36.1242,
+					"province": 223,
+					"staff": 71,
+					"fine": 2001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

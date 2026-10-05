@@ -1,0 +1,870 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Республика Конго",
+	"iso": "COG",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "snpc",
+			"название": {
+				"ru": "SNPC",
+				"en": "SNPC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Государственная нефть Республики Конго.",
+				"en": "The Republic of Congo's state oil."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 150,
+				"debt": 1000,
+				"money": 100,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Конго",
+						"en": "The Congolese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Республика Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мексан Рауль Оминга",
+					"en": "Maixent Raoul Ominga"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 1500,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пуэнт-Нуар",
+						"en": "Pointe-Noire"
+					},
+					"ш": -4.78,
+					"д": 11.86,
+					"province": 268,
+					"staff": 1500,
+					"fine": 701
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://snpc-group.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "congolaise_de",
+			"название": {
+				"ru": "Congolaise de Raffinage (CORAF, Пуэнт-Нуар)",
+				"en": "Congolaise de Raffinage (CORAF, Пуэнт-Нуар)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный нефтеперерабатывающий завод страны (дочерняя структура SNPC, переработка ~1 млн т нефти в год)",
+				"en": "Congolaise de Raffinage (CORAF, Пуэнт-Нуар) — a oil and gas company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 42,
+				"debt": 197,
+				"money": 66,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 435
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 612,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пуэнт-Нуар",
+						"en": "Pointe-Noire"
+					},
+					"ш": -4.7755,
+					"д": 11.8786,
+					"province": 268,
+					"staff": 183,
+					"fine": 701
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eni_congo",
+			"название": {
+				"ru": "Eni Congo / TotalEnergies EP Congo / Perenco Congo",
+				"en": "Eni Congo / TotalEnergies EP Congo / Perenco Congo"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Ключевые международные операторы, обеспечивающие более 85% нефтедобычи Конго и экспорт СПГ Congo LNG с 2024 г. (совокупный оборот операторов ~.0 млрд+)",
+				"en": "Eni Congo / TotalEnergies EP Congo / Perenco Congo — a oil and gas company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 472,
+				"profit": 28,
+				"debt": 133,
+				"money": 45,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 294
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 412,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2407,
+					"д": 15.3149,
+					"province": 268,
+					"staff": 123,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mtn_congo",
+			"название": {
+				"ru": "MTN Congo / Airtel Congo / Congo Telecom",
+				"en": "MTN Congo / Airtel Congo / Congo Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие операторы мобильной связи, оптоволоконной инфраструктуры и мобильных денег",
+				"en": "MTN Congo / Airtel Congo / Congo Telecom — a IT and telecom company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 32,
+				"debt": 78,
+				"money": 41,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 464
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 649,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2407,
+					"д": 15.3149,
+					"province": 268,
+					"staff": 194,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "energie_electrique",
+			"название": {
+				"ru": "Energie Electrique du Congo (E2C)",
+				"en": "Energie Electrique du Congo (E2C)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная государственная электроэнергетическая корпорация (ГЭС Мукукулу, ГЭС Ибулу, ТЭС Джено)",
+				"en": "Energie Electrique du Congo (E2C) — a energy company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 205,
+				"profit": 19,
+				"debt": 125,
+				"money": 26,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 270
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Республика Конго)",
+						"en": "The state (Republic of the Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Республика Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 364,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2407,
+					"д": 15.2539,
+					"province": 268,
+					"staff": 109,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome_3",
+			"название": {
+				"ru": "Port Autonome de Pointe-Noire (PAPN)",
+				"en": "Port Autonome de Pointe-Noire (PAPN)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный глубоководный морской порт страны и один из ключевых контейнерных хабов Центральной Африки (Congo Terminal / AGL)",
+				"en": "Port Autonome de Pointe-Noire (PAPN) — a transport company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 83,
+				"money": 34,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 412,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пуэнт-Нуар",
+						"en": "Pointe-Noire"
+					},
+					"ш": -4.7672,
+					"д": 11.899,
+					"province": 268,
+					"staff": 123,
+					"fine": 701
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bgfibank_congo",
+			"название": {
+				"ru": "BGFIBank Congo / LCB Bank / EcoBank Congo",
+				"en": "BGFIBank Congo / LCB Bank / EcoBank Congo"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие коммерческие банки страны",
+				"en": "BGFIBank Congo / LCB Bank / EcoBank Congo — a financial company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 125,
+				"profit": 35,
+				"debt": 0,
+				"money": 0,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 292
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 357,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2785,
+					"д": 15.2856,
+					"province": 268,
+					"staff": 107,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "saris_congo",
+			"название": {
+				"ru": "SARIS Congo (группа Somdiaa / Castel)",
+				"en": "SARIS Congo (группа Somdiaa / Castel)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший агропромышленный производитель сахара в Нкаи",
+				"en": "SARIS Congo (группа Somdiaa / Castel) — a consumer and retail company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 86,
+				"profit": 7,
+				"debt": 20,
+				"money": 7,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 258,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2469,
+					"д": 15.2844,
+					"province": 268,
+					"staff": 77,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brasco",
+			"название": {
+				"ru": "BRASCO (Brasseries du Congo, СП Heineken и CFAO)",
+				"en": "BRASCO (Brasseries du Congo, СП Heineken и CFAO)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель напитков и пива (бренды Primus, Ngok)",
+				"en": "BRASCO (Brasseries du Congo, СП Heineken и CFAO) — a consumer and retail company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 6,
+				"debt": 18,
+				"money": 7,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 108
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.255,
+					"д": 15.2827,
+					"province": 268,
+					"staff": 71,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_navale",
+			"название": {
+				"ru": "Base Navale de Pointe-Noire (Ateliers Maritimes)",
+				"en": "Base Navale de Pointe-Noire (Ateliers Maritimes)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская база ВМС Конго в Гвинейском заливе (ремонт и обслуживание патрульных кораблей и катеров береговой охраны)",
+				"en": "Base Navale de Pointe-Noire (Ateliers Maritimes) — a defence company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 31,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 58
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Республика Конго)",
+						"en": "The state (Republic of the Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Республика Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 93,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пуэнт-Нуар",
+						"en": "Pointe-Noire"
+					},
+					"ш": -4.7964,
+					"д": 11.8331,
+					"province": 268,
+					"staff": 27,
+					"fine": 701
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_3",
+			"название": {
+				"ru": "Base Aérienne 01 (Браззавиль) & Base Aérienne 02 (Пуэнт-Нуар)",
+				"en": "Base Aérienne 01 (Браззавиль) & Base Aérienne 02 (Пуэнт-Нуар)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-авиационные технические комплексы обслуживания и регламентных работ ВВС Конго (истребители Mirage F1, штурмовики Су-25, вертолеты Ми-24, Ми-8/17, транспортники Ил-76)",
+				"en": "Base Aérienne 01 (Браззавиль) & Base Aérienne 02 (Пуэнт-Нуар) — a defence company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 28,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 52
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Республика Конго)",
+						"en": "The state (Republic of the Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Республика Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 84,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2467,
+					"д": 15.3123,
+					"province": 268,
+					"staff": 25,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_centrale",
+			"название": {
+				"ru": "Direction Centrale du Matériel (FAC, Браззавиль)",
+				"en": "Direction Centrale du Matériel (FAC, Браззавиль)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные ремонтные мастерские бронетехники и арсеналы Вооруженных сил Конго (танки Т-55, БМП-1, БТР-60)",
+				"en": "Direction Centrale du Matériel (FAC, Браззавиль) — a defence company of Republic of the Congo."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Республика Конго)",
+						"en": "The state (Republic of the Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Республика Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Браззавиль",
+						"en": "Brazzaville"
+					},
+					"ш": -4.2266,
+					"д": 15.2992,
+					"province": 268,
+					"staff": 22,
+					"fine": 700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

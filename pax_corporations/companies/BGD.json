@@ -1,0 +1,1123 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Бангладеш",
+	"iso": "BGD",
+	"data_date": "2026-03",
+	"average_wage": 150,
+	"companies": [
+		{
+			"id": "grameenphone",
+			"название": {
+				"ru": "Grameenphone",
+				"en": "Grameenphone"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Крупнейший оператор связи Бангладеш, дочка Telenor.",
+				"en": "Bangladesh's largest telecom, a Telenor subsidiary."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 300,
+				"debt": 200,
+				"money": 100,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1350,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Telenor",
+						"en": "Telenor"
+					},
+					"type": "company",
+					"доля": 0.56,
+					"country": "Норвегия",
+					"company": "telenor"
+				},
+				{
+					"кто": {
+						"ru": "Grameen Telecom",
+						"en": "Grameen Telecom"
+					},
+					"type": "крупный",
+					"доля": 0.34,
+					"country": "Бангладеш"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ясир Азман",
+					"en": "Yasir Azman"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 1700,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.81,
+					"д": 90.41,
+					"province": 300,
+					"staff": 1700,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grameenphone.com/about/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "beximco",
+			"название": {
+				"ru": "Beximco",
+				"en": "Beximco"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Текстиль, фарма — изъята у Салмана Рахмана после революции.",
+				"en": "Textiles, pharma — seized from Salman Rahman after the revolution."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 50,
+				"debt": 1500,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Временная администрация (государство)",
+						"en": "Interim administrator (the state)"
+					},
+					"type": "polity",
+					"доля": 0.6,
+					"country": "Бангладеш"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Временный управляющий",
+					"en": "Interim administrator"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "поставлен властями",
+					"en": "поставлен властями"
+				}
+			},
+			"staff": 40000,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.79,
+					"д": 90.4,
+					"province": 300,
+					"staff": 5000,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.beximco.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "bracbank",
+			"название": {
+				"ru": "BRAC Bank",
+				"en": "BRAC Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Банк для малого бизнеса Бангладеш.",
+				"en": "Bangladesh's small-business bank."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 80,
+				"debt": 0,
+				"money": 0,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1770,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "BRAC",
+						"en": "BRAC"
+					},
+					"type": "сама",
+					"доля": 0.44
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Селим Хуссейн",
+					"en": "Selim R. F. Hussain"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 8000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.78,
+					"д": 90.41,
+					"province": 300,
+					"staff": 3000,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bracbank.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "square_pharmaceuticals",
+			"название": {
+				"ru": "Square Pharmaceuticals / Square Group",
+				"en": "Square Pharmaceuticals / Square Group"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший и самый устойчивый производитель фармацевтики и конгломерат (Square Pharma, Square Textiles, Square Food & Toiletries). Чистая выручка группы ~.5 млрд+, Square Pharma — лидер фармрынка Бангладеш (кап ~.8 млрд)",
+				"en": "Square Pharmaceuticals / Square Group — a pharmaceutical company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 455,
+				"profit": 68,
+				"debt": 212,
+				"money": 59,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1689
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 830,
+			"wage": 217,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.7378,
+					"д": 90.4315,
+					"province": 300,
+					"staff": 249,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bashundhara_group",
+			"название": {
+				"ru": "Bashundhara Group",
+				"en": "Bashundhara Group"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный промышленный холдинг страны (цемент, бумага/упаковка, СПГ, сталь, девелопмент, ритейл, медиа). Выручка ~.0 млрд+",
+				"en": "Bashundhara Group — a metals and mining company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 315,
+				"profit": 35,
+				"debt": 105,
+				"money": 38,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 378
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 910,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.713,
+					"д": 90.3688,
+					"province": 300,
+					"staff": 273,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pran_rfl",
+			"название": {
+				"ru": "PRAN-RFL Group",
+				"en": "PRAN-RFL Group"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Бангладеш производитель продуктов питания, напитков, пластмасс и легкого машиностроения, экспортер в 140+ стран (выручка ~.5 млрд+, 140,000+ сотрудников)",
+				"en": "PRAN-RFL Group — a metals and mining company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 175,
+				"profit": 19,
+				"debt": 58,
+				"money": 21,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 210
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 505,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.7046,
+					"д": 90.3936,
+					"province": 300,
+					"staff": 151,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "akij_group",
+			"название": {
+				"ru": "Akij Group",
+				"en": "Akij Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший диверсифицированный промышленный конгломерат (керамика, табак, цемент, текстиль, продукты питания, джут)",
+				"en": "Akij Group — a consumer and retail company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 167,
+				"profit": 13,
+				"debt": 39,
+				"money": 14,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 229
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 501,
+			"wage": 167,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.7216,
+					"д": 90.4132,
+					"province": 300,
+					"staff": 150,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "petrobangla",
+			"название": {
+				"ru": "Petrobangla (Bangladesh Oil, Gas & Mineral Corp)",
+				"en": "Petrobangla (Bangladesh Oil, Gas & Mineral Corp)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная нефтегазовая корпорация (добыча газа, импорт СПГ, геологоразведка, монополия на распределение газа в стране)",
+				"en": "Petrobangla (Bangladesh Oil, Gas & Mineral Corp) — a oil and gas company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 159,
+				"profit": 9,
+				"debt": 45,
+				"money": 15,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 99
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 139,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.745,
+					"д": 90.3962,
+					"province": 300,
+					"staff": 41,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bkash",
+			"название": {
+				"ru": "bKash",
+				"en": "bKash"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая финтех-платформа и система мобильных платежей в Бангладеш (более 75 млн активных пользователей, единорог, дочерняя структура BRAC Bank с участием Ant Group и SoftBank)",
+				"en": "bKash — a financial company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 135,
+				"profit": 38,
+				"debt": 0,
+				"money": 0,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 315
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 385,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.7332,
+					"д": 90.3888,
+					"province": 300,
+					"staff": 115,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "walton_hi",
+			"название": {
+				"ru": "Walton Hi-Tech Industries",
+				"en": "Walton Hi-Tech Industries"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный производитель электроники, бытовой техники, холодильников и кондиционеров (кап ~.5 млрд)",
+				"en": "Walton Hi-Tech Industries — a energy company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 10,
+				"debt": 67,
+				"money": 14,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 145
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 195,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.6708,
+					"д": 90.4228,
+					"province": 300,
+					"staff": 58,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bangladesh_ordnance",
+			"название": {
+				"ru": "Bangladesh Ordnance Factories (BOF)",
+				"en": "Bangladesh Ordnance Factories (BOF)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный государственный военно-промышленный комплекс в Газипуре (производство стрелкового оружия BD-08 / Type 81, артиллерийские и минометные боеприпасы, гранаты, взрывчатые вещества)",
+				"en": "Bangladesh Ordnance Factories (BOF) — a defence company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 37,
+				"profit": 2,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 69
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 111,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Газипур",
+						"en": "Gazipur"
+					},
+					"ш": 23.9951,
+					"д": 90.4254,
+					"province": 300,
+					"staff": 33,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "khulna_shipyard",
+			"название": {
+				"ru": "Khulna Shipyard Limited (KSY)",
+				"en": "Khulna Shipyard Limited (KSY)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная военная верфь под управлением ВМС Бангладеш (строительство патрульных катеров, десантных кораблей LCT, гидрографических судов, буксиров)",
+				"en": "Khulna Shipyard Limited (KSY) — a defence company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 26,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 49
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 78,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кхулна",
+						"en": "Khulna"
+					},
+					"ш": 22.8356,
+					"д": 89.5312,
+					"province": 300,
+					"staff": 23,
+					"fine": 347
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bangladesh_machine",
+			"название": {
+				"ru": "Bangladesh Machine Tools Factory (BMTF)",
+				"en": "Bangladesh Machine Tools Factory (BMTF)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшее государственное машиностроительное и оборонное предприятие под управлением Сухопутных войск Бангладеш (сборка армейских автомобилей, ремонт бронетехники, БПЛА, оптико-электроника, обувь и обмундирование)",
+				"en": "Bangladesh Machine Tools Factory (BMTF) — a defence company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 26,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 49
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 78,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.7146,
+					"д": 90.4116,
+					"province": 300,
+					"staff": 23,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dockyard_and",
+			"название": {
+				"ru": "Dockyard and Engineering Works Limited (DEW Narayanganj)",
+				"en": "Dockyard and Engineering Works Limited (DEW Narayanganj)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судостроительное и ремонтное предприятие под управлением ВМС Бангладеш",
+				"en": "Dockyard and Engineering Works Limited (DEW Narayanganj) — a defence company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Narayanganj"
+					},
+					"ш": 23.6182,
+					"д": 90.491,
+					"province": 300,
+					"staff": 22,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chittagong_dry",
+			"название": {
+				"ru": "Chittagong Dry Dock Limited (CDDL)",
+				"en": "Chittagong Dry Dock Limited (CDDL)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупная государственная верфь ВМС (строительство фрегатов нового поколения для ВМС Бангладеш)",
+				"en": "Chittagong Dry Dock Limited (CDDL) — a defence company of Bangladesh."
+			},
+			"fundamental": {
+				"выручка": 24,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бангладеш)",
+						"en": "The state (Bangladesh)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бангладеш"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 72,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакка",
+						"en": "Dhaka"
+					},
+					"ш": 23.745,
+					"д": 90.391,
+					"province": 300,
+					"staff": 21,
+					"fine": 346
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

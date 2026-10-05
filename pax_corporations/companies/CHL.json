@@ -1,0 +1,1543 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Чили",
+	"iso": "CHL",
+	"data_date": "2026-03",
+	"average_wage": 1100,
+	"companies": [
+		{
+			"id": "codelco",
+			"название": {
+				"ru": "Codelco",
+				"en": "Codelco"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1976,
+			"description": {
+				"ru": "Крупнейший производитель меди в мире.",
+				"en": "The world's largest copper producer."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1000,
+				"debt": 22000,
+				"money": 2000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Чили",
+						"en": "The Chilean state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рубен Альварадо",
+					"en": "Rubén Alvarado"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 20000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.44,
+					"д": -70.65,
+					"province": 348,
+					"staff": 2000,
+					"fine": 610
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Чукикамата",
+						"en": "Chuquicamata"
+					},
+					"ш": -22.29,
+					"д": -68.9,
+					"province": 8,
+					"staff": 8000,
+					"fine": 607
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.codelco.com/inversionistas | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sqm",
+			"название": {
+				"ru": "SQM",
+				"en": "SQM"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Литий из пустыни Атакама и удобрения.",
+				"en": "Lithium from the Atacama desert and fertilisers."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 500,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 285,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tianqi Lithium",
+						"en": "Tianqi Lithium"
+					},
+					"type": "company",
+					"доля": 0.22,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Семья Понсе Леру",
+						"en": "The Ponce Lerou family"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рикардо Рамос",
+					"en": "Ricardo Ramos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 8000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.41,
+					"д": -70.6,
+					"province": 348,
+					"staff": 1000,
+					"fine": 610
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Салар-де-Атакама",
+						"en": "Salar de Atacama"
+					},
+					"ш": -23.5,
+					"д": -68.25,
+					"province": 8,
+					"staff": 3000,
+					"fine": 607
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.sqm.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "antofagasta",
+			"название": {
+				"ru": "Antofagasta",
+				"en": "Antofagasta"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1888,
+			"description": {
+				"ru": "Медь семьи Луксич.",
+				"en": "The Luksic family's copper."
+			},
+			"fundamental": {
+				"выручка": 6600,
+				"profit": 800,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 986,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Луксич",
+						"en": "The Luksic family"
+					},
+					"type": "founder",
+					"доля": 0.65
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Иван Арриагада",
+					"en": "Iván Arriagada"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 7000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.42,
+					"д": -70.61,
+					"province": 348,
+					"staff": 500,
+					"fine": 610
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Лос-Пеламбрес",
+						"en": "Los Pelambres"
+					},
+					"ш": -31.7,
+					"д": -70.5,
+					"province": 348,
+					"staff": 4000,
+					"fine": 609
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.antofagasta.co.uk/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "latam",
+			"название": {
+				"ru": "LATAM Airlines",
+				"en": "LATAM Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1929,
+			"description": {
+				"ru": "Крупнейшая авиакомпания Южной Америки.",
+				"en": "South America's largest airline."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1000,
+				"debt": 7000,
+				"money": 3000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 604000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Куэто",
+						"en": "The Cueto family"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберто Альво",
+					"en": "Roberto Alvo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вывел из банкротства",
+					"en": "вывел из банкротства"
+				}
+			},
+			"staff": 35000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.39,
+					"д": -70.79,
+					"province": 348,
+					"staff": 10000,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.latamairlinesgroup.net/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "falabella",
+			"название": {
+				"ru": "Falabella",
+				"en": "Falabella"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1889,
+			"description": {
+				"ru": "Универмаги, стройтовары и банк в Андах.",
+				"en": "Department stores, DIY and a bank across the Andes."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 400,
+				"debt": 7000,
+				"money": 800,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 2510,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Солари и дель Рио",
+						"en": "The Solari and del Río families"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алехандро Гонсалес",
+					"en": "Alejandro González"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 90000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.42,
+					"д": -70.6,
+					"province": 348,
+					"staff": 5000,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.falabella.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bancochile",
+			"название": {
+				"ru": "Banco de Chile",
+				"en": "Banco de Chile"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1893,
+			"description": {
+				"ru": "Крупнейший банк Чили, группа Луксич.",
+				"en": "Chile's largest bank, the Luksic group."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 101000,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Quiñenco (Луксич)",
+						"en": "Quiñenco (Luksic)"
+					},
+					"type": "крупный",
+					"доля": 0.51,
+					"country": "Чили"
+				},
+				{
+					"кто": {
+						"ru": "Citigroup",
+						"en": "Citigroup"
+					},
+					"type": "company",
+					"доля": 0.0,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдуардо Эбеншпергер",
+					"en": "Eduardo Ebensperger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 12000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.44,
+					"д": -70.65,
+					"province": 348,
+					"staff": 5000,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://portales.bancochile.cl/inversionistas | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "empresas_copec",
+			"название": {
+				"ru": "Empresas Copec (Grupo Angelini)",
+				"en": "Empresas Copec (Grupo Angelini)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный промышленно-инфраструктурный холдинг Чили (топливный ритейл Copec, лесная промышленность Arauco; выручка ~$30 млрд)",
+				"en": "Empresas Copec (Grupo Angelini) — a oil and gas company of Chile."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1786,
+				"debt": 8452,
+				"money": 2850,
+				"dividends": 536
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18661
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 26233,
+			"wage": 1968,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4827,
+					"д": -70.6488,
+					"province": 348,
+					"staff": 7869,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cencosud",
+			"название": {
+				"ru": "Cencosud (семья Паульман)",
+				"en": "Cencosud (семья Паульман)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших ритейлеров Латинской Америки (гипермаркеты Jumbo, Santa Isabel, строймаркеты Easy; выручка ~$16 млрд)",
+				"en": "Cencosud (семья Паульман) — a consumer and retail company of Chile."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1244,
+				"debt": 3692,
+				"money": 1333,
+				"dividends": 373
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 21918
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 48000,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4425,
+					"д": -70.6825,
+					"province": 348,
+					"staff": 14400,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bci",
+			"название": {
+				"ru": "BCI (Banco de Crédito e Inversiones, семья Ярур)",
+				"en": "BCI (Banco de Crédito e Inversiones, семья Ярур)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный банк Чили и США (владеет City National Bank of Florida; активы ~$85 млрд)",
+				"en": "BCI (Banco de Crédito e Inversiones, семья Ярур) — a financial company of Chile."
+			},
+			"fundamental": {
+				"выручка": 4375,
+				"profit": 1230,
+				"debt": 0,
+				"money": 0,
+				"dividends": 369
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10208
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12500,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4565,
+					"д": -70.6875,
+					"province": 348,
+					"staff": 3750,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cmpc",
+			"название": {
+				"ru": "CMPC (Empresas CMPC, семья Матте)",
+				"en": "CMPC (Empresas CMPC, семья Матте)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель целлюлозы, бумаги, картона и санитарно-гигиенической продукции Softys (выручка ~.0 млрд, кап ~.0 млрд)",
+				"en": "CMPC (Empresas CMPC, семья Матте) — a consumer and retail company of Chile."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": 327,
+				"debt": 969,
+				"money": 350,
+				"dividends": 98
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5753
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12600,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4286,
+					"д": -70.6144,
+					"province": 348,
+					"staff": 3780,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "enel_chile",
+			"название": {
+				"ru": "Enel Chile & Colbún",
+				"en": "Enel Chile & Colbún"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие электроэнергетические холдинги страны (выручка Enel Chile ~.5 млрд, Colbún ~.0 млрд)",
+				"en": "Enel Chile & Colbún — a energy company of Chile."
+			},
+			"fundamental": {
+				"выручка": 3255,
+				"profit": 301,
+				"debt": 1978,
+				"money": 417,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4293
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5790,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4275,
+					"д": -70.6697,
+					"province": 348,
+					"staff": 1737,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ccu",
+			"название": {
+				"ru": "CCU (Compañía de Cervecerías Unidas)",
+				"en": "CCU (Compañía de Cervecerías Unidas)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий производитель пива и напитков в регионе (СП Heineken и Quiñenco/Luksic; выручка ~.0 млрд)",
+				"en": "CCU (Compañía de Cervecerías Unidas) — a consumer and retail company of Chile."
+			},
+			"fundamental": {
+				"выручка": 2310,
+				"profit": 180,
+				"debt": 533,
+				"money": 192,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3164
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6930,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4422,
+					"д": -70.6842,
+					"province": 348,
+					"staff": 2079,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cap_s",
+			"название": {
+				"ru": "CAP S.A. (Compañía de Acero del Pacífico)",
+				"en": "CAP S.A. (Compañía de Acero del Pacífico)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный производитель стали и железной руды в Чили (выручка ~.8 млрд)",
+				"en": "CAP S.A. (Compañía de Acero del Pacífico) — a metals and mining company of Chile."
+			},
+			"fundamental": {
+				"выручка": 1942,
+				"profit": 216,
+				"debt": 647,
+				"money": 233,
+				"dividends": 65
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2330
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5610,
+			"wage": 1964,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4482,
+					"д": -70.6221,
+					"province": 348,
+					"staff": 1683,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "entel_chile",
+			"название": {
+				"ru": "Entel Chile",
+				"en": "Entel Chile"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный телеком-оператор (выручка ~.0 млрд)",
+				"en": "Entel Chile — a IT and telecom company of Chile."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 203,
+				"debt": 501,
+				"money": 262,
+				"dividends": 61
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2982
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4172,
+			"wage": 1972,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.486,
+					"д": -70.6456,
+					"province": 348,
+					"staff": 1251,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vi_a",
+			"название": {
+				"ru": "Viña Concha y Toro",
+				"en": "Viña Concha y Toro"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель и экспортер вин в Латинской Америке (бренды Casillero del Diablo, Don Melchor; выручка ~.0 млрд)",
+				"en": "Viña Concha y Toro — a transport company of Chile."
+			},
+			"fundamental": {
+				"выручка": 1553,
+				"profit": 104,
+				"debt": 784,
+				"money": 321,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3882,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4871,
+					"д": -70.6257,
+					"province": 348,
+					"staff": 1164,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "famae",
+			"название": {
+				"ru": "FAMAE (Fábricas y Maestranzas del Ejército, Талаганте)",
+				"en": "FAMAE (Fábricas y Maestranzas del Ejército, Талаганте)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейшее государственное оборонное предприятие армии Чили (штурмовые винтовки Galil ACE / SG 540 по лицензии, пистолеты-пулеметы SAF, РСЗО Tralcan/Rayo, боеприпасы, ТОиР танков Leopard 2A4CHL и БМП Marder 1A3)",
+				"en": "FAMAE (Fábricas y Maestranzas del Ejército, Талаганте) — a defence company of Chile."
+			},
+			"fundamental": {
+				"выручка": 656,
+				"profit": 44,
+				"debt": 169,
+				"money": 101,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1230
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чили)",
+						"en": "The state (Chile)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1968,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Талаганте",
+						"en": "Talagante"
+					},
+					"ш": -33.6901,
+					"д": -70.8994,
+					"province": 348,
+					"staff": 590,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "asmar",
+			"название": {
+				"ru": "ASMAR (Astilleros y Maestranzas de la Armada, Талькауано)",
+				"en": "ASMAR (Astilleros y Maestranzas de la Armada, Талькауано)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная военная верфь ВМС Чили (строительство антарктического ледокола Almirante Viel, патрульных кораблей OPV-80, модернизация фрегатов Type 23 / Adelaide и подлодок Scorpène / Type 209)",
+				"en": "ASMAR (Astilleros y Maestranzas de la Armada, Талькауано) — a defence company of Chile."
+			},
+			"fundamental": {
+				"выручка": 643,
+				"profit": 43,
+				"debt": 165,
+				"money": 99,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1206
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чили)",
+						"en": "The state (Chile)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1929,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4916,
+					"д": -70.649,
+					"province": 348,
+					"staff": 578,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "enaer",
+			"название": {
+				"ru": "ENAER (Empresa Nacional de Aeronáutica, Сантьяго)",
+				"en": "ENAER (Empresa Nacional de Aeronáutica, Сантьяго)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное авиастроительное предприятие ВВС Чили (учебно-тренировочные самолеты Pillán II / T-35, ТОиР и модернизация истребителей F-16 Block 50/MLU, C-130 Hercules, вертолетов Bell 412)",
+				"en": "ENAER (Empresa Nacional de Aeronáutica, Сантьяго) — a defence company of Chile."
+			},
+			"fundamental": {
+				"выручка": 630,
+				"profit": 42,
+				"debt": 162,
+				"money": 97,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1181
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чили)",
+						"en": "The state (Chile)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1890,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4836,
+					"д": -70.6879,
+					"province": 348,
+					"staff": 567,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dts",
+			"название": {
+				"ru": "DTS (Desarrollo de Tecnologías y Sistemas)",
+				"en": "DTS (Desarrollo de Tecnologías y Sistemas)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка военной авионики, систем РЭБ, радиолокационных систем и тактических тренажеров",
+				"en": "DTS (Desarrollo de Tecnologías y Sistemas) — a defence company of Chile."
+			},
+			"fundamental": {
+				"выручка": 615,
+				"profit": 41,
+				"debt": 158,
+				"money": 95,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1153
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чили)",
+						"en": "The state (Chile)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1845,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4519,
+					"д": -70.6322,
+					"province": 348,
+					"staff": 553,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sisdef",
+			"название": {
+				"ru": "SISDEF (Sistemas de Defensa)",
+				"en": "SISDEF (Sistemas de Defensa)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка систем боевого управления (CMS) для кораблей и подлодок ВМС Чили, систем тактической связи и береговой обороны",
+				"en": "SISDEF (Sistemas de Defensa) — a defence company of Chile."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чили)",
+						"en": "The state (Chile)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чили"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сантьяго",
+						"en": "Santiago"
+					},
+					"ш": -33.4222,
+					"д": -70.6339,
+					"province": 348,
+					"staff": 540,
+					"fine": 610
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1659 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Филиппины",
+	"iso": "PHL",
+	"data_date": "2026-03",
+	"average_wage": 350,
+	"companies": [
+		{
+			"id": "sminvest",
+			"название": {
+				"ru": "SM Investments",
+				"en": "SM Investments"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1958,
+			"description": {
+				"ru": "Торговые центры, банк BDO и ритейл семьи Си.",
+				"en": "The Sy family's malls, BDO bank and retail."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1400,
+				"debt": 7000,
+				"money": 2000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1220,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Си",
+						"en": "The Sy family"
+					},
+					"type": "founder",
+					"доля": 0.65
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фредерик Дибунсио",
+					"en": "Frederic DyBuncio"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2017,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 140000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пасай (Манила)",
+						"en": "Pasay (Manila)"
+					},
+					"ш": 14.54,
+					"д": 120.98,
+					"province": 584,
+					"staff": 10000,
+					"fine": 3211
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sminvestments.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ayala",
+			"название": {
+				"ru": "Ayala Corporation",
+				"en": "Ayala Corporation"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1834,
+			"description": {
+				"ru": "Старейший конгломерат Филиппин: недвижимость, банк BPI, связь Globe.",
+				"en": "The Philippines' oldest conglomerate: property, BPI bank, Globe telecom."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 700,
+				"debt": 8000,
+				"money": 1500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 620,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Собель де Айала",
+						"en": "The Zóbel de Ayala family"
+					},
+					"type": "founder",
+					"доля": 0.48
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хайме Аугусто Собель де Айала",
+					"en": "Jaime Augusto Zóbel de Ayala"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2006,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "патриарх",
+					"en": "патриарх"
+				}
+			},
+			"staff": 50000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Макати (Манила)",
+						"en": "Makati (Manila)"
+					},
+					"ш": 14.55,
+					"д": 121.02,
+					"province": 584,
+					"staff": 5000,
+					"fine": 3209
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ayala.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bdo",
+			"название": {
+				"ru": "BDO Unibank",
+				"en": "BDO Unibank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1967,
+			"description": {
+				"ru": "Крупнейший банк Филиппин.",
+				"en": "The Philippines' largest bank."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 1400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 5330,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "SM Investments",
+						"en": "SM Investments"
+					},
+					"type": "company",
+					"доля": 0.45,
+					"country": "Филиппины",
+					"company": "sminvest"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нестор Тан",
+					"en": "Nestor Tan"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2007,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 40000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Макати (Манила)",
+						"en": "Makati (Manila)"
+					},
+					"ш": 14.56,
+					"д": 121.02,
+					"province": 584,
+					"staff": 8000,
+					"fine": 3209
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bdo.com.ph/about-bdo/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pldt",
+			"название": {
+				"ru": "PLDT",
+				"en": "PLDT"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1928,
+			"description": {
+				"ru": "Крупнейшая связь Филиппин (Smart).",
+				"en": "The Philippines' largest telecom (Smart)."
+			},
+			"fundamental": {
+				"выручка": 3700,
+				"profit": 550,
+				"debt": 5000,
+				"money": 300,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 216,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "First Pacific (Мануэль Пангилинан)",
+						"en": "First Pacific (Manuel Pangilinan)"
+					},
+					"type": "крупный",
+					"доля": 0.26
+				},
+				{
+					"кто": {
+						"ru": "NTT Docomo",
+						"en": "NTT Docomo"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Япония",
+					"company": "ntt"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мануэль Пангилинан",
+					"en": "Manuel V. Pangilinan"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2016,
+				"born_year": 1946,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеран",
+					"en": "ветеран"
+				}
+			},
+			"staff": 18000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Макати (Манила)",
+						"en": "Makati (Manila)"
+					},
+					"ш": 14.56,
+					"д": 121.03,
+					"province": 584,
+					"staff": 8000,
+					"fine": 3206
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://pldt.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sanmiguel",
+			"название": {
+				"ru": "San Miguel Corporation",
+				"en": "San Miguel Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1890,
+			"description": {
+				"ru": "Пиво, НПЗ Petron, электростанции и дороги.",
+				"en": "Beer, the Petron refinery, power plants and roads."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": 600,
+				"debt": 25000,
+				"money": 3000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 2380,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Рамон Анг и Top Frontier",
+						"en": "Ramon Ang and Top Frontier"
+					},
+					"type": "founder",
+					"доля": 0.66
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.34
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рамон Анг",
+					"en": "Ramon Ang"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2012,
+				"born_year": 1954,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель империи",
+					"en": "строитель империи"
+				}
+			},
+			"staff": 50000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мандалуйонг (Манила)",
+						"en": "Mandaluyong (Manila)"
+					},
+					"ш": 14.58,
+					"д": 121.06,
+					"province": 584,
+					"staff": 5000,
+					"fine": 3206
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Petron, Батаан",
+						"en": "Petron refinery, Bataan"
+					},
+					"ш": 14.52,
+					"д": 120.6,
+					"province": 584,
+					"staff": 2000,
+					"fine": 3135
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sanmiguel.com.ph/page/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "jollibee",
+			"название": {
+				"ru": "Jollibee Foods",
+				"en": "Jollibee Foods"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1978,
+			"description": {
+				"ru": "Сеть фастфуда, владеет Coffee Bean и Tim Hortons Китая.",
+				"en": "A fast-food chain, owns Coffee Bean and Tim Hortons China."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 200,
+				"debt": 1500,
+				"money": 500,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1120,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Тони Тан Ктионг",
+						"en": "Tony Tan Caktiong"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эрнесто Танмантионг",
+					"en": "Ernesto Tanmantiong"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2014,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "брат основателя",
+					"en": "брат основателя"
+				}
+			},
+			"staff": 25000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пасиг (Манила)",
+						"en": "Pasig (Manila)"
+					},
+					"ш": 14.58,
+					"д": 121.06,
+					"province": 584,
+					"staff": 3000,
+					"fine": 3206
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.jollibeefoods.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "jg_summit",
+			"название": {
+				"ru": "JG Summit Holdings",
+				"en": "JG Summit Holdings"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Пасиг / Манила — крупнейший диверсифицированный конгломерат (авиакомпания Cebu Pacific, пищепром Universal Robina, девелопмент Robinsons Land, нефтехимия JG Summit Olefins). [Выручка: 5 800 млн $ (325 000 млн PHP), Чистая прибыль: 360 млн $, Штат: 30 000 чел., Руководитель: Лэнс Гоконгвей (Lance Gokongwei), с 2018 года, 1966 г.р.]. Официальные источники: https://www.jgsummit.com.ph/investor-relati",
+				"en": "JG Summit Holdings — a oil and gas company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 2012,
+				"profit": 120,
+				"debt": 567,
+				"money": 191,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1252
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1759,
+			"wage": 626,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6037,
+					"д": 120.9586,
+					"province": 584,
+					"staff": 527,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_of_3",
+			"название": {
+				"ru": "Bank of the Philippine Islands (BPI)",
+				"en": "Bank of the Philippine Islands (BPI)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Макати — старейший коммерческий банк Юго-Восточной Азии и второй по величине частный банк Филиппин (в структуре Ayala Group). [Выручка: 2 500 млн $ (140 000 млн PHP), Чистая прибыль: 1 100 млн $ (60 000 млн PHP), Штат: 19 000 чел., Руководитель: Хосе Теодоро Лимкауко (Jose Teodoro Limcaoco), с 2021 года, 1962 г.р.]. Официальные источники: https://www.bpi.com.ph/about-bpi/investor-relations",
+				"en": "Bank of the Philippine Islands (BPI) — a financial company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1925,
+				"profit": 541,
+				"debt": 0,
+				"money": 0,
+				"dividends": 162
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4492
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6354,
+					"д": 121.0038,
+					"province": 584,
+					"staff": 1650,
+					"fine": 3202
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "metropolitan_bank",
+			"название": {
+				"ru": "Metropolitan Bank & Trust Company (Metrobank)",
+				"en": "Metropolitan Bank & Trust Company (Metrobank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Макати — Dee), с 2012 года, 1962 г.р.]. Официальные источники: https://www.metrobank.com.ph/investor-relations",
+				"en": "Metropolitan Bank & Trust Company (Metrobank) — a financial company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1837,
+				"profit": 517,
+				"debt": 0,
+				"money": 0,
+				"dividends": 155
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4286
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фабиан Ди (Fabian S",
+					"en": "Фабиан Ди (Fabian S"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5248,
+			"wage": 575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.5685,
+					"д": 121.019,
+					"province": 584,
+					"staff": 1574,
+					"fine": 3209
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "globe_telecom",
+			"название": {
+				"ru": "Globe Telecom",
+				"en": "Globe Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2009,
+			"description": {
+				"ru": "Тагиг / BGC — Cu), с 2009 года, 1960 г.р.]. Официальные источники: https://www.globe.com.ph/about-us/investor-relations.html",
+				"en": "Globe Telecom — a IT and telecom company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 226,
+				"debt": 556,
+				"money": 292,
+				"dividends": 68
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3313
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эрнест Ку (Ernest L",
+					"en": "Эрнест Ку (Ernest L"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4635,
+			"wage": 628,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тагиг",
+						"en": "Taguig"
+					},
+					"ш": 14.5282,
+					"д": 121.0873,
+					"province": 584,
+					"staff": 1390,
+					"fine": 3214
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "manila_electric",
+			"название": {
+				"ru": "Manila Electric Company (Meralco)",
+				"en": "Manila Electric Company (Meralco)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Пасиг — Pangilinan), председатель и генеральный директор, 1946 г.р.]. Официальные источники: https://company.meralco.com.ph/investor-relations",
+				"en": "Manila Electric Company (Meralco) — a energy company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1522,
+				"profit": 141,
+				"debt": 925,
+				"money": 195,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2007
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мануэль Пангилинан (Manuel V",
+					"en": "Мануэль Пангилинан (Manuel V"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2707,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6413,
+					"д": 120.9511,
+					"province": 584,
+					"staff": 812,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "international_container",
+			"название": {
+				"ru": "International Container Terminal Services, Inc. (ICTSI)",
+				"en": "International Container Terminal Services, Inc. (ICTSI)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Манила — Razon Jr.), председатель и CEO с 1987 года, 1960 г.р.]. Официальные источники: https://www.ictsi.com/investor-relations",
+				"en": "International Container Terminal Services, Inc. (ICTSI) — a transport company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1295,
+				"profit": 86,
+				"debt": 654,
+				"money": 268,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 925
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Энрике Расон-младший (Enrique K",
+					"en": "Энрике Расон-младший (Enrique K"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3237,
+			"wage": 573,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6314,
+					"д": 120.9611,
+					"province": 584,
+					"staff": 971,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aboitiz_equity",
+			"название": {
+				"ru": "Aboitiz Equity Ventures (AEV)",
+				"en": "Aboitiz Equity Ventures (AEV)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Тагиг / Себу — Aboitiz), с 2020 года, 1964 г.р.]. Официальные источники: https://aboitiz.com/investor-relations/",
+				"en": "Aboitiz Equity Ventures (AEV) — a financial company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 281,
+				"debt": 0,
+				"money": 0,
+				"dividends": 84
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2333
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сабин Абоитис (Sabin M",
+					"en": "Сабин Абоитис (Sabin M"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2857,
+			"wage": 575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тагиг",
+						"en": "Taguig"
+					},
+					"ш": 14.5222,
+					"д": 121.0935,
+					"province": 584,
+					"staff": 857,
+					"fine": 3214
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "petron_corporation",
+			"название": {
+				"ru": "Petron Corporation",
+				"en": "Petron Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2009,
+			"description": {
+				"ru": "Мандалуйонг / Лимай — Ang), с 2009 года, 1954 г.р.]. Официальные источники: https://www.petron.com/investor-relations/",
+				"en": "Petron Corporation — a oil and gas company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 704,
+				"profit": 42,
+				"debt": 198,
+				"money": 67,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 438
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рамон Анг (Ramon S",
+					"en": "Рамон Анг (Ramon S"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 615,
+			"wage": 626,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мандалуйонг",
+						"en": "Mandaluyong City"
+					},
+					"ш": 14.575,
+					"д": 121.03,
+					"province": 584,
+					"staff": 184,
+					"fine": 3206
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "universal_robina",
+			"название": {
+				"ru": "Universal Robina Corporation (URC)",
+				"en": "Universal Robina Corporation (URC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Кесон-Сити — Lee), с 2018 года, 1965 г.р.]. Официальные источники: https://www.urc.com.ph/investor-relations",
+				"en": "Universal Robina Corporation (URC) — a consumer and retail company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 689,
+				"profit": 54,
+				"debt": 159,
+				"money": 57,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 944
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ирвин Ли (Irwin C",
+					"en": "Ирвин Ли (Irwin C"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2067,
+			"wage": 389,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кесон",
+						"en": "Quezon"
+					},
+					"ш": 7.7078,
+					"д": 125.0909,
+					"province": 562,
+					"staff": 620,
+					"fine": 3165
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alliance_global",
+			"название": {
+				"ru": "Alliance Global Group (AGI)",
+				"en": "Alliance Global Group (AGI)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Тагиг — конгломерат Эндрю Тана: крупнейший в мире производитель бренди Emperador, девелопер Megaworld и франшиза McDonald's на Филиппинах. [Выручка: 3 800 млн $ (215 000 млн PHP), Чистая прибыль: 350 млн $, Штат: 38 000 чел., Руководитель: Кевин Тан (Kevin Tan), с 2018 года, 1979 г.р.]. Официальные источники: https://www.allianceglobalinc.com/investor-relations",
+				"en": "Alliance Global Group (AGI) — a construction company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 674,
+				"profit": 56,
+				"debt": 261,
+				"money": 88,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 850
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2120,
+			"wage": 448,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тагиг",
+						"en": "Taguig"
+					},
+					"ш": 14.5162,
+					"д": 121.1132,
+					"province": 584,
+					"staff": 636,
+					"fine": 3214
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "government_arsenal",
+			"название": {
+				"ru": "Government Arsenal",
+				"en": "Government Arsenal"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Камп-Генерал Антонио Луна, Лимай, провинция Батаан — Lingan), директор, 1969 г.р.]. Официальные источники: https://arsenal.mil.ph/",
+				"en": "Government Arsenal — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 282,
+				"profit": 19,
+				"debt": 73,
+				"money": 43,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 529
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Филиппины)",
+						"en": "The state (Philippines)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Филиппины"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джеральд Линган (Gerald B",
+					"en": "Джеральд Линган (Gerald B"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 846,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6437,
+					"д": 120.9758,
+					"province": 584,
+					"staff": 253,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "armscor_global",
+			"название": {
+				"ru": "Armscor Global Defense, Inc.",
+				"en": "Armscor Global Defense, Inc."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Марикина, Манила — крупнейший частный производитель стрелкового оружия и патронов в Юго-Восточной Азии (бренды Armscor и Rock Island Armory): пистолеты платформы 1911, RIA 5.0, тактические ружья VR80, винтовки и экспорт боеприпасов в 60+ стран мира. (Серийное производство пистолетов, помповых и самозарядных ружей, карабинов и стрелковых патронов.) [Выручка: 180 млн $, Чистая прибыль: 22 млн $, Шта",
+				"en": "Armscor Global Defense, Inc. — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 276,
+				"profit": 18,
+				"debt": 71,
+				"money": 42,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 518
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 828,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.5838,
+					"д": 121.0117,
+					"province": 584,
+					"staff": 248,
+					"fine": 3209
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "philippine_navy",
+			"название": {
+				"ru": "Philippine Navy Naval Shipyard (NSSC)",
+				"en": "Philippine Navy Naval Shipyard (NSSC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская станция Паскуаль Ледесма, Кавите-Сити — главный судостроительно-судоремонтный завод ВМС Филиппин: постройка ударных ракетных катеров Multi-Purpose Assault Craft (MPAC Mk III с ракетным комплексом Spike-ER), капитальный ремонт фрегатов класса Jose Rizal и патрульных кораблей класса Del Pilar. (Военно-морское судостроение скоростных ракетных катеров, доковый ремонт боевых кораблей, ко",
+				"en": "Philippine Navy Naval Shipyard (NSSC) — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 269,
+				"profit": 18,
+				"debt": 69,
+				"money": 41,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 504
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Филиппины)",
+						"en": "The state (Philippines)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Филиппины"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 807,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кавите",
+						"en": "Cavite City"
+					},
+					"ш": 14.4753,
+					"д": 120.9236,
+					"province": 584,
+					"staff": 242,
+					"fine": 3143
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "philippine_aerospace",
+			"название": {
+				"ru": "Philippine Aerospace Development Corporation (PADC / PAF ALC)",
+				"en": "Philippine Aerospace Development Corporation (PADC / PAF ALC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиабаза Кларк / Авиабаза Вильямор, Манила — государственная корпорация авиационного развития и Командование авиационной логистики ВВС Филиппин: техническое обслуживание легких истребителей FA-50PH Fighting Eagle, штурмовиков A-29B Super Tucano, военно-транспортных C-130 Hercules и боевых вертолетов Sikorsky S-70i Black Hawk. (Интеграция авиационных комплексов, ремонт вертолетных двигателей T700, ",
+				"en": "Philippine Aerospace Development Corporation (PADC / PAF ALC) — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 262,
+				"profit": 17,
+				"debt": 67,
+				"money": 40,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 491
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Филиппины)",
+						"en": "The state (Philippines)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Филиппины"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 786,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.587,
+					"д": 120.9718,
+					"province": 584,
+					"staff": 235,
+					"fine": 3209
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "steelcraft_anos",
+			"название": {
+				"ru": "Steelcraft / Anos Research Manufacturing",
+				"en": "Steelcraft / Anos Research Manufacturing"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Манила — предприятие по разработке и бронированию тактических колесных платформ: выпуск легких разведывательных бронемашин MX-8, бронеавтомобилей сопровождения колонн и спецавтомобилей для спецподразделений армии и полиции. (Бронекорпуса, бронированные колесные машины 4х4, композитная баллистическая защита.) [Выручка: 20 млн $, Чистая прибыль: 2 млн $, Штат: 200 чел., Руководитель: Бернардо Анос (",
+				"en": "Steelcraft / Anos Research Manufacturing — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 16,
+				"debt": 63,
+				"money": 38,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 459
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Филиппины)",
+						"en": "The state (Philippines)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Филиппины"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 735,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6097,
+					"д": 120.9704,
+					"province": 584,
+					"staff": 220,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "united_defense",
+			"название": {
+				"ru": "United Defense Manufacturing Corporation (UDMC)",
+				"en": "United Defense Manufacturing Corporation (UDMC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Параньяке / Манила — частный производитель высокоточного стрелкового оружия: штурмовые винтовки PVAR (газопоршневая запатентованная система), марксманские снайперские винтовки F5-DMR для спецназа ВМС (NAVSOG) и Армии Филиппин. (Тактические автоматические винтовки 5.56 мм и снайперские системы 7.62х51 мм с повышенной надежностью.) [Выручка: 15 млн $, Чистая прибыль: 2 млн $, Штат: 150 чел., Руковод",
+				"en": "United Defense Manufacturing Corporation (UDMC) — a defence company of Philippines."
+			},
+			"fundamental": {
+				"выручка": 228,
+				"profit": 15,
+				"debt": 59,
+				"money": 35,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 428
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 684,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Манила",
+						"en": "Manila"
+					},
+					"ш": 14.6331,
+					"д": 120.945,
+					"province": 584,
+					"staff": 205,
+					"fine": 3200
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

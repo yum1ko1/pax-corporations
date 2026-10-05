@@ -1,0 +1,1163 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Шри-Ланка",
+	"iso": "LKA",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "johnkeells",
+			"название": {
+				"ru": "John Keells",
+				"en": "John Keells Holdings"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1870,
+			"description": {
+				"ru": "Крупнейший конгломерат Шри-Ланки: отели, порты, магазины.",
+				"en": "Sri Lanka's largest conglomerate: hotels, ports, shops."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 50,
+				"debt": 600,
+				"money": 200,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1500,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кришан Балендра",
+					"en": "Krishan Balendra"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист",
+					"en": "юрист"
+				}
+			},
+			"staff": 15000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.93,
+					"д": 79.85,
+					"province": 563,
+					"staff": 4000,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.keells.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dialog",
+			"название": {
+				"ru": "Dialog Axiata",
+				"en": "Dialog Axiata"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейший оператор Шри-Ланки.",
+				"en": "Sri Lanka's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 50,
+				"debt": 300,
+				"money": 50,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 9400,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Axiata (Малайзия)",
+						"en": "Axiata (Malaysia)"
+					},
+					"type": "company",
+					"доля": 0.83,
+					"country": "Малайзия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.17
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Супун Веерасингхе",
+					"en": "Supun Weerasinghe"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2017,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 3000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.92,
+					"д": 79.86,
+					"province": 563,
+					"staff": 2000,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.dialog.lk | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hayleys_plc",
+			"название": {
+				"ru": "Hayleys PLC",
+				"en": "Hayleys PLC"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2009,
+			"description": {
+				"ru": "Конгломераты / Логистика, с/х, текстиль, перчатки Dipped Products — [Выручка: $1,350 млн (LKR 415+ млрд), Чистая прибыль: $38 млн, Долг: $480 млн, Деньги: $110 млн, Дивиденды: $12 млн, Капитализация: $280 млн (LKR 82 млрд на CSE), Штат: 36,000 чел., Зарплата: $280/мес, Руководитель: Мохан Пандитхаге (Mohan Pandithage), Председатель и Главный исполнительный директор с 2009 года, родился в 1952 году",
+				"en": "Hayleys PLC — a transport company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 1350,
+				"profit": 38,
+				"debt": 480,
+				"money": 110,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 280
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9263,
+					"д": 79.8534,
+					"province": 563,
+					"staff": 1012,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "commercial_bank",
+			"название": {
+				"ru": "Commercial Bank of Ceylon PLC (ComBank)",
+				"en": "Commercial Bank of Ceylon PLC (ComBank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банки и финансовые услуги (крупнейший частный банк Шри-Ланки — ) [Выручка: $880 млн (чистый процентный и комиссионный доход), Чистая прибыль: $105 млн, Долг: $1,400 млн (облигации и межбанковские займы при активах $8+ млрд), Деньги: $650 млн, Дивиденды: $25 млн, Капитализация: $480 млн, Штат: 5,200 чел., Зарплата: $550/мес, Руководитель: Санат Манатунге (Sanath Manatunge), Managing Director / CEO ",
+				"en": "Commercial Bank of Ceylon PLC (ComBank) — a financial company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 880,
+				"profit": 105,
+				"debt": 1400,
+				"money": 650,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 480
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2514,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9119,
+					"д": 79.8302,
+					"province": 563,
+					"staff": 754,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "ceylon_petroleum",
+			"название": {
+				"ru": "Ceylon Petroleum Corporation (CEYPETCO)",
+				"en": "Ceylon Petroleum Corporation (CEYPETCO)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Нефть и газ / Переработка и сбыт нефтепродуктов (НПЗ Сапугасканда — ) [Выручка: $3,800 млн, Чистая прибыль: $120 млн, Долг: $1,800 млн, Деньги: $250 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 4,200 чел., Зарплата: $480/мес, Руководитель: Джанака Раджакаруна (Janaka Rajakaruna), Председатель правления с 2024 года, родился в 1968 году.]. Официальные источники: https://ceype",
+				"en": "Ceylon Petroleum Corporation (CEYPETCO) — a oil and gas company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 120,
+				"debt": 1800,
+				"money": 250,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2364
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3322,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9236,
+					"д": 79.8236,
+					"province": 563,
+					"staff": 996,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ceylon_electricity",
+			"название": {
+				"ru": "Ceylon Electricity Board (CEB)",
+				"en": "Ceylon Electricity Board (CEB)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Энергетика (национальная электроэнергетическая корпорация — Rohan Seneviratne), Генеральный менеджер с 2023 года, родился в 1965 году.]. Официальные источники: https://www.ceb.lk, https://www.ceb.lk/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Ceylon Electricity Board (CEB) — a energy company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 1350,
+				"profit": 60,
+				"debt": 1500,
+				"money": 180,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1780
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рохан Сеневиратне (Eng",
+					"en": "Рохан Сеневиратне (Eng"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2401,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9683,
+					"д": 79.8126,
+					"province": 563,
+					"staff": 720,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hatton_national",
+			"название": {
+				"ru": "Hatton National Bank PLC (HNB)",
+				"en": "Hatton National Bank PLC (HNB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Банки и финансовые услуги — [Выручка: $760 млн, Чистая прибыль: $82 млн, Долг: $1,100 млн, Деньги: $550 млн, Дивиденды: $22 млн, Капитализация: $360 млн, Штат: 5,000 чел., Зарплата: $540/мес, Руководитель: Дамит Паллеватте (Damith Pallewatte), Managing Director / CEO с апреля 2024 года, родился в 1972 году.]. Официальные источники: https://www.hnb.net, https://www.cse.lk",
+				"en": "Hatton National Bank PLC (HNB) — a financial company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 760,
+				"profit": 82,
+				"debt": 1100,
+				"money": 550,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 360
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2171,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9456,
+					"д": 79.8482,
+					"province": 563,
+					"staff": 651,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "melstacorp_plc",
+			"название": {
+				"ru": "Melstacorp PLC / DCSL",
+				"en": "Melstacorp PLC / DCSL"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1942,
+			"description": {
+				"ru": "Дистиллерии, алкоголь, плантации, телеком и здравоохранение — [Выручка: $620 млн, Чистая прибыль: $42 млн, Долг: $260 млн, Деньги: $90 млн, Дивиденды: $18 млн, Капитализация: $320 млн, Штат: 18,000 чел., Зарплата: $290/мес, Руководитель: Дон Гарольд Стассен (Гарри) Джаявардена (Don Harold Stassen / Harry Jayawardena), Председатель совета директоров, родился в 1942 году.]. Официальные источники: ht",
+				"en": "Melstacorp PLC / DCSL — a pharmaceutical company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 620,
+				"profit": 42,
+				"debt": 260,
+				"money": 90,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 320
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1132,
+			"wage": 290,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9315,
+					"д": 79.854,
+					"province": 563,
+					"staff": 339,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "sri_lanka",
+			"название": {
+				"ru": "Sri Lanka Telecom PLC (SLT-MOBITEL)",
+				"en": "Sri Lanka Telecom PLC (SLT-MOBITEL)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "IT и телекоммуникации (национальный проводной и мобильный оператор — ) [Выручка: $360 млн, Чистая прибыль: $14 млн, Долг: $220 млн, Деньги: $45 млн, Дивиденды: $8 млн, Капитализация: $410 млн, Штат: 7,500 чел., Зарплата: $460/мес, Руководитель: Джанака Абейсингхе (Janaka Abeysinghe), СЕО с 2022 года, родился в 1966 году.]. Официальные источники: https://www.slt.lk, https://www.cse.lk",
+				"en": "Sri Lanka Telecom PLC (SLT-MOBITEL) — a IT and telecom company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 360,
+				"profit": 14,
+				"debt": 220,
+				"money": 45,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 410
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 953,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.897,
+					"д": 79.8155,
+					"province": 563,
+					"staff": 285,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "srilankan_airlines",
+			"название": {
+				"ru": "SriLankan Airlines",
+				"en": "SriLankan Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Авиаперевозки (национальный авиаперевозчик — ) [Выручка: $480 млн, Чистая прибыль: -$60 млн (убыток / программа реструктуризации), Долг: $1,100 млн, Деньги: $40 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 5,800 чел., Зарплата: $600/мес, Руководитель: Ричард Натталл (Richard Nuttall), Chief Executive Officer с 2022 года, родился в 1964 году.]. Официальные источники: https:/",
+				"en": "SriLankan Airlines — a transport company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 480,
+				"profit": -60,
+				"debt": 1100,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 343
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9264,
+					"д": 79.8477,
+					"province": 563,
+					"staff": 360,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aitken_spence",
+			"название": {
+				"ru": "Aitken Spence PLC",
+				"en": "Aitken Spence PLC"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Логистика, порты, туризм, энергетика, сельское хозяйство — Parakrama Dissanayake), Заместитель председателя и Управляющий директор с 2019 года, родился в 1957 году.]. Официальные источники: https://www.aitkenspence.com, https://www.cse.lk",
+				"en": "Aitken Spence PLC — a transport company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 340,
+				"profit": 18,
+				"debt": 210,
+				"money": 50,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 160
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Д-р Памакрама Диссанаяке (Dr",
+					"en": "Д-р Памакрама Диссанаяке (Dr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9597,
+					"д": 79.8349,
+					"province": 563,
+					"staff": 255,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "colombo_dockyard",
+			"название": {
+				"ru": "Colombo Dockyard PLC (CDPLC)",
+				"en": "Colombo Dockyard PLC (CDPLC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Военно-морское судостроение, ремонт боевых кораблей и катеров ВМС Шри-Ланки и зарубежных флотов, строительство морских патрульных судов (OPV — Годакумбура (Thimira S. Godakumbura), Managing Director / CEO с 2022 года, родился в 1973 году.]. Официальные источники: https://www.cdl.lk, https://www.cse.lk",
+				"en": "Colombo Dockyard PLC (CDPLC) — a defence company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 7,
+				"debt": 28,
+				"money": 17,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 206
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Шри-Ланка)",
+						"en": "The state (Sri Lanka)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Шри-Ланка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тимира С",
+					"en": "Тимира С"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 330,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9695,
+					"д": 79.8312,
+					"province": 563,
+					"staff": 99,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sri_lanka_2",
+			"название": {
+				"ru": "Sri Lanka Navy Research & Development Unit / Naval Boat Building Yard (NBBY Welisara)",
+				"en": "Sri Lanka Navy Research & Development Unit / Naval Boat Building Yard (NBBY Welisara)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Научно-производственный комплекс военно-морского флота Шри-Ланки — Официальные источники: https://navy.lk, https://navy.lk/defense (Оборонные программы)",
+				"en": "Sri Lanka Navy Research & Development Unit / Naval Boat Building Yard (NBBY Welisara) — a defence company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 104,
+				"profit": 7,
+				"debt": 27,
+				"money": 16,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 195
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Шри-Ланка)",
+						"en": "The state (Sri Lanka)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Шри-Ланка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор научно-исследовательского отдела ВМС (Commodore / Rear Admiral R&D, Sri Lanka Navy)]",
+					"en": "Директор научно-исследовательского отдела ВМС (Commodore / Rear Admiral R&D, Sri Lanka Navy)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 312,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9364,
+					"д": 79.8871,
+					"province": 563,
+					"staff": 93,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sri_lanka_3",
+			"название": {
+				"ru": "Sri Lanka Electrical & Mechanical Engineers (SLEME) Regimental Base Workshops",
+				"en": "Sri Lanka Electrical & Mechanical Engineers (SLEME) Regimental Base Workshops"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военный бронетанковый и ремонтный завод Сухопутных войск Шри-Ланки — Официальные источники: https://army.lk/sleme, https://army.lk/defense (Оборонные программы)",
+				"en": "Sri Lanka Electrical & Mechanical Engineers (SLEME) Regimental Base Workshops — a defence company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 93,
+				"profit": 6,
+				"debt": 24,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 174
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Шри-Ланка)",
+						"en": "The state (Sri Lanka)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Шри-Ланка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник-комендант и командир бригады SLEME (Brigadier / Major General SLEME)]",
+					"en": "Полковник-комендант и командир бригады SLEME (Brigadier / Major General SLEME)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 279,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Моратува",
+						"en": "Moratuwa"
+					},
+					"ш": 6.7704,
+					"д": 79.9113,
+					"province": 563,
+					"staff": 83,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sri_lanka_4",
+			"название": {
+				"ru": "Sri Lanka Air Force Aircraft Overhaul Wing (AOW Katunayake)",
+				"en": "Sri Lanka Air Force Aircraft Overhaul Wing (AOW Katunayake)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное авиаремонтное предприятие ВВС Шри-Ланки — Официальные источники: https://airforce.lk, https://airforce.lk/defense (Оборонные программы)",
+				"en": "Sri Lanka Air Force Aircraft Overhaul Wing (AOW Katunayake) — a defence company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 92,
+				"profit": 6,
+				"debt": 24,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 172
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Шри-Ланка)",
+						"en": "The state (Sri Lanka)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Шри-Ланка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир крыла AOW (Group Captain / Air Commodore SLAF)]",
+					"en": "Командир крыла AOW (Group Captain / Air Commodore SLAF)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 276,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9272,
+					"д": 79.8246,
+					"province": 563,
+					"staff": 82,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sri_lanka_5",
+			"название": {
+				"ru": "Sri Lanka Army Central Ordnance Depots & Explosives Factory",
+				"en": "Sri Lanka Army Central Ordnance Depots & Explosives Factory"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные склады боеприпасов, снаряжательный завод и ремонтно-оружейные мастерские — Официальные источники: https://army.lk, https://army.lk/defense (Оборонные программы)",
+				"en": "Sri Lanka Army Central Ordnance Depots & Explosives Factory — a defence company of Sri Lanka."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 6,
+				"debt": 23,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 169
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Шри-Ланка)",
+						"en": "The state (Sri Lanka)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Шри-Ланка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Главный офицер артиллерийско-технического снабжения (Director of Ordnance Services, Sri Lanka Army)]",
+					"en": "Главный офицер артиллерийско-технического снабжения (Director of Ordnance Services, Sri Lanka Army)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 270,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коломбо",
+						"en": "Colombo"
+					},
+					"ш": 6.9058,
+					"д": 79.882,
+					"province": 563,
+					"staff": 81,
+					"fine": 2280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

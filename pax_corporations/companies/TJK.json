@@ -1,0 +1,1159 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Таджикистан",
+	"iso": "TJK",
+	"data_date": "2026-03",
+	"average_wage": 150,
+	"companies": [
+		{
+			"id": "talco",
+			"название": {
+				"ru": "ТАЛКО",
+				"en": "TALCO"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Алюминиевый завод — треть экспорта Таджикистана.",
+				"en": "An aluminium smelter — a third of Tajikistan's exports."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 30,
+				"debt": 800,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Таджикистана",
+						"en": "The Tajik state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шароф Ахмадзода",
+					"en": "Sharof Akhmadzoda"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 8000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Турсунзаде",
+						"en": "Tursunzoda"
+					},
+					"ш": 38.51,
+					"д": 68.23,
+					"province": 98,
+					"staff": 8000,
+					"fine": 3997
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "http://www.talco.com.tj/"
+		},
+		{
+			"id": "barki_tochik",
+			"название": {
+				"ru": "Барки Точик (Barki Tojik)",
+				"en": "Барки Точик (Barki Tojik)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный энергетический холдинг Таджикистана, управляющий гидроэлектростанциями и распределительными сетями",
+				"en": "Барки Точик (Barki Tojik) — a energy company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": -80,
+				"debt": 2500,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рустам Маджидзода",
+					"en": "Рустам Маджидзода"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5207,
+					"д": 68.7959,
+					"province": 98,
+					"staff": 4200,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.barqitojik.tj/"
+		},
+		{
+			"id": "tochiktelekom",
+			"название": {
+				"ru": "Точиктелеком (Tojiktelecom)",
+				"en": "Точиктелеком (Tojiktelecom)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор фиксированной связи и интернет-магистралей",
+				"en": "Точиктелеком (Tojiktelecom) — a IT and telecom company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 10,
+				"debt": 40,
+				"money": 15,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сухроб Икромов",
+					"en": "Сухроб Икромов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 280,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.511,
+					"д": 68.7766,
+					"province": 98,
+					"staff": 1050,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.tojktelecom.tj/"
+		},
+		{
+			"id": "gsb_rt",
+			"название": {
+				"ru": "ГСБ РТ «Амонатбонк» (Amonatbonk)",
+				"en": "ГСБ РТ «Амонатбонк» (Amonatbonk)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный сберегательный банк Республики Таджикистан, обслуживающий пенсионеров и бюджетный сектор",
+				"en": "ГСБ РТ «Амонатбонк» (Amonatbonk) — a financial company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 35,
+				"debt": 0,
+				"money": 0,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Салимзода Алиджон Абдуджалол",
+					"en": "Салимзода Алиджон Абдуджалол"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3200,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5695,
+					"д": 68.7455,
+					"province": 98,
+					"staff": 960,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.amonatbonk.tj/"
+		},
+		{
+			"id": "oao_orienbonk",
+			"название": {
+				"ru": "ОАО «Ориёнбонк» (Orienbank)",
+				"en": "ОАО «Ориёнбонк» (Orienbank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный коммерческий банк Таджикистана",
+				"en": "ОАО «Ориёнбонк» (Orienbank) — a financial company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 95,
+				"profit": 25,
+				"debt": 0,
+				"money": 0,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хасан Асадуллозода",
+					"en": "Хасан Асадуллозода"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5353,
+					"д": 68.8058,
+					"province": 98,
+					"staff": 600,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.orienbank.tj/"
+		},
+		{
+			"id": "oao_rogunskaya",
+			"название": {
+				"ru": "ОАО «Рогунская ГЭС» (Rogun HPP)",
+				"en": "ОАО «Рогунская ГЭС» (Rogun HPP)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Строящаяся высочайшая в мире плотинная гидроэлектростанция на реке Вахш",
+				"en": "ОАО «Рогунская ГЭС» (Rogun HPP) — a energy company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 15,
+				"debt": 1800,
+				"money": 80,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хайрулло Сафарзода",
+					"en": "Хайрулло Сафарзода"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5318,
+					"д": 68.7624,
+					"province": 98,
+					"staff": 3600,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.rogunhpp.tj/"
+		},
+		{
+			"id": "somon_eyr",
+			"название": {
+				"ru": "Сомон Эйр (Somon Air)",
+				"en": "Сомон Эйр (Somon Air)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Халлам II (Thomas W. Hallam II). Ведущая регулярная частная авиакомпания Таджикистана с парком Boeing 737",
+				"en": "Сомон Эйр (Somon Air) — a transport company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 8,
+				"debt": 90,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Томас В",
+					"en": "Томас В"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.565,
+					"д": 68.7953,
+					"province": 98,
+					"staff": 240,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.somonair.com/"
+		},
+		{
+			"id": "tagem",
+			"название": {
+				"ru": "ТАГЭМ (TGEM / Таджикгидроэлектромонтаж)",
+				"en": "ТАГЭМ (TGEM / Таджикгидроэлектромонтаж)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая энергетическая и инфраструктурная инжиниринговая компания Таджикистана",
+				"en": "ТАГЭМ (TGEM / Таджикгидроэлектромонтаж) — a construction company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 20,
+				"debt": 60,
+				"money": 25,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 160
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Исроил Рахмонов",
+					"en": "Исроил Рахмонов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5129,
+					"д": 68.7631,
+					"province": 98,
+					"staff": 1350,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://tgem.tj/"
+		},
+		{
+			"id": "huaksin_gayur",
+			"название": {
+				"ru": "Хуаксин Гаюр Цемент (Huaxin Gayur Cement)",
+				"en": "Хуаксин Гаюр Цемент (Huaxin Gayur Cement)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное таджикско-китайское предприятие, крупнейший производитель цемента в регионе",
+				"en": "Хуаксин Гаюр Цемент (Huaxin Gayur Cement) — a construction company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 130,
+				"profit": 25,
+				"debt": 50,
+				"money": 30,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Акбар Гуломов",
+					"en": "Акбар Гуломов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5538,
+					"д": 68.786,
+					"province": 98,
+					"staff": 360,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://huaxincement.com/"
+		},
+		{
+			"id": "oao_bank",
+			"название": {
+				"ru": "ОАО «Банк Эсхата» (Bank Eskhata)",
+				"en": "ОАО «Банк Эсхата» (Bank Eskhata)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупный коммерческий банк, лидер по кредитованию МСБ и микрофинансированию",
+				"en": "ОАО «Банк Эсхата» (Bank Eskhata) — a financial company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 85,
+				"profit": 22,
+				"debt": 0,
+				"money": 0,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 110
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Акмалджон Салимов",
+					"en": "Акмалджон Салимов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5482,
+					"д": 68.8153,
+					"province": 98,
+					"staff": 540,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://eskhata.com/"
+		},
+		{
+			"id": "zao_tadzhik",
+			"название": {
+				"ru": "ЗАО «Таджик Эйр» (Tajik Air)",
+				"en": "ЗАО «Таджик Эйр» (Tajik Air)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный национальный авиаперевозчик Таджикистана",
+				"en": "ЗАО «Таджик Эйр» (Tajik Air) — a transport company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 5,
+				"debt": 80,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Парвиз Шодмонзода",
+					"en": "Парвиз Шодмонзода"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5671,
+					"д": 68.7564,
+					"province": 98,
+					"staff": 180,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tajikair.tj/"
+		},
+		{
+			"id": "gup_zavod",
+			"название": {
+				"ru": "ГУП «Завод бронетанковой техники МО РТ» (Dushanbe Armour Repair Plant)",
+				"en": "ГУП «Завод бронетанковой техники МО РТ» (Dushanbe Armour Repair Plant)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированное предприятие по капитальному ремонту танков Т-72, БМП-1/2 и БТР Министерства обороны РТ",
+				"en": "ГУП «Завод бронетанковой техники МО РТ» (Dushanbe Armour Repair Plant) — a defence company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник Джамшед Сафаров",
+					"en": "Полковник Джамшед Сафаров"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5395,
+					"д": 68.7856,
+					"province": 98,
+					"staff": 180,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://mordt.tj/"
+		},
+		{
+			"id": "gup_vostokredmet",
+			"название": {
+				"ru": "ГУП «Востокредмет» (Vostokredmet)",
+				"en": "ГУП «Востокредмет» (Vostokredmet)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производственное объединение редких металлов, спецматериалов и радиоэлектроники оборонного назначения",
+				"en": "ГУП «Востокредмет» (Vostokredmet) — a defence company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 5,
+				"debt": 20,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Зариф Хомидзода",
+					"en": "Зариф Хомидзода"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5373,
+					"д": 68.7796,
+					"province": 98,
+					"staff": 750,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.vostokredmet.tj/"
+		},
+		{
+			"id": "zavod_zenit",
+			"название": {
+				"ru": "Завод «Зенит» (Душанбе) (Zenit Dushanbe)",
+				"en": "Завод «Зенит» (Душанбе) (Zenit Dushanbe)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Предприятие оборонно-промышленного комплекса по производству аппаратуры связи и ремонту оптико-электронных приборов",
+				"en": "Завод «Зенит» (Душанбе) (Zenit Dushanbe) — a defence company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 2,
+				"debt": 8,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Махмуд Раджабов",
+					"en": "Махмуд Раджабов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5604,
+					"д": 68.7472,
+					"province": 98,
+					"staff": 120,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://mordt.tj/"
+		},
+		{
+			"id": "aviatsionno_remontnye",
+			"название": {
+				"ru": "Авиационно-ремонтные мастерские ВВС РТ (Air Force Repair Base Dushanbe)",
+				"en": "Авиационно-ремонтные мастерские ВВС РТ (Air Force Repair Base Dushanbe)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Базовое ремонтное предприятие по регламентному обслуживанию вертолетов Ми-8, Ми-24 и военно-транспортной авиации",
+				"en": "Авиационно-ремонтные мастерские ВВС РТ (Air Force Repair Base Dushanbe) — a defence company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 6,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник Бахром Абдуллоев",
+					"en": "Полковник Бахром Абдуллоев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 360,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.521,
+					"д": 68.7436,
+					"province": 98,
+					"staff": 135,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://mordt.tj/"
+		},
+		{
+			"id": "gop_tadzhik",
+			"название": {
+				"ru": "ГОП «Таджик Спецмаш» (Tajik Spetsmash)",
+				"en": "ГОП «Таджик Спецмаш» (Tajik Spetsmash)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Предприятие по модернизации легкой бронетехники, установке боевых модулей и сервису армейских автомобилей",
+				"en": "ГОП «Таджик Спецмаш» (Tajik Spetsmash) — a defence company of Tajikistan."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 2,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таджикистан)",
+						"en": "The state (Tajikistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таджикистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сухроб Кодири",
+					"en": "Сухроб Кодири"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Душанбе",
+						"en": "Dushanbe"
+					},
+					"ш": 38.5522,
+					"д": 68.7606,
+					"province": 98,
+					"staff": 90,
+					"fine": 3999
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://mordt.tj/"
+		}
+	]
+}

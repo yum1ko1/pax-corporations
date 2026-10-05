@@ -1,0 +1,3659 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Великобритания",
+	"iso": "GBR",
+	"data_date": "2026-03",
+	"average_wage": 4500,
+	"companies": [
+		{
+			"id": "shell",
+			"название": {
+				"ru": "Shell",
+				"en": "Shell"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1907,
+			"description": {
+				"ru": "Крупнейшая нефтегазовая компания Европы и лидер СПГ.",
+				"en": "Europe's largest oil and gas company and an LNG leader."
+			},
+			"fundamental": {
+				"выручка": 285000,
+				"profit": 16000,
+				"debt": 75000,
+				"money": 38000,
+				"dividends": 8500
+			},
+			"рынок": {
+				"shares_mln": 6000,
+				"market_cap": 210000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ваэль Сауан",
+					"en": "Wael Sawan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прагматик, отказался от части «зелёных» планов ради прибыли",
+					"en": "прагматик, отказался от части «зелёных» планов ради прибыли"
+				}
+			},
+			"staff": 96000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.5,
+					"д": -0.12,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1286
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Северное море, Абердин",
+						"en": "North Sea, Aberdeen"
+					},
+					"ш": 57.15,
+					"д": -2.1,
+					"province": 637,
+					"staff": 3000,
+					"fine": 1222
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.shell.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "astrazeneca",
+			"название": {
+				"ru": "AstraZeneca",
+				"en": "AstraZeneca"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Крупнейшая фармкомпания Британии: онкология.",
+				"en": "Britain's largest drugmaker: oncology."
+			},
+			"fundamental": {
+				"выручка": 54000,
+				"profit": 7000,
+				"debt": 28000,
+				"money": 6000,
+				"dividends": 4800
+			},
+			"рынок": {
+				"shares_mln": 1550,
+				"market_cap": 230000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паскаль Сорио",
+					"en": "Pascal Soriot"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2012,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз, поднял компанию на онкологии",
+					"en": "француз, поднял компанию на онкологии"
+				}
+			},
+			"staff": 94000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус в Кембридже",
+						"en": "Cambridge campus"
+					},
+					"ш": 52.18,
+					"д": 0.14,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1259
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Маклсфилде",
+						"en": "Macclesfield plant"
+					},
+					"ш": 53.26,
+					"д": -2.12,
+					"province": 508,
+					"staff": 3500,
+					"fine": 1439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.astrazeneca.com/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hsbc",
+			"название": {
+				"ru": "HSBC",
+				"en": "HSBC"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1865,
+			"description": {
+				"ru": "Крупнейший банк Европы, зарабатывает в Азии.",
+				"en": "Europe's largest bank, earning in Asia."
+			},
+			"fundamental": {
+				"выручка": 66000,
+				"profit": 23000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16000
+			},
+			"рынок": {
+				"shares_mln": 17800,
+				"market_cap": 220000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ping An",
+						"en": "Ping An"
+					},
+					"type": "company",
+					"доля": 0.06,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жорж Эльхедери",
+					"en": "Georges Elhedery"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "трейдер, режет расходы",
+					"en": "трейдер, режет расходы"
+				}
+			},
+			"staff": 211000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канари-Уорф, Лондон",
+						"en": "Canary Wharf, London"
+					},
+					"ш": 51.5,
+					"д": -0.02,
+					"province": 849,
+					"staff": 10000,
+					"fine": 1283
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Бирмингеме",
+						"en": "Birmingham centre"
+					},
+					"ш": 52.48,
+					"д": -1.9,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hsbc.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "unilever",
+			"название": {
+				"ru": "Unilever",
+				"en": "Unilever"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1929,
+			"description": {
+				"ru": "Товары для дома и еда: Dove, Hellmann’s, Knorr.",
+				"en": "Household goods and food: Dove, Hellmann's, Knorr."
+			},
+			"fundamental": {
+				"выручка": 65000,
+				"profit": 6800,
+				"debt": 30000,
+				"money": 5000,
+				"dividends": 4700
+			},
+			"рынок": {
+				"shares_mln": 2500,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фернандо Фернандес",
+					"en": "Fernando Fernandez"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "аргентинец, режет портфель брендов",
+					"en": "аргентинец, режет портфель брендов"
+				}
+			},
+			"staff": 128000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.51,
+					"д": -0.11,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Порт-Санлайт",
+						"en": "Port Sunlight"
+					},
+					"ш": 53.35,
+					"д": -2.99,
+					"province": 508,
+					"staff": 2000,
+					"fine": 1313
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.unilever.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bp",
+			"название": {
+				"ru": "BP",
+				"en": "BP"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1909,
+			"description": {
+				"ru": "Нефтегазовый гигант в перестройке; бывший совладелец Роснефти.",
+				"en": "An oil and gas giant in overhaul; former Rosneft shareholder."
+			},
+			"fundamental": {
+				"выручка": 190000,
+				"profit": 400,
+				"debt": 60000,
+				"money": 30000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 15800,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Elliott Management",
+						"en": "Elliott Management"
+					},
+					"type": "крупный",
+					"доля": 0.05,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.95
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мюррей Окинклосс",
+					"en": "Murray Auchincloss"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "канадец, возвращает компанию к нефти",
+					"en": "канадец, возвращает компанию к нефти"
+				}
+			},
+			"staff": 90000,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сент-Джеймс-сквер, Лондон",
+						"en": "St James's Square, London"
+					},
+					"ш": 51.51,
+					"д": -0.14,
+					"province": 849,
+					"staff": 4000,
+					"fine": 1286
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Шетландские месторождения",
+						"en": "Shetland fields"
+					},
+					"ш": 60.3,
+					"д": -1.3,
+					"province": 690,
+					"staff": 1500,
+					"fine": 1359
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bp.com/en/global/corporate/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "relx",
+			"название": {
+				"ru": "RELX",
+				"en": "RELX"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Научные журналы, юридические и аналитические данные.",
+				"en": "Science journals, legal and analytics data."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 2400,
+				"debt": 8000,
+				"money": 500,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1870,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эрик Энгстрём",
+					"en": "Erik Engström"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2009,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "швед, перевёл издателя в данные",
+					"en": "швед, перевёл издателя в данные"
+				}
+			},
+			"staff": 36000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.52,
+					"д": -0.08,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.relx.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "riotinto",
+			"название": {
+				"ru": "Rio Tinto",
+				"en": "Rio Tinto"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1873,
+			"description": {
+				"ru": "Железная руда, медь и алюминий по всему миру.",
+				"en": "Iron ore, copper and aluminium worldwide."
+			},
+			"fundamental": {
+				"выручка": 54000,
+				"profit": 11500,
+				"debt": 14000,
+				"money": 7000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 1620,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Chinalco",
+						"en": "Chinalco"
+					},
+					"type": "polity",
+					"доля": 0.14,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Саймон Тротт",
+					"en": "Simon Trott"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "руководитель железорудного бизнеса",
+					"en": "руководитель железорудного бизнеса"
+				}
+			},
+			"staff": 57000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.5,
+					"д": -0.14,
+					"province": 849,
+					"staff": 1500,
+					"fine": 1278
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.riotinto.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bat",
+			"название": {
+				"ru": "British American Tobacco",
+				"en": "British American Tobacco"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1902,
+			"description": {
+				"ru": "Сигареты и вейпы.",
+				"en": "Cigarettes and vapes."
+			},
+			"fundamental": {
+				"выручка": 33000,
+				"profit": 4000,
+				"debt": 45000,
+				"money": 5000,
+				"dividends": 6700
+			},
+			"рынок": {
+				"shares_mln": 2200,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тадеу Марроко",
+					"en": "Tadeu Marroco"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бразилец, переводит на «бездымные» продукты",
+					"en": "бразилец, переводит на «бездымные» продукты"
+				}
+			},
+			"staff": 46000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Глоуб-хаус, Лондон",
+						"en": "Globe House, London"
+					},
+					"ш": 51.51,
+					"д": -0.11,
+					"province": 849,
+					"staff": 2000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bat.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lseg",
+			"название": {
+				"ru": "London Stock Exchange Group",
+				"en": "London Stock Exchange Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1801,
+			"description": {
+				"ru": "Лондонская биржа и финансовые данные Refinitiv.",
+				"en": "The London exchange and Refinitiv financial data."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1000,
+				"debt": 11000,
+				"money": 3000,
+				"dividends": 750
+			},
+			"рынок": {
+				"shares_mln": 530,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Microsoft",
+						"en": "Microsoft"
+					},
+					"type": "company",
+					"доля": 0.04,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.96
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэвид Швиммер",
+					"en": "David Schwimmer"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американец, строит бизнес данных",
+					"en": "американец, строит бизнес данных"
+				}
+			},
+			"staff": 26000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Патерностер-сквер, Лондон",
+						"en": "Paternoster Square, London"
+					},
+					"ш": 51.51,
+					"д": -0.1,
+					"province": 849,
+					"staff": 4000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lseg.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "gsk",
+			"название": {
+				"ru": "GSK",
+				"en": "GSK"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Вакцины и лекарства.",
+				"en": "Vaccines and medicines."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 3300,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 3100
+			},
+			"рынок": {
+				"shares_mln": 4100,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Люк Милс",
+					"en": "Luke Miels"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2026,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "австралиец, сменил Эмму Уолмсли",
+					"en": "австралиец, сменил Эмму Уолмсли"
+				}
+			},
+			"staff": 70000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.52,
+					"д": -0.13,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Барнард-Касле",
+						"en": "Barnard Castle plant"
+					},
+					"ш": 54.54,
+					"д": -1.92,
+					"province": 508,
+					"staff": 1000,
+					"fine": 1238
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.gsk.com/en-gb/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "barclays",
+			"название": {
+				"ru": "Barclays",
+				"en": "Barclays"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1690,
+			"description": {
+				"ru": "Розничный и инвестиционный банк.",
+				"en": "Retail and investment bank."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 6500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 14500,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Катар (QIA)",
+						"en": "Qatar (QIA)"
+					},
+					"type": "polity",
+					"доля": 0.06,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Си-Эс Венкатакришнан",
+					"en": "C. S. Venkatakrishnan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "риск-менеджер",
+					"en": "риск-менеджер"
+				}
+			},
+			"staff": 90000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канари-Уорф, Лондон",
+						"en": "Canary Wharf, London"
+					},
+					"ш": 51.5,
+					"д": -0.02,
+					"province": 849,
+					"staff": 10000,
+					"fine": 1283
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Глазго",
+						"en": "Glasgow campus"
+					},
+					"ш": 55.86,
+					"д": -4.26,
+					"province": 637,
+					"staff": 5000,
+					"fine": 1214
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://home.barclays/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lloyds",
+			"название": {
+				"ru": "Lloyds Banking Group",
+				"en": "Lloyds Banking Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1765,
+			"description": {
+				"ru": "Крупнейший розничный банк Британии.",
+				"en": "Britain's largest retail bank."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 5500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2400
+			},
+			"рынок": {
+				"shares_mln": 60000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чарли Нанн",
+					"en": "Charlie Nunn"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший HSBC, цифровизирует банк",
+					"en": "бывший HSBC, цифровизирует банк"
+				}
+			},
+			"staff": 62000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.51,
+					"д": -0.09,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1393
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Эдинбург",
+						"en": "Edinburgh"
+					},
+					"ш": 55.95,
+					"д": -3.19,
+					"province": 637,
+					"staff": 5000,
+					"fine": 1233
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lloydsbankinggroup.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "natwest",
+			"название": {
+				"ru": "NatWest",
+				"en": "NatWest"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1727,
+			"description": {
+				"ru": "Банк, вернувшийся к частным владельцам после спасения 2008 года.",
+				"en": "A bank back in private hands after the 2008 rescue."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 6000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 8100,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пол Туэйт",
+					"en": "Paul Thwaite"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спокойный банкир",
+					"en": "спокойный банкир"
+				}
+			},
+			"staff": 60000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эдинбург",
+						"en": "Edinburgh"
+					},
+					"ш": 55.94,
+					"д": -3.3,
+					"province": 637,
+					"staff": 8000,
+					"fine": 1233
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.51,
+					"д": -0.08,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.natwestgroup.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bae",
+			"название": {
+				"ru": "BAE Systems",
+				"en": "BAE Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Крупнейший оборонный подрядчик Европы: подлодки, истребители, снаряды.",
+				"en": "Europe's largest defence contractor: submarines, fighters, shells."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 2600,
+				"debt": 9000,
+				"money": 4000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 3000,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чарльз Вудберн",
+					"en": "Charles Woodburn"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, растёт на перевооружении",
+					"en": "инженер, растёт на перевооружении"
+				}
+			},
+			"staff": 107000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Фарнборо",
+						"en": "Farnborough"
+					},
+					"ш": 51.29,
+					"д": -0.75,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1244
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Подлодки, Барроу-ин-Фернесс",
+						"en": "Submarines, Barrow-in-Furness"
+					},
+					"ш": 54.11,
+					"д": -3.23,
+					"province": 508,
+					"staff": 12000,
+					"fine": 1343
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Истребители, Уортон",
+						"en": "Fighters, Warton"
+					},
+					"ш": 53.74,
+					"д": -2.88,
+					"province": 508,
+					"staff": 8000,
+					"fine": 1327
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.baesystems.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "rollsroyce",
+			"название": {
+				"ru": "Rolls-Royce",
+				"en": "Rolls-Royce"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1906,
+			"description": {
+				"ru": "Авиадвигатели, малые ядерные реакторы.",
+				"en": "Aircraft engines, small nuclear reactors."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 3200,
+				"debt": 5000,
+				"money": 4000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 8400,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Туфан Эргинбилгич",
+					"en": "Tufan Erginbilgiç"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "жёсткий реформатор, поднял компанию",
+					"en": "жёсткий реформатор, поднял компанию"
+				}
+			},
+			"staff": 44000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Дерби",
+						"en": "Headquarters, Derby"
+					},
+					"ш": 52.9,
+					"д": -1.48,
+					"province": 508,
+					"staff": 12000,
+					"fine": 1264
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rolls-royce.com/investors.aspx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "nationalgrid",
+			"название": {
+				"ru": "National Grid",
+				"en": "National Grid"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Электросети Британии и северо-востока США.",
+				"en": "Power grids of Britain and the US north-east."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 4000,
+				"debt": 60000,
+				"money": 3000,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 4900,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джон Петтигрю",
+					"en": "John Pettigrew"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сетевой инженер",
+					"en": "сетевой инженер"
+				}
+			},
+			"staff": 30000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.51,
+					"д": -0.12,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nationalgrid.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "diageo",
+			"название": {
+				"ru": "Diageo",
+				"en": "Diageo"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Крупнейший производитель крепкого алкоголя: Johnnie Walker, Guinness.",
+				"en": "The largest spirits maker: Johnnie Walker, Guinness."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 2500,
+				"debt": 21000,
+				"money": 1000,
+				"dividends": 2300
+			},
+			"рынок": {
+				"shares_mln": 2200,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дейв Льюис",
+					"en": "Dave Lewis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2026,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший глава Tesco, спасает продажи",
+					"en": "бывший глава Tesco, спасает продажи"
+				}
+			},
+			"staff": 30000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.52,
+					"д": -0.14,
+					"province": 849,
+					"staff": 2000,
+					"fine": 1286
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Вискокурни Шотландии",
+						"en": "Scottish distilleries"
+					},
+					"ш": 57.2,
+					"д": -3.2,
+					"province": 637,
+					"staff": 3000,
+					"fine": 1223
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.diageo.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "tesco",
+			"название": {
+				"ru": "Tesco",
+				"en": "Tesco"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1919,
+			"description": {
+				"ru": "Крупнейшая сеть супермаркетов Британии.",
+				"en": "Britain's largest supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 86000,
+				"profit": 2000,
+				"debt": 15000,
+				"money": 3000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 6700,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кен Мерфи",
+					"en": "Ken Murphy"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ирландец, бережливый розничник",
+					"en": "ирландец, бережливый розничник"
+				}
+			},
+			"staff": 330000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Уэлвин-Гарден-Сити",
+						"en": "Welwyn Garden City"
+					},
+					"ш": 51.8,
+					"д": -0.2,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1249
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склады Мидлендса",
+						"en": "Midlands warehouses"
+					},
+					"ш": 52.5,
+					"д": -1.5,
+					"province": 849,
+					"staff": 15000,
+					"fine": 1362
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tescoplc.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "compass",
+			"название": {
+				"ru": "Compass Group",
+				"en": "Compass Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1941,
+			"description": {
+				"ru": "Крупнейший в мире оператор корпоративного питания.",
+				"en": "The world's largest contract caterer."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 1900,
+				"debt": 6000,
+				"money": 1000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1700,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Доминик Блейкмор",
+					"en": "Dominic Blakemore"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист, наращивает долю рынка",
+					"en": "финансист, наращивает долю рынка"
+				}
+			},
+			"staff": 580000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Чертси",
+						"en": "Chertsey"
+					},
+					"ш": 51.39,
+					"д": -0.5,
+					"province": 849,
+					"staff": 1500,
+					"fine": 1367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.compass-group.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "angloamerican",
+			"название": {
+				"ru": "Anglo American",
+				"en": "Anglo American"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1917,
+			"description": {
+				"ru": "Медь и железная руда; сливается с Teck.",
+				"en": "Copper and iron ore; merging with Teck."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": -3000,
+				"debt": 12000,
+				"money": 6000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1200,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дункан Уонблад",
+					"en": "Duncan Wanblad"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "южноафриканец, распродаёт лишнее",
+					"en": "южноафриканец, распродаёт лишнее"
+				}
+			},
+			"staff": 60000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лондон",
+						"en": "Headquarters, London"
+					},
+					"ш": 51.51,
+					"д": -0.14,
+					"province": 849,
+					"staff": 800,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.angloamerican.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vodafone",
+			"название": {
+				"ru": "Vodafone",
+				"en": "Vodafone"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Мобильная связь Европы и Африки.",
+				"en": "Mobile telecom in Europe and Africa."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": -500,
+				"debt": 55000,
+				"money": 8000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 25000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Emirates Telecom (e&)",
+						"en": "Emirates Telecom (e&)"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "ОАЭ"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маргерита Делла Валле",
+					"en": "Margherita Della Valle"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянка, продаёт убыточные рынки",
+					"en": "итальянка, продаёт убыточные рынки"
+				}
+			},
+			"staff": 93000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ньюбери",
+						"en": "Newbury"
+					},
+					"ш": 51.4,
+					"д": -1.32,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vodafone.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bt",
+			"название": {
+				"ru": "BT Group",
+				"en": "BT Group"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1846,
+			"description": {
+				"ru": "Бывшая государственная связь Британии.",
+				"en": "Britain's former state telecom."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 1400,
+				"debt": 26000,
+				"money": 3000,
+				"dividends": 950
+			},
+			"рынок": {
+				"shares_mln": 9800,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Altice (Патрик Драи)",
+						"en": "Altice (Patrick Drahi)"
+					},
+					"type": "крупный",
+					"доля": 0.25,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Deutsche Telekom",
+						"en": "Deutsche Telekom"
+					},
+					"type": "company",
+					"доля": 0.12,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.63
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эллисон Кирби",
+					"en": "Allison Kirkby"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "режет штат ради оптоволокна",
+					"en": "режет штат ради оптоволокна"
+				}
+			},
+			"staff": 100000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.52,
+					"д": -0.1,
+					"province": 849,
+					"staff": 8000,
+					"fine": 1393
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Адастрал-Парк",
+						"en": "Adastral Park"
+					},
+					"ш": 52.06,
+					"д": 1.28,
+					"province": 849,
+					"staff": 3500,
+					"fine": 1348
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bt.com/about/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "legalgeneral",
+			"название": {
+				"ru": "Legal & General",
+				"en": "Legal & General"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1836,
+			"description": {
+				"ru": "Пенсии и страхование жизни.",
+				"en": "Pensions and life insurance."
+			},
+			"fundamental": {
+				"выручка": 16500,
+				"profit": 1800,
+				"debt": 4500,
+				"money": 2500,
+				"dividends": 1350
+			},
+			"рынок": {
+				"shares_mln": 5900,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Антониу Симойнш",
+					"en": "António Simões"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "португалец, упрощает компанию",
+					"en": "португалец, упрощает компанию"
+				}
+			},
+			"staff": 11000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.51,
+					"д": -0.09,
+					"province": 849,
+					"staff": 4000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.legalandgeneral.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "aviva",
+			"название": {
+				"ru": "Aviva",
+				"en": "Aviva"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1696,
+			"description": {
+				"ru": "Крупнейший страховщик Британии, купил Direct Line.",
+				"en": "Britain's largest insurer, bought Direct Line."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 2000,
+				"debt": 7000,
+				"money": 0,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 2700,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аманда Блан",
+					"en": "Amanda Blanc"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "валлийка, спасла страховщика",
+					"en": "валлийка, спасла страховщика"
+				}
+			},
+			"staff": 26000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.51,
+					"д": -0.08,
+					"province": 849,
+					"staff": 4000,
+					"fine": 1393
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Норидж",
+						"en": "Norwich"
+					},
+					"ш": 52.63,
+					"д": 1.3,
+					"province": 849,
+					"staff": 5000,
+					"fine": 1349
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aviva.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sse",
+			"название": {
+				"ru": "SSE",
+				"en": "SSE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Ветряки и сети Шотландии.",
+				"en": "Scotland's wind farms and grids."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 2000,
+				"debt": 12000,
+				"money": 1500,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1100,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аластер Филлипс-Дэвис",
+					"en": "Alistair Phillips-Davies"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит морские ветряки",
+					"en": "строит морские ветряки"
+				}
+			},
+			"staff": 15000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Перт, Шотландия",
+						"en": "Perth, Scotland"
+					},
+					"ш": 56.4,
+					"д": -3.43,
+					"province": 637,
+					"staff": 3000,
+					"fine": 1228
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sse.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "haleon",
+			"название": {
+				"ru": "Haleon",
+				"en": "Haleon"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Безрецептурные лекарства: Sensodyne, Panadol.",
+				"en": "Consumer health: Sensodyne, Panadol."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 1800,
+				"debt": 9000,
+				"money": 1000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 9000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Брайан Макнамара",
+					"en": "Brian McNamara"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог",
+					"en": "маркетолог"
+				}
+			},
+			"staff": 24000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Уэйбридж",
+						"en": "Weybridge"
+					},
+					"ш": 51.37,
+					"д": -0.46,
+					"province": 849,
+					"staff": 1500,
+					"fine": 1367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.haleon.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "reckitt",
+			"название": {
+				"ru": "Reckitt",
+				"en": "Reckitt"
+			},
+			"sector": "retail",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1840,
+			"description": {
+				"ru": "Бытовая химия и гигиена: Dettol, Durex.",
+				"en": "Hygiene and health: Dettol, Durex."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 1500,
+				"debt": 8000,
+				"money": 1500,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 690,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Крис Лихт",
+					"en": "Kris Licht"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор портфеля",
+					"en": "реформатор портфеля"
+				}
+			},
+			"staff": 40000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Слау",
+						"en": "Slough"
+					},
+					"ш": 51.51,
+					"д": -0.6,
+					"province": 849,
+					"staff": 2000,
+					"fine": 1437
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Халл",
+						"en": "Hull"
+					},
+					"ш": 53.74,
+					"д": -0.33,
+					"province": 508,
+					"staff": 1500,
+					"fine": 1261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.reckitt.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sainsburys",
+			"название": {
+				"ru": "Sainsbury's",
+				"en": "Sainsbury's"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1869,
+			"description": {
+				"ru": "Вторая сеть супермаркетов Британии.",
+				"en": "Britain's second supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 41000,
+				"profit": 250,
+				"debt": 6000,
+				"money": 1500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 2300,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Катар (QIA)",
+						"en": "Qatar (QIA)"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Даниэль Кретинский",
+						"en": "Daniel Křetínský"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Чехия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Саймон Робертс",
+					"en": "Simon Roberts"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 150000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Холборн, Лондон",
+						"en": "Holborn, London"
+					},
+					"ш": 51.52,
+					"д": -0.11,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.about.sainsburys.co.uk/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "stanchart",
+			"название": {
+				"ru": "Standard Chartered",
+				"en": "Standard Chartered"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Банк развивающихся рынков Азии и Африки.",
+				"en": "An emerging-markets bank for Asia and Africa."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 4000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 2400,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Temasek",
+						"en": "Temasek"
+					},
+					"type": "polity",
+					"доля": 0.17,
+					"country": "Сингапур"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Билл Уинтерс",
+					"en": "Bill Winters"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американский инвестбанкир",
+					"en": "американский инвестбанкир"
+				}
+			},
+			"staff": 85000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.51,
+					"д": -0.08,
+					"province": 849,
+					"staff": 3000,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sc.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "arm",
+			"название": {
+				"ru": "Arm",
+				"en": "Arm"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Архитектура процессоров почти в каждом смартфоне.",
+				"en": "The chip architecture in almost every smartphone."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 800,
+				"debt": 0,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1060,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "SoftBank",
+						"en": "SoftBank"
+					},
+					"type": "company",
+					"доля": 0.9,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рене Хаас",
+					"en": "Rene Haas"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставит на ИИ и собственные чипы",
+					"en": "ставит на ИИ и собственные чипы"
+				}
+			},
+			"staff": 8000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кембридж",
+						"en": "Cambridge"
+					},
+					"ш": 52.2,
+					"д": 0.14,
+					"province": 849,
+					"staff": 4000,
+					"fine": 1259
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.arm.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "oxfordinstruments",
+			"название": {
+				"ru": "Oxford Instruments",
+				"en": "Oxford Instruments"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1959,
+			"description": {
+				"ru": "Научные приборы: от сверхпроводящих магнитов до квантовых холодильников.",
+				"en": "Scientific instruments: from superconducting magnets to quantum refrigerators."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 80,
+				"debt": 100,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 58,
+				"market_cap": 1700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ричард Тайсон",
+					"en": "Richard Tyson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 2300,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абингдон",
+						"en": "Abingdon"
+					},
+					"ш": 51.67,
+					"д": -1.28,
+					"province": 849,
+					"staff": 1500,
+					"fine": 1363
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Хай-Уиком",
+						"en": "High Wycombe"
+					},
+					"ш": 51.63,
+					"д": -0.75,
+					"province": 849,
+					"staff": 800,
+					"fine": 1248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.oxinst.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "prudential_plc",
+			"название": {
+				"ru": "Prudential plc",
+				"en": "Prudential plc"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный гигант страхования жизни и управления активами (сосредоточен на динамично растущих рынках Азии и Африки; обслуживает свыше 18 млн клиентов, активы под управлением ~$130 млрд, капитализация ~$25 млрд). https://www.prudentialplc.com/",
+				"en": "Prudential plc — a financial company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 10714,
+				"profit": 3013,
+				"debt": 0,
+				"money": 0,
+				"dividends": 904
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30611,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5317,
+					"д": -0.0917,
+					"province": 849,
+					"staff": 9183,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "balfour_beatty",
+			"название": {
+				"ru": "Balfour Beatty",
+				"en": "Balfour Beatty"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая строительная и инфраструктурная группа Великобритании (генеральный подрядчик мегапроекта высокоскоростной ж/д магистрали HS2, атомной электростанции Hinkley Point C, шоссе и мостов в США и Великобритании; выручка ~$11.5 млрд, 26,000 сотр.). https://www.balfourbeatty.com/",
+				"en": "Balfour Beatty — a construction company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 958,
+				"debt": 4462,
+				"money": 1509,
+				"dividends": 287
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14506
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 36175,
+			"wage": 5756,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5136,
+					"д": -0.1496,
+					"province": 849,
+					"staff": 10852,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "associated_british",
+			"название": {
+				"ru": "Associated British Foods (ABF)",
+				"en": "Associated British Foods (ABF)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный холдинг пищевой промышленности, агробизнеса и розничной торговли семьи Уэстон (мировая сеть популярной бюджетной одежды Primark, бренды сахара British Sugar, чая Twinings, хлеба Kingsmill; выручка ~$25.0 млрд, чистая прибыль ~$1.5 млрд, 130,000 сотр.). https://www.abf.co.uk/",
+				"en": "Associated British Foods (ABF) — a consumer and retail company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 1500,
+				"debt": 5769,
+				"money": 2083,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 34247
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.492,
+					"д": -0.1522,
+					"province": 849,
+					"staff": 22500,
+					"fine": 1278
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "centrica",
+			"название": {
+				"ru": "Centrica",
+				"en": "Centrica"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший поставщик энергоносителей и коммунальных услуг Великобритании (домашний бренд British Gas, доли в действующих АЭС Великобритании, хранилище газа Rough; выручка ~$35.0 млрд). https://www.centrica.com/",
+				"en": "Centrica — a energy company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 3236,
+				"debt": 21269,
+				"money": 4479,
+				"dividends": 971
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 46159
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 62268,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.4763,
+					"д": -0.1457,
+					"province": 849,
+					"staff": 18680,
+					"fine": 1278
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "marks_spencer",
+			"название": {
+				"ru": "Marks & Spencer (M&S)",
+				"en": "Marks & Spencer (M&S)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Легендарная британская сеть розничной торговли одеждой, товарами для дома и продуктами питания премиум-класса M&S Food (выручка ~$16.0 млрд, чистая прибыль ~$550 млн, 65,000 сотр.). https://corporate.marksandspencer.com/",
+				"en": "Marks & Spencer (M&S) — a consumer and retail company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 550,
+				"debt": 3692,
+				"money": 1333,
+				"dividends": 165
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 21918
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 48000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.522,
+					"д": -0.1626,
+					"province": 849,
+					"staff": 14400,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kingfisher",
+			"название": {
+				"ru": "Kingfisher",
+				"en": "Kingfisher"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий европейский ритейлер товаров для дома и ремонта DIY (сети B&Q и Screwfix в Великобритании, Castorama и Brico Dépôt во Франции и Польше; выручка ~$16.0 млрд, 80,000 сотр.). https://www.kingfisher.com/",
+				"en": "Kingfisher — a consumer and retail company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1244,
+				"debt": 3692,
+				"money": 1333,
+				"dividends": 373
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 21918
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 48000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5088,
+					"д": -0.0967,
+					"province": 849,
+					"staff": 14400,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "whitbread",
+			"название": {
+				"ru": "Whitbread",
+				"en": "Whitbread"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший гостиничный оператор Великобритании (сеть отелей эконом-класса Premier Inn — более 840 отелей в Великобритании и Германии, рестораны Beefeater; выручка ~$3.8 млрд). https://www.whitbread.com/",
+				"en": "Whitbread — a tourism company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 570,
+				"debt": 1615,
+				"money": 2755,
+				"dividends": 171
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4465
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28669,
+			"wage": 6075,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5203,
+					"д": -0.1599,
+					"province": 849,
+					"staff": 8600,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dyson",
+			"название": {
+				"ru": "Dyson",
+				"en": "Dyson"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная технологическая корпорация сэра Джеймса Дайсона (инновационные пылесосы, устройства по уходу за волосами Airwrap/Supersonic, очистители воздуха, твердотельные аккумуляторы; выручка ~$8.5 млрд, 14,000 сотр.). https://www.dyson.com/",
+				"en": "Dyson — a tourism company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 1275,
+				"debt": 3612,
+				"money": 6162,
+				"dividends": 382
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9988
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 64128,
+			"wage": 6075,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.4834,
+					"д": -0.1065,
+					"province": 849,
+					"staff": 19238,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "babcock_international",
+			"название": {
+				"ru": "Babcock International Group",
+				"en": "Babcock International Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевой стратегический военно-морской и инженерный партнер Минобороны Великобритании. Генеральный подрядчик проектирования и постройки серии новейших многоцелевых фрегатов Королевского флота Type 31 (Inspiration-class на верфи Росайт в Шотландии); эксклюзивный оператор военно-морской базы Девонпорт в Плимуте по сервисному обслуживанию и перезарядке реакторов АПЛ; инженерная поддержка сухопутной т",
+				"en": "Babcock International Group — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 367,
+				"debt": 1414,
+				"money": 846,
+				"dividends": 110
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10312
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 16500,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Плимут",
+						"en": "Plymouth"
+					},
+					"ш": 50.3833,
+					"д": -4.1528,
+					"province": 849,
+					"staff": 4950,
+					"fine": 1345
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "qinetiq_group",
+			"название": {
+				"ru": "QinetiQ Group",
+				"en": "QinetiQ Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая научно-исследовательская, технологическая и испытательная оборонная корпорация (создана на базе лабораторий DERA Минобороны Великобритании). Разработчик передовых систем направленной энергии (боевой лазерный комплекс DragonFire), роботизированных комплексов, радиолокационных датчиков, испытаний баллистических ракет и кибербезопасности C4ISR; выручка ~$2.4 млрд. https://www.qinetiq.com/",
+				"en": "QinetiQ Group — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 160,
+				"debt": 617,
+				"money": 369,
+				"dividends": 48
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7200,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5448,
+					"д": -0.1474,
+					"province": 849,
+					"staff": 2160,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mbda_uk",
+			"название": {
+				"ru": "MBDA UK",
+				"en": "MBDA UK"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Британский национальный дивизион европейского ракетного концерна MBDA (разработка и серийный выпуск высокоточных авиационных ракет Brimstone, управляемых ракет малой дальности ASRAAM, корабельных и сухопутных зенитных ракетных комплексов Sea Ceptor / Land Ceptor с ракетами CAMM, противокорабельных ракет Sea Venom и крылатых ракет SPEAR 3; заводы в Болтоне и Стивенэйдже; выручка британского дивизио",
+				"en": "MBDA UK — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 463,
+				"money": 277,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5400,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Болтон",
+						"en": "Bolton"
+					},
+					"ш": 53.5892,
+					"д": -2.4001,
+					"province": 508,
+					"staff": 1620,
+					"fine": 1411
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chemring_group",
+			"название": {
+				"ru": "Chemring Group",
+				"en": "Chemring Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области военной пиротехники, средств самозащиты летательных аппаратов и боеприпасных компонентов (тепловые ловушки и пассивные инфракрасные помехи для защиты боевой авиации НАТО, детекторы химических и биологических угроз, взрыватели и ракетное топливо; выручка ~$600 млн). https://www.chemring.com/",
+				"en": "Chemring Group — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.4737,
+					"д": -0.0973,
+					"province": 849,
+					"staff": 540,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "martin_baker",
+			"название": {
+				"ru": "Martin-Baker",
+				"en": "Martin-Baker"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой технологический лидер и практический монополист в разработке и производстве авиационных катапультных кресел для боевых самолетов (катапульты Martin-Baker стоят на 75% истребителей западного мира: F-35 Lightning II, Eurofighter Typhoon, Rafale, Gripen, спасли жизни более 7,720 военных летчиков). https://martin-baker.com/",
+				"en": "Martin-Baker — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 220,
+				"debt": 849,
+				"money": 508,
+				"dividends": 66
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6188
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9900,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5348,
+					"д": -0.1449,
+					"province": 849,
+					"staff": 2970,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ultra_electronics",
+			"название": {
+				"ru": "Ultra Electronics (Ultra Maritime)",
+				"en": "Ultra Electronics (Ultra Maritime)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированный разработчик и производитель радиогидроакустических буев (сонобуев) для противолодочной авиации ВМС США и Великобритании, гидроакустических станций подводных лодок, систем размагничивания кораблей и защищенных сетей связи C2. https://www.ultra.group/",
+				"en": "Ultra Electronics (Ultra Maritime) — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 3150,
+				"profit": 210,
+				"debt": 810,
+				"money": 485,
+				"dividends": 63
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5906
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9450,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.5438,
+					"д": -0.0987,
+					"province": 849,
+					"staff": 2835,
+					"fine": 1393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "accuracy_international",
+			"название": {
+				"ru": "Accuracy International (AI)",
+				"en": "Accuracy International (AI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Всемирно известный производитель высокоточных армейских снайперских винтовок (легендарные серии Arctic Warfare AWM / L115A3, современные модульные винтовки AXSR, принятые на вооружение спецподразделений SAS, SBS, армии Великобритании и более 60 стран). https://www.accuracyinternational.com/",
+				"en": "Accuracy International (AI) — a defence company of United Kingdom."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 200,
+				"debt": 771,
+				"money": 462,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5625
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Великобритания)",
+						"en": "The state (United Kingdom)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Великобритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9000,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 51.4998,
+					"д": -0.1313,
+					"province": 849,
+					"staff": 2700,
+					"fine": 1286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

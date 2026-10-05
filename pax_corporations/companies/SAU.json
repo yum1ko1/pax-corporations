@@ -1,0 +1,2043 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Саудовская Аравия",
+	"iso": "SAU",
+	"data_date": "2026-03",
+	"average_wage": 2500,
+	"companies": [
+		{
+			"id": "aramco",
+			"название": {
+				"ru": "Saudi Aramco",
+				"en": "Saudi Aramco"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1933,
+			"description": {
+				"ru": "Крупнейшая нефтяная компания мира.",
+				"en": "The world's largest oil company."
+			},
+			"fundamental": {
+				"выручка": 440000,
+				"profit": 105000,
+				"debt": 80000,
+				"money": 60000,
+				"dividends": 120000
+			},
+			"рынок": {
+				"shares_mln": 242000,
+				"market_cap": 1600000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Саудовской Аравии",
+						"en": "The Saudi state"
+					},
+					"type": "polity",
+					"доля": 0.81,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 0.16,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.03
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Амин Насер",
+					"en": "Amin Nasser"
+				},
+				"роль": "госслужащий",
+				"с_года": 2015,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 74000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дахран",
+						"en": "Dhahran"
+					},
+					"ш": 26.31,
+					"д": 50.15,
+					"province": 976,
+					"staff": 15000,
+					"fine": 3466
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Гавар",
+						"en": "Ghawar"
+					},
+					"ш": 25.3,
+					"д": 49.4,
+					"province": 976,
+					"staff": 10000,
+					"fine": 3466
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Рас-Танура",
+						"en": "Ras Tanura"
+					},
+					"ш": 26.64,
+					"д": 50.16,
+					"province": 976,
+					"staff": 5000,
+					"fine": 3466
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aramco.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sabic",
+			"название": {
+				"ru": "SABIC",
+				"en": "SABIC"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "государственная",
+			"founded": 1976,
+			"description": {
+				"ru": "Нефтехимия Саудовской Аравии, контроль у Aramco.",
+				"en": "Saudi petrochemicals, controlled by Aramco."
+			},
+			"fundamental": {
+				"выручка": 37000,
+				"profit": -500,
+				"debt": 8000,
+				"money": 4000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Saudi Aramco",
+						"en": "Saudi Aramco"
+					},
+					"type": "company",
+					"доля": 0.7,
+					"country": "Саудовская Аравия",
+					"company": "aramco"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдулрахман аль-Фагих",
+					"en": "Abdulrahman Al-Fageeh"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 31000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.71,
+					"д": 46.67,
+					"province": 773,
+					"staff": 3000,
+					"fine": 3465
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Джубайль",
+						"en": "Jubail"
+					},
+					"ш": 27.0,
+					"д": 49.6,
+					"province": 976,
+					"staff": 10000,
+					"fine": 3466
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sabic.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "alrajhi",
+			"название": {
+				"ru": "Al Rajhi Bank",
+				"en": "Al Rajhi Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Крупнейший исламский банк мира.",
+				"en": "The world's largest Islamic bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 5000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 4000,
+				"market_cap": 105000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья аль-Раджхи",
+						"en": "The Al Rajhi family"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Валид аль-Мокбель",
+					"en": "Waleed Al-Mogbel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 18000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.69,
+					"д": 46.68,
+					"province": 773,
+					"staff": 5000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.alrajhibank.com.sa/about-us/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "snb",
+			"название": {
+				"ru": "Saudi National Bank",
+				"en": "Saudi National Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1953,
+			"description": {
+				"ru": "Крупнейший банк Саудовской Аравии.",
+				"en": "Saudi Arabia's largest bank."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 5300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 6000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 0.37,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.63
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тарик ас-Садхан",
+					"en": "Tareq Al-Sadhan"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 17000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джидда",
+						"en": "Jeddah"
+					},
+					"ш": 21.54,
+					"д": 39.17,
+					"province": 592,
+					"staff": 5000,
+					"fine": 3476
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.alahli.com/en-us/Investor_Relation | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "stc",
+			"название": {
+				"ru": "STC",
+				"en": "STC"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Связь Саудовской Аравии, владеет 10% Telefónica.",
+				"en": "Saudi telecom, owns 10% of Telefónica."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 4000,
+				"debt": 6000,
+				"money": 3000,
+				"dividends": 2600
+			},
+			"рынок": {
+				"shares_mln": 5000,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 0.62,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.38
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Олайян аль-Ветайд",
+					"en": "Olayan Alwetaid"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 19000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.77,
+					"д": 46.65,
+					"province": 773,
+					"staff": 6000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.stc.com.sa/content/stc/sa/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "maaden",
+			"название": {
+				"ru": "Ma'aden",
+				"en": "Ma'aden"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1997,
+			"description": {
+				"ru": "Золото, фосфаты и алюминий пустыни.",
+				"en": "Gold, phosphates and aluminium of the desert."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 800,
+				"debt": 9000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 3800,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 0.64,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберт Уилт",
+					"en": "Robert Wilt"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американец-горняк",
+					"en": "американец-горняк"
+				}
+			},
+			"staff": 7000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.75,
+					"д": 46.64,
+					"province": 773,
+					"staff": 1000,
+					"fine": 3465
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Рас-аль-Хайр",
+						"en": "Ras Al-Khair"
+					},
+					"ш": 27.48,
+					"д": 49.25,
+					"province": 976,
+					"staff": 4000,
+					"fine": 3466
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.maaden.com.sa/en/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "acwa",
+			"название": {
+				"ru": "ACWA Power",
+				"en": "ACWA Power"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2004,
+			"description": {
+				"ru": "Солнце, ветер и опреснение по миру, водород NEOM.",
+				"en": "Solar, wind and desalination worldwide, NEOM hydrogen."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 450,
+				"debt": 12000,
+				"money": 2000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 760,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 0.44,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марко Арчелли",
+					"en": "Marco Arcelli"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянец",
+					"en": "итальянец"
+				}
+			},
+			"staff": 4000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.7,
+					"д": 46.7,
+					"province": 773,
+					"staff": 1000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.acwapower.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sec",
+			"название": {
+				"ru": "Saudi Electricity",
+				"en": "Saudi Electricity"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2000,
+			"description": {
+				"ru": "Электроэнергия королевства.",
+				"en": "The kingdom's power."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 2000,
+				"debt": 40000,
+				"money": 2000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 4170,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство и PIF",
+						"en": "The state and PIF"
+					},
+					"type": "polity",
+					"доля": 0.81,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.19
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Халид аль-Гамди",
+					"en": "Khalid Al-Ghamdi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 30000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.68,
+					"д": 46.72,
+					"province": 773,
+					"staff": 5000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.se.com.sa/en-us/Pages/InvestorRelations.aspx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "riyadbank",
+			"название": {
+				"ru": "Riyad Bank",
+				"en": "Riyad Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Крупный банк Эр-Рияда.",
+				"en": "A big bank of Riyadh."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 2400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3000,
+				"market_cap": 23000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды",
+						"en": "State funds"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Надир аль-Харджи",
+					"en": "Nadir Al-Kharji"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 8000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.69,
+					"д": 46.69,
+					"province": 773,
+					"staff": 3000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.riyadbank.com/en/about-us/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "saudia",
+			"название": {
+				"ru": "Saudia",
+				"en": "Saudia"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1945,
+			"description": {
+				"ru": "Национальная авиакомпания — паломники в Мекку.",
+				"en": "The national airline — pilgrims to Mecca."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 200,
+				"debt": 5000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Саудовской Аравии",
+						"en": "The Saudi state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ибрагим аль-Омар",
+					"en": "Ibrahim Al-Omar"
+				},
+				"роль": "госслужащий",
+				"с_года": 2017,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 25000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джидда",
+						"en": "Jeddah"
+					},
+					"ш": 21.68,
+					"д": 39.15,
+					"province": 592,
+					"staff": 10000,
+					"fine": 3476
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.saudia.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "almarai",
+			"название": {
+				"ru": "Almarai",
+				"en": "Almarai"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Крупнейшая молочная компания Ближнего Востока.",
+				"en": "The largest dairy company of the Middle East."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 600,
+				"debt": 4000,
+				"money": 300,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья аль-Сауд (принц Султан)",
+						"en": "Al Saud family (Prince Sultan)"
+					},
+					"type": "founder",
+					"доля": 0.28
+				},
+				{
+					"кто": {
+						"ru": "Savola",
+						"en": "Savola"
+					},
+					"type": "company",
+					"доля": 0.35,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдулла аль-Бадр",
+					"en": "Abdullah Al-Badr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пищевик",
+					"en": "пищевик"
+				}
+			},
+			"staff": 44000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.72,
+					"д": 46.75,
+					"province": 773,
+					"staff": 6000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.almarai.com/en/corporate/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sami",
+			"название": {
+				"ru": "SAMI",
+				"en": "Saudi Arabian Military Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2017,
+			"description": {
+				"ru": "Оборонная промышленность королевства (Видение 2030).",
+				"en": "The kingdom's defence industry (Vision 2030)."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 150,
+				"debt": 500,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIF (суверенный фонд)",
+						"en": "PIF (sovereign fund)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Валид Абукхалед",
+					"en": "Walid Abukhaled"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оборонщик",
+					"en": "оборонщик"
+				}
+			},
+			"staff": 8000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.73,
+					"д": 46.7,
+					"province": 773,
+					"staff": 4000,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.sami.com.sa/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "saudi_awwal",
+			"название": {
+				"ru": "Saudi Awwal Bank (SABB / SAB)",
+				"en": "Saudi Awwal Bank (SABB / SAB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Эр-Рияд — ведущий коммерческий и корпоративный банк Королевства (стратегическое партнерство с глобальной группой HSBC). [Выручка: 3 200 млн $ (12 000 млн SAR), Чистая прибыль: 1 900 млн $ (7 100 млн SAR), Штат: 5 500 чел., Руководитель: Тони Криппс (Tony Cripps), с 2021 года, 1964 г.р.]. Официальные источники: https://www.sab.com/en/about-sab/investor-relations/",
+				"en": "Saudi Awwal Bank (SABB / SAB) — a financial company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 3150,
+				"profit": 886,
+				"debt": 0,
+				"money": 0,
+				"dividends": 266
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9000,
+			"wage": 4107,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6875,
+					"д": 46.695,
+					"province": 773,
+					"staff": 2700,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_saudi",
+			"название": {
+				"ru": "Banque Saudi Fransi (BSF)",
+				"en": "Banque Saudi Fransi (BSF)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Эр-Рияд — один из крупнейших инвестиционных и корпоративных банков Саудовской Аравии. [Выручка: 2 500 млн $ (9 500 млн SAR), Чистая прибыль: 1 100 млн $ (4 200 млн SAR), Штат: 4 200 чел., Руководитель: Бадер аль-Саллум (Bader Alsalloom), с 2023 года, 1978 г.р.]. Официальные источники: https://www.alfransi.com.sa/english/investor-relations",
+				"en": "Banque Saudi Fransi (BSF) — a financial company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 3150,
+				"profit": 886,
+				"debt": 0,
+				"money": 0,
+				"dividends": 266
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9000,
+			"wage": 4107,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.7254,
+					"д": 46.737,
+					"province": 773,
+					"staff": 2700,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "arab_national",
+			"название": {
+				"ru": "Arab National Bank (ANB)",
+				"en": "Arab National Bank (ANB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Эр-Рияд — универсальный системно значимый банк с разветвленной сетью отделений по всей стране. [Выручка: 2 300 млн $ (8 600 млн SAR), Чистая прибыль: 1 100 млн $ (4 100 млн SAR), Штат: 4 000 чел., Руководитель: Обайд аль-Рашид (Obaid Al-Rasheed), с 2021 года, 1968 г.р.]. Официальные источники: https://www.anb.com.sa/web/anb/investor-relations",
+				"en": "Arab National Bank (ANB) — a financial company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 2975,
+				"profit": 837,
+				"debt": 0,
+				"money": 0,
+				"dividends": 251
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6942
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8500,
+			"wage": 4107,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6512,
+					"д": 46.7386,
+					"province": 773,
+					"staff": 2550,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bupa_arabia",
+			"название": {
+				"ru": "Bupa Arabia for Cooperative Insurance",
+				"en": "Bupa Arabia for Cooperative Insurance"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Джидда — крупнейшая медицинская страховая компания Королевства Саудовская Аравия (доля рынка более 45%). [Выручка: 4 200 млн $ (16 000 млн SAR), Чистая прибыль: 320 млн $, Штат: 2 500 чел., Руководитель: Таль Назер (Tal Nazer), с 2008 года, 1972 г.р.]. Официальные источники: https://bupa.com.sa/en/investor-relations",
+				"en": "Bupa Arabia for Cooperative Insurance — a financial company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 788,
+				"debt": 0,
+				"money": 0,
+				"dividends": 236
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6533
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 4107,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6767,
+					"д": 46.6944,
+					"province": 773,
+					"staff": 2400,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jarir_marketing",
+			"название": {
+				"ru": "Jarir Marketing Company (Jarir Bookstore)",
+				"en": "Jarir Marketing Company (Jarir Bookstore)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Эр-Рияд — крупнейшая сеть потребительской электроники, компьютеров, офисных товаров и книг в регионе Персидского залива. [Выручка: 2 800 млн $ (10 500 млн SAR), Чистая прибыль: 260 млн $, Штат: 6 000 чел., Руководитель: Абдулкарим аль-Агиль (Abdulkarim Al-Agil), президент, 1964 г.р.]. Официальные источники: https://www.jarir.com/sa-en/investor-relations",
+				"en": "Jarir Marketing Company (Jarir Bookstore) — a energy company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 2362,
+				"profit": 218,
+				"debt": 1435,
+				"money": 302,
+				"dividends": 65
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3115
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4202,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.7218,
+					"д": 46.7496,
+					"province": 773,
+					"staff": 1260,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "savola_group",
+			"название": {
+				"ru": "Savola Group",
+				"en": "Savola Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Джидда — ведущий холдинг потребительского сектора в регионе MENA (растительные масла Afia, сахар Al-Osra, сеть супермаркетов Panda Retail). [Выручка: 7 500 млн $ (28 000 млн SAR), Чистая прибыль: 240 млн $, Штат: 26 000 чел., Руководитель: Валид Фатани (Waleed Khalid Fatani), с 2021 года, 1972 г.р.]. Официальные источники: https://www.savola.com/en/investors",
+				"en": "Savola Group — a consumer and retail company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 1925,
+				"profit": 150,
+				"debt": 444,
+				"money": 160,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2637
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5775,
+			"wage": 2778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6502,
+					"д": 46.7554,
+					"province": 773,
+					"staff": 1732,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bahri",
+			"название": {
+				"ru": "Bahri (National Shipping Company of Saudi Arabia)",
+				"en": "Bahri (National Shipping Company of Saudi Arabia)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Эр-Рияд — национальный морской перевозчик, один из крупнейших в мире операторов супертанкеров VLCC (стратегический морской логистический партнер Saudi Aramco). [Выручка: 2 400 млн $ (9 000 млн SAR), Чистая прибыль: 450 млн $ (1 700 млн SAR), Штат: 3 800 чел., Руководитель: Ахмед аль-Субей (Ahmed Alsubaey), с 2022 года, 1967 г.р.]. Официальные источники: https://www.bahri.sa/en/investors/",
+				"en": "Bahri (National Shipping Company of Saudi Arabia) — a transport company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 1662,
+				"profit": 111,
+				"debt": 839,
+				"money": 344,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1187
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4155,
+			"wage": 4091,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.7249,
+					"д": 46.7614,
+					"province": 773,
+					"staff": 1246,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "yanbu_national",
+			"название": {
+				"ru": "Yanbu National Petrochemical Company (Yansab)",
+				"en": "Yanbu National Petrochemical Company (Yansab)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Янбу — нефтехимический гигант на побережье Красного моря (дочерняя структура SABIC: этилен, пропилен, гликоли). [Выручка: 1 600 млн $ (6 000 млн SAR), Чистая прибыль: 120 млн $, Штат: 1 800 чел., Руководитель: Мохаммед Базид (Mohammed Bazid), с 2021 года, 1970 г.р.]. Официальные источники: https://www.yansab.com.sa/, https://www.yansab.com.sa/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Yanbu National Petrochemical Company (Yansab) — a oil and gas company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 83,
+				"debt": 394,
+				"money": 133,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 871
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1224,
+			"wage": 4472,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Yanbu"
+					},
+					"ш": 24.0934,
+					"д": 38.0614,
+					"province": 591,
+					"staff": 367,
+					"fine": 3467
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "saudi_kayan",
+			"название": {
+				"ru": "Saudi Kayan Petrochemical Company",
+				"en": "Saudi Kayan Petrochemical Company"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Эль-Джубайль — один из крупнейших в мире интегрированных нефтехимических комплексов (поликарбонат, фенол, окись этилена). [Выручка: 2 500 млн $ (9 500 млн SAR), Чистая прибыль: -150 млн $, Штат: 2 200 чел., Руководитель: Набиль аль-Сурур (Nabil Al-Surur), с 2022 года, 1972 г.р.]. Официальные источники: https://www.saudikayan.com/, https://www.saudikayan.com/investors (Годовой отчет / Раскрытие инф",
+				"en": "Saudi Kayan Petrochemical Company — a oil and gas company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 1251,
+				"profit": 74,
+				"debt": 352,
+				"money": 119,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 778
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1093,
+			"wage": 4472,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6779,
+					"д": 46.7466,
+					"province": 773,
+					"staff": 327,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "public_investment",
+			"название": {
+				"ru": "Public Investment Fund (PIF)",
+				"en": "Public Investment Fund (PIF)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Эр-Рияд — суверенный фонд благосостояния Саудовской Аравии с активами свыше 925 млрд $, локомотив реализации программы Vision 2030 (NEOM, Red Sea Project, инвестиции в высокие технологии и авиацию Riyadh Air). [Выручка: 65 000 млн $ (доход от инвестиций и дочерних структур), Чистая прибыль: 25 000 млн $, Штат: 3 000 чел., Руководитель: Ясир аль-Румайян (Yasir Al-Rumayyan), управляющий фондом с 201",
+				"en": "Public Investment Fund (PIF) — a financial company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 1102,
+				"profit": 310,
+				"debt": 0,
+				"money": 0,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2571
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3148,
+			"wage": 4107,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6722,
+					"д": 46.7036,
+					"province": 773,
+					"staff": 944,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "advanced_electronics",
+			"название": {
+				"ru": "Advanced Electronics Company (AEC / SAMI Advanced Electronics)",
+				"en": "Advanced Electronics Company (AEC / SAMI Advanced Electronics)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2021,
+			"description": {
+				"ru": "Эр-Рияд — ведущий разработчик и производитель военной радиоэлектроники, систем тактической связи, авионики и комплексов C4ISR на Ближнем Востоке: бортовая электроника истребителей F-15SA, РЭБ, комплексы кибербезопасности и радары. (Военная авионика, тактические радиостанции, защита от дронов (C-UAS), оптико-электронные прицельные комплексы.) [Выручка: 850 млн $, Чистая прибыль: 95 млн $, Штат: 3 0",
+				"en": "Advanced Electronics Company (AEC / SAMI Advanced Electronics) — a defence company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 472,
+				"profit": 31,
+				"debt": 121,
+				"money": 73,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 885
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Саудовская Аравия)",
+						"en": "The state (Saudi Arabia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1416,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.7174,
+					"д": 46.7211,
+					"province": 773,
+					"staff": 424,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "middle_east",
+			"название": {
+				"ru": "Middle East Aircraft Engines Company (MEPC)",
+				"en": "Middle East Aircraft Engines Company (MEPC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Эр-Рияд — ключевое военно-авиационное двигателестроительное предприятие Королевства: капитальный ремонт, испытания и сервис турбореактивных двигателей Pratt & Whitney F100 (для F-15C/D/S/SA), Turbo-Union RB199 (Tornado) и Eurojet EJ200 (Eurofighter Typhoon) ВВС Саудовской Аравии. (Капитальный ремонт военных реактивных двигателей, балансировка и производство лопаток турбин.) [Выручка: 300 млн $, Чи",
+				"en": "Middle East Aircraft Engines Company (MEPC) — a defence company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 472,
+				"profit": 31,
+				"debt": 121,
+				"money": 73,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 885
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Саудовская Аравия)",
+						"en": "The state (Saudi Arabia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1416,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6524,
+					"д": 46.6841,
+					"province": 773,
+					"staff": 424,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zamil_offshore",
+			"название": {
+				"ru": "Zamil Offshore Services / Zamil Naval Shipyards",
+				"en": "Zamil Offshore Services / Zamil Naval Shipyards"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Даммам / Порт Короля Абдулазиза — главная частно-государственная верфь военного и патрульного судостроения: постройка скоростных перехватчиков, катеров береговой охраны и доковый ремонт фрегатов классов Al Madinah и Al Riyadh ВМС Саудовской Аравии. (Военно-морское судостроение, капремонт фрегатов и патрульных кораблей, судовые двигательные установки.) [Выручка: 350 млн $ (военно-морская доля ~120 ",
+				"en": "Zamil Offshore Services / Zamil Naval Shipyards — a defence company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 459,
+				"profit": 31,
+				"debt": 118,
+				"money": 71,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 861
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Саудовская Аравия)",
+						"en": "The state (Saudi Arabia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1377,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.6943,
+					"д": 46.6907,
+					"province": 773,
+					"staff": 413,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sami_navantia",
+			"название": {
+				"ru": "SAMI Navantia Naval Industries (SANNI)",
+				"en": "SAMI Navantia Naval Industries (SANNI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Джидда / Эль-Джубайль — совместное предприятие SAMI и испанской верфи Navantia: локализованная постройка и боевая интеграция боевых информационно-управляющих систем HAZEM на корветах класса Al Jubail (Avante 2200), сервис корабельных комплексов ПВО и ПКР ВМС Королевства. (Боевые управляющие системы (БИУС HAZEM), интеграция корабельного вооружения, ремонт боевых надводных кораблей.) [Выручка: 220 м",
+				"en": "SAMI Navantia Naval Industries (SANNI) — a defence company of Saudi Arabia."
+			},
+			"fundamental": {
+				"выручка": 446,
+				"profit": 30,
+				"debt": 115,
+				"money": 69,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 836
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Саудовская Аравия)",
+						"en": "The state (Saudi Arabia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Саудовская Аравия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1338,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эр-Рияд",
+						"en": "Riyadh"
+					},
+					"ш": 24.699,
+					"д": 46.7429,
+					"province": 773,
+					"staff": 401,
+					"fine": 3465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

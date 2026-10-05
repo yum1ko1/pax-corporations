@@ -1,0 +1,1659 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Малайзия",
+	"iso": "MYS",
+	"data_date": "2026-03",
+	"average_wage": 1000,
+	"companies": [
+		{
+			"id": "petronas",
+			"название": {
+				"ru": "Petronas",
+				"en": "Petronas"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1974,
+			"description": {
+				"ru": "Государственная нефть и газ Малайзии — башни Петронас.",
+				"en": "Malaysia's state oil and gas — the Petronas Towers."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 13000,
+				"debt": 20000,
+				"money": 40000,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Малайзии",
+						"en": "The Malaysian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тенгку Тауфик",
+					"en": "Tengku Muhammad Taufik"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 50000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур, башни Петронас",
+						"en": "Kuala Lumpur, Petronas Towers"
+					},
+					"ш": 3.16,
+					"д": 101.71,
+					"province": 625,
+					"staff": 10000,
+					"fine": 2868
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Бинтулу (СПГ)",
+						"en": "Bintulu (LNG)"
+					},
+					"ш": 3.27,
+					"д": 113.08,
+					"province": 160,
+					"staff": 4000,
+					"fine": 2867
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.petronas.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "maybank",
+			"название": {
+				"ru": "Maybank",
+				"en": "Maybank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1960,
+			"description": {
+				"ru": "Крупнейший банк Малайзии.",
+				"en": "Malaysia's largest bank."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 2200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 12080,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды (PNB, EPF)",
+						"en": "State funds (PNB, EPF)"
+					},
+					"type": "polity",
+					"доля": 0.55,
+					"country": "Малайзия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хайрусалех Рамли",
+					"en": "Khairussaleh Ramli"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 43000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.15,
+					"д": 101.69,
+					"province": 625,
+					"staff": 8000,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.maybank.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "publicbank",
+			"название": {
+				"ru": "Public Bank",
+				"en": "Public Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Самый прибыльный частный банк Малайзии.",
+				"en": "Malaysia's most profitable private bank."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 19410,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Наследники Тех Хон Пиу",
+						"en": "Heirs of Teh Hong Piow"
+					},
+					"type": "founder",
+					"доля": 0.22
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.78
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тай Ах Лек",
+					"en": "Tay Ah Lek"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2002,
+				"born_year": 1943,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 20000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.15,
+					"д": 101.7,
+					"province": 625,
+					"staff": 6000,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.publicbankgroup.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "tenaga",
+			"название": {
+				"ru": "Tenaga Nasional",
+				"en": "Tenaga Nasional"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1949,
+			"description": {
+				"ru": "Электроэнергия Малайзии — дата-центры Джохора.",
+				"en": "Malaysia's power — the Johor data centres."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 1100,
+				"debt": 15000,
+				"money": 2000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 5800,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды (Khazanah, EPF)",
+						"en": "State funds (Khazanah, EPF)"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Малайзия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мегат Джалалуддин",
+					"en": "Megat Jalaluddin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 35000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.12,
+					"д": 101.67,
+					"province": 625,
+					"staff": 5000,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tnb.com.my | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cimb",
+			"название": {
+				"ru": "CIMB",
+				"en": "CIMB"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1924,
+			"description": {
+				"ru": "Второй банк Малайзии, работает по АСЕАН.",
+				"en": "Malaysia's second bank, across ASEAN."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 10700,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Khazanah (государство)",
+						"en": "Khazanah (the state)"
+					},
+					"type": "polity",
+					"доля": 0.25,
+					"country": "Малайзия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нован Амирудин",
+					"en": "Novan Amirudin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 33000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.14,
+					"д": 101.69,
+					"province": 625,
+					"staff": 6000,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cimb.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ihh",
+			"название": {
+				"ru": "IHH Healthcare",
+				"en": "IHH Healthcare"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Крупная сеть частных больниц Азии.",
+				"en": "A big chain of Asia's private hospitals."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 600,
+				"debt": 2000,
+				"money": 800,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 8800,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Mitsui & Co.",
+						"en": "Mitsui & Co."
+					},
+					"type": "company",
+					"доля": 0.33,
+					"country": "Япония",
+					"company": "mitsui"
+				},
+				{
+					"кто": {
+						"ru": "Khazanah (государство)",
+						"en": "Khazanah (the state)"
+					},
+					"type": "polity",
+					"доля": 0.26,
+					"country": "Малайзия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Прем Кумар Наир",
+					"en": "Prem Kumar Nair"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "врач-менеджер",
+					"en": "врач-менеджер"
+				}
+			},
+			"staff": 70000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.16,
+					"д": 101.68,
+					"province": 625,
+					"staff": 5000,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.ihhhealthcare.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "sime_darby",
+			"название": {
+				"ru": "Sime Darby Berhad",
+				"en": "Sime Darby Berhad"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Крупнейший конгломерат тяжелого оборудования (дистрибьютор Caterpillar в Австралии, Китае и АСЕАН — и премиальных автомобилей (BMW, Porsche)) [Выручка: $12,000 млн (MYR 50+ млрд), Чистая прибыль: $450 млн, Долг: $2,500 млн, Деньги: $800 млн, Дивиденды: $180 млн, Капитализация: $4,000 млн (Bursa Malaysia: SIME), Штат: 30,000 чел., Зарплата: $1,200/мес, Руководитель: Датук Джеффри Салим Дэвидсон (Da",
+				"en": "Sime Darby Berhad — a metals and mining company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 450,
+				"debt": 2500,
+				"money": 800,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 34666,
+			"wage": 1786,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1292,
+					"д": 101.6656,
+					"province": 625,
+					"staff": 10399,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "sd_guthrie",
+			"название": {
+				"ru": "SD Guthrie Berhad (ранее Sime Darby Plantation Berhad)",
+				"en": "SD Guthrie Berhad (ранее Sime Darby Plantation Berhad)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Пальмовое масло и плантации (крупнейший в мире производитель сертифицированного экологичного пальмового масла CSPO — ) [Выручка: $4,000 млн (MYR 18 млрд), Чистая прибыль: $400 млн, Долг: $1,500 млн, Деньги: $350 млн, Дивиденды: $150 млн, Капитализация: $7,000 млн (Bursa Malaysia: SDG), Штат: 85,000 чел. (Малайзия, Индонезия, Папуа — Новая Гвинея), Зарплата: $600/мес, Руководитель: Датук Мохамад Хе",
+				"en": "SD Guthrie Berhad (ранее Sime Darby Plantation Berhad) — a consumer and retail company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 400,
+				"debt": 1500,
+				"money": 350,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 1111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1146,
+					"д": 101.6769,
+					"province": 625,
+					"staff": 3600,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "genting_berhad",
+			"название": {
+				"ru": "Genting Berhad (Genting Group)",
+				"en": "Genting Berhad (Genting Group)"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1951,
+			"description": {
+				"ru": "Казино, курорты, отели, энергетика (Resorts World Genting, Resorts World Sentosa Singapore, Resorts World Las Vegas — ) [Выручка: $6,000 млн (MYR 27 млрд), Чистая прибыль: $500 млн, Долг: $8,000 млн, Деньги: $4,500 млн, Дивиденды: $200 млн, Капитализация: $4,500 млн (Bursa Malaysia: GENTING), Штат: 50,000 чел., Зарплата: $1,100/мес, Руководитель: Тан Шри Лим Кок Тхай (Tan Sri Lim Kok Thay), Предсе",
+				"en": "Genting Berhad (Genting Group) — a tourism company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 500,
+				"debt": 8000,
+				"money": 4500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 81818,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1173,
+					"д": 101.6625,
+					"province": 625,
+					"staff": 24545,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "axiata_group",
+			"название": {
+				"ru": "Axiata Group Berhad",
+				"en": "Axiata Group Berhad"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1964,
+			"description": {
+				"ru": "Телекоммуникации (один из крупнейших транснациональных операторов Азии: CelcomDigi, XL Axiata, Robi, Dialog, телеком-башни EDOTCO — ) [Выручка: $5,500 млн (MYR 24 млрд), Чистая прибыль: $250 млн, Долг: $6,000 млн, Деньги: $1,200 млн, Дивиденды: $180 млн, Капитализация: $5,500 млн (Bursa Malaysia: AXIATA), Штат: 13,000 чел., Зарплата: $1,400/мес, Руководитель: Вивек Суд (Vivek Sood), Главный исполн",
+				"en": "Axiata Group Berhad — a IT and telecom company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 250,
+				"debt": 6000,
+				"money": 1200,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14569,
+			"wage": 1793,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1478,
+					"д": 101.6741,
+					"province": 625,
+					"staff": 4370,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "ytl_corporation",
+			"название": {
+				"ru": "YTL Corporation Berhad",
+				"en": "YTL Corporation Berhad"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1954,
+			"description": {
+				"ru": "Инфраструктура, энергетика YTL Power (электростанции в Сингапуре, водоснабжение Wessex Water в Великобритании, мега-датацентры ИИ с Nvidia в Джохоре — ) [Выручка: $7,000 млн (MYR 31 млрд), Чистая прибыль: $750 млн, Долг: $10,000 млн, Деньги: $3,000 млн, Дивиденды: $220 млн, Капитализация: $7,500 млн (Bursa Malaysia: YTL), Штат: 14,000 чел., Зарплата: $1,300/мес, Руководитель: Тан Шри Фрэнсис Йео (",
+				"en": "YTL Corporation Berhad — a energy company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 750,
+				"debt": 10000,
+				"money": 3000,
+				"dividends": 220
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12453,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1716,
+					"д": 101.6545,
+					"province": 625,
+					"staff": 3735,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "press_metal",
+			"название": {
+				"ru": "Press Metal Aluminium Holdings Berhad",
+				"en": "Press Metal Aluminium Holdings Berhad"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Цветная металлургия (крупнейший интегрированный производитель алюминия в Юго-Восточной Азии, заводы в Сараваке — ) [Выручка: $3,500 млн (MYR 15 млрд), Чистая прибыль: $350 млн, Долг: $1,200 млн, Деньги: $500 млн, Дивиденды: $120 млн, Капитализация: $9,500 млн (Bursa Malaysia: PMETAL), Штат: 7,000 чел., Зарплата: $1,200/мес, Руководитель: Тан Шри Пол Кун По Кён (Tan Sri Paul Koon Poh Keong), Главны",
+				"en": "Press Metal Aluminium Holdings Berhad — a metals and mining company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 350,
+				"debt": 1200,
+				"money": 500,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10111,
+			"wage": 1786,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.127,
+					"д": 101.6988,
+					"province": 625,
+					"staff": 3033,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "misc_berhad",
+			"название": {
+				"ru": "MISC Berhad",
+				"en": "MISC Berhad"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Морская транспортировка энергоносителей (один из крупнейших мировых флотов танкеров СПГ, сверхбольших нефтетанкеров VLCC и плавучих установок FPSO — ) [Выручка: $3,200 млн (MYR 14 млрд), Чистая прибыль: $500 млн, Долг: $2,200 млн, Деньги: $1,400 млн, Дивиденды: $350 млн, Капитализация: $8,000 млн (Bursa Malaysia: MISC, контролируется Petronas), Штат: 9,000 чел., Зарплата: $1,800/мес, Руководитель:",
+				"en": "MISC Berhad — a transport company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 500,
+				"debt": 2200,
+				"money": 1400,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 1636,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1353,
+					"д": 101.6547,
+					"province": 625,
+					"staff": 2400,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "capital_a",
+			"название": {
+				"ru": "Capital A Berhad (AirAsia Aviation Group)",
+				"en": "Capital A Berhad (AirAsia Aviation Group)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Авиаперевозки (крупнейший лоукостер Азии, цифровые сервисы, логистика Teleport — ) [Выручка: $3,500 млн, Чистая прибыль: $100 млн, Долг: $3,500 млн, Деньги: $300 млн, Дивиденды: $0, Капитализация: $1,000 млн (Bursa Malaysia: CAPITALA), Штат: 21,000 чел., Зарплата: $1,200/мес, Руководитель: Тан Шри Тони Фернандес (Tan Sri Tony Fernandes), Главный исполнительный директор с 2001 года, родился в 1964 ",
+				"en": "Capital A Berhad (AirAsia Aviation Group) — a transport company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 100,
+				"debt": 3500,
+				"money": 300,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8750,
+			"wage": 1636,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1723,
+					"д": 101.6826,
+					"province": 625,
+					"staff": 2625,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "top_glove",
+			"название": {
+				"ru": "Top Glove Corporation Bhd",
+				"en": "Top Glove Corporation Bhd"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1958,
+			"description": {
+				"ru": "Медицинские изделия (мировой лидер в производстве резиновых и нитриловых перчаток, 95 млрд штук в год — Lim Wee Chai), Основатель и исполнительный председатель, родился в 1958 году; Лим Чонг Гуан (Lim Cheong Guan, управляющий директор с 2022 года, родился в 1965 году).]. Официальные источники: https://www.topglove.com, https://www.topglove.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Top Glove Corporation Bhd — a pharmaceutical company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 30,
+				"debt": 100,
+				"money": 250,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тан Шри Лим Ви Чай (Tan Sri Dr",
+					"en": "Тан Шри Лим Ви Чай (Tan Sri Dr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1095,
+			"wage": 1449,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1116,
+					"д": 101.7014,
+					"province": 625,
+					"staff": 328,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "inari_amertron",
+			"название": {
+				"ru": "Inari Amertron Berhad",
+				"en": "Inari Amertron Berhad"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Полупроводники (крупнейшая компания Малайзии по сборке и тестированию микросхем OSAT, упаковка радиочастотных чипов 5G для Apple/Broadcom — ) [Выручка: $350 млн, Чистая прибыль: $80 млн, Долг: $0, Деньги: $450 млн, Дивиденды: $60 млн, Капитализация: $2,500 млн (Bursa Malaysia: INARI), Штат: 6,000 чел., Зарплата: $1,100/мес, Руководитель: Лау Ки Чонг (Lau Kean Cheong), Главный исполнительный директ",
+				"en": "Inari Amertron Berhad — a semiconductor company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 80,
+				"debt": 48,
+				"money": 450,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 492,
+			"wage": 1944,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1259,
+					"д": 101.6954,
+					"province": 625,
+					"staff": 147,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, штат, зарплата"
+			]
+		},
+		{
+			"id": "deftech",
+			"название": {
+				"ru": "Deftech (DRB-HICOM Defence Technologies Sdn Bhd)",
+				"en": "Deftech (DRB-HICOM Defence Technologies Sdn Bhd)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный производитель тяжелой бронетанковой и колесной боевой техники Сухопутных войск Малайзии — Официальные источники: https://www.deftech.com.my, https://www.deftech.com.my/defense (Оборонные программы)",
+				"en": "Deftech (DRB-HICOM Defence Technologies Sdn Bhd) — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 10,
+				"debt": 39,
+				"money": 23,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 281
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Главный исполнительный директор Deftech]",
+					"en": "Главный исполнительный директор Deftech]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекан",
+						"en": "Pekan"
+					},
+					"ш": 3.4946,
+					"д": 103.3726,
+					"province": 625,
+					"staff": 135,
+					"fine": 2863
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lumut_naval",
+			"название": {
+				"ru": "Lumut Naval Shipyard Sdn Bhd - LUNAS (ранее Boustead Naval Shipyard)",
+				"en": "Lumut Naval Shipyard Sdn Bhd - LUNAS (ранее Boustead Naval Shipyard)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская верфь Королевских ВМС Малайзии (TLDM — Официальные источники: https://www.lunas.my, https://www.lunas.my/defense (Оборонные программы)",
+				"en": "Lumut Naval Shipyard Sdn Bhd - LUNAS (ранее Boustead Naval Shipyard) — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 13,
+				"debt": 51,
+				"money": 31,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Главный исполнительный директор LUNAS]",
+					"en": "Главный исполнительный директор LUNAS]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Lumut"
+					},
+					"ш": 4.2366,
+					"д": 100.6526,
+					"province": 153,
+					"staff": 180,
+					"fine": 2855
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sme_ordnance",
+			"название": {
+				"ru": "SME Ordnance Sdn Bhd (SMEO / NADI Group)",
+				"en": "SME Ordnance Sdn Bhd (SMEO / NADI Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монопольный завод стрелкового оружия и артиллерийских боеприпасов Вооруженных сил Малайзии — Официальные источники: https://www.smeordnance.com.my, https://www.smeordnance.com.my/defense (Оборонные программы)",
+				"en": "SME Ordnance Sdn Bhd (SMEO / NADI Group) — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": 5,
+				"debt": 21,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Исполнительный директор SME Ordnance]",
+					"en": "Исполнительный директор SME Ordnance]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 240,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1752,
+					"д": 101.7146,
+					"province": 625,
+					"staff": 72,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "airod_sdn",
+			"название": {
+				"ru": "AIROD Sdn Bhd (Aircraft Inspection, Repair & Overhaul Depot)",
+				"en": "AIROD Sdn Bhd (Aircraft Inspection, Repair & Overhaul Depot)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий военно-авиационный ремонтный и модернизационный комплекс Королевских ВВС Малайзии (TUDM — Официальные источники: https://www.airod.com.my, https://www.airod.com.my/defense (Оборонные программы)",
+				"en": "AIROD Sdn Bhd (Aircraft Inspection, Repair & Overhaul Depot) — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 100,
+				"profit": 7,
+				"debt": 26,
+				"money": 15,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 188
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Главный исполнительный директор AIROD]",
+					"en": "Главный исполнительный директор AIROD]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куала-Лумпур",
+						"en": "Kuala Lumpur"
+					},
+					"ш": 3.1643,
+					"д": 101.6778,
+					"province": 625,
+					"staff": 90,
+					"fine": 2868
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gading_marine",
+			"название": {
+				"ru": "Gading Marine Industry Sdn Bhd",
+				"en": "Gading Marine Industry Sdn Bhd"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская верфь высокоскоростных боевых катеров и катеров перехвата — Официальные источники: https://www.gading.com.my, https://www.gading.com.my/defense (Оборонные программы)",
+				"en": "Gading Marine Industry Sdn Bhd — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 675,
+				"profit": 45,
+				"debt": 174,
+				"money": 104,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1266
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Управляющий директор Gading Group]",
+					"en": "Управляющий директор Gading Group]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2025,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кланг",
+						"en": "Klang"
+					},
+					"ш": 3.0124,
+					"д": 101.4732,
+					"province": 625,
+					"staff": 607,
+					"fine": 2864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mildef_international",
+			"название": {
+				"ru": "Mildef International Technologies (Mildef)",
+				"en": "Mildef International Technologies (Mildef)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик и серийный производитель современных колесных бронированных боевых машин стандарта НАТО — Официальные источники: https://mildef.com.my",
+				"en": "Mildef International Technologies (Mildef) — a defence company of Malaysia."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Малайзия)",
+						"en": "The state (Malaysia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Малайзия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Датук Шри Мохд Низам Кассим (Datuk Seri Mohd Nizam Kasa), СЕО Mildef]",
+					"en": "Датук Шри Мохд Низам Кассим (Datuk Seri Mohd Nizam Kasa), СЕО Mildef]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сепанг",
+						"en": "Sepang"
+					},
+					"ш": 2.6604,
+					"д": 101.7118,
+					"province": 625,
+					"staff": 540,
+					"fine": 2864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

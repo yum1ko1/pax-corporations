@@ -1,0 +1,1161 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Маврикий",
+	"iso": "MUS",
+	"data_date": "2026-03",
+	"average_wage": 700,
+	"companies": [
+		{
+			"id": "mcb",
+			"название": {
+				"ru": "MCB Group",
+				"en": "MCB Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1838,
+			"description": {
+				"ru": "Крупнейший банк Маврикия — офшорный центр для Африки и Индии.",
+				"en": "Mauritius's largest bank — an offshore hub for Africa and India."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 255,
+				"market_cap": 2800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи основателей",
+						"en": "Founding families"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жан-Мишель Нг Цзе Шинг",
+					"en": "Jean-Michel Ng Tseung"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 4500,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт-Луи",
+						"en": "Port Louis"
+					},
+					"ш": -20.16,
+					"д": 57.5,
+					"province": 932,
+					"staff": 3000,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mcbgroup.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ibl_group",
+			"название": {
+				"ru": "IBL Group (Ireland Blyth Limited)",
+				"en": "IBL Group (Ireland Blyth Limited)"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Многоотраслевой конгломерат (ритейл Winner's, отели LUX* Resorts, фармацевтика HealthActiv, логистика, присутствие в 18 странах — ) [Выручка: $1,400 млн (MUR 65+ млрд), Чистая прибыль: $100 млн (MUR 4.5+ млрд), Долг: $600 млн, Деньги: $150 млн, Дивиденды: $30 млн, Капитализация: $700 млн (SEM: IBL), Штат: 28,000 чел., Зарплата: $800/мес, Руководитель: Арно Лажесс (Arnaud Lagesse), Главный исполнит",
+				"en": "IBL Group (Ireland Blyth Limited) — a pharmaceutical company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 100,
+				"debt": 600,
+				"money": 150,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2556,
+			"wage": 1015,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1298,
+					"д": 57.4723,
+					"province": 932,
+					"staff": 766,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "ciel_limited",
+			"название": {
+				"ru": "CIEL Limited",
+				"en": "CIEL Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Международный инвестиционный конгломерат (текстиль Tropic Knits, медицина C-Care, банкинг BNI Madagascar, курорты Sunlife / Shangri-La, сахар Alteo — ) [Выручка: $800 млн (MUR 35+ млрд), Чистая прибыль: $90 млн, Долг: $350 млн, Деньги: $90 млн, Дивиденды: $25 млн, Капитализация: $400 млн (SEM: CIEL), Штат: 38,000 чел. (в 10 странах), Зарплата: $700/мес, Руководитель: Жан-Пьер Дале (Jean-Pierre Dal",
+				"en": "CIEL Limited — a financial company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 90,
+				"debt": 350,
+				"money": 90,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2285,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1228,
+					"д": 57.5143,
+					"province": 932,
+					"staff": 685,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "sbm_holdings",
+			"название": {
+				"ru": "SBM Holdings (State Bank of Mauritius)",
+				"en": "SBM Holdings (State Bank of Mauritius)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банковские и финансовые услуги (второй по величине банк Маврикия, филиальная сеть в Индии и Кении — ) [Выручка: $450 млн, Чистая прибыль: $120 млн, Долг: $0 (активы $7.5 млрд), Деньги: $0, Дивиденды: $40 млн, Капитализация: $450 млн (SEM: SBMH), Штат: 3,200 чел., Зарплата: $1,100/мес, Руководитель: Рауль Гюффле (Raoul Gufflet), Главный исполнительный директор группы с 2022 года, родился в 1968 год",
+				"en": "SBM Holdings (State Bank of Mauritius) — a financial company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 120,
+				"debt": 7500,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1285,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1236,
+					"д": 57.5101,
+					"province": 932,
+					"staff": 385,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "enl_limited",
+			"название": {
+				"ru": "ENL Limited",
+				"en": "ENL Limited"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Девелопмент, «умные города» Moka Smart City, логистика Rogers Group, агробизнес и курорты Heritage & Veranda — [Выручка: $420 млн, Чистая прибыль: $45 млн, Долг: $300 млн, Деньги: $60 млн, Дивиденды: $15 млн, Капитализация: $350 млн (SEM: ENL), Штат: 7,500 чел., Зарплата: $850/мес, Руководитель: Жильбер Эспиталье-Ноэль (Gilbert Espitalier-Noël), Генеральный директор с 2014 года, родился в 1964 год",
+				"en": "ENL Limited — a transport company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 45,
+				"debt": 300,
+				"money": 60,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1050,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1413,
+					"д": 57.4918,
+					"province": 932,
+					"staff": 315,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "mauritius_telecom",
+			"название": {
+				"ru": "Mauritius Telecom (MT)",
+				"en": "Mauritius Telecom (MT)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Телекоммуникации (национальный проводной и мобильный оператор my.t, альянс с Orange — ) [Выручка: $300 млн (MUR 14 млрд), Чистая прибыль: $45 млн, Долг: $50 млн, Деньги: $60 млн, Дивиденды: $25 млн, Капитализация: $500 млн, Штат: 2,200 чел., Зарплата: $1,200/мес, Руководитель: Капил Рисол (Kapil Reesaul), Главный исполнительный директор с 2022 года, родился в 1967 году.]. Официальные источники: ht",
+				"en": "Mauritius Telecom (MT) — a IT and telecom company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 45,
+				"debt": 50,
+				"money": 60,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 794,
+			"wage": 1255,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1269,
+					"д": 57.5164,
+					"province": 932,
+					"staff": 238,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "air_mauritius",
+			"название": {
+				"ru": "Air Mauritius",
+				"en": "Air Mauritius"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1974,
+			"description": {
+				"ru": "Авиаперевозки (национальный авиаперевозчик, дальнемагистральный флот Airbus A350-900 и A330neo — ) [Выручка: $350 млн, Чистая прибыль: $15 млн, Долг: $200 млн, Деньги: $40 млн, Дивиденды: $0, Капитализация: $150 млн (Airport Holdings Limited), Штат: 2,300 чел., Зарплата: $1,300/мес, Руководитель: Шарль Картье (Charles Cartier), Генеральный директор с марта 2024 года, родился в 1974 году.]. Официал",
+				"en": "Air Mauritius — a transport company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 15,
+				"debt": 200,
+				"money": 40,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 875,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1864,
+					"д": 57.4869,
+					"province": 932,
+					"staff": 262,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "central_electricity",
+			"название": {
+				"ru": "Central Electricity Board (CEB Mauritius)",
+				"en": "Central Electricity Board (CEB Mauritius)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1968,
+			"description": {
+				"ru": "Электроэнергетика (государственная корпорация передачи и распределения электроэнергии — ) [Выручка: $380 млн, Чистая прибыль: $15 млн, Долг: $250 млн, Деньги: $35 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 2,100 чел., Зарплата: $1,100/мес, Руководитель: Раджендра Гопаул (Rajendra Gopaul), Генеральный менеджер, родился в 1968 году.]. Официальные источники: https://ceb.mu, ",
+				"en": "Central Electricity Board (CEB Mauritius) — a energy company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 380,
+				"profit": 15,
+				"debt": 250,
+				"money": 35,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 501
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 676,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1786,
+					"д": 57.468,
+					"province": 932,
+					"staff": 202,
+					"fine": 2819
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "phoenix_beverages",
+			"название": {
+				"ru": "Phoenix Beverages Limited (PBL)",
+				"en": "Phoenix Beverages Limited (PBL)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Производство напитков (пиво Phoenix Beer, Blue Marlin, боттлинг Coca-Cola, Fanta, Sprite — ) [Выручка: $240 млн, Чистая прибыль: $22 млн, Долг: $30 млн, Деньги: $25 млн, Дивиденды: $12 млн, Капитализация: $220 млн (SEM: PBL), Штат: 1,500 чел., Зарплата: $850/мес, Руководитель: Бернар Тейс (Bernard Theys), Главный исполнительный директор с 2014 года, родился в 1963 году.]. Официальные источники: ht",
+				"en": "Phoenix Beverages Limited (PBL) — a consumer and retail company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 240,
+				"profit": 22,
+				"debt": 30,
+				"money": 25,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 720,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1522,
+					"д": 57.461,
+					"province": 932,
+					"staff": 216,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "rogers_and",
+			"название": {
+				"ru": "Rogers and Company Limited",
+				"en": "Rogers and Company Limited"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2007,
+			"description": {
+				"ru": "Авиация, логистика, судоходство, гостиничный бизнес и туризм (входит в группу ENL — ) [Выручка: $320 млн, Чистая прибыль: $35 млн, Долг: $180 млн, Деньги: $40 млн, Дивиденды: $12 млн, Капитализация: $250 млн (SEM: ROGS), Штат: 4,800 чел., Зарплата: $900/мес, Руководитель: Филипп Эспиталье-Ноэль (Philippe Espitalier-Noël), СЕО с 2007 года, родился в 1965 году.]. Официальные источники: https://www.r",
+				"en": "Rogers and Company Limited — a transport company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 35,
+				"debt": 180,
+				"money": 40,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1411,
+					"д": 57.506,
+					"province": 932,
+					"staff": 240,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "emtel_limited",
+			"название": {
+				"ru": "Emtel Limited (Currimjee Group)",
+				"en": "Emtel Limited (Currimjee Group)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Телекоммуникации (первый частный оператор мобильной связи и дата-центров, листинг на SEM в 2024 году — ) [Выручка: $120 млн, Чистая прибыль: $25 млн, Долг: $30 млн, Деньги: $20 млн, Дивиденды: $15 млн, Капитализация: $200 млн (SEM: EMTEL), Штат: 800 чел., Зарплата: $1,100/мес, Руководитель: Креш Гумани (Kresh Goomany), Главный исполнительный директор, родился в 1972 году.]. Официальные источники: ",
+				"en": "Emtel Limited (Currimjee Group) — a IT and telecom company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 25,
+				"debt": 30,
+				"money": 20,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 317,
+			"wage": 1255,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1336,
+					"д": 57.5256,
+					"province": 932,
+					"staff": 95,
+					"fine": 2819
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "national_coast",
+			"название": {
+				"ru": "National Coast Guard Maritime Operations & Ship Repair Base (NCG Fort William)",
+				"en": "National Coast Guard Maritime Operations & Ship Repair Base (NCG Fort William)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральная база береговой охраны и технического обслуживания боевых кораблей Национальной береговой охраны Полиции Маврикия — Официальные источники: https://police.govmu.org, https://police.govmu.org/defense (Оборонные программы)",
+				"en": "National Coast Guard Maritime Operations & Ship Repair Base (NCG Fort William) — a defence company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 57,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 107
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Капитан 1 ранга / Командир Национальной береговой охраны (Commandant National Coast Guard, офицер ВМС Индии в рамках межгосударственного соглашения)]",
+					"en": "Капитан 1 ранга / Командир Национальной береговой охраны (Commandant National Coast Guard, офицер ВМС Индии в рамках межгосударственного соглашения)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 171,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1829,
+					"д": 57.524,
+					"province": 932,
+					"staff": 51,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "special_mobile",
+			"название": {
+				"ru": "Special Mobile Force Technical Workshops (SMF Vacoas Camp)",
+				"en": "Special Mobile Force Technical Workshops (SMF Vacoas Camp)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-технический арсенал и ремонтная база моторизованной пехоты Сил специального назначения (SMF — Официальные источники: https://police.govmu.org, https://police.govmu.org/defense (Оборонные программы)",
+				"en": "Special Mobile Force Technical Workshops (SMF Vacoas Camp) — a defence company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 55,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бригадный генерал / Командир SMF (Commanding Officer Special Mobile Force)]",
+					"en": "Бригадный генерал / Командир SMF (Commanding Officer Special Mobile Force)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 165,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Vacoas"
+					},
+					"ш": -20.3312,
+					"д": 57.4956,
+					"province": 932,
+					"staff": 49,
+					"fine": 2813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "police_helicopter",
+			"название": {
+				"ru": "Police Helicopter Squadron Technical Base (PHS Plaine Magnien)",
+				"en": "Police Helicopter Squadron Technical Base (PHS Plaine Magnien)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-авиационная вертолетная эскадрилья и ремонтный ангар берегового патрулирования — Официальные источники: https://police.govmu.org, https://police.govmu.org/defense (Оборонные программы)",
+				"en": "Police Helicopter Squadron Technical Base (PHS Plaine Magnien) — a defence company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 52,
+				"profit": 3,
+				"debt": 13,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 98
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир вертолетной эскадрильи полиции (Officer in Charge Police Helicopter Squadron)]",
+					"en": "Командир вертолетной эскадрильи полиции (Officer in Charge Police Helicopter Squadron)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 156,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1958,
+					"д": 57.5008,
+					"province": 932,
+					"staff": 46,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mauritius_port",
+			"название": {
+				"ru": "Mauritius Port Authority Marine Technical Workshops (Tug & Naval Facility)",
+				"en": "Mauritius Port Authority Marine Technical Workshops (Tug & Naval Facility)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судоремонтные мастерские и плавучие доки глубоководного порта Порт-Луи — Официальные источники: https://www.mauport.com, https://www.mauport.com/defense (Оборонные программы)",
+				"en": "Mauritius Port Authority Marine Technical Workshops (Tug & Naval Facility) — a defence company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 50,
+				"profit": 3,
+				"debt": 13,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 94
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генеральный директор Управления портов Маврикия (Director General MPA)]",
+					"en": "Генеральный директор Управления портов Маврикия (Director General MPA)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 150,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1388,
+					"д": 57.4826,
+					"province": 932,
+					"staff": 45,
+					"fine": 2820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_cyber",
+			"название": {
+				"ru": "National Cyber Defence and Security Forensic Laboratory (Réduit)",
+				"en": "National Cyber Defence and Security Forensic Laboratory (Réduit)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный научно-исследовательский комплекс кибербезопасности, военной криптографии и баллистической экспертизы — Официальные источники: https://fsl.govmu.org, https://fsl.govmu.org/defense (Оборонные программы)",
+				"en": "National Cyber Defence and Security Forensic Laboratory (Réduit) — a defence company of Mauritius."
+			},
+			"fundamental": {
+				"выручка": 48,
+				"profit": 3,
+				"debt": 12,
+				"money": 7,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 90
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Маврикий)",
+						"en": "The state (Mauritius)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Маврикий"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор Национальной судебной лаборатории (Director Forensic Science Laboratory)]",
+					"en": "Директор Национальной судебной лаборатории (Director Forensic Science Laboratory)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 144,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Луис",
+						"en": "Port Louis"
+					},
+					"ш": -20.1962,
+					"д": 57.5272,
+					"province": 932,
+					"staff": 43,
+					"fine": 2819
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

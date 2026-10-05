@@ -1,0 +1,875 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ямайка",
+	"iso": "JAM",
+	"data_date": "2026-03",
+	"average_wage": 700,
+	"companies": [
+		{
+			"id": "gracekennedy",
+			"название": {
+				"ru": "GraceKennedy",
+				"en": "GraceKennedy"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1922,
+			"description": {
+				"ru": "Еда, финансы и денежные переводы Ямайки.",
+				"en": "Jamaica's food, finance and money transfers."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 70,
+				"debt": 300,
+				"money": 200,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 995,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Кеннеди и фонд",
+						"en": "The Kennedy family and foundation"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фрэнк Джеймс",
+					"en": "Frank James"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "бывший сенатор"
+				}
+			},
+			"staff": 2400,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.97,
+					"д": -76.79,
+					"province": 661,
+					"staff": 2400,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://gracekennedy.com/ | JSE: GK Annual Report 2024; GraceKennedy Corporate Filings Feb 2025"
+		},
+		{
+			"id": "ncb_financial",
+			"название": {
+				"ru": "NCB Financial Group (National Commercial Bank Jamaica)",
+				"en": "NCB Financial Group (National Commercial Bank Jamaica)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий и инвестиционный банк англоязычного Карибского бассейна (банковское дело, пенсионные фонды, страхование Guardian Holdings; активы свыше $14 млрд, чистая прибыль ~$150 млн, JSE: NCBFG, мажоритарный владелец Майкл Ли-Чин). https://www.myncb.com/",
+				"en": "NCB Financial Group (National Commercial Bank Jamaica) — a financial company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 150,
+				"debt": 0,
+				"money": 0,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 817
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.9784,
+					"д": -76.8022,
+					"province": 661,
+					"staff": 300,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "petrojam_limited",
+			"название": {
+				"ru": "Petrojam Limited",
+				"en": "Petrojam Limited"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный нефтеперерабатывающий завод Ямайки в Кингстоне (единственный НПЗ страны мощностью 36,000 баррелей в сутки, снабжение острова бензином, дизелем, авиакеросином и мазутом для ТЭС; выручка свыше $1.5 млрд). https://www.petrojam.com/",
+				"en": "Petrojam Limited — a oil and gas company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 89,
+				"debt": 423,
+				"money": 142,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 933
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ямайка)",
+						"en": "The state (Jamaica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ямайка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1311,
+			"wage": 1252,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.9796,
+					"д": -76.7714,
+					"province": 661,
+					"staff": 393,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jamaica_public",
+			"название": {
+				"ru": "Jamaica Public Service Company (JPS)",
+				"en": "Jamaica Public Service Company (JPS)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Монопольный оператор электроснабжения Ямайки (управление генерацией, магистральными линиями и сетями распределения для 680,000 потребителей; СП Marubeni, Korea East-West Power и государства; выручка ~$1.1 млрд). https://www.jpsco.com/",
+				"en": "Jamaica Public Service Company (JPS) — a energy company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 102,
+				"debt": 668,
+				"money": 141,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1451
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ямайка)",
+						"en": "The state (Jamaica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ямайка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1957,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.9597,
+					"д": -76.7891,
+					"province": 661,
+					"staff": 587,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "scotia_group",
+			"название": {
+				"ru": "Scotia Group Jamaica",
+				"en": "Scotia Group Jamaica"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк Ямайки (дочерняя структура канадского Scotiabank; активы свыше $4.5 млрд, чистая прибыль ~$120 млн, 1,500 сотр.). https://jm.scotiabank.com/",
+				"en": "Scotia Group Jamaica — a financial company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 368,
+				"profit": 120,
+				"debt": 0,
+				"money": 0,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 859
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1051,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.9773,
+					"д": -76.819,
+					"province": 661,
+					"staff": 315,
+					"fine": 1987
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "seprod_limited",
+			"название": {
+				"ru": "Seprod Limited",
+				"en": "Seprod Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий ямайский агропромышленный холдинг (производство муки, растительных масел, молочной продукции Serge Island, печенья, соков; выручка ~$750 млн, JSE: SEP). https://seprod.com/",
+				"en": "Seprod Limited — a consumer and retail company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 58,
+				"debt": 173,
+				"money": 62,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1027
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2250,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.964,
+					"д": -76.8146,
+					"province": 661,
+					"staff": 675,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sagicor_group",
+			"название": {
+				"ru": "Sagicor Group Jamaica",
+				"en": "Sagicor Group Jamaica"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая финансово-страховая группа (страхование жизни, медицинское страхование, девелопмент, коммерческий банк Sagicor Bank; активы свыше $3.5 млрд). https://www.sagicor.com/en-jm",
+				"en": "Sagicor Group Jamaica — a financial company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 306,
+				"profit": 86,
+				"debt": 0,
+				"money": 0,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 874,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.972,
+					"д": -76.7772,
+					"province": 661,
+					"staff": 262,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "j_wray",
+			"название": {
+				"ru": "J. Wray & Nephew (Campari Group)",
+				"en": "J. Wray & Nephew (Campari Group)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Легендарный производитель знаменитого ямайского рома Appleton Estate и Wray & Nephew White Overproof Rum (крупнейший экспортер алкоголя в Карибском бассейне, тростниковые плантации и заводы). https://www.jwrayandnephew.com/",
+				"en": "J. Wray & Nephew (Campari Group) — a transport company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 262,
+				"profit": 17,
+				"debt": 132,
+				"money": 54,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 187
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 655,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 18.0088,
+					"д": -76.8184,
+					"province": 661,
+					"staff": 196,
+					"fine": 1987
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kingston_wharves",
+			"название": {
+				"ru": "Kingston Wharves Limited (KWL)",
+				"en": "Kingston Wharves Limited (KWL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший независимый мультимодальный морской терминал Карибского моря в Кингстоне (обработка контейнеров, генеральных грузов и перевалка автомобилей Ro-Ro). https://kingstonwharves.com/",
+				"en": "Kingston Wharves Limited (KWL) — a transport company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 196,
+				"profit": 13,
+				"debt": 99,
+				"money": 41,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 140
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 490,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 18.0044,
+					"д": -76.8022,
+					"province": 661,
+					"staff": 147,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "digicel_jamaica",
+			"название": {
+				"ru": "Digicel Jamaica / Flow Jamaica",
+				"en": "Digicel Jamaica / Flow Jamaica"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие национальные телеком-операторы (мобильная связь 4G/LTE, домашний широкополосный интернет, цифровые сервисы; выручка свыше $700 млн). https://www.digicelgroup.com/jm/ | https://discoverflow.co/jamaica/",
+				"en": "Digicel Jamaica / Flow Jamaica — a IT and telecom company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 90,
+				"debt": 223,
+				"money": 117,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1325
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1854,
+			"wage": 1255,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 18.032,
+					"д": -76.8075,
+					"province": 661,
+					"staff": 556,
+					"fine": 1987
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jamaica_defence",
+			"название": {
+				"ru": "Jamaica Defence Force Technical Support Battalion (JDF)",
+				"en": "Jamaica Defence Force Technical Support Battalion (JDF)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Jamaica Defence Force Technical Support Battalion (JDF) — a defence company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": 5,
+				"debt": 21,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ямайка)",
+						"en": "The state (Jamaica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ямайка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 240,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 17.982,
+					"д": -76.7567,
+					"province": 661,
+					"staff": 72,
+					"fine": 1982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "caribbean_maritime",
+			"название": {
+				"ru": "Caribbean Maritime University Engineering Workshop",
+				"en": "Caribbean Maritime University Engineering Workshop"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Научно-технический центр судоремонта, обслуживания судовых силовых установок и подготовки кадров для береговой охраны и коммерческого флота",
+				"en": "Caribbean Maritime University Engineering Workshop — a defence company of Jamaica."
+			},
+			"fundamental": {
+				"выручка": 55,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ямайка)",
+						"en": "The state (Jamaica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ямайка"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 165,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингстон",
+						"en": "Kingston"
+					},
+					"ш": 18.0343,
+					"д": -76.7866,
+					"province": 661,
+					"staff": 49,
+					"fine": 1987
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

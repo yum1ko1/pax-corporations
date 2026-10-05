@@ -1,0 +1,729 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Экваториальная Гвинея",
+	"iso": "GNQ",
+	"data_date": "2026-03",
+	"average_wage": 400,
+	"companies": [
+		{
+			"id": "gepetrol",
+			"название": {
+				"ru": "GEPetrol",
+				"en": "GEPetrol"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2001,
+			"description": {
+				"ru": "Национальная государственная нефтяная компания Экваториальной Гвинеи (GEPetrol), управляющая государственными долями в добыче нефти и шельфовыми лицензиями.",
+				"en": "Equatorial Guinea's national oil company (GEPetrol), managing state participation in offshore oil production and licensing."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 200,
+				"debt": 300,
+				"money": 100,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Экваториальной Гвинеи",
+						"en": "The Equatoguinean state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бьенвенидо Нгема Энво",
+					"en": "Bienvenido Nguema Envo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставленник режима",
+					"en": "человек президента"
+				}
+			},
+			"staff": 500,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Малабо",
+						"en": "Malabo"
+					},
+					"ш": 3.75,
+					"д": 8.78,
+					"province": 672,
+					"staff": 500,
+					"fine": 1521
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://gepetrol-ge.com/ | Отчёты GEPetrol / APPO 2024–2026; https://gepetrol-ge.com/"
+		},
+		{
+			"id": "sonagas",
+			"название": {
+				"ru": "Sonagas (Sociedad Nacional de Gas de Guinea Ecuatorial)",
+				"en": "Sonagas (Sociedad Nacional de Gas de Guinea Ecuatorial)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная газовая корпорация, управляющая магистральной инфраструктурой, транспортировкой и внутренней дистрибуцией природного газа и конденсата, соучредитель проектов Punta Europa (выручка ~$450 млн). https://sonagas-ge.com/",
+				"en": "Sonagas (Sociedad Nacional de Gas de Guinea Ecuatorial) — a oil and gas company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 27,
+				"debt": 127,
+				"money": 43,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 280
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Экваториальная Гвинея)",
+						"en": "The state (Equatorial Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 393,
+			"wage": 716,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8498,
+					"д": 9.7351,
+					"province": 442,
+					"staff": 117,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eg_lng",
+			"название": {
+				"ru": "EG LNG (Equatorial Guinea LNG Operations, S.A.)",
+				"en": "EG LNG (Equatorial Guinea LNG Operations, S.A.)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Оператор завода по сжижению природного газа на острове Биоко (комплекс Пунта-Европа мощностью 3.7 млн тонн СПГ в год; консорциум Marathon Oil 60%, Sonagas 25%, Marubeni и Mitsui; выручка ~$1.2 млрд). https://www.marathonoil.com/",
+				"en": "EG LNG (Equatorial Guinea LNG Operations, S.A.) — a oil and gas company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 71,
+				"debt": 338,
+				"money": 114,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 746
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1049,
+			"wage": 716,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8256,
+					"д": 9.7318,
+					"province": 442,
+					"staff": 314,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ampco",
+			"название": {
+				"ru": "AMPCO (Atlantic Methanol Production Company LLC)",
+				"en": "AMPCO (Atlantic Methanol Production Company LLC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших в Африке заводов по производству метанола (комплекс Пунта-Европа, мощность свыше 1 млн метрических тонн химического метанола в год из попутного природного газа; выручка ~$400 млн). https://www.atlanticmethanol.com/",
+				"en": "AMPCO (Atlantic Methanol Production Company LLC) — a oil and gas company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 24,
+				"debt": 113,
+				"money": 38,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 249
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 349,
+			"wage": 716,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8406,
+					"д": 9.7713,
+					"province": 442,
+					"staff": 104,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bange",
+			"название": {
+				"ru": "BANGE (Banco Nacional de Guinea Ecuatorial)",
+				"en": "BANGE (Banco Nacional de Guinea Ecuatorial)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Системообразующий национальный коммерческий банк Экваториальной Гвинеи (крупнейшая филиальная сеть в стране, международные дочерние банки BANGE Bank Cameroun, BANGE España; активы ~$1.1 млрд). https://www.bange.es/",
+				"en": "BANGE (Banco Nacional de Guinea Ecuatorial) — a financial company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 254,
+				"profit": 71,
+				"debt": 0,
+				"money": 0,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 593
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 725,
+			"wage": 657,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8435,
+					"д": 9.8044,
+					"province": 442,
+					"staff": 217,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ccei_bank",
+			"название": {
+				"ru": "CCEI Bank GE (Afriland First Bank GE)",
+				"en": "CCEI Bank GE (Afriland First Bank GE)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупный коммерческий и корпоративный банк страны, специализирующийся на обслуживании инфраструктурных и внешнеторговых контрактов (активы ~$600 млн). https://www.cceibankge.com/",
+				"en": "CCEI Bank GE (Afriland First Bank GE) — a financial company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 158,
+				"profit": 44,
+				"debt": 0,
+				"money": 0,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 369
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 451,
+			"wage": 657,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8318,
+					"д": 9.749,
+					"province": 442,
+					"staff": 135,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "getesa",
+			"название": {
+				"ru": "GETESA (Guinea Ecuatorial de Telecomunicaciones Sociedad Anónima)",
+				"en": "GETESA (Guinea Ecuatorial de Telecomunicaciones Sociedad Anónima)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный телекоммуникационный монополист (мобильная связь Orange/GETESA, оптоволоконная сеть Ceiba-1/2, мобильный интернет; выручка ~$180 млн). https://www.getesa.gq/",
+				"en": "GETESA (Guinea Ecuatorial de Telecomunicaciones Sociedad Anónima) — a IT and telecom company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 23,
+				"debt": 57,
+				"money": 30,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 341
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Экваториальная Гвинея)",
+						"en": "The state (Equatorial Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 476,
+			"wage": 717,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8677,
+					"д": 9.7339,
+					"province": 442,
+					"staff": 142,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "segesa",
+			"название": {
+				"ru": "SEGESA (Sociedad de Electricidad de Guinea Ecuatorial)",
+				"en": "SEGESA (Sociedad de Electricidad de Guinea Ecuatorial)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация (эксплуатация ГЭС Джиблохо, Сендже и тепловых станций Малабо, распределительные сети континентального и островного регионов; выручка ~$150 млн). https://segesa.gq/",
+				"en": "SEGESA (Sociedad de Electricidad de Guinea Ecuatorial) — a energy company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 14,
+				"debt": 91,
+				"money": 19,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 198
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Экваториальная Гвинея)",
+						"en": "The state (Equatorial Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 266,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Малабо",
+						"en": "Malabo"
+					},
+					"ш": 3.7316,
+					"д": 8.7796,
+					"province": 672,
+					"staff": 79,
+					"fine": 1521
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ceiba_intercontinental",
+			"название": {
+				"ru": "Ceiba Intercontinental",
+				"en": "Ceiba Intercontinental"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная государственная авиакомпания Экваториальной Гвинеи (базовый хаб — международный аэропорт Малабо). https://www.fly-ceiba.com/",
+				"en": "Ceiba Intercontinental — a transport company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 114,
+				"profit": 8,
+				"debt": 58,
+				"money": 24,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 81
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Экваториальная Гвинея)",
+						"en": "The state (Equatorial Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 285,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Малабо",
+						"en": "Malabo"
+					},
+					"ш": 3.7784,
+					"д": 8.8201,
+					"province": 672,
+					"staff": 85,
+					"fine": 1521
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fuerzas_armadas",
+			"название": {
+				"ru": "Fuerzas Armadas de Guinea Ecuatorial (FAGE) - Maestranza Militar y Talleres de Mantenimiento",
+				"en": "Fuerzas Armadas de Guinea Ecuatorial (FAGE) - Maestranza Militar y Talleres de Mantenimiento"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Fuerzas Armadas de Guinea Ecuatorial (FAGE) - Maestranza Militar y Talleres de Mantenimiento — a defence company of Equatorial Guinea."
+			},
+			"fundamental": {
+				"выручка": 38,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 71
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Экваториальная Гвинея)",
+						"en": "The state (Equatorial Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Экваториальная Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 114,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бата",
+						"en": "Bata"
+					},
+					"ш": 1.8354,
+					"д": 9.7453,
+					"province": 442,
+					"staff": 34,
+					"fine": 1519
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

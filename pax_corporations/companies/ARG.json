@@ -1,0 +1,1468 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Аргентина",
+	"iso": "ARG",
+	"data_date": "2026-03",
+	"average_wage": 750.0,
+	"companies": [
+		{
+			"id": "ypf",
+			"название": {
+				"ru": "YPF",
+				"en": "YPF"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1922,
+			"description": {
+				"ru": "Нефть Аргентины и сланцы Вака-Муэрта.",
+				"en": "Argentina's oil and the Vaca Muerta shale."
+			},
+			"fundamental": {
+				"выручка": 18500,
+				"profit": 600,
+				"debt": 9000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 393,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Аргентины",
+						"en": "The Argentine state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Аргентина"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Орасио Марин",
+					"en": "Horacio Marín"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставит всё на сланцы",
+					"en": "ставит всё на сланцы"
+				}
+			},
+			"staff": 25000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.61,
+					"д": -58.37,
+					"province": 1,
+					"staff": 3000,
+					"fine": 131
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Вака-Муэрта",
+						"en": "Vaca Muerta"
+					},
+					"ш": -38.5,
+					"д": -69.0,
+					"province": 349,
+					"staff": 6000,
+					"fine": 113
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ypf.com/ | Отчет 2024–2025: выручка .5B, прибыль , капитализация на NYSE"
+		},
+		{
+			"id": "mercadolibre",
+			"название": {
+				"ru": "MercadoLibre",
+				"en": "MercadoLibre"
+			},
+			"sector": "it",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Amazon Латинской Америки: маркетплейс и платежи.",
+				"en": "Latin America's Amazon: marketplace and payments."
+			},
+			"fundamental": {
+				"выручка": 22500,
+				"profit": 1800,
+				"debt": 6000,
+				"money": 8000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 51,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Маркос Галперин",
+						"en": "Marcos Galperin"
+					},
+					"type": "founder",
+					"доля": 0.07
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.93
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ариэль Шарфштейн",
+					"en": "Ariel Szarfsztejn"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2026,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сменил основателя",
+					"en": "сменил основателя"
+				}
+			},
+			"staff": 85000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.38,
+					"province": 1,
+					"staff": 5000,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.mercadolibre.com/ | NASDAQ: MELI, выручка .5B, прибыль .8B, CEO Ariel Szarfsztejn с 01.01.2026"
+		},
+		{
+			"id": "galicia",
+			"название": {
+				"ru": "Grupo Financiero Galicia",
+				"en": "Grupo Financiero Galicia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1905,
+			"description": {
+				"ru": "Крупнейший частный банк Аргентины.",
+				"en": "Argentina's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 950,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1475,
+				"market_cap": 9500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Эскасани и Брауна",
+						"en": "The Escasany and Braun families"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фабиан Кон",
+					"en": "Fabián Kon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 9000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.37,
+					"province": 1,
+					"staff": 4000,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grupogalicia.com/ | Поглотил HSBC Argentina, выручка ~.5B, прибыль ~, капитализация на NYSE .5B"
+		},
+		{
+			"id": "pampa",
+			"название": {
+				"ru": "Pampa Energía",
+				"en": "Pampa Energía"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Крупнейший независимый энергетик Аргентины.",
+				"en": "Argentina's largest independent power company."
+			},
+			"fundamental": {
+				"выручка": 1980,
+				"profit": 380,
+				"debt": 2000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1360,
+				"market_cap": 4600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Марсело Миндлин",
+						"en": "Marcelo Mindlin"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Густаво Мариани",
+					"en": "Gustavo Mariani"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 2000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.38,
+					"province": 1,
+					"staff": 1000,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.pampaenergia.com/ | NYSE: PAM, выручка .98B, прибыль , капитализация .6B"
+		},
+		{
+			"id": "techint",
+			"название": {
+				"ru": "Techint (Ternium, Tenaris)",
+				"en": "Techint (Ternium, Tenaris)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Трубы Tenaris и сталь Ternium семьи Рокка.",
+				"en": "The Rocca family's Tenaris pipes and Ternium steel."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 2800,
+				"debt": 3000,
+				"money": 5000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Рокка (San Faustin)",
+						"en": "The Rocca family (San Faustin)"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паоло Рокка",
+					"en": "Paolo Rocca"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2002,
+				"born_year": 1952,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянско-аргентинский магнат",
+					"en": "итальянско-аргентинский магнат"
+				}
+			},
+			"staff": 80000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.37,
+					"province": 1,
+					"staff": 2000,
+					"fine": 131
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кампана (трубы)",
+						"en": "Campana (pipes)"
+					},
+					"ш": -34.17,
+					"д": -58.96,
+					"province": 1,
+					"staff": 4000,
+					"fine": 114
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.techint.com/ | Консолидация Tenaris () + Ternium () + Tecpetrol (): выручка , прибыль .8B"
+		},
+		{
+			"id": "telecomar",
+			"название": {
+				"ru": "Telecom Argentina",
+				"en": "Telecom Argentina"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Связь Аргентины, купила Telefónica Argentina.",
+				"en": "Argentina's telecom, bought Telefónica Argentina."
+			},
+			"fundamental": {
+				"выручка": 3600,
+				"profit": -150,
+				"debt": 3000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 430,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Cablevisión (Clarín)",
+						"en": "Cablevisión (Clarín)"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Аргентина"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберто Нобиле",
+					"en": "Roberto Nobile"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 20000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.37,
+					"province": 1,
+					"staff": 4000,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://institucional.telecom.com.ar/ | NYSE: TEO, выручка .6B, CEO Roberto Nobile"
+		},
+		{
+			"id": "vista",
+			"название": {
+				"ru": "Vista Energy",
+				"en": "Vista Energy"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Сланцевая нефть Вака-Муэрты.",
+				"en": "Vaca Muerta shale oil."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 450,
+				"debt": 2000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 95,
+				"market_cap": 5400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Мигель Гальуччо",
+						"en": "Miguel Galuccio"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мигель Гальуччо",
+					"en": "Miguel Galuccio"
+				},
+				"роль": "founder",
+				"с_года": 2017,
+				"born_year": 1968,
+				"доля": 0.1,
+				"характер": {
+					"ru": "бывший глава YPF",
+					"en": "бывший глава YPF"
+				}
+			},
+			"staff": 600,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6,
+					"д": -58.38,
+					"province": 1,
+					"staff": 200,
+					"fine": 131
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Вака-Муэрта",
+						"en": "Vaca Muerta"
+					},
+					"ш": -38.3,
+					"д": -68.8,
+					"province": 349,
+					"staff": 400,
+					"fine": 113
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vistaenergy.com/ | NYSE: VIST, сланцы Vaca Muerta, выручка .65B, прибыль , оценка .4B"
+		},
+		{
+			"id": "aerolineas",
+			"название": {
+				"ru": "Aerolíneas Argentinas",
+				"en": "Aerolíneas Argentinas"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1950,
+			"description": {
+				"ru": "Государственная авиакомпания — Милей хочет её продать.",
+				"en": "The state airline — Milei wants to sell it."
+			},
+			"fundamental": {
+				"выручка": 1900,
+				"profit": -80,
+				"debt": 500,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Аргентины",
+						"en": "The Argentine state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фабиан Ломбардо",
+					"en": "Fabián Lombardo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "готовит приватизацию",
+					"en": "готовит приватизацию"
+				}
+			},
+			"staff": 11000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.56,
+					"д": -58.42,
+					"province": 1,
+					"staff": 6000,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.aerolineas.com.ar/ | Отчет 2024–2025: выручка ~.9B, сокращение операционного убытка до -"
+		},
+		{
+			"id": "grupo_arcor",
+			"название": {
+				"ru": "Grupo Arcor",
+				"en": "Grupo Arcor"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Пищевая промышленность / Кондитерские изделия — мировой гигант кондитерской отрасли и продовольственный лидер Латинской Америки (выручка >$3.5 млрд, семья Пагани)",
+				"en": "Grupo Arcor — a consumer and retail company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 272,
+				"debt": 808,
+				"money": 292,
+				"dividends": 82
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4795
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10500,
+			"wage": 833,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.604,
+					"д": -58.3781,
+					"province": 1,
+					"staff": 3150,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "globant",
+			"название": {
+				"ru": "Globant",
+				"en": "Globant"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "IT / Разработка ПО и ИИ — аргентинский глобальный разработчик корпоративного ПО (листинг NYSE: GLOB, выручка >$2.1 млрд, капитализация ~$8 млрд)",
+				"en": "Globant — a IT and telecom company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 271,
+				"debt": 668,
+				"money": 350,
+				"dividends": 81
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5562,
+			"wage": 1345,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.5849,
+					"д": -58.3832,
+					"province": 1,
+					"staff": 1668,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pan_american",
+			"название": {
+				"ru": "Pan American Energy (PAE)",
+				"en": "Pan American Energy (PAE)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефть и газ — 2-й по добыче нефтегазодобытчик Аргентины после YPF (СП семьи Бульгерони и BP, выручка >$4 млрд)",
+				"en": "Pan American Energy (PAE) — a oil and gas company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 238,
+				"debt": 1127,
+				"money": 380,
+				"dividends": 71
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2488
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3497,
+			"wage": 1342,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6269,
+					"д": -58.3654,
+					"province": 1,
+					"staff": 1049,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banco_macro",
+			"название": {
+				"ru": "Banco Macro",
+				"en": "Banco Macro"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Банки и финансы — 2-й по величине частный банк страны (листинг NYSE: BMA, капитализация ~$5 млрд)",
+				"en": "Banco Macro — a financial company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 2143,
+				"profit": 603,
+				"debt": 0,
+				"money": 0,
+				"dividends": 181
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6122,
+			"wage": 1232,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.5928,
+					"д": -58.3713,
+					"province": 1,
+					"staff": 1836,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cresud_irsa",
+			"название": {
+				"ru": "Cresud / IRSA",
+				"en": "Cresud / IRSA"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Агропром / Недвижимость — крупнейший агрохолдинг и владелец торгово-офисной недвижимости Аргентины (Эдуардо Эльштейн)",
+				"en": "Cresud / IRSA — a construction company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 1242,
+				"profit": 104,
+				"debt": 482,
+				"money": 163,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1567
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3906,
+			"wage": 959,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6261,
+					"д": -58.3863,
+					"province": 1,
+					"staff": 1171,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aluar",
+			"название": {
+				"ru": "Aluar (Aluminio Argentino)",
+				"en": "Aluar (Aluminio Argentino)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Металлургия — единственный производитель первичного алюминия в Аргентине (выручка >$1 млрд)",
+				"en": "Aluar (Aluminio Argentino) — a metals and mining company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 111,
+				"debt": 333,
+				"money": 120,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2888,
+			"wage": 1339,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6316,
+					"д": -58.3867,
+					"province": 1,
+					"staff": 866,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fadea",
+			"название": {
+				"ru": "FAdeA (Fábrica Argentina de Aviones \"Brigadier San Martín\")",
+				"en": "FAdeA (Fábrica Argentina de Aviones \"Brigadier San Martín\")"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военное авиастроение, Кордова — государственное авиапредприятие (производство легких штурмовиков/учебно-боевых самолетов IA-63 Pampa III, модернизация C-130 Hercules)",
+				"en": "FAdeA (Fábrica Argentina de Aviones \"Brigadier San Martín\") — a defence company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 423,
+				"profit": 28,
+				"debt": 109,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 793
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Аргентина)",
+						"en": "The state (Argentina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1269,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Мартин",
+						"en": "San Martín"
+					},
+					"ш": -33.0795,
+					"д": -68.4749,
+					"province": 347,
+					"staff": 380,
+					"fine": 112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fabricaciones_militares",
+			"название": {
+				"ru": "Fabricaciones Militares Sociedad del Estado (FMSE)",
+				"en": "Fabricaciones Militares Sociedad del Estado (FMSE)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Боеприпасы / Взрывчатка — государственный холдинг военных заводов (Fray Luis Beltrán, Villa María, Río Tercero: артиллерийские снаряды, минометные выстрелы, патроны)",
+				"en": "Fabricaciones Militares Sociedad del Estado (FMSE) — a defence company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 321,
+				"profit": 21,
+				"debt": 83,
+				"money": 49,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 602
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Аргентина)",
+						"en": "The state (Argentina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 963,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вилла-Мария",
+						"en": "Villa María"
+					},
+					"ш": -32.4187,
+					"д": -63.2142,
+					"province": 835,
+					"staff": 288,
+					"fine": 118
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tandanor_cinar",
+			"название": {
+				"ru": "Tandanor / CINAR (Complejo Industrial Naval Argentino)",
+				"en": "Tandanor / CINAR (Complejo Industrial Naval Argentino)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военное кораблестроение / ВМС — крупнейшая государственная верфь ВМС (ремонт и модернизация подводных лодок, корветов MEKO 140, патрульных кораблей)",
+				"en": "Tandanor / CINAR (Complejo Industrial Naval Argentino) — a defence company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 318,
+				"profit": 21,
+				"debt": 82,
+				"money": 49,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 596
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Аргентина)",
+						"en": "The state (Argentina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 954,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.5937,
+					"д": -58.3966,
+					"province": 1,
+					"staff": 286,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "invap_s",
+			"название": {
+				"ru": "INVAP S.E.",
+				"en": "INVAP S.E."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Радары / Военная оптроника / Спутники — государственная корпорация высоких технологий (радары ПВО серии RPA, военные разведывательные спутники SAOCOM/ARSAT)",
+				"en": "INVAP S.E. — a defence company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 315,
+				"profit": 21,
+				"debt": 81,
+				"money": 48,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 591
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Аргентина)",
+						"en": "The state (Argentina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 945,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.649,
+					"д": -58.3378,
+					"province": 510,
+					"staff": 283,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "citedef",
+			"название": {
+				"ru": "CITEDEF (Instituto de Investigaciones Científicas y Técnicas para la Defensa)",
+				"en": "CITEDEF (Instituto de Investigaciones Científicas y Técnicas para la Defensa)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "научно-исследовательский оборонный институт (разработка ракетных систем, лазерных дальномеров и систем РЭБ)",
+				"en": "CITEDEF (Instituto de Investigaciones Científicas y Técnicas para la Defensa) — a defence company of Argentina."
+			},
+			"fundamental": {
+				"выручка": 306,
+				"profit": 20,
+				"debt": 79,
+				"money": 47,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 574
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Аргентина)",
+						"en": "The state (Argentina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Аргентина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 918,
+			"wage": 1125,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Буэнос-Айрес",
+						"en": "Buenos Aires"
+					},
+					"ш": -34.6216,
+					"д": -58.3852,
+					"province": 1,
+					"staff": 275,
+					"fine": 131
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

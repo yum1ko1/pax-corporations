@@ -1,0 +1,778 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ангола",
+	"iso": "AGO",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "sonangol",
+			"название": {
+				"ru": "Sonangol",
+				"en": "Sonangol"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1976,
+			"description": {
+				"ru": "Государственная нефтяная компания Анголы.",
+				"en": "Angola's state oil company."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 946,
+				"debt": 5000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Анголы",
+						"en": "The Angolan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Себаштиан Гашпар Мартинш",
+					"en": "Sebastião Gaspar Martins"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 8000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.82,
+					"д": 13.23,
+					"province": 576,
+					"staff": 3000,
+					"fine": 42
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Кабинда",
+						"en": "Cabinda"
+					},
+					"ш": -5.55,
+					"д": 12.2,
+					"province": 139,
+					"staff": 2000,
+					"fine": 45
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.sonangol.co.ao/ | Отчёт 2025–2026: выручка .5B, чистая прибыль , кредит .65B"
+		},
+		{
+			"id": "endiama",
+			"название": {
+				"ru": "Endiama",
+				"en": "Endiama"
+			},
+			"sector": "metallurgy",
+			"profile": "diamonds",
+			"type": "государственная",
+			"founded": 1981,
+			"description": {
+				"ru": "Государственные алмазы Анголы, рудник Катока (с Алросой в прошлом).",
+				"en": "Angola's state diamonds, the Catoca mine (formerly with Alrosa)."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 180,
+				"debt": 500,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Анголы",
+						"en": "The Angolan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жозе Мануэл Ганга Жуниор",
+					"en": "José Manuel Ganga Júnior"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "алмазник",
+					"en": "алмазник"
+				}
+			},
+			"staff": 7000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.83,
+					"д": 13.24,
+					"province": 576,
+					"staff": 1000,
+					"fine": 42
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Катока",
+						"en": "Catoca mine"
+					},
+					"ш": -9.4,
+					"д": 20.3,
+					"province": 464,
+					"staff": 4000,
+					"fine": 37
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.endiama.co.ao/ | Отчёт 2025–2026: продажи 15.2M карат, выручка .8B, прибыль"
+		},
+		{
+			"id": "unitel",
+			"название": {
+				"ru": "Unitel",
+				"en": "Unitel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший оператор Анголы, изъят у Изабел душ Сантуш.",
+				"en": "Angola's largest telecom, seized from Isabel dos Santos."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 180,
+				"debt": 300,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Анголы",
+						"en": "The Angolan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мигел Жералдеш",
+					"en": "Miguel Geraldes"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 2500,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.81,
+					"д": 13.23,
+					"province": 576,
+					"staff": 1500,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.unitel.ao/ | BODIVA IPO 2026: прибыль 158B AOA (~), выручка ~, оценка .3B"
+		},
+		{
+			"id": "bfa",
+			"название": {
+				"ru": "Banco de Fomento Angola",
+				"en": "Banco de Fomento Angola"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Крупнейший частный банк Анголы.",
+				"en": "Angola's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 380,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 850
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Unitel",
+						"en": "Unitel"
+					},
+					"type": "company",
+					"доля": 0.52,
+					"country": "Ангола",
+					"company": "unitel"
+				},
+				{
+					"кто": {
+						"ru": "BPI",
+						"en": "BPI"
+					},
+					"type": "company",
+					"доля": 0.48,
+					"country": "Португалия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Луиш Гонсалвеш",
+					"en": "Luís Gonçalves"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 2700,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.82,
+					"д": 13.24,
+					"province": 576,
+					"staff": 1500,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.bfa.ao/ | Отчёт 2025–2026: операционный доход ~330B AOA, прибыль ~180-200B AOA (~)"
+		},
+		{
+			"id": "taag",
+			"название": {
+				"ru": "TAAG Angola Airlines",
+				"en": "TAAG Angola Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1938,
+			"description": {
+				"ru": "Национальная авиакомпания Анголы.",
+				"en": "Angola's national airline."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": -80,
+				"debt": 500,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Анголы",
+						"en": "The Angolan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нелсон де Оливейра",
+					"en": "Nelson de Oliveira"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 3000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Луанды",
+						"en": "Luanda airport"
+					},
+					"ш": -8.86,
+					"д": 13.23,
+					"province": 576,
+					"staff": 2000,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.taag.com/ | Отчёт 2025–2026: выручка ~, убыток ~"
+		},
+		{
+			"id": "banco_bai",
+			"название": {
+				"ru": "Banco BAI (Banco Angolano de Investimentos)",
+				"en": "Banco BAI (Banco Angolano de Investimentos)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Банки/Финансы — крупнейший коммерческий банк страны. Главный эмитент биржи BODIVA (рыночная капитализация ~$2.2 млрд, прибыль за 2025 г. ~$350 млн)",
+				"en": "Banco BAI (Banco Angolano de Investimentos) — a financial company of Angola."
+			},
+			"fundamental": {
+				"выручка": 943,
+				"profit": 350,
+				"debt": 0,
+				"money": 0,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2694,
+			"wage": 493,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.8559,
+					"д": 13.2518,
+					"province": 576,
+					"staff": 808,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sociedade_mineira",
+			"название": {
+				"ru": "Sociedade Mineira de Catoca",
+				"en": "Sociedade Mineira de Catoca"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Горнорудная / Алмазы — 4-й в мире по величине алмазный карьер (добывает ~75% всех алмазов Анголы, СП с Endiama)",
+				"en": "Sociedade Mineira de Catoca — a metals and mining company of Angola."
+			},
+			"fundamental": {
+				"выручка": 244,
+				"profit": 27,
+				"debt": 81,
+				"money": 29,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 293
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 704,
+			"wage": 536,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.8356,
+					"д": 13.2504,
+					"province": 576,
+					"staff": 211,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_carrinho",
+			"название": {
+				"ru": "Grupo Carrinho",
+				"en": "Grupo Carrinho"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Агропром / Пищевая — крупнейший агропромышленный и продовольственный конгломерат Анголы (Бенгела, инвестиции >$1 млрд)",
+				"en": "Grupo Carrinho — a consumer and retail company of Angola."
+			},
+			"fundamental": {
+				"выручка": 158,
+				"profit": 12,
+				"debt": 36,
+				"money": 13,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 216
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 474,
+			"wage": 333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бенгела",
+						"en": "Benguela"
+					},
+					"ш": -12.6136,
+					"д": 13.3671,
+					"province": 531,
+					"staff": 142,
+					"fine": 47
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "simportex_e",
+			"название": {
+				"ru": "SIMPORTEX E.P.",
+				"en": "SIMPORTEX E.P."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Empresa Pública de Importação e Exportação de Equipamentos e Meios Especiais — государственная внешнеторговая и военно-промышленная компания Министерства обороны Анголы (закупка, модернизация и поставка вооружения и спецсредств)",
+				"en": "SIMPORTEX E.P. — a defence company of Angola."
+			},
+			"fundamental": {
+				"выручка": 68,
+				"profit": 5,
+				"debt": 17,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 128
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ангола)",
+						"en": "The state (Angola)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 204,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.8688,
+					"д": 13.2286,
+					"province": 576,
+					"staff": 61,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "empresa_militar",
+			"название": {
+				"ru": "Empresa Militar de Construção e Obras (EMPA)",
+				"en": "Empresa Militar de Construção e Obras (EMPA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "военное военно-строительное и инженерно-фортификационное предприятие Вооруженных сил Анголы (FAA)",
+				"en": "Empresa Militar de Construção e Obras (EMPA) — a defence company of Angola."
+			},
+			"fundamental": {
+				"выручка": 68,
+				"profit": 5,
+				"debt": 17,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 128
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ангола)",
+						"en": "The state (Angola)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ангола"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 204,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Луанда",
+						"en": "Luanda"
+					},
+					"ш": -8.8135,
+					"д": 13.2687,
+					"province": 576,
+					"staff": 61,
+					"fine": 42
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

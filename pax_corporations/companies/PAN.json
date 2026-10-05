@@ -1,0 +1,1249 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Панама",
+	"iso": "PAN",
+	"data_date": "2026-03",
+	"average_wage": 1100,
+	"companies": [
+		{
+			"id": "panamacanal",
+			"название": {
+				"ru": "Панамский канал",
+				"en": "Panama Canal Authority"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1999,
+			"description": {
+				"ru": "Панамский канал — Трамп требует его вернуть США.",
+				"en": "The Panama Canal — Trump demands it back for the US."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 2500,
+				"debt": 500,
+				"money": 2000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Панамы",
+						"en": "The Panamanian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рикаурте Васкес",
+					"en": "Ricaurte Vásquez"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1953,
+				"доля": 0.0,
+				"характер": {
+					"ru": "экономист",
+					"en": "экономист"
+				}
+			},
+			"staff": 9000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бальбоа",
+						"en": "Balboa"
+					},
+					"ш": 8.95,
+					"д": -79.56,
+					"province": 566,
+					"staff": 3000,
+					"fine": 3062
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Шлюзы Гатун",
+						"en": "Gatún locks"
+					},
+					"ш": 9.27,
+					"д": -79.92,
+					"province": 566,
+					"staff": 3000,
+					"fine": 3059
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://micanaldepanama.com/en/financial-reports/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "copa",
+			"название": {
+				"ru": "Copa Airlines",
+				"en": "Copa Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1947,
+			"description": {
+				"ru": "Авиакомпания-хаб Америк.",
+				"en": "The hub airline of the Americas."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 600,
+				"debt": 1500,
+				"money": 1200,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 42,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи основателей",
+						"en": "Founding families"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Педро Хейлброн",
+					"en": "Pedro Heilbron"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 1988,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 7500,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Токумен",
+						"en": "Tocumen airport"
+					},
+					"ш": 9.07,
+					"д": -79.38,
+					"province": 566,
+					"staff": 6000,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://copa.gcs-web.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "banco_general",
+			"название": {
+				"ru": "Banco General",
+				"en": "Banco General"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Панама — крупнейший частный коммерческий банк Панамы, системообразующий институт банковского сектора страны. [Выручка: 1 200 млн $, Чистая прибыль: 550 млн $, Штат: 4 800 чел., Руководитель: Хуан Рауль Умберт (Juan Raúl Humbert), с 2017 года, 1965 г.р.]. Официальные источники: https://www.bgeneral.com/inversionistas/, https://www.bgeneral.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Banco General — a financial company of Panama."
+			},
+			"fundamental": {
+				"выручка": 1488,
+				"profit": 418,
+				"debt": 0,
+				"money": 0,
+				"dividends": 125
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3472
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4251,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 9.0029,
+					"д": -79.5266,
+					"province": 566,
+					"staff": 1275,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_motta",
+			"название": {
+				"ru": "Grupo Motta / Motta Internacional",
+				"en": "Grupo Motta / Motta Internacional"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Панама / Зона свободной торговли Колон — крупнейший частный торгово-логистический и инвестиционный конгломерат (сеть дьюти-фри Attenza, дистрибьюция брендов, инвестиции в Copa и банки). [Выручка: 2 500 млн $, Чистая прибыль: 200 млн $, Штат: 8 000 чел., Руководитель: Стэнли Мотта (Stanley Motta), председатель совета директоров, 1945 г.р.]. Официальные источники: https://www.mottaint.com/, https://",
+				"en": "Grupo Motta / Motta Internacional — a consumer and retail company of Panama."
+			},
+			"fundamental": {
+				"выручка": 1225,
+				"profit": 95,
+				"debt": 283,
+				"money": 102,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1678
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3675,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9908,
+					"д": -79.4818,
+					"province": 566,
+					"staff": 1102,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banistmo",
+			"название": {
+				"ru": "Banistmo",
+				"en": "Banistmo"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2013,
+			"description": {
+				"ru": "Панама — второй по величине коммерческий банк страны (дочерняя структура колумбийской группы Bancolombia). [Выручка: 650 млн $, Чистая прибыль: 120 млн $, Штат: 2 300 чел., Руководитель: Айме Сенмат де Гримальдо (Aimeé Sentmat de Grimaldo), с 2013 года, 1969 г.р.]. Официальные источники: https://www.banistmo.com/, https://www.banistmo.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Banistmo — a financial company of Panama."
+			},
+			"fundamental": {
+				"выручка": 873,
+				"profit": 246,
+				"debt": 0,
+				"money": 0,
+				"dividends": 74
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2037
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2494,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9981,
+					"д": -79.5026,
+					"province": 566,
+					"staff": 748,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cervecer_a_2",
+			"название": {
+				"ru": "Cervecería Nacional",
+				"en": "Cervecería Nacional"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Панама — ведущий национальный производитель пива и безалкогольных напитков (Balboa, Atlas, Malta Vigor, в составе AB InBev). [Выручка: 400 млн $, Чистая прибыль: 60 млн $, Штат: 1 500 чел., Руководитель: Родриго Монтейру (Rodrigo Monteiro), президент с 2022 года, 1976 г.р.]. Официальные источники: https://www.cerveceria-nacional.com/, https://www.cerveceria-nacional.com/investors (Годовой отчет / ",
+				"en": "Cervecería Nacional — a consumer and retail company of Panama."
+			},
+			"fundamental": {
+				"выручка": 521,
+				"profit": 41,
+				"debt": 120,
+				"money": 43,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1563,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9672,
+					"д": -79.4964,
+					"province": 566,
+					"staff": 468,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cable_wireless",
+			"название": {
+				"ru": "Cable & Wireless Panamá (+Móvil)",
+				"en": "Cable & Wireless Panamá (+Móvil)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 2023,
+			"description": {
+				"ru": "Панама — крупнейший оператор мобильной связи, широкополосного интернета и корпоративных IT-решений (совместное предприятие Liberty Latin America и государства). [Выручка: 600 млн $, Чистая прибыль: 45 млн $, Штат: 2 000 чел., Руководитель: Росио Лоренсо (Rocío Lorenzo), генеральный директор с 2023 года, 1981 г.р.]. Официальные источники: https://www.masmovil.panama.com/, https://www.masmovil.panam",
+				"en": "Cable & Wireless Panamá (+Móvil) — a IT and telecom company of Panama."
+			},
+			"fundamental": {
+				"выручка": 475,
+				"profit": 61,
+				"debt": 151,
+				"money": 79,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 899
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1258,
+			"wage": 1972,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9637,
+					"д": -79.5061,
+					"province": 566,
+					"staff": 377,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "global_bank",
+			"название": {
+				"ru": "Global Bank Corporation",
+				"en": "Global Bank Corporation"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Панама — ведущий независимый частный банк Панамы с фокусом на корпоративное кредитование, агробизнес и ипотеку. [Выручка: 500 млн $, Чистая прибыль: 95 млн $, Штат: 1 900 чел., Руководитель: Хорхе Вальярино Штрунц (Jorge Vallarino Strunz), с 2014 года, 1972 г.р.]. Официальные источники: https://www.globalbank.com.pa/inversionistas, https://www.globalbank.com.pa/investors (Годовой отчет / Раскрытие",
+				"en": "Global Bank Corporation — a financial company of Panama."
+			},
+			"fundamental": {
+				"выручка": 429,
+				"profit": 121,
+				"debt": 0,
+				"money": 0,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1001
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1225,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 9.0066,
+					"д": -79.5409,
+					"province": 566,
+					"staff": 367,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ensa",
+			"название": {
+				"ru": "ENSA (Elektra Noreste S.A.)",
+				"en": "ENSA (Elektra Noreste S.A.)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Панама — электрораспределительная компания Северо-Восточной Панамы, провинции Колон и региона Дарьен (в составе Grupo EPM). [Выручка: 850 млн $, Чистая прибыль: 50 млн $, Штат: 800 чел., Руководитель: Эстебан Дуке (Esteban Duque), с 2021 года, 1973 г.р.]. Официальные источники: https://www.ensa.com.pa/, https://www.ensa.com.pa/investors (Годовой отчет / Раскрытие информации)",
+				"en": "ENSA (Elektra Noreste S.A.) — a energy company of Panama."
+			},
+			"fundamental": {
+				"выручка": 367,
+				"profit": 34,
+				"debt": 223,
+				"money": 47,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 484
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 652,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.994,
+					"д": -79.5555,
+					"province": 566,
+					"staff": 195,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "naturgy_panam",
+			"название": {
+				"ru": "Naturgy Panamá (Edemet / Edechi)",
+				"en": "Naturgy Panamá (Edemet / Edechi)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Панама — крупнейший поставщик и дистрибьютор электроэнергии в центральных и западных регионах страны и метрополии Панама. [Выручка: 1 100 млн $, Чистая прибыль: 65 млн $, Штат: 1 100 чел., Руководитель: Себастьян Перес (Sebastián Pérez), управляющий директор с 2022 года, 1975 г.р.]. Официальные источники: https://www.naturgy.com.pa/, https://www.naturgy.com.pa/investors (Годовой отчет / Раскрытие ",
+				"en": "Naturgy Panamá (Edemet / Edechi) — a energy company of Panama."
+			},
+			"fundamental": {
+				"выручка": 306,
+				"profit": 28,
+				"debt": 186,
+				"money": 39,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 404
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 544,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 9.0158,
+					"д": -79.5178,
+					"province": 566,
+					"staff": 163,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "panama_ports",
+			"название": {
+				"ru": "Panama Ports Company (PPC / Hutchison Ports)",
+				"en": "Panama Ports Company (PPC / Hutchison Ports)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Бальбоа / Колон — портовый оператор ключевых контейнерных терминалов Бальбоа (Тихоокеанский вход) и Кристобаль (Атлантический вход Панамского канала). [Выручка: 350 млн $, Чистая прибыль: 60 млн $, Штат: 1 600 чел., Руководитель: Джаред Зербе (Jared Zerbe), с 2020 года, 1970 г.р.]. Официальные источники: https://www.ppc.com.pa/, https://www.ppc.com.pa/investors (Годовой отчет / Раскрытие информаци",
+				"en": "Panama Ports Company (PPC / Hutchison Ports) — a transport company of Panama."
+			},
+			"fundamental": {
+				"выручка": 244,
+				"profit": 16,
+				"debt": 123,
+				"money": 50,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 174
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 610,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Колон",
+						"en": "Colón"
+					},
+					"ш": 9.3384,
+					"д": -79.9146,
+					"province": 566,
+					"staff": 183,
+					"fine": 3059
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_rey",
+			"название": {
+				"ru": "Grupo Rey (Rey Holdings)",
+				"en": "Grupo Rey (Rey Holdings)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Панама — ведущая сеть продовольственного ритейла и аптек Панамы (Supermercados Rey, Romero, Metro Pharmacies, в структуре Corporación Favorita). [Выручка: 800 млн $, Чистая прибыль: 35 млн $, Штат: 5 500 чел., Руководитель: Хуан Пабло Дуран (Juan Pablo Durán), с 2021 года, 1974 г.р.]. Официальные источники: https://www.smrey.com/, https://www.smrey.com/investors (Годовой отчет / Раскрытие информац",
+				"en": "Grupo Rey (Rey Holdings) — a consumer and retail company of Panama."
+			},
+			"fundamental": {
+				"выручка": 182,
+				"profit": 14,
+				"debt": 42,
+				"money": 15,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 249
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 546,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 9.0311,
+					"д": -79.505,
+					"province": 566,
+					"staff": 163,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "senan_base",
+			"название": {
+				"ru": "SENAN Base Naval Vasco Núñez de Balboa & Astillero Naval",
+				"en": "SENAN Base Naval Vasco Núñez de Balboa & Astillero Naval"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бальбоа / Родман, вход в Панамский канал — главная судоремонтная верфь и оперативная база Национальной аэронавигационной службы Панамы (SENAN): капитальное обслуживание патрульных кораблей (Damen Stan Patrol 4207), катеров перехвата Boston Whaler и Eduardoño, охраняющих подходы к Панамскому каналу. (Ремонт военных и патрульных катеров, техническое обслуживание радиолокационных систем охраны канала",
+				"en": "SENAN Base Naval Vasco Núñez de Balboa & Astillero Naval — a defence company of Panama."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9928,
+					"д": -79.5015,
+					"province": 566,
+					"staff": 67,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "senan_direcci",
+			"название": {
+				"ru": "SENAN Dirección de Mantenimiento Aéreo (DMA)",
+				"en": "SENAN Dirección de Mantenimiento Aéreo (DMA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиабаза Говард / Панама-Пасифико — авиационно-технический центр правительственной и военной авиации Панамы: регламентные работы самолетов CASA C-212, Cessna Grand Caravan EX и тактических вертолетов Bell 412EP, Leonardo AW139. (ТОиР авиатехники морского и пограничного патрулирования, систем оптико-электронного наблюдения FLIR.) [Выручка: 35 млн $, Чистая прибыль: 2 млн $, Штат: 500 чел.]. Официал",
+				"en": "SENAN Dirección de Mantenimiento Aéreo (DMA) — a defence company of Panama."
+			},
+			"fundamental": {
+				"выручка": 71,
+				"profit": 5,
+				"debt": 18,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 133
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 213,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 9.0173,
+					"д": -79.5273,
+					"province": 566,
+					"staff": 63,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "senafront_base",
+			"название": {
+				"ru": "SENAFRONT Base Central de Mantenimiento y Logística",
+				"en": "SENAFRONT Base Central de Mantenimiento y Logística"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Метети, провинция Дарьен / Панама — центральный логистический и военно-технический комплекс Национальной пограничной службы Панамы (SENAFRONT): обслуживание легкой бронетехники, тактических внедорожников, вооружения и речных катеров в зоне Дарьенского зазора. (Спецоборудование для джунглей, бронежилеты, речные патрульные катера, тактическая спутниковая связь.) [Выручка: 30 млн $, Чистая прибыль: 2",
+				"en": "SENAFRONT Base Central de Mantenimiento y Logística — a defence company of Panama."
+			},
+			"fundamental": {
+				"выручка": 68,
+				"profit": 5,
+				"debt": 17,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 128
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 204,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.963,
+					"д": -79.5031,
+					"province": 566,
+					"staff": 61,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mec_shipyards",
+			"название": {
+				"ru": "MEC Shipyards (Marine Engineers & Contractors)",
+				"en": "MEC Shipyards (Marine Engineers & Contractors)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бальбоа / Колон — сертифицированный судоремонтный завод, выполняющий докование, ремонт корпусов и двигательных установок военных патрульных судов, буксиров и катеров безопасности акватории Панамского канала. (Корпусные и электромеханические работы патрульных судов, установка баллистической защиты на служебные катера.) [Выручка: 25 млн $, Чистая прибыль: 3 млн $, Штат: 220 чел., Руководитель: Карло",
+				"en": "MEC Shipyards (Marine Engineers & Contractors) — a defence company of Panama."
+			},
+			"fundamental": {
+				"выручка": 64,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 192,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Колон",
+						"en": "Colón"
+					},
+					"ш": 9.3306,
+					"д": -79.9256,
+					"province": 566,
+					"staff": 57,
+					"fine": 3059
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "centro_de_3",
+			"название": {
+				"ru": "Centro de Operaciones Nacionales (CON / C4 Panamá)",
+				"en": "Centro de Operaciones Nacionales (CON / C4 Panamá)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Анкон / Панама — государственный высокотехнологичный центр мониторинга, кибербезопасности и управления силами безопасности Министерства общественной безопасности Панамы (MINSEG). (Охрана периметра канала, комплексы противодействия дронам (C-UAS), защищенная цифровая радиосвязь TETRA/P25.) [Выручка: 20 млн $, Чистая прибыль: 2 млн $, Штат: 300 чел.]. Официальные источники: https://www.minseg.gob.pa",
+				"en": "Centro de Operaciones Nacionales (CON / C4 Panamá) — a defence company of Panama."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 112
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Панама)",
+						"en": "The state (Panama)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Панама"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 180,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Панама",
+						"en": "Panama City"
+					},
+					"ш": 8.9774,
+					"д": -79.505,
+					"province": 566,
+					"staff": 54,
+					"fine": 3062
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

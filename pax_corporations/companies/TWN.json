@@ -1,0 +1,2116 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Тайвань",
+	"iso": "TWN",
+	"data_date": "2026-03",
+	"average_wage": 1800,
+	"companies": [
+		{
+			"id": "tsmc",
+			"название": {
+				"ru": "TSMC",
+				"en": "TSMC"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Делает 90% передовых чипов мира: Apple, Nvidia, AMD.",
+				"en": "Makes 90% of the world's advanced chips: Apple, Nvidia, AMD."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 38000,
+				"debt": 30000,
+				"money": 70000,
+				"dividends": 12000
+			},
+			"рынок": {
+				"shares_mln": 25930,
+				"market_cap": 1100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Национальный фонд развития (государство)",
+						"en": "National Development Fund (the state)"
+					},
+					"type": "polity",
+					"доля": 0.06,
+					"country": "Тайвань"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Си-Си Вэй",
+					"en": "C. C. Wei"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1953,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит заводы в Аризоне и Японии",
+					"en": "строит заводы в Аризоне и Японии"
+				}
+			},
+			"staff": 85000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Синьчжу",
+						"en": "Hsinchu"
+					},
+					"ш": 24.78,
+					"д": 121.01,
+					"province": 595,
+					"staff": 30000,
+					"fine": 4147
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрика 18, Тайнань",
+						"en": "Fab 18, Tainan"
+					},
+					"ш": 23.11,
+					"д": 120.27,
+					"province": 595,
+					"staff": 20000,
+					"fine": 4146
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Аризона",
+						"en": "Arizona"
+					},
+					"ш": 33.75,
+					"д": -112.12,
+					"province": 595,
+					"staff": 3000,
+					"fine": 4366
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tsmc.com/"
+		},
+		{
+			"id": "honhai",
+			"название": {
+				"ru": "Hon Hai (Foxconn)",
+				"en": "Hon Hai (Foxconn)"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1974,
+			"description": {
+				"ru": "Собирает iPhone и серверы для ИИ.",
+				"en": "Assembles iPhones and AI servers."
+			},
+			"fundamental": {
+				"выручка": 220000,
+				"profit": 5500,
+				"debt": 30000,
+				"money": 30000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 13860,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Терри Гоу",
+						"en": "Terry Gou"
+					},
+					"type": "founder",
+					"доля": 0.12
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.88
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Янг Лю",
+					"en": "Young Liu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 800000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тучэн (Новый Тайбэй)",
+						"en": "Tucheng (New Taipei)"
+					},
+					"ш": 24.98,
+					"д": 121.44,
+					"province": 595,
+					"staff": 10000,
+					"fine": 4153
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Чжэнчжоу (Китай)",
+						"en": "Zhengzhou (China)"
+					},
+					"ш": 34.75,
+					"д": 113.62,
+					"province": 595,
+					"staff": 200000,
+					"fine": 638
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.honhai.com/"
+		},
+		{
+			"id": "mediatek",
+			"название": {
+				"ru": "MediaTek",
+				"en": "MediaTek"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Процессоры для смартфонов на Android.",
+				"en": "Processors for Android phones."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 3500,
+				"debt": 0,
+				"money": 8000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 1600,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рик Цай",
+					"en": "Rick Tsai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1951,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 21000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Синьчжу",
+						"en": "Hsinchu"
+					},
+					"ш": 24.78,
+					"д": 121.0,
+					"province": 595,
+					"staff": 10000,
+					"fine": 4147
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mediatek.com/"
+		},
+		{
+			"id": "quanta",
+			"название": {
+				"ru": "Quanta Computer",
+				"en": "Quanta Computer"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Серверы для ИИ и ноутбуки.",
+				"en": "AI servers and laptops."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 1700,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3860,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Барри Лам",
+						"en": "Barry Lam"
+					},
+					"type": "founder",
+					"доля": 0.14
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Барри Лам",
+					"en": "Barry Lam"
+				},
+				"роль": "founder",
+				"с_года": 1988,
+				"born_year": 1949,
+				"доля": 0.14,
+				"характер": {
+					"ru": "founder",
+					"en": "founder"
+				}
+			},
+			"staff": 60000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Таоюань",
+						"en": "Taoyuan"
+					},
+					"ш": 25.0,
+					"д": 121.3,
+					"province": 595,
+					"staff": 8000,
+					"fine": 4154
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.quantatw.com/"
+		},
+		{
+			"id": "delta",
+			"название": {
+				"ru": "Delta Electronics",
+				"en": "Delta Electronics"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1971,
+			"description": {
+				"ru": "Блоки питания и охлаждение для дата-центров.",
+				"en": "Power supplies and cooling for data centres."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 1300,
+				"debt": 1000,
+				"money": 3000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 2600,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Чжэн",
+						"en": "The Cheng family"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пин Чжэн",
+					"en": "Ping Cheng"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2012,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 80000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.08,
+					"д": 121.57,
+					"province": 595,
+					"staff": 3000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.deltaww.com/"
+		},
+		{
+			"id": "ase",
+			"название": {
+				"ru": "ASE Technology",
+				"en": "ASE Technology"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Корпусирование и тестирование чипов.",
+				"en": "Chip packaging and testing."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 1000,
+				"debt": 6000,
+				"money": 2000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 4370,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Чан",
+						"en": "The Chang family"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джейсон Чан",
+					"en": "Jason Chang"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2003,
+				"born_year": 1944,
+				"доля": 0.0,
+				"характер": {
+					"ru": "патриарх",
+					"en": "патриарх"
+				}
+			},
+			"staff": 95000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гаосюн",
+						"en": "Kaohsiung"
+					},
+					"ш": 22.62,
+					"д": 120.3,
+					"province": 595,
+					"staff": 30000,
+					"fine": 4144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aseglobal.com/"
+		},
+		{
+			"id": "chunghwa",
+			"название": {
+				"ru": "Chunghwa Telecom",
+				"en": "Chunghwa Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1996,
+			"description": {
+				"ru": "Крупнейшая связь Тайваня.",
+				"en": "Taiwan's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1200,
+				"debt": 500,
+				"money": 1000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 7760,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Тайваня",
+						"en": "The Taiwanese state"
+					},
+					"type": "polity",
+					"доля": 0.35,
+					"country": "Тайвань"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Линь Жун-ши",
+					"en": "Rong-Shy Lin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 32000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.04,
+					"д": 121.52,
+					"province": 595,
+					"staff": 5000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.cht.com.tw/"
+		},
+		{
+			"id": "cathay",
+			"название": {
+				"ru": "Cathay Financial",
+				"en": "Cathay Financial"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Крупнейшая финансовая группа Тайваня.",
+				"en": "Taiwan's largest financial group."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 3200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 14660,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Цай",
+						"en": "The Tsai family"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цай Хун-ту",
+					"en": "Tsai Hong-tu"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2001,
+				"born_year": 1952,
+				"доля": 0.0,
+				"характер": {
+					"ru": "миллиардер",
+					"en": "миллиардер"
+				}
+			},
+			"staff": 55000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.03,
+					"д": 121.56,
+					"province": 595,
+					"staff": 8000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cathayholdings.com/"
+		},
+		{
+			"id": "fubon",
+			"название": {
+				"ru": "Fubon Financial",
+				"en": "Fubon Financial"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Вторая финансовая группа Тайваня.",
+				"en": "Taiwan's second financial group."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 3800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 13780,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Цай (Fubon)",
+						"en": "The Tsai family (Fubon)"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ричард Цай",
+					"en": "Richard Tsai"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2001,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник",
+					"en": "наследник"
+				}
+			},
+			"staff": 45000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.04,
+					"д": 121.55,
+					"province": 595,
+					"staff": 7000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fubon.com/"
+		},
+		{
+			"id": "formosa",
+			"название": {
+				"ru": "Formosa Plastics",
+				"en": "Formosa Plastics"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1954,
+			"description": {
+				"ru": "Пластики и нефтехимия, огромный комплекс Майляо.",
+				"en": "Plastics and petrochemicals, the giant Mailiao complex."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 100,
+				"debt": 2000,
+				"money": 1500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 6370,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ван",
+						"en": "The Wang family"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джейсон Линь",
+					"en": "Jason Lin"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 6000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.05,
+					"д": 121.55,
+					"province": 595,
+					"staff": 1000,
+					"fine": 4152
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Майляо",
+						"en": "Mailiao"
+					},
+					"ш": 23.79,
+					"д": 120.2,
+					"province": 595,
+					"staff": 5000,
+					"fine": 4161
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.fpc.com.tw/"
+		},
+		{
+			"id": "cpc",
+			"название": {
+				"ru": "CPC Corporation",
+				"en": "CPC Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1946,
+			"description": {
+				"ru": "Государственная нефть и газ Тайваня — весь импорт СПГ.",
+				"en": "Taiwan's state oil and gas — all LNG imports."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": -500,
+				"debt": 15000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Тайваня",
+						"en": "The Taiwanese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фан Чжэнь-жэнь",
+					"en": "Fang Chen-jen"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 15000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.03,
+					"д": 121.56,
+					"province": 595,
+					"staff": 2000,
+					"fine": 4152
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Талинь (Гаосюн)",
+						"en": "Talin (Kaohsiung)"
+					},
+					"ш": 22.54,
+					"д": 120.33,
+					"province": 595,
+					"staff": 3000,
+					"fine": 4144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.cpc.com.tw/"
+		},
+		{
+			"id": "evergreen",
+			"название": {
+				"ru": "Evergreen Marine",
+				"en": "Evergreen Marine"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Седьмой контейнерный перевозчик мира.",
+				"en": "The world's seventh container line."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 3500,
+				"debt": 3000,
+				"money": 6000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 2160,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Чан (Evergreen Group)",
+						"en": "The Chang family (Evergreen Group)"
+					},
+					"type": "founder",
+					"доля": 0.35
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "У Гуан-хуэй",
+					"en": "Wu Guang-hui"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "морской менеджер",
+					"en": "морской менеджер"
+				}
+			},
+			"staff": 3000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.06,
+					"д": 121.55,
+					"province": 595,
+					"staff": 1500,
+					"fine": 4152
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Гаосюн",
+						"en": "Kaohsiung port"
+					},
+					"ш": 22.6,
+					"д": 120.28,
+					"province": 595,
+					"staff": 1500,
+					"fine": 4144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.evergreen-marine.com/"
+		},
+		{
+			"id": "united_microelectronics",
+			"название": {
+				"ru": "United Microelectronics Corporation (UMC)",
+				"en": "United Microelectronics Corporation (UMC)"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине контрактный производитель полупроводниковых микросхем на Тайване",
+				"en": "United Microelectronics Corporation (UMC) — a semiconductor company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 1900,
+				"debt": 1200,
+				"money": 3500,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jason Wang",
+					"en": "Jason Wang"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 20000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0248,
+					"д": 121.5338,
+					"province": 595,
+					"staff": 6000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.umc.com/"
+		},
+		{
+			"id": "pegatron_corporation",
+			"название": {
+				"ru": "Pegatron Corporation",
+				"en": "Pegatron Corporation"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий контрактный сборщик электроники, ноутбуков, смартфонов и игровых консолей",
+				"en": "Pegatron Corporation — a energy company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 38000,
+				"profit": 500,
+				"debt": 4000,
+				"money": 4500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Kuang-Yao Cheng",
+					"en": "Kuang-Yao Cheng"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 150000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0144,
+					"д": 121.5459,
+					"province": 595,
+					"staff": 45000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.pegatroncorp.com/"
+		},
+		{
+			"id": "compal_electronics",
+			"название": {
+				"ru": "Compal Electronics",
+				"en": "Compal Electronics"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших в мире контрактных разработчиков и производителей ноутбуков (ODM)",
+				"en": "Compal Electronics — a consumer and retail company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 250,
+				"debt": 3500,
+				"money": 2500,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Martin Wong",
+					"en": "Martin Wong"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 80000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0156,
+					"д": 121.5359,
+					"province": 595,
+					"staff": 24000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.compal.com/"
+		},
+		{
+			"id": "wistron_corporation",
+			"название": {
+				"ru": "Wistron Corporation",
+				"en": "Wistron Corporation"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевой поставщик серверов для искусственного интеллекта и сложной вычислительной аппаратуры",
+				"en": "Wistron Corporation — a AI company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 28000,
+				"profit": 550,
+				"debt": 3200,
+				"money": 2800,
+				"dividends": 280
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jeff Lin",
+					"en": "Jeff Lin"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0648,
+					"д": 121.4926,
+					"province": 595,
+					"staff": 22500,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.wistron.com/"
+		},
+		{
+			"id": "inventec_corporation",
+			"название": {
+				"ru": "Inventec Corporation",
+				"en": "Inventec Corporation"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производитель серверов, ноутбуков и мобильных телекоммуникационных устройств",
+				"en": "Inventec Corporation — a IT and telecom company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 200,
+				"debt": 2000,
+				"money": 1800,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jack Chen",
+					"en": "Jack Chen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 50000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0237,
+					"д": 121.5117,
+					"province": 595,
+					"staff": 15000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.inventec.com/"
+		},
+		{
+			"id": "uni_president",
+			"название": {
+				"ru": "Uni-President Enterprises Corp.",
+				"en": "Uni-President Enterprises Corp."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший пищевой конгломерат Тайваня, владелец франшизы 7-Eleven и Starbucks на острове",
+				"en": "Uni-President Enterprises Corp. — a consumer and retail company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 650,
+				"debt": 4500,
+				"money": 2200,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Chih-Hsien Lo",
+					"en": "Chih-Hsien Lo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 100000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0464,
+					"д": 121.5141,
+					"province": 595,
+					"staff": 30000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.uni-president.com.tw/"
+		},
+		{
+			"id": "mega_financial",
+			"название": {
+				"ru": "Mega Financial Holding Co.",
+				"en": "Mega Financial Holding Co."
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая государственная финансово-банковская холдинговая компания Тайваня",
+				"en": "Mega Financial Holding Co. — a financial company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 1100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ray-Dawn Wang",
+					"en": "Ray-Dawn Wang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10000,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0382,
+					"д": 121.4969,
+					"province": 595,
+					"staff": 3000,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.megaholdings.com.tw/"
+		},
+		{
+			"id": "ctbc_financial",
+			"название": {
+				"ru": "CTBC Financial Holding Co.",
+				"en": "CTBC Financial Holding Co."
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная банковско-страховая группа Тайваня",
+				"en": "CTBC Financial Holding Co. — a financial company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 1800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 24000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Daniel Wu",
+					"en": "Daniel Wu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0429,
+					"д": 121.5142,
+					"province": 595,
+					"staff": 8400,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ctbcholding.com/"
+		},
+		{
+			"id": "china_steel",
+			"название": {
+				"ru": "China Steel Corporation (CSC)",
+				"en": "China Steel Corporation (CSC)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель стали и металлопроката на Тайване",
+				"en": "China Steel Corporation (CSC) — a metals and mining company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 150,
+				"debt": 6000,
+				"money": 1200,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Shyi-Chin Wang",
+					"en": "Shyi-Chin Wang"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28000,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0544,
+					"д": 121.5258,
+					"province": 595,
+					"staff": 8400,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.csc.com.tw/"
+		},
+		{
+			"id": "taiwan_power",
+			"название": {
+				"ru": "Taiwan Power Company (Taipower)",
+				"en": "Taiwan Power Company (Taipower)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная монопольная электроэнергетическая корпорация Тайваня",
+				"en": "Taiwan Power Company (Taipower) — a energy company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": -2500,
+				"debt": 40000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Tseng Wen-sheng",
+					"en": "Tseng Wen-sheng"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0594,
+					"д": 121.4906,
+					"province": 595,
+					"staff": 8400,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.taipower.com.tw/"
+		},
+		{
+			"id": "national_chung",
+			"название": {
+				"ru": "National Chung-Shan Institute of Science and Technology (NCSIST)",
+				"en": "National Chung-Shan Institute of Science and Technology (NCSIST)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный флагман оборонных исследований: ракетные комплексы Hsiung Feng III, ЗРК Tien Kung III, крылатые ракеты Wan Chien",
+				"en": "National Chung-Shan Institute of Science and Technology (NCSIST) — a defence company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 250,
+				"debt": 400,
+				"money": 600,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "General Li Shih-chiang",
+					"en": "General Li Shih-chiang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0898,
+					"д": 121.5658,
+					"province": 595,
+					"staff": 3300,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.ncsist.org.tw/"
+		},
+		{
+			"id": "aerospace_industrial",
+			"название": {
+				"ru": "Aerospace Industrial Development Corporation (AIDC)",
+				"en": "Aerospace Industrial Development Corporation (AIDC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая аэрокосмическая корпорация Тайваня: реактивный учебно-боевой самолет T-5 Brave Eagle, истребитель IDF, модернизация F-16V",
+				"en": "Aerospace Industrial Development Corporation (AIDC) — a defence company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 85,
+				"debt": 350,
+				"money": 180,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mumin Hu",
+					"en": "Mumin Hu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.067,
+					"д": 121.5183,
+					"province": 595,
+					"staff": 1950,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.aidc.com.tw/"
+		},
+		{
+			"id": "csbc_corporation",
+			"название": {
+				"ru": "CSBC Corporation, Taiwan (Naval Division)",
+				"en": "CSBC Corporation, Taiwan (Naval Division)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный строитель кораблей ВМС Китайской Республики: головная дизель-электрическая подлодка Hai Kun (IDS) и десантные вертолетоносцы",
+				"en": "CSBC Corporation, Taiwan (Naval Division) — a defence company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 35,
+				"debt": 600,
+				"money": 150,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Cheng Wen-lon",
+					"en": "Cheng Wen-lon"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0688,
+					"д": 121.5192,
+					"province": 595,
+					"staff": 1200,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.csbcnet.com.tw/"
+		},
+		{
+			"id": "lungteh_shipbuilding",
+			"название": {
+				"ru": "Lungteh Shipbuilding Co., Ltd.",
+				"en": "Lungteh Shipbuilding Co., Ltd."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судоверфь, специализирующаяся на строительстве ракетных корветов-катамаранов класса Tuo Chiang и скоростных минных заградителей",
+				"en": "Lungteh Shipbuilding Co., Ltd. — a defence company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 35,
+				"debt": 60,
+				"money": 50,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lu Ting-ching",
+					"en": "Lu Ting-ching"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0765,
+					"д": 121.561,
+					"province": 595,
+					"staff": 255,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.lts.com.tw/"
+		},
+		{
+			"id": "thunder_tiger",
+			"название": {
+				"ru": "Thunder Tiger Technology (Defence Drone Div)",
+				"en": "Thunder Tiger Technology (Defence Drone Div)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик и производитель военных БПЛА вертикального взлета, разведывательных морских надводных дронов и средств радиоэлектронной борьбы",
+				"en": "Thunder Tiger Technology (Defence Drone Div) — a defence company of Taiwan."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": 8,
+				"debt": 20,
+				"money": 25,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тайвань)",
+						"en": "The state (Taiwan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тайвань"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Aling Su",
+					"en": "Aling Su"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайбэй",
+						"en": "Taipei"
+					},
+					"ш": 25.0542,
+					"д": 121.5044,
+					"province": 595,
+					"staff": 105,
+					"fine": 4152
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.thundertiger.com/"
+		}
+	]
+}

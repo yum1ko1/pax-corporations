@@ -1,0 +1,1263 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Замбия",
+	"iso": "ZMB",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "zccm",
+			"название": {
+				"ru": "ZCCM-IH",
+				"en": "ZCCM-IH"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2000,
+			"description": {
+				"ru": "Государственный держатель медных рудников Замбии, выкупил Mopani.",
+				"en": "Zambia's state holder of copper mines, took back Mopani."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 50,
+				"debt": 800,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 161,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Замбии",
+						"en": "The Zambian state"
+					},
+					"type": "polity",
+					"доля": 0.78,
+					"country": "Замбия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.22
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Какененва Муянгва",
+					"en": "Kakenenwa Muyangwa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горный чиновник",
+					"en": "горный чиновник"
+				}
+			},
+			"staff": 5000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.42,
+					"д": 28.28,
+					"province": 477,
+					"staff": 300,
+					"fine": 4582
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Муфулира (Mopani)",
+						"en": "Mufulira (Mopani)"
+					},
+					"ш": -12.55,
+					"д": 28.24,
+					"province": 477,
+					"staff": 4500,
+					"fine": 4580
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://zccm-ih.com.zm/"
+		},
+		{
+			"id": "kansanshi",
+			"название": {
+				"ru": "Kansanshi Mining",
+				"en": "Kansanshi Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Крупнейший медный рудник Африки, First Quantum.",
+				"en": "Africa's largest copper mine, First Quantum."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 500,
+				"debt": 500,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "First Quantum",
+						"en": "First Quantum"
+					},
+					"type": "company",
+					"доля": 0.8,
+					"country": "Канада"
+				},
+				{
+					"кто": {
+						"ru": "ZCCM-IH",
+						"en": "ZCCM-IH"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Замбия",
+					"company": "zccm"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Энтони Кармайкл",
+					"en": "Anthony Carmichael"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 5000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Солвези",
+						"en": "Solwezi"
+					},
+					"ш": -12.18,
+					"д": 26.38,
+					"province": 450,
+					"staff": 5000,
+					"fine": 4583
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://first-quantum.com/"
+		},
+		{
+			"id": "zesco_limited",
+			"название": {
+				"ru": "ZESCO Limited",
+				"en": "ZESCO Limited"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная монопольная энергетическая компания, оператор ГЭС Кариба-Север и Кафуэ-Гордж",
+				"en": "ZESCO Limited — a energy company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": -60,
+				"debt": 2200,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Victor Mapani",
+					"en": "Victor Mapani"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.3909,
+					"д": 28.248,
+					"province": 477,
+					"staff": 1950,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.zesco.co.zm/"
+		},
+		{
+			"id": "mopani_copper",
+			"название": {
+				"ru": "Mopani Copper Mines (MCM)",
+				"en": "Mopani Copper Mines (MCM)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший медеплавильный и горнодобывающий комплекс в Китве и Муфулире, развиваемый в партнерстве с IRH (ОАЭ)",
+				"en": "Mopani Copper Mines (MCM) — a metals and mining company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 70,
+				"debt": 800,
+				"money": 110,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Charles Sakanya",
+					"en": "Charles Sakanya"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Китве",
+						"en": "Kitwe"
+					},
+					"ш": -12.7708,
+					"д": 28.19,
+					"province": 477,
+					"staff": 3600,
+					"fine": 4580
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.mopani.com.zm/"
+		},
+		{
+			"id": "konkola_copper",
+			"название": {
+				"ru": "Konkola Copper Mines (KCM)",
+				"en": "Konkola Copper Mines (KCM)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Горно-металлургический комплекс, разрабатывающий глубокие медные горизонты шахты Конкола и открытый карьер Нчанга (Vedanta)",
+				"en": "Konkola Copper Mines (KCM) — a metals and mining company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 950,
+				"profit": 50,
+				"debt": 1100,
+				"money": 80,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Chris Showalter",
+					"en": "Chris Showalter"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.4291,
+					"д": 28.2938,
+					"province": 477,
+					"staff": 3000,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://kcm.co.zm/"
+		},
+		{
+			"id": "zambia_national",
+			"название": {
+				"ru": "Zambia National Commercial Bank (Zanaco)",
+				"en": "Zambia National Commercial Bank (Zanaco)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк страны по числу розничных клиентов, дочерняя структура Arise B.V",
+				"en": "Zambia National Commercial Bank (Zanaco) — a financial company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 95,
+				"debt": 0,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 550
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mukwandi Chibesakunda",
+					"en": "Mukwandi Chibesakunda"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.3893,
+					"д": 28.2691,
+					"province": 477,
+					"staff": 540,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.zanaco.co.zm/"
+		},
+		{
+			"id": "lumwana_mining",
+			"название": {
+				"ru": "Lumwana Mining Company (Barrick Gold)",
+				"en": "Lumwana Mining Company (Barrick Gold)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокопроизводительный открытый медный карьер мирового класса компании Barrick в Северо-Западной провинции",
+				"en": "Lumwana Mining Company (Barrick Gold) — a metals and mining company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 280,
+				"debt": 200,
+				"money": 150,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Anthony Lyambela",
+					"en": "Anthony Lyambela"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.425,
+					"д": 28.2763,
+					"province": 477,
+					"staff": 1200,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.barrick.com/"
+		},
+		{
+			"id": "copperbelt_energy",
+			"название": {
+				"ru": "Copperbelt Energy Corporation (CEC)",
+				"en": "Copperbelt Energy Corporation (CEC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Частная энергопередающая компания, снабжающая электроэнергией все основные медные рудники пояса Коппербелт",
+				"en": "Copperbelt Energy Corporation (CEC) — a energy company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 380,
+				"profit": 65,
+				"debt": 90,
+				"money": 70,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Owen Silavwe",
+					"en": "Owen Silavwe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.3954,
+					"д": 28.2756,
+					"province": 477,
+					"staff": 135,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://cecinvestor.com/"
+		},
+		{
+			"id": "zambia_sugar",
+			"название": {
+				"ru": "Zambia Sugar Plc (Illovo)",
+				"en": "Zambia Sugar Plc (Illovo)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель сахара в Замбии, оператор плантаций и завода Накамбала в Мазабуке",
+				"en": "Zambia Sugar Plc (Illovo) — a IT and telecom company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 45,
+				"debt": 50,
+				"money": 40,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Oswald Magwenzi",
+					"en": "Oswald Magwenzi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.4072,
+					"д": 28.3024,
+					"province": 477,
+					"staff": 1800,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.illovosugarafrica.com/"
+		},
+		{
+			"id": "chilanga_cement",
+			"название": {
+				"ru": "Chilanga Cement (Huaxin Cement)",
+				"en": "Chilanga Cement (Huaxin Cement)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий цементный завод Замбии с площадками в Чиланге и Ндоле",
+				"en": "Chilanga Cement (Huaxin Cement) — a construction company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 25,
+				"debt": 15,
+				"money": 25,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jianping Chai",
+					"en": "Jianping Chai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 550,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.4042,
+					"д": 28.2516,
+					"province": 477,
+					"staff": 165,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.huaxincem.com/"
+		},
+		{
+			"id": "zambia_telecommunication",
+			"название": {
+				"ru": "Zambia Telecommunications Company (Zamtel)",
+				"en": "Zambia Telecommunications Company (Zamtel)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оператор фиксированной телефонной связи, широкополосного интернета и мобильной связи",
+				"en": "Zambia Telecommunications Company (Zamtel) — a IT and telecom company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": -15,
+				"debt": 140,
+				"money": 15,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jason Mwanza",
+					"en": "Jason Mwanza"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.4425,
+					"д": 28.2746,
+					"province": 477,
+					"staff": 360,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.zamtel.zm/"
+		},
+		{
+			"id": "zambia_railways",
+			"название": {
+				"ru": "Zambia Railways Limited (ZRL)",
+				"en": "Zambia Railways Limited (ZRL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная железнодорожная компания, управляющая магистралями от границы с Зимбабве (Виктория-Фолс) до ДР Конго",
+				"en": "Zambia Railways Limited (ZRL) — a transport company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 65,
+				"profit": 2,
+				"debt": 90,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Muyenga Atanga",
+					"en": "Muyenga Atanga"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2000,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.385,
+					"д": 28.2472,
+					"province": 477,
+					"staff": 600,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.zrl.com.zm/"
+		},
+		{
+			"id": "zambia_army",
+			"название": {
+				"ru": "Zambia Army Technical & Ordnance Workshops (Maina Soko)",
+				"en": "Zambia Army Technical & Ordnance Workshops (Maina Soko)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главные ремонтные мастерские сухопутных войск по восстановлению танков Type 59, бронеавтомобилей Ratel и WZ-551",
+				"en": "Zambia Army Technical & Ordnance Workshops (Maina Soko) — a defence company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 2,
+				"debt": 5,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Godfrey Phiri",
+					"en": "Colonel Godfrey Phiri"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.3915,
+					"д": 28.2589,
+					"province": 477,
+					"staff": 150,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mod.gov.zm/"
+		},
+		{
+			"id": "zambia_air",
+			"название": {
+				"ru": "Zambia Air Force Engineering & Maintenance Wing (Lusaka/Mumbwa)",
+				"en": "Zambia Air Force Engineering & Maintenance Wing (Lusaka/Mumbwa)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-техническая база ВВС Замбии, обеспечивающая регламент сверхзвуковых учебно-боевых самолетов L-15 Falcon и вертолетов Ми-17",
+				"en": "Zambia Air Force Engineering & Maintenance Wing (Lusaka/Mumbwa) — a defence company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General Steven Chomba",
+					"en": "Brigadier General Steven Chomba"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.393,
+					"д": 28.259,
+					"province": 477,
+					"staff": 135,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.airforce.mil.zm/"
+		},
+		{
+			"id": "zambia_national_2",
+			"название": {
+				"ru": "Zambia National Service Engineering & Construction Unit (ZNS)",
+				"en": "Zambia National Service Engineering & Construction Unit (ZNS)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военизированное инженерно-строительное формирование, строящее мосты, военные дороги и казарменный фонд",
+				"en": "Zambia National Service Engineering & Construction Unit (ZNS) — a defence company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 3,
+				"debt": 10,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lieutenant General Maliti Solochi",
+					"en": "Lieutenant General Maliti Solochi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.41,
+					"д": 28.3002,
+					"province": 477,
+					"staff": 450,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.zns.gov.zm/"
+		},
+		{
+			"id": "makeni_ordnance",
+			"название": {
+				"ru": "Makeni Ordnance Depot (Zambia Munitions Depot)",
+				"en": "Makeni Ordnance Depot (Zambia Munitions Depot)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный арсенал хранения, снаряжения и утилизации стрелковых боеприпасов и минометных выстрелов",
+				"en": "Makeni Ordnance Depot (Zambia Munitions Depot) — a defence company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 3,
+				"money": 2,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lieutenant Colonel Mwamba Musonda",
+					"en": "Lieutenant Colonel Mwamba Musonda"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.4232,
+					"д": 28.3009,
+					"province": 477,
+					"staff": 90,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mod.gov.zm/"
+		},
+		{
+			"id": "zambia_marine",
+			"название": {
+				"ru": "Zambia Marine Forces Maintenance Base (Lake Kariba Naval Unit)",
+				"en": "Zambia Marine Forces Maintenance Base (Lake Kariba Naval Unit)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонтно-техническая база на озере Кариба и реке Замбези по обслуживанию речных патрульных катеров и моторных лодок спецназа",
+				"en": "Zambia Marine Forces Maintenance Base (Lake Kariba Naval Unit) — a defence company of Zambia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 2,
+				"money": 2,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Замбия)",
+						"en": "The state (Zambia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Замбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Commander Patrick Banda",
+					"en": "Commander Patrick Banda"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 200,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лусака",
+						"en": "Lusaka"
+					},
+					"ш": -15.3688,
+					"д": 28.3189,
+					"province": 477,
+					"staff": 60,
+					"fine": 4582
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mod.gov.zm/"
+		}
+	]
+}

@@ -1,0 +1,447 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Доминиканская Республика",
+	"iso": "DOM",
+	"data_date": "2026-03",
+	"average_wage": 600,
+	"companies": [
+		{
+			"id": "popular",
+			"название": {
+				"ru": "Grupo Popular",
+				"en": "Grupo Popular"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Крупнейший частный банк Доминиканы.",
+				"en": "The largest private bank of the Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 450,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Грулон",
+						"en": "The Grullón family"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рене Грульон Финет",
+					"en": "René Grullón Finet"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 9000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто-Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.47,
+					"д": -69.94,
+					"province": 662,
+					"staff": 5000,
+					"fine": 883
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://grupopopular.com.do/inversionistas/ | Годовой отчет 2024: выручка $1500M, чистая прибыль $450M, активы $15B, CEO René Grullón Finet"
+		},
+		{
+			"id": "grupo_corripio",
+			"название": {
+				"ru": "Grupo Corripio",
+				"en": "Grupo Corripio"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший многоотраслевой семейный конгломерат Доминиканы (медиахолдинг, автодистрибуция, промышленность, розничные сети). Выручка ~$1.8 млрд, 14,000+ сотр. Владелец: семья Коррипио (José Luis Corripio). https://grupocorripio.com/",
+				"en": "Grupo Corripio — a media company of Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 331,
+				"debt": 400,
+				"money": 267,
+				"dividends": 99
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7886
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2475,
+			"wage": 1036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.4925,
+					"д": -69.8703,
+					"province": 662,
+					"staff": 742,
+					"fine": 859
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_ramos",
+			"название": {
+				"ru": "Grupo Ramos",
+				"en": "Grupo Ramos"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лидер розничной торговли продуктами питания и товарами для дома (гипермаркеты Sirena, супермаркеты Aprezio). Выручка ~$1.2 млрд, 10,000 сотр. https://gruporamos.com/",
+				"en": "Grupo Ramos — a consumer and retail company of Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 93,
+				"debt": 277,
+				"money": 100,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1644
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.479,
+					"д": -69.895,
+					"province": 662,
+					"staff": 1080,
+					"fine": 883
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_puntacana",
+			"название": {
+				"ru": "Grupo Puntacana",
+				"en": "Grupo Puntacana"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Инфраструктурный и туристический холдинг (владеет и управляет Международным аэропортом Пунта-Кана PUJ и курортной зоной Puntacana Resort & Club). Выручка ~$500 млн, 5,000 сотр. https://grupopuntacana.com.do/",
+				"en": "Grupo Puntacana — a transport company of Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 33,
+				"debt": 253,
+				"money": 103,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 357
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1250,
+			"wage": 982,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.479,
+					"д": -69.895,
+					"province": 662,
+					"staff": 375,
+					"fine": 883
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ege_haina",
+			"название": {
+				"ru": "EGE Haina (Empresa Generadora de Electricidad Haina)",
+				"en": "EGE Haina (Empresa Generadora de Electricidad Haina)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный оператор электростанций в стране (мощность 1,100+ МВт). Выручка ~$600 млн. https://egehaina.com/",
+				"en": "EGE Haina (Empresa Generadora de Electricidad Haina) — a energy company of Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 55,
+				"debt": 365,
+				"money": 77,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 791
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1067,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.4732,
+					"д": -69.8757,
+					"province": 662,
+					"staff": 320,
+					"fine": 883
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "refidomsa",
+			"название": {
+				"ru": "Refidomsa (Refinería Dominicana de Petróleo PDV)",
+				"en": "Refidomsa (Refinería Dominicana de Petróleo PDV)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный нефтеперерабатывающий комплекс в Доминикане (100% государственная собственность). Выручка ~$2.0 млрд. https://refidomsa.com.do/",
+				"en": "Refidomsa (Refinería Dominicana de Petróleo PDV) — a oil and gas company of Dominican Republic."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 119,
+				"debt": 563,
+				"money": 190,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1244
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Доминиканская Республика)",
+						"en": "The state (Dominican Republic)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Доминиканская Республика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1748,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санто Доминго",
+						"en": "Santo Domingo"
+					},
+					"ш": 18.5111,
+					"д": -69.895,
+					"province": 662,
+					"staff": 524,
+					"fine": 883
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

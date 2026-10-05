@@ -1,0 +1,2832 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Турция",
+	"iso": "TUR",
+	"data_date": "2026-03",
+	"average_wage": 1000,
+	"companies": [
+		{
+			"id": "koc",
+			"название": {
+				"ru": "Koç Holding",
+				"en": "Koç Holding"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1926,
+			"description": {
+				"ru": "Крупнейший конгломерат Турции: Ford Otosan, Tüpraş, Arçelik, Yapı Kredi.",
+				"en": "Turkey's largest conglomerate."
+			},
+			"fundamental": {
+				"выручка": 80000,
+				"profit": 1500,
+				"debt": 25000,
+				"money": 8000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2540,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Коч",
+						"en": "The Koç family"
+					},
+					"type": "founder",
+					"доля": 0.7
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Левент Чакыроглу",
+					"en": "Levent Çakıroğlu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец семьи Коч",
+					"en": "управленец семьи Коч"
+				}
+			},
+			"staff": 120000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.02,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.koc.com.tr/"
+		},
+		{
+			"id": "sabanci",
+			"название": {
+				"ru": "Sabancı Holding",
+				"en": "Sabancı Holding"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1967,
+			"description": {
+				"ru": "Второй конгломерат Турции: Akbank, энергетика, шины.",
+				"en": "Turkey's second conglomerate."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 500,
+				"debt": 8000,
+				"money": 3000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 2040,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сабанджи",
+						"en": "The Sabancı family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дженк Альпер",
+					"en": "Cenk Alper"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 65000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.01,
+					"province": 850,
+					"staff": 2000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sabanci.com/"
+		},
+		{
+			"id": "isbank",
+			"название": {
+				"ru": "Türkiye İş Bankası",
+				"en": "Türkiye İş Bankası"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1924,
+			"description": {
+				"ru": "Крупнейший частный банк Турции, основан Ататюрком.",
+				"en": "Turkey's largest private bank, founded by Atatürk."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 25000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Пенсионный фонд сотрудников",
+						"en": "Employee pension fund"
+					},
+					"type": "сама",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Республиканская народная партия (CHP)",
+						"en": "Republican People's Party (CHP)"
+					},
+					"type": "крупный",
+					"доля": 0.28,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.32
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хакан Аран",
+					"en": "Hakan Aran"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 24000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Левент, Стамбул",
+						"en": "Levent, Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.01,
+					"province": 850,
+					"staff": 5000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.isbank.com.tr/"
+		},
+		{
+			"id": "garanti",
+			"название": {
+				"ru": "Garanti BBVA",
+				"en": "Garanti BBVA"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1946,
+			"description": {
+				"ru": "Ведущий частный банк, контролируется испанским BBVA.",
+				"en": "A leading private bank, controlled by Spain’s BBVA."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 2500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 4200,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "BBVA",
+						"en": "BBVA"
+					},
+					"type": "company",
+					"доля": 0.86,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.14
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Махмут Актен",
+					"en": "Mahmut Akten"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир BBVA",
+					"en": "банкир BBVA"
+				}
+			},
+			"staff": 22000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.0,
+					"province": 850,
+					"staff": 4000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.garantibbva.com.tr/"
+		},
+		{
+			"id": "akbank",
+			"название": {
+				"ru": "Akbank",
+				"en": "Akbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1948,
+			"description": {
+				"ru": "Банк группы Сабанджи.",
+				"en": "The Sabancı group bank."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 5200,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Sabancı Holding",
+						"en": "Sabancı Holding"
+					},
+					"type": "company",
+					"доля": 0.41,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.59
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Каан Гюр",
+					"en": "Kaan Gür"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 13000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.01,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.akbank.com/"
+		},
+		{
+			"id": "ziraat",
+			"название": {
+				"ru": "Ziraat Bankası",
+				"en": "Ziraat Bankası"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1863,
+			"description": {
+				"ru": "Крупнейший банк Турции, государственный.",
+				"en": "Turkey's largest bank, state-owned."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 2500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Суверенный фонд Турции",
+						"en": "Turkey Wealth Fund"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алпаслан Чакар",
+					"en": "Alpaslan Çakar"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "госбанкир",
+					"en": "госбанкир"
+				}
+			},
+			"staff": 26000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.93,
+					"д": 32.85,
+					"province": 853,
+					"staff": 5000,
+					"fine": 4112
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Финансовый центр Стамбула",
+						"en": "Istanbul Finance Center"
+					},
+					"ш": 41.0,
+					"д": 29.1,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ziraatbank.com.tr/"
+		},
+		{
+			"id": "yapikredi",
+			"название": {
+				"ru": "Yapı Kredi",
+				"en": "Yapı Kredi"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1944,
+			"description": {
+				"ru": "Банк группы Коч.",
+				"en": "The Koç group bank."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 8400,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Koç Holding",
+						"en": "Koç Holding"
+					},
+					"type": "company",
+					"доля": 0.61,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.39
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гёкхан Эрюн",
+					"en": "Gökhan Erün"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2018,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 17000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.02,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.yapikredi.com.tr/"
+		},
+		{
+			"id": "thy",
+			"название": {
+				"ru": "Turkish Airlines",
+				"en": "Turkish Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "смешанная",
+			"founded": 1933,
+			"description": {
+				"ru": "Авиакомпания, летающая в больше стран, чем кто-либо.",
+				"en": "The airline flying to more countries than anyone."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 2500,
+				"debt": 15000,
+				"money": 7000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1380,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Суверенный фонд Турции",
+						"en": "Turkey Wealth Fund"
+					},
+					"type": "polity",
+					"доля": 0.49,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Билял Экши",
+					"en": "Bilal Ekşi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2016,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец хаба Стамбула",
+					"en": "управленец хаба Стамбула"
+				}
+			},
+			"staff": 90000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Стамбула",
+						"en": "Istanbul Airport"
+					},
+					"ш": 41.26,
+					"д": 28.74,
+					"province": 850,
+					"staff": 40000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.turkishairlines.com/"
+		},
+		{
+			"id": "turktelekom",
+			"название": {
+				"ru": "Türk Telekom",
+				"en": "Türk Telekom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Фиксированная связь Турции.",
+				"en": "Turkey's fixed-line telecom."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 500,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 3500,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Суверенный фонд Турции",
+						"en": "Turkey Wealth Fund"
+					},
+					"type": "polity",
+					"доля": 0.61,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.39
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Юмит Онал",
+					"en": "Ümit Önal"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 35000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9,
+					"д": 32.82,
+					"province": 853,
+					"staff": 5000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.turktelekom.com.tr/"
+		},
+		{
+			"id": "turkcell",
+			"название": {
+				"ru": "Turkcell",
+				"en": "Turkcell"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший мобильный оператор Турции.",
+				"en": "Turkey's largest mobile operator."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 700,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2200,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Суверенный фонд Турции",
+						"en": "Turkey Wealth Fund"
+					},
+					"type": "polity",
+					"доля": 0.26,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Али Таха Коч",
+					"en": "Ali Taha Koç"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "технолог, близок к власти",
+					"en": "технолог, близок к власти"
+				}
+			},
+			"staff": 25000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.08,
+					"д": 29.0,
+					"province": 850,
+					"staff": 5000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.turkcell.com.tr/"
+		},
+		{
+			"id": "tupras",
+			"название": {
+				"ru": "Tüpraş",
+				"en": "Tüpraş"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Главный нефтепереработчик Турции.",
+				"en": "Turkey's main oil refiner."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": 800,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1930,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Koç Holding",
+						"en": "Koç Holding"
+					},
+					"type": "company",
+					"доля": 0.51,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ибрагим Йелменоглу",
+					"en": "İbrahim Yelmenoğlu"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2016,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтепереработчик",
+					"en": "нефтепереработчик"
+				}
+			},
+			"staff": 7000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Измит",
+						"en": "Izmit"
+					},
+					"ш": 40.76,
+					"д": 29.8,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4072
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Измире",
+						"en": "Izmir refinery"
+					},
+					"ш": 38.8,
+					"д": 26.95,
+					"province": 852,
+					"staff": 1000,
+					"fine": 4063
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.tupras.com.tr/"
+		},
+		{
+			"id": "aselsan",
+			"название": {
+				"ru": "Aselsan",
+				"en": "Aselsan"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Оборонная электроника Турции.",
+				"en": "Turkey's defence electronics."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 700,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 4560,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд вооружённых сил",
+						"en": "Armed Forces Foundation"
+					},
+					"type": "polity",
+					"доля": 0.74,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ахмет Акйол",
+					"en": "Ahmet Akyol"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оборонщик",
+					"en": "оборонщик"
+				}
+			},
+			"staff": 11000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.95,
+					"д": 32.83,
+					"province": 853,
+					"staff": 8000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aselsan.com.tr/"
+		},
+		{
+			"id": "baykar",
+			"название": {
+				"ru": "Baykar",
+				"en": "Baykar"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Ударные дроны Bayraktar; купил Piaggio.",
+				"en": "Bayraktar strike drones; bought Piaggio."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 500,
+				"debt": 0,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Байрактар",
+						"en": "The Bayraktar family"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Халук Байрактар",
+					"en": "Haluk Bayraktar"
+				},
+				"роль": "founder",
+				"с_года": 2004,
+				"born_year": 1978,
+				"доля": 0.5,
+				"характер": {
+					"ru": "инженер, брат Сельчука — зятя Эрдогана",
+					"en": "инженер, брат Сельчука — зятя Эрдогана"
+				}
+			},
+			"staff": 5000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.13,
+					"д": 28.77,
+					"province": 850,
+					"staff": 4000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.baykartech.com/"
+		},
+		{
+			"id": "bim",
+			"название": {
+				"ru": "BİM",
+				"en": "BİM"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая сеть дискаунтеров Турции.",
+				"en": "Turkey's largest discount chain."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 700,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 600,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Халук Дортлуоглу",
+					"en": "Haluk Dortluoğlu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 85000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.0,
+					"д": 29.05,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bim.com.tr/"
+		},
+		{
+			"id": "fordotosan",
+			"название": {
+				"ru": "Ford Otosan",
+				"en": "Ford Otosan"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1959,
+			"description": {
+				"ru": "Совместное предприятие Ford и Koç: фургоны Transit.",
+				"en": "The Ford–Koç joint venture: Transit vans."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 1000,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 350,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ford",
+						"en": "Ford"
+					},
+					"type": "company",
+					"доля": 0.41,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Koç Holding",
+						"en": "Koç Holding"
+					},
+					"type": "company",
+					"доля": 0.41,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.18
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гювен Озйурт",
+					"en": "Güven Özyurt"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 25000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коджаэли",
+						"en": "Kocaeli"
+					},
+					"ш": 40.77,
+					"д": 29.93,
+					"province": 746,
+					"staff": 12000,
+					"fine": 4072
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fordotosan.com.tr/"
+		},
+		{
+			"id": "arcelik",
+			"название": {
+				"ru": "Arçelik (Beko)",
+				"en": "Arçelik (Beko)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1955,
+			"description": {
+				"ru": "Бытовая техника Beko.",
+				"en": "Beko home appliances."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 100,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 675,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Koç Holding",
+						"en": "Koç Holding"
+					},
+					"type": "company",
+					"доля": 0.57,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.43
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хакан Бульгурлу",
+					"en": "Hakan Bulgurlu"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2015,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер Коч",
+					"en": "менеджер Коч"
+				}
+			},
+			"staff": 45000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 41.1,
+					"д": 28.99,
+					"province": 850,
+					"staff": 3000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.arcelikglobal.com/"
+		},
+		{
+			"id": "erdemir",
+			"название": {
+				"ru": "Erdemir",
+				"en": "Erdemir"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "смешанная",
+			"founded": 1960,
+			"description": {
+				"ru": "Крупнейший сталевар Турции.",
+				"en": "Turkey's largest steelmaker."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 200,
+				"debt": 2000,
+				"money": 1500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 7000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "OYAK (пенсионный фонд армии)",
+						"en": "OYAK (army pension fund)"
+					},
+					"type": "polity",
+					"доля": 0.49,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ниязи Ашкын Пекер",
+					"en": "Niyazi Aşkın Peker"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 12000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эрегли, Зонгулдак",
+						"en": "Ereğli, Zonguldak"
+					},
+					"ш": 41.28,
+					"д": 31.42,
+					"province": 746,
+					"staff": 7000,
+					"fine": 4114
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Искендерун",
+						"en": "Iskenderun"
+					},
+					"ш": 36.7,
+					"д": 36.2,
+					"province": 762,
+					"staff": 5000,
+					"fine": 4093
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.erdemir.com.tr/"
+		},
+		{
+			"id": "sisecam",
+			"название": {
+				"ru": "Şişecam",
+				"en": "Şişecam"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1935,
+			"description": {
+				"ru": "Стекло и химия.",
+				"en": "Glass and chemicals."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 100,
+				"debt": 3000,
+				"money": 700,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 3060,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "İş Bankası",
+						"en": "İş Bankası"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гёркем Эльверичи",
+					"en": "Görkem Elverici"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 22000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Стамбул",
+						"en": "Istanbul"
+					},
+					"ш": 40.99,
+					"д": 29.1,
+					"province": 850,
+					"staff": 2000,
+					"fine": 4071
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.sisecam.com.tr/"
+		},
+		{
+			"id": "pegasus",
+			"название": {
+				"ru": "Pegasus Airlines",
+				"en": "Pegasus Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Лоукостер Турции.",
+				"en": "Turkey's low-cost airline."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 400,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сабанджи (Эсас)",
+						"en": "Sabancı family (Esas)"
+					},
+					"type": "крупный",
+					"доля": 0.6,
+					"country": "Турция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гюлиз Озтюрк",
+					"en": "Güliz Öztürk"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер лоукостера",
+					"en": "менеджер лоукостера"
+				}
+			},
+			"staff": 7000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сабиха Гёкчен, Стамбул",
+						"en": "Sabiha Gökçen, Istanbul"
+					},
+					"ш": 40.9,
+					"д": 29.31,
+					"province": 850,
+					"staff": 4000,
+					"fine": 4072
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.flypgs.com/"
+		},
+		{
+			"id": "tpao",
+			"название": {
+				"ru": "TPAO",
+				"en": "TPAO"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1954,
+			"description": {
+				"ru": "Государственная нефтегазовая компания: газ Черного моря (Сакарья).",
+				"en": "The state oil and gas company: Black Sea gas (Sakarya)."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 800,
+				"debt": 2000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Суверенный фонд Турции",
+						"en": "Turkey Wealth Fund"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ахмет Тюркоглу",
+					"en": "Ahmet Türkoğlu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник власти",
+					"en": "нефтяник власти"
+				}
+			},
+			"staff": 5000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.89,
+					"д": 32.8,
+					"province": 853,
+					"staff": 2000,
+					"fine": 4112
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Газ Сакарья, Черное море",
+						"en": "Sakarya gas, Black Sea"
+					},
+					"ш": 41.4185,
+					"д": 31.6626,
+					"province": 746,
+					"staff": 500,
+					"fine": 4114
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.tpao.gov.tr/"
+		},
+		{
+			"id": "enka_i",
+			"название": {
+				"ru": "ENKA İnşaat ve Sanayi A.Ş. (ENKA)",
+				"en": "ENKA İnşaat ve Sanayi A.Ş. (ENKA)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший международный строительно-инжиниринговый и энергетический холдинг Турции",
+				"en": "ENKA İnşaat ve Sanayi A.Ş. (ENKA) — a construction company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 450,
+				"debt": 200,
+				"money": 4500,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mehmet Tara",
+					"en": "Mehmet Tara"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 22000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.8804,
+					"д": 32.8406,
+					"province": 853,
+					"staff": 6600,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.enka.com/"
+		},
+		{
+			"id": "migros_ticaret",
+			"название": {
+				"ru": "Migros Ticaret A.Ş.",
+				"en": "Migros Ticaret A.Ş."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая сеть супермаркетов и гипермаркетов Турции с развитой онлайн-доставкой",
+				"en": "Migros Ticaret A.Ş. — a consumer and retail company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 220,
+				"debt": 400,
+				"money": 500,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Özgür Tort",
+					"en": "Özgür Tort"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 52000,
+			"wage": 950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9418,
+					"д": 32.8358,
+					"province": 853,
+					"staff": 15600,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.migroskurumsal.com/"
+		},
+		{
+			"id": "oyak",
+			"название": {
+				"ru": "OYAK (Ordu Yardımlaşma Kurumu)",
+				"en": "OYAK (Ordu Yardımlaşma Kurumu)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-пенсионный инвестиционный конгломерат Турции, владеющий долями в Erdemir, Oyak Renault и цементных заводах",
+				"en": "OYAK (Ordu Yardımlaşma Kurumu) — a financial company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1200,
+				"debt": 3500,
+				"money": 2000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Süleyman Savaş Erdem",
+					"en": "Süleyman Savaş Erdem"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 38000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Орду",
+						"en": "Ordu"
+					},
+					"ш": 40.9606,
+					"д": 37.8993,
+					"province": 854,
+					"staff": 11400,
+					"fine": 4097
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.oyak.com.tr/"
+		},
+		{
+			"id": "socar_turkey",
+			"название": {
+				"ru": "SOCAR Turkey (Petkim)",
+				"en": "SOCAR Turkey (Petkim)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефтехимический гигант и владелец НПЗ STAR в Алиаге, крупнейший прямой иностранный инвестор в Турции",
+				"en": "SOCAR Turkey (Petkim) — a oil and gas company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 350,
+				"debt": 2500,
+				"money": 1200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Elchin Ibadov",
+					"en": "Elchin Ibadov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9211,
+					"д": 32.8347,
+					"province": 853,
+					"staff": 1950,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.socar.com.tr/"
+		},
+		{
+			"id": "ag_anadolu",
+			"название": {
+				"ru": "AG Anadolu Grubu Holding",
+				"en": "AG Anadolu Grubu Holding"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Промышленный и потребительский конгломерат (Anadolu Efes, пивоварение, розлив Coca-Cola, ритейл, автопром)",
+				"en": "AG Anadolu Grubu Holding — a consumer and retail company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 400,
+				"debt": 3000,
+				"money": 1800,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Hurşit Zorlu",
+					"en": "Hurşit Zorlu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 80000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9418,
+					"д": 32.841,
+					"province": 853,
+					"staff": 24000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.anadolugrubu.com.tr/"
+		},
+		{
+			"id": "cengiz_holding",
+			"название": {
+				"ru": "Cengiz Holding",
+				"en": "Cengiz Holding"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Инфраструктурный, строительный, горнорудный и энергетический конгломерат",
+				"en": "Cengiz Holding — a metals and mining company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 600,
+				"debt": 2200,
+				"money": 800,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mehmet Cengiz",
+					"en": "Mehmet Cengiz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9453,
+					"д": 32.82,
+					"province": 853,
+					"staff": 9000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.cengiz.com.tr/"
+		},
+		{
+			"id": "tav_havalimanlar",
+			"название": {
+				"ru": "TAV Havalimanları (TAV Airports)",
+				"en": "TAV Havalimanları (TAV Airports)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный аэропортовый оператор, управляющий воздушными гаванями в Турции, Казахстане, Грузии и Европе",
+				"en": "TAV Havalimanları (TAV Airports) — a transport company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 180,
+				"debt": 1400,
+				"money": 600,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Serkan Kaptan",
+					"en": "Serkan Kaptan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 40000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9186,
+					"д": 32.8592,
+					"province": 853,
+					"staff": 12000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tavairports.com/"
+		},
+		{
+			"id": "t_rkiye",
+			"название": {
+				"ru": "Türkiye Vakıflar Bankası (VakıfBank)",
+				"en": "Türkiye Vakıflar Bankası (VakıfBank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине государственный банк Турции, специализирующийся на корпоративном и розничном финансировании",
+				"en": "Türkiye Vakıflar Bankası (VakıfBank) — a financial company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 1800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Abdi Serdar Üstünsalih",
+					"en": "Abdi Serdar Üstünsalih"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 20000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.8876,
+					"д": 32.862,
+					"province": 853,
+					"staff": 6000,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.vakifbank.com.tr/"
+		},
+		{
+			"id": "t_rkiye_2",
+			"название": {
+				"ru": "Türkiye Halk Bankası (Halkbank)",
+				"en": "Türkiye Halk Bankası (Halkbank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупный государственный банк Турции, специализирующийся на кредитовании малого бизнеса и ремесленников",
+				"en": "Türkiye Halk Bankası (Halkbank) — a financial company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 1200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Osman Arslan",
+					"en": "Osman Arslan"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 19000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9275,
+					"д": 32.8915,
+					"province": 853,
+					"staff": 5700,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.halkbank.com.tr/"
+		},
+		{
+			"id": "kalyon_holding",
+			"название": {
+				"ru": "Kalyon Holding",
+				"en": "Kalyon Holding"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший подрядчик инфраструктурных проектов, солнечной энергетики (Карапынар) и девелопмента",
+				"en": "Kalyon Holding — a energy company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 450,
+				"debt": 1800,
+				"money": 600,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Cemal Kalyoncu",
+					"en": "Cemal Kalyoncu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 35000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9516,
+					"д": 32.8514,
+					"province": 853,
+					"staff": 10500,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://kalyonholding.com/"
+		},
+		{
+			"id": "roketsan",
+			"название": {
+				"ru": "ROKETSAN (Roket Sanayii ve Ticaret A.Ş.)",
+				"en": "ROKETSAN (Roket Sanayii ve Ticaret A.Ş.)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий разработчик и производитель ракетных комплексов, высокоточных боеприпасов (MAM-L, MAM-C, ATMACA, TAYFUN)",
+				"en": "ROKETSAN (Roket Sanayii ve Ticaret A.Ş.) — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 180,
+				"debt": 300,
+				"money": 250,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Murat İkinci",
+					"en": "Murat İkinci"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9313,
+					"д": 32.825,
+					"province": 853,
+					"staff": 1350,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.roketsan.com.tr/"
+		},
+		{
+			"id": "tusa_tai",
+			"название": {
+				"ru": "TUSAŞ / TAI (Türk Havacılık ve Uzay Sanayii)",
+				"en": "TUSAŞ / TAI (Türk Havacılık ve Uzay Sanayii)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиастроительный гигант: истребитель 5-го поколения KAAN, ударный вертолет T129 ATAK, БПЛА Anka и Aksungur",
+				"en": "TUSAŞ / TAI (Türk Havacılık ve Uzay Sanayii) — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 2600,
+				"profit": 250,
+				"debt": 900,
+				"money": 400,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mehmet Demiroğlu",
+					"en": "Mehmet Demiroğlu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 16000,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.897,
+					"д": 32.829,
+					"province": 853,
+					"staff": 4800,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.tusas.com/"
+		},
+		{
+			"id": "havelsan",
+			"название": {
+				"ru": "HAVELSAN (Hava Elektronik Sanayii)",
+				"en": "HAVELSAN (Hava Elektronik Sanayii)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный лидер в области военного программного обеспечения, боевых информационно-управляющих систем (GENESİS/ADVENT) и тренажеров",
+				"en": "HAVELSAN (Hava Elektronik Sanayii) — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 70,
+				"debt": 80,
+				"money": 120,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mehmet Akif Nacar",
+					"en": "Mehmet Akif Nacar"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2800,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9038,
+					"д": 32.8719,
+					"province": 853,
+					"staff": 840,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.havelsan.com.tr/"
+		},
+		{
+			"id": "stm_savunma",
+			"название": {
+				"ru": "STM Savunma Teknolojileri Mühendislik",
+				"en": "STM Savunma Teknolojileri Mühendislik"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Проектировщик военных кораблей (проект MILGEM/Ada, подводные лодки) и производитель ударных дронов-камикадзе KARGU",
+				"en": "STM Savunma Teknolojileri Mühendislik — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 65,
+				"debt": 120,
+				"money": 150,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Özgür Güleryüz",
+					"en": "Özgür Güleryüz"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9173,
+					"д": 32.8642,
+					"province": 853,
+					"staff": 540,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.stm.com.tr/"
+		},
+		{
+			"id": "mke_a",
+			"название": {
+				"ru": "MKE A.Ş. (Makine ve Kimya Endüstrisi)",
+				"en": "MKE A.Ş. (Makine ve Kimya Endüstrisi)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный производитель артиллерии (САУ T-155 Fırtına), стрелкового оружия (MPT-76), боеприпасов всех калибров и взрывчатых веществ",
+				"en": "MKE A.Ş. (Makine ve Kimya Endüstrisi) — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 110,
+				"debt": 250,
+				"money": 180,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "İlhami Keleş",
+					"en": "İlhami Keleş"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.9506,
+					"д": 32.8202,
+					"province": 853,
+					"staff": 1650,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.mke.gov.tr/"
+		},
+		{
+			"id": "bmc_otomotiv",
+			"название": {
+				"ru": "BMC Otomotiv Sanayi ve Ticaret A.Ş.",
+				"en": "BMC Otomotiv Sanayi ve Ticaret A.Ş."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производитель основного боевого танка Altay, колесных бронемашин с противоминной защитой Kirpi и Vuran",
+				"en": "BMC Otomotiv Sanayi ve Ticaret A.Ş. — a defence company of Turkey."
+			},
+			"fundamental": {
+				"выручка": 850,
+				"profit": 80,
+				"debt": 300,
+				"money": 100,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Турция)",
+						"en": "The state (Turkey)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Турция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Murat Yalçıntaş",
+					"en": "Murat Yalçıntaş"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Анкара",
+						"en": "Ankara"
+					},
+					"ш": 39.8966,
+					"д": 32.8397,
+					"province": 853,
+					"staff": 1050,
+					"fine": 4112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.bmc.com.tr/"
+		}
+	]
+}

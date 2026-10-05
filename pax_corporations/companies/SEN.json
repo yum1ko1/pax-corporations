@@ -1,0 +1,1262 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Сенегал",
+	"iso": "SEN",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "sonatel",
+			"название": {
+				"ru": "Sonatel",
+				"en": "Sonatel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1985,
+			"description": {
+				"ru": "Оператор связи Сенегала и Мали, доля у Orange.",
+				"en": "Senegal's and Mali's telecom, part-owned by Orange."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 500,
+				"debt": 300,
+				"money": 300,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Orange",
+						"en": "Orange"
+					},
+					"type": "company",
+					"доля": 0.42,
+					"country": "Франция",
+					"company": "orange"
+				},
+				{
+					"кто": {
+						"ru": "Государство Сенегала",
+						"en": "The Senegalese state"
+					},
+					"type": "polity",
+					"доля": 0.27,
+					"country": "Сенегал"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.31
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Секу Драме",
+					"en": "Sékou Dramé"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 3500,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.69,
+					"д": -17.45,
+					"province": 581,
+					"staff": 2000,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://sonatel.com/investisseurs/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "petrosen",
+			"название": {
+				"ru": "Petrosen",
+				"en": "Petrosen"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1981,
+			"description": {
+				"ru": "Государственная нефть и газ Сенегала: Сангомар и газ GTA.",
+				"en": "Senegal's state oil and gas: Sangomar and GTA gas."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 60,
+				"debt": 800,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Сенегала",
+						"en": "The Senegalese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алиун Гей",
+					"en": "Alioune Guèye"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 400,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.7,
+					"д": -17.44,
+					"province": 581,
+					"staff": 300,
+					"fine": 3508
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Сангомар (офшор)",
+						"en": "Sangomar (offshore)"
+					},
+					"ш": 14.436,
+					"д": -17.0728,
+					"province": 581,
+					"staff": 100,
+					"fine": 3514
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.petrosen.sn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "senelec",
+			"название": {
+				"ru": "Senelec (Société Nationale d'Electricité du Sénégal)",
+				"en": "Senelec (Société Nationale d'Electricité du Sénégal)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Дакар — государственная вертикально интегрированная энергетическая корпорация (производство, передача и сбыт электроэнергии в Сенегале). [Выручка: 1 100 млн $ (720 000 млн XOF), Чистая прибыль: 40 млн $, Штат: 3 800 чел., Руководитель: Папа Тоби Гей (Papa Toby Gaye), генеральный директор с 2024 года, 1974 г.р.]. Официальные источники: https://www.senelec.sn/, https://www.senelec.sn/investors (Годо",
+				"en": "Senelec (Société Nationale d'Electricité du Sénégal) — a energy company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 49,
+				"debt": 319,
+				"money": 67,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 692
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 934,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6798,
+					"д": -17.4781,
+					"province": 581,
+					"staff": 280,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_9",
+			"название": {
+				"ru": "Société Africaine de Raffinage (SAR)",
+				"en": "Société Africaine de Raffinage (SAR)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Мбао / Дакар — единственный нефтеперерабатывающий завод Сенегала (мощность переработки 1.5 млн тонн сырой нефти в год). [Выручка: 1 400 млн $ (920 000 млн XOF), Чистая прибыль: 25 млн $, Штат: 700 чел., Руководитель: Мамаду Абиб Диоп (Mamadou Abib Diop), с 2023 года, 1975 г.р.]. Официальные источники: https://www.sar.sn/, https://www.sar.sn/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Société Africaine de Raffinage (SAR) — a oil and gas company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 210,
+				"profit": 13,
+				"debt": 59,
+				"money": 20,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 183,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.7259,
+					"д": -17.4319,
+					"province": 581,
+					"staff": 54,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome_6",
+			"название": {
+				"ru": "Port Autonome de Dakar (PAD)",
+				"en": "Port Autonome de Dakar (PAD)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Дакар — стратегический глубоководный порт и крупнейший мультимодальный транзитный хаб в Западной Африке (ворота для грузов Мали). [Выручка: 180 млн $ (120 000 млн XOF), Чистая прибыль: 35 млн $, Штат: 1 900 чел., Руководитель: Вали Диуф Бодьян (Waly Diouf Bodian), генеральный директор с 2024 года, 1976 г.р.]. Официальные источники: https://www.portdakar.sn/, https://www.portdakar.sn/investors (Год",
+				"en": "Port Autonome de Dakar (PAD) — a transport company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 197,
+				"profit": 13,
+				"debt": 99,
+				"money": 41,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 492,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6846,
+					"д": -17.4834,
+					"province": 581,
+					"staff": 147,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cbao_groupe",
+			"название": {
+				"ru": "CBAO Groupe Attijariwafa Bank",
+				"en": "CBAO Groupe Attijariwafa Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Дакар — крупнейший коммерческий банк Сенегала по размеру активов, объему депозитов и филиальной сети. [Выручка: 260 млн $ (170 000 млн XOF), Чистая прибыль: 65 млн $, Штат: 1 400 чел., Руководитель: Мунир Удгири (Mounir Oudghiri), генеральный директор, 1968 г.р.]. Официальные источники: https://www.cbao.sn/, https://www.cbao.sn/investors (Годовой отчет / Раскрытие информации)",
+				"en": "CBAO Groupe Attijariwafa Bank — a financial company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 52,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.7162,
+					"д": -17.4386,
+					"province": 581,
+					"staff": 157,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "endeavour_mining",
+			"название": {
+				"ru": "Endeavour Mining Sabodala-Massawa",
+				"en": "Endeavour Mining Sabodala-Massawa"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Сабодала / Кедугу / Дакар — крупнейший золотодобывающий горно-обогатительный комплекс страны с производством свыше 350 000 унций золота в год. [Выручка: 650 млн $, Чистая прибыль: 180 млн $, Штат: 2 200 чел., Руководитель: Абдул Азиз Си (Abdoul Aziz Sy), вице-президент по связям в Сенегале, 1972 г.р.]. Официальные источники: https://www.endeavourmining.com/our-portfolio/sabodala-massawa-mine/, htt",
+				"en": "Endeavour Mining Sabodala-Massawa — a metals and mining company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 129,
+				"profit": 14,
+				"debt": 43,
+				"money": 15,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 155
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 372,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.7216,
+					"д": -17.451,
+					"province": 581,
+					"staff": 111,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sococim_industries",
+			"название": {
+				"ru": "SOCOCIM Industries",
+				"en": "SOCOCIM Industries"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Рюфиск / Дакар — крупнейший цементный завод Западной Африки производственной мощностью 3.5 млн тонн цемента в год (в составе французской группы Vicat). [Выручка: 320 млн $ (210 000 млн XOF), Чистая прибыль: 50 млн $, Штат: 1 100 чел., Руководитель: Эль Хаджи Мамаду Сек (El Hadji Mamadou Seck), с 2022 года, 1971 г.р.]. Официальные источники: https://www.sococim.com/, https://www.sococim.com/investo",
+				"en": "SOCOCIM Industries — a construction company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 74,
+				"profit": 6,
+				"debt": 29,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 93
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 232,
+			"wage": 256,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6838,
+					"д": -17.4152,
+					"province": 581,
+					"staff": 69,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dangote_cement_2",
+			"название": {
+				"ru": "Dangote Cement Senegal",
+				"en": "Dangote Cement Senegal"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Пут / Тьес — современный цементный завод нигерийской группы Dangote производственной мощностью 1.5 млн тонн. [Выручка: 180 млн $, Чистая прибыль: 30 млн $, Штат: 750 чел., Руководитель: Усман Мбай (Ousmane Mbaye), страновой директор с 2021 года, 1973 г.р.]. Официальные источники: https://www.dangotecement.com/, https://www.dangotecement.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Dangote Cement Senegal — a construction company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 71,
+				"profit": 6,
+				"debt": 28,
+				"money": 9,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 90
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 223,
+			"wage": 256,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6587,
+					"д": -17.4081,
+					"province": 581,
+					"staff": 66,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "air_s",
+			"название": {
+				"ru": "Air Sénégal",
+				"en": "Air Sénégal"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Дакар / Аэропорт Блез Диань — национальная государственная авиакомпания Сенегала (флот Airbus A330-900neo, A321, A319, ATR 72-600). [Выручка: 160 млн $, Чистая прибыль: -40 млн $, Штат: 800 чел., Руководитель: Тидиан Ндиай (Tidiane Ndiaye), генеральный директор с 2024 года, 1978 г.р.]. Официальные источники: https://flyairsenegal.com/, https://flyairsenegal.com/investors (Годовой отчет / Раскрытие",
+				"en": "Air Sénégal — a transport company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 69,
+				"profit": 5,
+				"debt": 35,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 49
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 172,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6619,
+					"д": -17.4734,
+					"province": 581,
+					"staff": 51,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "compagnie_sucri",
+			"название": {
+				"ru": "Compagnie Sucrière Sénégalaise (CSS)",
+				"en": "Compagnie Sucrière Sénégalaise (CSS)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ришар-Толь / Сент-Луи — крупнейший частный агропромышленный комплекс и работодатель севера страны: тростниковые плантации и сахарорафинадный завод (140 000 тонн сахара/год, группа Mimran). [Выручка: 220 млн $, Чистая прибыль: 20 млн $, Штат: 7 000 чел., Руководитель: Венсан Ле Геннек (Vincent Le Guennec), генеральный директор, 1966 г.р.]. Официальные источники: https://www.css.sn/, https://www.css",
+				"en": "Compagnie Sucrière Sénégalaise (CSS) — a consumer and retail company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 67,
+				"profit": 5,
+				"debt": 15,
+				"money": 6,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 92
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 201,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6668,
+					"д": -17.4186,
+					"province": 581,
+					"staff": 60,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sonacos",
+			"название": {
+				"ru": "SONACOS (Société Nationale de Commercialisation des Oléagineux du Sénégal)",
+				"en": "SONACOS (Société Nationale de Commercialisation des Oléagineux du Sénégal)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Дакар / Каолак — исторический государственный переработчик арахиса, производитель растительного масла и кормового жмыха. [Выручка: 150 млн $ (100 000 млн XOF), Чистая прибыль: 10 млн $, Штат: 1 200 чел., Руководитель: Эль Хаджи Ндан Диань (El Hadji Ndane Diagne), генеральный директор с 2024 года, 1975 г.р.]. Официальные источники: https://www.sonacos.sn/, https://www.sonacos.sn/investors (Годовой ",
+				"en": "SONACOS (Société Nationale de Commercialisation des Oléagineux du Sénégal) — a consumer and retail company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 64,
+				"profit": 5,
+				"debt": 15,
+				"money": 5,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 88
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 192,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6726,
+					"д": -17.4707,
+					"province": 581,
+					"staff": 57,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_du_5",
+			"название": {
+				"ru": "Direction du Matériel des Armées (DMA Workshops)",
+				"en": "Direction du Matériel des Armées (DMA Workshops)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лагерь Лемунье, Дакар — главный военно-технический и ремонтный комплекс Вооруженных сил Сенегала: капитальный ремонт колесной бронетехники (RAM MK3, WZ-551, EE-11 Urutu, Bastion APC, Otokar Cobra II), полевой артиллерии и тяжелых армейских тягачей. (Ремонт бронетранспортеров, сервис тяжелых дизелей, модернизация приборов ночного видения и турельных установок.) [Выручка: 35 млн $, Чистая прибыль: 3",
+				"en": "Direction du Matériel des Armées (DMA Workshops) — a defence company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 23,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 43
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 69,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6981,
+					"д": -17.4336,
+					"province": 581,
+					"staff": 20,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_navale_4",
+			"название": {
+				"ru": "Base Navale Amiral Faye Gassama & Ateliers de la Marine",
+				"en": "Base Navale Amiral Faye Gassama & Ateliers de la Marine"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская база Дакар — оперативная база и судоремонтные мастерские ВМС Сенегала: базирование и регламентное обслуживание новейших ракетных патрульных кораблей открытого моря класса OPV 58 S (Walo, Niani, Cayor, оснащенных противокорабельными ракетами Marte MK2/N и ЗРК Simbad-RC) и патрульных судов Fouladou. (Эксплуатация и обслуживание ракетных корветов, судовая артиллерия Oto Melara 76/62, м",
+				"en": "Base Navale Amiral Faye Gassama & Ateliers de la Marine — a defence company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.731,
+					"д": -17.4405,
+					"province": 581,
+					"staff": 18,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ateliers_de_2",
+			"название": {
+				"ru": "Ateliers de Maintenance de l'Armée de l'Air",
+				"en": "Ateliers de Maintenance de l'Armée de l'Air"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиабаза 160 Дакар-Уакам / Тьес — база технического обслуживания авиационной техники ВВС Сенегала: сервис легких реактивных штурмовиков Aero L-39NG, штурмовиков KA-1S Woongbi, самолетов морского патрулирования CN-235-220 MPA и боевых вертолетов Ми-24/35 и Ми-171Ш. (Регламент штурмовой и патрульной авиации, обслуживание вертолетов огневой поддержки Ми-35, авионика.) [Выручка: 30 млн $, Чистая прибы",
+				"en": "Ateliers de Maintenance de l'Armée de l'Air — a defence company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.7142,
+					"д": -17.4264,
+					"province": 581,
+					"staff": 18,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chantier_naval_4",
+			"название": {
+				"ru": "Chantier Naval de Dakar (Dakarnave)",
+				"en": "Chantier Naval de Dakar (Dakarnave)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Порт Дакар — судостроительно-судоремонтный завод (в партнерстве с португальской Lisnave): эксплуатация сухого дока длиной 195 метров и слипвеев для докования и ремонта военных боевых кораблей ВМС Сенегала, Франции и стран ЭКОВАС. (Докование военных фрегатов и патрульных судов, ремонт валопроводов, корпусные и сварочные работы.) [Выручка: 55 млн $ (доля военно-морского ремонта ~15 млн $), Чистая пр",
+				"en": "Chantier Naval de Dakar (Dakarnave) — a defence company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6952,
+					"д": -17.4596,
+					"province": 581,
+					"staff": 18,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_des_4",
+			"название": {
+				"ru": "Direction des Transmissions et de l'Informatique des Armées (DTIA)",
+				"en": "Direction des Transmissions et de l'Informatique des Armées (DTIA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Дакар — специализированная военная структура связи: закрытые каналы оперативного командования, военная спутниковая связь, радиоэлектронный мониторинг приграничных районов и системы обнаружения/подавления дронов (C-UAS). (Тактическая цифровая радиосвязь, защита периметров от БПЛА, киберзащита военного управления.) [Выручка: 18 млн $, Чистая прибыль: 2 млн $, Штат: 300 чел.]. Официальные источники: ",
+				"en": "Direction des Transmissions et de l'Informatique des Armées (DTIA) — a defence company of Senegal."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Сенегал)",
+						"en": "The state (Senegal)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Сенегал"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дакар",
+						"en": "Dakar"
+					},
+					"ш": 14.6696,
+					"д": -17.44,
+					"province": 581,
+					"staff": 18,
+					"fine": 3508
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

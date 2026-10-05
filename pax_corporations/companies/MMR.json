@@ -1,0 +1,1170 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мьянма",
+	"iso": "MMR",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "mehl",
+			"название": {
+				"ru": "MEHL",
+				"en": "Myanma Economic Holdings"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1990,
+			"description": {
+				"ru": "Конгломерат военной хунты: рубины, нефрит, банки, пиво.",
+				"en": "The junta's conglomerate: rubies, jade, banks, beer."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 400,
+				"debt": 300,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Армия Мьянмы (Татмадо)",
+						"en": "Myanmar army (Tatmadaw)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мин Аун Хлайн",
+					"en": "Min Aung Hlaing"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "старший генерал, глава хунты",
+					"en": "генерал"
+				}
+			},
+			"staff": 20000,
+			"wage": 100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Янгон",
+						"en": "Yangon"
+					},
+					"ш": 16.84,
+					"д": 96.17,
+					"province": 624,
+					"staff": 5000,
+					"fine": 2727
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Нефритовые копи Хпакан",
+						"en": "Hpakant jade mines"
+					},
+					"ш": 25.6,
+					"д": 96.3,
+					"province": 224,
+					"staff": 10000,
+					"fine": 2735
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "myanmar_economic",
+			"название": {
+				"ru": "Myanmar Economic Corporation (MEC)",
+				"en": "Myanmar Economic Corporation (MEC)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1960,
+			"description": {
+				"ru": "Военно-промышленный и тяжелый индустриальный конгломерат (металлургия, цемент, мобильная связь Mytel, банк Innwa Bank, топливные склады — ) [Выручка: $1,800 млн, Чистая прибыль: $350 млн, Долг: $0, Деньги: $250 млн, Дивиденды: $0 (подконтролен руководству хунты), Капитализация: $2,200 млн (военная корпорация), Штат: 25,000 чел., Зарплата: $200/мес, Руководитель: Со Вин (Soe Win), Вице-старший гене",
+				"en": "Myanmar Economic Corporation (MEC) — a IT and telecom company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 350,
+				"debt": 572,
+				"money": 250,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4768,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7094,
+					"д": 96.1622,
+					"province": 921,
+					"staff": 1430,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "myanma_oil",
+			"название": {
+				"ru": "Myanma Oil and Gas Enterprise (MOGE)",
+				"en": "Myanma Oil and Gas Enterprise (MOGE)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2021,
+			"description": {
+				"ru": "Нефтегазовая промышленность (государственная монополия на шельфовые месторождения природного газа Ядана, Завтика, Шве, экспорт по газопроводам в Таиланд и Китай — ) [Выручка: $2,500 млн, Чистая прибыль: $800 млн, Долг: $200 млн, Деньги: $500 млн, Дивиденды: $400 млн (главный валютный источник бюджета хунты), Капитализация: $0 (100% госсобственность), Штат: 6,000 чел., Зарплата: $250/мес, Руководит",
+				"en": "Myanma Oil and Gas Enterprise (MOGE) — a oil and gas company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 800,
+				"debt": 200,
+				"money": 500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1555
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2186,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7672,
+					"д": 96.0924,
+					"province": 921,
+					"staff": 655,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, штат, зарплата"
+			]
+		},
+		{
+			"id": "kbz_group",
+			"название": {
+				"ru": "KBZ Group (Kanbawza Group / KBZ Bank)",
+				"en": "KBZ Group (Kanbawza Group / KBZ Bank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Финансовые услуги, банковское дело, авиаперевозки (крупнейший частный банк страны KBZ Bank, авиакомпании Myanmar Airways International и Air KBZ — ) [Выручка: $900 млн, Чистая прибыль: $80 млн, Долг: $0 (активы свыше $8 млрд), Деньги: $0, Дивиденды: $30 млн, Капитализация: $1,200 млн, Штат: 22,000 чел., Зарплата: $250/мес, Руководитель: Аунг Ко Вин (Aung Ko Win), Основатель и Председатель совета д",
+				"en": "KBZ Group (Kanbawza Group / KBZ Bank) — a financial company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 80,
+				"debt": 8000,
+				"money": 0,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2571,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7627,
+					"д": 96.1342,
+					"province": 921,
+					"staff": 771,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "myanma_posts",
+			"название": {
+				"ru": "Myanma Posts and Telecommunications (MPT)",
+				"en": "Myanma Posts and Telecommunications (MPT)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1966,
+			"description": {
+				"ru": "Телекоммуникации (национальный государственный оператор фиксированной и мобильной связи, стратегический альянс с KDDI и Sumitomo — ) [Выручка: $650 млн, Чистая прибыль: $70 млн, Долг: $80 млн, Деньги: $60 млн, Дивиденды: $30 млн, Капитализация: $1,000 млн (государственная компания), Штат: 5,000 чел., Зарплата: $300/мес, Руководитель: У Мьо Све (U Myo Swe), Управляющий директор MPT, родился в 1966 ",
+				"en": "Myanma Posts and Telecommunications (MPT) — a IT and telecom company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 70,
+				"debt": 80,
+				"money": 60,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1721,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7152,
+					"д": 96.1466,
+					"province": 921,
+					"staff": 516,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "telecom_international",
+			"название": {
+				"ru": "Telecom International Myanmar (Mytel)",
+				"en": "Telecom International Myanmar (Mytel)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1978,
+			"description": {
+				"ru": "Мобильная связь и высокоскоростной интернет (СП военного конгломерата MEC и вьетнамской военной группы Viettel — ) [Выручка: $500 млн, Чистая прибыль: $80 млн, Долг: $100 млн, Деньги: $50 млн, Дивиденды: $40 млн, Капитализация: $800 млн, Штат: 3,000 чел., Зарплата: $320/мес, Руководитель: Нгуен Тьен Зунг (Nguyen Tien Dung), Главный исполнительный директор, родился в 1978 году.]. Официальные источн",
+				"en": "Telecom International Myanmar (Mytel) — a IT and telecom company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 80,
+				"debt": 100,
+				"money": 50,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1324,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7308,
+					"д": 96.1001,
+					"province": 921,
+					"staff": 397,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "max_myanmar",
+			"название": {
+				"ru": "Max Myanmar Group",
+				"en": "Max Myanmar Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Строительство, производство цемента, логистика, АЗС, банковский сектор (AYA Bank — второй частный банк страны — ) [Выручка: $500 млн, Чистая прибыль: $45 млн, Долг: $120 млн, Деньги: $40 млн, Дивиденды: $15 млн, Капитализация: $600 млн, Штат: 12,000 чел., Зарплата: $220/мес, Руководитель: Зо Зо (Zaw Zaw), Основатель и Председатель совета директоров, родился в 1966 году.]. Официальные источники: ht",
+				"en": "Max Myanmar Group — a financial company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 45,
+				"debt": 120,
+				"money": 40,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1428,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7657,
+					"д": 96.1298,
+					"province": 921,
+					"staff": 428,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "myanma_gems",
+			"название": {
+				"ru": "Myanma Gems Enterprise (MGE)",
+				"en": "Myanma Gems Enterprise (MGE)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1968,
+			"description": {
+				"ru": "Добыча и государственная монополия экспорта нефрита, рубинов, сапфиров и драгоценных камней (аукционы в Нейпьидо, шахты Хпакана — ) [Выручка: $1,200 млн (официальные аукционные продажи и роялти), Чистая прибыль: $400 млн, Долг: $0, Деньги: $150 млн, Дивиденды: $200 млн (в пользу хунты), Капитализация: $0 (государственное предприятие), Штат: 2,500 чел., Зарплата: $250/мес, Руководитель: Тет Кхаинг ",
+				"en": "Myanma Gems Enterprise (MGE) — a metals and mining company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 400,
+				"debt": 400,
+				"money": 150,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1440
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3466,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7175,
+					"д": 96.1062,
+					"province": 921,
+					"staff": 1039,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, штат, зарплата"
+			]
+		},
+		{
+			"id": "city_mart",
+			"название": {
+				"ru": "City Mart Holding Co., Ltd. (CMHL)",
+				"en": "City Mart Holding Co., Ltd. (CMHL)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Ритейл, крупнейшая сеть супермаркетов и торговых центров (City Mart Supermarket, Ocean Supercenter, Marketplace — ) [Выручка: $450 млн, Чистая прибыль: $25 млн, Долг: $50 млн, Деньги: $25 млн, Дивиденды: $10 млн, Капитализация: $350 млн, Штат: 9,000 чел., Зарплата: $180/мес, Руководитель: Вин Вин Тинт (Win Win Tint), Основательница и Главный исполнительный директор, родилась в 1975 году.]. Официал",
+				"en": "City Mart Holding Co., Ltd. (CMHL) — a consumer and retail company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 25,
+				"debt": 50,
+				"money": 25,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1350,
+			"wage": 111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.768,
+					"д": 96.1545,
+					"province": 921,
+					"staff": 405,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "electric_power",
+			"название": {
+				"ru": "Electric Power Generation Enterprise (EPGE / MEPE)",
+				"en": "Electric Power Generation Enterprise (EPGE / MEPE)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1965,
+			"description": {
+				"ru": "Электроэнергетика (государственные ГЭС Йейва, Шуэли, газотурбинные станции — ) [Выручка: $800 млн, Чистая прибыль: -$50 млн (дефицит энергоснабжения), Долг: $1,200 млн, Деньги: $40 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 8,500 чел., Зарплата: $200/мес, Руководитель: Таунг Хан (Thaung Han), Управляющий директор, родился в 1965 году.]. Официальные источники: https://www.",
+				"en": "Electric Power Generation Enterprise (EPGE / MEPE) — a energy company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": -50,
+				"debt": 1200,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1055
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1423,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7213,
+					"д": 96.1093,
+					"province": 921,
+					"staff": 426,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dagon_group",
+			"название": {
+				"ru": "Dagon Group of Companies",
+				"en": "Dagon Group of Companies"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1953,
+			"description": {
+				"ru": "Строительство коммерческой недвижимости, агропром, портовые терминалы, напитки Dagon Beverages — [Выручка: $250 млн, Чистая прибыль: $20 млн, Долг: $60 млн, Деньги: $20 млн, Дивиденды: $8 млн, Капитализация: $300 млн, Штат: 4,500 чел., Зарплата: $200/мес, Руководитель: Вин Аунг (Win Aung), Основатель и Председатель совета директоров, родился в 1953 году.]. Официальные источники: https://www.dagong",
+				"en": "Dagon Group of Companies — a construction company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 20,
+				"debt": 60,
+				"money": 20,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 786,
+			"wage": 128,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7717,
+					"д": 96.119,
+					"province": 921,
+					"staff": 235,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "directorate_of",
+			"название": {
+				"ru": "Directorate of Defence Industries (DDI / Заводы KaPaSa 1–25)",
+				"en": "Directorate of Defence Industries (DDI / Заводы KaPaSa 1–25)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главное военно-промышленное управление Вооруженных сил Мьянмы (Татмадо — Официальные источники: https://www.cna.org, https://www.specialadvisorycouncil.org",
+				"en": "Directorate of Defence Industries (DDI / Заводы KaPaSa 1–25) — a defence company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал-лейтенант Кан Мьинт Тан (Lt-Gen Kan Myint Than), Начальник Управления военной промышленности (Director of Defence Industries)]",
+					"en": "Генерал-лейтенант Кан Мьинт Тан (Lt-Gen Kan Myint Than), Начальник Управления военной промышленности (Director of Defence Industries)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нейпьидо",
+						"en": "Nay Pyi Taw"
+					},
+					"ш": 19.7488,
+					"д": 96.1249,
+					"province": 921,
+					"staff": 108,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "myanmar_naval",
+			"название": {
+				"ru": "Myanmar Naval Dockyard Headquarters (Sinmalaik & Thanlyin Shipyards)",
+				"en": "Myanmar Naval Dockyard Headquarters (Sinmalaik & Thanlyin Shipyards)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морские судостроительные верфи ВМС Мьянмы — Официальные источники: https://www.navy.mil.mm",
+				"en": "Myanmar Naval Dockyard Headquarters (Sinmalaik & Thanlyin Shipyards) — a defence company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 109,
+				"profit": 7,
+				"debt": 28,
+				"money": 17,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 204
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вице-адмирал, Командующий ВМС Мьянмы (Vice-Admiral, Commander-in-Chief of Navy)]",
+					"en": "Вице-адмирал, Командующий ВМС Мьянмы (Vice-Admiral, Commander-in-Chief of Navy)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 327,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Янгон",
+						"en": "Yangon"
+					},
+					"ш": 16.793,
+					"д": 96.1586,
+					"province": 624,
+					"staff": 98,
+					"fine": 2727
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "myanmar_air",
+			"название": {
+				"ru": "Myanmar Air Force Aircraft Maintenance & Overhaul Depot (Meiktila & Mingaladon)",
+				"en": "Myanmar Air Force Aircraft Maintenance & Overhaul Depot (Meiktila & Mingaladon)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные авиаремонтные и сборочные авиабазы ВВС Мьянмы — Официальные источники: https://www.tatmadaw.net, https://www.tatmadaw.net/defense (Оборонные программы)",
+				"en": "Myanmar Air Force Aircraft Maintenance & Overhaul Depot (Meiktila & Mingaladon) — a defence company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 98,
+				"profit": 7,
+				"debt": 25,
+				"money": 15,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 184
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал авиации, Командующий ВВС Мьянмы (General, Commander-in-Chief of Air Force)]",
+					"en": "Генерал авиации, Командующий ВВС Мьянмы (General, Commander-in-Chief of Air Force)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 294,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Янгон",
+						"en": "Yangon"
+					},
+					"ш": 16.8143,
+					"д": 96.1704,
+					"province": 624,
+					"staff": 88,
+					"fine": 2727
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "heavy_weapons",
+			"название": {
+				"ru": "Heavy Weapons and Armoured Vehicle Production Facility (Magway / Meiktila)",
+				"en": "Heavy Weapons and Armoured Vehicle Production Facility (Magway / Meiktila)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Завод бронетанкового вооружения и тяжелой военной техники Татмадо — Официальные источники: https://www.specialadvisorycouncil.org, https://www.specialadvisorycouncil.org/defense (Оборонные программы)",
+				"en": "Heavy Weapons and Armoured Vehicle Production Facility (Magway / Meiktila) — a defence company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 86,
+				"profit": 6,
+				"debt": 22,
+				"money": 13,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 161
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник бронетанкового управления Генштаба (Director of Directorate of Armour)]",
+					"en": "Начальник бронетанкового управления Генштаба (Director of Directorate of Armour)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 258,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мейтхила",
+						"en": "Meiktila"
+					},
+					"ш": 20.917,
+					"д": 95.8398,
+					"province": 921,
+					"staff": 77,
+					"fine": 2725
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "directorate_of_2",
+			"название": {
+				"ru": "Directorate of Signals / Military Electronic Manufacturing Center",
+				"en": "Directorate of Signals / Military Electronic Manufacturing Center"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Предприятие военной радиоэлектроники, оптико-электронных прицелов и шифрованной связи — Официальные источники: https://www.tatmadaw.net, https://www.tatmadaw.net/defense (Оборонные программы)",
+				"en": "Directorate of Signals / Military Electronic Manufacturing Center — a defence company of Myanmar."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мьянма)",
+						"en": "The state (Myanmar)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мьянма"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор управления военной связи (Major General / Director of Signals)]",
+					"en": "Директор управления военной связи (Major General / Director of Signals)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Янгон",
+						"en": "Yangon"
+					},
+					"ш": 16.7967,
+					"д": 96.1186,
+					"province": 624,
+					"staff": 67,
+					"fine": 2727
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

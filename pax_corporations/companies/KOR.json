@@ -1,0 +1,2881 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Южная Корея",
+	"iso": "KOR",
+	"data_date": "2026-03",
+	"average_wage": 3000,
+	"companies": [
+		{
+			"id": "samsung",
+			"название": {
+				"ru": "Samsung Electronics",
+				"en": "Samsung Electronics"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Смартфоны, память и чипы — флагман чеболя Samsung.",
+				"en": "Phones, memory and chips — the Samsung chaebol flagship."
+			},
+			"fundamental": {
+				"выручка": 220000,
+				"profit": 25000,
+				"debt": 10000,
+				"money": 70000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 5900,
+				"market_cap": 330000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ли и Samsung C&T",
+						"en": "The Lee family and Samsung C&T"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чон Ён Хён",
+					"en": "Jun Young-hyun"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиповик",
+					"en": "чиповик"
+				}
+			},
+			"staff": 260000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сувон",
+						"en": "Suwon"
+					},
+					"ш": 37.26,
+					"д": 127.03,
+					"province": 630,
+					"staff": 30000,
+					"fine": 2127
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрики Пхёнтхэк",
+						"en": "Pyeongtaek fabs"
+					},
+					"ш": 37.02,
+					"д": 127.06,
+					"province": 630,
+					"staff": 20000,
+					"fine": 2127
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.samsung.com/ | Samsung Electronics Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "skhynix",
+			"название": {
+				"ru": "SK Hynix",
+				"en": "SK Hynix"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Память HBM для ИИ-чипов Nvidia.",
+				"en": "HBM memory for Nvidia AI chips."
+			},
+			"fundamental": {
+				"выручка": 48000,
+				"profit": 14000,
+				"debt": 15000,
+				"money": 10000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 728,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "SK Square",
+						"en": "SK Square"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Квак Но Чжон",
+					"en": "Kwak Noh-jung"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер памяти",
+					"en": "инженер памяти"
+				}
+			},
+			"staff": 32000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ичхон",
+						"en": "Icheon"
+					},
+					"ш": 37.27,
+					"д": 127.44,
+					"province": 630,
+					"staff": 20000,
+					"fine": 2127
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.skhynix.com/ | SK Hynix Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "hyundai",
+			"название": {
+				"ru": "Hyundai Motor",
+				"en": "Hyundai Motor"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1967,
+			"description": {
+				"ru": "Третий автоконцерн мира вместе с Kia.",
+				"en": "The world's third carmaker together with Kia."
+			},
+			"fundamental": {
+				"выручка": 120000,
+				"profit": 9000,
+				"debt": 90000,
+				"money": 15000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 270,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hyundai Mobis и семья Чон",
+						"en": "Hyundai Mobis and the Chung family"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хосе Муньос",
+					"en": "José Muñoz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "испанец, первый иностранец во главе",
+					"en": "испанец, первый иностранец во главе"
+				}
+			},
+			"staff": 75000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.46,
+					"д": 127.04,
+					"province": 630,
+					"staff": 5000,
+					"fine": 2126
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ульсан",
+						"en": "Ulsan"
+					},
+					"ш": 35.54,
+					"д": 129.39,
+					"province": 630,
+					"staff": 30000,
+					"fine": 2136
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hyundai.com/ | Hyundai Motor Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "kia",
+			"название": {
+				"ru": "Kia",
+				"en": "Kia"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1944,
+			"description": {
+				"ru": "Автомобили Kia группы Hyundai.",
+				"en": "Kia cars of the Hyundai group."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 7000,
+				"debt": 3000,
+				"money": 15000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 398,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hyundai Motor",
+						"en": "Hyundai Motor"
+					},
+					"type": "company",
+					"доля": 0.34,
+					"country": "Южная Корея",
+					"company": "hyundai"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сон Хо Сон",
+					"en": "Song Ho-sung"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец",
+					"en": "продавец"
+				}
+			},
+			"staff": 52000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.46,
+					"д": 127.03,
+					"province": 630,
+					"staff": 3000,
+					"fine": 2126
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Хвасон",
+						"en": "Hwaseong"
+					},
+					"ш": 37.04,
+					"д": 126.82,
+					"province": 630,
+					"staff": 15000,
+					"fine": 2127
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kia.com/ | Kia Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "lges",
+			"название": {
+				"ru": "LG Energy Solution",
+				"en": "LG Energy Solution"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Аккумуляторы для электромобилей.",
+				"en": "Batteries for electric cars."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 300,
+				"debt": 15000,
+				"money": 4000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 234,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "LG Chem",
+						"en": "LG Chem"
+					},
+					"type": "company",
+					"доля": 0.82,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.18
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ким Дон Мён",
+					"en": "Kim Dong-myung"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "аккумуляторщик",
+					"en": "аккумуляторщик"
+				}
+			},
+			"staff": 30000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.53,
+					"д": 126.93,
+					"province": 630,
+					"staff": 3000,
+					"fine": 2126
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Очан",
+						"en": "Ochang"
+					},
+					"ш": 36.72,
+					"д": 127.43,
+					"province": 630,
+					"staff": 8000,
+					"fine": 2123
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lgensol.com/ | LG Energy Solution Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "lgelectronics",
+			"название": {
+				"ru": "LG Electronics",
+				"en": "LG Electronics"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1958,
+			"description": {
+				"ru": "Бытовая техника и телевизоры.",
+				"en": "Home appliances and TVs."
+			},
+			"fundamental": {
+				"выручка": 65000,
+				"profit": 1200,
+				"debt": 12000,
+				"money": 6000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "LG Corp (семья Ку)",
+						"en": "LG Corp (the Koo family)"
+					},
+					"type": "founder",
+					"доля": 0.33
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чо Джу Ван",
+					"en": "Cho Joo-wan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец",
+					"en": "продавец"
+				}
+			},
+			"staff": 75000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.53,
+					"д": 126.93,
+					"province": 630,
+					"staff": 4000,
+					"fine": 2126
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Чханвон",
+						"en": "Changwon"
+					},
+					"ш": 35.23,
+					"д": 128.68,
+					"province": 630,
+					"staff": 10000,
+					"fine": 2133
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lg.com/ | LG Electronics Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "posco",
+			"название": {
+				"ru": "POSCO Holdings",
+				"en": "POSCO Holdings"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Сталь и литий для батарей.",
+				"en": "Steel and lithium for batteries."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 800,
+				"debt": 20000,
+				"money": 8000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 84,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Национальная пенсионная служба",
+						"en": "National Pension Service"
+					},
+					"type": "polity",
+					"доля": 0.07,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.93
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чан Ин Хва",
+					"en": "Chang In-hwa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 40000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пхохан",
+						"en": "Pohang"
+					},
+					"ш": 36.01,
+					"д": 129.37,
+					"province": 630,
+					"staff": 15000,
+					"fine": 2137
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кванъян",
+						"en": "Gwangyang"
+					},
+					"ш": 34.9585,
+					"д": 127.7271,
+					"province": 630,
+					"staff": 8000,
+					"fine": 2134
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.posco-inc.com/ | POSCO Holdings Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "samsungbio",
+			"название": {
+				"ru": "Samsung Biologics",
+				"en": "Samsung Biologics"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Крупнейший контрактный производитель биопрепаратов.",
+				"en": "The largest contract maker of biologics."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 800,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 71,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Samsung C&T",
+						"en": "Samsung C&T"
+					},
+					"type": "company",
+					"доля": 0.43,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Samsung Electronics",
+						"en": "Samsung Electronics"
+					},
+					"type": "company",
+					"доля": 0.31,
+					"country": "Южная Корея",
+					"company": "samsung"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джон Рим",
+					"en": "John Rim"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "фармменеджер",
+					"en": "фармменеджер"
+				}
+			},
+			"staff": 5000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Инчхон",
+						"en": "Incheon"
+					},
+					"ш": 37.38,
+					"д": 126.64,
+					"province": 630,
+					"staff": 5000,
+					"fine": 2124
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://samsungbiologics.com/ | Samsung Biologics Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "kbfin",
+			"название": {
+				"ru": "KB Financial",
+				"en": "KB Financial"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Крупнейшая финансовая группа Кореи.",
+				"en": "Korea's largest financial group."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 3700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 390,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Национальная пенсионная служба",
+						"en": "National Pension Service"
+					},
+					"type": "polity",
+					"доля": 0.08,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.92
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Чон Хи",
+					"en": "Yang Jong-hee"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 25000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.52,
+					"д": 126.93,
+					"province": 630,
+					"staff": 8000,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kbfg.com/ | KB Financial Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "shinhan",
+			"название": {
+				"ru": "Shinhan Financial",
+				"en": "Shinhan Financial"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Вторая финансовая группа Кореи.",
+				"en": "Korea's second financial group."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 3300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 500,
+				"market_cap": 24000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чин Ок Дон",
+					"en": "Jin Ok-dong"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 23000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.56,
+					"д": 126.97,
+					"province": 630,
+					"staff": 8000,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.shinhangroup.com/ | Shinhan Financial Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "hanwhaaero",
+			"название": {
+				"ru": "Hanwha Aerospace",
+				"en": "Hanwha Aerospace"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Гаубицы K9 — Польша и Европа покупают сотнями.",
+				"en": "K9 howitzers — Poland and Europe buy them by the hundred."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1500,
+				"debt": 5000,
+				"money": 1000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 51,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hanwha Corp (семья Ким)",
+						"en": "Hanwha Corp (the Kim family)"
+					},
+					"type": "founder",
+					"доля": 0.34
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сон Джэ Иль",
+					"en": "Son Jae-il"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оборонщик",
+					"en": "оборонщик"
+				}
+			},
+			"staff": 10000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Чханвон",
+						"en": "Changwon"
+					},
+					"ш": 35.22,
+					"д": 128.68,
+					"province": 630,
+					"staff": 6000,
+					"fine": 2133
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hanwhaaerospace.co.kr/ | Hanwha Aerospace Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "hdhhi",
+			"название": {
+				"ru": "HD Hyundai Heavy Industries",
+				"en": "HD Hyundai Heavy Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Крупнейшая верфь мира: танкеры, газовозы, эсминцы.",
+				"en": "The world's largest shipyard: tankers, LNG carriers, destroyers."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 500,
+				"debt": 2000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 89,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "HD Korea Shipbuilding",
+						"en": "HD Korea Shipbuilding"
+					},
+					"type": "company",
+					"доля": 0.75,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Сан Гюн",
+					"en": "Lee Sang-kyun"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "корабел",
+					"en": "корабел"
+				}
+			},
+			"staff": 15000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ульсан",
+						"en": "Ulsan"
+					},
+					"ш": 35.5,
+					"д": 129.42,
+					"province": 630,
+					"staff": 15000,
+					"fine": 2136
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hd-hhi.com/ | HD Hyundai Heavy Industries Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "naver",
+			"название": {
+				"ru": "Naver",
+				"en": "Naver"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Главный поисковик и сервисы Кореи, Line в Японии.",
+				"en": "Korea's main search engine and services, Line in Japan."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1100,
+				"debt": 1000,
+				"money": 3000,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 158,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Национальная пенсионная служба",
+						"en": "National Pension Service"
+					},
+					"type": "polity",
+					"доля": 0.09,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чхве Су Ён",
+					"en": "Choi Soo-yeon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1981,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист",
+					"en": "юрист"
+				}
+			},
+			"staff": 4500,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Соннам",
+						"en": "Seongnam"
+					},
+					"ш": 37.36,
+					"д": 127.11,
+					"province": 630,
+					"staff": 4000,
+					"fine": 2127
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.navercorp.com/ | Naver Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "kakao",
+			"название": {
+				"ru": "Kakao",
+				"en": "Kakao"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Мессенджер KakaoTalk, такси и банк.",
+				"en": "KakaoTalk messenger, taxis and a bank."
+			},
+			"fundamental": {
+				"выручка": 5800,
+				"profit": 0,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 442,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ким Бом Су",
+						"en": "Kim Beom-su"
+					},
+					"type": "founder",
+					"доля": 0.24
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.76
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чон Син А",
+					"en": "Chung Shina"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасает после ареста основателя",
+					"en": "спасает после ареста основателя"
+				}
+			},
+			"staff": 16000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пангё",
+						"en": "Pangyo"
+					},
+					"ш": 37.4,
+					"д": 127.11,
+					"province": 630,
+					"staff": 4000,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kakaocorp.com/ | Kakao Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "skinnovation",
+			"название": {
+				"ru": "SK Innovation",
+				"en": "SK Innovation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1962,
+			"description": {
+				"ru": "Нефтепереработка и аккумуляторы SK On.",
+				"en": "Refining and SK On batteries."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": -800,
+				"debt": 30000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 150,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "SK Inc (семья Чхве)",
+						"en": "SK Inc (the Chey family)"
+					},
+					"type": "founder",
+					"доля": 0.36
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.64
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пак Сан Гю",
+					"en": "Park Sang-kyu"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 9000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.57,
+					"д": 126.98,
+					"province": 630,
+					"staff": 2000,
+					"fine": 2126
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Ульсан",
+						"en": "Ulsan refinery"
+					},
+					"ш": 35.48,
+					"д": 129.37,
+					"province": 630,
+					"staff": 4000,
+					"fine": 2136
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.skinnovation.com/ | SK Innovation Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "kepco",
+			"название": {
+				"ru": "KEPCO",
+				"en": "KEPCO"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1898,
+			"description": {
+				"ru": "Государственная энергетика Кореи, строит АЭС за рубежом.",
+				"en": "Korea's state power, builds nuclear plants abroad."
+			},
+			"fundamental": {
+				"выручка": 70000,
+				"profit": 2500,
+				"debt": 150000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 642,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кореи",
+						"en": "The Korean state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Южная Корея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ким Дон Чхоль",
+					"en": "Kim Dong-cheol"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший депутат",
+					"en": "бывший депутат"
+				}
+			},
+			"staff": 23000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Наджу",
+						"en": "Naju"
+					},
+					"ш": 35.02,
+					"д": 126.79,
+					"province": 693,
+					"staff": 3000,
+					"fine": 2134
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "АЭС Кори",
+						"en": "Kori NPP"
+					},
+					"ш": 35.32,
+					"д": 129.29,
+					"province": 630,
+					"staff": 3000,
+					"fine": 2136
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://home.kepco.co.kr/ | KEPCO Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "koreanair",
+			"название": {
+				"ru": "Korean Air",
+				"en": "Korean Air"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Национальная авиакомпания, поглотила Asiana.",
+				"en": "The national airline, took over Asiana."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 900,
+				"debt": 10000,
+				"money": 3000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 368,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hanjin Kal (семья Чо)",
+						"en": "Hanjin Kal (the Cho family)"
+					},
+					"type": "founder",
+					"доля": 0.26
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чо Вон Тхэ",
+					"en": "Cho Won-tae"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2019,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник династии",
+					"en": "наследник династии"
+				}
+			},
+			"staff": 20000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул, Кимпхо",
+						"en": "Seoul, Gimpo"
+					},
+					"ш": 37.56,
+					"д": 126.8,
+					"province": 630,
+					"staff": 10000,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.koreanair.com/ | Korean Air Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "samsungct",
+			"название": {
+				"ru": "Samsung C&T",
+				"en": "Samsung C&T"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1938,
+			"description": {
+				"ru": "Стройка и холдинг семьи Ли в группе Samsung.",
+				"en": "Construction and the Lee family holding in the Samsung group."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1700,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 175,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ли",
+						"en": "The Lee family"
+					},
+					"type": "founder",
+					"доля": 0.33
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "О Се Чхоль",
+					"en": "Oh Se-chul"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 9000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5,
+					"д": 127.03,
+					"province": 630,
+					"staff": 5000,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.samsungcnt.com/ | Samsung C&T Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "celltrion",
+			"название": {
+				"ru": "Celltrion",
+				"en": "Celltrion"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2002,
+			"description": {
+				"ru": "Биоаналоги лекарств — сделал корейскую биофарму.",
+				"en": "Biosimilars — built Korean biopharma."
+			},
+			"fundamental": {
+				"выручка": 2600,
+				"profit": 300,
+				"debt": 1000,
+				"money": 800,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 217,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Со Чон Чжин",
+						"en": "Seo Jung-jin"
+					},
+					"type": "founder",
+					"доля": 0.21
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.79
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Со Чон Чжин",
+					"en": "Seo Jung-jin"
+				},
+				"роль": "founder",
+				"с_года": 2002,
+				"born_year": 1957,
+				"доля": 0.21,
+				"характер": {
+					"ru": "founder",
+					"en": "founder"
+				}
+			},
+			"staff": 3000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Инчхон",
+						"en": "Incheon"
+					},
+					"ш": 37.4,
+					"д": 126.65,
+					"province": 630,
+					"staff": 3000,
+					"fine": 2124
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.celltrion.com/ | Celltrion Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "hanwhaocean",
+			"название": {
+				"ru": "Hanwha Ocean",
+				"en": "Hanwha Ocean"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1973,
+			"description": {
+				"ru": "Верфь Окпо: газовозы и подлодки.",
+				"en": "The Okpo shipyard: LNG carriers and submarines."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 300,
+				"debt": 4000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 306,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hanwha Aerospace",
+						"en": "Hanwha Aerospace"
+					},
+					"type": "company",
+					"доля": 0.46,
+					"country": "Южная Корея",
+					"company": "hanwhaaero"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ким Хи Чхоль",
+					"en": "Kim Hee-cheol"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "корабел",
+					"en": "корабел"
+				}
+			},
+			"staff": 9000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кодже (Окпо)",
+						"en": "Geoje (Okpo)"
+					},
+					"ш": 34.89,
+					"д": 128.69,
+					"province": 630,
+					"staff": 9000,
+					"fine": 2133
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hanwhaocean.com/ | Hanwha Ocean Annual Report 2024; Korea Exchange (KRX); DART filings"
+		},
+		{
+			"id": "coupang_inc",
+			"название": {
+				"ru": "Coupang Inc.",
+				"en": "Coupang Inc."
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший южнокорейский гигант e-commerce и логистики («корейский Amazon» с ультрабыстрой доставкой Rocket Delivery, финтехом Coupang Pay и стримингом; выручка свыше $30 млрд, капитализация ~$45 млрд, NYSE: CPNG, штаб-квартира в Сеуле). https://www.coupang.com/",
+				"en": "Coupang Inc. — a financial company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 8438,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2531
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 85714,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.6057,
+					"д": 126.979,
+					"province": 630,
+					"staff": 25714,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hyundai_mobis",
+			"название": {
+				"ru": "Hyundai Mobis",
+				"en": "Hyundai Mobis"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий мировой поставщик автокомпонентов и головной акционер чеболя Hyundai Motor Group (модули шасси, электроника, радары, системы автономного вождения ADAS, батарейные блоки; выручка ~$42 млрд, KRX: 012330). https://www.mobis.co.kr/",
+				"en": "Hyundai Mobis — a energy company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 3883,
+				"debt": 25523,
+				"money": 5375,
+				"dividends": 1165
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55391
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 74722,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5422,
+					"д": 126.977,
+					"province": 630,
+					"staff": 22416,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lg_chem",
+			"название": {
+				"ru": "LG Chem",
+				"en": "LG Chem"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая нефтехимическая корпорация Южной Кореи и материнская компания LG Energy Solution (полиолефины, инженерные пластики, катодные материалы для электромобилей, биофармацевтика; выручка ~$38 млрд, KRX: 051910). https://www.lgchem.com/",
+				"en": "LG Chem — a oil and gas company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 38000,
+				"profit": 2263,
+				"debt": 10706,
+				"money": 3610,
+				"dividends": 679
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 23637
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 33228,
+			"wage": 5367,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.598,
+					"д": 126.9976,
+					"province": 630,
+					"staff": 9968,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "samsung_sdi_2",
+			"название": {
+				"ru": "Samsung SDI",
+				"en": "Samsung SDI"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель литий-ионных аккумуляторов призматического и цилиндрического форматов для ведущих мировых автопроизводителей (BMW, Stellantis, Rivian), промышленных накопителей ESS (выручка ~$16 млрд, капитализация ~$20 млрд, KRX: 006400). https://www.samsungsdi.com/",
+				"en": "Samsung SDI — a metals and mining company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1778,
+				"debt": 5333,
+				"money": 1920,
+				"dividends": 533
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 46222,
+			"wage": 5357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5988,
+					"д": 126.9692,
+					"province": 630,
+					"staff": 13866,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hd_korea",
+			"название": {
+				"ru": "HD Korea Shipbuilding & Offshore Engineering (HD KSOE)",
+				"en": "HD Korea Shipbuilding & Offshore Engineering (HD KSOE)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный судостроительный холдинг группы HD Hyundai (координирует верфи HD Hyundai Heavy Industries, Hyundai Mipo Dockyard и Hyundai Samho; мировой лидер по портфелю заказов на СПГ-газовозы; выручка ~$18 млрд, KRX: 009540). https://www.ksoe.co.kr/",
+				"en": "HD Korea Shipbuilding & Offshore Engineering (HD KSOE) — a transport company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 1200,
+				"debt": 9091,
+				"money": 3724,
+				"dividends": 360
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12857
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 45000,
+			"wage": 4909,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5332,
+					"д": 126.9871,
+					"province": 630,
+					"staff": 13500,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "samsung_heavy",
+			"название": {
+				"ru": "Samsung Heavy Industries (SHI)",
+				"en": "Samsung Heavy Industries (SHI)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Входит в «Большую тройку» корейских суперверфей на острове Кодже (мировой гегемон в строительстве плавучих заводов сжиженного природного газа FLNG, буровых судов и сверхкрупных контейнеровозов; выручка ~$7.5 млрд, KRX: 010140). https://www.samsungshi.com/",
+				"en": "Samsung Heavy Industries (SHI) — a transport company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 500,
+				"debt": 3788,
+				"money": 1552,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5357
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18750,
+			"wage": 4909,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5517,
+					"д": 126.9812,
+					"province": 630,
+					"staff": 5625,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sk_telecom",
+			"название": {
+				"ru": "SK Telecom",
+				"en": "SK Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор мобильной связи и цифровых платформ номер один в Корее (свыше 30 млн абонентов, лидер в развертывании 5G, разработке суверенного искусственного интеллекта A.X и строительстве ИИ-дата-центров; выручка ~$13 млрд, KRX: 017670). https://www.sktelecom.com/",
+				"en": "SK Telecom — a IT and telecom company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1677,
+				"debt": 4133,
+				"money": 2167,
+				"dividends": 503
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 24613
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 34437,
+			"wage": 5379,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5955,
+					"д": 126.967,
+					"province": 630,
+					"staff": 10331,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kt_corporation",
+			"название": {
+				"ru": "KT Corporation (бывш. Korea Telecom)",
+				"en": "KT Corporation (бывш. Korea Telecom)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине интегрированный телеком-гигант Южной Кореи (магистральные оптоволоконные сети, фиксированная связь, дата-центры, медиасервисы; выручка ~$20 млрд, KRX: 030200). https://corp.kt.com/",
+				"en": "KT Corporation (бывш. Korea Telecom) — a IT and telecom company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 2580,
+				"debt": 6358,
+				"money": 3333,
+				"dividends": 774
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 37866
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 52980,
+			"wage": 5379,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5473,
+					"д": 126.9926,
+					"province": 630,
+					"staff": 15894,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hana_financial",
+			"название": {
+				"ru": "Hana Financial Group / Woori Financial Group",
+				"en": "Hana Financial Group / Woori Financial Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Входят в «Большую четверку» финансовых суперхолдингов Южной Кореи вместе с KB и Shinhan (активы Hana ~$450 млрд, Woori ~$380 млрд, чистая прибыль каждого свыше $2.5 млрд). https://www.hanafn.com/ | https://www.woorifg.com/",
+				"en": "Hana Financial Group / Woori Financial Group — a financial company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 6475,
+				"profit": 2500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 750
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15108
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18500,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5672,
+					"д": 126.9392,
+					"province": 630,
+					"staff": 5550,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cj_cheiljedang",
+			"название": {
+				"ru": "CJ CheilJedang / CJ Group",
+				"en": "CJ CheilJedang / CJ Group"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший южнокорейский пищевой, биотехнологический и медиахолдинг (бренды корейской еды Bibigo, производство аминокислот, кинокомпания CJ ENM / Studio Dragon, логистика CJ Logistics; выручка свыше $22 млрд). https://www.cj.co.kr/",
+				"en": "CJ CheilJedang / CJ Group — a media company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 4051,
+				"debt": 4885,
+				"money": 3264,
+				"dividends": 1215
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 96381
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30260,
+			"wage": 5179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5682,
+					"д": 126.9802,
+					"province": 630,
+					"staff": 9078,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gs_caltex",
+			"название": {
+				"ru": "GS Caltex / S-Oil",
+				"en": "GS Caltex / S-Oil"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие южнокорейские нефтеперерабатывающие и нефтехимические комплексы мирового масштаба в Йосу и Ульсане (мощность переработки свыше 800,000 и 670,000 баррелей в сутки соответственно; выручка каждого ~$35-40 млрд; стратегические СП с Chevron и Saudi Aramco). https://www.gscaltex.com/ | https://www.s-oil.com/",
+				"en": "GS Caltex / S-Oil — a oil and gas company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 6475,
+				"profit": 386,
+				"debt": 1824,
+				"money": 615,
+				"dividends": 116
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4028
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5662,
+			"wage": 5367,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ульсан",
+						"en": "Ulsan"
+					},
+					"ш": 35.5438,
+					"д": 129.3162,
+					"province": 630,
+					"staff": 1698,
+					"fine": 2136
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lig_nex1",
+			"название": {
+				"ru": "LIG Nex1",
+				"en": "LIG Nex1"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий разработчик и серийный производитель высокоточного ракетного оружия, комплексов ПВО и ПРО",
+				"en": "LIG Nex1 — a defence company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 2700,
+				"profit": 180,
+				"debt": 694,
+				"money": 415,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5062
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8100,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5622,
+					"д": 126.9613,
+					"province": 630,
+					"staff": 2430,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "korea_aerospace",
+			"название": {
+				"ru": "Korea Aerospace Industries (KAI)",
+				"en": "Korea Aerospace Industries (KAI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный национальный авиастроительный концерн Республики Корея",
+				"en": "Korea Aerospace Industries (KAI) — a defence company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 2550,
+				"profit": 170,
+				"debt": 656,
+				"money": 392,
+				"dividends": 51
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4781
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7650,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5551,
+					"д": 127.0123,
+					"province": 630,
+					"staff": 2295,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hyundai_rotem",
+			"название": {
+				"ru": "Hyundai Rotem (оборонный дивизион группы Hyundai Motor)",
+				"en": "Hyundai Rotem (оборонный дивизион группы Hyundai Motor)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой гигант бронетанкового машиностроения",
+				"en": "Hyundai Rotem (оборонный дивизион группы Hyundai Motor) — a defence company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 160,
+				"debt": 617,
+				"money": 369,
+				"dividends": 48
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7200,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.545,
+					"д": 126.9628,
+					"province": 630,
+					"staff": 2160,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hanwha_systems",
+			"название": {
+				"ru": "Hanwha Systems",
+				"en": "Hanwha Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный флагман военной радиоэлектроники, оптико-электроники и радаров",
+				"en": "Hanwha Systems — a defence company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 2250,
+				"profit": 150,
+				"debt": 579,
+				"money": 346,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4219
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6750,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5574,
+					"д": 127.0064,
+					"province": 630,
+					"staff": 2025,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "snt_motiv",
+			"название": {
+				"ru": "SNT Motiv / Poongsan Corporation",
+				"en": "SNT Motiv / Poongsan Corporation"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "SNT Motiv / Poongsan Corporation — a defence company of South Korea."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 140,
+				"debt": 540,
+				"money": 323,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3938
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Южная Корея)",
+						"en": "The state (South Korea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Южная Корея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6300,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сеул",
+						"en": "Seoul"
+					},
+					"ш": 37.5998,
+					"д": 126.9821,
+					"province": 630,
+					"staff": 1890,
+					"fine": 2126
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

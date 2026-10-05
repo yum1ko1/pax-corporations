@@ -1,0 +1,1224 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Гана",
+	"iso": "GHA",
+	"data_date": "2026-03",
+	"average_wage": 250,
+	"companies": [
+		{
+			"id": "cocobod",
+			"название": {
+				"ru": "Ghana Cocoa Board",
+				"en": "Ghana Cocoa Board"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1947,
+			"description": {
+				"ru": "Государственный скупщик какао — второе какао мира.",
+				"en": "The state cocoa buyer — the world's second cocoa."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": -300,
+				"debt": 3000,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ганы",
+						"en": "The Ghanaian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рэнсфорд Эбби",
+					"en": "Ransford Abbey"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 8000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аккра",
+						"en": "Accra"
+					},
+					"ш": 5.56,
+					"д": -0.2,
+					"province": 583,
+					"staff": 2000,
+					"fine": 1464
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Какао-поля Ашанти",
+						"en": "Ashanti cocoa farms"
+					},
+					"ш": 6.7,
+					"д": -1.6,
+					"province": 799,
+					"staff": 4000,
+					"fine": 1459
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://cocobod.gh/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "mtnghana",
+			"название": {
+				"ru": "MTN Ghana",
+				"en": "MTN Ghana"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший оператор связи Ганы.",
+				"en": "Ghana's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 250,
+				"debt": 200,
+				"money": 100,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 12300,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "MTN Group",
+						"en": "MTN Group"
+					},
+					"type": "company",
+					"доля": 0.73,
+					"country": "ЮАР",
+					"company": "mtn"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.27
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стивен Блуэтт",
+					"en": "Stephen Blewett"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 1500,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аккра",
+						"en": "Accra"
+					},
+					"ш": 5.6,
+					"д": -0.18,
+					"province": 583,
+					"staff": 1200,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://mtn.com.gh/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "gnpc",
+			"название": {
+				"ru": "GNPC",
+				"en": "GNPC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1983,
+			"description": {
+				"ru": "Государственная нефть Ганы: месторождение Юбилейное.",
+				"en": "Ghana's state oil: the Jubilee field."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 100,
+				"debt": 500,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ганы",
+						"en": "The Ghanaian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кваме Нтоу Амоа",
+					"en": "Kwame Ntow Amoah"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 500,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аккра",
+						"en": "Accra"
+					},
+					"ш": 5.58,
+					"д": -0.19,
+					"province": 583,
+					"staff": 400,
+					"fine": 1464
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Юбилейное (офшор)",
+						"en": "Jubilee field (offshore)"
+					},
+					"ш": 4.9438,
+					"д": -2.5269,
+					"province": 583,
+					"staff": 100,
+					"fine": 1463
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.gnpcghana.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "gcb",
+			"название": {
+				"ru": "GCB Bank",
+				"en": "GCB Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1953,
+			"description": {
+				"ru": "Крупнейший банк Ганы.",
+				"en": "Ghana's largest bank."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 265,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ганы",
+						"en": "The Ghanaian state"
+					},
+					"type": "polity",
+					"доля": 0.21,
+					"country": "Гана"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.79
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кофи Адомако",
+					"en": "Kofi Adomakoh"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 2500,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аккра",
+						"en": "Accra"
+					},
+					"ш": 5.55,
+					"д": -0.2,
+					"province": 583,
+					"staff": 1500,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gcbbank.com.gh/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vra",
+			"название": {
+				"ru": "Volta River Authority",
+				"en": "Volta River Authority"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1961,
+			"description": {
+				"ru": "ГЭС Акосомбо и электроэнергия Ганы.",
+				"en": "The Akosombo dam and Ghana's power."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": -100,
+				"debt": 2000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ганы",
+						"en": "The Ghanaian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдвард Экоу Обенг-Кензо",
+					"en": "Edward Ekow Obeng-Kenzo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 2500,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аккра",
+						"en": "Accra"
+					},
+					"ш": 5.57,
+					"д": -0.21,
+					"province": 583,
+					"staff": 800,
+					"fine": 1464
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Акосомбо",
+						"en": "Akosombo dam"
+					},
+					"ш": 6.3,
+					"д": 0.06,
+					"province": 583,
+					"staff": 800,
+					"fine": 1462
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.vra.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "newmont_ghana",
+			"название": {
+				"ru": "Newmont Ghana (Newmont Corporation)",
+				"en": "Newmont Ghana (Newmont Corporation)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель золота в Гане (рудники Ахафо и Акьем производят свыше 800,000 унций золота ежегодно; выручка ~$1.5 млрд, 6,000 сотр.). https://www.newmont.com/",
+				"en": "Newmont Ghana (Newmont Corporation) — a metals and mining company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 167,
+				"debt": 500,
+				"money": 180,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4333,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.58,
+					"д": -0.1997,
+					"province": 583,
+					"staff": 1299,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gold_fields",
+			"название": {
+				"ru": "Gold Fields Ghana",
+				"en": "Gold Fields Ghana"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй ведущий золотодобывающий холдинг страны (флагманские карьеры Тарква и Даманг; выручка ~$1.2 млрд). https://www.goldfields.com/",
+				"en": "Gold Fields Ghana — a metals and mining company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 133,
+				"debt": 400,
+				"money": 144,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1440
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3466,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тарква",
+						"en": "Tarkwa"
+					},
+					"ш": 5.3378,
+					"д": -2.0235,
+					"province": 583,
+					"staff": 1039,
+					"fine": 1463
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "anglogold_ashanti",
+			"название": {
+				"ru": "AngloGold Ashanti (Ghana)",
+				"en": "AngloGold Ashanti (Ghana)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Исторический горнорудный оператор (крупная подземная шахта Обуаси и рудник Идуаприем; выручка ~$800 млн). https://www.anglogoldashanti.com/",
+				"en": "AngloGold Ashanti (Ghana) — a metals and mining company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 89,
+				"debt": 267,
+				"money": 96,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 960
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2311,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Обуаси",
+						"en": "Obuase"
+					},
+					"ш": 6.1717,
+					"д": -1.6599,
+					"province": 583,
+					"staff": 693,
+					"fine": 1459
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "goil_plc",
+			"название": {
+				"ru": "GOIL PLC (Ghana Oil Company)",
+				"en": "GOIL PLC (Ghana Oil Company)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая национальная розничная сеть АЗС по распределению бензина, дизеля, авиакеросина и сжиженного газа (более 440 заправочных комплексов, котируется на GSE; выручка ~$800 млн). https://goil.com.gh/",
+				"en": "GOIL PLC (Ghana Oil Company) — a oil and gas company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 48,
+				"debt": 225,
+				"money": 76,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 498
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 699,
+			"wage": 447,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5402,
+					"д": -0.164,
+					"province": 583,
+					"staff": 209,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bost",
+			"название": {
+				"ru": "BOST (Bulk Oil Storage and Transportation)",
+				"en": "BOST (Bulk Oil Storage and Transportation)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная естественная монополия по стратегическому резерву, магистральным трубопроводам и оптовому хранению нефтепродуктов (выручка ~$400 млн). https://www.bost.gov.gh/",
+				"en": "BOST (Bulk Oil Storage and Transportation) — a oil and gas company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 24,
+				"debt": 113,
+				"money": 38,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 249
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гана)",
+						"en": "The state (Ghana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 349,
+			"wage": 447,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5591,
+					"д": -0.1978,
+					"province": 583,
+					"staff": 104,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ecobank_ghana",
+			"название": {
+				"ru": "Ecobank Ghana",
+				"en": "Ecobank Ghana"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный международный коммерческий банк Ганы по величине активов (дочерняя структура группы Ecobank Transnational Incorporated; активы ~$2.5 млрд, котируется на бирже). https://www.ecobank.com/gh/personal-banking",
+				"en": "Ecobank Ghana — a financial company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 402,
+				"profit": 113,
+				"debt": 0,
+				"money": 0,
+				"dividends": 34
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 938
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1148,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5591,
+					"д": -0.1978,
+					"province": 583,
+					"staff": 344,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ghana_ports",
+			"название": {
+				"ru": "Ghana Ports and Harbours Authority (GPHA)",
+				"en": "Ghana Ports and Harbours Authority (GPHA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное управление морских портов (управляет глубоководными контейнерными терминалами Тема и Такоради, через которые проходит свыше 90% внешней торговли страны и транзита в Мали и Буркина-Фасо; выручка ~$350 млн). https://www.ghanaports.gov.gh/",
+				"en": "Ghana Ports and Harbours Authority (GPHA) — a transport company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 23,
+				"debt": 177,
+				"money": 72,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гана)",
+						"en": "The state (Ghana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 875,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тема",
+						"en": "Tema"
+					},
+					"ш": 5.704,
+					"д": -0.044,
+					"province": 583,
+					"staff": 262,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kasapreko_company",
+			"название": {
+				"ru": "Kasapreko Company Limited",
+				"en": "Kasapreko Company Limited"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный частный производитель напитков (легендарный горький травяной биттер Alomo Bitters, крепкий алкоголь, соки и минеральная вода Awake; экспорт по всей Африке; выручка ~$200 млн). https://kasapreko.com/",
+				"en": "Kasapreko Company Limited — a transport company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 13,
+				"debt": 101,
+				"money": 41,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 143
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5602,
+					"д": -0.2028,
+					"province": 583,
+					"staff": 150,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dihoc",
+			"название": {
+				"ru": "DIHOC (Defence Industries Holding Company)",
+				"en": "DIHOC (Defence Industries Holding Company)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный промышленный холдинг Министерства обороны и Вооруженных сил Ганы (GAF)",
+				"en": "DIHOC (Defence Industries Holding Company) — a defence company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гана)",
+						"en": "The state (Ghana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5591,
+					"д": -0.1978,
+					"province": 583,
+					"staff": 108,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dihoc_footwear",
+			"название": {
+				"ru": "DIHOC Footwear Division (бывшая обувная фабрика Кумаси)",
+				"en": "DIHOC Footwear Division (бывшая обувная фабрика Кумаси)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное с чешскими инвесторами предприятие по выпуску армейских берцев, форменной и тактической обуви для армии и полиции Ганы и стран ЭКОВАС;",
+				"en": "DIHOC Footwear Division (бывшая обувная фабрика Кумаси) — a defence company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гана)",
+						"en": "The state (Ghana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кумаси",
+						"en": "Kumasi"
+					},
+					"ш": 6.6709,
+					"д": -1.5982,
+					"province": 799,
+					"staff": 108,
+					"fine": 1459
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_workshop",
+			"название": {
+				"ru": "Base Workshop (Военный городок Бирма, Аккра)",
+				"en": "Base Workshop (Военный городок Бирма, Аккра)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная бронетанковая и ремонтно-механическая база Вооруженных сил Ганы (капитальный ремонт и регламентное техобслуживание колесных бронемашин EE-9 Cascavel, БМП Ratel 20/90, колесных БТР Piranha I/II 8x8, бронеавтомобилей Otokar Cobra II и армейских грузовиков)",
+				"en": "Base Workshop (Военный городок Бирма, Аккра) — a defence company of Ghana."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гана)",
+						"en": "The state (Ghana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акра",
+						"en": "Accra"
+					},
+					"ш": 5.5606,
+					"д": -0.1676,
+					"province": 583,
+					"staff": 108,
+					"fine": 1464
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

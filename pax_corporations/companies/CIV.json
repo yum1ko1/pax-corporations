@@ -1,0 +1,1073 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Кот-д'Ивуар",
+	"iso": "CIV",
+	"data_date": "2026-03",
+	"average_wage": 250,
+	"companies": [
+		{
+			"id": "petroci",
+			"название": {
+				"ru": "Petroci",
+				"en": "Petroci"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Государственная нефть и газ Кот-д'Ивуара, месторождение Baleine.",
+				"en": "Côte d'Ivoire's state oil and gas, the Baleine field."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 100,
+				"debt": 400,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кот-д'Ивуара",
+						"en": "The Ivorian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фатумата Саного",
+					"en": "Fatoumata Sanogo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 1000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.32,
+					"д": -4.02,
+					"province": 794,
+					"staff": 800,
+					"fine": 663
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Baleine (офшор)",
+						"en": "Baleine (offshore)"
+					},
+					"ш": 5.2075,
+					"д": -4.3286,
+					"province": 794,
+					"staff": 100,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.petroci.ci/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "orangeci",
+			"название": {
+				"ru": "Orange Côte d'Ivoire",
+				"en": "Orange Côte d'Ivoire"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Крупнейший оператор связи страны, дочка Orange.",
+				"en": "The country's largest telecom, an Orange subsidiary."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 200,
+				"debt": 300,
+				"money": 100,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 150,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Orange",
+						"en": "Orange"
+					},
+					"type": "company",
+					"доля": 0.73,
+					"country": "Франция",
+					"company": "orange"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.27
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мамаду Бамба",
+					"en": "Mamadou Bamba"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 1500,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан, Плато",
+						"en": "Abidjan, Plateau"
+					},
+					"ш": 5.32,
+					"д": -4.02,
+					"province": 794,
+					"staff": 1300,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.orange.ci/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "sifca",
+			"название": {
+				"ru": "SIFCA",
+				"en": "SIFCA"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1964,
+			"description": {
+				"ru": "Пальмовое масло, каучук и сахар.",
+				"en": "Palm oil, rubber and sugar."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 40,
+				"debt": 300,
+				"money": 50,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Бийяон",
+						"en": "The Billon family"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Wilmar и Olam",
+						"en": "Wilmar and Olam"
+					},
+					"type": "company",
+					"доля": 0.27,
+					"country": "Сингапур"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.23
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алассан Думбия",
+					"en": "Alassane Doumbia"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2018,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "агропромышленник",
+					"en": "агропромышленник"
+				}
+			},
+			"staff": 30000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.3,
+					"д": -4.0,
+					"province": 794,
+					"staff": 1000,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.sifca.net/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "sir",
+			"название": {
+				"ru": "Société Ivoirienne de Raffinage",
+				"en": "Société Ivoirienne de Raffinage"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1962,
+			"description": {
+				"ru": "НПЗ Абиджана — топливо для Западной Африки.",
+				"en": "Abidjan's refinery — fuel for West Africa."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 30,
+				"debt": 300,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кот-д'Ивуара",
+						"en": "The Ivorian state"
+					},
+					"type": "polity",
+					"доля": 0.48,
+					"country": "Кот-д'Ивуар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Соро Тиотиохо",
+					"en": "Soro Tiotioho"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтепереработчик",
+					"en": "нефтепереработчик"
+				}
+			},
+			"staff": 700,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан, Вриди",
+						"en": "Abidjan, Vridi"
+					},
+					"ш": 5.26,
+					"д": -4.01,
+					"province": 794,
+					"staff": 700,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.sir.ci/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "conseil_du",
+			"название": {
+				"ru": "Conseil du Café-Cacao (CCC)",
+				"en": "Conseil du Café-Cacao (CCC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный регулирующий совет индустрии какао и кофе (контролирует экспорт какао на ~$5-6 млрд в год)",
+				"en": "Conseil du Café-Cacao (CCC) — a consumer and retail company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 472,
+				"profit": 37,
+				"debt": 109,
+				"money": 39,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 647
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1416,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.7814,
+					"д": -5.2608,
+					"province": 794,
+					"staff": 424,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "compagnie_ivoirienne",
+			"название": {
+				"ru": "Compagnie Ivoirienne d'Electricité (CIE) & SODECI",
+				"en": "Compagnie Ivoirienne d'Electricité (CIE) & SODECI"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальные операторы распределения электроэнергии и водоснабжения под управлением группы Eranove (выручка CIE ~.1 млрд)",
+				"en": "Compagnie Ivoirienne d'Electricité (CIE) & SODECI — a energy company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 39,
+				"debt": 255,
+				"money": 54,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 554
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 747,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.8373,
+					"д": -5.2981,
+					"province": 794,
+					"staff": 224,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t",
+			"название": {
+				"ru": "Société Générale Côte d'Ivoire (SGCI) & Ecobank Côte d'Ivoire",
+				"en": "Société Générale Côte d'Ivoire (SGCI) & Ecobank Côte d'Ivoire"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие коммерческие банки Западной Африки (активы каждого >$5 млрд)",
+				"en": "Société Générale Côte d'Ivoire (SGCI) & Ecobank Côte d'Ivoire — a financial company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 368,
+				"profit": 104,
+				"debt": 0,
+				"money": 0,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 859
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1051,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.8376,
+					"д": -5.2976,
+					"province": 794,
+					"staff": 315,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nsia_participations",
+			"название": {
+				"ru": "NSIA Participations",
+				"en": "NSIA Participations"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая западноафриканская банковско-страховая группа со штаб-квартирой в Абиджане (выручка ~$140 млн)",
+				"en": "NSIA Participations — a financial company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 39,
+				"debt": 0,
+				"money": 0,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 327
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.3531,
+					"д": -4.0406,
+					"province": 794,
+					"staff": 120,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome",
+			"название": {
+				"ru": "Port Autonome d'Abidjan (PAA)",
+				"en": "Port Autonome d'Abidjan (PAA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший глубоководный морской порт Западной Африки и главный транзитный хаб для стран Сахеля",
+				"en": "Port Autonome d'Abidjan (PAA) — a transport company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 240,
+				"profit": 16,
+				"debt": 121,
+				"money": 50,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 171
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.3898,
+					"д": -3.9839,
+					"province": 794,
+					"staff": 180,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "air_c",
+			"название": {
+				"ru": "Air Côte d'Ivoire",
+				"en": "Air Côte d'Ivoire"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный национальный авиаперевозчик",
+				"en": "Air Côte d'Ivoire — a transport company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 83,
+				"money": 34,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 412,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.809,
+					"д": -5.2371,
+					"province": 794,
+					"staff": 123,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "carr_d",
+			"название": {
+				"ru": "Carré d'Or",
+				"en": "Carré d'Or"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший дистрибьюторско-пищевой конгломерат страны",
+				"en": "Carré d'Or — a consumer and retail company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 156,
+				"profit": 12,
+				"debt": 36,
+				"money": 13,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 214
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 468,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.7834,
+					"д": -5.2394,
+					"province": 794,
+					"staff": 140,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "acad_mie",
+			"название": {
+				"ru": "Académie Internationale de Lutte Contre le Terrorisme (AILCT, Жакевиль)",
+				"en": "Académie Internationale de Lutte Contre le Terrorisme (AILCT, Жакевиль)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная контртеррористическая академия (совместный франко-ивуарийский стратегический центр подготовки спецподразделений, антитеррора и разведки для стран ЭКОВАС)",
+				"en": "Académie Internationale de Lutte Contre le Terrorisme (AILCT, Жакевиль) — a defence company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 63,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 189,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямусукро",
+						"en": "Yamoussoukro"
+					},
+					"ш": 6.8327,
+					"д": -5.279,
+					"province": 794,
+					"staff": 56,
+					"fine": 666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chantier_naval",
+			"название": {
+				"ru": "Chantier Naval d'Abidjan (CARENA)",
+				"en": "Chantier Naval d'Abidjan (CARENA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший судоремонтно-судостроительный комплекс в порту Абиджана (обслуживание патрульных кораблей и катеров ВМС Кот-д’Ивуара)",
+				"en": "Chantier Naval d'Abidjan (CARENA) — a defence company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 59,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 111
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 177,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.3529,
+					"д": -4.0345,
+					"province": 794,
+					"staff": 53,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ateliers_de",
+			"название": {
+				"ru": "Ateliers de Maintenance des Forces Armées (Авиабаза Абиджан)",
+				"en": "Ateliers de Maintenance des Forces Armées (Авиабаза Абиджан)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Техническая база ТОиР военной авиации (вертолеты Ми-24, Ми-8/17, AW139, военно-транспортные самолеты C-295)",
+				"en": "Ateliers de Maintenance des Forces Armées (Авиабаза Абиджан) — a defence company of Ivory Coast."
+			},
+			"fundamental": {
+				"выручка": 55,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кот-д'Ивуар)",
+						"en": "The state (Ivory Coast)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кот-д'Ивуар"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 165,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абиджан",
+						"en": "Abidjan"
+					},
+					"ш": 5.3211,
+					"д": -4.0171,
+					"province": 794,
+					"staff": 49,
+					"fine": 663
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

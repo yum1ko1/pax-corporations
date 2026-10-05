@@ -1,0 +1,941 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Камерун",
+	"iso": "CMR",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "snh",
+			"название": {
+				"ru": "SNH",
+				"en": "SNH"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1980,
+			"description": {
+				"ru": "Государственная нефть и газ Камеруна.",
+				"en": "Cameroon's state oil and gas."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 300,
+				"debt": 300,
+				"money": 200,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Камеруна",
+						"en": "The Cameroonian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адольф Мудики",
+					"en": "Adolphe Moudiki"
+				},
+				"роль": "госслужащий",
+				"с_года": 1993,
+				"born_year": 1938,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бессменный директор",
+					"en": "бессменный директор"
+				}
+			},
+			"staff": 700,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Яунде",
+						"en": "Yaoundé"
+					},
+					"ш": 3.87,
+					"д": 11.52,
+					"province": 826,
+					"staff": 500,
+					"fine": 672
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.snh.cm/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sonara",
+			"название": {
+				"ru": "SONARA (Société Nationale de Raffinage, Лимбе)",
+				"en": "SONARA (Société Nationale de Raffinage, Лимбе)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный нефтеперерабатывающий завод Камеруна (выручка ~.2 млрд)",
+				"en": "SONARA (Société Nationale de Raffinage, Лимбе) — a oil and gas company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 31,
+				"debt": 148,
+				"money": 50,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 327
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 459,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лимбе",
+						"en": "Limbe"
+					},
+					"ш": 3.9922,
+					"д": 9.2094,
+					"province": 574,
+					"staff": 137,
+					"fine": 677
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "boissons_du",
+			"название": {
+				"ru": "Boissons du Cameroun (бывш. SABC, группа Castel)",
+				"en": "Boissons du Cameroun (бывш. SABC, группа Castel)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная компания пищевой промышленности и напитков (выручка ~$140 млн, крупнейший частный налогоплательщик страны)",
+				"en": "Boissons du Cameroun (бывш. SABC, группа Castel) — a consumer and retail company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 11,
+				"debt": 32,
+				"money": 12,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 192
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 420,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.0174,
+					"д": 9.6918,
+					"province": 574,
+					"staff": 126,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "afriland_first",
+			"название": {
+				"ru": "Afriland First Bank",
+				"en": "Afriland First Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная банковская группа региона Центральной Африки (CEMAC) родом из Камеруна (активы ~.5 млрд+, основатель Поль Каммэнье Фокам)",
+				"en": "Afriland First Bank — a financial company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 52,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.1089,
+					"д": 9.6899,
+					"province": 574,
+					"staff": 157,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eneo_cameroon",
+			"название": {
+				"ru": "Eneo Cameroon",
+				"en": "Eneo Cameroon"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная электроэнергетическая корпорация (генерация, ГЭС на реке Санага, распределительные сети)",
+				"en": "Eneo Cameroon — a energy company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 124,
+				"profit": 11,
+				"debt": 75,
+				"money": 16,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 164
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 220,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.017,
+					"д": 9.707,
+					"province": 574,
+					"staff": 66,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alucam",
+			"название": {
+				"ru": "ALUCAM (Compagnie Camerounaise de l'Aluminium, Эдеа)",
+				"en": "ALUCAM (Compagnie Camerounaise de l'Aluminium, Эдеа)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший алюминиевый комбинат в Центральной Африке (выручка ~$140 млн)",
+				"en": "ALUCAM (Compagnie Camerounaise de l'Aluminium, Эдеа) — a metals and mining company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 16,
+				"debt": 47,
+				"money": 17,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 168
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 404,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.0618,
+					"д": 9.7395,
+					"province": 574,
+					"staff": 121,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mtn_cameroon",
+			"название": {
+				"ru": "MTN Cameroon / Orange Cameroun / Camtel",
+				"en": "MTN Cameroon / Orange Cameroun / Camtel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие операторы мобильной связи и подводных оптоволоконных кабелей",
+				"en": "MTN Cameroon / Orange Cameroun / Camtel — a IT and telecom company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 57,
+				"profit": 7,
+				"debt": 18,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 108
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 150,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.0732,
+					"д": 9.6657,
+					"province": 574,
+					"staff": 45,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cameroon_development",
+			"название": {
+				"ru": "Cameroon Development Corporation (CDC)",
+				"en": "Cameroon Development Corporation (CDC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший агрохолдинг (бананы, каучук, пальмовое масло; крупнейший работодатель после государства)",
+				"en": "Cameroon Development Corporation (CDC) — a consumer and retail company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 4,
+				"debt": 11,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 67
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камерун)",
+						"en": "The state (Cameroon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 147,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.0144,
+					"д": 9.6991,
+					"province": 574,
+					"staff": 44,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome_2",
+			"название": {
+				"ru": "Port Autonome de Kribi (PAK) & Port Autonome de Douala (PAD)",
+				"en": "Port Autonome de Kribi (PAK) & Port Autonome de Douala (PAD)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главные глубоководные морские порты и транзитные ворота в Чад и ЦАР",
+				"en": "Port Autonome de Kribi (PAK) & Port Autonome de Douala (PAD) — a transport company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 3,
+				"debt": 25,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 122,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.1089,
+					"д": 9.6899,
+					"province": 574,
+					"staff": 36,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bataillon_d",
+			"название": {
+				"ru": "Bataillon d'Intervention Rapide Technical Base (Салак / Лимбе)",
+				"en": "Bataillon d'Intervention Rapide Technical Base (Салак / Лимбе)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "База материально-технического обеспечения элитных Сил быстрого реагирования (BIR) (модернизация и обслуживание бронемашин Panthera T6, Ratel 20, БПЛА наблюдения)",
+				"en": "Bataillon d'Intervention Rapide Technical Base (Салак / Лимбе) — a defence company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камерун)",
+						"en": "The state (Cameroon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лимбе",
+						"en": "Limbe"
+					},
+					"ш": 4.0024,
+					"д": 9.179,
+					"province": 574,
+					"staff": 18,
+					"fine": 677
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chantier_naval_2",
+			"название": {
+				"ru": "Chantier Naval et Industriel du Cameroun (CNIC, Дуала)",
+				"en": "Chantier Naval et Industriel du Cameroun (CNIC, Дуала)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судоремонтный комплекс (обслуживание патрульных кораблей и катеров ВМС в Гвинейском заливе)",
+				"en": "Chantier Naval et Industriel du Cameroun (CNIC, Дуала) — a defence company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камерун)",
+						"en": "The state (Cameroon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дуала",
+						"en": "Douala"
+					},
+					"ш": 4.0374,
+					"д": 9.733,
+					"province": 574,
+					"staff": 18,
+					"fine": 670
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a",
+			"название": {
+				"ru": "Base Aérienne 201 Maintenance (Яунде)",
+				"en": "Base Aérienne 201 Maintenance (Яунде)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "База технического обслуживания военной авиации ВВС Камеруна (штурмовики Alpha Jet, транспортные C-130, вертолеты Ми-24, Ми-17, Bell 412)",
+				"en": "Base Aérienne 201 Maintenance (Яунде) — a defence company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камерун)",
+						"en": "The state (Cameroon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Яунде",
+						"en": "Yaoundé"
+					},
+					"ш": 3.8807,
+					"д": 11.5267,
+					"province": 826,
+					"staff": 18,
+					"fine": 672
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_des",
+			"название": {
+				"ru": "Direction des Matériels des Armées (DMA, Яунде)",
+				"en": "Direction des Matériels des Armées (DMA, Яунде)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственные ремонтные мастерские бронетехники и арсеналы боеприпасов МО Камеруна",
+				"en": "Direction des Matériels des Armées (DMA, Яунде) — a defence company of Cameroon."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Камерун)",
+						"en": "The state (Cameroon)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Камерун"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Яунде",
+						"en": "Yaoundé"
+					},
+					"ш": 3.8819,
+					"д": 11.4854,
+					"province": 826,
+					"staff": 18,
+					"fine": 672
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

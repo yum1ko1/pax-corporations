@@ -1,0 +1,3291 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год (≈1,08 $/€), цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Германия",
+	"iso": "DEU",
+	"data_date": "2026-03",
+	"average_wage": 4700,
+	"companies": [
+		{
+			"id": "sap",
+			"название": {
+				"ru": "SAP",
+				"en": "SAP"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Крупнейшая софтверная компания Европы: ERP и облако для бизнеса.",
+				"en": "Europe's largest software company: ERP and cloud for business."
+			},
+			"fundamental": {
+				"выручка": 37000,
+				"profit": 3400,
+				"debt": 8000,
+				"money": 10000,
+				"dividends": 2700
+			},
+			"рынок": {
+				"shares_mln": 1170,
+				"market_cap": 330000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели (Платтнер, Хопп, фонд Чиры)",
+						"en": "Founders (Plattner, Hopp, Tschira foundation)"
+					},
+					"type": "founder",
+					"доля": 0.16
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Кляйн",
+					"en": "Christian Klein"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "молодой менеджер, ведёт SAP в облако и ИИ",
+					"en": "молодой менеджер, ведёт SAP в облако и ИИ"
+				}
+			},
+			"staff": 110000,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Вальдорф",
+						"en": "Headquarters, Walldorf"
+					},
+					"ш": 49.29,
+					"д": 8.64,
+					"province": 73,
+					"staff": 20000,
+					"fine": 819
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Берлине",
+						"en": "Berlin office"
+					},
+					"ш": 52.52,
+					"д": 13.4,
+					"province": 186,
+					"staff": 3000,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sap.com/investors/en.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "siemens",
+			"название": {
+				"ru": "Siemens",
+				"en": "Siemens"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1847,
+			"description": {
+				"ru": "Промышленная автоматизация, железные дороги и «умная» инфраструктура.",
+				"en": "Industrial automation, rail and smart infrastructure."
+			},
+			"fundamental": {
+				"выручка": 84000,
+				"profit": 9000,
+				"debt": 50000,
+				"money": 11000,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 790,
+				"market_cap": 190000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сименс",
+						"en": "The Siemens family"
+					},
+					"type": "крупный",
+					"доля": 0.06,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роланд Буш",
+					"en": "Roland Busch"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "физик-технократ, делает ставку на цифровые двойники",
+					"en": "физик-технократ, делает ставку на цифровые двойники"
+				}
+			},
+			"staff": 312000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мюнхен",
+						"en": "Headquarters, Munich"
+					},
+					"ш": 48.14,
+					"д": 11.57,
+					"province": 62,
+					"staff": 12000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Эрлангене",
+						"en": "Erlangen plant"
+					},
+					"ш": 49.6,
+					"д": 11.0,
+					"province": 62,
+					"staff": 25000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Siemens Mobility, Крефельд",
+						"en": "Siemens Mobility, Krefeld"
+					},
+					"ш": 51.33,
+					"д": 6.56,
+					"province": 73,
+					"staff": 3000,
+					"fine": 818
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.siemens.com/global/en/company/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dtelekom",
+			"название": {
+				"ru": "Deutsche Telekom",
+				"en": "Deutsche Telekom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший оператор связи Европы, владеет T-Mobile US.",
+				"en": "Europe's largest telecom, owns T-Mobile US."
+			},
+			"fundamental": {
+				"выручка": 125000,
+				"profit": 12500,
+				"debt": 150000,
+				"money": 8000,
+				"dividends": 4500
+			},
+			"рынок": {
+				"shares_mln": 4990,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Германии и KfW",
+						"en": "The German state and KfW"
+					},
+					"type": "polity",
+					"доля": 0.304,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.696
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тим Хёттгес",
+					"en": "Tim Höttges"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "уверенный строитель трансатлантической империи",
+					"en": "уверенный строитель трансатлантической империи"
+				}
+			},
+			"staff": 198000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Бонн",
+						"en": "Headquarters, Bonn"
+					},
+					"ш": 50.71,
+					"д": 7.13,
+					"province": 73,
+					"staff": 12000,
+					"fine": 818
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Бимене",
+						"en": "Biere data centre"
+					},
+					"ш": 51.97,
+					"д": 11.66,
+					"province": 186,
+					"staff": 500,
+					"fine": 830
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.telekom.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "allianz",
+			"название": {
+				"ru": "Allianz",
+				"en": "Allianz"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1890,
+			"description": {
+				"ru": "Крупнейший страховщик Европы и управляющий активами (PIMCO).",
+				"en": "Europe's largest insurer and asset manager (PIMCO)."
+			},
+			"fundamental": {
+				"выручка": 175000,
+				"profit": 11000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5800
+			},
+			"рынок": {
+				"shares_mln": 390,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливер Бэте",
+					"en": "Oliver Bäte"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "консультант по натуре, дисциплинированный реформатор",
+					"en": "консультант по натуре, дисциплинированный реформатор"
+				}
+			},
+			"staff": 157000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мюнхен",
+						"en": "Headquarters, Munich"
+					},
+					"ш": 48.16,
+					"д": 11.59,
+					"province": 62,
+					"staff": 10000,
+					"fine": 828
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Allianz, Штутгарт",
+						"en": "Allianz, Stuttgart"
+					},
+					"ш": 48.78,
+					"д": 9.18,
+					"province": 73,
+					"staff": 5000,
+					"fine": 819
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.allianz.com/en/investor_relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "mercedes",
+			"название": {
+				"ru": "Mercedes-Benz",
+				"en": "Mercedes-Benz"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1926,
+			"description": {
+				"ru": "Премиальные автомобили, прибыль падает из-за Китая и пошлин.",
+				"en": "Premium cars, profits squeezed by China and tariffs."
+			},
+			"fundamental": {
+				"выручка": 157000,
+				"profit": 11000,
+				"debt": 115000,
+				"money": 20000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 960,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Geely (Ли Шуфу)",
+						"en": "Geely (Li Shufu)"
+					},
+					"type": "company",
+					"доля": 0.097,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "BAIC",
+						"en": "BAIC"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Кувейт",
+						"en": "Kuwait"
+					},
+					"type": "polity",
+					"доля": 0.06,
+					"country": "Кувейт"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.743
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ола Келлениус",
+					"en": "Ola Källenius"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "швед, бережёт марку, ищет путь в электромобили",
+					"en": "швед, бережёт марку, ищет путь в электромобили"
+				}
+			},
+			"staff": 166000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Штутгарт",
+						"en": "Headquarters, Stuttgart"
+					},
+					"ш": 48.78,
+					"д": 9.23,
+					"province": 73,
+					"staff": 20000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Зиндельфингене",
+						"en": "Sindelfingen plant"
+					},
+					"ш": 48.71,
+					"д": 9.0,
+					"province": 73,
+					"staff": 35000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Бремене",
+						"en": "Bremen plant"
+					},
+					"ш": 53.08,
+					"д": 8.8,
+					"province": 124,
+					"staff": 12000,
+					"fine": 821
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.mercedes-benz.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bmw",
+			"название": {
+				"ru": "BMW",
+				"en": "BMW"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1916,
+			"description": {
+				"ru": "Премиальные автомобили семьи Квандт.",
+				"en": "Premium cars of the Quandt family."
+			},
+			"fundamental": {
+				"выручка": 153000,
+				"profit": 8000,
+				"debt": 105000,
+				"money": 17000,
+				"dividends": 4300
+			},
+			"рынок": {
+				"shares_mln": 640,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Квандт (Штефан Квандт, Сузанне Клаттен)",
+						"en": "The Quandt family (Stefan Quandt, Susanne Klatten)"
+					},
+					"type": "крупный",
+					"доля": 0.47,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливер Ципзе",
+					"en": "Oliver Zipse"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "производственник, против запрета ДВС",
+					"en": "производственник, против запрета ДВС"
+				}
+			},
+			"staff": 155000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "«Четыре цилиндра», Мюнхен",
+						"en": "BMW Tower, Munich"
+					},
+					"ш": 48.18,
+					"д": 11.56,
+					"province": 62,
+					"staff": 30000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Дингольфинге",
+						"en": "Dingolfing plant"
+					},
+					"ш": 48.63,
+					"д": 12.5,
+					"province": 62,
+					"staff": 18000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Регенсбурге",
+						"en": "Regensburg plant"
+					},
+					"ш": 49.01,
+					"д": 12.1,
+					"province": 62,
+					"staff": 9000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bmwgroup.com/en/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "volkswagen",
+			"название": {
+				"ru": "Volkswagen",
+				"en": "Volkswagen"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "смешанная",
+			"founded": 1937,
+			"description": {
+				"ru": "Крупнейший автоконцерн Европы: VW, Audi, Porsche, Škoda.",
+				"en": "Europe's largest carmaker: VW, Audi, Porsche, Skoda."
+			},
+			"fundamental": {
+				"выручка": 350000,
+				"profit": 7000,
+				"debt": 200000,
+				"money": 40000,
+				"dividends": 3300
+			},
+			"рынок": {
+				"shares_mln": 500,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Porsche SE (семьи Порше и Пиех)",
+						"en": "Porsche SE (Porsche and Piëch families)"
+					},
+					"type": "крупный",
+					"доля": 0.319,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Земля Нижняя Саксония",
+						"en": "State of Lower Saxony"
+					},
+					"type": "polity",
+					"доля": 0.118,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Катар",
+						"en": "Qatar"
+					},
+					"type": "polity",
+					"доля": 0.104,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.459
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливер Блуме",
+					"en": "Oliver Blume"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "совмещает VW и Porsche, воюет с профсоюзом за заводы",
+					"en": "совмещает VW и Porsche, воюет с профсоюзом за заводы"
+				}
+			},
+			"staff": 680000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Вольфсбург",
+						"en": "Headquarters, Wolfsburg"
+					},
+					"ш": 52.43,
+					"д": 10.79,
+					"province": 124,
+					"staff": 60000,
+					"fine": 822
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Audi, Ингольштадт",
+						"en": "Audi, Ingolstadt"
+					},
+					"ш": 48.77,
+					"д": 11.42,
+					"province": 62,
+					"staff": 40000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Цвиккау",
+						"en": "Zwickau plant"
+					},
+					"ш": 50.72,
+					"д": 12.5,
+					"province": 186,
+					"staff": 10000,
+					"fine": 831
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.volkswagen-group.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "munichre",
+			"название": {
+				"ru": "Munich Re",
+				"en": "Munich Re"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1880,
+			"description": {
+				"ru": "Крупнейший перестраховщик мира.",
+				"en": "The world's largest reinsurer."
+			},
+			"fundamental": {
+				"выручка": 65000,
+				"profit": 6300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2600
+			},
+			"рынок": {
+				"shares_mln": 130,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.09,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йоахим Веннинг",
+					"en": "Joachim Wenning"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный математик риска",
+					"en": "осторожный математик риска"
+				}
+			},
+			"staff": 43000,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мюнхен",
+						"en": "Headquarters, Munich"
+					},
+					"ш": 48.16,
+					"д": 11.59,
+					"province": 62,
+					"staff": 8000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.munichre.com/en/company/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "rheinmetall",
+			"название": {
+				"ru": "Rheinmetall",
+				"en": "Rheinmetall"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1889,
+			"description": {
+				"ru": "Танки, снаряды и пушки — главная оборонка Европы на подъёме.",
+				"en": "Tanks, shells and guns — Europe's defence champion on the rise."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 800,
+				"debt": 2500,
+				"money": 1500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 46,
+				"market_cap": 85000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Армин Паппергер",
+					"en": "Armin Papperger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "жёсткий оборонщик, строит снарядные заводы по всей Европе",
+					"en": "жёсткий оборонщик, строит снарядные заводы по всей Европе"
+				}
+			},
+			"staff": 33000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Дюссельдорф",
+						"en": "Headquarters, Düsseldorf"
+					},
+					"ш": 51.23,
+					"д": 6.78,
+					"province": 73,
+					"staff": 2000,
+					"fine": 818
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Снарядный завод в Унтерлюсе",
+						"en": "Unterlüß ammunition plant"
+					},
+					"ш": 52.85,
+					"д": 10.28,
+					"province": 124,
+					"staff": 3000,
+					"fine": 822
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Бронетехника, Кассель",
+						"en": "Armoured vehicles, Kassel"
+					},
+					"ш": 51.31,
+					"д": 9.49,
+					"province": 124,
+					"staff": 3000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rheinmetall.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "siemensenergy",
+			"название": {
+				"ru": "Siemens Energy",
+				"en": "Siemens Energy"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Газовые турбины и сети; ветроэнергетика Gamesa в убытках.",
+				"en": "Gas turbines and grids; loss-making Gamesa wind business."
+			},
+			"fundamental": {
+				"выручка": 37000,
+				"profit": 1400,
+				"debt": 4000,
+				"money": 8000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 800,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Siemens AG",
+						"en": "Siemens AG"
+					},
+					"type": "company",
+					"доля": 0.17,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Брух",
+					"en": "Christian Bruch"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вытащил компанию из кризиса ветряков",
+					"en": "вытащил компанию из кризиса ветряков"
+				}
+			},
+			"staff": 100000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мюнхен",
+						"en": "Headquarters, Munich"
+					},
+					"ш": 48.12,
+					"д": 11.6,
+					"province": 62,
+					"staff": 3000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Газовые турбины, Берлин",
+						"en": "Gas turbines, Berlin"
+					},
+					"ш": 52.53,
+					"д": 13.32,
+					"province": 186,
+					"staff": 4000,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.siemens-energy.com/global/en/company/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "deutschebank",
+			"название": {
+				"ru": "Deutsche Bank",
+				"en": "Deutsche Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1870,
+			"description": {
+				"ru": "Крупнейший банк Германии.",
+				"en": "Germany's largest bank."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 4000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1950,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Зевинг",
+					"en": "Christian Sewing"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир из провинции, чистил банк после скандалов",
+					"en": "банкир из провинции, чистил банк после скандалов"
+				}
+			},
+			"staff": 90000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башни-близнецы, Франкфурт",
+						"en": "Twin Towers, Frankfurt"
+					},
+					"ш": 50.11,
+					"д": 8.67,
+					"province": 73,
+					"staff": 20000,
+					"fine": 820
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Берлине",
+						"en": "Berlin centre"
+					},
+					"ш": 52.52,
+					"д": 13.39,
+					"province": 186,
+					"staff": 5000,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor-relations.db.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "commerzbank",
+			"название": {
+				"ru": "Commerzbank",
+				"en": "Commerzbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1870,
+			"description": {
+				"ru": "Второй частный банк Германии; UniCredit пытается его купить.",
+				"en": "Germany's second private bank; UniCredit is trying to buy it."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 2800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1150,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "UniCredit",
+						"en": "UniCredit"
+					},
+					"type": "company",
+					"доля": 0.28,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Государство Германии",
+						"en": "The German state"
+					},
+					"type": "polity",
+					"доля": 0.12,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Беттина Орлопп",
+					"en": "Bettina Orlopp"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "обороняет банк от поглощения итальянцами",
+					"en": "обороняет банк от поглощения итальянцами"
+				}
+			},
+			"staff": 42000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Commerzbank Tower, Франкфурт",
+						"en": "Commerzbank Tower, Frankfurt"
+					},
+					"ш": 50.11,
+					"д": 8.67,
+					"province": 73,
+					"staff": 10000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.commerzbank.de/en/hauptnavigation/aktionaere/aktionaere.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "basf",
+			"название": {
+				"ru": "BASF",
+				"en": "BASF"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1865,
+			"description": {
+				"ru": "Крупнейшая химическая компания мира; страдает от дорогого газа.",
+				"en": "The world's largest chemical company; hurt by expensive gas."
+			},
+			"fundamental": {
+				"выручка": 70000,
+				"profit": 1400,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 2200
+			},
+			"рынок": {
+				"shares_mln": 890,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маркус Камит",
+					"en": "Markus Kamieth"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик, закрывает заводы в Германии и строит в Китае",
+					"en": "химик, закрывает заводы в Германии и строит в Китае"
+				}
+			},
+			"staff": 112000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Людвигсхафен",
+						"en": "Headquarters, Ludwigshafen"
+					},
+					"ш": 49.48,
+					"д": 8.43,
+					"province": 73,
+					"staff": 38000,
+					"fine": 826
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Площадка в Шварцхайде",
+						"en": "Schwarzheide site"
+					},
+					"ш": 51.47,
+					"д": 13.87,
+					"province": 186,
+					"staff": 2000,
+					"fine": 832
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.basf.com/global/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bayer",
+			"название": {
+				"ru": "Bayer",
+				"en": "Bayer"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1863,
+			"description": {
+				"ru": "Лекарства и агрохимия; судится из-за глифосата.",
+				"en": "Drugs and crop science; embroiled in glyphosate lawsuits."
+			},
+			"fundamental": {
+				"выручка": 51000,
+				"profit": -2800,
+				"debt": 38000,
+				"money": 5000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 980,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Билл Андерсон",
+					"en": "Bill Anderson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американец, режет бюрократию и менеджеров",
+					"en": "американец, режет бюрократию и менеджеров"
+				}
+			},
+			"staff": 94000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Леверкузен",
+						"en": "Headquarters, Leverkusen"
+					},
+					"ш": 51.03,
+					"д": 6.98,
+					"province": 73,
+					"staff": 8000,
+					"fine": 818
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Фарма, Берлин",
+						"en": "Pharma, Berlin"
+					},
+					"ш": 52.54,
+					"д": 13.37,
+					"province": 186,
+					"staff": 5000,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bayer.com/en/investors/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "infineon",
+			"название": {
+				"ru": "Infineon",
+				"en": "Infineon"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Силовые чипы для автомобилей и энергетики.",
+				"en": "Power chips for cars and energy."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1400,
+				"debt": 6000,
+				"money": 2500,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1300,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йохен Ханебек",
+					"en": "Jochen Hanebeck"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-производственник",
+					"en": "инженер-производственник"
+				}
+			},
+			"staff": 58000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Нойбиберг",
+						"en": "Headquarters, Neubiberg"
+					},
+					"ш": 48.07,
+					"д": 11.66,
+					"province": 62,
+					"staff": 8000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрика в Дрездене",
+						"en": "Dresden fab"
+					},
+					"ш": 51.12,
+					"д": 13.72,
+					"province": 186,
+					"staff": 3500,
+					"fine": 831
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.infineon.com/cms/en/about-infineon/investor/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dhl",
+			"название": {
+				"ru": "DHL Group",
+				"en": "DHL Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировая логистика и немецкая почта.",
+				"en": "Global logistics and the German post."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 3500,
+				"debt": 25000,
+				"money": 3000,
+				"dividends": 2200
+			},
+			"рынок": {
+				"shares_mln": 1180,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "KfW (государство)",
+						"en": "KfW (the state)"
+					},
+					"type": "polity",
+					"доля": 0.16,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тобиас Майер",
+					"en": "Tobias Meyer"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "логист, режет почтовые расходы",
+					"en": "логист, режет почтовые расходы"
+				}
+			},
+			"staff": 600000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Почтовая башня, Бонн",
+						"en": "Post Tower, Bonn"
+					},
+					"ш": 50.72,
+					"д": 7.12,
+					"province": 73,
+					"staff": 5000,
+					"fine": 818
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хаб в Лейпциге",
+						"en": "Leipzig hub"
+					},
+					"ш": 51.42,
+					"д": 12.23,
+					"province": 186,
+					"staff": 6000,
+					"fine": 831
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.dhl.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dboerse",
+			"название": {
+				"ru": "Deutsche Börse",
+				"en": "Deutsche Börse"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1992,
+			"description": {
+				"ru": "Франкфуртская биржа и Clearstream.",
+				"en": "The Frankfurt exchange and Clearstream."
+			},
+			"fundamental": {
+				"выручка": 6700,
+				"profit": 2000,
+				"debt": 8000,
+				"money": 2000,
+				"dividends": 750
+			},
+			"рынок": {
+				"shares_mln": 185,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Штефан Ляйтнер",
+					"en": "Stephan Leithner"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист, наращивает данные и аналитику",
+					"en": "финансист, наращивает данные и аналитику"
+				}
+			},
+			"staff": 15000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Эшборн",
+						"en": "Headquarters, Eschborn"
+					},
+					"ш": 50.14,
+					"д": 8.57,
+					"province": 73,
+					"staff": 6000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.deutsche-boerse.com/dbg-en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "eon",
+			"название": {
+				"ru": "E.ON",
+				"en": "E.ON"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Крупнейший оператор электросетей Европы.",
+				"en": "Europe's largest power grid operator."
+			},
+			"fundamental": {
+				"выручка": 85000,
+				"profit": 4500,
+				"debt": 40000,
+				"money": 5000,
+				"dividends": 1450
+			},
+			"рынок": {
+				"shares_mln": 2610,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Леонхард Бирнбаум",
+					"en": "Leonhard Birnbaum"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик, требует денег на сети",
+					"en": "энергетик, требует денег на сети"
+				}
+			},
+			"staff": 72000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Эссен",
+						"en": "Headquarters, Essen"
+					},
+					"ш": 51.45,
+					"д": 7.01,
+					"province": 124,
+					"staff": 5000,
+					"fine": 818
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Bayernwerk, Регенсбург",
+						"en": "Bayernwerk, Regensburg"
+					},
+					"ш": 49.01,
+					"д": 12.1,
+					"province": 62,
+					"staff": 3000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.eon.com/en/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "rwe",
+			"название": {
+				"ru": "RWE",
+				"en": "RWE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1898,
+			"description": {
+				"ru": "Генерация: ветер, солнце, газ и уходящий уголь.",
+				"en": "Power generation: wind, solar, gas and a fading coal fleet."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 5500,
+				"debt": 25000,
+				"money": 7000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 740,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Катар (QIA)",
+						"en": "Qatar (QIA)"
+					},
+					"type": "polity",
+					"доля": 0.09,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маркус Кребер",
+					"en": "Markus Krebber"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прагматик энергоперехода",
+					"en": "прагматик энергоперехода"
+				}
+			},
+			"staff": 20000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Эссен",
+						"en": "Headquarters, Essen"
+					},
+					"ш": 51.46,
+					"д": 7.0,
+					"province": 124,
+					"staff": 3000,
+					"fine": 818
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Угольный разрез Гарцвайлер",
+						"en": "Garzweiler lignite mine"
+					},
+					"ш": 51.07,
+					"д": 6.5,
+					"province": 73,
+					"staff": 2000,
+					"fine": 818
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rwe.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "adidas",
+			"название": {
+				"ru": "adidas",
+				"en": "adidas"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Спортивная одежда и обувь.",
+				"en": "Sportswear and shoes."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 1000,
+				"debt": 7000,
+				"money": 2500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бьёрн Гульден",
+					"en": "Bjørn Gulden"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший футболист, вернул бренду моду",
+					"en": "бывший футболист, вернул бренду моду"
+				}
+			},
+			"staff": 62000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Херцогенаурах",
+						"en": "Headquarters, Herzogenaurach"
+					},
+					"ш": 49.57,
+					"д": 10.89,
+					"province": 62,
+					"staff": 6000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.adidas-group.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "henkel",
+			"название": {
+				"ru": "Henkel",
+				"en": "Henkel"
+			},
+			"sector": "retail",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1876,
+			"description": {
+				"ru": "Клеи (Loctite) и бытовая химия.",
+				"en": "Adhesives (Loctite) and household goods."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 2300,
+				"debt": 3500,
+				"money": 1500,
+				"dividends": 850
+			},
+			"рынок": {
+				"shares_mln": 430,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Хенкель",
+						"en": "The Henkel family"
+					},
+					"type": "крупный",
+					"доля": 0.61,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.39
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карстен Кнобель",
+					"en": "Carsten Knobel"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист семьи",
+					"en": "финансист семьи"
+				}
+			},
+			"staff": 48000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Дюссельдорф",
+						"en": "Headquarters, Düsseldorf"
+					},
+					"ш": 51.18,
+					"д": 6.87,
+					"province": 73,
+					"staff": 5000,
+					"fine": 818
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.henkel.com/investors-and-analysts | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "daimlertruck",
+			"название": {
+				"ru": "Daimler Truck",
+				"en": "Daimler Truck"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Крупнейший производитель грузовиков мира.",
+				"en": "The world's largest truck maker."
+			},
+			"fundamental": {
+				"выручка": 58000,
+				"profit": 3200,
+				"debt": 20000,
+				"money": 7000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 800,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Mercedes-Benz",
+						"en": "Mercedes-Benz"
+					},
+					"type": "company",
+					"доля": 0.05,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.95
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карин Родстрём",
+					"en": "Karin Rådström"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "шведка, делает ставку на водородные грузовики",
+					"en": "шведка, делает ставку на водородные грузовики"
+				}
+			},
+			"staff": 100000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лайнфельден",
+						"en": "Headquarters, Leinfelden"
+					},
+					"ш": 48.7,
+					"д": 9.16,
+					"province": 73,
+					"staff": 3000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Вёрте",
+						"en": "Wörth plant"
+					},
+					"ш": 49.05,
+					"д": 8.27,
+					"province": 73,
+					"staff": 10000,
+					"fine": 826
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.daimlertruck.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "healthineers",
+			"название": {
+				"ru": "Siemens Healthineers",
+				"en": "Siemens Healthineers"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Томографы, диагностика и радиотерапия.",
+				"en": "Scanners, diagnostics and radiotherapy."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 2200,
+				"debt": 13000,
+				"money": 2000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1130,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Siemens AG",
+						"en": "Siemens AG"
+					},
+					"type": "company",
+					"доля": 0.67,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.33
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бернд Монтаг",
+					"en": "Bernd Montag"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2018,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "физик-медтехник",
+					"en": "физик-медтехник"
+				}
+			},
+			"staff": 72000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Эрланген",
+						"en": "Headquarters, Erlangen"
+					},
+					"ш": 49.58,
+					"д": 11.01,
+					"province": 62,
+					"staff": 12000,
+					"fine": 828
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Форххайме",
+						"en": "Forchheim plant"
+					},
+					"ш": 49.72,
+					"д": 11.06,
+					"province": 62,
+					"staff": 4000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.corporate.siemens-healthineers.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "mtu",
+			"название": {
+				"ru": "MTU Aero Engines",
+				"en": "MTU Aero Engines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1934,
+			"description": {
+				"ru": "Авиадвигатели и их ремонт.",
+				"en": "Aircraft engines and their maintenance."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 700,
+				"debt": 1500,
+				"money": 1000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 54,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларс Вагнер",
+					"en": "Lars Wagner"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-двигателист",
+					"en": "инженер-двигателист"
+				}
+			},
+			"staff": 12000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мюнхен",
+						"en": "Headquarters, Munich"
+					},
+					"ш": 48.18,
+					"д": 11.52,
+					"province": 62,
+					"staff": 6000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mtu.de/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "merckkgaa",
+			"название": {
+				"ru": "Merck KGaA",
+				"en": "Merck KGaA"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1668,
+			"description": {
+				"ru": "Старейшая фармкомпания мира: лекарства, материалы для чипов.",
+				"en": "The world's oldest pharma company: drugs and chip materials."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 3000,
+				"debt": 9000,
+				"money": 2000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 435,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мерк",
+						"en": "The Merck family"
+					},
+					"type": "крупный",
+					"доля": 0.7,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кай Бекман",
+					"en": "Kai Beckmann"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2026,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "человек семьи Мерк",
+					"en": "человек семьи Мерк"
+				}
+			},
+			"staff": 62000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Дармштадт",
+						"en": "Headquarters, Darmstadt"
+					},
+					"ш": 49.87,
+					"д": 8.65,
+					"province": 73,
+					"staff": 12000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.merckgroup.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "heidelberg",
+			"название": {
+				"ru": "Heidelberg Materials",
+				"en": "Heidelberg Materials"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1873,
+			"description": {
+				"ru": "Цемент и щебень по всему миру.",
+				"en": "Cement and aggregates worldwide."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 2000,
+				"debt": 9000,
+				"money": 2000,
+				"dividends": 550
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Людвиг Меркле",
+						"en": "Ludwig Merckle"
+					},
+					"type": "крупный",
+					"доля": 0.27,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.73
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Доминик фон Ахтен",
+					"en": "Dominik von Achten"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит «зелёный» цемент с улавливанием CO₂",
+					"en": "строит «зелёный» цемент с улавливанием CO₂"
+				}
+			},
+			"staff": 51000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Гейдельберг",
+						"en": "Headquarters, Heidelberg"
+					},
+					"ш": 49.41,
+					"д": 8.69,
+					"province": 73,
+					"staff": 2000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Цементный завод в Лейманне",
+						"en": "Leimen cement plant"
+					},
+					"ш": 49.35,
+					"д": 8.69,
+					"province": 73,
+					"staff": 500,
+					"fine": 819
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.heidelbergmaterials.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lufthansa",
+			"название": {
+				"ru": "Lufthansa",
+				"en": "Lufthansa"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1953,
+			"description": {
+				"ru": "Крупнейшая авиагруппа Европы.",
+				"en": "Europe's largest airline group."
+			},
+			"fundamental": {
+				"выручка": 41000,
+				"profit": 1500,
+				"debt": 15000,
+				"money": 8000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1200,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Клаус-Михаэль Кюне",
+						"en": "Klaus-Michael Kühne"
+					},
+					"type": "крупный",
+					"доля": 0.15,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карстен Шпор",
+					"en": "Carsten Spohr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший пилот, воюет с забастовками",
+					"en": "бывший пилот, воюет с забастовками"
+				}
+			},
+			"staff": 100000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Кёльн",
+						"en": "Headquarters, Cologne"
+					},
+					"ш": 50.94,
+					"д": 6.96,
+					"province": 73,
+					"staff": 2000,
+					"fine": 818
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хаб во Франкфурте",
+						"en": "Frankfurt hub"
+					},
+					"ш": 50.04,
+					"д": 8.56,
+					"province": 73,
+					"staff": 35000,
+					"fine": 820
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хаб в Мюнхене",
+						"en": "Munich hub"
+					},
+					"ш": 48.35,
+					"д": 11.79,
+					"province": 62,
+					"staff": 12000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor-relations.lufthansagroup.com/en.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vonovia",
+			"название": {
+				"ru": "Vonovia",
+				"en": "Vonovia"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Крупнейший владелец жилья в Германии: полмиллиона квартир.",
+				"en": "Germany's largest landlord: half a million flats."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1000,
+				"debt": 45000,
+				"money": 2000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 820,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Norges Bank",
+						"en": "Norges Bank"
+					},
+					"type": "polity",
+					"доля": 0.14,
+					"country": "Норвегия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рольф Бух",
+					"en": "Rolf Buch"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управляющий квартирами, воюет с регулированием аренды",
+					"en": "управляющий квартирами, воюет с регулированием аренды"
+				}
+			},
+			"staff": 12000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Бохум",
+						"en": "Headquarters, Bochum"
+					},
+					"ш": 51.48,
+					"д": 7.21,
+					"province": 124,
+					"staff": 3000,
+					"fine": 818
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Жильё в Берлине",
+						"en": "Berlin housing"
+					},
+					"ш": 52.5,
+					"д": 13.4,
+					"province": 186,
+					"staff": 3000,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.vonovia.de/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "porsche",
+			"название": {
+				"ru": "Porsche AG",
+				"en": "Porsche AG"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1931,
+			"description": {
+				"ru": "Спортивные автомобили; прибыль рухнула на неудачных электромобилях.",
+				"en": "Sports cars; profits collapsed on weak EV sales."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 300,
+				"debt": 6000,
+				"money": 5000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 910,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Volkswagen",
+						"en": "Volkswagen"
+					},
+					"type": "company",
+					"доля": 0.75,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Porsche SE",
+						"en": "Porsche SE"
+					},
+					"type": "крупный",
+					"доля": 0.125,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.125
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаэль Ляйтерс",
+					"en": "Michael Leiters"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2026,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пришёл из McLaren спасать марку",
+					"en": "пришёл из McLaren спасать марку"
+				}
+			},
+			"staff": 42000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Штутгарт-Цуффенхаузен",
+						"en": "Headquarters, Stuttgart-Zuffenhausen"
+					},
+					"ш": 48.83,
+					"д": 9.15,
+					"province": 73,
+					"staff": 20000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Лейпциге",
+						"en": "Leipzig plant"
+					},
+					"ш": 51.4,
+					"д": 12.44,
+					"province": 186,
+					"staff": 4500,
+					"fine": 831
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investorrelations.porsche.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "continental",
+			"название": {
+				"ru": "Continental",
+				"en": "Continental"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1871,
+			"description": {
+				"ru": "Шины и автокомпоненты.",
+				"en": "Tyres and car components."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 1300,
+				"debt": 9000,
+				"money": 3000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 200,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Шеффлер",
+						"en": "The Schaeffler family"
+					},
+					"type": "крупный",
+					"доля": 0.46,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Кётц",
+					"en": "Christian Kötz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2026,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "дробит концерн на части",
+					"en": "дробит концерн на части"
+				}
+			},
+			"staff": 190000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ганновер",
+						"en": "Headquarters, Hanover"
+					},
+					"ш": 52.37,
+					"д": 9.73,
+					"province": 124,
+					"staff": 8000,
+					"fine": 822
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Шинный завод в Ахене",
+						"en": "Aachen tyre plant"
+					},
+					"ш": 50.78,
+					"д": 6.08,
+					"province": 73,
+					"staff": 1800,
+					"fine": 818
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.continental.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ohb",
+			"название": {
+				"ru": "OHB",
+				"en": "OHB SE"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Спутники для навигации Galileo и разведки, участие в ракетах Ariane.",
+				"en": "Satellites for Galileo navigation and reconnaissance, a part in Ariane rockets."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 30,
+				"debt": 400,
+				"money": 200,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 19,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Фукс",
+						"en": "The Fuchs family"
+					},
+					"type": "крупный",
+					"доля": 0.64,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "KKR",
+						"en": "KKR"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.06
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марко Фукс",
+					"en": "Marco Fuchs"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2000,
+				"born_year": 1962,
+				"доля": 0.3,
+				"характер": {
+					"ru": "семейный",
+					"en": "семейный"
+				}
+			},
+			"staff": 3200,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бремен",
+						"en": "Bremen"
+					},
+					"ш": 53.08,
+					"д": 8.8,
+					"province": 124,
+					"staff": 2500,
+					"fine": 821
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Оберпфаффенхофен",
+						"en": "Oberpfaffenhofen"
+					},
+					"ш": 48.08,
+					"д": 11.28,
+					"province": 62,
+					"staff": 700,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ohb.de/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "zeiss",
+			"название": {
+				"ru": "Carl Zeiss",
+				"en": "Carl Zeiss AG"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1846,
+			"description": {
+				"ru": "Оптика для науки, медицины и литографии чипов; принадлежит фонду Карла Цейса.",
+				"en": "Optics for science, medicine and chip lithography; owned by the Carl Zeiss Foundation."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1500,
+				"debt": 500,
+				"money": 3000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Карла Цейса",
+						"en": "Carl Zeiss Foundation"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Германия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреас Пехер",
+					"en": "Andreas Pecher"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 46000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оберкохен",
+						"en": "Oberkochen"
+					},
+					"ш": 48.78,
+					"д": 10.1,
+					"province": 62,
+					"staff": 15000,
+					"fine": 819
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Йена",
+						"en": "Jena"
+					},
+					"ш": 50.93,
+					"д": 11.59,
+					"province": 186,
+					"staff": 15000,
+					"fine": 823
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ветцлар",
+						"en": "Wetzlar"
+					},
+					"ш": 50.56,
+					"д": 8.5,
+					"province": 73,
+					"staff": 16000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.zeiss.com/corporate/en/about-zeiss/facts-figures.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sartorius",
+			"название": {
+				"ru": "Sartorius",
+				"en": "Sartorius AG"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1870,
+			"description": {
+				"ru": "Оборудование для биотехнологий и лабораторий.",
+				"en": "Equipment for biotech and laboratories."
+			},
+			"fundamental": {
+				"выручка": 3700,
+				"profit": 200,
+				"debt": 4500,
+				"money": 100,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 68,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Наследники Сарториуса",
+						"en": "Sartorius heirs"
+					},
+					"type": "крупный",
+					"доля": 0.5,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаэль Гроссе",
+					"en": "Michael Grosse"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец",
+					"en": "управленец"
+				}
+			},
+			"staff": 14000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гёттинген",
+						"en": "Göttingen"
+					},
+					"ш": 51.54,
+					"д": 9.93,
+					"province": 124,
+					"staff": 10000,
+					"fine": 822
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Гуксхаген",
+						"en": "Guxhagen"
+					},
+					"ш": 51.2,
+					"д": 9.47,
+					"province": 124,
+					"staff": 4000,
+					"fine": 820
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава — оценка"
+			],
+			"source": "https://www.sartorius.com/en/company/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава — оценка"
+		},
+		{
+			"id": "aldi",
+			"название": {
+				"ru": "Aldi (Aldi Süd / Aldi Nord)",
+				"en": "Aldi (Aldi Süd / Aldi Nord)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная сеть продуктовых дискаунтеров. Совокупная выручка >\\ млрд",
+				"en": "Aldi (Aldi Süd / Aldi Nord) — a consumer and retail company of Germany."
+			},
+			"fundamental": {
+				"выручка": 12950,
+				"profit": 1007,
+				"debt": 2988,
+				"money": 1079,
+				"dividends": 302
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 17740
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 38850,
+			"wage": 5222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берлин",
+						"en": "Berlin"
+					},
+					"ш": 52.5015,
+					"д": 13.4343,
+					"province": 186,
+					"staff": 11655,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "biontech_se",
+			"название": {
+				"ru": "BioNTech SE",
+				"en": "BioNTech SE"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Биотехнологическая корпорация, пионер в мРНК-вакцинах и иммунотерапии рака. Капитализация ~$25-30 млрд",
+				"en": "BioNTech SE — a pharmaceutical company of Germany."
+			},
+			"fundamental": {
+				"выручка": 12075,
+				"profit": 1813,
+				"debt": 5623,
+				"money": 1579,
+				"dividends": 544
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 44820
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 22051,
+			"wage": 6813,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берлин",
+						"en": "Berlin"
+					},
+					"ш": 52.4954,
+					"д": 13.3902,
+					"province": 186,
+					"staff": 6615,
+					"fine": 829
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "airbus_defence",
+			"название": {
+				"ru": "Airbus Defence and Space GmbH",
+				"en": "Airbus Defence and Space GmbH"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Немецкое подразделение европейского аэрокосмического гиганта (истребители Eurofighter Typhoon, военно-транспортные A400M, военная спутниковая связь; штаб-квартира в Тауфкирхене/Мюнхене)",
+				"en": "Airbus Defence and Space GmbH — a defence company of Germany."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 320,
+				"debt": 1234,
+				"money": 738,
+				"dividends": 96
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Германия)",
+						"en": "The state (Germany)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Германия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14400,
+			"wage": 7050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мюнхен",
+						"en": "Munich"
+					},
+					"ш": 48.1113,
+					"д": 11.59,
+					"province": 62,
+					"staff": 4320,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

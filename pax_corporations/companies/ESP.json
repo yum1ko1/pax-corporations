@@ -1,0 +1,2781 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Испания",
+	"iso": "ESP",
+	"data_date": "2026-03",
+	"average_wage": 2500,
+	"companies": [
+		{
+			"id": "inditex",
+			"название": {
+				"ru": "Inditex (Zara)",
+				"en": "Inditex (Zara)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1985,
+			"description": {
+				"ru": "Крупнейший продавец одежды в мире: Zara.",
+				"en": "The world's largest fashion retailer: Zara."
+			},
+			"fundamental": {
+				"выручка": 41000,
+				"profit": 6300,
+				"debt": 6000,
+				"money": 12000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 3100,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Амансио Ортега",
+						"en": "Amancio Ortega"
+					},
+					"type": "founder",
+					"доля": 0.59
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оскар Гарсия Масейрас",
+					"en": "Óscar García Maceiras"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист при наследнице Марте Ортеге",
+					"en": "юрист при наследнице Марте Ортеге"
+				}
+			},
+			"staff": 165000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Артейхо, Галисия",
+						"en": "Arteixo, Galicia"
+					},
+					"ш": 43.3,
+					"д": -8.51,
+					"province": 647,
+					"staff": 10000,
+					"fine": 1018
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Логистика в Сарагосе",
+						"en": "Zaragoza logistics"
+					},
+					"ш": 41.62,
+					"д": -0.95,
+					"province": 771,
+					"staff": 2000,
+					"fine": 1044
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.inditex.com/itxcomweb/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "iberdrola",
+			"название": {
+				"ru": "Iberdrola",
+				"en": "Iberdrola"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1992,
+			"description": {
+				"ru": "Крупнейшая «зелёная» энергокомпания Европы.",
+				"en": "Europe's largest green power company."
+			},
+			"fundamental": {
+				"выручка": 48000,
+				"profit": 6000,
+				"debt": 55000,
+				"money": 5000,
+				"dividends": 3700
+			},
+			"рынок": {
+				"shares_mln": 6400,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Катар (QIA)",
+						"en": "Qatar (QIA)"
+					},
+					"type": "polity",
+					"доля": 0.08,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.92
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игнасио Галан",
+					"en": "Ignacio Galán"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2001,
+				"born_year": 1950,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеран, превратил компанию в гиганта ветра",
+					"en": "ветеран, превратил компанию в гиганта ветра"
+				}
+			},
+			"staff": 42000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бильбао",
+						"en": "Bilbao"
+					},
+					"ш": 43.26,
+					"д": -2.94,
+					"province": 772,
+					"staff": 3000,
+					"fine": 1042
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.45,
+					"д": -3.69,
+					"province": 941,
+					"staff": 3000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.iberdrola.com/shareholders-investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "santander",
+			"название": {
+				"ru": "Banco Santander",
+				"en": "Banco Santander"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1857,
+			"description": {
+				"ru": "Крупнейший банк Испании, силён в Латинской Америке.",
+				"en": "Spain's largest bank, strong in Latin America."
+			},
+			"fundamental": {
+				"выручка": 68000,
+				"profit": 13500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 15000,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ботин",
+						"en": "The Botín family"
+					},
+					"type": "крупный",
+					"доля": 0.01,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.99
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ана Ботин",
+					"en": "Ana Botín"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2014,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследница династии банкиров",
+					"en": "наследница династии банкиров"
+				}
+			},
+			"staff": 206000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Город Сантандер, Боадилья",
+						"en": "Santander City, Boadilla"
+					},
+					"ш": 40.4,
+					"д": -3.89,
+					"province": 507,
+					"staff": 8000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.santander.com/en/shareholders-and-investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bbva",
+			"название": {
+				"ru": "BBVA",
+				"en": "BBVA"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1857,
+			"description": {
+				"ru": "Второй банк Испании, крупный в Мексике и Турции.",
+				"en": "Spain's second bank, big in Mexico and Turkey."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 11000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 5760,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Онур Генч",
+					"en": "Onur Genç"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "турок, пытался купить Sabadell",
+					"en": "турок, пытался купить Sabadell"
+				}
+			},
+			"staff": 125000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.47,
+					"д": -3.68,
+					"province": 941,
+					"staff": 8000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://shareholdersandinvestors.bbva.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "caixabank",
+			"название": {
+				"ru": "CaixaBank",
+				"en": "CaixaBank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1904,
+			"description": {
+				"ru": "Крупнейший розничный банк Испании.",
+				"en": "Spain's largest retail bank."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 6200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 7200,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд «Ла Кайша» (Criteria)",
+						"en": "La Caixa Foundation (Criteria)"
+					},
+					"type": "крупный",
+					"доля": 0.32,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Государство (FROB)",
+						"en": "The state (FROB)"
+					},
+					"type": "polity",
+					"доля": 0.17,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гонсало Гортасар",
+					"en": "Gonzalo Gortázar"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир",
+					"en": "осторожный банкир"
+				}
+			},
+			"staff": 46000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Валенсия",
+						"en": "Valencia"
+					},
+					"ш": 39.47,
+					"д": -0.38,
+					"province": 771,
+					"staff": 3000,
+					"fine": 1040
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Барселона",
+						"en": "Barcelona"
+					},
+					"ш": 41.39,
+					"д": 2.13,
+					"province": 682,
+					"staff": 5000,
+					"fine": 1001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.caixabank.com/en/shareholders-investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "telefonica",
+			"название": {
+				"ru": "Telefónica",
+				"en": "Telefónica"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1924,
+			"description": {
+				"ru": "Главный телеком Испании, продаёт латиноамериканские активы.",
+				"en": "Spain's main telecom, selling Latin American assets."
+			},
+			"fundamental": {
+				"выручка": 44000,
+				"profit": -1000,
+				"debt": 40000,
+				"money": 8000,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 5670,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "STC (Саудовская Аравия)",
+						"en": "STC (Saudi Arabia)"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Саудовская Аравия"
+				},
+				{
+					"кто": {
+						"ru": "Государство (SEPI)",
+						"en": "The state (SEPI)"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "CriteriaCaixa",
+						"en": "CriteriaCaixa"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Мурта",
+					"en": "Marc Murtra"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "поставлен государством",
+					"en": "поставлен государством"
+				}
+			},
+			"staff": 100000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Район Telefónica, Мадрид",
+						"en": "Distrito Telefónica, Madrid"
+					},
+					"ш": 40.51,
+					"д": -3.66,
+					"province": 507,
+					"staff": 10000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.telefonica.com/en/shareholders-investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "repsol",
+			"название": {
+				"ru": "Repsol",
+				"en": "Repsol"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Нефтегазовая компания Испании.",
+				"en": "Spain's oil and gas company."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 1900,
+				"debt": 15000,
+				"money": 5000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1150,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хосу Хон Имас",
+					"en": "Josu Jon Imaz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший баскский политик",
+					"en": "бывший баскский политик"
+				}
+			},
+			"staff": 25000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.48,
+					"д": -3.66,
+					"province": 941,
+					"staff": 3000,
+					"fine": 1024
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Картахене",
+						"en": "Cartagena refinery"
+					},
+					"ш": 37.58,
+					"д": -0.93,
+					"province": 770,
+					"staff": 1000,
+					"fine": 1027
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.repsol.com/en/shareholders-and-investors/index.cshtml | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "aena",
+			"название": {
+				"ru": "Aena",
+				"en": "Aena"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "смешанная",
+			"founded": 1991,
+			"description": {
+				"ru": "Крупнейший оператор аэропортов мира.",
+				"en": "The world's largest airport operator."
+			},
+			"fundamental": {
+				"выручка": 6300,
+				"profit": 2100,
+				"debt": 6000,
+				"money": 2000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1500,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Enaire)",
+						"en": "The state (Enaire)"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маурисио Лусена",
+					"en": "Maurici Lucena"
+				},
+				"роль": "госслужащий",
+				"с_года": 2018,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "экономист-социалист",
+					"en": "экономист-социалист"
+				}
+			},
+			"staff": 10000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Барахас, Мадрид",
+						"en": "Barajas airport, Madrid"
+					},
+					"ш": 40.49,
+					"д": -3.57,
+					"province": 941,
+					"staff": 3000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aena.es/en/shareholders-and-investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "amadeus",
+			"название": {
+				"ru": "Amadeus",
+				"en": "Amadeus"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Системы бронирования авиабилетов и отелей.",
+				"en": "Airline and hotel booking systems."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 1400,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 440,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Луис Марото",
+					"en": "Luis Maroto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянец-технолог",
+					"en": "итальянец-технолог"
+				}
+			},
+			"staff": 19000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.48,
+					"д": -3.67,
+					"province": 507,
+					"staff": 5000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://corporate.amadeus.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "cellnex",
+			"название": {
+				"ru": "Cellnex",
+				"en": "Cellnex"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Крупнейший оператор вышек связи Европы.",
+				"en": "Europe's largest telecom tower operator."
+			},
+			"fundamental": {
+				"выручка": 4300,
+				"profit": 100,
+				"debt": 20000,
+				"money": 2000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 700,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Edizione (Бенеттон)",
+						"en": "Edizione (Benetton)"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марко Патуано",
+					"en": "Marco Patuano"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянец, режет долги",
+					"en": "итальянец, режет долги"
+				}
+			},
+			"staff": 3000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Барселона",
+						"en": "Barcelona"
+					},
+					"ш": 41.38,
+					"д": 2.15,
+					"province": 682,
+					"staff": 1000,
+					"fine": 1001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cellnex.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "endesa",
+			"название": {
+				"ru": "Endesa",
+				"en": "Endesa"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1944,
+			"description": {
+				"ru": "Электроэнергетика Испании, дочка Enel.",
+				"en": "Spain's power utility, an Enel subsidiary."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 2000,
+				"debt": 12000,
+				"money": 1000,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 1060,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Enel",
+						"en": "Enel"
+					},
+					"type": "company",
+					"доля": 0.7,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хосе Богас",
+					"en": "José Bogas"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2014,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 9000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.48,
+					"д": -3.67,
+					"province": 507,
+					"staff": 2000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.endesa.com/en/shareholders-and-investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "naturgy",
+			"название": {
+				"ru": "Naturgy",
+				"en": "Naturgy"
+			},
+			"sector": "энергетика",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 1843,
+			"description": {
+				"ru": "Газ и электричество Испании.",
+				"en": "Spain's gas and power."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 2100,
+				"debt": 15000,
+				"money": 4000,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 970,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CriteriaCaixa",
+						"en": "CriteriaCaixa"
+					},
+					"type": "крупный",
+					"доля": 0.26,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "CVC",
+						"en": "CVC"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Великобритания"
+				},
+				{
+					"кто": {
+						"ru": "GIP (BlackRock)",
+						"en": "GIP (BlackRock)"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.34
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсиско Рейнес",
+					"en": "Francisco Reynés"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер фондов",
+					"en": "менеджер фондов"
+				}
+			},
+			"staff": 7000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.47,
+					"д": -3.69,
+					"province": 941,
+					"staff": 2000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.naturgy.com/en/shareholders_and_investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "acs",
+			"название": {
+				"ru": "ACS",
+				"en": "ACS"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Одна из крупнейших строительных групп мира (Hochtief, Turner).",
+				"en": "One of the world's largest builders (Hochtief, Turner)."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 900,
+				"debt": 10000,
+				"money": 12000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 270,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Флорентино Перес",
+						"en": "Florentino Pérez"
+					},
+					"type": "крупный",
+					"доля": 0.14,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Флорентино Перес",
+					"en": "Florentino Pérez"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1993,
+				"born_year": 1947,
+				"доля": 0.14,
+				"характер": {
+					"ru": "президент «Реала», строитель",
+					"en": "президент «Реала», строитель"
+				}
+			},
+			"staff": 200000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.43,
+					"д": -3.68,
+					"province": 941,
+					"staff": 2000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grupoacs.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "iag",
+			"название": {
+				"ru": "IAG",
+				"en": "IAG"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "British Airways, Iberia, Vueling.",
+				"en": "British Airways, Iberia, Vueling."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 3000,
+				"debt": 15000,
+				"money": 9000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 4900,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Катар Эйрвейз",
+						"en": "Qatar Airways"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Луис Гальего",
+					"en": "Luis Gallego"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "испанский авиаменеджер",
+					"en": "испанский авиаменеджер"
+				}
+			},
+			"staff": 70000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.49,
+					"д": -3.59,
+					"province": 941,
+					"staff": 2000,
+					"fine": 1024
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хитроу (British Airways)",
+						"en": "Heathrow (British Airways)"
+					},
+					"ш": 51.47,
+					"д": -0.45,
+					"province": 772,
+					"staff": 30000,
+					"fine": 1365
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.iairgroup.com/en/investors-and-shareholders | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "mapfre",
+			"название": {
+				"ru": "Mapfre",
+				"en": "Mapfre"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1933,
+			"description": {
+				"ru": "Крупнейший страховщик Испании.",
+				"en": "Spain's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 31000,
+				"profit": 1000,
+				"debt": 3000,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 3100,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Mapfre",
+						"en": "Mapfre Foundation"
+					},
+					"type": "сама",
+					"доля": 0.7
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Антонио Уэртас",
+					"en": "Antonio Huertas"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2012,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 31000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Махадаонда",
+						"en": "Majadahonda"
+					},
+					"ш": 40.47,
+					"д": -3.87,
+					"province": 507,
+					"staff": 3000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mapfre.com/en/financial-information/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "grifols",
+			"название": {
+				"ru": "Grifols",
+				"en": "Grifols"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1909,
+			"description": {
+				"ru": "Препараты из плазмы крови, в долгах.",
+				"en": "Plasma-derived medicines, heavily indebted."
+			},
+			"fundamental": {
+				"выручка": 7800,
+				"profit": 200,
+				"debt": 10000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 680,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Грифольс",
+						"en": "The Grifols family"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начо Абиа",
+					"en": "Nacho Abia"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чистит баланс после скандала",
+					"en": "чистит баланс после скандала"
+				}
+			},
+			"staff": 23000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сант-Кугат",
+						"en": "Sant Cugat"
+					},
+					"ш": 41.47,
+					"д": 2.08,
+					"province": 771,
+					"staff": 5000,
+					"fine": 1001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.grifols.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "indra",
+			"название": {
+				"ru": "Indra",
+				"en": "Indra"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1993,
+			"description": {
+				"ru": "Оборонная электроника и радары Испании.",
+				"en": "Spain's defence electronics and radars."
+			},
+			"fundamental": {
+				"выручка": 5300,
+				"profit": 300,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 177,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SEPI)",
+						"en": "The state (SEPI)"
+					},
+					"type": "polity",
+					"доля": 0.28,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.72
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хосе Висенте де лос Мосос",
+					"en": "José Vicente de los Mozos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший топ Renault, строит оборонку",
+					"en": "бывший топ Renault, строит оборонку"
+				}
+			},
+			"staff": 60000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алькобендас",
+						"en": "Alcobendas"
+					},
+					"ш": 40.54,
+					"д": -3.63,
+					"province": 507,
+					"staff": 5000,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.indracompany.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "mercadona",
+			"название": {
+				"ru": "Mercadona",
+				"en": "Mercadona"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Крупнейшая сеть супермаркетов Испании.",
+				"en": "Spain's largest supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 1500,
+				"debt": 0,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Хуан Рох и семья",
+						"en": "Juan Roig and family"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хуан Ройг",
+					"en": "Juan Roig"
+				},
+				"роль": "founder",
+				"с_года": 1981,
+				"born_year": 1949,
+				"доля": 1.0,
+				"характер": {
+					"ru": "основатель, фанат эффективности",
+					"en": "основатель, фанат эффективности"
+				}
+			},
+			"staff": 110000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тавернес-Бланкес, Валенсия",
+						"en": "Tavernes Blanques, Valencia"
+					},
+					"ш": 39.5,
+					"д": -0.36,
+					"province": 771,
+					"staff": 5000,
+					"fine": 1040
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://info.mercadona.es/en/corporate-information | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sabadell",
+			"название": {
+				"ru": "Banco Sabadell",
+				"en": "Banco Sabadell"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1881,
+			"description": {
+				"ru": "Четвёртый банк Испании, отбился от BBVA.",
+				"en": "Spain's fourth bank, fended off BBVA."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 5300,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сесар Гонсалес-Буэно",
+					"en": "César González-Bueno"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "защитник независимости банка",
+					"en": "защитник независимости банка"
+				}
+			},
+			"staff": 19000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аликанте",
+						"en": "Alicante"
+					},
+					"ш": 38.35,
+					"д": -0.48,
+					"province": 770,
+					"staff": 2000,
+					"fine": 995
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grupbancsabadell.com/en/investors-shareholders | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "redeia",
+			"название": {
+				"ru": "Redeia (REE)",
+				"en": "Redeia (REE)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1985,
+			"description": {
+				"ru": "Оператор электросетей Испании.",
+				"en": "Spain's grid operator."
+			},
+			"fundamental": {
+				"выручка": 2300,
+				"profit": 600,
+				"debt": 7000,
+				"money": 1000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 540,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SEPI)",
+						"en": "The state (SEPI)"
+					},
+					"type": "polity",
+					"доля": 0.2,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Беатрис Корредор",
+					"en": "Beatriz Corredor"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший министр",
+					"en": "бывший министр"
+				}
+			},
+			"staff": 2000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алькобендас",
+						"en": "Alcobendas"
+					},
+					"ш": 40.53,
+					"д": -3.64,
+					"province": 507,
+					"staff": 1500,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.redeia.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "el_corte",
+			"название": {
+				"ru": "El Corte Inglés",
+				"en": "El Corte Inglés"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в Европе сеть универсальных магазинов и универмагов (одежда, электроника, супермаркеты Hipercor, туристическое агентство Viajes El Corte Inglés, финансовые услуги). Выручка ~$17.5 млрд, чистая прибыль ~$400 млн, 80,000 сотр. Контролируется фондом Ramón Areces и семьей Альварес. https://www.elcorteingles.es/",
+				"en": "El Corte Inglés — a consumer and retail company of Spain."
+			},
+			"fundamental": {
+				"выручка": 17500,
+				"profit": 400,
+				"debt": 4038,
+				"money": 1458,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 23973
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 52500,
+			"wage": 2778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4318,
+					"д": -3.7418,
+					"province": 941,
+					"staff": 15750,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "moeve",
+			"название": {
+				"ru": "Moeve (ранее Cepsa / Compañía Española de Petróleos)",
+				"en": "Moeve (ранее Cepsa / Compañía Española de Petróleos)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Вторая по величине интегрированная нефтегазовая и энергетическая компания Испании (принадлежит инвестфондам Mubadala и Carlyle; крупные НПЗ в Кадисе и Уэльве, сеть 1,800+ АЗС, масштабные инвестиции в зеленый водород Andalusian Green Hydrogen Valley). Выручка ~$28.0 млрд, 10,000 сотр. https://www.moeve.com/",
+				"en": "Moeve (ранее Cepsa / Compañía Española de Petróleos) — a oil and gas company of Spain."
+			},
+			"fundamental": {
+				"выручка": 28000,
+				"profit": 1667,
+				"debt": 7889,
+				"money": 2660,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 17417
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 24484,
+			"wage": 4472,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4287,
+					"д": -3.692,
+					"province": 941,
+					"staff": 7345,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ferrovial",
+			"название": {
+				"ru": "Ferrovial",
+				"en": "Ferrovial"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный инфраструктурный гигант (строительство и концессионное управление платными скоростными магистралями 407 ETR в Торонто и I-66/I-77 в США, аэропортами, включая Лондонский Хитроу LHR и новый терминал NTO JFK в Нью-Йорке). Выручка ~$9.5 млрд, капитализация ~$30 млрд, 25,000 сотр. https://www.ferrovial.com/",
+				"en": "Ferrovial — a transport company of Spain."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 633,
+				"debt": 4798,
+				"money": 1966,
+				"dividends": 190
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 23750,
+			"wage": 4091,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4314,
+					"д": -3.7131,
+					"province": 941,
+					"staff": 7125,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "acciona",
+			"название": {
+				"ru": "Acciona",
+				"en": "Acciona"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный лидер в секторе возобновляемой энергетики (Acciona Energía: более 13 ГВт ветровых и солнечных электростанций), опреснения морской воды и сложного экологического строительства конгломерата семьи Энтреканалес. Выручка ~$18.0 млрд, чистая прибыль ~$550 млн, 55,000 сотр. https://www.acciona.com/",
+				"en": "Acciona — a energy company of Spain."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 550,
+				"debt": 10938,
+				"money": 2304,
+				"dividends": 165
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 23739
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 32023,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4009,
+					"д": -3.6996,
+					"province": 941,
+					"staff": 9606,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gestamp_automoci",
+			"название": {
+				"ru": "Gestamp Automoción",
+				"en": "Gestamp Automoción"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный технологический лидер по разработке и производству облегченных металлических компонентов кузова и шасси для всех ведущих мировых автопроизводителей (115 заводов в 24 странах). Выручка ~$13.0 млрд, 44,000 сотр. https://www.gestamp.com/",
+				"en": "Gestamp Automoción — a metals and mining company of Spain."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1444,
+				"debt": 4333,
+				"money": 1560,
+				"dividends": 433
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 37555,
+			"wage": 4464,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4124,
+					"д": -3.7256,
+					"province": 941,
+					"staff": 11266,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mango",
+			"название": {
+				"ru": "Mango (Punto Fa)",
+				"en": "Mango (Punto Fa)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная сеть fast-fashion ритейла холдинга Исака Андика (более 2,700 фирменных магазинов модной одежды в 115 странах мира). Выручка ~$3.4 млрд, чистая прибыль ~$200 млн, 15,000 сотр. https://www.mango.com/",
+				"en": "Mango (Punto Fa) — a consumer and retail company of Spain."
+			},
+			"fundamental": {
+				"выручка": 3400,
+				"profit": 200,
+				"debt": 785,
+				"money": 283,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4658
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10200,
+			"wage": 2778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4106,
+					"д": -3.681,
+					"province": 941,
+					"staff": 3060,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "puig",
+			"название": {
+				"ru": "Puig",
+				"en": "Puig"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Международный парфюмерно-косметический и модный конгломерат люкс-сегмента (владеет мировыми брендами Carolina Herrera, Paco Rabanne, Jean Paul Gaultier, Nina Ricci, Dries Van Noten, Byredo, Charlotte Tilbury; успешно провел крупнейшее IPO в Испании в 2024 г.). Выручка ~$4.8 млрд, чистая прибыль ~$500 млн, капитализация ~$14 млрд, 10,000 сотр. https://www.puig.com/",
+				"en": "Puig — a consumer and retail company of Spain."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 500,
+				"debt": 1108,
+				"money": 400,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14400,
+			"wage": 2778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4045,
+					"д": -3.6663,
+					"province": 941,
+					"staff": 4320,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "t_cnicas",
+			"название": {
+				"ru": "Técnicas Reunidas",
+				"en": "Técnicas Reunidas"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая международная инжиниринговая компания в области проектирования и строительства промышленных комплексов EPC для добычи, переработки нефти и газа, водородной энергетики и улавливания углерода. Выручка ~$4.8 млрд, 10,000 сотр. https://www.tecnicasreunidas.es/",
+				"en": "Técnicas Reunidas — a construction company of Spain."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 400,
+				"debt": 1862,
+				"money": 630,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6055
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15099,
+			"wage": 3198,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4268,
+					"д": -3.6927,
+					"province": 941,
+					"staff": 4529,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "indra_sistemas",
+			"название": {
+				"ru": "Indra Sistemas (в таблице)",
+				"en": "Indra Sistemas (в таблице)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный технологический флагман Испании в области военной электроники, радиолокации (радары противовоздушной обороны Lanza 3D), бортовой авионики, систем радиоэлектронной борьбы (РЭБ), цифрового поля боя C4ISR; главный национальный промышленный координатор от Испании в европейской программе создания боевого авиакомплекса 6-го поколения FCAS/NGWS (выручка оборонного дивизиона ~$1.8 млрд). http",
+				"en": "Indra Sistemas (в таблице) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 463,
+				"money": 277,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5400,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4052,
+					"д": -3.709,
+					"province": 941,
+					"staff": 1620,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "navantia",
+			"название": {
+				"ru": "Navantia",
+				"en": "Navantia"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная судостроительная корпорация (SEPI), крупнейшая военно-морская верфь Испании (проектирование и постройка многоцелевых фрегатов с системой Aegis классов Álvaro de Bazán F-100 и строящихся новейших F-110, дизель-электрических ударных подводных лодок проекта S-80 Plus «Исаак Пераль» с воздухонезависимой энергетической установкой AIP, универсальных десантных кораблей LHD Juan Carlos I и",
+				"en": "Navantia — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 107,
+				"debt": 411,
+				"money": 246,
+				"dividends": 32
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4800,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4403,
+					"д": -3.7251,
+					"province": 941,
+					"staff": 1440,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "santa_b_2",
+			"название": {
+				"ru": "Santa Bárbara Sistemas (GDELS / General Dynamics European Land Systems)",
+				"en": "Santa Bárbara Sistemas (GDELS / General Dynamics European Land Systems)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный разработчик и производитель тяжелой бронетанковой и артиллерийской техники Испании (серийное производство и глубокая модернизация основных боевых танков Leopard 2E, гусеничных БМП и БРМ Pizarro / ASCOD, перспективных колесных бронетранспортеров VCR 8x8 Dragón, 155-мм дальнобойных буксируемых гаубиц SIAC 155/52; заводы в Трувии, Севилье и Мадриде). https://www.gdels.com/",
+				"en": "Santa Bárbara Sistemas (GDELS / General Dynamics European Land Systems) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 2662,
+				"profit": 177,
+				"debt": 685,
+				"money": 410,
+				"dividends": 53
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4991
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7986,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.452,
+					"д": -3.7287,
+					"province": 941,
+					"staff": 2395,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "airbus_defence_2",
+			"название": {
+				"ru": "Airbus Defence and Space SAU (Испанское подразделение)",
+				"en": "Airbus Defence and Space SAU (Испанское подразделение)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Испанский авиастроительный комплекс Airbus (финальная сборочная линия FAL и международный центр летных испытаний военно-транспортных самолетов A400M Atlas и тактических C295 в Сан-Пабло/Севилье; центр конвертации дальнемагистральных самолетов в стратегические заправщики A330 MRTT в Хетафе; производство хвостового оперения и композитов для Eurofighter Typhoon; 12,000+ сотр. в Испании). https://www.",
+				"en": "Airbus Defence and Space SAU (Испанское подразделение) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 2625,
+				"profit": 175,
+				"debt": 675,
+				"money": 404,
+				"dividends": 52
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4922
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7875,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хетафе",
+						"en": "Getafe"
+					},
+					"ш": 40.3026,
+					"д": -3.6953,
+					"province": 941,
+					"staff": 2362,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "escribano_mechanical",
+			"название": {
+				"ru": "Escribano Mechanical & Engineering (EM&E)",
+				"en": "Escribano Mechanical & Engineering (EM&E)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий национальный разработчик и производитель передовых дистанционно управляемых боевых модулей (семейство башенных комплексов Guardian 2.0 / Guardian 30 для бронемашин VCR Dragón 8x8, морские турели Sentinel 20/30), тепловизионных прицельных оптоэлектронных станций OTEOS и высокоточных комплектов наведения боеприпасов. https://eme-es.com/",
+				"en": "Escribano Mechanical & Engineering (EM&E) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 2288,
+				"profit": 153,
+				"debt": 588,
+				"money": 352,
+				"dividends": 46
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4290
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6864,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4074,
+					"д": -3.6697,
+					"province": 941,
+					"staff": 2059,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "expal_systems",
+			"название": {
+				"ru": "EXPAL Systems (Rheinmetall Expal Munitions)",
+				"en": "EXPAL Systems (Rheinmetall Expal Munitions)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший испанский производитель боеприпасной отрасли (массовый выпуск артиллерийских выстрелов стандарта НАТО 155 мм, танковых снарядов 120 мм, минометных систем и мин 60/81/120 мм, авиабомб и компонентов взрывчатых веществ; приобретен концерном Rheinmetall для снабжения европейских армий). https://www.rheinmetall.com/",
+				"en": "EXPAL Systems (Rheinmetall Expal Munitions) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 1950,
+				"profit": 130,
+				"debt": 501,
+				"money": 300,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3656
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Испания)",
+						"en": "The state (Spain)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Испания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5850,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4478,
+					"д": -3.6635,
+					"province": 941,
+					"staff": 1755,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "itp_aero",
+			"название": {
+				"ru": "ITP Aero (Industria de Turbo Propulsores)",
+				"en": "ITP Aero (Industria de Turbo Propulsores)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевой разработчик и производитель авиационных газотурбинных двигателей и компонентов низкого давления (участник международных консорциумов Eurojet по двигателю EJ200 для Eurofighter Typhoon, Europrop International по ТВД TP400-D6 для самолета A400M, а также партнер Rolls-Royce по гражданским двигателям). https://www.itpaero.com/",
+				"en": "ITP Aero (Industria de Turbo Propulsores) — a defence company of Spain."
+			},
+			"fundamental": {
+				"выручка": 1688,
+				"profit": 113,
+				"debt": 434,
+				"money": 260,
+				"dividends": 34
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3165
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5064,
+			"wage": 3750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 40.4556,
+					"д": -3.7001,
+					"province": 941,
+					"staff": 1519,
+					"fine": 1024
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

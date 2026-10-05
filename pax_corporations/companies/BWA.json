@@ -1,0 +1,906 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ботсвана",
+	"iso": "BWA",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "debswana",
+			"название": {
+				"ru": "Debswana",
+				"en": "Debswana"
+			},
+			"sector": "metallurgy",
+			"profile": "diamonds",
+			"type": "государственная",
+			"founded": 1969,
+			"description": {
+				"ru": "Алмазы Ботсваны: 50/50 с De Beers — половина экономики страны.",
+				"en": "Botswana's diamonds: 50/50 with De Beers — half the country's economy."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 800,
+				"debt": 300,
+				"money": 300,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ботсваны",
+						"en": "The Botswanan state"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Ботсвана"
+				},
+				{
+					"кто": {
+						"ru": "De Beers (Anglo American)",
+						"en": "De Beers (Anglo American)"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Великобритания",
+					"company": "angloamerican"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эндрю Мотсоми",
+					"en": "Andrew Motsomi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "алмазник",
+					"en": "алмазник"
+				}
+			},
+			"staff": 5500,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.65,
+					"д": 25.91,
+					"province": 241,
+					"staff": 800,
+					"fine": 540
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Джваненг",
+						"en": "Jwaneng mine"
+					},
+					"ш": -24.53,
+					"д": 24.72,
+					"province": 241,
+					"staff": 3000,
+					"fine": 545
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.debswana.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "fnbb",
+			"название": {
+				"ru": "First National Bank Botswana",
+				"en": "First National Bank Botswana"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Крупнейший банк Ботсваны, дочка FirstRand.",
+				"en": "Botswana's largest bank, a FirstRand subsidiary."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 2540,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "FirstRand",
+						"en": "FirstRand"
+					},
+					"type": "company",
+					"доля": 0.7,
+					"country": "ЮАР",
+					"company": "firstrand"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стивен Богацу",
+					"en": "Steven Bogatsu"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 1800,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.66,
+					"д": 25.92,
+					"province": 241,
+					"staff": 1200,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.fnbbotswana.co.bw/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "lucara_diamond",
+			"название": {
+				"ru": "Lucara Diamond Corp (рудник Карове / Karowe Mine)",
+				"en": "Lucara Diamond Corp (рудник Карове / Karowe Mine)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Алмазодобывающее предприятие, мировой лидер по добыче сверхкрупных алмазов типа IIa (включая алмаз 2492 карата в 2024 г., Sewelô и Lesedi La Rona)",
+				"en": "Lucara Diamond Corp (рудник Карове / Karowe Mine) — a metals and mining company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 578,
+				"profit": 64,
+				"debt": 193,
+				"money": 69,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 694
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1669,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6161,
+					"д": 25.948,
+					"province": 241,
+					"staff": 500,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "choppies_enterprises",
+			"название": {
+				"ru": "Choppies Enterprises",
+				"en": "Choppies Enterprises"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая транснациональная сеть розничных супермаркетов юга Африки (>260 магазинов в 5 странах; выручка ~$140 млн+, крупнейший частный работодатель страны)",
+				"en": "Choppies Enterprises — a consumer and retail company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 11,
+				"debt": 32,
+				"money": 12,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 192
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 420,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6891,
+					"д": 25.9179,
+					"province": 241,
+					"staff": 126,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sefalana_holding",
+			"название": {
+				"ru": "Sefalana Holding",
+				"en": "Sefalana Holding"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший национальный холдинг оптово-розничной торговли и продовольствия (выручка ~$140 млн)",
+				"en": "Sefalana Holding — a consumer and retail company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 11,
+				"debt": 32,
+				"money": 12,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 192
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 420,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6588,
+					"д": 25.8931,
+					"province": 241,
+					"staff": 126,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "letshego_holdings",
+			"название": {
+				"ru": "Letshego Holdings",
+				"en": "Letshego Holdings"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Пан-африканская потребительская и микрофинансовая банковская группа (активна в 11 странах Африки)",
+				"en": "Letshego Holdings — a financial company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 105,
+				"profit": 30,
+				"debt": 0,
+				"money": 0,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 245
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6664,
+					"д": 25.9062,
+					"province": 241,
+					"staff": 90,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mascom_wireless",
+			"название": {
+				"ru": "Mascom Wireless & Botswana Telecommunications Corporation (BTC)",
+				"en": "Mascom Wireless & Botswana Telecommunications Corporation (BTC)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие операторы мобильной связи и цифровой инфраструктуры",
+				"en": "Mascom Wireless & Botswana Telecommunications Corporation (BTC) — a IT and telecom company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 77,
+				"profit": 10,
+				"debt": 24,
+				"money": 13,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 146
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 203,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6632,
+					"д": 25.9306,
+					"province": 241,
+					"staff": 60,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "morupule_coal",
+			"название": {
+				"ru": "Morupule Coal Mine (MCM) & Botswana Power Corporation (BPC)",
+				"en": "Morupule Coal Mine (MCM) & Botswana Power Corporation (BPC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная угледобыча и национальная энергомонополия (ТЭС Морупуле)",
+				"en": "Morupule Coal Mine (MCM) & Botswana Power Corporation (BPC) — a energy company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 5,
+				"debt": 30,
+				"money": 6,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 65
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ботсвана)",
+						"en": "The state (Botswana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ботсвана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 87,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6688,
+					"д": 25.9054,
+					"province": 241,
+					"staff": 26,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "air_botswana",
+			"название": {
+				"ru": "Air Botswana",
+				"en": "Air Botswana"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная авиакомпания",
+				"en": "Air Botswana — a transport company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 3,
+				"debt": 25,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ботсвана)",
+						"en": "The state (Botswana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ботсвана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 122,
+			"wage": 818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6935,
+					"д": 25.8902,
+					"province": 241,
+					"staff": 36,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bdf_technical",
+			"название": {
+				"ru": "BDF Technical & Engineering Workshops (Могодитшане)",
+				"en": "BDF Technical & Engineering Workshops (Могодитшане)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный ремонтно-технический комплекс Сил обороны Ботсваны (обслуживание БТР Piranha III, танков SK-105, бронемашин VAB/RAM)",
+				"en": "BDF Technical & Engineering Workshops (Могодитшане) — a defence company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ботсвана)",
+						"en": "The state (Botswana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ботсвана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Могодитшане",
+						"en": "Mogoditshane"
+					},
+					"ш": -24.6176,
+					"д": 25.8885,
+					"province": 241,
+					"staff": 18,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thebephatshwa_air",
+			"название": {
+				"ru": "Thebephatshwa Air Base Maintenance Complex (Тепелело / Мапоранго)",
+				"en": "Thebephatshwa Air Base Maintenance Complex (Тепелело / Мапоранго)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Комплекс технического обслуживания и регламентных работ военной авиации (истребители F-5 Freedom Fighter, C-130 Hercules, вертолеты Bell 412)",
+				"en": "Thebephatshwa Air Base Maintenance Complex (Тепелело / Мапоранго) — a defence company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ботсвана)",
+						"en": "The state (Botswana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ботсвана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6486,
+					"д": 25.9275,
+					"province": 241,
+					"staff": 18,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kalahari_tactical",
+			"название": {
+				"ru": "Kalahari Tactical & Drone Systems",
+				"en": "Kalahari Tactical & Drone Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка и сервис разведывательных БПЛА и систем тактической радиосвязи для пограничного контроля и антибраконьерских операций",
+				"en": "Kalahari Tactical & Drone Systems — a defence company of Botswana."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ботсвана)",
+						"en": "The state (Botswana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ботсвана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Габороне",
+						"en": "Gaborone"
+					},
+					"ш": -24.6156,
+					"д": 25.8798,
+					"province": 241,
+					"staff": 18,
+					"fine": 540
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "../../docs/modding/schemas/mod.schema.json",
+	"id": "pax_corporations",
+	"name": {
+		"en": "Pax Corporations",
+		"ru": "Pax Corporations"
+	},
+	"version": "5.9.1",
+	"api": 1,
+	"game_version": ">=0.9.0",
+	"authors": ["Babichev Maxim"],
+	"description": {
+		"en": "Living corporations of the «Our time» world: share prices, owners, dossiers and a corporations layer on the map.",
+		"ru": "Живые корпорации мира «Наше время»: цены акций, владельцы, досье и слой корпораций на карте."
+	},
+	"tags": ["ui", "economy"],
+	"depends": [],
+	"load_after": ["pax_interface", "pax_qol", "country_menu"],
+	"entry": "main.gd"
+}

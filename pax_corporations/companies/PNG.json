@@ -1,0 +1,1198 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Папуа — Новая Гвинея",
+	"iso": "PNG",
+	"data_date": "2026-03",
+	"average_wage": 400,
+	"companies": [
+		{
+			"id": "pnglng",
+			"название": {
+				"ru": "PNG LNG",
+				"en": "PNG LNG"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "СПГ-проект ExxonMobil — половина экспорта страны.",
+				"en": "ExxonMobil's LNG project — half the country's exports."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1500,
+				"debt": 5000,
+				"money": 500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "ExxonMobil",
+						"en": "ExxonMobil"
+					},
+					"type": "company",
+					"доля": 0.33,
+					"country": "США",
+					"company": "exxon"
+				},
+				{
+					"кто": {
+						"ru": "Santos",
+						"en": "Santos"
+					},
+					"type": "company",
+					"доля": 0.43,
+					"country": "Австралия"
+				},
+				{
+					"кто": {
+						"ru": "Kumul (государство)",
+						"en": "Kumul (the state)"
+					},
+					"type": "polity",
+					"доля": 0.17,
+					"country": "Папуа — Новая Гвинея"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.07
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Динеш Сивасамбу",
+					"en": "Dinesh Sivasamboo"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2025,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 2500,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт-Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.44,
+					"д": 147.18,
+					"province": 547,
+					"staff": 1500,
+					"fine": 3248
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Хайдс",
+						"en": "Hides"
+					},
+					"ш": -5.95,
+					"д": 142.75,
+					"province": 745,
+					"staff": 1000,
+					"fine": 3240
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://pnglng.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "kumul_petroleum",
+			"название": {
+				"ru": "Kumul Petroleum Holdings Limited (KPHL)",
+				"en": "Kumul Petroleum Holdings Limited (KPHL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2013,
+			"description": {
+				"ru": "Порт-Морсби — национальная нефтегазовая корпорация Папуа — Новой Гвинеи (владеет государственной долей 16.8% в проекте PNG LNG и 22.5% в проекте Papua LNG). [Выручка: 1 100 млн $ (4 200 млн PGK), Чистая прибыль: 350 млн $, Штат: 250 чел., Руководитель: Вапу Сонк (Wapu Sonk), управляющий директор с 2013 года, 1971 г.р.]. Официальные источники: https://kumulpetroleum.com/, https://kumulpetroleum.com",
+				"en": "Kumul Petroleum Holdings Limited (KPHL) — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 93,
+				"debt": 707,
+				"money": 290,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.488,
+					"д": 147.1489,
+					"province": 547,
+					"staff": 1050,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_south",
+			"название": {
+				"ru": "Bank South Pacific (BSP Financial Group)",
+				"en": "Bank South Pacific (BSP Financial Group)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Порт-Морсби — крупнейший коммерческий банк страны и ведущая финансовая группа южной части Тихого океана (филиалы на Фиджи, Самоа, Вануату, Соломоновых Островах). [Выручка: 800 млн $ (3 100 млн PGK), Чистая прибыль: 260 млн $ (1 000 млн PGK), Штат: 4 600 чел., Руководитель: Марк Робинсон (Mark Robinson), с 2023 года, 1964 г.р.]. Официальные источники: https://www.bsp.com.pg/investor-relations/",
+				"en": "Bank South Pacific (BSP Financial Group) — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 945,
+				"profit": 63,
+				"debt": 477,
+				"money": 196,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 675
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2362,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4519,
+					"д": 147.1662,
+					"province": 547,
+					"staff": 708,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ok_tedi",
+			"название": {
+				"ru": "Ok Tedi Mining Limited (OTML)",
+				"en": "Ok Tedi Mining Limited (OTML)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Табубил / Западная провинция — 100% государственная горнорудная компания, разрабатывающая гигантский медный и золоторудный карьер Ок-Теди. [Выручка: 1 200 млн $ (4 500 млн PGK), Чистая прибыль: 180 млн $, Штат: 3 500 чел., Руководитель: Кеди Илимбит (Kedi Ilimbit), управляющий директор с 2023 года, 1972 г.р.]. Официальные источники: https://oktedi.com/, https://oktedi.com/investors (Годовой отчет ",
+				"en": "Ok Tedi Mining Limited (OTML) — a consumer and retail company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 490,
+				"profit": 38,
+				"debt": 113,
+				"money": 41,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 671
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1470,
+			"wage": 444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4916,
+					"д": 147.1629,
+					"province": 547,
+					"staff": 441,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kumul_minerals",
+			"название": {
+				"ru": "Kumul Minerals Holdings Limited (KMHL)",
+				"en": "Kumul Minerals Holdings Limited (KMHL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Порт-Морсби — государственный холдинг горнорудных активов страны (доли в рудниках Porgera, Ok Tedi, проекте Wafi-Golpu). [Выручка: 750 млн $, Чистая прибыль: 150 млн $, Штат: 150 чел., Руководитель: Сариму Мойя (Sarimu Moya), управляющий директор с 2023 года, 1970 г.р.]. Официальные источники: https://kumulminerals.com.pg/, https://kumulminerals.com.pg/investors (Годовой отчет / Раскрытие информац",
+				"en": "Kumul Minerals Holdings Limited (KMHL) — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 410,
+				"profit": 27,
+				"debt": 207,
+				"money": 85,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 293
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1025,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4532,
+					"д": 147.1328,
+					"province": 547,
+					"staff": 307,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "new_britain",
+			"название": {
+				"ru": "New Britain Palm Oil Limited (NBPOL)",
+				"en": "New Britain Palm Oil Limited (NBPOL)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Кимбе, Западная Новая Британия — крупнейший сельскохозяйственный производитель пальмового масла и сахара в Тихоокеанском регионе. [Выручка: 550 млн $, Чистая прибыль: 85 млн $, Штат: 24 000 чел., Руководитель: Мохд Азлан Шах (Mohd Azlan Shah), генеральный директор, 1971 г.р.]. Официальные источники: https://www.nbpol.com.pg/, https://www.nbpol.com.pg/investors (Годовой отчет / Раскрытие информации",
+				"en": "New Britain Palm Oil Limited (NBPOL) — a consumer and retail company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 331,
+				"profit": 26,
+				"debt": 76,
+				"money": 28,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 453
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 993,
+			"wage": 444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.514,
+					"д": 147.1571,
+					"province": 547,
+					"staff": 297,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "air_niugini",
+			"название": {
+				"ru": "Air Niugini",
+				"en": "Air Niugini"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Порт-Морсби — национальная государственная авиакомпания Папуа — Новой Гвинеи (флот Boeing 737/767, Fokker 70/100, заказаны Airbus A220). [Выручка: 350 млн $, Чистая прибыль: -20 млн $, Штат: 2 000 чел., Руководитель: Гэри Седдон (Gary Seddon), генеральный директор с 2023 года, 1973 г.р.]. Официальные источники: https://www.airniugini.com.pg/, https://www.airniugini.com.pg/investors (Годовой отчет ",
+				"en": "Air Niugini — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 251,
+				"profit": 17,
+				"debt": 127,
+				"money": 52,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 179
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 627,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4491,
+					"д": 147.1132,
+					"province": 547,
+					"staff": 188,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "png_power",
+			"название": {
+				"ru": "PNG Power Limited (PPL)",
+				"en": "PNG Power Limited (PPL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Порт-Морсби — государственная вертикально-интегрированная энергетическая компания (генерация, передача и сбыт электроэнергии в энергосистемах Порт-Морсби и Раму). [Выручка: 300 млн $, Чистая прибыль: -15 млн $, Штат: 2 200 чел., Руководитель: Нехемия Нарис (Nehemaiah Naris), с 2024 года, 1975 г.р.]. Официальные источники: https://www.pngpower.com.pg/, https://www.pngpower.com.pg/investors (Годовой",
+				"en": "PNG Power Limited (PPL) — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 172,
+				"profit": 11,
+				"debt": 87,
+				"money": 36,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 123
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 430,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4456,
+					"д": 147.1507,
+					"province": 547,
+					"staff": 129,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "digicel_png",
+			"название": {
+				"ru": "Digicel PNG",
+				"en": "Digicel PNG"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Порт-Морсби — доминирующий оператор мобильной связи и цифровых сервисов страны (входит в австралийскую телеком-группу Telstra). [Выручка: 420 млн $, Чистая прибыль: 90 млн $, Штат: 1 100 чел., Руководитель: Колин Стоун (Colin Stone), генеральный директор с 2020 года, 1972 г.р.]. Официальные источники: https://www.digicelgroup.com/pg/en.html, https://www.digicelgroup.com/investors (Годовой отчет / ",
+				"en": "Digicel PNG — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 158,
+				"profit": 11,
+				"debt": 80,
+				"money": 33,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 113
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 395,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4696,
+					"д": 147.1336,
+					"province": 547,
+					"staff": 118,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "steamships_trading",
+			"название": {
+				"ru": "Steamships Trading Company",
+				"en": "Steamships Trading Company"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Порт-Морсби — старейший диверсифицированный частный холдинг (судоходство Pacific Palms, портовая логистика Consort Express Lines, отели Coral Sea Hotels). [Выручка: 200 млн $ (760 млн PGK), Чистая прибыль: 30 млн $, Штат: 3 000 чел., Руководитель: Руперт Брей (Rupert Bray), управляющий директор с 2020 года, 1974 г.р.]. Официальные источники: https://www.steamships.com.pg/, https://www.steamships.c",
+				"en": "Steamships Trading Company — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 144,
+				"profit": 10,
+				"debt": 73,
+				"money": 30,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4956,
+					"д": 147.1381,
+					"province": 547,
+					"staff": 108,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kina_securities",
+			"название": {
+				"ru": "Kina Securities Limited (Kina Bank)",
+				"en": "Kina Securities Limited (Kina Bank)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Порт-Морсби — второй по величине коммерческий банк и ведущая инвестиционно-управляющая компания ПНГ. [Выручка: 120 млн $ (450 млн PGK), Чистая прибыль: 35 млн $, Штат: 800 чел., Руководитель: Грег Посон (Greg Pawson), с 2018 года, 1966 г.р.]. Официальные источники: https://www.kinabank.com.pg/investor-relations/",
+				"en": "Kina Securities Limited (Kina Bank) — a transport company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 130,
+				"profit": 9,
+				"debt": 66,
+				"money": 27,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 93
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 325,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4584,
+					"д": 147.124,
+					"province": 547,
+					"staff": 97,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pngdf_engineering",
+			"название": {
+				"ru": "PNGDF Engineering Battalion",
+				"en": "PNGDF Engineering Battalion"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Казарма Игавама, Лаэ — главное военно-инженерное подразделение Сил обороны Папуа — Новой Гвинеи (PNGDF): строительство защищенных объектов, ремонт военной тяжелой техники, мостоукладчиков, расчистка и поддержание взлетно-посадочных полос в труднодоступных горных районах. (Военно-инженерное строительство, фортификация, обслуживание тяжелой строительной и бронетехники.) [Выручка: 20 млн $, Чистая пр",
+				"en": "PNGDF Engineering Battalion — a defence company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 50,
+				"profit": 3,
+				"debt": 13,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 94
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 150,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4522,
+					"д": 147.1788,
+					"province": 547,
+					"staff": 45,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pngdf_maritime",
+			"название": {
+				"ru": "PNGDF Maritime Element & Lombrum Naval Base",
+				"en": "PNGDF Maritime Element & Lombrum Naval Base"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская база Ломбрум, остров Манус / База Базилиск, Порт-Морсби — стратегическая военно-морская база и судоремонтный слипвей (совместно модернизированные Австралией и США): обслуживание и боевое применение патрульных катеров класса Guardian (HMPNGS Ted Diro, Rochus Lokinap, Francis Agwi, Gilbert Toropo) охраны морских границ и исключительной экономической зоны. (Ремонт патрульных катеров, н",
+				"en": "PNGDF Maritime Element & Lombrum Naval Base — a defence company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 44,
+				"profit": 3,
+				"debt": 11,
+				"money": 7,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 82
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 132,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4724,
+					"д": 147.1544,
+					"province": 547,
+					"staff": 39,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pngdf_air",
+			"название": {
+				"ru": "PNGDF Air Transport Wing",
+				"en": "PNGDF Air Transport Wing"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Аэропорт Джексонс, Порт-Морсби — военная авиационно-техническая база: регламентное обслуживание и эксплуатация военно-транспортных самолетов PAC 750XL, CASA CN-235 и вертолетов Bell 212 для переброски войск и гуманитарных операций. (ТОиР военно-транспортных самолетов, вертолетная логистика, десантные операции.) [Выручка: 15 млн $, Чистая прибыль: 1 млн $, Штат: 250 чел.]. Официальные источники: ht",
+				"en": "PNGDF Air Transport Wing — a defence company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 38,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 71
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 114,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.48,
+					"д": 147.1671,
+					"province": 547,
+					"staff": 34,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pngdf_logistics",
+			"название": {
+				"ru": "PNGDF Logistics & Ordnance Depot",
+				"en": "PNGDF Logistics & Ordnance Depot"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Казарма Мюррей, Порт-Морсби — центральный арсенал, база боепитания и мастерские по ремонту стрелкового оружия (штурмовые винтовки M16, F88 Austeyr, пулеметы FN MAG) и тактического автотранспорта армии. (Армейская логистика, ремонт стрелкового оружия, безопасное хранение боеприпасов.) [Выручка: 15 млн $, Чистая прибыль: 1 млн $, Штат: 350 чел.]. Официальные источники: https://defence.gov.pg/",
+				"en": "PNGDF Logistics & Ordnance Depot — a defence company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 32,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Папуа — Новая Гвинея)",
+						"en": "The state (Papua New Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Папуа — Новая Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 96,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4491,
+					"д": 147.1764,
+					"province": 547,
+					"staff": 28,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pacific_marine",
+			"название": {
+				"ru": "Pacific Marine Group PNG / Port Moresby Slipways",
+				"en": "Pacific Marine Group PNG / Port Moresby Slipways"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Порт-Морсби — частная сертифицированная судоремонтная верфь, выполняющая межпоходовый ремонт катеров береговой охраны, морской полиции и вспомогательных судов снабжения PNGDF. (Докование катеров, ремонт дизельных силовых установок Caterpillar и MTU, электроника связи.) [Выручка: 12 млн $, Чистая прибыль: 1 млн $, Штат: 150 чел., Руководитель: Скотт Хиггинс (Scott Higgins), управляющий директор, 19",
+				"en": "Pacific Marine Group PNG / Port Moresby Slipways — a defence company of Papua New Guinea."
+			},
+			"fundamental": {
+				"выручка": 26,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 49
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 78,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт Морсби",
+						"en": "Port Moresby"
+					},
+					"ш": -9.4691,
+					"д": 147.1202,
+					"province": 547,
+					"staff": 23,
+					"fine": 3248
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

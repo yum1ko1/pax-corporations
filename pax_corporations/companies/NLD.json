@@ -1,0 +1,2731 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Нидерланды",
+	"iso": "NLD",
+	"data_date": "2026-03",
+	"average_wage": 4800,
+	"companies": [
+		{
+			"id": "asml",
+			"название": {
+				"ru": "ASML",
+				"en": "ASML"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Единственный в мире производитель EUV-литографов для чипов.",
+				"en": "The world's only maker of EUV chip lithography machines."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 8200,
+				"debt": 4000,
+				"money": 13000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 393,
+				"market_cap": 300000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристоф Фуке",
+					"en": "Christophe Fouquet"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз-инженер, держит монополию",
+					"en": "француз-инженер, держит монополию"
+				}
+			},
+			"staff": 44000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Велдховен",
+						"en": "Veldhoven"
+					},
+					"ш": 51.42,
+					"д": 5.4,
+					"province": 651,
+					"staff": 20000,
+					"fine": 2951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.asml.com/en/investors/annual-report | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "prosus",
+			"название": {
+				"ru": "Prosus",
+				"en": "Prosus"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Интернет-холдинг: крупная доля в Tencent, сервисы доставки.",
+				"en": "An internet holding: a big stake in Tencent, delivery services."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 12000,
+				"debt": 15000,
+				"money": 17000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2400,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Naspers",
+						"en": "Naspers"
+					},
+					"type": "company",
+					"доля": 0.43,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.57
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фабрисио Блоизи",
+					"en": "Fabricio Bloisi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бразилец, превращает холдинг в оператора",
+					"en": "бразилец, превращает холдинг в оператора"
+				}
+			},
+			"staff": 21000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.34,
+					"д": 4.87,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.prosus.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ing",
+			"название": {
+				"ru": "ING Group",
+				"en": "ING Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Крупнейший банк Нидерландов.",
+				"en": "The Netherlands' largest bank."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 6900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 3200,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стивен ван Ряйсвейк",
+					"en": "Steven van Rijswijk"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "риск-менеджер",
+					"en": "риск-менеджер"
+				}
+			},
+			"staff": 60000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам, Зёйдас",
+						"en": "Amsterdam Zuidas"
+					},
+					"ш": 52.34,
+					"д": 4.87,
+					"province": 651,
+					"staff": 12000,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ing.com/Investor-relations.htm | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "heineken",
+			"название": {
+				"ru": "Heineken",
+				"en": "Heineken"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1864,
+			"description": {
+				"ru": "Второй пивовар мира.",
+				"en": "The world's second brewer."
+			},
+			"fundamental": {
+				"выручка": 38000,
+				"profit": 1100,
+				"debt": 18000,
+				"money": 2000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 570,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Хейнекен (L'Arche Green)",
+						"en": "Heineken family (L'Arche Green)"
+					},
+					"type": "founder",
+					"доля": 0.26
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дольф ван ден Бринк",
+					"en": "Dolf van den Brink"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пивовар, режет расходы",
+					"en": "пивовар, режет расходы"
+				}
+			},
+			"staff": 88000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.36,
+					"д": 4.89,
+					"province": 651,
+					"staff": 3000,
+					"fine": 2954
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пивоварня Зутервуде",
+						"en": "Zoeterwoude brewery"
+					},
+					"ш": 52.12,
+					"д": 4.5,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.theheinekencompany.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ahold",
+			"название": {
+				"ru": "Ahold Delhaize",
+				"en": "Ahold Delhaize"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1887,
+			"description": {
+				"ru": "Супермаркеты Albert Heijn, Food Lion, Delhaize.",
+				"en": "Albert Heijn, Food Lion, Delhaize supermarkets."
+			},
+			"fundamental": {
+				"выручка": 97000,
+				"profit": 2000,
+				"debt": 18000,
+				"money": 3000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 920,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франс Мюллер",
+					"en": "Frans Muller"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бережливый розничник",
+					"en": "бережливый розничник"
+				}
+			},
+			"staff": 400000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Зандам",
+						"en": "Zaandam"
+					},
+					"ш": 52.44,
+					"д": 4.83,
+					"province": 651,
+					"staff": 5000,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aholddelhaize.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "philips",
+			"название": {
+				"ru": "Philips",
+				"en": "Philips"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1891,
+			"description": {
+				"ru": "Медицинская техника, после отзыва аппаратов для сна.",
+				"en": "Medical technology, after the sleep-device recall."
+			},
+			"fundamental": {
+				"выручка": 19500,
+				"profit": -500,
+				"debt": 8000,
+				"money": 2000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 930,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Exor (Аньелли)",
+						"en": "Exor (Agnelli)"
+					},
+					"type": "company",
+					"доля": 0.17,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рой Якобс",
+					"en": "Roy Jakobs"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чинит репутацию",
+					"en": "чинит репутацию"
+				}
+			},
+			"staff": 67000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.35,
+					"д": 4.9,
+					"province": 651,
+					"staff": 2000,
+					"fine": 2954
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Эйндховен",
+						"en": "Eindhoven"
+					},
+					"ш": 51.44,
+					"д": 5.47,
+					"province": 651,
+					"staff": 6000,
+					"fine": 2951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.results.philips.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "adyen",
+			"название": {
+				"ru": "Adyen",
+				"en": "Adyen"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Платёжная платформа для глобальных брендов.",
+				"en": "A payment platform for global brands."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 900,
+				"debt": 0,
+				"money": 10000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 31,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Питер ван дер Дус",
+						"en": "Pieter van der Does"
+					},
+					"type": "founder",
+					"доля": 0.03
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.97
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Питер ван дер Дус",
+					"en": "Pieter van der Does"
+				},
+				"роль": "founder",
+				"с_года": 2006,
+				"born_year": 1969,
+				"доля": 0.03,
+				"характер": {
+					"ru": "основатель, аскетичный технарь",
+					"en": "основатель, аскетичный технарь"
+				}
+			},
+			"staff": 4300,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.37,
+					"д": 4.9,
+					"province": 651,
+					"staff": 2500,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.adyen.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "wolterskluwer",
+			"название": {
+				"ru": "Wolters Kluwer",
+				"en": "Wolters Kluwer"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1836,
+			"description": {
+				"ru": "Профессиональная информация для врачей, юристов, бухгалтеров.",
+				"en": "Professional information for doctors, lawyers, accountants."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 1300,
+				"debt": 4000,
+				"money": 1000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 235,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нэнси Маккинстри",
+					"en": "Nancy McKinstry"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2003,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американка, перевела издателя в софт",
+					"en": "американка, перевела издателя в софт"
+				}
+			},
+			"staff": 21000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алфен-ан-ден-Рейн",
+						"en": "Alphen aan den Rijn"
+					},
+					"ш": 52.13,
+					"д": 4.66,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.wolterskluwer.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "abnamro",
+			"название": {
+				"ru": "ABN AMRO",
+				"en": "ABN AMRO"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1991,
+			"description": {
+				"ru": "Банк, спасённый государством в 2008 году.",
+				"en": "A bank rescued by the state in 2008."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 2600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 830,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Нидерландов (NLFI)",
+						"en": "The Dutch state (NLFI)"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Нидерланды"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маргерит Берар",
+					"en": "Marguerite Bérard"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француженка",
+					"en": "француженка"
+				}
+			},
+			"staff": 21000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам, Зёйдас",
+						"en": "Amsterdam Zuidas"
+					},
+					"ш": 52.34,
+					"д": 4.87,
+					"province": 651,
+					"staff": 8000,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.abnamro.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "rabobank",
+			"название": {
+				"ru": "Rabobank",
+				"en": "Rabobank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1898,
+			"description": {
+				"ru": "Кооперативный банк фермеров, крупнейший агробанк мира.",
+				"en": "The farmers' cooperative bank, the world's largest agri-bank."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 3800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Кооперативные банки-члены",
+						"en": "Member cooperative banks"
+					},
+					"type": "сама",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стефан Декрене",
+					"en": "Stefaan Decraene"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бельгиец",
+					"en": "бельгиец"
+				}
+			},
+			"staff": 43000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Утрехт",
+						"en": "Utrecht"
+					},
+					"ш": 52.09,
+					"д": 5.12,
+					"province": 651,
+					"staff": 8000,
+					"fine": 2952
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.rabobank.com/about-us/results-and-reports | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "nn",
+			"название": {
+				"ru": "NN Group",
+				"en": "NN Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1845,
+			"description": {
+				"ru": "Страхование жизни и пенсии.",
+				"en": "Life insurance and pensions."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 1800,
+				"debt": 5000,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 270,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Давид Кнайбюлер",
+					"en": "David Knibbe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 16000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гаага",
+						"en": "The Hague"
+					},
+					"ш": 52.08,
+					"д": 4.3,
+					"province": 651,
+					"staff": 5000,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nn-group.com/investors.htm | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "aegon",
+			"название": {
+				"ru": "Aegon",
+				"en": "Aegon"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Страховщик, переезжающий в США.",
+				"en": "An insurer moving to the US."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 800,
+				"debt": 5000,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1600,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларс Фриберг",
+					"en": "Lard Friese"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор",
+					"en": "реформатор"
+				}
+			},
+			"staff": 17000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гаага",
+						"en": "The Hague"
+					},
+					"ш": 52.08,
+					"д": 4.31,
+					"province": 651,
+					"staff": 2000,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aegon.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "umg",
+			"название": {
+				"ru": "Universal Music Group",
+				"en": "Universal Music Group"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1934,
+			"description": {
+				"ru": "Крупнейший музыкальный лейбл мира.",
+				"en": "The world's largest music label."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 2200,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1830,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Bolloré",
+						"en": "Bolloré"
+					},
+					"type": "company",
+					"доля": 0.18,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Tencent",
+						"en": "Tencent"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.62
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Люсьен Грейндж",
+					"en": "Lucian Grainge"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "магнат музыки",
+					"en": "магнат музыки"
+				}
+			},
+			"staff": 10000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хилверсюм",
+						"en": "Hilversum"
+					},
+					"ш": 52.22,
+					"д": 5.17,
+					"province": 651,
+					"staff": 600,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.universalmusic.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dsmfirmenich",
+			"название": {
+				"ru": "DSM-Firmenich",
+				"en": "DSM-Firmenich"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Витамины, ароматы и пищевые ингредиенты.",
+				"en": "Vitamins, fragrances and food ingredients."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 600,
+				"debt": 5000,
+				"money": 2000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 265,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Фирмених",
+						"en": "The Firmenich family"
+					},
+					"type": "крупный",
+					"доля": 0.15,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дмитрий де Врер",
+					"en": "Dimitri de Vreeze"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 28000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Керкраде",
+						"en": "Kerkrade"
+					},
+					"ш": 50.87,
+					"д": 6.06,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.dsm-firmenich.com/corporate/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "akzonobel",
+			"название": {
+				"ru": "AkzoNobel",
+				"en": "AkzoNobel"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Краски Dulux и промышленные покрытия.",
+				"en": "Dulux paints and industrial coatings."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 600,
+				"debt": 4500,
+				"money": 1000,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 171,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Грегуар Пу-Гийо",
+					"en": "Greg Poux-Guillaume"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз",
+					"en": "француз"
+				}
+			},
+			"staff": 34000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.34,
+					"д": 4.86,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.akzonobel.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "kpn",
+			"название": {
+				"ru": "KPN",
+				"en": "KPN"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1989,
+			"description": {
+				"ru": "Главный оператор связи Нидерландов.",
+				"en": "The Netherlands' main telecom."
+			},
+			"fundamental": {
+				"выручка": 6100,
+				"profit": 900,
+				"debt": 7000,
+				"money": 500,
+				"dividends": 650
+			},
+			"рынок": {
+				"shares_mln": 3900,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йост Фаркас",
+					"en": "Joost Farwerck"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком-менеджер",
+					"en": "телеком-менеджер"
+				}
+			},
+			"staff": 9500,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Роттердам",
+						"en": "Rotterdam"
+					},
+					"ш": 51.91,
+					"д": 4.48,
+					"province": 651,
+					"staff": 3000,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.kpn.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "asmi",
+			"название": {
+				"ru": "ASM International",
+				"en": "ASM International"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Оборудование для осаждения слоёв на чипах.",
+				"en": "Deposition equipment for chips."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 700,
+				"debt": 0,
+				"money": 1000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 49,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хишам Мсаад",
+					"en": "Hichem M'Saad"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 4500,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алмере",
+						"en": "Almere"
+					},
+					"ш": 52.37,
+					"д": 5.22,
+					"province": 651,
+					"staff": 1000,
+					"fine": 2964
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.asm.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "randstad",
+			"название": {
+				"ru": "Randstad",
+				"en": "Randstad"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1960,
+			"description": {
+				"ru": "Второе кадровое агентство мира.",
+				"en": "The world's second staffing agency."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 300,
+				"debt": 2000,
+				"money": 400,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 175,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фриц Гольдшмединг",
+						"en": "Frits Goldschmeding"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сандер ван т Ноордэнде",
+					"en": "Sander van t Noordende"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "консультант",
+					"en": "консультант"
+				}
+			},
+			"staff": 40000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Димен",
+						"en": "Diemen"
+					},
+					"ш": 52.34,
+					"д": 4.96,
+					"province": 651,
+					"staff": 2000,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.randstad.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "nxp",
+			"название": {
+				"ru": "NXP Semiconductors",
+				"en": "NXP Semiconductors"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Чипы для автомобилей и платежей.",
+				"en": "Chips for cars and payments."
+			},
+			"fundamental": {
+				"выручка": 12600,
+				"profit": 2500,
+				"debt": 10000,
+				"money": 3000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 254,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рафаэль Сотомайор",
+					"en": "Rafael Sotomayor"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "автомобильные чипы",
+					"en": "автомобильные чипы"
+				}
+			},
+			"staff": 33000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эйндховен",
+						"en": "Eindhoven"
+					},
+					"ш": 51.45,
+					"д": 5.46,
+					"province": 651,
+					"staff": 3000,
+					"fine": 2951
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Неймеген",
+						"en": "Nijmegen"
+					},
+					"ш": 51.84,
+					"д": 5.86,
+					"province": 651,
+					"staff": 1500,
+					"fine": 2960
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.nxp.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vitol",
+			"название": {
+				"ru": "Vitol",
+				"en": "Vitol"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Крупнейший независимый нефтетрейдер мира.",
+				"en": "The world's largest independent oil trader."
+			},
+			"fundamental": {
+				"выручка": 330000,
+				"profit": 8000,
+				"debt": 20000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Партнёры-сотрудники",
+						"en": "Employee partners"
+					},
+					"type": "сама",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рассел Харди",
+					"en": "Russell Hardy"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "трейдер",
+					"en": "трейдер"
+				}
+			},
+			"staff": 1700,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Роттердам",
+						"en": "Rotterdam"
+					},
+					"ш": 51.92,
+					"д": 4.47,
+					"province": 651,
+					"staff": 700,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.vitol.com/financial-results/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "royal_frieslandcampina",
+			"название": {
+				"ru": "Royal FrieslandCampina",
+				"en": "Royal FrieslandCampina"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Амерсфорт — мировой молочный и пищевой кооператив. [Выручка: 14 200 млн $ (13 100 млн €), Чистая прибыль: 250 млн $, Штат: 21 000 чел., Руководитель: Ян Дерк ван Карнебек (Jan Derck van Karnebeek), с 2023 года, 1967 г.р.]. Официальные источники: https://www.frieslandcampina.com/financial-reports/, https://www.frieslandcampina.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Royal FrieslandCampina — a consumer and retail company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 5425,
+				"profit": 422,
+				"debt": 1252,
+				"money": 452,
+				"dividends": 127
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7432
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 16275,
+			"wage": 5333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амерсфорт",
+						"en": "Amersfoort"
+					},
+					"ш": 52.123,
+					"д": 5.3854,
+					"province": 651,
+					"staff": 4882,
+					"fine": 2952
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "shv_holdings",
+			"название": {
+				"ru": "SHV Holdings",
+				"en": "SHV Holdings"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Утрехт — крупнейший диверсифицированный частный конгломерат (Makro, SHV Energy, Nutreco, Mammoet, Eriks). [Выручка: 28 500 млн $ (26 000 млн €), Чистая прибыль: 1 100 млн $, Штат: 60 000 чел., Руководитель: Йерун Дрост (Jeroen Drost), с 2016 года, 1961 г.р.]. Официальные источники: https://www.shv.nl/, https://www.shv.nl/investors (Годовой отчет / Раскрытие информации)",
+				"en": "SHV Holdings — a consumer and retail company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 5250,
+				"profit": 408,
+				"debt": 1212,
+				"money": 438,
+				"dividends": 122
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7192
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15750,
+			"wage": 5333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Утрехт",
+						"en": "Utrecht"
+					},
+					"ш": 52.1283,
+					"д": 5.0962,
+					"province": 651,
+					"staff": 4725,
+					"fine": 2952
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_boskalis",
+			"название": {
+				"ru": "Royal Boskalis",
+				"en": "Royal Boskalis"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Папендрехт — мировой лидер дноуглубительных, шельфовых и морских инфраструктурных работ. [Выручка: 4 500 млн $ (4 200 млн €), Чистая прибыль: 650 млн $, Штат: 10 000 чел., Руководитель: Петер Бердовски (Peter Berdowski), с 2001 года, 1957 г.р.]. Официальные источники: https://boskalis.com/, https://boskalis.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Royal Boskalis — a transport company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 5075,
+				"profit": 338,
+				"debt": 2563,
+				"money": 1050,
+				"dividends": 101
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3625
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12687,
+			"wage": 7855,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Папендрехт",
+						"en": "Papendrecht"
+					},
+					"ш": 51.8091,
+					"д": 4.6957,
+					"province": 651,
+					"staff": 3806,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_vopak",
+			"название": {
+				"ru": "Royal Vopak",
+				"en": "Royal Vopak"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Роттердам — ведущий мировой оператор терминалов хранения нефти, химикатов, СПГ и водорода. [Выручка: 1 600 млн $ (1 480 млн €), Чистая прибыль: 450 млн $, Штат: 5 700 чел., Руководитель: Дик Рихелле (Dick Richelle), с 2022 года, 1971 г.р.]. Официальные источники: https://www.vopak.com/investors",
+				"en": "Royal Vopak — a oil and gas company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4900,
+				"profit": 292,
+				"debt": 1381,
+				"money": 465,
+				"dividends": 88
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3048
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4284,
+			"wage": 8587,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Роттердам",
+						"en": "Rotterdam"
+					},
+					"ш": 51.9277,
+					"д": 4.5098,
+					"province": 651,
+					"staff": 1285,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "damen_shipyards",
+			"название": {
+				"ru": "Damen Shipyards Group",
+				"en": "Damen Shipyards Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Горинхем — международный судостроительный гигант (буксиры, паромы, патрульные суда, яхты, офшорные суда). [Выручка: 3 400 млн $ (3 100 млн €), Чистая прибыль: 120 млн $, Штат: 12 500 чел., Руководитель: Арноут Дамен (Arnout Damen), с 2020 года, 1971 г.р.]. Официальные источники: https://www.damen.com/, https://www.damen.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Damen Shipyards Group — a transport company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4655,
+				"profit": 310,
+				"debt": 2351,
+				"money": 963,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3325
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11637,
+			"wage": 7855,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Горинхем",
+						"en": "Gorinchem"
+					},
+					"ш": 51.8436,
+					"д": 4.9811,
+					"province": 651,
+					"staff": 3491,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fugro",
+			"название": {
+				"ru": "Fugro",
+				"en": "Fugro"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Лейдсендам — глобальный лидер геоданных, батиметрии и инженерно-геологических изысканий для шельфовой энергетики. [Выручка: 2 400 млн $ (2 200 млн €), Чистая прибыль: 270 млн $, Штат: 10 500 чел., Руководитель: Марк Хейне (Mark Heine), с 2018 года, 1973 г.р.]. Официальные источники: https://www.fugro.com/investors",
+				"en": "Fugro — a energy company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4410,
+				"profit": 408,
+				"debt": 2680,
+				"money": 564,
+				"dividends": 122
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5816
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7845,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.3362,
+					"д": 4.9234,
+					"province": 651,
+					"staff": 2353,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "signify",
+			"название": {
+				"ru": "Signify",
+				"en": "Signify"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Эйндховен — мировой лидер осветительных технологий и IoT-света (бывшая Philips Lighting). [Выручка: 7 300 млн $ (6 700 млн €), Чистая прибыль: 240 млн $, Штат: 32 000 чел., Руководитель: Эрик Рондола (Eric Rondolat), с 2012 года, 1966 г.р.]. Официальные источники: https://www.signify.com/global/our-company/investors",
+				"en": "Signify — a consumer and retail company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4392,
+				"profit": 342,
+				"debt": 1014,
+				"money": 366,
+				"dividends": 103
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6016
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13176,
+			"wage": 5333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эйндховен",
+						"en": "Eindhoven"
+					},
+					"ш": 51.4405,
+					"д": 5.4457,
+					"province": 651,
+					"staff": 3952,
+					"fine": 2951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "koninklijke_bam",
+			"название": {
+				"ru": "Koninklijke BAM Groep",
+				"en": "Koninklijke BAM Groep"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Бюнник — крупнейший строительный холдинг Нидерландов и Северо-Западной Европы. [Выручка: 7 000 млн $ (6 300 млн €), Чистая прибыль: 180 млн $, Штат: 13 500 чел., Руководитель: Рууд Йостен (Ruud Joosten), с 2020 года, 1964 г.р.]. Официальные источники: https://www.bam.com/en/investor-relations",
+				"en": "Koninklijke BAM Groep — a construction company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4375,
+				"profit": 365,
+				"debt": 1697,
+				"money": 574,
+				"dividends": 110
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5518
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13762,
+			"wage": 6140,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.3957,
+					"д": 4.9009,
+					"province": 651,
+					"staff": 4128,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vdl_groep",
+			"название": {
+				"ru": "VDL Groep",
+				"en": "VDL Groep"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Эйндховен — крупнейший частный индустриальный конгломерат (VDL Nedcar, электробусы, мехатроника и компоненты для ASML). [Выручка: 6 800 млн $, Чистая прибыль: 150 млн $, Штат: 15 000 чел., Руководитель: Виллем ван дер Легте (Willem van der Leegte), с 2016 года, 1981 г.р.]. Официальные источники: https://www.vdlgroep.com/, https://www.vdlgroep.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "VDL Groep — a energy company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": 388,
+				"debt": 2552,
+				"money": 538,
+				"dividends": 116
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5539
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7472,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эйндховен",
+						"en": "Eindhoven"
+					},
+					"ш": 51.4221,
+					"д": 5.4876,
+					"province": 651,
+					"staff": 2241,
+					"fine": 2951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_schiphol",
+			"название": {
+				"ru": "Royal Schiphol Group",
+				"en": "Royal Schiphol Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Амстердам/Схипхол — оператор амстердамского международного хаба Схипхол, аэропортов Эйндховен и Роттердам. [Выручка: 2 100 млн $, Чистая прибыль: 100 млн $, Штат: 3 000 чел., Руководитель: Питер ван Оорд (Pieter van Oord), с 2024 года, 1961 г.р.]. Официальные источники: https://www.schiphol.nl/en/corporate/, https://www.schiphol.nl/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Royal Schiphol Group — a transport company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 4025,
+				"profit": 268,
+				"debt": 2033,
+				"money": 833,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2875
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10062,
+			"wage": 7855,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Роттердам",
+						"en": "Rotterdam"
+					},
+					"ш": 51.9395,
+					"д": 4.4864,
+					"province": 651,
+					"staff": 3018,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thales_nederland",
+			"название": {
+				"ru": "Thales Nederland",
+				"en": "Thales Nederland"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2010,
+			"description": {
+				"ru": "Хенгело / Хёйзен / Делфт — ведущий разработчик и производитель военно-морских РЛС (SMART-L MM, APAR 3D, NS100, Scout) и боевых систем TACTICOS. (Корабельные РЛС раннего предупреждения, системы ПВО/ПРО, СУО и интеграция сенсоров.) [Выручка: 750 млн $, Чистая прибыль: 65 млн $, Штат: 2 500 чел., Руководитель: Гербен Эделейн (Gerben Edelijn), с 2010 года, 1962 г.р.]. Официальные источники: https://ww",
+				"en": "Thales Nederland — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 105,
+				"debt": 405,
+				"money": 242,
+				"dividends": 32
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2953
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4725,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Делфт",
+						"en": "Delft"
+					},
+					"ш": 51.9857,
+					"д": 4.3459,
+					"province": 651,
+					"staff": 1417,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "damen_naval",
+			"название": {
+				"ru": "Damen Naval",
+				"en": "Damen Naval"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Флиссинген — головной строитель надводных боевых кораблей ВМС Нидерландов, Бельгии и Германии (фрегаты ASWF, F126, корветы SIGMA, десантные вертолетоносцы LPD). (Проектирование и постройка фрегатов нового поколения, патрульных и десантных кораблей.) [Выручка: 1 100 млн $, Чистая прибыль: 70 млн $, Штат: 1 800 чел., Руководитель: Роланд Брине (Roland Briene), управляющий директор с 2023 года, 1973 ",
+				"en": "Damen Naval — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 1425,
+				"profit": 95,
+				"debt": 366,
+				"money": 219,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2672
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4275,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.3526,
+					"д": 4.9047,
+					"province": 651,
+					"staff": 1282,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "daf_trucks",
+			"название": {
+				"ru": "DAF Trucks Defence",
+				"en": "DAF Trucks Defence"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Эйндховен — специализированное подразделение оборонных платформ DAF/PACCAR (тяжелые военные грузовики CF Military 4x4/8x8, танковозы Tropco). (Защищенные тактические грузовики и системы тылового обеспечения ВС Нидерландов и Бельгии.) [Выручка: 350 млн $, Чистая прибыль: 25 млн $, Штат: 1 200 чел., Руководитель: Харальд Зайдель (Harald Seidel), президент DAF Trucks с 2022 года, 1976 г.р.]. Официаль",
+				"en": "DAF Trucks Defence — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 80,
+				"debt": 309,
+				"money": 185,
+				"dividends": 24
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эйндховен",
+						"en": "Eindhoven"
+					},
+					"ш": 51.4572,
+					"д": 5.4572,
+					"province": 651,
+					"staff": 1080,
+					"fine": 2951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defenture",
+			"название": {
+				"ru": "Defenture",
+				"en": "Defenture"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Венло — разработчик легких тактических платформ и бронеавтомобилей специального назначения (VECTOR / GRF 5.12, Mammoth, ATTV). (Легкие аэромобильные тактические машины спецназа Нидерландов (KCT), Германии (KSK) и Швейцарии.) [Выручка: 85 млн $, Чистая прибыль: 10 млн $, Штат: 180 чел., Руководитель: Хенк ван дер Схер (Henk van der Scheer), с 2020 года, 1964 г.р.]. Официальные источники: https://ww",
+				"en": "Defenture — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 975,
+				"profit": 65,
+				"debt": 251,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1828
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2925,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Венло",
+						"en": "Venlo"
+					},
+					"ш": 51.393,
+					"д": 6.1572,
+					"province": 651,
+					"staff": 877,
+					"fine": 2962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fokker_services",
+			"название": {
+				"ru": "Fokker Services Group / GKN Aerospace Netherlands",
+				"en": "Fokker Services Group / GKN Aerospace Netherlands"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2021,
+			"description": {
+				"ru": "Папендрехт / Хогевен / Вунсдрехт — авиационно-космический оборонный кластер: производство компонентов F-35 Lightning II (створки шасси, проводка, композиты), ТОиР вертолетов NH90 и CH-47 Chinook. (Авиационные оборонные композиты, модернизация авионики и военное техобслуживание ВВС.) [Выручка: 450 млн $, Чистая прибыль: 30 млн $, Штат: 2 000 чел., Руководитель: Роланд ван Дейк (Roland van Dijk), с ",
+				"en": "Fokker Services Group / GKN Aerospace Netherlands — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 945,
+				"profit": 63,
+				"debt": 243,
+				"money": 145,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1772
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2835,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Папендрехт",
+						"en": "Papendrecht"
+					},
+					"ш": 51.8129,
+					"д": 4.6482,
+					"province": 651,
+					"staff": 850,
+					"fine": 2953
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "robin_radar",
+			"название": {
+				"ru": "Robin Radar Systems",
+				"en": "Robin Radar Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2010,
+			"description": {
+				"ru": "Гаага — мировой лидер специализированных радарных комплексов обнаружения БПЛА (C-UAS IRIS) и мониторинга птиц на военных авиабазах. (Радары противодействия дронам (3D micro-radar systems), защита критической инфраструктуры НАТО.) [Выручка: 40 млн $, Чистая прибыль: 8 млн $, Штат: 150 чел., Руководитель: Сит Хамминга (Siete Hamminga), основатель и CEO с 2010 года, 1975 г.р.]. Официальные источники:",
+				"en": "Robin Radar Systems — a defence company of Netherlands."
+			},
+			"fundamental": {
+				"выручка": 915,
+				"profit": 61,
+				"debt": 235,
+				"money": 141,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1716
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нидерланды)",
+						"en": "The state (Netherlands)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нидерланды"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2745,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амстердам",
+						"en": "Amsterdam"
+					},
+					"ш": 52.3621,
+					"д": 4.8658,
+					"province": 651,
+					"staff": 823,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

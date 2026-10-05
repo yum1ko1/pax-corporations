@@ -1,0 +1,3948 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год (≈1,08 $/€), цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Франция",
+	"iso": "FRA",
+	"data_date": "2026-03",
+	"average_wage": 4000,
+	"companies": [
+		{
+			"id": "lvmh",
+			"название": {
+				"ru": "LVMH",
+				"en": "LVMH"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Крупнейшая люксовая империя мира: Louis Vuitton, Dior, Moët.",
+				"en": "The world's largest luxury empire: Louis Vuitton, Dior, Moët."
+			},
+			"fundamental": {
+				"выручка": 91000,
+				"profit": 13500,
+				"debt": 40000,
+				"money": 11000,
+				"dividends": 6500
+			},
+			"рынок": {
+				"shares_mln": 500,
+				"market_cap": 320000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Арно",
+						"en": "The Arnault family"
+					},
+					"type": "крупный",
+					"доля": 0.48,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бернар Арно",
+					"en": "Bernard Arnault"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1989,
+				"born_year": 1949,
+				"доля": 0.48,
+				"характер": {
+					"ru": "богатейший человек Европы, растит детей-наследников",
+					"en": "богатейший человек Европы, растит детей-наследников"
+				}
+			},
+			"staff": 215000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Авеню Монтень, Париж",
+						"en": "Avenue Montaigne, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.3,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мастерские Louis Vuitton, Аньер",
+						"en": "Louis Vuitton workshops, Asnières"
+					},
+					"ш": 48.91,
+					"д": 2.28,
+					"province": 650,
+					"staff": 1500,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Moët & Chandon, Эперне",
+						"en": "Moët & Chandon, Épernay"
+					},
+					"ш": 49.04,
+					"д": 3.96,
+					"province": 940,
+					"staff": 1500,
+					"fine": 1161
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lvmh.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hermes",
+			"название": {
+				"ru": "Hermès",
+				"en": "Hermès"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1837,
+			"description": {
+				"ru": "Самый прибыльный люксовый дом: сумки Birkin.",
+				"en": "The most profitable luxury house: Birkin bags."
+			},
+			"fundamental": {
+				"выручка": 16500,
+				"profit": 5000,
+				"debt": 1000,
+				"money": 10000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 105,
+				"market_cap": 270000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Эрмес",
+						"en": "The Hermès family"
+					},
+					"type": "крупный",
+					"доля": 0.66,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.34
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аксель Дюма",
+					"en": "Axel Dumas"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2013,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "шестое поколение семьи, бережёт ремесло",
+					"en": "шестое поколение семьи, бережёт ремесло"
+				}
+			},
+			"staff": 25000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.32,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кожевенные мастерские, Пантен",
+						"en": "Leather workshops, Pantin"
+					},
+					"ш": 48.9,
+					"д": 2.41,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://finance.hermes.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "loreal",
+			"название": {
+				"ru": "L'Oréal",
+				"en": "L'Oréal"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1909,
+			"description": {
+				"ru": "Крупнейшая косметическая компания мира.",
+				"en": "The world's largest cosmetics company."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 6800,
+				"debt": 12000,
+				"money": 4000,
+				"dividends": 3700
+			},
+			"рынок": {
+				"shares_mln": 535,
+				"market_cap": 230000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Беттанкур",
+						"en": "The Bettencourt family"
+					},
+					"type": "крупный",
+					"доля": 0.34,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Nestlé",
+						"en": "Nestlé"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.46
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Николя Иеронимус",
+					"en": "Nicolas Hieronimus"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог «красоты»",
+					"en": "маркетолог «красоты»"
+				}
+			},
+			"staff": 90000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Клиши",
+						"en": "Headquarters, Clichy"
+					},
+					"ш": 48.9,
+					"д": 2.31,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Орлеане",
+						"en": "Orléans plant"
+					},
+					"ш": 47.9,
+					"д": 1.9,
+					"province": 650,
+					"staff": 1000,
+					"fine": 1155
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.loreal-finance.com/eng | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "totalenergies",
+			"название": {
+				"ru": "TotalEnergies",
+				"en": "TotalEnergies"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1924,
+			"description": {
+				"ru": "Нефтегазовый гигант Франции, крупный игрок СПГ.",
+				"en": "France's oil and gas giant, a major LNG player."
+			},
+			"fundamental": {
+				"выручка": 210000,
+				"profit": 16000,
+				"debt": 55000,
+				"money": 25000,
+				"dividends": 8500
+			},
+			"рынок": {
+				"shares_mln": 2250,
+				"market_cap": 140000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Патрик Пуянне",
+					"en": "Patrick Pouyanné"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прямолинейный нефтяник, не боится Африки и России",
+					"en": "прямолинейный нефтяник, не боится Африки и России"
+				}
+			},
+			"staff": 100000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башня в Дефанс",
+						"en": "La Défense tower"
+					},
+					"ш": 48.89,
+					"д": 2.24,
+					"province": 650,
+					"staff": 8000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Гонфревиле",
+						"en": "Gonfreville refinery"
+					},
+					"ш": 49.48,
+					"д": 0.23,
+					"province": 940,
+					"staff": 2000,
+					"fine": 1181
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Исследовательский центр в По",
+						"en": "Pau research centre"
+					},
+					"ш": 43.3,
+					"д": -0.37,
+					"province": 648,
+					"staff": 2500,
+					"fine": 1174
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://totalenergies.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "airbus",
+			"название": {
+				"ru": "Airbus",
+				"en": "Airbus"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "смешанная",
+			"founded": 1970,
+			"description": {
+				"ru": "Крупнейший авиастроитель мира.",
+				"en": "The world's largest aircraft maker."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 4600,
+				"debt": 10000,
+				"money": 20000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 790,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.11,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Государство Германии",
+						"en": "The German state"
+					},
+					"type": "polity",
+					"доля": 0.11,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Государство Испании",
+						"en": "The Spanish state"
+					},
+					"type": "polity",
+					"доля": 0.04,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гийом Фори",
+					"en": "Guillaume Faury"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-вертолётчик, гонит темпы производства",
+					"en": "инженер-вертолётчик, гонит темпы производства"
+				}
+			},
+			"staff": 157000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира и сборка, Тулуза",
+						"en": "Headquarters and assembly, Toulouse"
+					},
+					"ш": 43.63,
+					"д": 1.36,
+					"province": 936,
+					"staff": 28000,
+					"fine": 1136
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Гамбурге",
+						"en": "Hamburg plant"
+					},
+					"ш": 53.54,
+					"д": 9.83,
+					"province": 182,
+					"staff": 15000,
+					"fine": 824
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Вертолёты, Мариньян",
+						"en": "Helicopters, Marignane"
+					},
+					"ш": 43.44,
+					"д": 5.21,
+					"province": 938,
+					"staff": 9000,
+					"fine": 1112
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.airbus.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "schneider",
+			"название": {
+				"ru": "Schneider Electric",
+				"en": "Schneider Electric"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1836,
+			"description": {
+				"ru": "Электротехника и автоматизация для дата-центров и сетей.",
+				"en": "Electrical equipment and automation for data centres and grids."
+			},
+			"fundamental": {
+				"выручка": 41000,
+				"profit": 4700,
+				"debt": 15000,
+				"money": 5000,
+				"dividends": 2200
+			},
+			"рынок": {
+				"shares_mln": 570,
+				"market_cap": 140000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливье Блюм",
+					"en": "Olivier Blum"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставит на спрос дата-центров",
+					"en": "ставит на спрос дата-центров"
+				}
+			},
+			"staff": 150000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рюэй-Мальмезон",
+						"en": "Headquarters, Rueil-Malmaison"
+					},
+					"ш": 48.88,
+					"д": 2.18,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1144
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Гренобле",
+						"en": "Grenoble plant"
+					},
+					"ш": 45.19,
+					"д": 5.72,
+					"province": 938,
+					"staff": 5000,
+					"fine": 1149
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.se.com/ww/en/about-us/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "safran",
+			"название": {
+				"ru": "Safran",
+				"en": "Safran"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "смешанная",
+			"founded": 2005,
+			"description": {
+				"ru": "Двигатели для самолётов Airbus и Boeing.",
+				"en": "Engines for Airbus and Boeing jets."
+			},
+			"fundamental": {
+				"выручка": 29000,
+				"profit": 3000,
+				"debt": 5000,
+				"money": 5000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 420,
+				"market_cap": 130000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.11,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.89
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливье Андриес",
+					"en": "Olivier Andriès"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-двигателист, выпускник Политехнической школы",
+					"en": "инженер-двигателист, выпускник Политехнической школы"
+				}
+			},
+			"staff": 100000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.84,
+					"д": 2.3,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Двигатели, Вильярош",
+						"en": "Engines, Villaroche"
+					},
+					"ш": 48.6,
+					"д": 2.67,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.safran-group.com/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sanofi",
+			"название": {
+				"ru": "Sanofi",
+				"en": "Sanofi"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1973,
+			"description": {
+				"ru": "Лекарства и вакцины, крупнейшая фарма Франции.",
+				"en": "Drugs and vaccines, France's largest drugmaker."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 6000,
+				"debt": 15000,
+				"money": 8000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 1250,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "L'Oréal",
+						"en": "L'Oréal"
+					},
+					"type": "company",
+					"доля": 0.09,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пол Хадсон",
+					"en": "Paul Hudson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "британец, ставит на иммунологию",
+					"en": "британец, ставит на иммунологию"
+				}
+			},
+			"staff": 83000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.29,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Вакцины, Марси-л’Этуаль",
+						"en": "Vaccines, Marcy-l'Étoile"
+					},
+					"ш": 45.78,
+					"д": 4.72,
+					"province": 939,
+					"staff": 3500,
+					"fine": 1176
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sanofi.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "essilorlux",
+			"название": {
+				"ru": "EssilorLuxottica",
+				"en": "EssilorLuxottica"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Очки и линзы: Ray-Ban, Essilor.",
+				"en": "Glasses and lenses: Ray-Ban, Essilor."
+			},
+			"fundamental": {
+				"выручка": 28000,
+				"profit": 2600,
+				"debt": 12000,
+				"money": 2000,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 455,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Delfin (семья Дель Веккио)",
+						"en": "Delfin (Del Vecchio family)"
+					},
+					"type": "крупный",
+					"доля": 0.32,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.68
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франческо Миллери",
+					"en": "Francesco Milleri"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник империи Дель Веккио",
+					"en": "наследник империи Дель Веккио"
+				}
+			},
+			"staff": 200000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шарантон",
+						"en": "Headquarters, Charenton"
+					},
+					"ш": 48.82,
+					"д": 2.41,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Luxottica, Аньордо",
+						"en": "Luxottica, Agordo"
+					},
+					"ш": 46.28,
+					"д": 12.03,
+					"province": 684,
+					"staff": 5000,
+					"fine": 1974
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.essilorluxottica.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bnp",
+			"название": {
+				"ru": "BNP Paribas",
+				"en": "BNP Paribas"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Крупнейший банк еврозоны.",
+				"en": "The largest bank in the eurozone."
+			},
+			"fundamental": {
+				"выручка": 52000,
+				"profit": 12500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5500
+			},
+			"рынок": {
+				"shares_mln": 1130,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бельгии (SFPI)",
+						"en": "The Belgian state (SFPI)"
+					},
+					"type": "polity",
+					"доля": 0.056,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "AXA",
+						"en": "AXA"
+					},
+					"type": "company",
+					"доля": 0.05,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.894
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жан-Лоран Бонафе",
+					"en": "Jean-Laurent Bonnafé"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный инженер-банкир",
+					"en": "осторожный инженер-банкир"
+				}
+			},
+			"staff": 180000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бульвар Итальянцев, Париж",
+						"en": "Boulevard des Italiens, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.34,
+					"province": 650,
+					"staff": 15000,
+					"fine": 1171
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Монреале-на-Луаре",
+						"en": "Montreuil centre"
+					},
+					"ш": 48.86,
+					"д": 2.44,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://invest.bnpparibas/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "axa",
+			"название": {
+				"ru": "AXA",
+				"en": "AXA"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1817,
+			"description": {
+				"ru": "Один из крупнейших страховщиков мира.",
+				"en": "One of the world's largest insurers."
+			},
+			"fundamental": {
+				"выручка": 120000,
+				"profit": 8000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4400
+			},
+			"рынок": {
+				"shares_mln": 2200,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тома Бюберль",
+					"en": "Thomas Buberl"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "немец во главе французского страховщика",
+					"en": "немец во главе французского страховщика"
+				}
+			},
+			"staff": 150000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.3,
+					"province": 650,
+					"staff": 6000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.axa.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "creditagricole",
+			"название": {
+				"ru": "Crédit Agricole",
+				"en": "Crédit Agricole"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1894,
+			"description": {
+				"ru": "Кооперативный банк французских регионов.",
+				"en": "The cooperative bank of French regions."
+			},
+			"fundamental": {
+				"выручка": 29000,
+				"profit": 7000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 3000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Региональные банки группы",
+						"en": "Regional group banks"
+					},
+					"type": "крупный",
+					"доля": 0.62,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.38
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливье Гавальда",
+					"en": "Olivier Gavalda"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир из регионов",
+					"en": "банкир из регионов"
+				}
+			},
+			"staff": 155000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Монруж",
+						"en": "Headquarters, Montrouge"
+					},
+					"ш": 48.82,
+					"д": 2.31,
+					"province": 650,
+					"staff": 10000,
+					"fine": 1144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.credit-agricole.com/en/finance/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "socgen",
+			"название": {
+				"ru": "Société Générale",
+				"en": "Société Générale"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1864,
+			"description": {
+				"ru": "Третий банк Франции, переживает реструктуризацию.",
+				"en": "France's third bank, going through a restructuring."
+			},
+			"fundamental": {
+				"выручка": 28000,
+				"profit": 4500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 800,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Славомир Крупа",
+					"en": "Slawomir Krupa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "поляк-банкир, режет расходы",
+					"en": "поляк-банкир, режет расходы"
+				}
+			},
+			"staff": 120000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башни в Дефанс",
+						"en": "La Défense towers"
+					},
+					"ш": 48.89,
+					"д": 2.25,
+					"province": 650,
+					"staff": 15000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.societegenerale.com/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dassaultsys",
+			"название": {
+				"ru": "Dassault Systèmes",
+				"en": "Dassault Systèmes"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Софт для 3D-проектирования.",
+				"en": "3D design software."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 1300,
+				"debt": 3000,
+				"money": 4000,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1340,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Группа Дассо",
+						"en": "Dassault group"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паскаль Дало",
+					"en": "Pascal Daloz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист группы Дассо",
+					"en": "финансист группы Дассо"
+				}
+			},
+			"staff": 25000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус в Велизи",
+						"en": "Vélizy campus"
+					},
+					"ш": 48.78,
+					"д": 2.21,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.3ds.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "airliquide",
+			"название": {
+				"ru": "Air Liquide",
+				"en": "Air Liquide"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1902,
+			"description": {
+				"ru": "Промышленные и медицинские газы, водород.",
+				"en": "Industrial and medical gases, hydrogen."
+			},
+			"fundamental": {
+				"выручка": 29000,
+				"profit": 3500,
+				"debt": 11000,
+				"money": 1500,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 575,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсуа Жаков",
+					"en": "François Jackow"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставит на водород и декарбонизацию",
+					"en": "ставит на водород и декарбонизацию"
+				}
+			},
+			"staff": 67000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.86,
+					"д": 2.3,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Дюнкерке",
+						"en": "Dunkirk plant"
+					},
+					"ш": 51.03,
+					"д": 2.37,
+					"province": 940,
+					"staff": 500,
+					"fine": 1168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.airliquide.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vinci",
+			"название": {
+				"ru": "Vinci",
+				"en": "Vinci"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1899,
+			"description": {
+				"ru": "Стройка, платные дороги и аэропорты.",
+				"en": "Construction, toll roads and airports."
+			},
+			"fundamental": {
+				"выручка": 78000,
+				"profit": 5100,
+				"debt": 30000,
+				"money": 15000,
+				"dividends": 2600
+			},
+			"рынок": {
+				"shares_mln": 570,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пьер Анжольрас",
+					"en": "Pierre Anjolras"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель концессий",
+					"en": "строитель концессий"
+				}
+			},
+			"staff": 280000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Нантер",
+						"en": "Headquarters, Nanterre"
+					},
+					"ш": 48.9,
+					"д": 2.2,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Автомагистрали юга Франции",
+						"en": "Southern French motorways"
+					},
+					"ш": 43.6,
+					"д": 3.9,
+					"province": 936,
+					"staff": 8000,
+					"fine": 1145
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vinci.com/vinci.nsf/en/investors.htm | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "thales",
+			"название": {
+				"ru": "Thales",
+				"en": "Thales"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1893,
+			"description": {
+				"ru": "Радары, ракеты и кибербезопасность.",
+				"en": "Radars, missiles and cybersecurity."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 1600,
+				"debt": 8000,
+				"money": 5000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 210,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.26,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Dassault Aviation",
+						"en": "Dassault Aviation"
+					},
+					"type": "company",
+					"доля": 0.26,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Патрис Кен",
+					"en": "Patrice Caine"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственник, осторожен",
+					"en": "государственник, осторожен"
+				}
+			},
+			"staff": 83000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мёдон",
+						"en": "Headquarters, Meudon"
+					},
+					"ш": 48.8,
+					"д": 2.23,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1144
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Радары, Лимур",
+						"en": "Radars, Limours"
+					},
+					"ш": 48.64,
+					"д": 2.08,
+					"province": 650,
+					"staff": 2500,
+					"fine": 1127
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.thalesgroup.com/en/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "kering",
+			"название": {
+				"ru": "Kering",
+				"en": "Kering"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Gucci и Saint Laurent; Gucci в кризисе.",
+				"en": "Gucci and Saint Laurent; Gucci is in crisis."
+			},
+			"fundamental": {
+				"выручка": 18500,
+				"profit": 1200,
+				"debt": 15000,
+				"money": 4000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 123,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Пино (Artémis)",
+						"en": "The Pinault family (Artémis)"
+					},
+					"type": "крупный",
+					"доля": 0.42,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.58
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лука де Мео",
+					"en": "Luca de Meo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пришёл из Renault спасать Gucci",
+					"en": "пришёл из Renault спасать Gucci"
+				}
+			},
+			"staff": 47000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.85,
+					"д": 2.32,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Gucci, Флоренция",
+						"en": "Gucci, Florence"
+					},
+					"ш": 43.77,
+					"д": 11.25,
+					"province": 684,
+					"staff": 3000,
+					"fine": 1893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kering.com/en/finance/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "danone",
+			"название": {
+				"ru": "Danone",
+				"en": "Danone"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1919,
+			"description": {
+				"ru": "Молочные продукты, вода и детское питание.",
+				"en": "Dairy, water and baby food."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2400,
+				"debt": 13000,
+				"money": 5000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 640,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Антуан де Сент-Африк",
+					"en": "Antoine de Saint-Affrique"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец брендов, чистит портфель",
+					"en": "продавец брендов, чистит портфель"
+				}
+			},
+			"staff": 90000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.3,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Evian",
+						"en": "Evian"
+					},
+					"ш": 46.4,
+					"д": 6.59,
+					"province": 938,
+					"staff": 1000,
+					"fine": 1140
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.danone.com/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "orange",
+			"название": {
+				"ru": "Orange",
+				"en": "Orange"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1988,
+			"description": {
+				"ru": "Крупнейший оператор связи Франции.",
+				"en": "France's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 43000,
+				"profit": 2400,
+				"debt": 35000,
+				"money": 8000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 2660,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции (с Bpifrance)",
+						"en": "The French state (with Bpifrance)"
+					},
+					"type": "polity",
+					"доля": 0.23,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристель Эйдеманн",
+					"en": "Christel Heydemann"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, реформирует бывшую госмонополию",
+					"en": "инженер, реформирует бывшую госмонополию"
+				}
+			},
+			"staff": 127000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Исси-ле-Мулино",
+						"en": "Headquarters, Issy-les-Moulineaux"
+					},
+					"ш": 48.82,
+					"д": 2.26,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.orange.com/en/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "engie",
+			"название": {
+				"ru": "Engie",
+				"en": "Engie"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 2008,
+			"description": {
+				"ru": "Газ, электричество и сети.",
+				"en": "Gas, power and grids."
+			},
+			"fundamental": {
+				"выручка": 80000,
+				"profit": 4500,
+				"debt": 45000,
+				"money": 15000,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 2430,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.24,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.76
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Катрин Макгрегор",
+					"en": "Catherine MacGregor"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик, строит возобновляемую генерацию",
+					"en": "энергетик, строит возобновляемую генерацию"
+				}
+			},
+			"staff": 97000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башня в Дефанс",
+						"en": "La Défense tower"
+					},
+					"ш": 48.89,
+					"д": 2.24,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.engie.com/en/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "edf",
+			"название": {
+				"ru": "EDF",
+				"en": "EDF"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1946,
+			"description": {
+				"ru": "Атомная энергетика Франции — 56 реакторов.",
+				"en": "France's nuclear power — 56 reactors."
+			},
+			"fundamental": {
+				"выручка": 130000,
+				"profit": 12000,
+				"debt": 60000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 4000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бернар Фонтана",
+					"en": "Bernard Fontana"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "атомщик, строит новые реакторы EPR",
+					"en": "атомщик, строит новые реакторы EPR"
+				}
+			},
+			"staff": 170000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.31,
+					"province": 650,
+					"staff": 5000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "АЭС Гравлин",
+						"en": "Gravelines NPP"
+					},
+					"ш": 51.01,
+					"д": 2.14,
+					"province": 940,
+					"staff": 2000,
+					"fine": 1168
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "АЭС Фламанвиль",
+						"en": "Flamanville NPP"
+					},
+					"ш": 49.54,
+					"д": -1.88,
+					"province": 649,
+					"staff": 2000,
+					"fine": 1160
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.edf.fr/en/the-edf-group/dedicated-sections/investors-shareholders | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "renault",
+			"название": {
+				"ru": "Renault",
+				"en": "Renault"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "смешанная",
+			"founded": 1899,
+			"description": {
+				"ru": "Renault и Dacia; ушла из России в 2022.",
+				"en": "Renault and Dacia; left Russia in 2022."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 700,
+				"debt": 60000,
+				"money": 15000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 296,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.15,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Nissan",
+						"en": "Nissan"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсуа Прово",
+					"en": "François Provost"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "закупщик, сменил де Мео",
+					"en": "закупщик, сменил де Мео"
+				}
+			},
+			"staff": 105000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Булонь-Бийанкур",
+						"en": "Headquarters, Boulogne-Billancourt"
+					},
+					"ш": 48.83,
+					"д": 2.24,
+					"province": 650,
+					"staff": 4000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод во Флене",
+						"en": "Flins plant"
+					},
+					"ш": 48.97,
+					"д": 1.87,
+					"province": 650,
+					"staff": 2500,
+					"fine": 1187
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Дуэ",
+						"en": "Douai plant"
+					},
+					"ш": 50.37,
+					"д": 3.08,
+					"province": 940,
+					"staff": 3500,
+					"fine": 1168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.renaultgroup.com/en/finance/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "capgemini",
+			"название": {
+				"ru": "Capgemini",
+				"en": "Capgemini"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1967,
+			"description": {
+				"ru": "ИТ-консалтинг и аутсорсинг.",
+				"en": "IT consulting and outsourcing."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 1800,
+				"debt": 6000,
+				"money": 3000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 170,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Айман Эззат",
+					"en": "Aiman Ezzat"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист консалтинга",
+					"en": "финансист консалтинга"
+				}
+			},
+			"staff": 340000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.87,
+					"д": 2.29,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.capgemini.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "saintgobain",
+			"название": {
+				"ru": "Saint-Gobain",
+				"en": "Saint-Gobain"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1665,
+			"description": {
+				"ru": "Стройматериалы и стекло.",
+				"en": "Building materials and glass."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 3000,
+				"debt": 13000,
+				"money": 7000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 500,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бенуа Базен",
+					"en": "Benoit Bazin"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставит на лёгкое строительство",
+					"en": "ставит на лёгкое строительство"
+				}
+			},
+			"staff": 160000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башня в Дефанс",
+						"en": "La Défense tower"
+					},
+					"ш": 48.89,
+					"д": 2.24,
+					"province": 650,
+					"staff": 2000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.saint-gobain.com/en/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pernod",
+			"название": {
+				"ru": "Pernod Ricard",
+				"en": "Pernod Ricard"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Алкоголь: Absolut, Jameson, Martell.",
+				"en": "Spirits: Absolut, Jameson, Martell."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 1200,
+				"debt": 13000,
+				"money": 2000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 255,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Рикар",
+						"en": "The Ricard family"
+					},
+					"type": "крупный",
+					"доля": 0.14,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Рикар",
+					"en": "Alexandre Ricard"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2015,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "внук основателя, переживает спад продаж",
+					"en": "внук основателя, переживает спад продаж"
+				}
+			},
+			"staff": 19000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Париж",
+						"en": "Headquarters, Paris"
+					},
+					"ш": 48.86,
+					"д": 2.3,
+					"province": 650,
+					"staff": 1000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Martell, Коньяк",
+						"en": "Martell, Cognac"
+					},
+					"ш": 45.69,
+					"д": -0.33,
+					"province": 648,
+					"staff": 1000,
+					"fine": 1115
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pernod-ricard.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "carrefour",
+			"название": {
+				"ru": "Carrefour",
+				"en": "Carrefour"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1959,
+			"description": {
+				"ru": "Крупнейшая розничная сеть Франции.",
+				"en": "France's largest retailer."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 800,
+				"debt": 15000,
+				"money": 5000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 700,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мулье (Galfa)",
+						"en": "The Moulin family (Galfa)"
+					},
+					"type": "крупный",
+					"доля": 0.13,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Бомпар",
+					"en": "Alexandre Bompard"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор супермаркетов",
+					"en": "реформатор супермаркетов"
+				}
+			},
+			"staff": 305000,
+			"wage": 3200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Масси",
+						"en": "Headquarters, Massy"
+					},
+					"ш": 48.73,
+					"д": 2.28,
+					"province": 650,
+					"staff": 4000,
+					"fine": 1127
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склады вокруг Лиона",
+						"en": "Lyon warehouses"
+					},
+					"ш": 45.75,
+					"д": 4.9,
+					"province": 939,
+					"staff": 6000,
+					"fine": 1176
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.carrefour.com/en/finance | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "michelin",
+			"название": {
+				"ru": "Michelin",
+				"en": "Michelin"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1889,
+			"description": {
+				"ru": "Шины и гид Michelin.",
+				"en": "Tyres and the Michelin Guide."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2000,
+				"debt": 5000,
+				"money": 3000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 710,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Флоран Менего",
+					"en": "Florent Menegaux"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "закрывает старые заводы, растит новые материалы",
+					"en": "закрывает старые заводы, растит новые материалы"
+				}
+			},
+			"staff": 130000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Клермон-Ферран",
+						"en": "Headquarters, Clermont-Ferrand"
+					},
+					"ш": 45.78,
+					"д": 3.08,
+					"province": 939,
+					"staff": 10000,
+					"fine": 1173
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.michelin.com/en/finance/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dassaultaviation",
+			"название": {
+				"ru": "Dassault Aviation",
+				"en": "Dassault Aviation"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1929,
+			"description": {
+				"ru": "Истребители Rafale и бизнес-джеты Falcon.",
+				"en": "Rafale fighters and Falcon business jets."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1000,
+				"debt": 500,
+				"money": 8000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 78,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Группа Дассо",
+						"en": "Dassault group"
+					},
+					"type": "крупный",
+					"доля": 0.66,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Airbus",
+						"en": "Airbus"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.24
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эрик Трапье",
+					"en": "Éric Trappier"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец Rafale по всему миру",
+					"en": "продавец Rafale по всему миру"
+				}
+			},
+			"staff": 14000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сен-Клу",
+						"en": "Headquarters, Saint-Cloud"
+					},
+					"ш": 48.85,
+					"д": 2.21,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Сборка Rafale, Мериньяк",
+						"en": "Rafale assembly, Mérignac"
+					},
+					"ш": 44.83,
+					"д": -0.7,
+					"province": 648,
+					"staff": 2500,
+					"fine": 1133
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.dassault-aviation.com/en/group/finance/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "veolia",
+			"название": {
+				"ru": "Veolia",
+				"en": "Veolia"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1853,
+			"description": {
+				"ru": "Вода, отходы и энергия для городов.",
+				"en": "Water, waste and energy for cities."
+			},
+			"fundamental": {
+				"выручка": 48000,
+				"profit": 1500,
+				"debt": 25000,
+				"money": 7000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 730,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эстель Брашлянофф",
+					"en": "Estelle Brachlianoff"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер экологической инфраструктуры",
+					"en": "инженер экологической инфраструктуры"
+				}
+			},
+			"staff": 215000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Обервилье",
+						"en": "Headquarters, Aubervilliers"
+					},
+					"ш": 48.91,
+					"д": 2.38,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.veolia.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "mistral",
+			"название": {
+				"ru": "Mistral AI",
+				"en": "Mistral AI"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Главная ИИ-компания Европы: открытые модели и ассистент Le Chat.",
+				"en": "Europe's leading AI company: open models and the Le Chat assistant."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": -300,
+				"debt": 0,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "ASML",
+						"en": "ASML"
+					},
+					"type": "company",
+					"доля": 0.11,
+					"country": "Нидерланды",
+					"company": "asml"
+				},
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.59
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Артур Менш",
+					"en": "Arthur Mensch"
+				},
+				"роль": "founder",
+				"с_года": 2023,
+				"born_year": 1992,
+				"доля": 0.1,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 600,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.87,
+					"д": 2.33,
+					"province": 650,
+					"staff": 600,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://mistral.ai/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — частная, оценка по раунду 2025"
+		},
+		{
+			"id": "arianegroup",
+			"название": {
+				"ru": "ArianeGroup",
+				"en": "ArianeGroup"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Ракеты Ariane 6 и ядерные ракеты Франции; совместное предприятие Airbus и Safran.",
+				"en": "Ariane 6 rockets and France's nuclear missiles; a joint venture of Airbus and Safran."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 50,
+				"debt": 500,
+				"money": 600,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Airbus",
+						"en": "Airbus"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Франция",
+					"company": "airbus"
+				},
+				{
+					"кто": {
+						"ru": "Safran",
+						"en": "Safran"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Франция",
+					"company": "safran"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мартен Сион",
+					"en": "Martin Sion"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 7600,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ле-Мюро",
+						"en": "Les Mureaux"
+					},
+					"ш": 48.99,
+					"д": 1.91,
+					"province": 650,
+					"staff": 3000,
+					"fine": 1195
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Вернон",
+						"en": "Vernon"
+					},
+					"ш": 49.09,
+					"д": 1.48,
+					"province": 940,
+					"staff": 2600,
+					"fine": 1128
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Бордо",
+						"en": "Bordeaux"
+					},
+					"ш": 44.84,
+					"д": -0.58,
+					"province": 648,
+					"staff": 2000,
+					"fine": 1133
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ariane.group/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "eutelsat",
+			"название": {
+				"ru": "Eutelsat",
+				"en": "Eutelsat Group"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Спутниковый оператор Европы со спутниковым интернетом OneWeb.",
+				"en": "Europe's satellite operator with OneWeb satellite internet."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": -1500,
+				"debt": 2700,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 470,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Франции",
+						"en": "The French state"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Bharti",
+						"en": "Bharti"
+					},
+					"type": "company",
+					"доля": 0.18,
+					"country": "Индия",
+					"company": "airtel"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жан-Франсуа Фалашер",
+					"en": "Jean-François Fallacher"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец",
+					"en": "управленец"
+				}
+			},
+			"staff": 1200,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исси-ле-Мулино",
+						"en": "Issy-les-Moulineaux"
+					},
+					"ш": 48.82,
+					"д": 2.27,
+					"province": 650,
+					"staff": 1200,
+					"fine": 1144
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.eutelsat.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bouygues",
+			"название": {
+				"ru": "Bouygues",
+				"en": "Bouygues"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший многоотраслевой строительно-инфраструктурный и медийно-телекоммуникационный конгломерат (Bouygues Construction, Colas — мировой лидер дорожного и транспортного строительства, телеком-оператор Bouygues Telecom, ведущий телеканал TF1; контролируется семьей Буиг). Выручка ~$60.0 млрд, чистая прибыль ~$1.1 млрд, 200,000+ сотр. https://www.bouygues.com/",
+				"en": "Bouygues — a IT and telecom company of Франция."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 1100,
+				"debt": 19074,
+				"money": 10000,
+				"dividends": 330
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 113599
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 158940,
+			"wage": 7171,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8469,
+					"д": 2.3804,
+					"province": 650,
+					"staff": 47682,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eiffage",
+			"название": {
+				"ru": "Eiffage",
+				"en": "Eiffage"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по величине строительный и концессионный гигант Франции (платные автомагистрали APRR/AREA, виадук Мийо, линии TGV, морские ветропарки и энергетика). Выручка ~$24.0 млрд, чистая прибыль ~$1.1 млрд, 75,000 сотр. https://www.eiffage.com/",
+				"en": "Eiffage — a energy company of Франция."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 1100,
+				"debt": 14585,
+				"money": 3071,
+				"dividends": 330
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 31652
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 42698,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8624,
+					"д": 2.3575,
+					"province": 650,
+					"staff": 12809,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cma_cgm",
+			"название": {
+				"ru": "CMA CGM",
+				"en": "CMA CGM"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третья в мире контейнерная судоходная и логистическая корпорация семьи Сааде (флот из более чем 620 океанских контейнеровозов, приобретен глобальный оператор Bolloré Logistics, авиакомпания CMA CGM Air Cargo, медиаактивы). Выручка ~$50.0 млрд, 160,000 сотр. https://www.cma-cgm.com/",
+				"en": "CMA CGM — a transport company of Франция."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 3333,
+				"debt": 25253,
+				"money": 10345,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 125000,
+			"wage": 6545,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8708,
+					"д": 2.326,
+					"province": 650,
+					"staff": 37500,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alstom",
+			"название": {
+				"ru": "Alstom",
+				"en": "Alstom"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой технологический лидер в производстве железнодорожного подвижного состава и сигнализации (высокоскоростные поезда TGV M, Avelia, пассажирские электропоезда Coradia, электровозы Traxx, трамваи Citadis, системы метрополитена). Выручка ~$19.0 млрд, 80,000 сотр. https://www.alstom.com/",
+				"en": "Alstom — a energy company of Франция."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 1757,
+				"debt": 11546,
+				"money": 2432,
+				"dividends": 527
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25058
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 33803,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8324,
+					"д": 2.3532,
+					"province": 650,
+					"staff": 10140,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "arkema",
+			"название": {
+				"ru": "Arkema",
+				"en": "Arkema"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий мировой химический концерн по выпуску специальных инновационных материалов и клеевых технологий (бренды Bostik, полиамиды Rilsan, фторполимеры Kynar; выручка ~$10.5 млрд, 21,000 сотр.). https://www.arkema.com/",
+				"en": "Arkema — a consumer and retail company of Франция."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 817,
+				"debt": 2423,
+				"money": 875,
+				"dividends": 245
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14384
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 31500,
+			"wage": 4444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8325,
+					"д": 2.3589,
+					"province": 650,
+					"staff": 9450,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sodexo",
+			"название": {
+				"ru": "Sodexo",
+				"en": "Sodexo"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой гигант корпоративного питания, кейтеринга и комплексного управления инфраструктурой объектов On-site Services семьи Беллон (выручка ~$25.0 млрд, более 430,000 сотр. по всему миру). https://www.sodexo.com/",
+				"en": "Sodexo — a construction company of Франция."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 2083,
+				"debt": 9699,
+				"money": 3280,
+				"dividends": 625
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 31534
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 78642,
+			"wage": 5116,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8247,
+					"д": 2.3871,
+					"province": 650,
+					"staff": 23592,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "legrand",
+			"название": {
+				"ru": "Legrand",
+				"en": "Legrand"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой специалист по производству электрооборудования и интеллектуальных инженерных систем зданий (розетки, распределительные щиты, оборудование для центров обработки данных и зарядки электромобилей; выручка ~$9.5 млрд, капитализация ~$26 млрд). https://www.legrandgroup.com/",
+				"en": "Legrand — a metals and mining company of Франция."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 1056,
+				"debt": 3167,
+				"money": 1140,
+				"dividends": 317
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 26000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 27444,
+			"wage": 7143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8839,
+					"д": 2.3716,
+					"province": 650,
+					"staff": 8233,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_2",
+			"название": {
+				"ru": "Société BIC",
+				"en": "Société BIC"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель повседневных потребительских товаров (легендарные шариковые ручки BIC Cristal, одноразовые зажигалки BIC и бритвенные станки; выручка ~$2.5 млрд). https://www.bic.com/",
+				"en": "Société BIC — a consumer and retail company of Франция."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 194,
+				"debt": 577,
+				"money": 208,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3425
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7500,
+			"wage": 4444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.84,
+					"д": 2.3688,
+					"province": 650,
+					"staff": 2250,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "naval_group",
+			"название": {
+				"ru": "Naval Group",
+				"en": "Naval Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный государственный военно-морской концерн Франции (проектирование и постройка атомных подводных лодок с баллистическими ракетами SSBN класса Le Triomphant и строящихся субмарин 3-го поколения SNLE 3G, многоцелевых атомных ударных АПЛ класса Suffren / Barracuda, атомного авианосца Charles de Gaulle и перспективного суперавианосца PA-NG, многоцелевых фрегатов FDI Belharra и FREMM, корветов Gowi",
+				"en": "Naval Group — a defence company of Франция."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 320,
+				"debt": 1234,
+				"money": 738,
+				"dividends": 96
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Франция)",
+						"en": "The state (Франция)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14400,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.822,
+					"д": 2.377,
+					"province": 650,
+					"staff": 4320,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "knds_france",
+			"название": {
+				"ru": "KNDS France (ранее Nexter Systems)",
+				"en": "KNDS France (ранее Nexter Systems)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевой разработчик и изготовитель сухопутной боевой техники, тяжелой артиллерии и боеприпасов Франции (знаменитые высокомобильные 155-мм САУ на колесном шасси CAESAR, основные боевые танки Leclerc XLR, бронемашины нового поколения Griffon, боевые разведывательные машины Jaguar, броневики Serval по национальной программе перевооружения SCORPION, а также снаряды 155 мм; компонент франко-германског",
+				"en": "KNDS France (ранее Nexter Systems) — a defence company of Франция."
+			},
+			"fundamental": {
+				"выручка": 4350,
+				"profit": 290,
+				"debt": 1119,
+				"money": 669,
+				"dividends": 87
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8156
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Франция)",
+						"en": "The state (Франция)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13050,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8232,
+					"д": 2.3821,
+					"province": 650,
+					"staff": 3915,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mbda_france",
+			"название": {
+				"ru": "MBDA France",
+				"en": "MBDA France"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Французский национальный центр ведущего общеевропейского ракетного холдинга MBDA (разработка и выпуск дальнобойных малозаметных крылатых ракет воздушного базирования SCALP-EG / Storm Shadow, морских крылатых ракет MdCN, зенитных ракетных комплексов средней и большой дальности SAMP/T с ракетами Aster 15/30, противокорабельных ракет Exocet, ракет «воздух-воздух» сверхбольшой дальности Meteor и MICA ",
+				"en": "MBDA France — a defence company of Франция."
+			},
+			"fundamental": {
+				"выручка": 4350,
+				"profit": 290,
+				"debt": 1119,
+				"money": 669,
+				"dividends": 87
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8156
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Франция)",
+						"en": "The state (Франция)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13050,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8511,
+					"д": 2.3597,
+					"province": 650,
+					"staff": 3915,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "arquus",
+			"название": {
+				"ru": "Arquus (ранее Renault Trucks Defense)",
+				"en": "Arquus (ранее Renault Trucks Defense)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший производитель колесной бронетехники Франции (колесные бронетранспортеры VAB, бронеавтомобили Bastion, тактические бронемашины Sherpa Light, Scarabee, производство трансмиссий и шасси для бронемашин Griffon и Jaguar). https://www.arquus-defense.com/",
+				"en": "Arquus (ранее Renault Trucks Defense) — a defence company of Франция."
+			},
+			"fundamental": {
+				"выручка": 4350,
+				"profit": 290,
+				"debt": 1119,
+				"money": 669,
+				"dividends": 87
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8156
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Франция)",
+						"en": "The state (Франция)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13050,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8676,
+					"д": 2.3692,
+					"province": 650,
+					"staff": 3915,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eurenco",
+			"название": {
+				"ru": "Eurenco",
+				"en": "Eurenco"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Европе стратегический производитель артиллерийских порохов, метательных зарядов и взрывчатых веществ (заводы в Бержераке и Сорге, ключевой поставщик модульных метательных зарядов для САУ CAESAR и европейских стандартов артиллерии 155 мм). https://www.eurenco.com/",
+				"en": "Eurenco — a defence company of Франция."
+			},
+			"fundamental": {
+				"выручка": 4350,
+				"profit": 290,
+				"debt": 1119,
+				"money": 669,
+				"dividends": 87
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8156
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Франция)",
+						"en": "The state (Франция)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Франция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13050,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Париж",
+						"en": "Paris"
+					},
+					"ш": 48.8474,
+					"д": 2.3295,
+					"province": 650,
+					"staff": 3915,
+					"fine": 1171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,957 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Боливия",
+	"iso": "BOL",
+	"data_date": "2026-03",
+	"average_wage": 400,
+	"companies": [
+		{
+			"id": "ypfb",
+			"название": {
+				"ru": "YPFB",
+				"en": "YPFB"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1936,
+			"description": {
+				"ru": "Государственный газ Боливии — запасы кончаются.",
+				"en": "Bolivia's state gas — reserves are running out."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": -100,
+				"debt": 1000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Боливии",
+						"en": "The Bolivian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Армин Доргатен",
+					"en": "Armin Dorgathen"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 6000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ла-Пас",
+						"en": "La Paz"
+					},
+					"ш": -16.5,
+					"д": -68.15,
+					"province": 4,
+					"staff": 2000,
+					"fine": 462
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Тариха",
+						"en": "Tarija"
+					},
+					"ш": -21.5,
+					"д": -63.7,
+					"province": 337,
+					"staff": 2000,
+					"fine": 467
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ypfb.gob.bo/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "comibol",
+			"название": {
+				"ru": "COMIBOL (Corporación Minera de Bolivia)",
+				"en": "COMIBOL (Corporación Minera de Bolivia)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная горнорудная корпорация (добыча олова, цинка, свинца, серебра; рудники Уануни, Колькири, Коркоро; выручка ~$140 млн)",
+				"en": "COMIBOL (Corporación Minera de Bolivia) — a metals and mining company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 16,
+				"debt": 47,
+				"money": 17,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 168
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 404,
+			"wage": 714,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0645,
+					"д": -65.2823,
+					"province": 337,
+					"staff": 121,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "minera_san",
+			"название": {
+				"ru": "Minera San Cristóbal (MSC)",
+				"en": "Minera San Cristóbal (MSC)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный полиметаллический горнодобывающий комплекс в Потоси (серебро, цинк, свинец; выручка ~–900 млн)",
+				"en": "Minera San Cristóbal (MSC) — a metals and mining company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 724,
+				"profit": 80,
+				"debt": 241,
+				"money": 87,
+				"dividends": 24
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 869
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2091,
+			"wage": 714,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Потоси",
+						"en": "Potosí"
+					},
+					"ш": -19.6102,
+					"д": -65.7447,
+					"province": 7,
+					"staff": 627,
+					"fine": 465
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ylb",
+			"название": {
+				"ru": "YLB (Yacimientos de Litio Bolivianos)",
+				"en": "YLB (Yacimientos de Litio Bolivianos)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная литиевая корпорация (разработка солончаков Уюни и Койпаса)",
+				"en": "YLB (Yacimientos de Litio Bolivianos) — a metals and mining company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 253,
+				"profit": 28,
+				"debt": 84,
+				"money": 30,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 304
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 730,
+			"wage": 714,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0024,
+					"д": -65.2943,
+					"province": 830,
+					"staff": 219,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "entel_bolivia",
+			"название": {
+				"ru": "ENTEL Bolivia",
+				"en": "ENTEL Bolivia"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор телекоммуникаций и мобильной связи (выручка ~$140 млн)",
+				"en": "ENTEL Bolivia — a IT and telecom company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 18,
+				"debt": 45,
+				"money": 23,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 265
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 370,
+			"wage": 717,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0169,
+					"д": -65.2722,
+					"province": 830,
+					"staff": 111,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banco_mercantil",
+			"название": {
+				"ru": "Banco Mercantil Santa Cruz (BMSC) / Banco Unión / Banco Nacional de Bolivia (BNB)",
+				"en": "Banco Mercantil Santa Cruz (BMSC) / Banco Unión / Banco Nacional de Bolivia (BNB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие коммерческие банки Боливии",
+				"en": "Banco Mercantil Santa Cruz (BMSC) / Banco Unión / Banco Nacional de Bolivia (BNB) — a financial company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 89,
+				"profit": 25,
+				"debt": 0,
+				"money": 0,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 208
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 254,
+			"wage": 657,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0594,
+					"д": -65.2992,
+					"province": 830,
+					"staff": 76,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ende_corporaci",
+			"название": {
+				"ru": "ENDE Corporación",
+				"en": "ENDE Corporación"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация (генерация и электросети)",
+				"en": "ENDE Corporación — a energy company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 69,
+				"profit": 6,
+				"debt": 42,
+				"money": 9,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 91
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 122,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0337,
+					"д": -65.2747,
+					"province": 830,
+					"staff": 36,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cervecer_a",
+			"название": {
+				"ru": "Cervecería Boliviana Nacional (CBN)",
+				"en": "Cervecería Boliviana Nacional (CBN)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель пива и напитков (бренд Paceña, AB InBev)",
+				"en": "Cervecería Boliviana Nacional (CBN) — a consumer and retail company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 4,
+				"debt": 11,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 67
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 147,
+			"wage": 444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0375,
+					"д": -65.2741,
+					"province": 830,
+					"staff": 44,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "boliviana_de",
+			"название": {
+				"ru": "Boliviana de Aviación (BoA)",
+				"en": "Boliviana de Aviación (BoA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная авиакомпания",
+				"en": "Boliviana de Aviación (BoA) — a transport company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 3,
+				"debt": 25,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 122,
+			"wage": 655,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0023,
+					"д": -65.2776,
+					"province": 830,
+					"staff": 36,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cofadena",
+			"название": {
+				"ru": "COFADENA (Corporación de las Fuerzas Armadas para el Desarrollo Nacional)",
+				"en": "COFADENA (Corporación de las Fuerzas Armadas para el Desarrollo Nacional)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-промышленная корпорация Вооруженных сил Боливии (управление заводами боеприпасов, спецтехники и конверсионными предприятиями)",
+				"en": "COFADENA (Corporación de las Fuerzas Armadas para el Desarrollo Nacional) — a defence company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.055,
+					"д": -65.2535,
+					"province": 337,
+					"staff": 18,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "f_brica",
+			"название": {
+				"ru": "Fábrica Boliviana de Municiones (FBM, Кочабамба)",
+				"en": "Fábrica Boliviana de Municiones (FBM, Кочабамба)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Предприятие под управлением COFADENA по выпуску патронов для стрелкового оружия (9×19 мм, 7.62×51 мм НАТО, 5.56×45 мм)",
+				"en": "Fábrica Boliviana de Municiones (FBM, Кочабамба) — a defence company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кочабамба",
+						"en": "Cochabamba"
+					},
+					"ш": -17.3942,
+					"д": -66.1914,
+					"province": 830,
+					"staff": 18,
+					"fine": 459
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "centro_de",
+			"название": {
+				"ru": "Centro de Mantenimiento Aéreo (SMA, Кочабамба)",
+				"en": "Centro de Mantenimiento Aéreo (SMA, Кочабамба)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центр технического обслуживания и ремонта авиатехники ВВС Боливии",
+				"en": "Centro de Mantenimiento Aéreo (SMA, Кочабамба) — a defence company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кочабамба",
+						"en": "Cochabamba"
+					},
+					"ш": -17.3893,
+					"д": -66.1795,
+					"province": 830,
+					"staff": 18,
+					"fine": 459
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tamep",
+			"название": {
+				"ru": "TAMep (Transporte Aéreo Militar Empresa Pública)",
+				"en": "TAMep (Transporte Aéreo Militar Empresa Pública)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-транспортное авиационное предприятие",
+				"en": "TAMep (Transporte Aéreo Militar Empresa Pública) — a defence company of Bolivia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Боливия)",
+						"en": "The state (Bolivia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Боливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сукре",
+						"en": "Sucre"
+					},
+					"ш": -19.0265,
+					"д": -65.2351,
+					"province": 830,
+					"staff": 18,
+					"fine": 460
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

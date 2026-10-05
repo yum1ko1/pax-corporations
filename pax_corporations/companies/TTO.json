@@ -1,0 +1,1166 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Тринидад и Тобаго",
+	"iso": "TTO",
+	"data_date": "2026-03",
+	"average_wage": 1200,
+	"companies": [
+		{
+			"id": "republicfin",
+			"название": {
+				"ru": "Republic Financial Holdings",
+				"en": "Republic Financial Holdings"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1837,
+			"description": {
+				"ru": "Крупнейший банк Карибского бассейна.",
+				"en": "The largest bank of the Caribbean."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 350,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 163,
+				"market_cap": 2300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственный Национальный страховой фонд",
+						"en": "National Insurance Board (state)"
+					},
+					"type": "polity",
+					"доля": 0.2,
+					"country": "Тринидад и Тобаго"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Найджел Бэптист",
+					"en": "Nigel Baptiste"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 6000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт-оф-Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.65,
+					"д": -61.51,
+					"province": 656,
+					"staff": 3000,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://republicfinancialholdings.com/"
+		},
+		{
+			"id": "heritage_petroleum",
+			"название": {
+				"ru": "Heritage Petroleum Company Limited",
+				"en": "Heritage Petroleum Company Limited"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтегазодобывающая компания, созданная после реструктуризации Petrotrin",
+				"en": "Heritage Petroleum Company Limited — a oil and gas company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 220,
+				"debt": 800,
+				"money": 250,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Erik Keskula",
+					"en": "Erik Keskula"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 3200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6705,
+					"д": -61.5156,
+					"province": 656,
+					"staff": 255,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://heritage.co.tt/"
+		},
+		{
+			"id": "the_national",
+			"название": {
+				"ru": "The National Gas Company of Trinidad and Tobago (NGC)",
+				"en": "The National Gas Company of Trinidad and Tobago (NGC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная компания, монопольный оператор магистральных газопроводов и трейдинга природного газа",
+				"en": "The National Gas Company of Trinidad and Tobago (NGC) — a oil and gas company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 380,
+				"debt": 900,
+				"money": 600,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mark Loquan",
+					"en": "Mark Loquan"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1100,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6889,
+					"д": -61.552,
+					"province": 656,
+					"staff": 330,
+					"fine": 4025
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://ngc.co.tt/"
+		},
+		{
+			"id": "first_citizens",
+			"название": {
+				"ru": "First Citizens Bank Limited",
+				"en": "First Citizens Bank Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая финансовая банковская группа в Карибском регионе",
+				"en": "First Citizens Bank Limited — a financial company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 140,
+				"debt": 0,
+				"money": 0,
+				"dividends": 65
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Karen Darbasie",
+					"en": "Karen Darbasie"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6615,
+					"д": -61.5531,
+					"province": 656,
+					"staff": 540,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.firstcitizenstt.com/"
+		},
+		{
+			"id": "trinidad_and",
+			"название": {
+				"ru": "Trinidad and Tobago National Petroleum Marketing Company (NP)",
+				"en": "Trinidad and Tobago National Petroleum Marketing Company (NP)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный дистрибьютор автомобильного топлива, смазочных материалов и авиакеросина",
+				"en": "Trinidad and Tobago National Petroleum Marketing Company (NP) — a oil and gas company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 15,
+				"debt": 80,
+				"money": 30,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "John Gormandy",
+					"en": "John Gormandy"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6641,
+					"д": -61.4879,
+					"province": 656,
+					"staff": 180,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.np.co.tt/"
+		},
+		{
+			"id": "massy_holdings",
+			"название": {
+				"ru": "Massy Holdings Ltd.",
+				"en": "Massy Holdings Ltd."
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Gervase Warner. Крупный транскарибский конгломерат: розничные сети, дистрибуция автотранспорта, газовое оборудование",
+				"en": "Massy Holdings Ltd. — a transport company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 130,
+				"debt": 450,
+				"money": 180,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "E",
+					"en": "E"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6769,
+					"д": -61.5061,
+					"province": 656,
+					"staff": 3900,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://massygroup.com/"
+		},
+		{
+			"id": "ansa_mcal",
+			"название": {
+				"ru": "ANSA McAL Limited",
+				"en": "ANSA McAL Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Sabga III. Диверсифицированный карибский конгломерат: напитки, финансовые услуги, строительные материалы и медиа",
+				"en": "ANSA McAL Limited — a financial company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 95,
+				"debt": 350,
+				"money": 140,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Anthony N",
+					"en": "Anthony N"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.68,
+					"д": -61.4947,
+					"province": 656,
+					"staff": 1800,
+					"fine": 4025
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://ansamcal.com/"
+		},
+		{
+			"id": "paria_fuel",
+			"название": {
+				"ru": "Paria Fuel Trading Company Limited",
+				"en": "Paria Fuel Trading Company Limited"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный трейдер и логистический оператор импорта и транзита нефтепродуктов",
+				"en": "Paria Fuel Trading Company Limited — a oil and gas company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 45,
+				"debt": 120,
+				"money": 80,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mushtaq Mohammed",
+					"en": "Mushtaq Mohammed"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 250,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6627,
+					"д": -61.5004,
+					"province": 656,
+					"staff": 75,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://paria.co.tt/"
+		},
+		{
+			"id": "telecommunications_servi",
+			"название": {
+				"ru": "Telecommunications Services of Trinidad and Tobago (TSTT / bmobile)",
+				"en": "Telecommunications Services of Trinidad and Tobago (TSTT / bmobile)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный телекоммуникационный провайдер проводной и сотовой связи под брендом bmobile",
+				"en": "Telecommunications Services of Trinidad and Tobago (TSTT / bmobile) — a IT and telecom company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": -20,
+				"debt": 250,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Kent Western",
+					"en": "Kent Western"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6376,
+					"д": -61.4993,
+					"province": 656,
+					"staff": 450,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://bmobile.co.tt/"
+		},
+		{
+			"id": "caribbean_airlines",
+			"название": {
+				"ru": "Caribbean Airlines Limited (CAL)",
+				"en": "Caribbean Airlines Limited (CAL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная флагманская авиакомпания Тринидада и Тобаго и Ямайки",
+				"en": "Caribbean Airlines Limited (CAL) — a transport company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 10,
+				"debt": 300,
+				"money": 60,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Garvin Medera",
+					"en": "Garvin Medera"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1700,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6604,
+					"д": -61.4898,
+					"province": 656,
+					"staff": 510,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.caribbean-airlines.com/"
+		},
+		{
+			"id": "angostura_holdings",
+			"название": {
+				"ru": "Angostura Holdings Limited",
+				"en": "Angostura Holdings Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Легендарный мировой производитель биттера Angostura и карибского рома",
+				"en": "Angostura Holdings Limited — a consumer and retail company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 160,
+				"profit": 30,
+				"debt": 20,
+				"money": 40,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 380
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Laurent Schun",
+					"en": "Laurent Schun"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6555,
+					"д": -61.5162,
+					"province": 656,
+					"staff": 120,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.angostura.com/"
+		},
+		{
+			"id": "ttdf_maintenance",
+			"название": {
+				"ru": "TTDF Maintenance Depot (Teteron Barracks)",
+				"en": "TTDF Maintenance Depot (Teteron Barracks)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Технический центр обслуживания военной техники, вооружения и тактического транспорта Полка Тринидада и Тобаго",
+				"en": "TTDF Maintenance Depot (Teteron Barracks) — a defence company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 2,
+				"debt": 5,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General Dexter Francis",
+					"en": "Brigadier General Dexter Francis"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.676,
+					"д": -61.508,
+					"province": 656,
+					"staff": 180,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://mod.gov.tt/"
+		},
+		{
+			"id": "trinidad_and_2",
+			"название": {
+				"ru": "Trinidad and Tobago Coast Guard Naval Engineering Base (Staubles Bay)",
+				"en": "Trinidad and Tobago Coast Guard Naval Engineering Base (Staubles Bay)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская техническая база по техническому обслуживанию морских патрульных кораблей (OPV) и катеров Damen",
+				"en": "Trinidad and Tobago Coast Guard Naval Engineering Base (Staubles Bay) — a defence company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 3,
+				"debt": 10,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Captain Don Polo",
+					"en": "Captain Don Polo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6539,
+					"д": -61.5507,
+					"province": 656,
+					"staff": 225,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://mod.gov.tt/"
+		},
+		{
+			"id": "caribbean_dockyard",
+			"название": {
+				"ru": "Caribbean Dockyard and Engineering Services Limited (CARIDOC)",
+				"en": "Caribbean Dockyard and Engineering Services Limited (CARIDOC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судостроительный и сухой доковый комплекс в Шагуарамасе, стратегический партнер Береговой охраны и флотов стран CARICOM",
+				"en": "Caribbean Dockyard and Engineering Services Limited (CARIDOC) — a defence company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 50,
+				"profit": 4,
+				"debt": 20,
+				"money": 12,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 80
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Wayne Beharry",
+					"en": "Wayne Beharry"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6773,
+					"д": -61.5536,
+					"province": 656,
+					"staff": 150,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://caridoc.com/"
+		},
+		{
+			"id": "ttdf_air",
+			"название": {
+				"ru": "TTDF Air Guard Flight Maintenance Facility (Piarco Air Station)",
+				"en": "TTDF Air Guard Flight Maintenance Facility (Piarco Air Station)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Технический ангар и эскадрилья обслуживания вертолетов AW139 и легких транспортных самолетов воздушной охраны",
+				"en": "TTDF Air Guard Flight Maintenance Facility (Piarco Air Station) — a defence company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 5,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Group Captain Keston Charles",
+					"en": "Group Captain Keston Charles"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6694,
+					"д": -61.5216,
+					"province": 656,
+					"staff": 105,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://mod.gov.tt/"
+		},
+		{
+			"id": "national_operations",
+			"название": {
+				"ru": "National Operations Fusion Centre (NOFC Systems Division)",
+				"en": "National Operations Fusion Centre (NOFC Systems Division)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный центр при министерстве национальной безопасности: интеграция береговых РЛС, систем C4ISR и кибербезопасности",
+				"en": "National Operations Fusion Centre (NOFC Systems Division) — a defence company of Trinidad and Tobago."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 4,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Тринидад и Тобаго)",
+						"en": "The state (Trinidad and Tobago)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Тринидад и Тобаго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Commander Garvin Richardson",
+					"en": "Commander Garvin Richardson"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 250,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Порт оф Спейн",
+						"en": "Port of Spain"
+					},
+					"ш": 10.6786,
+					"д": -61.5272,
+					"province": 656,
+					"staff": 75,
+					"fine": 4038
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://nationalsecurity.gov.tt/"
+		}
+	]
+}

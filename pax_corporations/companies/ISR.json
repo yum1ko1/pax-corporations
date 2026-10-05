@@ -1,0 +1,1872 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Израиль",
+	"iso": "ISR",
+	"data_date": "2026-03",
+	"average_wage": 4500,
+	"companies": [
+		{
+			"id": "teva",
+			"название": {
+				"ru": "Teva",
+				"en": "Teva"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1901,
+			"description": {
+				"ru": "Крупнейший производитель дженериков в мире.",
+				"en": "The world's largest generic drugmaker."
+			},
+			"fundamental": {
+				"выручка": 16500,
+				"profit": -1000,
+				"debt": 17000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1140,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ричард Франсис",
+					"en": "Richard Francis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "британец, вытаскивает из долгов",
+					"en": "британец, вытаскивает из долгов"
+				}
+			},
+			"staff": 36000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.09,
+					"д": 34.78,
+					"province": 12,
+					"staff": 3000,
+					"fine": 1863
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кфар-Саба",
+						"en": "Kfar Saba"
+					},
+					"ш": 32.17,
+					"д": 34.9,
+					"province": 12,
+					"staff": 2000,
+					"fine": 1861
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tevapharm.com/ | NYSE: TEVA Annual Report 2024; SEC Form 10-K"
+		},
+		{
+			"id": "elbit",
+			"название": {
+				"ru": "Elbit Systems",
+				"en": "Elbit Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Дроны, ракеты и электроника — выросла на войнах.",
+				"en": "Drones, missiles and electronics — grown on the wars."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 350,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 45,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Мики Федерман",
+						"en": "Michael Federmann"
+					},
+					"type": "founder",
+					"доля": 0.44
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бецалель Махлис",
+					"en": "Bezhalel Machlis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оборонщик",
+					"en": "оборонщик"
+				}
+			},
+			"staff": 20000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хайфа",
+						"en": "Haifa"
+					},
+					"ш": 32.79,
+					"д": 35.0,
+					"province": 12,
+					"staff": 8000,
+					"fine": 1860
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://elbitsystems.com/ | NASDAQ: ESLT Annual Report 2024; TASE"
+		},
+		{
+			"id": "iai",
+			"название": {
+				"ru": "Israel Aerospace Industries",
+				"en": "Israel Aerospace Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1953,
+			"description": {
+				"ru": "ПРО «Хец», спутники, дроны.",
+				"en": "Arrow missile defence, satellites, drones."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 400,
+				"debt": 500,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Израиля",
+						"en": "The Israeli state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Боаз Леви",
+					"en": "Boaz Levy"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер ПРО",
+					"en": "инженер ПРО"
+				}
+			},
+			"staff": 16000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лод, у аэропорта Бен-Гурион",
+						"en": "Lod, Ben Gurion airport"
+					},
+					"ш": 31.99,
+					"д": 34.88,
+					"province": 12,
+					"staff": 12000,
+					"fine": 1861
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.iai.co.il/ | IAI Financial Statements 2024; MoD Israel; Defense News"
+		},
+		{
+			"id": "rafael",
+			"название": {
+				"ru": "Rafael",
+				"en": "Rafael Advanced Defense Systems"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1948,
+			"description": {
+				"ru": "«Железный купол» и лазер «Железный луч».",
+				"en": "Iron Dome and the Iron Beam laser."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 300,
+				"debt": 300,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Израиля",
+						"en": "The Israeli state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йоав Турджеман",
+					"en": "Yoav Turgeman"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "генерал запаса",
+					"en": "генерал запаса"
+				}
+			},
+			"staff": 9000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хайфа",
+						"en": "Haifa"
+					},
+					"ш": 32.82,
+					"д": 35.0,
+					"province": 12,
+					"staff": 8000,
+					"fine": 1860
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.rafael.co.il/ | Rafael Annual Report 2024; Israel Ministry of Defense"
+		},
+		{
+			"id": "leumi",
+			"название": {
+				"ru": "Bank Leumi",
+				"en": "Bank Leumi"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1902,
+			"description": {
+				"ru": "Крупнейший банк Израиля.",
+				"en": "Israel's largest bank."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 2400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1500,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ханан Фридман",
+					"en": "Hanan Friedman"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 10000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.07,
+					"д": 34.79,
+					"province": 12,
+					"staff": 5000,
+					"fine": 1863
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.leumi.co.il/ | TASE: LUMI Annual Report 2024; Bank of Israel"
+		},
+		{
+			"id": "hapoalim",
+			"название": {
+				"ru": "Bank Hapoalim",
+				"en": "Bank Hapoalim"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1921,
+			"description": {
+				"ru": "Второй банк Израиля.",
+				"en": "Israel's second bank."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 2300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 1320,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ядин Антеби",
+					"en": "Yadin Antebi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 9500,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.06,
+					"д": 34.77,
+					"province": 12,
+					"staff": 5000,
+					"fine": 1863
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bankhapoalim.co.il/ | TASE: POLI Annual Report 2024; Bank of Israel"
+		},
+		{
+			"id": "checkpoint",
+			"название": {
+				"ru": "Check Point",
+				"en": "Check Point"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Кибербезопасность: межсетевые экраны.",
+				"en": "Cybersecurity: firewalls."
+			},
+			"fundamental": {
+				"выручка": 2600,
+				"profit": 900,
+				"debt": 0,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 110,
+				"market_cap": 24000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Гил Швед",
+						"en": "Gil Shwed"
+					},
+					"type": "founder",
+					"доля": 0.18
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Надав Цафрир",
+					"en": "Nadav Zafrir"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший глава киберподразделения 8200",
+					"en": "бывший глава киберподразделения 8200"
+				}
+			},
+			"staff": 6500,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.11,
+					"д": 34.8,
+					"province": 12,
+					"staff": 3000,
+					"fine": 1863
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.checkpoint.com/ | NASDAQ: CHKP Annual Report 2024; SEC Form 20-F"
+		},
+		{
+			"id": "icl",
+			"название": {
+				"ru": "ICL Group",
+				"en": "ICL Group"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Калий и бром из Мёртвого моря.",
+				"en": "Potash and bromine from the Dead Sea."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 400,
+				"debt": 2500,
+				"money": 500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1290,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Israel Corp (семья Офер)",
+						"en": "Israel Corp (the Ofer family)"
+					},
+					"type": "founder",
+					"доля": 0.44
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Элад Ахаронсон",
+					"en": "Elad Aharonson"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2025,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 12000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.08,
+					"д": 34.79,
+					"province": 12,
+					"staff": 500,
+					"fine": 1863
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мёртвое море (Сдом)",
+						"en": "Dead Sea (Sdom)"
+					},
+					"ш": 31.05,
+					"д": 35.39,
+					"province": 12,
+					"staff": 3000,
+					"fine": 1859
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.icl-group.com/ | NYSE/TASE: ICL Annual Report 2024; Israel Corp filings"
+		},
+		{
+			"id": "ai21",
+			"название": {
+				"ru": "AI21 Labs",
+				"en": "AI21 Labs"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Израильские языковые модели Jamba.",
+				"en": "Israel's Jamba language models."
+			},
+			"fundamental": {
+				"выручка": 50,
+				"profit": -50,
+				"debt": 0,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Израиль"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ори Гошен",
+					"en": "Ori Goshen"
+				},
+				"роль": "founder",
+				"с_года": 2017,
+				"born_year": 1980,
+				"доля": 0.1,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 250,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тель-Авив",
+						"en": "Tel Aviv"
+					},
+					"ш": 32.08,
+					"д": 34.78,
+					"province": 12,
+					"staff": 250,
+					"fine": 1863
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.ai21.com/ | AI21 Labs corporate press / PitchBook / TechCrunch 2024"
+		},
+		{
+			"id": "israel_electric",
+			"название": {
+				"ru": "Israel Electric Corporation (IEC)",
+				"en": "Israel Electric Corporation (IEC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация Израиля (генерация, передача и распределение электроэнергии; ТЭС Орот Рабин, Рутенберг, Гева; выручка ~$7.5 млрд, 11,500 сотр.). https://www.iec.co.il/",
+				"en": "Israel Electric Corporation (IEC) — a energy company of Israel."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 693,
+				"debt": 4558,
+				"money": 960,
+				"dividends": 208
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9891
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13343,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7377,
+					"д": 35.2519,
+					"province": 12,
+					"staff": 4002,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mizrahi_tefahot",
+			"название": {
+				"ru": "Mizrahi-Tefahot Bank",
+				"en": "Mizrahi-Tefahot Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по величине банк Израиля и абсолютный лидер в ипотечном кредитовании (активы свыше $130 млрд, чистая прибыль ~$1.5 млрд, TASE: MZTF, 7,000 сотр.). https://www.mizrahi-tefahot.co.il/",
+				"en": "Mizrahi-Tefahot Bank — a financial company of Israel."
+			},
+			"fundamental": {
+				"выручка": 2275,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5308
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7896,
+					"д": 35.1834,
+					"province": 12,
+					"staff": 1950,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "israel_discount",
+			"название": {
+				"ru": "Israel Discount Bank",
+				"en": "Israel Discount Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Четвертый крупнейший системно значимый банк Израиля (включая Mercantile Discount Bank и карточную систему CAL; активы свыше $100 млрд, TASE: DSCT). https://www.discountbank.co.il/",
+				"en": "Israel Discount Bank — a financial company of Israel."
+			},
+			"fundamental": {
+				"выручка": 2275,
+				"profit": 640,
+				"debt": 0,
+				"money": 0,
+				"dividends": 192
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5308
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7897,
+					"д": 35.2352,
+					"province": 12,
+					"staff": 1950,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "shufersal",
+			"название": {
+				"ru": "Shufersal",
+				"en": "Shufersal"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая национальная розничная сеть супермаркетов и продовольственного ритейла Израиля (свыше 300 гипермаркетов, аптечная сеть Be; выручка ~$4.5 млрд, 16,000 сотр.). https://www.shufersal.co.il/",
+				"en": "Shufersal — a consumer and retail company of Israel."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 350,
+				"debt": 1038,
+				"money": 375,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6164
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13500,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.801,
+					"д": 35.1981,
+					"province": 12,
+					"staff": 4050,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bazan_group",
+			"название": {
+				"ru": "Bazan Group (Oil Refineries Ltd)",
+				"en": "Bazan Group (Oil Refineries Ltd)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший нефтеперерабатывающий и нефтехимический комплекс Израиля в Хайфском заливе (переработка 9.8 млн тонн нефти в год, заводы Carmel Olefins, Gadiv; выручка ~$7.0 млрд). https://www.bazan.co.il/",
+				"en": "Bazan Group (Oil Refineries Ltd) — a oil and gas company of Israel."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 417,
+				"debt": 1972,
+				"money": 665,
+				"dividends": 125
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4354
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6121,
+			"wage": 8050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7601,
+					"д": 35.2466,
+					"province": 12,
+					"staff": 1836,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mobileye_global",
+			"название": {
+				"ru": "Mobileye Global",
+				"en": "Mobileye Global"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области автономного вождения, чипов EyeQ и систем ADAS (Nasdaq: MBLY; штаб-квартира в Иерусалиме, выручка ~$2.0 млрд, оценка ~$15 млрд). https://www.mobileye.com/",
+				"en": "Mobileye Global — a semiconductor company of Israel."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 397,
+				"debt": 273,
+				"money": 568,
+				"dividends": 119
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8730
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2812,
+			"wage": 8750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7828,
+					"д": 35.2108,
+					"province": 12,
+					"staff": 843,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "wix_com",
+			"название": {
+				"ru": "Wix.com",
+				"en": "Wix.com"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой разработчик ведущей облачной платформы веб-разработки и конструктора сайтов (Nasdaq: WIX; 260 млн пользователей, штаб-квартира в Тель-Авиве, выручка ~$1.8 млрд, 5,500 сотр.). https://www.wix.com/",
+				"en": "Wix.com — a IT and telecom company of Israel."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 232,
+				"debt": 572,
+				"money": 300,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3408
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4768,
+			"wage": 8068,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7616,
+					"д": 35.207,
+					"province": 12,
+					"staff": 1430,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "strauss_group",
+			"название": {
+				"ru": "Strauss Group",
+				"en": "Strauss Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий израильский пищевой конгломерат (кофе Strauss Coffee, молочные продукты, кондитерские изделия Elite, соусы Sabra и Obela; выручка ~$3.0 млрд, TASE: STRS, 16,000 сотр.). https://www.strauss-group.com/",
+				"en": "Strauss Group — a consumer and retail company of Israel."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 233,
+				"debt": 692,
+				"money": 250,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4110
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7512,
+					"д": 35.1787,
+					"province": 12,
+					"staff": 2700,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bezeq",
+			"название": {
+				"ru": "Bezeq",
+				"en": "Bezeq"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный телекоммуникационный оператор Израиля (фиксированная телефония, скоростной интернет, сотовый оператор Pelephone, спутниковое/IPTV ТВ Yes; выручка ~$2.6 млрд, TASE: BZEQ). https://www.bezeq.co.il/",
+				"en": "Bezeq — a IT and telecom company of Israel."
+			},
+			"fundamental": {
+				"выручка": 2600,
+				"profit": 335,
+				"debt": 827,
+				"money": 433,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4923
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6887,
+			"wage": 8068,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7924,
+					"д": 35.1842,
+					"province": 12,
+					"staff": 2066,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zim_integrated",
+			"название": {
+				"ru": "ZIM Integrated Shipping Services",
+				"en": "ZIM Integrated Shipping Services"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный морской контейнерный перевозчик (входит в мировой топ-10 линий; флот свыше 130 современных судов, выручка ~$8.5 млрд, NYSE: ZIM). https://www.zim.com/",
+				"en": "ZIM Integrated Shipping Services — a transport company of Israel."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 567,
+				"debt": 4293,
+				"money": 1759,
+				"dividends": 170
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6071
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21250,
+			"wage": 7364,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7361,
+					"д": 35.1946,
+					"province": 12,
+					"staff": 6375,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "israel_weapon",
+			"название": {
+				"ru": "Israel Weapon Industries (IWI / SK Group)",
+				"en": "Israel Weapon Industries (IWI / SK Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из мировых флагманов стрелкового оружия специального назначения",
+				"en": "Israel Weapon Industries (IWI / SK Group) — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 720,
+				"profit": 48,
+				"debt": 185,
+				"money": 111,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2160,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7719,
+					"д": 35.1872,
+					"province": 12,
+					"staff": 648,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "plasan_sasa",
+			"название": {
+				"ru": "Plasan Sasa",
+				"en": "Plasan Sasa"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий разработчик и производитель композитной и керамической броневой защиты для боевых колесных и гусеничных машин, тактических бронеавтомобилей MRAP (комплекты брони для Oshkosh JLTV, британских Foxhound, броневики SandCat и Guarder). https://plasan.com/",
+				"en": "Plasan Sasa — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 698,
+				"profit": 47,
+				"debt": 179,
+				"money": 107,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2094,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.8071,
+					"д": 35.2109,
+					"province": 12,
+					"staff": 628,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aeronautics_group",
+			"название": {
+				"ru": "Aeronautics Group (подразделение Rafael)",
+				"en": "Aeronautics Group (подразделение Rafael)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик и серийный производитель тактических и оперативно-тактических беспилотных авиационных комплексов (семейство БПЛА Orbiter 2/3/4, барражирующие боеприпасы, аэросъемочные комплексы Aerostar, морские дроны Pegasus). https://aeronautics-sys.com/",
+				"en": "Aeronautics Group (подразделение Rafael) — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 675,
+				"profit": 45,
+				"debt": 174,
+				"money": 104,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1266
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2025,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7397,
+					"д": 35.2057,
+					"province": 12,
+					"staff": 607,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uvision_air",
+			"название": {
+				"ru": "Uvision Air",
+				"en": "Uvision Air"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой пионер в разработке и производстве высокоточных барражирующих боеприпасов семейства HERO (HERO-30 для пехоты, противотанковые HERO-120, тяжелые оперативные HERO-400 и HERO-900/1250; масштабные контракты с ВС США и стран НАТО). https://uvisionuav.com/",
+				"en": "Uvision Air — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 562,
+				"profit": 37,
+				"debt": 145,
+				"money": 86,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1054
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1686,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.8043,
+					"д": 35.2474,
+					"province": 12,
+					"staff": 505,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "smart_shooter",
+			"название": {
+				"ru": "Smart Shooter",
+				"en": "Smart Shooter"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик высокоточных компьютеризированных систем управления огнем стрелкового оружия SMASH (прицельные комплексы с компьютерным зрением и автозахватом цели для гарантированного перехвата малых БПЛА / дронов-камикадзе и подвижных целей). https://www.smart-shooter.com/",
+				"en": "Smart Shooter — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 30,
+				"debt": 116,
+				"money": 69,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 844
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1350,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7714,
+					"д": 35.2009,
+					"province": 12,
+					"staff": 405,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "israel_shipyards",
+			"название": {
+				"ru": "Israel Shipyards (SK Group)",
+				"en": "Israel Shipyards (SK Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военное судостроительное предприятие в Хайфском порту (ракетные катера и корветы класса Sa'ar 4.5, патрульные катера Shaldag, проектирование и строительство перспективных корветов класса Reshef / Sa'ar 76 для ВМС Израиля). https://www.israel-shipyards.com/",
+				"en": "Israel Shipyards (SK Group) — a defence company of Israel."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Израиль)",
+						"en": "The state (Israel)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Израиль"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иерусалим",
+						"en": "Jerusalem"
+					},
+					"ш": 31.7319,
+					"д": 35.2215,
+					"province": 12,
+					"staff": 378,
+					"fine": 1864
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,3993 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год (≈1,08 $/€), цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Италия",
+	"iso": "ITA",
+	"data_date": "2026-03",
+	"average_wage": 3000,
+	"companies": [
+		{
+			"id": "enel",
+			"название": {
+				"ru": "Enel",
+				"en": "Enel"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1962,
+			"description": {
+				"ru": "Крупнейшая энергокомпания Италии и одна из крупнейших в мире.",
+				"en": "Italy's largest power company and one of the world's biggest."
+			},
+			"fundamental": {
+				"выручка": 85000,
+				"profit": 7000,
+				"debt": 70000,
+				"money": 8000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 10170,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Минфин Италии",
+						"en": "Italian Ministry of Economy"
+					},
+					"type": "polity",
+					"доля": 0.236,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.764
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Флавио Каттанео",
+					"en": "Flavio Cattaneo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер-реформатор, режет долги",
+					"en": "менеджер-реформатор, режет долги"
+				}
+			},
+			"staff": 61000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рим",
+						"en": "Headquarters, Rome"
+					},
+					"ш": 41.91,
+					"д": 12.49,
+					"province": 935,
+					"staff": 6000,
+					"fine": 1929
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС в Бриндизи",
+						"en": "Brindisi power plant"
+					},
+					"ш": 40.63,
+					"д": 17.94,
+					"province": 646,
+					"staff": 500,
+					"fine": 1913
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.enel.com/ | Enel Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "eni",
+			"название": {
+				"ru": "Eni",
+				"en": "Eni"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1953,
+			"description": {
+				"ru": "Нефтегазовая компания Италии, сильна в Африке.",
+				"en": "Italy's oil and gas company, strong in Africa."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 3000,
+				"debt": 30000,
+				"money": 9000,
+				"dividends": 3300
+			},
+			"рынок": {
+				"shares_mln": 3150,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Италии (Минфин и CDP)",
+						"en": "The Italian state (MEF and CDP)"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Клаудио Дескальци",
+					"en": "Claudio Descalzi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "геолог, открыл гигантские месторождения",
+					"en": "геолог, открыл гигантские месторождения"
+				}
+			},
+			"staff": 33000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Донато-Миланезе",
+						"en": "San Donato Milanese"
+					},
+					"ш": 45.41,
+					"д": 9.27,
+					"province": 934,
+					"staff": 6000,
+					"fine": 1957
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Санназзаро",
+						"en": "Sannazzaro refinery"
+					},
+					"ш": 45.1,
+					"д": 8.9,
+					"province": 933,
+					"staff": 1000,
+					"fine": 1956
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Месторождение Валь-д’Агри",
+						"en": "Val d'Agri field"
+					},
+					"ш": 40.3,
+					"д": 15.9,
+					"province": 646,
+					"staff": 500,
+					"fine": 1897
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.eni.com/ | Eni Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "intesa",
+			"название": {
+				"ru": "Intesa Sanpaolo",
+				"en": "Intesa Sanpaolo"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2007,
+			"description": {
+				"ru": "Крупнейший банк Италии.",
+				"en": "Italy's largest bank."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 9500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 6000
+			},
+			"рынок": {
+				"shares_mln": 17800,
+				"market_cap": 95000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Компания ди Сан-Паоло",
+						"en": "Compagnia di San Paolo"
+					},
+					"type": "крупный",
+					"доля": 0.06,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карло Мессина",
+					"en": "Carlo Messina"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир, щедрый на дивиденды",
+					"en": "осторожный банкир, щедрый на дивиденды"
+				}
+			},
+			"staff": 93000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Небоскрёб в Турине",
+						"en": "Turin skyscraper"
+					},
+					"ш": 45.07,
+					"д": 7.66,
+					"province": 933,
+					"staff": 5000,
+					"fine": 1941
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Милане",
+						"en": "Milan office"
+					},
+					"ш": 45.47,
+					"д": 9.19,
+					"province": 934,
+					"staff": 8000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.intesasanpaolo.com/ | Intesa Sanpaolo Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "unicredit",
+			"название": {
+				"ru": "UniCredit",
+				"en": "UniCredit"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Второй банк Италии, скупает доли конкурентов (Commerzbank).",
+				"en": "Italy's second bank, buying stakes in rivals (Commerzbank)."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 10500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 1550,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреа Орчел",
+					"en": "Andrea Orcel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "агрессивный банкир-завоеватель",
+					"en": "агрессивный банкир-завоеватель"
+				}
+			},
+			"staff": 70000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башня UniCredit, Милан",
+						"en": "UniCredit Tower, Milan"
+					},
+					"ш": 45.48,
+					"д": 9.19,
+					"province": 934,
+					"staff": 6000,
+					"fine": 1957
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "HypoVereinsbank, Мюнхен",
+						"en": "HypoVereinsbank, Munich"
+					},
+					"ш": 48.14,
+					"д": 11.58,
+					"province": 934,
+					"staff": 5000,
+					"fine": 828
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.unicreditgroup.eu/ | UniCredit Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "ferrari",
+			"название": {
+				"ru": "Ferrari",
+				"en": "Ferrari"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1939,
+			"description": {
+				"ru": "Спорткары и «Формула-1».",
+				"en": "Sports cars and Formula 1."
+			},
+			"fundamental": {
+				"выручка": 7200,
+				"profit": 1700,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 550
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Exor (Аньелли)",
+						"en": "Exor (Agnelli)"
+					},
+					"type": "крупный",
+					"доля": 0.24,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Пьеро Феррари",
+						"en": "Piero Ferrari"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бенедетто Винья",
+					"en": "Benedetto Vigna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "физик из мира чипов, ведёт марку к электромобилю",
+					"en": "физик из мира чипов, ведёт марку к электромобилю"
+				}
+			},
+			"staff": 5000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира и завод, Маранелло",
+						"en": "Headquarters and plant, Maranello"
+					},
+					"ш": 44.53,
+					"д": 10.86,
+					"province": 933,
+					"staff": 5000,
+					"fine": 1865
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ferrari.com/ | Ferrari Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "generali",
+			"название": {
+				"ru": "Generali",
+				"en": "Generali"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1831,
+			"description": {
+				"ru": "Крупнейший страховщик Италии.",
+				"en": "Italy's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 100000,
+				"profit": 4000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2400
+			},
+			"рынок": {
+				"shares_mln": 1540,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Delfin (семья Дель Веккио)",
+						"en": "Delfin (Del Vecchio family)"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Франческо Кальтаджироне",
+						"en": "Francesco Caltagirone"
+					},
+					"type": "крупный",
+					"доля": 0.07,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Mediobanca",
+						"en": "Mediobanca"
+					},
+					"type": "company",
+					"доля": 0.13,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Филипп Донне",
+					"en": "Philippe Donnet"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз во главе итальянского страховщика, воюет за контроль",
+					"en": "француз во главе итальянского страховщика, воюет за контроль"
+				}
+			},
+			"staff": 87000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Триест",
+						"en": "Headquarters, Trieste"
+					},
+					"ш": 45.65,
+					"д": 13.78,
+					"province": 163,
+					"staff": 3000,
+					"fine": 1965
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Башня в Милане",
+						"en": "Milan tower"
+					},
+					"ш": 45.48,
+					"д": 9.15,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.generali.com/ | Generali Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "stellantis",
+			"название": {
+				"ru": "Stellantis",
+				"en": "Stellantis"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Fiat, Peugeot, Jeep: продажи и прибыль рухнули.",
+				"en": "Fiat, Peugeot, Jeep: sales and profits collapsed."
+			},
+			"fundamental": {
+				"выручка": 170000,
+				"profit": 5900,
+				"debt": 30000,
+				"money": 30000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 2900,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Exor (Аньелли)",
+						"en": "Exor (Agnelli)"
+					},
+					"type": "крупный",
+					"доля": 0.15,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Семья Пежо",
+						"en": "The Peugeot family"
+					},
+					"type": "крупный",
+					"доля": 0.07,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Bpifrance",
+						"en": "Bpifrance"
+					},
+					"type": "polity",
+					"доля": 0.06,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.72
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Антонио Филоза",
+					"en": "Antonio Filosa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянец, спасает Jeep и американские заводы",
+					"en": "итальянец, спасает Jeep и американские заводы"
+				}
+			},
+			"staff": 250000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Линготто, Турин",
+						"en": "Lingotto, Turin"
+					},
+					"ш": 45.03,
+					"д": 7.66,
+					"province": 933,
+					"staff": 5000,
+					"fine": 1941
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мирафьори, Турин",
+						"en": "Mirafiori, Turin"
+					},
+					"ш": 45.03,
+					"д": 7.63,
+					"province": 933,
+					"staff": 10000,
+					"fine": 1941
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Мельфи",
+						"en": "Melfi plant"
+					},
+					"ш": 41.0,
+					"д": 15.65,
+					"province": 646,
+					"staff": 5000,
+					"fine": 1897
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.stellantis.com/ | Stellantis Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "leonardo",
+			"название": {
+				"ru": "Leonardo",
+				"en": "Leonardo"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1948,
+			"description": {
+				"ru": "Вертолёты, электроника и оборона Италии.",
+				"en": "Italy's helicopters, electronics and defence."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 1300,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 578,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Минфин Италии",
+						"en": "Italian Ministry of Economy"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберто Чинголани",
+					"en": "Roberto Cingolani"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "физик, бывший министр",
+					"en": "физик, бывший министр"
+				}
+			},
+			"staff": 53000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рим",
+						"en": "Headquarters, Rome"
+					},
+					"ш": 41.9,
+					"д": 12.49,
+					"province": 935,
+					"staff": 3000,
+					"fine": 1929
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Вертолёты, Верджате",
+						"en": "Helicopters, Vergiate"
+					},
+					"ш": 45.72,
+					"д": 8.7,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.leonardo.com/ | Leonardo Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "prysmian",
+			"название": {
+				"ru": "Prysmian",
+				"en": "Prysmian"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1879,
+			"description": {
+				"ru": "Крупнейший в мире производитель кабелей.",
+				"en": "The world's largest cable maker."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 900,
+				"debt": 7000,
+				"money": 2000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 290,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Массимо Баттаини",
+					"en": "Massimo Battaini"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "кабельщик, растёт на электросетях",
+					"en": "кабельщик, растёт на электросетях"
+				}
+			},
+			"staff": 30000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.52,
+					"д": 9.21,
+					"province": 934,
+					"staff": 1500,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.prysmiangroup.com/ | Prysmian Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "poste",
+			"название": {
+				"ru": "Poste Italiane",
+				"en": "Poste Italiane"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1862,
+			"description": {
+				"ru": "Почта, банк и страхование в каждом городке.",
+				"en": "Post, banking and insurance in every town."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 2200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 1300,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Италии (Минфин и CDP)",
+						"en": "The Italian state (MEF and CDP)"
+					},
+					"type": "polity",
+					"доля": 0.64,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маттео Дель Фанте",
+					"en": "Matteo Del Fante"
+				},
+				"роль": "госслужащий",
+				"с_года": 2017,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный менеджер",
+					"en": "государственный менеджер"
+				}
+			},
+			"staff": 120000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рим",
+						"en": "Headquarters, Rome"
+					},
+					"ш": 41.82,
+					"д": 12.47,
+					"province": 935,
+					"staff": 5000,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.posteitaliane.it/ | Poste Italiane Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "terna",
+			"название": {
+				"ru": "Terna",
+				"en": "Terna"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1999,
+			"description": {
+				"ru": "Оператор магистральных электросетей Италии.",
+				"en": "Italy's transmission grid operator."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1200,
+				"debt": 12000,
+				"money": 1500,
+				"dividends": 750
+			},
+			"рынок": {
+				"shares_mln": 2010,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CDP (государство)",
+						"en": "CDP (the state)"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джузеппина Ди Фоджа",
+					"en": "Giuseppina Di Foggia"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая женщина во главе крупной госкомпании Италии",
+					"en": "первая женщина во главе крупной госкомпании Италии"
+				}
+			},
+			"staff": 6000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рим",
+						"en": "Headquarters, Rome"
+					},
+					"ш": 41.83,
+					"д": 12.46,
+					"province": 935,
+					"staff": 2000,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.terna.it/ | Terna Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "snam",
+			"название": {
+				"ru": "Snam",
+				"en": "Snam"
+			},
+			"sector": "энергетика",
+			"profile": "gas",
+			"type": "смешанная",
+			"founded": 1941,
+			"description": {
+				"ru": "Газопроводы и хранилища Италии.",
+				"en": "Italy's gas pipelines and storage."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1300,
+				"debt": 17000,
+				"money": 1500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3360,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CDP (государство)",
+						"en": "CDP (the state)"
+					},
+					"type": "polity",
+					"доля": 0.31,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.69
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Агостино Шкорнаенки",
+					"en": "Agostino Scornajenchi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист газовой инфраструктуры",
+					"en": "финансист газовой инфраструктуры"
+				}
+			},
+			"staff": 4000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Донато-Миланезе",
+						"en": "San Donato Milanese"
+					},
+					"ш": 45.42,
+					"д": 9.27,
+					"province": 934,
+					"staff": 1500,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.snam.it/ | Snam Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "moncler",
+			"название": {
+				"ru": "Moncler",
+				"en": "Moncler"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1952,
+			"description": {
+				"ru": "Люксовые пуховики.",
+				"en": "Luxury down jackets."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 700,
+				"debt": 800,
+				"money": 1500,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 275,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ремо Руффини",
+						"en": "Remo Ruffini"
+					},
+					"type": "крупный",
+					"доля": 0.16,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ремо Руффини",
+					"en": "Remo Ruffini"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2003,
+				"born_year": 1961,
+				"доля": 0.16,
+				"характер": {
+					"ru": "превратил лыжную марку в люкс",
+					"en": "превратил лыжную марку в люкс"
+				}
+			},
+			"staff": 6000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.46,
+					"д": 9.2,
+					"province": 934,
+					"staff": 1500,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.monclergroup.com/ | Moncler Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "mediobanca",
+			"название": {
+				"ru": "Mediobanca",
+				"en": "Mediobanca"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1946,
+			"description": {
+				"ru": "Инвестбанк, перешедший под контроль Monte dei Paschi.",
+				"en": "An investment bank taken over by Monte dei Paschi."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 830,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Monte dei Paschi",
+						"en": "Monte dei Paschi"
+					},
+					"type": "company",
+					"доля": 0.86,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.14
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алессандро Мелцци д’Эриль",
+					"en": "Alessandro Melzi d'Eril"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2025,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставленник нового владельца",
+					"en": "ставленник нового владельца"
+				}
+			},
+			"staff": 5000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пьяцетта Кучча, Милан",
+						"en": "Piazzetta Cuccia, Milan"
+					},
+					"ш": 45.47,
+					"д": 9.19,
+					"province": 934,
+					"staff": 2000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mediobanca.com/ | Mediobanca Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "bancobpm",
+			"название": {
+				"ru": "Banco BPM",
+				"en": "Banco BPM"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Третий банк Италии.",
+				"en": "Italy's third bank."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 1515,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Crédit Agricole",
+						"en": "Crédit Agricole"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джузеппе Кастанья",
+					"en": "Giuseppe Castagna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "защищает банк от поглощения",
+					"en": "защищает банк от поглощения"
+				}
+			},
+			"staff": 20000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.46,
+					"д": 9.19,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1957
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Вероне",
+						"en": "Verona office"
+					},
+					"ш": 45.44,
+					"д": 10.99,
+					"province": 934,
+					"staff": 2000,
+					"fine": 1971
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://gruppo.bancobpm.it/ | Banco BPM Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "tim",
+			"название": {
+				"ru": "TIM (Telecom Italia)",
+				"en": "TIM (Telecom Italia)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Главный оператор связи Италии, продал сети.",
+				"en": "Italy's main telecom, sold its network."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": -500,
+				"debt": 25000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 15300,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Poste Italiane",
+						"en": "Poste Italiane"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Vivendi",
+						"en": "Vivendi"
+					},
+					"type": "company",
+					"доля": 0.02,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.73
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пьетро Лабриола",
+					"en": "Pietro Labriola"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продаёт активы, чтобы спасти компанию",
+					"en": "продаёт активы, чтобы спасти компанию"
+				}
+			},
+			"staff": 37000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рим",
+						"en": "Headquarters, Rome"
+					},
+					"ш": 41.87,
+					"д": 12.49,
+					"province": 935,
+					"staff": 4000,
+					"fine": 1929
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Милане",
+						"en": "Milan office"
+					},
+					"ш": 45.48,
+					"д": 9.21,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gruppotim.it/ | TIM (Telecom Italia) Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "saipem",
+			"название": {
+				"ru": "Saipem",
+				"en": "Saipem"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Морские нефтегазовые платформы и трубопроводы.",
+				"en": "Offshore oil and gas platforms and pipelines."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 350,
+				"debt": 2500,
+				"money": 2500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1950,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Eni",
+						"en": "Eni"
+					},
+					"type": "company",
+					"доля": 0.21,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "CDP (государство)",
+						"en": "CDP (the state)"
+					},
+					"type": "polity",
+					"доля": 0.13,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алессандро Пулити",
+					"en": "Alessandro Puliti"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вытащил компанию из убытков",
+					"en": "вытащил компанию из убытков"
+				}
+			},
+			"staff": 30000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.5,
+					"д": 9.2,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.saipem.com/ | Saipem Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "fincantieri",
+			"название": {
+				"ru": "Fincantieri",
+				"en": "Fincantieri"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1959,
+			"description": {
+				"ru": "Круизные лайнеры и военные корабли.",
+				"en": "Cruise liners and warships."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 100,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 320,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CDP (государство)",
+						"en": "CDP (the state)"
+					},
+					"type": "polity",
+					"доля": 0.71,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.29
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пьерроберто Фольеро",
+					"en": "Pierroberto Folgiero"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит флот",
+					"en": "строит флот"
+				}
+			},
+			"staff": 22000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Триест",
+						"en": "Headquarters, Trieste"
+					},
+					"ш": 45.65,
+					"д": 13.77,
+					"province": 163,
+					"staff": 1000,
+					"fine": 1965
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Верфь в Монфальконе",
+						"en": "Monfalcone shipyard"
+					},
+					"ш": 45.769,
+					"д": 13.5571,
+					"province": 163,
+					"staff": 5000,
+					"fine": 1964
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fincantieri.com/ | Fincantieri Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "pirelli",
+			"название": {
+				"ru": "Pirelli",
+				"en": "Pirelli"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1872,
+			"description": {
+				"ru": "Шины для спорткаров; спор с китайским акционером.",
+				"en": "Tyres for sports cars; a fight with its Chinese shareholder."
+			},
+			"fundamental": {
+				"выручка": 7300,
+				"profit": 550,
+				"debt": 3500,
+				"money": 1500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Sinochem",
+						"en": "Sinochem"
+					},
+					"type": "polity",
+					"доля": 0.37,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Camfin (Тронкетти Провера)",
+						"en": "Camfin (Tronchetti Provera)"
+					},
+					"type": "крупный",
+					"доля": 0.27,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреа Казалуччи",
+					"en": "Andrea Casaluci"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "между Пекином и Римом",
+					"en": "между Пекином и Римом"
+				}
+			},
+			"staff": 31000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бикокка, Милан",
+						"en": "Bicocca, Milan"
+					},
+					"ш": 45.52,
+					"д": 9.21,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pirelli.com/ | Pirelli Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "campari",
+			"название": {
+				"ru": "Campari",
+				"en": "Campari"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1860,
+			"description": {
+				"ru": "Aperol и Campari.",
+				"en": "Aperol and Campari."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 350,
+				"debt": 3000,
+				"money": 700,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1230,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Lagfin (семья Гаравольи)",
+						"en": "Lagfin (Garavoglia family)"
+					},
+					"type": "крупный",
+					"доля": 0.51,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Саймон Хант",
+					"en": "Simon Hunt"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "британец, наводит порядок после долгов",
+					"en": "британец, наводит порядок после долгов"
+				}
+			},
+			"staff": 5000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сесто-Сан-Джованни",
+						"en": "Headquarters, Sesto San Giovanni"
+					},
+					"ш": 45.53,
+					"д": 9.23,
+					"province": 934,
+					"staff": 1000,
+					"fine": 1961
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.camparigroup.com/ | Campari Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "recordati",
+			"название": {
+				"ru": "Recordati",
+				"en": "Recordati"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1926,
+			"description": {
+				"ru": "Лекарства для редких болезней.",
+				"en": "Rare-disease medicines."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 450,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 210,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CVC Capital",
+						"en": "CVC Capital"
+					},
+					"type": "company",
+					"доля": 0.46,
+					"country": "Великобритания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роб Корманс",
+					"en": "Rob Koremans"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "голландец-фармацевт фонда CVC",
+					"en": "голландец-фармацевт фонда CVC"
+				}
+			},
+			"staff": 4500,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.45,
+					"д": 9.17,
+					"province": 934,
+					"staff": 1500,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.recordati.com/ | Recordati Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "unipol",
+			"название": {
+				"ru": "Unipol",
+				"en": "Unipol"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Страховщик, выросший из кооперативов.",
+				"en": "An insurer grown from cooperatives."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 720,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Кооперативы",
+						"en": "Cooperatives"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карло Чимбри",
+					"en": "Carlo Cimbri"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2010,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "собиратель банков и страховщиков",
+					"en": "собиратель банков и страховщиков"
+				}
+			},
+			"staff": 12000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Болонья",
+						"en": "Headquarters, Bologna"
+					},
+					"ш": 44.5,
+					"д": 11.35,
+					"province": 933,
+					"staff": 3000,
+					"fine": 1869
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.unipol.it/ | Unipol Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "bper",
+			"название": {
+				"ru": "BPER Banca",
+				"en": "BPER Banca"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1867,
+			"description": {
+				"ru": "Региональный банк, купивший Popolare di Sondrio.",
+				"en": "A regional bank that bought Popolare di Sondrio."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1900,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Unipol",
+						"en": "Unipol"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джанни Франко Папа",
+					"en": "Gianni Franco Papa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит третий банковский полюс",
+					"en": "строит третий банковский полюс"
+				}
+			},
+			"staff": 20000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Модена",
+						"en": "Headquarters, Modena"
+					},
+					"ш": 44.65,
+					"д": 10.93,
+					"province": 933,
+					"staff": 3000,
+					"fine": 1865
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://istituzionale.bper.it/ | BPER Banca Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "mps",
+			"название": {
+				"ru": "Monte dei Paschi",
+				"en": "Monte dei Paschi"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1472,
+			"description": {
+				"ru": "Старейший банк мира, спасённый государством и купивший Mediobanca.",
+				"en": "The world's oldest bank, rescued by the state, now owner of Mediobanca."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 3000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Минфин Италии",
+						"en": "Italian Ministry of Economy"
+					},
+					"type": "polity",
+					"доля": 0.05,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Delfin (семья Дель Веккио)",
+						"en": "Delfin (Del Vecchio family)"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Франческо Кальтаджироне",
+						"en": "Francesco Caltagirone"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Луиджи Ловальо",
+					"en": "Luigi Lovaglio"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "поднял банк из руин",
+					"en": "поднял банк из руин"
+				}
+			},
+			"staff": 17000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Палаццо Салимбени, Сиена",
+						"en": "Palazzo Salimbeni, Siena"
+					},
+					"ш": 43.32,
+					"д": 11.33,
+					"province": 933,
+					"staff": 3000,
+					"fine": 1895
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gruppomps.it/ | Monte dei Paschi Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "a2a",
+			"название": {
+				"ru": "A2A",
+				"en": "A2A"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 2008,
+			"description": {
+				"ru": "Энергия и отходы для Милана и Брешии.",
+				"en": "Power and waste for Milan and Brescia."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 1000,
+				"debt": 6000,
+				"money": 1500,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 3130,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Муниципалитеты Милана и Брешии",
+						"en": "Municipalities of Milan and Brescia"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ренато Маццончини",
+					"en": "Renato Mazzoncini"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер городских сетей",
+					"en": "менеджер городских сетей"
+				}
+			},
+			"staff": 14000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Брешия",
+						"en": "Headquarters, Brescia"
+					},
+					"ш": 45.54,
+					"д": 10.21,
+					"province": 934,
+					"staff": 3000,
+					"fine": 1952
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gruppoa2a.it/ | A2A Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "italgas",
+			"название": {
+				"ru": "Italgas",
+				"en": "Italgas"
+			},
+			"sector": "энергетика",
+			"profile": "gas",
+			"type": "смешанная",
+			"founded": 1837,
+			"description": {
+				"ru": "Городские газовые сети.",
+				"en": "City gas networks."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 550,
+				"debt": 9000,
+				"money": 500,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CDP (государство)",
+						"en": "CDP (the state)"
+					},
+					"type": "polity",
+					"доля": 0.26,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паоло Галло",
+					"en": "Paolo Gallo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2016,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "цифровизирует газовые сети",
+					"en": "цифровизирует газовые сети"
+				}
+			},
+			"staff": 4500,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Милан",
+						"en": "Headquarters, Milan"
+					},
+					"ш": 45.49,
+					"д": 9.2,
+					"province": 934,
+					"staff": 1500,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.italgas.it/ | Italgas Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "iveco",
+			"название": {
+				"ru": "Iveco",
+				"en": "Iveco"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Грузовики и автобусы; продаётся индийской Tata.",
+				"en": "Trucks and buses; being sold to India's Tata."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 350,
+				"debt": 3000,
+				"money": 2500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 270,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Exor (Аньелли)",
+						"en": "Exor (Agnelli)"
+					},
+					"type": "крупный",
+					"доля": 0.27,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.73
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Олоф Перссон",
+					"en": "Olof Persson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "швед, готовит продажу",
+					"en": "швед, готовит продажу"
+				}
+			},
+			"staff": 36000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Турин",
+						"en": "Headquarters, Turin"
+					},
+					"ш": 45.04,
+					"д": 7.64,
+					"province": 933,
+					"staff": 4000,
+					"fine": 1941
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Суццаре",
+						"en": "Suzzara plant"
+					},
+					"ш": 44.99,
+					"д": 10.74,
+					"province": 933,
+					"staff": 2000,
+					"fine": 1866
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ivecogroup.com/ | Iveco Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "ferrero",
+			"название": {
+				"ru": "Ferrero",
+				"en": "Ferrero"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1946,
+			"description": {
+				"ru": "Nutella, Kinder, Ferrero Rocher — семейная сладкая империя.",
+				"en": "Nutella, Kinder, Ferrero Rocher — a family sweet empire."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 1500,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ферреро",
+						"en": "The Ferrero family"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джованни Ферреро",
+					"en": "Giovanni Ferrero"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2011,
+				"born_year": 1964,
+				"доля": 1.0,
+				"характер": {
+					"ru": "богатейший итальянец, тихий покупатель брендов",
+					"en": "богатейший итальянец, тихий покупатель брендов"
+				}
+			},
+			"staff": 48000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Завод и штаб, Альба",
+						"en": "Plant and headquarters, Alba"
+					},
+					"ш": 44.7,
+					"д": 8.03,
+					"province": 933,
+					"staff": 6000,
+					"fine": 1948
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Бальвано",
+						"en": "Balvano plant"
+					},
+					"ш": 40.65,
+					"д": 15.51,
+					"province": 646,
+					"staff": 1000,
+					"fine": 1907
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ferrero.com/ | Ferrero Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "fs",
+			"название": {
+				"ru": "Ferrovie dello Stato",
+				"en": "Ferrovie dello Stato"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1905,
+			"description": {
+				"ru": "Государственные железные дороги Италии.",
+				"en": "Italy's state railways."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 300,
+				"debt": 15000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Минфин Италии",
+						"en": "Italian Ministry of Economy"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стефано Доннарумма",
+					"en": "Stefano Donnarumma"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит скоростные дороги на юг",
+					"en": "строит скоростные дороги на юг"
+				}
+			},
+			"staff": 90000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вилла Патрици, Рим",
+						"en": "Villa Patrizi, Rome"
+					},
+					"ш": 41.91,
+					"д": 12.51,
+					"province": 935,
+					"staff": 5000,
+					"fine": 1929
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Вокзал Милан-Центральный",
+						"en": "Milano Centrale"
+					},
+					"ш": 45.49,
+					"д": 9.2,
+					"province": 934,
+					"staff": 5000,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fsitaliane.it/ | Ferrovie dello Stato Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "barilla",
+			"название": {
+				"ru": "Barilla",
+				"en": "Barilla"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1877,
+			"description": {
+				"ru": "Крупнейший производитель пасты в мире.",
+				"en": "The world's largest pasta maker."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 350,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Барилла",
+						"en": "The Barilla family"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джанлука Ди Тондо",
+					"en": "Gianluca Di Tondo"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наёмный менеджер семьи",
+					"en": "наёмный менеджер семьи"
+				}
+			},
+			"staff": 9000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Педриньяно, Парма",
+						"en": "Pedrignano, Parma"
+					},
+					"ш": 44.78,
+					"д": 10.33,
+					"province": 933,
+					"staff": 2500,
+					"fine": 1867
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.barillagroup.com/ | Barilla Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "avio",
+			"название": {
+				"ru": "Avio",
+				"en": "Avio"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 1908,
+			"description": {
+				"ru": "Ракеты Vega для Европы.",
+				"en": "Vega rockets for Europe."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 10,
+				"debt": 100,
+				"money": 150,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 26,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Leonardo",
+						"en": "Leonardo"
+					},
+					"type": "company",
+					"доля": 0.29,
+					"country": "Италия",
+					"company": "leonardo"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.71
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джулио Раньцо",
+					"en": "Giulio Ranzo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 1500,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коллеферро",
+						"en": "Colleferro"
+					},
+					"ш": 41.73,
+					"д": 13.0,
+					"province": 935,
+					"staff": 1500,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.avio.com/ | Avio Annual Report 2024; Borsa Italiana / Euronext Milan; SEC filings"
+		},
+		{
+			"id": "essilorluxottica",
+			"название": {
+				"ru": "EssilorLuxottica",
+				"en": "EssilorLuxottica"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой гигант оптики, медицинских линз и очков (бренды Ray-Ban, Oakley, Persol, Oliver Peoples, лицензии Chanel, Prada, Armani; сети розницы GrandVision, LensCrafters; выручка свыше €25 млрд / ~$27 млрд, капитализация ~$90 млрд, штаб-квартиры в Милане и Шарантоне). https://www.essilorluxottica.com/",
+				"en": "EssilorLuxottica — a pharmaceutical company of Italy."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": 4054,
+				"debt": 12574,
+				"money": 3531,
+				"dividends": 1216
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 49306,
+			"wage": 4348,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8846,
+					"д": 12.4819,
+					"province": 935,
+					"staff": 14791,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "prada_group",
+			"название": {
+				"ru": "Prada Group",
+				"en": "Prada Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой модный конгломерат (бренды высокой моды Prada, Miu Miu, Church’s, Car Shoe; выручка ~$5.0 млрд, капитализация ~$16 млрд, HKEX: 1913, штаб-квартира в Милане). https://www.pradagroup.com/",
+				"en": "Prada Group — a consumer and retail company of Italy."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 389,
+				"debt": 1154,
+				"money": 417,
+				"dividends": 117
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15000,
+			"wage": 3333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.9291,
+					"д": 12.5314,
+					"province": 935,
+					"staff": 4500,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "giorgio_armani",
+			"название": {
+				"ru": "Giorgio Armani S.p.A.",
+				"en": "Giorgio Armani S.p.A."
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Независимый гигант глобальной моды и премиального текстиля (коллекции Giorgio Armani, Emporio Armani, Armani Exchange, отели и мебель; выручка свыше €2.5 млрд, 9,000 сотр.). https://www.armani.com/",
+				"en": "Giorgio Armani S.p.A. — a tourism company of Italy."
+			},
+			"fundamental": {
+				"выручка": 2700,
+				"profit": 405,
+				"debt": 1148,
+				"money": 1958,
+				"dividends": 122
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3172
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30555,
+			"wage": 4050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8906,
+					"д": 12.5261,
+					"province": 935,
+					"staff": 9166,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brembo_s",
+			"название": {
+				"ru": "Brembo S.p.A.",
+				"en": "Brembo S.p.A."
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой технологический лидер в производстве дисковых тормозных систем и суппортов для легковых автомобилей, спорткаров, мотоциклов и гоночных серий Формулы-1 и MotoGP (выручка ~$4.2 млрд, 15,000 сотр., Euronext Milan: BMB). https://www.brembo.com/",
+				"en": "Brembo S.p.A. — a automotive company of Italy."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": 228,
+				"debt": 1260,
+				"money": 535,
+				"dividends": 68
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2333
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7269,
+			"wage": 4286,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Милан",
+						"en": "Milan"
+					},
+					"ш": 45.49,
+					"д": 9.2047,
+					"province": 934,
+					"staff": 2180,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "amplifon_s",
+			"название": {
+				"ru": "Amplifon S.p.A.",
+				"en": "Amplifon S.p.A."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области слухопротезирования и аудиологии (сеть из более чем 9,500 специализированных центров в 25 странах; выручка ~$2.5 млрд, капитализация ~$7 млрд, Euronext Milan: AMP). https://www.amplifon.com/",
+				"en": "Amplifon S.p.A. — a consumer and retail company of Italy."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 194,
+				"debt": 577,
+				"money": 208,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7500,
+			"wage": 3333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Милан",
+						"en": "Milan"
+					},
+					"ш": 45.4546,
+					"д": 9.1622,
+					"province": 934,
+					"staff": 2250,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "diasorin_s",
+			"название": {
+				"ru": "DiaSorin S.p.A.",
+				"en": "DiaSorin S.p.A."
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная биотехнологическая корпорация, мировой лидер в области лабораторной иммунодиагностики и молекулярной диагностики (выручка ~$1.3 млрд, капитализация ~$6 млрд, Euronext Milan: DIA). https://www.diasorin.com/",
+				"en": "DiaSorin S.p.A. — a pharmaceutical company of Italy."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 195,
+				"debt": 605,
+				"money": 170,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2374,
+			"wage": 4348,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Милан",
+						"en": "Milan"
+					},
+					"ш": 45.4984,
+					"д": 9.1602,
+					"province": 934,
+					"staff": 712,
+					"fine": 1957
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mundys_s",
+			"название": {
+				"ru": "Mundys S.p.A. (бывш. Atlantia)",
+				"en": "Mundys S.p.A. (бывш. Atlantia)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший глобальный инфраструктурный оператор (управление платными автострадами Autostrade per l'Italia и Abertis, международными аэропортами Рима Фьюмичино/Чампино и Лазурного Берега Ниццы, системами Telepass; выручка ~$10 млрд). https://www.mundys.com/",
+				"en": "Mundys S.p.A. (бывш. Atlantia) — a transport company of Italy."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 667,
+				"debt": 5051,
+				"money": 2069,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7143
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25000,
+			"wage": 4909,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Чампино",
+						"en": "Ciampino"
+					},
+					"ш": 41.7889,
+					"д": 12.6124,
+					"province": 935,
+					"staff": 7500,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mapei_s",
+			"название": {
+				"ru": "Mapei S.p.A.",
+				"en": "Mapei S.p.A."
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель клеев, строительной химии, герметиков и гидроизоляции (90 заводов в 35 странах мира; выручка ~$4.5 млрд, 12,000 сотр., штаб-квартира в Милане). https://www.mapei.com/",
+				"en": "Mapei S.p.A. — a construction company of Italy."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 375,
+				"debt": 1746,
+				"money": 590,
+				"dividends": 112
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5676
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14155,
+			"wage": 3837,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мира",
+						"en": "Mira Taglio"
+					},
+					"ш": 45.4066,
+					"д": 12.1534,
+					"province": 163,
+					"staff": 4246,
+					"fine": 1968
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lavazza_group",
+			"название": {
+				"ru": "Lavazza Group (Luigi Lavazza S.p.A.)",
+				"en": "Lavazza Group (Luigi Lavazza S.p.A.)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из ведущих мировых производителей и дистрибьюторов кофе (обжарка, кофе в зернах, капсулы, кофейное оборудование в 140 странах; выручка ~$3.3 млрд, 5,500 сотр.). https://www.lavazza.com/",
+				"en": "Lavazza Group (Luigi Lavazza S.p.A.) — a consumer and retail company of Italy."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 257,
+				"debt": 762,
+				"money": 275,
+				"dividends": 77
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4521
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9900,
+			"wage": 3333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8567,
+					"д": 12.5371,
+					"province": 935,
+					"staff": 2970,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "msc_cruises",
+			"название": {
+				"ru": "MSC Cruises",
+				"en": "MSC Cruises"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная круизная корпорация со средиземноморской штаб-квартирой в Неаполе (третий по величине круизный бренд планеты, флот из 23 современных мегалайнеров). https://www.msccruises.com/",
+				"en": "MSC Cruises — a transport company of Italy."
+			},
+			"fundamental": {
+				"выручка": 2538,
+				"profit": 169,
+				"debt": 1282,
+				"money": 525,
+				"dividends": 51
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1813
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6345,
+			"wage": 4909,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8959,
+					"д": 12.5422,
+					"province": 935,
+					"staff": 1903,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alfasigma_s",
+			"название": {
+				"ru": "Alfasigma S.p.A.",
+				"en": "Alfasigma S.p.A."
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупная итальянская фармацевтическая группа (рецептурные и безрецептурные гастроэнтерологические и сосудистые препараты; выручка ~$1.5 млрд). https://www.alfasigma.com/",
+				"en": "Alfasigma S.p.A. — a pharmaceutical company of Italy."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 225,
+				"debt": 699,
+				"money": 196,
+				"dividends": 68
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5568
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2739,
+			"wage": 4348,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8792,
+					"д": 12.4896,
+					"province": 935,
+					"staff": 821,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "beretta_holding",
+			"название": {
+				"ru": "Beretta Holding (Fabbrica d'Armi Pietro Beretta)",
+				"en": "Beretta Holding (Fabbrica d'Armi Pietro Beretta)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший и самый известный в мире производитель стрелкового оружия и экипировки специального назначения (основан в 1526 г.)",
+				"en": "Beretta Holding (Fabbrica d'Armi Pietro Beretta) — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 1028,
+				"profit": 69,
+				"debt": 264,
+				"money": 158,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1928
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3084,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8573,
+					"д": 12.4962,
+					"province": 935,
+					"staff": 925,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "iveco_defence_2",
+			"название": {
+				"ru": "Iveco Defence Vehicles (IDV)",
+				"en": "Iveco Defence Vehicles (IDV)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Подразделение бронетанковой и специализированной колесной техники",
+				"en": "Iveco Defence Vehicles (IDV) — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 975,
+				"profit": 65,
+				"debt": 251,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1828
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2925,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.9044,
+					"д": 12.5207,
+					"province": 935,
+					"staff": 877,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mbda_italia",
+			"название": {
+				"ru": "MBDA Italia (итальянское подразделение ракетного консорциума MBDA, 25% у Leonardo)",
+				"en": "MBDA Italia (итальянское подразделение ракетного консорциума MBDA, 25% у Leonardo)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "MBDA Italia (итальянское подразделение ракетного консорциума MBDA, 25% у Leonardo) — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 975,
+				"profit": 65,
+				"debt": 251,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1828
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2925,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.9458,
+					"д": 12.4585,
+					"province": 935,
+					"staff": 877,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "elettronica_group",
+			"название": {
+				"ru": "Elettronica Group (ELT Group)",
+				"en": "Elettronica Group (ELT Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий европейский разработчик средств радиоэлектронной борьбы (РЭБ), радиотехнической разведки и защиты от направленной энергии (бортовые комплексы РЭБ для истребителей Eurofighter Typhoon, вертолетов NH90, фрегатов FREMM; противодроновые комплексы ADRIAN). https://eltgroup.net/",
+				"en": "Elettronica Group (ELT Group) — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 975,
+				"profit": 65,
+				"debt": 251,
+				"money": 150,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1828
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2925,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.8934,
+					"д": 12.5011,
+					"province": 935,
+					"staff": 877,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "simmel_difesa",
+			"название": {
+				"ru": "Simmel Difesa / KNDS Ammo Italy",
+				"en": "Simmel Difesa / KNDS Ammo Italy"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированное производство артиллерийских снарядов калибра 76/62-мм, 127/54-мм и 155-мм (включая управляемые высокоточные дальнобойные боеприпасы Vulcano совместно с Oto Melara)",
+				"en": "Simmel Difesa / KNDS Ammo Italy — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 938,
+				"profit": 63,
+				"debt": 241,
+				"money": 144,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1759
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2814,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.9258,
+					"д": 12.5035,
+					"province": 935,
+					"staff": 844,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "intermarine",
+			"название": {
+				"ru": "Intermarine (Immsi Group)",
+				"en": "Intermarine (Immsi Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированная верфь в Сарцане (мировой лидер в строительстве противоминных кораблей-тральщиков из немагнитных композитов классов Gaeta, Lerici, Osprey, Huon). https://www.intermarine.it/",
+				"en": "Intermarine (Immsi Group) — a defence company of Italy."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 231,
+				"money": 138,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1688
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Италия)",
+						"en": "The state (Italy)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Италия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2700,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рим",
+						"en": "Rome"
+					},
+					"ш": 41.9099,
+					"д": 12.5045,
+					"province": 935,
+					"staff": 810,
+					"fine": 1929
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

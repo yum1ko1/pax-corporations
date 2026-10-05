@@ -1,0 +1,1596 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Таиланд",
+	"iso": "THA",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "ptt",
+			"название": {
+				"ru": "PTT",
+				"en": "PTT"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1978,
+			"description": {
+				"ru": "Государственная нефть и газ Таиланда.",
+				"en": "Thailand's state oil and gas."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 3000,
+				"debt": 25000,
+				"money": 8000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 28560,
+				"market_cap": 27000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Таиланда",
+						"en": "The Thai state"
+					},
+					"type": "polity",
+					"доля": 0.63,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Конгкрапан Интараджанг",
+					"en": "Kongkrapan Intarajang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 30000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.82,
+					"д": 100.56,
+					"province": 759,
+					"staff": 5000,
+					"fine": 3958
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мап-Та-Пхут",
+						"en": "Map Ta Phut"
+					},
+					"ш": 12.68,
+					"д": 101.15,
+					"province": 626,
+					"staff": 5000,
+					"fine": 3975
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://pttplc.listedcompany.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "cpgroup",
+			"название": {
+				"ru": "Charoen Pokphand",
+				"en": "Charoen Pokphand"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1921,
+			"description": {
+				"ru": "Еда, магазины 7-Eleven Таиланда и связь True.",
+				"en": "Food, Thailand's 7-Eleven stores and True telecom."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 1200,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Чиаравонон",
+						"en": "The Chearavanont family"
+					},
+					"type": "founder",
+					"доля": 0.8
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.2
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Супхачай Чиаравонон",
+					"en": "Suphachai Chearavanont"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2017,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник",
+					"en": "наследник"
+				}
+			},
+			"staff": 450000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.73,
+					"д": 100.53,
+					"province": 759,
+					"staff": 10000,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.cpgroupglobal.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "scg",
+			"название": {
+				"ru": "Siam Cement",
+				"en": "Siam Cement Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "смешанная",
+			"founded": 1913,
+			"description": {
+				"ru": "Цемент, химия и упаковка — королевская компания.",
+				"en": "Cement, chemicals and packaging — a royal company."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 300,
+				"debt": 8000,
+				"money": 1500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1200,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Королевское имущество (Crown Property Bureau)",
+						"en": "Crown Property Bureau"
+					},
+					"type": "polity",
+					"доля": 0.34,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Таммасак Сетхаудом",
+					"en": "Thammasak Sethaudom"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 55000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.81,
+					"д": 100.54,
+					"province": 759,
+					"staff": 5000,
+					"fine": 3959
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.scg.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "kbank",
+			"название": {
+				"ru": "Kasikornbank",
+				"en": "Kasikornbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Крупный цифровой банк Таиланда.",
+				"en": "Thailand's big digital bank."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 2370,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Лемсам",
+						"en": "The Lamsam family"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Каттия Индаравиджайя",
+					"en": "Kattiya Indaravijaya"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 20000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.74,
+					"д": 100.55,
+					"province": 759,
+					"staff": 6000,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.kasikornbank.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "ais",
+			"название": {
+				"ru": "Advanced Info Service",
+				"en": "Advanced Info Service"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1986,
+			"description": {
+				"ru": "Крупнейший мобильный оператор Таиланда.",
+				"en": "Thailand's largest mobile operator."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1000,
+				"debt": 4000,
+				"money": 300,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 2970,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Gulf Development",
+						"en": "Gulf Development"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Singtel",
+						"en": "Singtel"
+					},
+					"type": "company",
+					"доля": 0.23,
+					"country": "Сингапур"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сомчаи Леттхавонгсон",
+					"en": "Somchai Lertsutiwong"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 15000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.78,
+					"д": 100.54,
+					"province": 759,
+					"staff": 5000,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://investor.ais.co.th/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "aot",
+			"название": {
+				"ru": "Airports of Thailand",
+				"en": "Airports of Thailand"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1979,
+			"description": {
+				"ru": "Аэропорты Суварнабхуми и Пхукета.",
+				"en": "Suvarnabhumi and Phuket airports."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 600,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 14290,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Таиланда",
+						"en": "The Thai state"
+					},
+					"type": "polity",
+					"доля": 0.7,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Керати Киджаманават",
+					"en": "Kerati Kijmanawat"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 8000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Суварнабхуми",
+						"en": "Suvarnabhumi"
+					},
+					"ш": 13.69,
+					"д": 100.75,
+					"province": 759,
+					"staff": 6000,
+					"fine": 3964
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://investor.airportthai.co.th/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "bangkok_bank",
+			"название": {
+				"ru": "Bangkok Bank",
+				"en": "Bangkok Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Бангкок — крупнейший коммерческий банк Таиланда по размеру активов и крупнейший кредитор промышленного сектора страны. [Выручка: 5 500 млн $ (195 000 млн THB), Чистая прибыль: 1 200 млн $ (42 000 млн THB), Штат: 24 000 чел., Руководитель: Чартсири Сопхонпанич (Chartsiri Sophonpanich), президент с 1994 года, 1959 г.р.]. Официальные источники: https://www.bangkokbank.com/en/Investor-Relations",
+				"en": "Bangkok Bank — a financial company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 3675,
+				"profit": 1034,
+				"debt": 0,
+				"money": 0,
+				"dividends": 310
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8575
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10500,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7162,
+					"д": 100.4872,
+					"province": 759,
+					"staff": 3150,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "scb_x",
+			"название": {
+				"ru": "SCB X (Siam Commercial Bank)",
+				"en": "SCB X (Siam Commercial Bank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 2015,
+			"description": {
+				"ru": "Бангкок — старейший национальный банк Таиланда, преобразованный в финансово-технологическую холдинговую группу. [Выручка: 5 200 млн $ (180 000 млн THB), Чистая прибыль: 1 250 млн $ (44 000 млн THB), Штат: 25 000 чел., Руководитель: Артхид Нантхавитхайя (Arthid Nanthawithaya), с 2015 года, 1967 г.р.]. Официальные источники: https://www.scbx.com/en/investor-relations/",
+				"en": "SCB X (Siam Commercial Bank) — a financial company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 591,
+				"debt": 0,
+				"money": 0,
+				"dividends": 177
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таиланд)",
+						"en": "The state (Thailand)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7822,
+					"д": 100.4752,
+					"province": 759,
+					"staff": 1800,
+					"fine": 3959
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thai_beverage",
+			"название": {
+				"ru": "Thai Beverage (ThaiBev)",
+				"en": "Thai Beverage (ThaiBev)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Бангкок — крупнейшая алкогольная и пищевая корпорация Юго-Восточной Азии (пиво Chang, крепкий алкоголь Ruang Khao, Saigon Beer вьетнамской Sabeco, сеть ресторанов Oishi). [Выручка: 8 500 млн $ (295 000 млн THB), Чистая прибыль: 850 млн $ (30 000 млн THB), Штат: 65 000 чел., Руководитель: Тхапана Сиривадханабхакди (Thapana Sirivadhanabhakdi), с 2008 года, 1975 г.р.]. Официальные источники: https://",
+				"en": "Thai Beverage (ThaiBev) — a consumer and retail company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 163,
+				"debt": 485,
+				"money": 175,
+				"dividends": 49
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2877
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6300,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7434,
+					"д": 100.5094,
+					"province": 759,
+					"staff": 1890,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gulf_energy",
+			"название": {
+				"ru": "Gulf Energy Development",
+				"en": "Gulf Energy Development"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бангкок — крупнейший независимый производитель электроэнергии (газовые, солнечные и ветровые электростанции) и цифровой инфраструктуры (акционер AIS и Kasikornbank). [Выручка: 3 600 млн $ (125 000 млн THB), Чистая прибыль: 450 млн $ (15 500 млн THB), Штат: 1 800 чел., Руководитель: Сарарат Ратанавади (Sarath Ratanavadi), основатель и генеральный директор, 1965 г.р.]. Официальные источники: https:/",
+				"en": "Gulf Energy Development — a energy company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 194,
+				"debt": 1276,
+				"money": 269,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2770
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3736,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7587,
+					"д": 100.5208,
+					"province": 759,
+					"staff": 1120,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "central_retail",
+			"название": {
+				"ru": "Central Retail Corporation (CRC / Central Group)",
+				"en": "Central Retail Corporation (CRC / Central Group)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Бангкок — крупнейшая розничная сеть гипермаркетов, торговых моллов и универмагов (Central Chidlom, Tops, Robinson, Rinascente в Италии). [Выручка: 7 200 млн $ (250 000 млн THB), Чистая прибыль: 260 млн $ (9 000 млн THB), Штат: 80 000 чел., Руководитель: Йоллапхок Тхирасук (Yol Phokasub), с 2018 года, 1961 г.р.]. Официальные источники: https://www.centralretail.com/en/investor-relations",
+				"en": "Central Retail Corporation (CRC / Central Group) — a consumer and retail company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 1693,
+				"profit": 132,
+				"debt": 391,
+				"money": 141,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2319
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5079,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7314,
+					"д": 100.4947,
+					"province": 759,
+					"staff": 1523,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ptt_global",
+			"название": {
+				"ru": "PTT Global Chemical (GC)",
+				"en": "PTT Global Chemical (GC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Бангкок / Районг — крупнейший нефтехимический холдинг Таиланда (входит в PTT: полимеры, базовые химикаты, спецхимия Allnex). [Выручка: 17 000 млн $ (600 000 млн THB), Чистая прибыль: 100 млн $, Штат: 10 500 чел., Руководитель: Тосапорн Буняратипан (Toasaporn Boonyaritipan), с 2024 года, 1968 г.р.]. Официальные источники: https://www.pttgcgroup.com/en/investor-relations",
+				"en": "PTT Global Chemical (GC) — a oil and gas company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 1286,
+				"profit": 77,
+				"debt": 362,
+				"money": 122,
+				"dividends": 23
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1124,
+			"wage": 894,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7716,
+					"д": 100.4632,
+					"province": 759,
+					"staff": 337,
+					"fine": 3959
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thai_oil",
+			"название": {
+				"ru": "Thai Oil Public Company Limited",
+				"en": "Thai Oil Public Company Limited"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Бангкок / Срирача — крупнейший нефтеперерабатывающий комплекс страны (мощность переработки 275 000 баррелей в сутки, группа PTT). [Выручка: 14 000 млн $ (490 000 млн THB), Чистая прибыль: 420 млн $ (15 000 млн THB), Штат: 1 600 чел., Руководитель: Бандит Сапхиенчай (Bundit Hansapaibul), с 2022 года, 1966 г.р.]. Официальные источники: https://www.thaioilgroup.com/en/investor-relations",
+				"en": "Thai Oil Public Company Limited — a oil and gas company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 1011,
+				"profit": 60,
+				"debt": 285,
+				"money": 96,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 629
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 884,
+			"wage": 894,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7701,
+					"д": 100.5216,
+					"province": 759,
+					"staff": 265,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "indorama_ventures",
+			"название": {
+				"ru": "Indorama Ventures",
+				"en": "Indorama Ventures"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бангкок — мировой лидер по производству полиэтилентерефталата (ПЭТ), полиэфирных волокон и вторичной переработке пластика с заводами в 35 странах мира. [Выручка: 15 500 млн $ (540 000 млн THB), Чистая прибыль: 180 млн $, Штат: 26 000 чел., Руководитель: Алок Лохия (Aloke Lohia), основатель и генеральный директор, 1958 г.р.]. Официальные источники: https://www.indoramaventures.com/en/investor-relat",
+				"en": "Indorama Ventures — a consumer and retail company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 735,
+				"profit": 57,
+				"debt": 170,
+				"money": 61,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1007
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2205,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7926,
+					"д": 100.5329,
+					"province": 759,
+					"staff": 661,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bangchak_corporation",
+			"название": {
+				"ru": "Bangchak Corporation",
+				"en": "Bangchak Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Бангкок — крупная нефтеперерабатывающая и автозаправочная компания (приобрела сеть Esso Thailand, владеет биоэнергетической BBGI). [Выручка: 11 000 млн $ (380 000 млн THB), Чистая прибыль: 380 млн $ (13 000 млн THB), Штат: 3 000 чел., Руководитель: Чайват Ковависарач (Chaiwat Kovavisarach), с 2015 года, 1966 г.р.]. Официальные источники: https://www.bangchak.co.th/en/investor-relations",
+				"en": "Bangchak Corporation — a oil and gas company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 735,
+				"profit": 44,
+				"debt": 207,
+				"money": 70,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 457
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 642,
+			"wage": 894,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7678,
+					"д": 100.5313,
+					"province": 759,
+					"staff": 192,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "minor_international",
+			"название": {
+				"ru": "Minor International (MINT)",
+				"en": "Minor International (MINT)"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Бангкок — глобальный гостиничный и ресторанный гигант (более 540 отелей Anantara, Avani, Tivoli, NH Hotels и 2 600 ресторанов Pizza Company, Swensen's, Sizzler). [Выручка: 4 500 млн $ (155 000 млн THB), Чистая прибыль: 160 млн $ (5 500 млн THB), Штат: 85 000 чел., Руководитель: Диллеш Пател (Dillip Rajakarier), с 2020 года, 1965 г.р. / Уильям Хейнеке (основатель).]. Официальные источники: https://",
+				"en": "Minor International (MINT) — a tourism company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 735,
+				"profit": 110,
+				"debt": 312,
+				"money": 533,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 864
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10022,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7803,
+					"д": 100.5209,
+					"province": 759,
+					"staff": 3006,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defence_technology",
+			"название": {
+				"ru": "Defence Technology Institute (DTI)",
+				"en": "Defence Technology Institute (DTI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нонтхабури / Бангкок — главный научно-исследовательский и оборонно-промышленный институт Министерства обороны Таиланда: разработка реактивных систем залпового огня DTI-1 и DTI-2 (калибр 122 и 302 мм), тяжелых колесных бронетранспортеров Black Widow Spider 8x8 и разведывательных БПЛА D-Eyes. (Дальнобойные РСЗО, колесная бронетехника 8х8, военные беспилотные летательные аппараты, лазерные системы.) ",
+				"en": "Defence Technology Institute (DTI) — a defence company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 315,
+				"profit": 21,
+				"debt": 81,
+				"money": 48,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 591
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таиланд)",
+						"en": "The state (Thailand)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 945,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7631,
+					"д": 100.4653,
+					"province": 759,
+					"staff": 283,
+					"fine": 3959
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chaiseri_metal",
+			"название": {
+				"ru": "Chaiseri Metal & Rubber Co., Ltd.",
+				"en": "Chaiseri Metal & Rubber Co., Ltd."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лампхун / Патхумтхани — ведущий частный производитель боевых бронированных машин и ходовых систем: бронеавтомобили с противоминной защитой First Win 4x4 MRAP (поставляются армии Таиланда, Малайзии и миротворцам ООН), гусеничные ленты и колеса для танков M48/M60 и БТР. (Колесные бронеавтомобили First Win MRAP, боевые модули, гусеничные ленты и резинометаллические шарниры.) [Выручка: 95 млн $, Чиста",
+				"en": "Chaiseri Metal & Rubber Co., Ltd. — a defence company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 315,
+				"profit": 21,
+				"debt": 81,
+				"money": 48,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 591
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 945,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лампхун",
+						"en": "Lamphun"
+					},
+					"ш": 18.5636,
+					"д": 98.9807,
+					"province": 760,
+					"staff": 283,
+					"fine": 3934
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bangkok_dock",
+			"название": {
+				"ru": "Bangkok Dock Company (1957) Limited",
+				"en": "Bangkok Dock Company (1957) Limited"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бангкок / Военно-морская база Саттахип — государственная военно-морская верфь Министерства обороны Таиланда: постройка патрульных кораблей открытого моря класса Krabi (на базе проекта River компании BAE Systems), десантных катеров LCU и скоростных перехватчиков. (Военное судостроение, постройка сторожевых и десантных кораблей, докование фрегатов ВМС.) [Выручка: 60 млн $, Чистая прибыль: 5 млн $, Ш",
+				"en": "Bangkok Dock Company (1957) Limited — a defence company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 308,
+				"profit": 21,
+				"debt": 79,
+				"money": 47,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 578
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таиланд)",
+						"en": "The state (Thailand)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 924,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7339,
+					"д": 100.4645,
+					"province": 759,
+					"staff": 277,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thai_aerospace",
+			"название": {
+				"ru": "Thai Aerospace Industries (TAI / TAI Aviation)",
+				"en": "Thai Aerospace Industries (TAI / TAI Aviation)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Донмыанг / Бангкок / Тахли — оборонное предприятие авиационно-технического обслуживания: сертифицированный ремонт, модернизация бортовых радаров и авионики истребителей F-16 Fighting Falcon, Saab Gripen C/D, учебно-боевых T-50TH и вертолетов Bell 412/UH-60 Королевских ВВС Таиланда. (Модернизация боевых истребителей F-16 eMLU, регламентный ремонт двигателей Pratt & Whitney F100, авиаремонт.) [Выруч",
+				"en": "Thai Aerospace Industries (TAI / TAI Aviation) — a defence company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 20,
+				"debt": 77,
+				"money": 46,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 562
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таиланд)",
+						"en": "The state (Thailand)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7396,
+					"д": 100.4781,
+					"province": 759,
+					"staff": 270,
+					"fine": 3958
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_thai",
+			"название": {
+				"ru": "Royal Thai Army Ordnance Department Weapon & Ammunition Plants",
+				"en": "Royal Thai Army Ordnance Department Weapon & Ammunition Plants"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лопбури / Бангкок — оборонные заводы Департамента вооружения Сухопутных войск Таиланда: выпуск артиллерийских снарядов 105 мм и 155 мм, минометных выстрелов, патронов стрелкового оружия (5.56, 7.62, 9 мм) и сборка артиллерийских орудий Nexter LG1 105 мм по лицензии. (Артиллерийские выстрелы стандартов НАТО, танковые боеприпасы, стрелковые патроны, утилизация боеприпасов.) [Выручка: 70 млн $, Чиста",
+				"en": "Royal Thai Army Ordnance Department Weapon & Ammunition Plants — a defence company of Thailand."
+			},
+			"fundamental": {
+				"выручка": 277,
+				"profit": 18,
+				"debt": 71,
+				"money": 43,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 519
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Таиланд)",
+						"en": "The state (Thailand)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 831,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангкок",
+						"en": "Bangkok"
+					},
+					"ш": 13.7585,
+					"д": 100.4852,
+					"province": 759,
+					"staff": 249,
+					"fine": 3959
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

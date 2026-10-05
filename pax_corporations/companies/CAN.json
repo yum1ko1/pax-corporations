@@ -1,0 +1,2867 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Канада",
+	"iso": "CAN",
+	"data_date": "2026-03",
+	"average_wage": 4500,
+	"companies": [
+		{
+			"id": "rbc",
+			"название": {
+				"ru": "Royal Bank of Canada",
+				"en": "Royal Bank of Canada"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1864,
+			"description": {
+				"ru": "Крупнейший банк Канады.",
+				"en": "Canada's largest bank."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 12500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5800
+			},
+			"рынок": {
+				"shares_mln": 1410,
+				"market_cap": 190000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дейв Макей",
+					"en": "Dave McKay"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир",
+					"en": "осторожный банкир"
+				}
+			},
+			"staff": 98000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 20000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rbc.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "td",
+			"название": {
+				"ru": "TD Bank",
+				"en": "TD Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1855,
+			"description": {
+				"ru": "Второй банк Канады, оштрафован в США за отмывание.",
+				"en": "Canada's second bank, fined in the US for money laundering."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 6000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5200
+			},
+			"рынок": {
+				"shares_mln": 1750,
+				"market_cap": 115000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рэймонд Чун",
+					"en": "Raymond Chun"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чинит комплаенс",
+					"en": "чинит комплаенс"
+				}
+			},
+			"staff": 100000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 20000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.td.com/ca/en/about-td/for-investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "shopify",
+			"название": {
+				"ru": "Shopify",
+				"en": "Shopify"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Платформа интернет-магазинов.",
+				"en": "An online store platform."
+			},
+			"fundamental": {
+				"выручка": 8900,
+				"profit": 2000,
+				"debt": 1000,
+				"money": 5500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1290,
+				"market_cap": 190000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Тобиас Лютке",
+						"en": "Tobias Lütke"
+					},
+					"type": "founder",
+					"доля": 0.06
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тобиас Лютке",
+					"en": "Tobias Lütke"
+				},
+				"роль": "founder",
+				"с_года": 2008,
+				"born_year": 1980,
+				"доля": 0.06,
+				"характер": {
+					"ru": "программист-основатель, одержим ИИ",
+					"en": "программист-основатель, одержим ИИ"
+				}
+			},
+			"staff": 8100,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.42,
+					"д": -75.7,
+					"province": 1007,
+					"staff": 3000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.shopify.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "enbridge",
+			"название": {
+				"ru": "Enbridge",
+				"en": "Enbridge"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Крупнейшие нефте- и газопроводы Северной Америки.",
+				"en": "North America's largest oil and gas pipelines."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 3800,
+				"debt": 70000,
+				"money": 1000,
+				"dividends": 5600
+			},
+			"рынок": {
+				"shares_mln": 2180,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Грег Эбел",
+					"en": "Greg Ebel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "трубопроводчик",
+					"en": "трубопроводчик"
+				}
+			},
+			"staff": 14500,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калгари",
+						"en": "Calgary"
+					},
+					"ш": 51.05,
+					"д": -114.07,
+					"province": 994,
+					"staff": 5000,
+					"fine": 565
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.enbridge.com/investment-center | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "brookfield",
+			"название": {
+				"ru": "Brookfield",
+				"en": "Brookfield"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1899,
+			"description": {
+				"ru": "Управляет $1 трлн: недвижимость, энергетика, инфраструктура.",
+				"en": "Manages $1 trillion: real estate, energy, infrastructure."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 1500,
+				"debt": 250000,
+				"money": 15000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1650,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Партнёры Brookfield",
+						"en": "Brookfield partners"
+					},
+					"type": "сама",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Брюс Флэтт",
+					"en": "Bruce Flatt"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2002,
+				"born_year": 1965,
+				"доля": 0.05,
+				"характер": {
+					"ru": "тихий управляющий триллионом",
+					"en": "тихий управляющий триллионом"
+				}
+			},
+			"staff": 250000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 2000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://bn.brookfield.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cn",
+			"название": {
+				"ru": "CN Rail",
+				"en": "Canadian National Railway"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1919,
+			"description": {
+				"ru": "Железные дороги от Атлантики до Тихого и Мексиканского залива.",
+				"en": "Railways from the Atlantic to the Pacific and the Gulf of Mexico."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 3300,
+				"debt": 14000,
+				"money": 300,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 630,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Билла Гейтса (Cascade)",
+						"en": "Bill Gates trust (Cascade)"
+					},
+					"type": "крупный",
+					"доля": 0.13,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Трейси Робинсон",
+					"en": "Tracy Robinson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "железнодорожник",
+					"en": "железнодорожник"
+				}
+			},
+			"staff": 25000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монреаль",
+						"en": "Montreal"
+					},
+					"ш": 45.5,
+					"д": -73.57,
+					"province": 1007,
+					"staff": 3000,
+					"fine": 571
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cn.ca/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cpkc",
+			"название": {
+				"ru": "CPKC",
+				"en": "Canadian Pacific Kansas City"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1881,
+			"description": {
+				"ru": "Единственная железная дорога через Канаду, США и Мексику.",
+				"en": "The only railway across Canada, the US and Mexico."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 2700,
+				"debt": 15000,
+				"money": 400,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 935,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кит Крил",
+					"en": "Keith Creel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "железнодорожник",
+					"en": "железнодорожник"
+				}
+			},
+			"staff": 20000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калгари",
+						"en": "Calgary"
+					},
+					"ш": 51.05,
+					"д": -114.1,
+					"province": 994,
+					"staff": 3000,
+					"fine": 565
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.cpkcr.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cnq",
+			"название": {
+				"ru": "Canadian Natural Resources",
+				"en": "Canadian Natural Resources"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1989,
+			"description": {
+				"ru": "Крупнейший нефтедобытчик Канады, нефтеносные пески.",
+				"en": "Canada's largest oil producer, oil sands."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": 4500,
+				"debt": 12000,
+				"money": 500,
+				"dividends": 3300
+			},
+			"рынок": {
+				"shares_mln": 2100,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Скотт Стот",
+					"en": "Scott Stauth"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 10500,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калгари",
+						"en": "Calgary"
+					},
+					"ш": 51.04,
+					"д": -114.07,
+					"province": 994,
+					"staff": 2000,
+					"fine": 565
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Горизонт (нефтеносные пески)",
+						"en": "Horizon (oil sands)"
+					},
+					"ш": 57.33,
+					"д": -111.75,
+					"province": 995,
+					"staff": 4000,
+					"fine": 565
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cnrl.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "suncor",
+			"название": {
+				"ru": "Suncor",
+				"en": "Suncor"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1919,
+			"description": {
+				"ru": "Нефтеносные пески, НПЗ и АЗС Petro-Canada.",
+				"en": "Oil sands, refineries and Petro-Canada stations."
+			},
+			"fundamental": {
+				"выручка": 38000,
+				"profit": 4000,
+				"debt": 10000,
+				"money": 1500,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1240,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рич Крюгер",
+					"en": "Rich Kruger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший Exxon, жёстко режет",
+					"en": "бывший Exxon, жёстко режет"
+				}
+			},
+			"staff": 15000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калгари",
+						"en": "Calgary"
+					},
+					"ш": 51.05,
+					"д": -114.06,
+					"province": 994,
+					"staff": 2500,
+					"fine": 565
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Форт-Мак-Мюррей",
+						"en": "Fort McMurray"
+					},
+					"ш": 56.73,
+					"д": -111.38,
+					"province": 995,
+					"staff": 5000,
+					"fine": 565
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.suncor.com/en-ca/investor-centre | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bmo",
+			"название": {
+				"ru": "BMO",
+				"en": "Bank of Montreal"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1817,
+			"description": {
+				"ru": "Старейший банк Канады, крупен в США.",
+				"en": "Canada's oldest bank, big in the US."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 5500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3200
+			},
+			"рынок": {
+				"shares_mln": 725,
+				"market_cap": 85000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэррил Уайт",
+					"en": "Darryl White"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 55000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 12000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bmo.com/main/about-bmo/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "scotiabank",
+			"название": {
+				"ru": "Scotiabank",
+				"en": "Scotiabank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1832,
+			"description": {
+				"ru": "Банк Канады и Латинской Америки.",
+				"en": "The bank of Canada and Latin America."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 5000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3900
+			},
+			"рынок": {
+				"shares_mln": 1240,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Скотт Томсон",
+					"en": "Scott Thomson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сворачивает Латинскую Америку",
+					"en": "сворачивает Латинскую Америку"
+				}
+			},
+			"staff": 88000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 10000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.scotiabank.com/ca/en/about/investors-shareholders.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "barrick",
+			"название": {
+				"ru": "Barrick Mining",
+				"en": "Barrick Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Второй золотодобытчик мира: рудники в Неваде, Мали, Конго.",
+				"en": "The world's second gold miner: mines in Nevada, Mali, Congo."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 2400,
+				"debt": 4700,
+				"money": 4000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 1720,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Хилл",
+					"en": "Mark Hill"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сменил Бристоу после потери Мали",
+					"en": "сменил Бристоу после потери Мали"
+				}
+			},
+			"staff": 25000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 300,
+					"fine": 570
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Невада Голд Майнс",
+						"en": "Nevada Gold Mines"
+					},
+					"ш": 40.8,
+					"д": -116.6,
+					"province": 990,
+					"staff": 7000,
+					"fine": 4369
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.barrick.com/English/investors/default.aspx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "nutrien",
+			"название": {
+				"ru": "Nutrien",
+				"en": "Nutrien"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Крупнейший производитель калийных удобрений мира.",
+				"en": "The world's largest potash producer."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 700,
+				"debt": 12000,
+				"money": 900,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 490,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кен Зайц",
+					"en": "Ken Seitz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 25000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Саскатун",
+						"en": "Saskatoon"
+					},
+					"ш": 52.13,
+					"д": -106.67,
+					"province": 997,
+					"staff": 2000,
+					"fine": 564
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Калийные рудники Саскачевана",
+						"en": "Saskatchewan potash mines"
+					},
+					"ш": 51.7,
+					"д": -104.5,
+					"province": 997,
+					"staff": 5000,
+					"fine": 564
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nutrien.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "couchetard",
+			"название": {
+				"ru": "Alimentation Couche-Tard",
+				"en": "Alimentation Couche-Tard"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1980,
+			"description": {
+				"ru": "Магазины у дороги Circle K по всему миру.",
+				"en": "Circle K convenience stores worldwide."
+			},
+			"fundamental": {
+				"выручка": 73000,
+				"profit": 2700,
+				"debt": 15000,
+				"money": 1500,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 950,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели (Бушар, Д'Амур, Фортен)",
+						"en": "The founders (Bouchard, D'Amours, Fortin)"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алекс Миллер",
+					"en": "Alex Miller"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "хотел купить Seven & i",
+					"en": "хотел купить Seven & i"
+				}
+			},
+			"staff": 150000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лаваль",
+						"en": "Laval"
+					},
+					"ш": 45.57,
+					"д": -73.72,
+					"province": 1007,
+					"staff": 2000,
+					"fine": 571
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corpo.couche-tard.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hydroquebec",
+			"название": {
+				"ru": "Hydro-Québec",
+				"en": "Hydro-Québec"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1944,
+			"description": {
+				"ru": "Гидроэнергетика Квебека — экспорт в Нью-Йорк и Новую Англию.",
+				"en": "Québec's hydropower — exports to New York and New England."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 2400,
+				"debt": 50000,
+				"money": 1000,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Провинция Квебек",
+						"en": "The Province of Québec"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Клодин Бушар",
+					"en": "Claudine Bouchard"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 22000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монреаль",
+						"en": "Montreal"
+					},
+					"ш": 45.51,
+					"д": -73.56,
+					"province": 1007,
+					"staff": 5000,
+					"fine": 571
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Роберт-Бурасса",
+						"en": "Robert-Bourassa dam"
+					},
+					"ш": 53.78,
+					"д": -77.5,
+					"province": 1010,
+					"staff": 1500,
+					"fine": 571
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.hydroquebec.com/about/financial-results/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "cohere",
+			"название": {
+				"ru": "Cohere",
+				"en": "Cohere"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Модели ИИ для компаний; соавтор архитектуры «трансформер» во главе.",
+				"en": "AI models for companies; led by a co-author of the transformer."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": -200,
+				"debt": 0,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.25,
+					"country": "Канада"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эйдан Гомес",
+					"en": "Aidan Gomez"
+				},
+				"роль": "founder",
+				"с_года": 2019,
+				"born_year": 1996,
+				"доля": 0.1,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 500,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.65,
+					"д": -79.38,
+					"province": 1003,
+					"staff": 500,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://cohere.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — частная, оценка"
+		},
+		{
+			"id": "mdaspace",
+			"название": {
+				"ru": "MDA Space",
+				"en": "MDA Space"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Робот-манипулятор Canadarm и спутники.",
+				"en": "The Canadarm robotic arm and satellites."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 80,
+				"debt": 300,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 125,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майк Гринли",
+					"en": "Mike Greenley"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 3000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брамптон",
+						"en": "Brampton"
+					},
+					"ш": 43.73,
+					"д": -79.76,
+					"province": 1003,
+					"staff": 2000,
+					"fine": 570
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Монреаль",
+						"en": "Montreal"
+					},
+					"ш": 45.5,
+					"д": -73.57,
+					"province": 1007,
+					"staff": 1000,
+					"fine": 571
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://mda.space/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "thomson_reuters",
+			"название": {
+				"ru": "Thomson Reuters",
+				"en": "Thomson Reuters"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший мировой медиа- и информационно-аналитический холдинг, лидер правового и финансового ПО (штаб-квартира в Торонто; выручка ~$7.0 млрд, кап ~$80 млрд)",
+				"en": "Thomson Reuters — a financial company of Canada."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1969,
+				"debt": 0,
+				"money": 0,
+				"dividends": 591
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 20000,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Торонто",
+						"en": "Toronto"
+					},
+					"ш": 43.7224,
+					"д": -79.4184,
+					"province": 1003,
+					"staff": 6000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "agnico_eagle",
+			"название": {
+				"ru": "Agnico Eagle Mines",
+				"en": "Agnico Eagle Mines"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая канадская и третья в мире золотодобывающая корпорация (выручка ~$7.2 млрд, кап ~$42 млрд)",
+				"en": "Agnico Eagle Mines — a metals and mining company of Canada."
+			},
+			"fundamental": {
+				"выручка": 7200,
+				"profit": 800,
+				"debt": 2400,
+				"money": 864,
+				"dividends": 240
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 42000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 20800,
+			"wage": 8036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4259,
+					"д": -75.714,
+					"province": 1007,
+					"staff": 6240,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "magna_international",
+			"название": {
+				"ru": "Magna International",
+				"en": "Magna International"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из ведущих мировых производителей автокомпонентов и контрактной сборки автомобилей (выручка ~$43 млрд, 170 000 сотр.)",
+				"en": "Magna International — a automotive company of Canada."
+			},
+			"fundamental": {
+				"выручка": 43000,
+				"profit": 2329,
+				"debt": 12900,
+				"money": 5478,
+				"dividends": 699
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 23889
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 74423,
+			"wage": 6429,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3828,
+					"д": -75.7316,
+					"province": 1007,
+					"staff": 22326,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "manulife_financial",
+			"название": {
+				"ru": "Manulife Financial & Sun Life Financial",
+				"en": "Manulife Financial & Sun Life Financial"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие мировые страховые и пенсионные инвестиционные группы Канады (активы под управлением >$1.5 трлн)",
+				"en": "Manulife Financial & Sun Life Financial — a financial company of Canada."
+			},
+			"fundamental": {
+				"выручка": 8400,
+				"profit": 2362,
+				"debt": 0,
+				"money": 0,
+				"dividends": 709
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 19600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 24000,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4076,
+					"д": -75.7041,
+					"province": 1007,
+					"staff": 7200,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tc_energy",
+			"название": {
+				"ru": "TC Energy",
+				"en": "TC Energy"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший оператор магистральных газопроводов и энергетической инфраструктуры Северной Америки (выручка ~$12 млрд, кап ~$45 млрд)",
+				"en": "TC Energy — a energy company of Canada."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 1109,
+				"debt": 7292,
+				"money": 1536,
+				"dividends": 333
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21349,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3801,
+					"д": -75.6986,
+					"province": 1007,
+					"staff": 6404,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bce_rogers",
+			"название": {
+				"ru": "BCE (Bell Canada) / Rogers Communications / Telus",
+				"en": "BCE (Bell Canada) / Rogers Communications / Telus"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "«Большая тройка» канадских телекоммуникационных гигантов (выручка каждого ~–20 млрд)",
+				"en": "BCE (Bell Canada) / Rogers Communications / Telus — a IT and telecom company of Canada."
+			},
+			"fundamental": {
+				"выручка": 6475,
+				"profit": 835,
+				"debt": 2058,
+				"money": 1079,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12259
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 17152,
+			"wage": 8068,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3736,
+					"д": -75.7311,
+					"province": 1007,
+					"staff": 5145,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "loblaw_companies",
+			"название": {
+				"ru": "Loblaw Companies",
+				"en": "Loblaw Companies"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Канаде продуктовый и аптечный ритейлер (выручка ~$45 млрд, 220 000 сотрудников)",
+				"en": "Loblaw Companies — a metals and mining company of Canada."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 5000,
+				"debt": 15000,
+				"money": 5400,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 54000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 130000,
+			"wage": 8036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4472,
+					"д": -75.687,
+					"province": 1007,
+					"staff": 39000,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bombardier",
+			"название": {
+				"ru": "Bombardier",
+				"en": "Bombardier"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер по производству бизнес-джетов премиум-класса Challenger и Global (выручка ~$8.5 млрд, кап ~$8 млрд)",
+				"en": "Bombardier — a consumer and retail company of Canada."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 661,
+				"debt": 1962,
+				"money": 708,
+				"dividends": 198
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25500,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3998,
+					"д": -75.6993,
+					"province": 1007,
+					"staff": 7650,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lululemon_athletica",
+			"название": {
+				"ru": "Lululemon Athletica",
+				"en": "Lululemon Athletica"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный бренд премиальной спортивной одежды (выручка ~$10 млрд, кап ~$38 млрд)",
+				"en": "Lululemon Athletica — a transport company of Canada."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 667,
+				"debt": 5051,
+				"money": 2069,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25000,
+			"wage": 7364,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4321,
+					"д": -75.717,
+					"province": 1007,
+					"staff": 7500,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "wsp_global",
+			"название": {
+				"ru": "WSP Global",
+				"en": "WSP Global"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный инженерно-консалтинговый холдинг (выручка ~$11 млрд, кап ~$20 млрд, 70 000 сотрудников)",
+				"en": "WSP Global — a metals and mining company of Canada."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1222,
+				"debt": 3667,
+				"money": 1320,
+				"dividends": 367
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 31777,
+			"wage": 8036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3772,
+					"д": -75.6634,
+					"province": 1007,
+					"staff": 9533,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "teck_resources",
+			"название": {
+				"ru": "Teck Resources",
+				"en": "Teck Resources"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Диверсифицированная горнодобывающая компания (медь, цинк; выручка ~$11 млрд, кап ~$24 млрд)",
+				"en": "Teck Resources — a metals and mining company of Canada."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1222,
+				"debt": 3667,
+				"money": 1320,
+				"dividends": 367
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 24000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 31777,
+			"wage": 8036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4024,
+					"д": -75.6904,
+					"province": 1007,
+					"staff": 9533,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cgi_inc",
+			"название": {
+				"ru": "CGI Inc.",
+				"en": "CGI Inc."
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая транснациональная IT-консалтинговая корпорация Канады (выручка ~$11 млрд, штат 90 000 чел.)",
+				"en": "CGI Inc. — a IT and telecom company of Canada."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1419,
+				"debt": 3497,
+				"money": 1833,
+				"dividends": 426
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20826
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 89997,
+			"wage": 5602,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4087,
+					"д": -75.6943,
+					"province": 1007,
+					"staff": 26999,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, зарплата"
+			]
+		},
+		{
+			"id": "general_dynamics_2",
+			"название": {
+				"ru": "General Dynamics Land Systems-Canada (GDLS-Canada, Лондон, Онтарио)",
+				"en": "General Dynamics Land Systems-Canada (GDLS-Canada, Лондон, Онтарио)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в производстве колесной бронетехники: семейство БТР и боевых машин LAV (LAV III, LAV 6.0, Stryker, Bison, ACSV для армий Канады, США и стран НАТО; выручка ~.5 млрд+)",
+				"en": "General Dynamics Land Systems-Canada (GDLS-Canada, Лондон, Онтарио) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1875,
+				"profit": 125,
+				"debt": 482,
+				"money": 288,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3516
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5625,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лондон",
+						"en": "London"
+					},
+					"ш": 42.9592,
+					"д": -81.2244,
+					"province": 1003,
+					"staff": 1687,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cae_inc",
+			"название": {
+				"ru": "CAE Inc. (Монреаль)",
+				"en": "CAE Inc. (Монреаль)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области комплексных авиационных и военных тренажеров, систем симуляции боевых действий и обучения военных пилотов (тренажеры F-35, C-130, MQ-9 Reaper; выручка ~.5 млрд)",
+				"en": "CAE Inc. (Монреаль) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1838,
+				"profit": 123,
+				"debt": 473,
+				"money": 283,
+				"dividends": 37
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3446
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5514,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3937,
+					"д": -75.6627,
+					"province": 1007,
+					"staff": 1654,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "irving_shipbuilding",
+			"название": {
+				"ru": "Irving Shipbuilding (Галифакс)",
+				"en": "Irving Shipbuilding (Галифакс)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военная верфь ВМС Канады в рамках National Shipbuilding Strategy (строительство арктических патрульных кораблей AOPS и эсминцев River-class / Type 26)",
+				"en": "Irving Shipbuilding (Галифакс) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 463,
+				"money": 277,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5400,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4128,
+					"д": -75.728,
+					"province": 1007,
+					"staff": 1620,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "seaspan_shipyards",
+			"название": {
+				"ru": "Seaspan Shipyards (Ванкувер)",
+				"en": "Seaspan Shipyards (Ванкувер)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Строительство кораблей поддержки флота (класс Protecteur JSS) и тяжелых полярных ледоколов",
+				"en": "Seaspan Shipyards (Ванкувер) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1725,
+				"profit": 115,
+				"debt": 444,
+				"money": 265,
+				"dividends": 34
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3234
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5175,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ванкувер",
+						"en": "Vancouver"
+					},
+					"ш": 49.2609,
+					"д": -123.1,
+					"province": 990,
+					"staff": 1552,
+					"fine": 566
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "colt_canada",
+			"название": {
+				"ru": "Colt Canada (бывш. Diemaco)",
+				"en": "Colt Canada (бывш. Diemaco)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный производитель стрелкового оружия ВС Канады и сил спецназначения стран НАТО (винтовки C7A2, карабины C8A3, винтовки C20, пулеметы C9A2)",
+				"en": "Colt Canada (бывш. Diemaco) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.3842,
+					"д": -75.6737,
+					"province": 1007,
+					"staff": 1485,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "l3harris_technologies",
+			"название": {
+				"ru": "L3Harris Technologies Canada (WESCAM, Берлингтон)",
+				"en": "L3Harris Technologies Canada (WESCAM, Берлингтон)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер по производству оптико-электронных и инфракрасных прицельных станций MX-серии (WESCAM MX-15, MX-20, MX-25 для БПЛА Bayraktar, MQ-9, вертолетов и патрульных самолетов)",
+				"en": "L3Harris Technologies Canada (WESCAM, Берлингтон) — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берлингтон",
+						"en": "Burlington"
+					},
+					"ш": 43.3543,
+					"д": -79.8005,
+					"province": 1003,
+					"staff": 1485,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "magellan_aerospace",
+			"название": {
+				"ru": "Magellan Aerospace",
+				"en": "Magellan Aerospace"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство хвостового оперения и деталей фюзеляжа истребителей F-35 Lightning II, ракетных двигателей",
+				"en": "Magellan Aerospace — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оттава",
+						"en": "Ottawa"
+					},
+					"ш": 45.4098,
+					"д": -75.7336,
+					"province": 1007,
+					"staff": 1485,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rheinmetall_canada",
+			"название": {
+				"ru": "Rheinmetall Canada",
+				"en": "Rheinmetall Canada"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Роботизированные сухопутные платформы (UGV Mission Master), системы ПВО ближнего радиуса и цифровая экипировка бойца",
+				"en": "Rheinmetall Canada — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Mission"
+					},
+					"ш": 49.1726,
+					"д": -122.3413,
+					"province": 990,
+					"staff": 1485,
+					"fine": 566
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "imp_aerospace",
+			"название": {
+				"ru": "IMP Aerospace & Defence",
+				"en": "IMP Aerospace & Defence"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Техническое обслуживание, ремонт и модернизация морских патрульных самолетов CP-140 Aurora и вертолетов CH-148/CH-149",
+				"en": "IMP Aerospace & Defence — a defence company of Canada."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Канада)",
+						"en": "The state (Canada)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Канада"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Арора",
+						"en": "Aurora"
+					},
+					"ш": 43.9883,
+					"д": -79.4836,
+					"province": 1003,
+					"staff": 1485,
+					"fine": 570
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

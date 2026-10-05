@@ -1,0 +1,1417 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Эфиопия",
+	"iso": "ETH",
+	"data_date": "2026-03",
+	"average_wage": 120,
+	"companies": [
+		{
+			"id": "ethiopian",
+			"название": {
+				"ru": "Ethiopian Airlines",
+				"en": "Ethiopian Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1945,
+			"description": {
+				"ru": "Крупнейшая и самая прибыльная авиакомпания Африки.",
+				"en": "Africa's largest and most profitable airline."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 500,
+				"debt": 6000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Эфиопии",
+						"en": "The Ethiopian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Месфин Тасев",
+					"en": "Mesfin Tasew"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 17000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба, аэропорт Боле",
+						"en": "Addis Ababa, Bole airport"
+					},
+					"ш": 8.98,
+					"д": 38.8,
+					"province": 256,
+					"staff": 12000,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://corporate.ethiopianairlines.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "ethiotelecom",
+			"название": {
+				"ru": "Ethio Telecom",
+				"en": "Ethio Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1894,
+			"description": {
+				"ru": "Государственная связь и деньги telebirr.",
+				"en": "The state telecom and telebirr money."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 400,
+				"debt": 500,
+				"money": 300,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Эфиопии",
+						"en": "The Ethiopian state"
+					},
+					"type": "polity",
+					"доля": 0.9,
+					"country": "Эфиопия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фрехиват Тамру",
+					"en": "Frehiwot Tamru"
+				},
+				"роль": "госслужащий",
+				"с_года": 2018,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор",
+					"en": "реформатор"
+				}
+			},
+			"staff": 20000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.03,
+					"д": 38.75,
+					"province": 256,
+					"staff": 5000,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ethiotelecom.et/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "cbe",
+			"название": {
+				"ru": "Commercial Bank of Ethiopia",
+				"en": "Commercial Bank of Ethiopia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1942,
+			"description": {
+				"ru": "Крупнейший банк Эфиопии, половина рынка.",
+				"en": "Ethiopia's largest bank, half the market."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Эфиопии",
+						"en": "The Ethiopian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абе Сано",
+					"en": "Abe Sano"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 40000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.02,
+					"д": 38.75,
+					"province": 256,
+					"staff": 8000,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.combanketh.et/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "eep",
+			"название": {
+				"ru": "Ethiopian Electric Power",
+				"en": "Ethiopian Electric Power"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2013,
+			"description": {
+				"ru": "Гидроэнергетика Эфиопии: Великая плотина GERD.",
+				"en": "Ethiopia's hydropower: the Grand Renaissance dam (GERD)."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": -200,
+				"debt": 1000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Эфиопии",
+						"en": "The Ethiopian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ашебир Балча",
+					"en": "Ashebir Balcha"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 10000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.01,
+					"д": 38.76,
+					"province": 256,
+					"staff": 2000,
+					"fine": 1067
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Великая плотина GERD",
+						"en": "Grand Renaissance dam (GERD)"
+					},
+					"ш": 11.21,
+					"д": 35.09,
+					"province": 253,
+					"staff": 2000,
+					"fine": 1066
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"долг — только коммерческая часть: льготные госкредиты на плотину (~$8 млрд под низкий процент) не учтены"
+			],
+			"source": "https://www.eep.com.et/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; долг — только коммерческая часть: льготные госкредиты на плотину (~$8 млрд под низкий процент) не учтены"
+		},
+		{
+			"id": "awash",
+			"название": {
+				"ru": "Awash Bank",
+				"en": "Awash Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший частный банк Эфиопии.",
+				"en": "Ethiopia's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 150,
+				"debt": 0,
+				"money": 0,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры Эфиопии",
+						"en": "Ethiopian private shareholders"
+					},
+					"type": "крупный",
+					"доля": 0.9,
+					"country": "Эфиопия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цехай Шиферау",
+					"en": "Tsehay Shiferaw"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 17000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.01,
+					"д": 38.74,
+					"province": 256,
+					"staff": 3000,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://awashbank.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "midroc_ethiopia",
+			"название": {
+				"ru": "MIDROC Ethiopia",
+				"en": "MIDROC Ethiopia"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный многоотраслевой конгломерат страны, принадлежащий миллиардеру шейху Мохаммеду Аль-Амуди (золотодобывающая компания MIDROC Gold / крупнейший карьер Лега-Демби, отель Sheraton Addis, крупный агропромышленный холдинг ELFORA Agro-Industries, строительный комплекс Derba MIDROC Cement, фармзаводы; выручка ~$1.5 млрд, более 50,000 сотр.). https://midroc-ceo.com/",
+				"en": "MIDROC Ethiopia — a metals and mining company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 167,
+				"debt": 500,
+				"money": 180,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4333,
+			"wage": 214,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 8.9988,
+					"д": 38.7624,
+					"province": 256,
+					"staff": 1299,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ethiopian_shipping",
+			"название": {
+				"ru": "Ethiopian Shipping and Logistics Services Enterprise (ESLSE)",
+				"en": "Ethiopian Shipping and Logistics Services Enterprise (ESLSE)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная мультимодальная транспортно-логистическая монополия (собственный морской флот сухогрузов и танкеров, сеть внутренних «сухих портов», включая стратегический хаб Моджо, обработка всего внешнеторгового грузопотока через Джибути; выручка ~$1.0 млрд). https://www.eslse.et/",
+				"en": "Ethiopian Shipping and Logistics Services Enterprise (ESLSE) — a transport company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 67,
+				"debt": 505,
+				"money": 207,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 196,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0267,
+					"д": 38.7525,
+					"province": 256,
+					"staff": 750,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dashen_bank",
+			"название": {
+				"ru": "Dashen Bank",
+				"en": "Dashen Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине частный коммерческий банк Эфиопии (активы ~$3.0 млрд, более 850 отделений, лидер в области цифровых финансовых сервисов и мобильного банкинга Amole). https://dashenbanksc.com/",
+				"en": "Dashen Bank — a financial company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 148,
+				"debt": 0,
+				"money": 0,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 197,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0135,
+					"д": 38.7256,
+					"province": 256,
+					"staff": 450,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_of",
+			"название": {
+				"ru": "Bank of Abyssinia",
+				"en": "Bank of Abyssinia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по размеру частный банк страны (активы ~$2.8 млрд, более 900 отделений, обслуживает свыше 10 млн розничных и корпоративных клиентов). https://www.bankofabyssinia.com/",
+				"en": "Bank of Abyssinia — a financial company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 438,
+				"profit": 123,
+				"debt": 0,
+				"money": 0,
+				"dividends": 37
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1022
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1251,
+			"wage": 197,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0148,
+					"д": 38.7176,
+					"province": 256,
+					"staff": 375,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dangote_cement",
+			"название": {
+				"ru": "Dangote Cement Ethiopia",
+				"en": "Dangote Cement Ethiopia"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Восточной Африке современный цементный завод в Мугере (мощность 2.5 млн тонн цемента в год, дочернее предприятие промышленной группы Dangote Cement; выручка ~$300 млн). https://www.dangote.com/",
+				"en": "Dangote Cement Ethiopia — a construction company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 25,
+				"debt": 116,
+				"money": 39,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 378
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 943,
+			"wage": 153,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0617,
+					"д": 38.7457,
+					"province": 256,
+					"staff": 282,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bgi_ethiopia",
+			"название": {
+				"ru": "BGI Ethiopia (Groupe Castel)",
+				"en": "BGI Ethiopia (Groupe Castel)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель пива и напитков в стране (легендарный национальный бренд St. George Beer, Castel, заводы в Аддис-Абебе, Комболче и Хавассе; выручка ~$500 млн). https://bgiethiopia.com/",
+				"en": "BGI Ethiopia (Groupe Castel) — a consumer and retail company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 39,
+				"debt": 115,
+				"money": 42,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 685
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 133,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0538,
+					"д": 38.7732,
+					"province": 256,
+					"staff": 450,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ethiopian_insurance",
+			"название": {
+				"ru": "Ethiopian Insurance Corporation (EIC)",
+				"en": "Ethiopian Insurance Corporation (EIC)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая государственная страховая корпорация Эфиопии (контролирует более 50% страхового рынка страны, страхование авиации, промышленности и инфраструктурных мегапроектов). https://eic.et/",
+				"en": "Ethiopian Insurance Corporation (EIC) — a financial company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 52,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 197,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0187,
+					"д": 38.7156,
+					"province": 256,
+					"staff": 157,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ethio_engineering",
+			"название": {
+				"ru": "Ethio-Engineering Group (EEG, ранее METEC)",
+				"en": "Ethio-Engineering Group (EEG, ранее METEC)"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный машиностроительный и промышленный холдинг (производство коммерческих грузовиков, тракторов, сельхозмашин и тяжелых металлоконструкций)",
+				"en": "Ethio-Engineering Group (EEG, ранее METEC) — a automotive company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 179,
+				"profit": 10,
+				"debt": 54,
+				"money": 23,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 99
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 309,
+			"wage": 171,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0383,
+					"д": 38.7222,
+					"province": 256,
+					"staff": 92,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defense_industry",
+			"название": {
+				"ru": "Defense Industry Commission / Defense Corporation (DSE)",
+				"en": "Defense Industry Commission / Defense Corporation (DSE)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная оборонно-промышленная корпорация Министерства национальной обороны Эфиопии, обеспечивающая потребности Вооруженных сил Эфиопии. Включает специализированные производственные комплексы:",
+				"en": "Defense Industry Commission / Defense Corporation (DSE) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0228,
+					"д": 38.7652,
+					"province": 256,
+					"staff": 67,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "homicho_ammunition",
+			"название": {
+				"ru": "Homicho Ammunition Engineering Complex (Хомичо, р-н Амбо)",
+				"en": "Homicho Ammunition Engineering Complex (Хомичо, р-н Амбо)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший боеприпасный завод в регионе (серийное производство патронов стрелкового оружия 7.62x39 мм, 7.62x54R, 12.7 мм, артиллерийских выстрелов 122/152/155 мм, танковых снарядов 120/125 мм, минометных мин и выстрелов к РПГ-7)",
+				"en": "Homicho Ammunition Engineering Complex (Хомичо, р-н Амбо) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0482,
+					"д": 38.7512,
+					"province": 256,
+					"staff": 67,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gafat_armament",
+			"название": {
+				"ru": "Gafat Armament Engineering Complex (Гафат, Бишофту / Дебре-Зейт)",
+				"en": "Gafat Armament Engineering Complex (Гафат, Бишофту / Дебре-Зейт)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Завод пехотного стрелкового вооружения (лицензионный выпуск модернизированных штурмовых винтовок Gafat 01 / АКМ, пулеметов ПКМ/ДШКМ, автоматических гранатометов)",
+				"en": "Gafat Armament Engineering Complex (Гафат, Бишофту / Дебре-Зейт) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 8.9935,
+					"д": 38.7845,
+					"province": 256,
+					"staff": 67,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bishoftu_automotive",
+			"название": {
+				"ru": "Bishoftu Automotive Industry (Бишофту)",
+				"en": "Bishoftu Automotive Industry (Бишофту)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бронетанковый завод (капитальный ремонт и модернизация танков Т-55, Т-62 и Т-72, серийная сборка колесных бронетранспортеров и бронеавтомобилей для армии и миротворческих контингентов ООН)",
+				"en": "Bishoftu Automotive Industry (Бишофту) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 5,
+				"debt": 18,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 210,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Bishoftu"
+					},
+					"ш": 8.7413,
+					"д": 39.0024,
+					"province": 256,
+					"staff": 63,
+					"fine": 1065
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dejen_aviation",
+			"название": {
+				"ru": "Dejen Aviation Industry (Деджен, Бишофту)",
+				"en": "Dejen Aviation Industry (Деджен, Бишофту)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиаремонтный и авиапроизводственный комплекс ВВС Эфиопии (ремонт, техобслуживание и продление ресурса истребителей Су-27, МиГ-23, вертолетов Ми-8/Ми-17 и Ми-24/Ми-35, сборка легких тактических БПЛА)",
+				"en": "Dejen Aviation Industry (Деджен, Бишофту) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 66,
+				"profit": 4,
+				"debt": 17,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 124
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 198,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0361,
+					"д": 38.7428,
+					"province": 256,
+					"staff": 59,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "information_network",
+			"название": {
+				"ru": "Information Network Security Administration (INSA)",
+				"en": "Information Network Security Administration (INSA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное агентство кибербезопасности, радиоэлектронной борьбы и военных БПЛА (разработка национальных разведывательно-ударных дронов, комплексов защиты радиоэлектронных каналов связи и систем киберзащиты национального командования). https://www.insa.gov.et/",
+				"en": "Information Network Security Administration (INSA) — a defence company of Ethiopia."
+			},
+			"fundamental": {
+				"выручка": 63,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эфиопия)",
+						"en": "The state (Ethiopia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эфиопия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 189,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аддис-Абеба",
+						"en": "Addis Ababa"
+					},
+					"ш": 9.0258,
+					"д": 38.7415,
+					"province": 256,
+					"staff": 56,
+					"fine": 1067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

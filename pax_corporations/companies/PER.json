@@ -1,0 +1,1448 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Перу",
+	"iso": "PER",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "credicorp",
+			"название": {
+				"ru": "Credicorp",
+				"en": "Credicorp"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1889,
+			"description": {
+				"ru": "Крупнейший банк Перу (BCP).",
+				"en": "Peru's largest bank (BCP)."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 79,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ромеро",
+						"en": "The Romero family"
+					},
+					"type": "founder",
+					"доля": 0.15
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джанфранко Феррари",
+					"en": "Gianfranco Ferrari"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 38000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.1,
+					"д": -77.03,
+					"province": 552,
+					"staff": 10000,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://credicorp.gcs-web.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "southernperu",
+			"название": {
+				"ru": "Southern Copper",
+				"en": "Southern Copper"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1952,
+			"description": {
+				"ru": "Медь Перу и Мексики, контроль у Grupo México.",
+				"en": "Copper of Peru and Mexico, controlled by Grupo México."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 3400,
+				"debt": 7000,
+				"money": 3000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 795,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Grupo México",
+						"en": "Grupo México"
+					},
+					"type": "company",
+					"доля": 0.89,
+					"country": "Мексика",
+					"company": "grupomexico"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.11
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оскар Гонсалес Роча",
+					"en": "Óscar González Rocha"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2004,
+				"born_year": 1938,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеран",
+					"en": "ветеран"
+				}
+			},
+			"staff": 16000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.1,
+					"д": -77.04,
+					"province": 552,
+					"staff": 500,
+					"fine": 3091
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Токепала",
+						"en": "Toquepala"
+					},
+					"ш": -17.25,
+					"д": -70.6,
+					"province": 551,
+					"staff": 5000,
+					"fine": 3080
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://southerncoppercorporation.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "petroperu",
+			"название": {
+				"ru": "Petroperú",
+				"en": "Petroperú"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1969,
+			"description": {
+				"ru": "Государственная нефть Перу — новый НПЗ Талара в долгах.",
+				"en": "Peru's state oil — the new Talara refinery in debt."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": -700,
+				"debt": 8000,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Перу",
+						"en": "The Peruvian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оскар Вера Гаргуревич",
+					"en": "Oscar Vera Gargurevich"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 3000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.09,
+					"д": -77.05,
+					"province": 552,
+					"staff": 1000,
+					"fine": 3091
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Талара",
+						"en": "Talara refinery"
+					},
+					"ш": -4.58,
+					"д": -81.27,
+					"province": 335,
+					"staff": 2000,
+					"fine": 3072
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.petroperu.com.pe/informacion-financiera/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "antamina",
+			"название": {
+				"ru": "Antamina",
+				"en": "Antamina"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Медно-цинковый рудник BHP, Glencore, Teck и Mitsubishi.",
+				"en": "A copper-zinc mine of BHP, Glencore, Teck and Mitsubishi."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 1500,
+				"debt": 500,
+				"money": 500,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "BHP",
+						"en": "BHP"
+					},
+					"type": "company",
+					"доля": 0.34,
+					"country": "Австралия",
+					"company": "bhp"
+				},
+				{
+					"кто": {
+						"ru": "Glencore",
+						"en": "Glencore"
+					},
+					"type": "company",
+					"доля": 0.34,
+					"country": "Швейцария",
+					"company": "glencore"
+				},
+				{
+					"кто": {
+						"ru": "Mitsubishi Corporation",
+						"en": "Mitsubishi Corporation"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Япония",
+					"company": "mitsubishicorp"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.22
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виктор Гобиц",
+					"en": "Víctor Gobitz"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 6000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Маркос (Анкаш)",
+						"en": "San Marcos (Áncash)"
+					},
+					"ш": -9.54,
+					"д": -77.05,
+					"province": 786,
+					"staff": 6000,
+					"fine": 3081
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.antamina.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "intercorp_financial",
+			"название": {
+				"ru": "Intercorp Financial Services / Interbank",
+				"en": "Intercorp Financial Services / Interbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Лима — второй по величине финансово-ритейловый конгломерат Перу (Interbank, Inteligo, страхование Interseguro). [Выручка: 2 200 млн $ (8 300 млн PEN), Чистая прибыль: 350 млн $, Штат: 18 000 чел., Руководитель: Луис Фелипе Кастельянос (Luis Felipe Castellanos), с 2011 года, 1968 г.р.]. Официальные источники: https://ifs.com.pe/investor-relations",
+				"en": "Intercorp Financial Services / Interbank — a financial company of Peru."
+			},
+			"fundamental": {
+				"выручка": 2012,
+				"profit": 566,
+				"debt": 0,
+				"money": 0,
+				"dividends": 170
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4695
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5748,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0416,
+					"д": -77.0626,
+					"province": 552,
+					"staff": 1724,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alicorp",
+			"название": {
+				"ru": "Alicorp",
+				"en": "Alicorp"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Кальяо / Лима — крупнейший перуанский производитель продуктов питания, потребительских товаров и агропромышленных кормов (Grupo Romero). [Выручка: 3 600 млн $ (13 500 млн PEN), Чистая прибыль: 120 млн $, Штат: 11 000 чел., Руководитель: Альваро Корреа Малаховски (Álvaro Correa Malachowski), с 2024 года, 1970 г.р.]. Официальные источники: https://www.alicorp.com.pe/pe/es/inversionistas/, https://ww",
+				"en": "Alicorp — a consumer and retail company of Peru."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 136,
+				"debt": 404,
+				"money": 146,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2397
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5250,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0556,
+					"д": -77.037,
+					"province": 552,
+					"staff": 1575,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "inretail_per",
+			"название": {
+				"ru": "InRetail Perú",
+				"en": "InRetail Perú"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Лима — ведущий оператор продуктового ритейла (Plaza Vea, Vivanda, Makro), аптечных сетей (InkaFarma, Mifarma) и моллов Real Plaza. [Выручка: 5 500 млн $ (21 000 млн PEN), Чистая прибыль: 240 млн $, Штат: 45 000 чел., Руководитель: Хуан Карлос Вальехо (Juan Carlos Vallejo), с 2011 года, 1967 г.р.]. Официальные источники: https://www.inretail.pe/investor-relations",
+				"en": "InRetail Perú — a IT and telecom company of Peru."
+			},
+			"fundamental": {
+				"выручка": 1662,
+				"profit": 214,
+				"debt": 528,
+				"money": 277,
+				"dividends": 64
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3147
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4402,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.054,
+					"д": -76.9999,
+					"province": 552,
+					"staff": 1320,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "compa_a",
+			"название": {
+				"ru": "Compañía de Minas Buenaventura",
+				"en": "Compañía de Minas Buenaventura"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Лима — старейшая и крупнейшая национальная горнорудная компания по добыче золота, серебра и меди. [Выручка: 1 100 млн $, Чистая прибыль: 180 млн $, Штат: 3 800 чел., Руководитель: Леандро Гарсия Раджио (Leandro García Raggio), с 2020 года, 1968 г.р.]. Официальные источники: https://www.buenaventura.com/es/inversionistas, https://www.buenaventura.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Compañía de Minas Buenaventura — a metals and mining company of Peru."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 175,
+				"debt": 525,
+				"money": 189,
+				"dividends": 52
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1890
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4550,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0325,
+					"д": -76.9884,
+					"province": 552,
+					"staff": 1365,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ferreycorp",
+			"название": {
+				"ru": "Ferreycorp",
+				"en": "Ferreycorp"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Лима — лидер дистрибьюции горной, строительной техники и промышленного инжиниринга Caterpillar в Перу и Латинской Америке. [Выручка: 1 800 млн $ (6 600 млн PEN), Чистая прибыль: 140 млн $, Штат: 7 000 чел., Руководитель: Мариела Гарсия де Фаббри (Mariela García de Fabbri), с 2008 года, 1964 г.р.]. Официальные источники: https://www.ferreycorp.com.pe/inversionistas, https://www.ferreycorp.com.pe/in",
+				"en": "Ferreycorp — a construction company of Peru."
+			},
+			"fundamental": {
+				"выручка": 1140,
+				"profit": 95,
+				"debt": 442,
+				"money": 150,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1438
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3586,
+			"wage": 640,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0498,
+					"д": -77.0193,
+					"province": 552,
+					"staff": 1075,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bbva_per",
+			"название": {
+				"ru": "BBVA Perú",
+				"en": "BBVA Perú"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Лима — третий по величине коммерческий банк страны с широкой сетью корпоративного и потребительского кредитования. [Выручка: 1 800 млн $, Чистая прибыль: 420 млн $, Штат: 6 500 чел., Руководитель: Фернандо Эгилус (Fernando Eguiluz), с 2019 года, 1971 г.р.]. Официальные источники: https://www.bbva.pe/personas/nuestra-empresa/inversionistas.html, https://www.bbva.pe/investors (Годовой отчет / Раскры",
+				"en": "BBVA Perú — a financial company of Peru."
+			},
+			"fundamental": {
+				"выручка": 704,
+				"profit": 198,
+				"debt": 0,
+				"money": 0,
+				"dividends": 59
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1643
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2011,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0228,
+					"д": -77.0085,
+					"province": 552,
+					"staff": 603,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sociedad_minera",
+			"название": {
+				"ru": "Sociedad Minera Cerro Verde",
+				"en": "Sociedad Minera Cerro Verde"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Арекипа — гигантский медно-молибденовый открытый карьер и обогатительный комбинат (Freeport-McMoRan / Buenaventura / Sumitomo). [Выручка: 4 200 млн $, Чистая прибыль: 950 млн $, Штат: 7 500 чел., Руководитель: Хулия Торребланка (Julia Torreblanca), вице-президент по корпоративным связям, 1970 г.р.]. Официальные источники: https://www.bvl.com.pe/, https://www.bvl.com.pe/investors (Годовой отчет / Р",
+				"en": "Sociedad Minera Cerro Verde — a metals and mining company of Peru."
+			},
+			"fundamental": {
+				"выручка": 658,
+				"profit": 73,
+				"debt": 219,
+				"money": 79,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 790
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1900,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Арекипа",
+						"en": "Arequipa"
+					},
+					"ш": -16.3807,
+					"д": -71.5652,
+					"province": 551,
+					"staff": 570,
+					"fine": 3075
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "minsur",
+			"название": {
+				"ru": "Minsur (Grupo Breca)",
+				"en": "Minsur (Grupo Breca)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2013,
+			"description": {
+				"ru": "Лима — четвертый в мире производитель олова (рудник Сан-Рафаэль) и крупный производитель меди (Marcobre / Mina Justa). [Выручка: 2 100 млн $, Чистая прибыль: 450 млн $, Штат: 4 200 чел., Руководитель: Хуан Луис Крюгер (Juan Luis Kruger), с 2013 года, 1970 г.р.]. Официальные источники: https://www.minsur.com/inversionistas/, https://www.minsur.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Minsur (Grupo Breca) — a metals and mining company of Peru."
+			},
+			"fundamental": {
+				"выручка": 612,
+				"profit": 68,
+				"debt": 204,
+				"money": 73,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 734
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1768,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0464,
+					"д": -76.9895,
+					"province": 552,
+					"staff": 530,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "unacem",
+			"название": {
+				"ru": "UNACEM (Unión Andina de Cementos)",
+				"en": "UNACEM (Unión Andina de Cementos)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Лима — ведущий перуанский производитель цемента, бетона и стройматериалов. [Выручка: 800 млн $, Чистая прибыль: 110 млн $, Штат: 2 500 чел., Руководитель: Педро Лернер Ризо Патрон (Pedro Lerner Rizo Patrón), с 2021 года, 1971 г.р.]. Официальные источники: https://www.unacem.com.pe/, https://www.unacem.com.pe/investors (Годовой отчет / Раскрытие информации)",
+				"en": "UNACEM (Unión Andina de Cementos) — a construction company of Peru."
+			},
+			"fundamental": {
+				"выручка": 597,
+				"profit": 50,
+				"debt": 232,
+				"money": 78,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 753
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1877,
+			"wage": 640,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0114,
+					"д": -77.0622,
+					"province": 552,
+					"staff": 563,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_gloria",
+			"название": {
+				"ru": "Grupo Gloria (Leche Gloria)",
+				"en": "Grupo Gloria (Leche Gloria)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Лима — крупнейший национальный холдинг молочной промышленности, напитков и агроиндустрии. [Выручка: 1 400 млн $, Чистая прибыль: 85 млн $, Штат: 4 500 чел., Руководитель: Клаудио Родригес Уако (Claudio Rodríguez Huaco), с 2021 года, 1978 г.р.]. Официальные источники: https://www.gloria.com.pe/inversionistas/, https://www.gloria.com.pe/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Grupo Gloria (Leche Gloria) — a consumer and retail company of Peru."
+			},
+			"fundamental": {
+				"выручка": 582,
+				"profit": 45,
+				"debt": 134,
+				"money": 48,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 797
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1746,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0401,
+					"д": -77.0599,
+					"province": 552,
+					"staff": 523,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sima_per",
+			"название": {
+				"ru": "SIMA Perú (Servicios Industriales de la Marina S.A.)",
+				"en": "SIMA Perú (Servicios Industriales de la Marina S.A.)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Кальяо / Чимботе / Икитос — главный судостроительный и судоремонтный комплекс ВМС Перу: постройка десантных вертолетоносных кораблей-доков класса Pisco (BAP Pisco, BAP Paita), патрульных кораблей класса Río Pativilca и масштабная модернизация подводных лодок проекта 209/1200 совместно с TKMS (Германия). (Военное судостроение, капремонт подводных лодок и фрегатов Lupo, речные патрульные бронекатера",
+				"en": "SIMA Perú (Servicios Industriales de la Marina S.A.) — a defence company of Peru."
+			},
+			"fundamental": {
+				"выручка": 243,
+				"profit": 16,
+				"debt": 62,
+				"money": 37,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 456
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Перу)",
+						"en": "The state (Peru)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 729,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кальяо",
+						"en": "Callao"
+					},
+					"ш": -12.0834,
+					"д": -77.1331,
+					"province": 552,
+					"staff": 218,
+					"fine": 3070
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "seman_per",
+			"название": {
+				"ru": "SEMAN Perú S.A.C. (Servicio de Mantenimiento de la FAP)",
+				"en": "SEMAN Perú S.A.C. (Servicio de Mantenimiento de la FAP)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиабаза Лас-Пальмас, Лима — государственная авиаремонтная корпорация ВВС Перу: сборка и совместное производство турбовинтовых штурмовиков KT-1P Woongbi (совместно с KAI, Южная Корея), капитальный ремонт и модернизация штурмовиков Су-25, истребителей Mirage 2000, вертолетов Ми-17 и Ми-25/35. (Модернизация боевой авиации, ТОиР штурмовиков Су-25 и тяжелых транспортных вертолетов Ми-171Ш.) [Выручка: ",
+				"en": "SEMAN Perú S.A.C. (Servicio de Mantenimiento de la FAP) — a defence company of Peru."
+			},
+			"fundamental": {
+				"выручка": 236,
+				"profit": 16,
+				"debt": 61,
+				"money": 36,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 442
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Перу)",
+						"en": "The state (Peru)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 708,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.068,
+					"д": -77.0489,
+					"province": 552,
+					"staff": 212,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fame_s",
+			"название": {
+				"ru": "FAME S.A.C. (Fábrica de Armas y Municiones del Ejército)",
+				"en": "FAME S.A.C. (Fábrica de Armas y Municiones del Ejército)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Уачипа / Лима — государственное оборонное предприятие Сухопутных войск Перу: выпуск стрелкового оружия, боеприпасов, а также совместная с Hyundai Rotem и STX Corporation лицензионная сборка современных колесных бронетранспортеров K808 White Tiger 8x8 для перуанской армии. (Сборка БТР K808 White Tiger 8x8, выпуск патронов стандартов НАТО (5.56, 7.62, 9 мм), боеприпасы и тактическое снаряжение.) [Вы",
+				"en": "FAME S.A.C. (Fábrica de Armas y Municiones del Ejército) — a defence company of Peru."
+			},
+			"fundamental": {
+				"выручка": 204,
+				"profit": 14,
+				"debt": 52,
+				"money": 31,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 382
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Перу)",
+						"en": "The state (Peru)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 612,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0601,
+					"д": -77.0406,
+					"province": 552,
+					"staff": 183,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cemablin",
+			"название": {
+				"ru": "CEMABLIN (Centro de Mantenimiento de Blindados del Ejército)",
+				"en": "CEMABLIN (Centro de Mantenimiento de Blindados del Ejército)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Фуэрте Римак, Лима — специализированный армейский центр восстановления и модернизации бронетанковой техники: ремонт танков Т-55, легких танков AMX-13, бронетранспортеров M113, гусеничных шасси и тяжелых орудий артиллерии. (Капитальный ремонт дизельных двигателей бронемашин, ходовой части танков и танковых орудий.) [Выручка: 30 млн $, Чистая прибыль: 2 млн $, Штат: 500 чел.]. Официальные источники:",
+				"en": "CEMABLIN (Centro de Mantenimiento de Blindados del Ejército) — a defence company of Peru."
+			},
+			"fundamental": {
+				"выручка": 171,
+				"profit": 11,
+				"debt": 44,
+				"money": 26,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 321
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Перу)",
+						"en": "The state (Peru)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 513,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0293,
+					"д": -76.9916,
+					"province": 552,
+					"staff": 153,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "conida",
+			"название": {
+				"ru": "CONIDA (Comisión Nacional de Investigación y Desarrollo Aeroespacial)",
+				"en": "CONIDA (Comisión Nacional de Investigación y Desarrollo Aeroespacial)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Пукусана / Лима — национальное космическое агентство Перу и оператор разведывательного спутника PerúSAT-1: обеспечение вооруженных сил спутниковыми снимками высокого разрешения (до 0.7 м), мониторинг госграниц, координация тактической спутниковой связи. (Военно-космическая оптико-электронная разведка, спутниковый картографический анализ, командные пункты космической связи.) [Выручка: 25 млн $, Чис",
+				"en": "CONIDA (Comisión Nacional de Investigación y Desarrollo Aeroespacial) — a defence company of Peru."
+			},
+			"fundamental": {
+				"выручка": 138,
+				"profit": 9,
+				"debt": 35,
+				"money": 21,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 259
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Перу)",
+						"en": "The state (Peru)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Перу"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 414,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лима",
+						"en": "Lima"
+					},
+					"ш": -12.0537,
+					"д": -77.0306,
+					"province": 552,
+					"staff": 124,
+					"fine": 3091
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

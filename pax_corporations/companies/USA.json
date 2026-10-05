@@ -1,0 +1,7301 @@
+{
+	"_как_это_работает": "Компании США. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). Точки: «ш»/«д» — широта и долгота, «провинция» — id провинции из data/regions.json игры.",
+	"country": "США",
+	"iso": "USA",
+	"data_date": "2026-03",
+	"average_wage": 5500,
+	"companies": [
+		{
+			"id": "apple",
+			"название": {
+				"ru": "Apple",
+				"en": "Apple"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1976,
+			"description": {
+				"ru": "iPhone, Mac и сервисы — самая дорогая потребительская компания мира.",
+				"en": "iPhone, Mac and services — the most valuable consumer company in the world."
+			},
+			"fundamental": {
+				"выручка": 416000,
+				"profit": 112000,
+				"debt": 98000,
+				"money": 55000,
+				"dividends": 15400
+			},
+			"рынок": {
+				"shares_mln": 14800,
+				"market_cap": 3900000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тим Кук",
+					"en": "Tim Cook"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спокойный мастер цепочек поставок, избегает конфликтов с властями",
+					"en": "a calm supply-chain master who avoids fights with governments"
+				}
+			},
+			"staff": 166000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Apple Park, Купертино",
+						"en": "Apple Park, Cupertino"
+					},
+					"ш": 37.33,
+					"д": -122.01,
+					"province": 1014,
+					"staff": 26000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Остине",
+						"en": "Austin campus"
+					},
+					"ш": 30.4,
+					"д": -97.7,
+					"province": 1015,
+					"staff": 8000,
+					"fine": 4382
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Мейдене, Северная Каролина",
+						"en": "Maiden data centre, North Carolina"
+					},
+					"ш": 35.58,
+					"д": -81.2,
+					"province": 603,
+					"staff": 300,
+					"fine": 4395
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Месе, Аризона",
+						"en": "Mesa data centre, Arizona"
+					},
+					"ш": 33.4,
+					"д": -111.8,
+					"province": 315,
+					"staff": 300,
+					"fine": 4366
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.apple.com/"
+		},
+		{
+			"id": "microsoft",
+			"название": {
+				"ru": "Microsoft",
+				"en": "Microsoft"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Windows, облако Azure и ставка на искусственный интеллект вместе с OpenAI.",
+				"en": "Windows, the Azure cloud and a big bet on AI with OpenAI."
+			},
+			"fundamental": {
+				"выручка": 282000,
+				"profit": 101800,
+				"debt": 43000,
+				"money": 94000,
+				"dividends": 24700
+			},
+			"рынок": {
+				"shares_mln": 7430,
+				"market_cap": 3700000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сатья Наделла",
+					"en": "Satya Nadella"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вдумчивый инженер, перестроил компанию вокруг облака",
+					"en": "a thoughtful engineer who rebuilt the company around the cloud"
+				}
+			},
+			"staff": 228000,
+			"wage": 13000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус в Редмонде",
+						"en": "Redmond campus"
+					},
+					"ш": 47.64,
+					"д": -122.13,
+					"province": 303,
+					"staff": 50000,
+					"fine": 4365
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центры в Куинси",
+						"en": "Quincy data centres"
+					},
+					"ш": 47.23,
+					"д": -119.85,
+					"province": 303,
+					"staff": 500,
+					"fine": 4365
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Сан-Антонио",
+						"en": "San Antonio data centre"
+					},
+					"ш": 29.4,
+					"д": -98.5,
+					"province": 1015,
+					"staff": 400,
+					"fine": 4382
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "ИИ-кампус в Маунт-Плезант, Висконсин",
+						"en": "Mount Pleasant AI campus, Wisconsin"
+					},
+					"ш": 42.7,
+					"д": -87.9,
+					"province": 308,
+					"staff": 500,
+					"fine": 4399
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.microsoft.com/"
+		},
+		{
+			"id": "nvidia",
+			"название": {
+				"ru": "Nvidia",
+				"en": "Nvidia"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Графические процессоры и ускорители ИИ — главный поставщик вычислений эпохи нейросетей.",
+				"en": "GPUs and AI accelerators — the main supplier of compute for the AI age."
+			},
+			"fundamental": {
+				"выручка": 210000,
+				"profit": 115000,
+				"debt": 8500,
+				"money": 60000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 24300,
+				"market_cap": 4400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Дженсен Хуанг",
+						"en": "Jensen Huang"
+					},
+					"type": "founder",
+					"доля": 0.035
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.965
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дженсен Хуанг",
+					"en": "Jensen Huang"
+				},
+				"роль": "founder",
+				"с_года": 1993,
+				"born_year": 1963,
+				"доля": 0.035,
+				"характер": {
+					"ru": "харизматичный основатель в кожаной куртке, мыслит на десятилетия вперёд",
+					"en": "a charismatic founder in a leather jacket, thinks decades ahead"
+				}
+			},
+			"staff": 36000,
+			"wage": 20000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Санта-Клара",
+						"en": "Headquarters, Santa Clara"
+					},
+					"ш": 37.37,
+					"д": -121.96,
+					"province": 1014,
+					"staff": 15000,
+					"fine": 4367
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Инженерный центр в Остине",
+						"en": "Austin engineering centre"
+					},
+					"ш": 30.4,
+					"д": -97.7,
+					"province": 1015,
+					"staff": 3000,
+					"fine": 4382
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Офис в Редмонде",
+						"en": "Redmond office"
+					},
+					"ш": 47.67,
+					"д": -122.12,
+					"province": 303,
+					"staff": 1500,
+					"fine": 4365
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nvidia.com/"
+		},
+		{
+			"id": "alphabet",
+			"название": {
+				"ru": "Alphabet (Google)",
+				"en": "Alphabet (Google)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Поиск Google, YouTube, облако и ИИ Gemini.",
+				"en": "Google Search, YouTube, the cloud and Gemini AI."
+			},
+			"fundamental": {
+				"выручка": 400000,
+				"profit": 130000,
+				"debt": 22000,
+				"money": 95000,
+				"dividends": 10000
+			},
+			"рынок": {
+				"shares_mln": 12100,
+				"market_cap": 3800000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ларри Пейдж и Сергей Брин",
+						"en": "Larry Page and Sergey Brin"
+					},
+					"type": "founder",
+					"доля": 0.12
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.88
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сундар Пичаи",
+					"en": "Sundar Pichai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "мягкий и осторожный, умеет договариваться с регуляторами",
+					"en": "soft-spoken and careful, good with regulators"
+				}
+			},
+			"staff": 190000,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гуглплекс, Маунтин-Вью",
+						"en": "Googleplex, Mountain View"
+					},
+					"ш": 37.42,
+					"д": -122.08,
+					"province": 1014,
+					"staff": 30000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Нью-Йорке",
+						"en": "New York office"
+					},
+					"ш": 40.74,
+					"д": -74.0,
+					"province": 605,
+					"staff": 14000,
+					"fine": 4405
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Каунсил-Блаффс",
+						"en": "Council Bluffs data centre"
+					},
+					"ш": 41.26,
+					"д": -95.86,
+					"province": 757,
+					"staff": 500,
+					"fine": 4375
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Даллесе, Орегон",
+						"en": "The Dalles data centre, Oregon"
+					},
+					"ш": 45.6,
+					"д": -121.2,
+					"province": 619,
+					"staff": 400,
+					"fine": 4371
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://abc.xyz/"
+		},
+		{
+			"id": "amazon",
+			"название": {
+				"ru": "Amazon",
+				"en": "Amazon"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший интернет-магазин мира и облако AWS.",
+				"en": "The world's largest online store and the AWS cloud."
+			},
+			"fundamental": {
+				"выручка": 717000,
+				"profit": 77000,
+				"debt": 58000,
+				"money": 90000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 10700,
+				"market_cap": 2400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Джефф Безос",
+						"en": "Jeff Bezos"
+					},
+					"type": "founder",
+					"доля": 0.085
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.915
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Энди Джесси",
+					"en": "Andy Jassy"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель AWS, режет бюрократию и офисы",
+					"en": "the builder of AWS, cuts bureaucracy"
+				}
+			},
+			"staff": 1560000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сиэтл",
+						"en": "Headquarters, Seattle"
+					},
+					"ш": 47.62,
+					"д": -122.34,
+					"province": 303,
+					"staff": 50000,
+					"fine": 4365
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "HQ2, Арлингтон",
+						"en": "HQ2, Arlington"
+					},
+					"ш": 38.86,
+					"д": -77.05,
+					"province": 605,
+					"staff": 8000,
+					"fine": 4402
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "AWS, Эшберн",
+						"en": "AWS, Ashburn"
+					},
+					"ш": 39.04,
+					"д": -77.49,
+					"province": 605,
+					"staff": 3000,
+					"fine": 4398
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склады Далласа — Форт-Уэрта",
+						"en": "Dallas–Fort Worth warehouses"
+					},
+					"ш": 32.97,
+					"д": -97.31,
+					"province": 1017,
+					"staff": 40000,
+					"fine": 4382
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склады Внутренней империи, Калифорния",
+						"en": "Inland Empire warehouses, California"
+					},
+					"ш": 34.06,
+					"д": -117.4,
+					"province": 1013,
+					"staff": 40000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.aboutamazon.com/"
+		},
+		{
+			"id": "meta",
+			"название": {
+				"ru": "Meta",
+				"en": "Meta"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2004,
+			"description": {
+				"ru": "Facebook, Instagram, WhatsApp и гигантские ИИ-дата-центры.",
+				"en": "Facebook, Instagram, WhatsApp and giant AI data centres."
+			},
+			"fundamental": {
+				"выручка": 200000,
+				"profit": 60000,
+				"debt": 29000,
+				"money": 70000,
+				"dividends": 5300
+			},
+			"рынок": {
+				"shares_mln": 2520,
+				"market_cap": 1650000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Марк Цукерберг",
+						"en": "Mark Zuckerberg"
+					},
+					"type": "founder",
+					"доля": 0.13
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Цукерберг",
+					"en": "Mark Zuckerberg"
+				},
+				"роль": "founder",
+				"с_года": 2004,
+				"born_year": 1984,
+				"доля": 0.13,
+				"характер": {
+					"ru": "упрямый основатель, ставит всё на ИИ и метавселенную",
+					"en": "a stubborn founder betting everything on AI"
+				}
+			},
+			"staff": 78000,
+			"wage": 20000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус в Менло-Парке",
+						"en": "Menlo Park campus"
+					},
+					"ш": 37.48,
+					"д": -122.15,
+					"province": 1014,
+					"staff": 20000,
+					"fine": 4367
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Прайнвилле",
+						"en": "Prineville data centre"
+					},
+					"ш": 44.3,
+					"д": -120.83,
+					"province": 619,
+					"staff": 500,
+					"fine": 4371
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "ИИ-кампус «Гиперион», Луизиана",
+						"en": "Hyperion AI campus, Louisiana"
+					},
+					"ш": 32.4,
+					"д": -91.7,
+					"province": 597,
+					"staff": 1000,
+					"fine": 4381
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Нью-Йорке",
+						"en": "New York office"
+					},
+					"ш": 40.73,
+					"д": -73.99,
+					"province": 605,
+					"staff": 5000,
+					"fine": 4405
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://about.meta.com/"
+		},
+		{
+			"id": "berkshire",
+			"название": {
+				"ru": "Berkshire Hathaway",
+				"en": "Berkshire Hathaway"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1839,
+			"description": {
+				"ru": "Империя Уоррена Баффета: страхование, железные дороги, энергетика и гора наличных.",
+				"en": "Warren Buffett's empire: insurance, railways, power and a mountain of cash."
+			},
+			"fundamental": {
+				"выручка": 370000,
+				"profit": 65000,
+				"debt": 125000,
+				"money": 380000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2160,
+				"market_cap": 1050000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Уоррен Баффет",
+						"en": "Warren Buffett"
+					},
+					"type": "крупный",
+					"доля": 0.14,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Уоррен Баффетт",
+					"en": "Warren Buffett"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 1965,
+				"born_year": 1930,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник Баффета, энергетик, осторожный инвестор",
+					"en": "Buffett's heir, a cautious investor"
+				}
+			},
+			"staff": 390000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Омаха",
+						"en": "Headquarters, Omaha"
+					},
+					"ш": 41.26,
+					"д": -95.94,
+					"province": 757,
+					"staff": 30,
+					"fine": 4378
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "BNSF, Форт-Уэрт",
+						"en": "BNSF, Fort Worth"
+					},
+					"ш": 32.8,
+					"д": -97.3,
+					"province": 1017,
+					"staff": 35000,
+					"fine": 4382
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "GEICO, Чеви-Чейз",
+						"en": "GEICO, Chevy Chase"
+					},
+					"ш": 38.98,
+					"д": -77.08,
+					"province": 605,
+					"staff": 30000,
+					"fine": 4402
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Berkshire Hathaway Energy, Де-Мойн",
+						"en": "Berkshire Hathaway Energy, Des Moines"
+					},
+					"ш": 41.59,
+					"д": -93.62,
+					"province": 757,
+					"staff": 24000,
+					"fine": 4375
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.berkshirehathaway.com/"
+		},
+		{
+			"id": "broadcom",
+			"название": {
+				"ru": "Broadcom",
+				"en": "Broadcom"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Чипы для сетей и ИИ-ускорители на заказ, плюс софт VMware.",
+				"en": "Networking chips and custom AI accelerators, plus VMware software."
+			},
+			"fundamental": {
+				"выручка": 64000,
+				"profit": 23000,
+				"debt": 66000,
+				"money": 11000,
+				"dividends": 11000
+			},
+			"рынок": {
+				"shares_mln": 4700,
+				"market_cap": 1600000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хок Тан",
+					"en": "Hock Tan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2006,
+				"born_year": 1951,
+				"доля": 0.0,
+				"характер": {
+					"ru": "жёсткий покупатель компаний, режет всё лишнее",
+					"en": "a hard-nosed acquirer who cuts everything extra"
+				}
+			},
+			"staff": 37000,
+			"wage": 18000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пало-Альто",
+						"en": "Headquarters, Palo Alto"
+					},
+					"ш": 37.41,
+					"д": -122.15,
+					"province": 1014,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Центр в Сан-Хосе",
+						"en": "San Jose centre"
+					},
+					"ш": 37.34,
+					"д": -121.89,
+					"province": 1014,
+					"staff": 4000,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Производство в Форт-Коллинсе",
+						"en": "Fort Collins plant"
+					},
+					"ш": 40.55,
+					"д": -105.07,
+					"province": 752,
+					"staff": 2000,
+					"fine": 4368
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.broadcom.com/"
+		},
+		{
+			"id": "tesla",
+			"название": {
+				"ru": "Tesla",
+				"en": "Tesla"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 2003,
+			"description": {
+				"ru": "Электромобили, батареи и роботакси Илона Маска.",
+				"en": "Elon Musk's electric cars, batteries and robotaxis."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 4000,
+				"debt": 13000,
+				"money": 40000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 3320,
+				"market_cap": 1400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Илон Маск",
+						"en": "Elon Musk"
+					},
+					"type": "founder",
+					"доля": 0.13
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Илон Маск",
+					"en": "Elon Musk"
+				},
+				"роль": "founder",
+				"с_года": 2008,
+				"born_year": 1971,
+				"доля": 0.13,
+				"характер": {
+					"ru": "непредсказуемый визионер, спорит с правительствами в соцсетях",
+					"en": "an unpredictable visionary who argues with governments online"
+				}
+			},
+			"staff": 125000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гигафабрика «Техас», Остин",
+						"en": "Giga Texas, Austin"
+					},
+					"ш": 30.22,
+					"д": -97.62,
+					"province": 1015,
+					"staff": 22000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод во Фримонте",
+						"en": "Fremont factory"
+					},
+					"ш": 37.49,
+					"д": -121.94,
+					"province": 1014,
+					"staff": 20000,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Гигафабрика «Невада»",
+						"en": "Giga Nevada"
+					},
+					"ш": 39.54,
+					"д": -119.44,
+					"province": 1014,
+					"staff": 11000,
+					"fine": 4369
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Гигафабрика «Нью-Йорк», Буффало",
+						"en": "Giga New York, Buffalo"
+					},
+					"ш": 42.86,
+					"д": -78.83,
+					"province": 310,
+					"staff": 1500,
+					"fine": 4405
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tesla.com/"
+		},
+		{
+			"id": "jpmorgan",
+			"название": {
+				"ru": "JPMorgan Chase",
+				"en": "JPMorgan Chase"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1799,
+			"description": {
+				"ru": "Крупнейший банк Америки и мира по капитализации.",
+				"en": "America's and the world's largest bank by market value."
+			},
+			"fundamental": {
+				"выручка": 180000,
+				"profit": 57000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16000
+			},
+			"рынок": {
+				"shares_mln": 2750,
+				"market_cap": 850000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джейми Даймон",
+					"en": "Jamie Dimon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2005,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "самый влиятельный банкир Уолл-стрит, говорит прямо и громко",
+					"en": "Wall Street's most powerful banker, speaks bluntly"
+				}
+			},
+			"staff": 318000,
+			"wage": 10000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "270 Парк-авеню, Нью-Йорк",
+						"en": "270 Park Avenue, New York"
+					},
+					"ш": 40.755,
+					"д": -73.975,
+					"province": 605,
+					"staff": 14000,
+					"fine": 4405
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Операционный центр в Колумбусе",
+						"en": "Columbus operations centre"
+					},
+					"ш": 40.1,
+					"д": -83.0,
+					"province": 309,
+					"staff": 20000,
+					"fine": 4396
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Плано",
+						"en": "Plano campus"
+					},
+					"ш": 33.08,
+					"д": -96.82,
+					"province": 1017,
+					"staff": 12000,
+					"fine": 4382
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Уилмингтоне",
+						"en": "Wilmington centre"
+					},
+					"ш": 39.74,
+					"д": -75.55,
+					"province": 605,
+					"staff": 10000,
+					"fine": 4401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.jpmorganchase.com/"
+		},
+		{
+			"id": "lilly",
+			"название": {
+				"ru": "Eli Lilly",
+				"en": "Eli Lilly"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1876,
+			"description": {
+				"ru": "Лекарства от диабета и ожирения — самая дорогая фармкомпания мира.",
+				"en": "Diabetes and obesity drugs — the world's most valuable drugmaker."
+			},
+			"fundamental": {
+				"выручка": 64000,
+				"profit": 20000,
+				"debt": 40000,
+				"money": 3000,
+				"dividends": 5400
+			},
+			"рынок": {
+				"shares_mln": 900,
+				"market_cap": 950000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Лилли",
+						"en": "Lilly Endowment"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэвид Рикс",
+					"en": "David Ricks"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "уверенный фармацевт, торгуется с Белым домом о ценах",
+					"en": "a confident pharma CEO bargaining with the White House on prices"
+				}
+			},
+			"staff": 50000,
+			"wage": 11000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Индианаполис",
+						"en": "Headquarters, Indianapolis"
+					},
+					"ш": 39.77,
+					"д": -86.15,
+					"province": 929,
+					"staff": 12000,
+					"fine": 4393
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Заводы в Лебаноне, Индиана",
+						"en": "Lebanon plants, Indiana"
+					},
+					"ш": 40.05,
+					"д": -86.47,
+					"province": 929,
+					"staff": 2000,
+					"fine": 4393
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Конкорде, Северная Каролина",
+						"en": "Concord plant, North Carolina"
+					},
+					"ш": 35.4,
+					"д": -80.6,
+					"province": 603,
+					"staff": 1500,
+					"fine": 4395
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Исследовательский центр в Треугольнике",
+						"en": "Research Triangle centre"
+					},
+					"ш": 35.9,
+					"д": -78.8,
+					"province": 603,
+					"staff": 1000,
+					"fine": 4395
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lilly.com/"
+		},
+		{
+			"id": "visa",
+			"название": {
+				"ru": "Visa",
+				"en": "Visa"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1958,
+			"description": {
+				"ru": "Крупнейшая платёжная система мира.",
+				"en": "The world's largest payment network."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 20000,
+				"debt": 25000,
+				"money": 17000,
+				"dividends": 4600
+			},
+			"рынок": {
+				"shares_mln": 1950,
+				"market_cap": 650000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Райан Макинерни",
+					"en": "Ryan McInerney"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист-технократ",
+					"en": "a technocratic financier"
+				}
+			},
+			"staff": 31000,
+			"wage": 14000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сан-Франциско",
+						"en": "Headquarters, San Francisco"
+					},
+					"ш": 37.79,
+					"д": -122.39,
+					"province": 1014,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Процессинг в Эшберне",
+						"en": "Ashburn processing"
+					},
+					"ш": 39.04,
+					"д": -77.49,
+					"province": 605,
+					"staff": 500,
+					"fine": 4398
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Остине",
+						"en": "Austin office"
+					},
+					"ш": 30.4,
+					"д": -97.7,
+					"province": 1015,
+					"staff": 3000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.visa.com/"
+		},
+		{
+			"id": "exxon",
+			"название": {
+				"ru": "ExxonMobil",
+				"en": "ExxonMobil"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1870,
+			"description": {
+				"ru": "Крупнейшая нефтяная компания Америки: Пермский бассейн, Гайана, нефтехимия.",
+				"en": "America's largest oil company: the Permian, Guyana, chemicals."
+			},
+			"fundamental": {
+				"выручка": 330000,
+				"profit": 29000,
+				"debt": 41000,
+				"money": 10000,
+				"dividends": 17000
+			},
+			"рынок": {
+				"shares_mln": 4300,
+				"market_cap": 480000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даррен Вудс",
+					"en": "Darren Woods"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-нефтяник, не верит в быстрый энергопереход",
+					"en": "an oil engineer who doesn't believe in a fast energy transition"
+				}
+			},
+			"staff": 61000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус в Спринге, Техас",
+						"en": "Spring campus, Texas"
+					},
+					"ш": 30.08,
+					"д": -95.42,
+					"province": 1017,
+					"staff": 10000,
+					"fine": 4382
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Пермский бассейн",
+						"en": "Permian Basin"
+					},
+					"ш": 31.9,
+					"д": -102.3,
+					"province": 1016,
+					"staff": 6000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Бейтауне",
+						"en": "Baytown refinery"
+					},
+					"ш": 29.75,
+					"д": -94.98,
+					"province": 1017,
+					"staff": 4000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Батон-Руже",
+						"en": "Baton Rouge refinery"
+					},
+					"ш": 30.49,
+					"д": -91.18,
+					"province": 597,
+					"staff": 4000,
+					"fine": 4381
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Бомонте",
+						"en": "Beaumont refinery"
+					},
+					"ш": 30.06,
+					"д": -94.07,
+					"province": 597,
+					"staff": 3000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [
+				"ExxonMobil — Пермский бассейн"
+			],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.exxonmobil.com/"
+		},
+		{
+			"id": "walmart",
+			"название": {
+				"ru": "Walmart",
+				"en": "Walmart"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1962,
+			"description": {
+				"ru": "Крупнейшая розничная сеть и крупнейший частный работодатель мира.",
+				"en": "The world's largest retailer and private employer."
+			},
+			"fundamental": {
+				"выручка": 690000,
+				"profit": 20000,
+				"debt": 45000,
+				"money": 9000,
+				"dividends": 7500
+			},
+			"рынок": {
+				"shares_mln": 7990,
+				"market_cap": 850000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Уолтон",
+						"en": "The Walton family"
+					},
+					"type": "крупный",
+					"доля": 0.45,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даг Макмиллон",
+					"en": "Doug McMillon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вырос из продавца, знает магазины изнутри",
+					"en": "rose from a store clerk"
+				}
+			},
+			"staff": 2100000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Бентонвилл",
+						"en": "Headquarters, Bentonville"
+					},
+					"ш": 36.37,
+					"д": -94.21,
+					"province": 926,
+					"staff": 20000,
+					"fine": 4374
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Распределительные центры Техаса",
+						"en": "Texas distribution centres"
+					},
+					"ш": 32.5,
+					"д": -97.0,
+					"province": 1017,
+					"staff": 60000,
+					"fine": 4382
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Распределительные центры Джорджии",
+						"en": "Georgia distribution centres"
+					},
+					"ш": 33.7,
+					"д": -84.4,
+					"province": 601,
+					"staff": 40000,
+					"fine": 4389
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Распределительные центры Калифорнии",
+						"en": "California distribution centres"
+					},
+					"ш": 34.1,
+					"д": -117.3,
+					"province": 1013,
+					"staff": 40000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.walmart.com/"
+		},
+		{
+			"id": "unitedhealth",
+			"название": {
+				"ru": "UnitedHealth",
+				"en": "UnitedHealth"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Крупнейшая частная медстраховая и медицинская компания Америки.",
+				"en": "America's largest private health insurer and care company."
+			},
+			"fundamental": {
+				"выручка": 440000,
+				"profit": 14000,
+				"debt": 78000,
+				"money": 30000,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 905,
+				"market_cap": 300000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эндрю Уитти",
+					"en": "Andrew Witty"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вернулся спасать компанию после скандалов",
+					"en": "returned to rescue the company after scandals"
+				}
+			},
+			"staff": 400000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Миннетонка",
+						"en": "Headquarters, Minnetonka"
+					},
+					"ш": 44.9,
+					"д": -93.46,
+					"province": 307,
+					"staff": 15000,
+					"fine": 4360
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Optum, Иден-Прери",
+						"en": "Optum, Eden Prairie"
+					},
+					"ш": 44.85,
+					"д": -93.47,
+					"province": 307,
+					"staff": 10000,
+					"fine": 4360
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Далласе",
+						"en": "Dallas centre"
+					},
+					"ш": 32.9,
+					"д": -96.9,
+					"province": 1017,
+					"staff": 8000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.unitedhealthgroup.com/"
+		},
+		{
+			"id": "mastercard",
+			"название": {
+				"ru": "Mastercard",
+				"en": "Mastercard"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Вторая платёжная система мира.",
+				"en": "The world's second payment network."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 14500,
+				"debt": 18000,
+				"money": 9000,
+				"dividends": 2700
+			},
+			"рынок": {
+				"shares_mln": 910,
+				"market_cap": 520000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаэль Мибах",
+					"en": "Michael Miebach"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "дипломатичный технократ",
+					"en": "a diplomatic technocrat"
+				}
+			},
+			"staff": 35000,
+			"wage": 13000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Перчейз",
+						"en": "Headquarters, Purchase"
+					},
+					"ш": 41.04,
+					"д": -73.71,
+					"province": 605,
+					"staff": 4000,
+					"fine": 4405
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Операционный центр в О’Фаллоне",
+						"en": "O'Fallon operations centre"
+					},
+					"ш": 38.81,
+					"д": -90.7,
+					"province": 758,
+					"staff": 3000,
+					"fine": 4377
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mastercard.com/"
+		},
+		{
+			"id": "oracle",
+			"название": {
+				"ru": "Oracle",
+				"en": "Oracle"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Базы данных и облако; строит ИИ-дата-центры Stargate в долг.",
+				"en": "Databases and the cloud; building Stargate AI data centres on debt."
+			},
+			"fundamental": {
+				"выручка": 57000,
+				"profit": 12400,
+				"debt": 105000,
+				"money": 11000,
+				"dividends": 4800
+			},
+			"рынок": {
+				"shares_mln": 2850,
+				"market_cap": 600000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ларри Эллисон",
+						"en": "Larry Ellison"
+					},
+					"type": "founder",
+					"доля": 0.41
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.59
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сафра Кац",
+					"en": "Safra Catz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель облака, агрессивно расширяется",
+					"en": "a cloud builder expanding aggressively"
+				}
+			},
+			"staff": 162000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Остин",
+						"en": "Headquarters, Austin"
+					},
+					"ш": 30.24,
+					"д": -97.72,
+					"province": 1015,
+					"staff": 5000,
+					"fine": 4382
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Stargate, Абилин",
+						"en": "Stargate, Abilene"
+					},
+					"ш": 32.45,
+					"д": -99.73,
+					"province": 1016,
+					"staff": 1500,
+					"fine": 4382
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Редвуд-Шорс",
+						"en": "Redwood Shores campus"
+					},
+					"ш": 37.53,
+					"д": -122.26,
+					"province": 1014,
+					"staff": 8000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Нэшвилле",
+						"en": "Nashville campus"
+					},
+					"ш": 36.16,
+					"д": -86.78,
+					"province": 927,
+					"staff": 3000,
+					"fine": 4397
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.oracle.com/"
+		},
+		{
+			"id": "netflix",
+			"название": {
+				"ru": "Netflix",
+				"en": "Netflix"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Крупнейший стриминговый сервис мира.",
+				"en": "The world's largest streaming service."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 10500,
+				"debt": 15000,
+				"money": 9000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 4250,
+				"market_cap": 400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тед Сарандос",
+					"en": "Ted Sarandos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продюсер-торговец, чувствует, что будут смотреть",
+					"en": "a producer with a feel for what people will watch"
+				}
+			},
+			"staff": 14000,
+			"wage": 20000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лос-Гатос",
+						"en": "Headquarters, Los Gatos"
+					},
+					"ш": 37.26,
+					"д": -121.96,
+					"province": 1014,
+					"staff": 4000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Голливуд, Лос-Анджелес",
+						"en": "Hollywood, Los Angeles"
+					},
+					"ш": 34.1,
+					"д": -118.33,
+					"province": 1013,
+					"staff": 5000,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Студии в Альбукерке",
+						"en": "Albuquerque studios"
+					},
+					"ш": 35.05,
+					"д": -106.62,
+					"province": 318,
+					"staff": 500,
+					"fine": 4370
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://about.netflix.com/"
+		},
+		{
+			"id": "costco",
+			"название": {
+				"ru": "Costco",
+				"en": "Costco"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Сеть складов-магазинов по подписке.",
+				"en": "A membership warehouse store chain."
+			},
+			"fundamental": {
+				"выручка": 275000,
+				"profit": 8100,
+				"debt": 5800,
+				"money": 14000,
+				"dividends": 2100
+			},
+			"рынок": {
+				"shares_mln": 443,
+				"market_cap": 420000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рон Вакрис",
+					"en": "Ron Vachris"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прошёл путь от грузчика, бережёт культуру компании",
+					"en": "rose from a forklift driver"
+				}
+			},
+			"staff": 340000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Иссакуа",
+						"en": "Headquarters, Issaquah"
+					},
+					"ш": 47.53,
+					"д": -122.03,
+					"province": 303,
+					"staff": 8000,
+					"fine": 4365
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склады Калифорнии",
+						"en": "California warehouses"
+					},
+					"ш": 34.0,
+					"д": -118.0,
+					"province": 1013,
+					"staff": 40000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.costco.com/"
+		},
+		{
+			"id": "jnj",
+			"название": {
+				"ru": "Johnson & Johnson",
+				"en": "Johnson & Johnson"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1886,
+			"description": {
+				"ru": "Лекарства и медицинские технологии.",
+				"en": "Pharmaceuticals and medical technology."
+			},
+			"fundamental": {
+				"выручка": 92000,
+				"profit": 20000,
+				"debt": 40000,
+				"money": 20000,
+				"dividends": 12300
+			},
+			"рынок": {
+				"shares_mln": 2400,
+				"market_cap": 480000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хоакин Дуато",
+					"en": "Joaquin Duato"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный фармацевт, воюет с исками",
+					"en": "a careful pharma man fighting lawsuits"
+				}
+			},
+			"staff": 138000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Нью-Брансуик",
+						"en": "Headquarters, New Brunswick"
+					},
+					"ш": 40.5,
+					"д": -74.44,
+					"province": 605,
+					"staff": 6000,
+					"fine": 4404
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Центр в Спринг-Хаусе",
+						"en": "Spring House centre"
+					},
+					"ш": 40.19,
+					"д": -75.23,
+					"province": 605,
+					"staff": 3000,
+					"fine": 4406
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.jnj.com/"
+		},
+		{
+			"id": "pg",
+			"название": {
+				"ru": "Procter & Gamble",
+				"en": "Procter & Gamble"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1837,
+			"description": {
+				"ru": "Товары для дома: Tide, Gillette, Pampers.",
+				"en": "Household goods: Tide, Gillette, Pampers."
+			},
+			"fundamental": {
+				"выручка": 84000,
+				"profit": 16000,
+				"debt": 34000,
+				"money": 9000,
+				"dividends": 9900
+			},
+			"рынок": {
+				"shares_mln": 2340,
+				"market_cap": 360000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джон Мёллер",
+					"en": "Jon R. Moeller"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог старой школы",
+					"en": "an old-school marketer"
+				}
+			},
+			"staff": 108000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Цинциннати",
+						"en": "Headquarters, Cincinnati"
+					},
+					"ш": 39.1,
+					"д": -84.51,
+					"province": 929,
+					"staff": 10000,
+					"fine": 4394
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Лиме, Огайо",
+						"en": "Lima plant, Ohio"
+					},
+					"ш": 40.74,
+					"д": -84.1,
+					"province": 309,
+					"staff": 1500,
+					"fine": 4396
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pginvestor.com/"
+		},
+		{
+			"id": "homedepot",
+			"название": {
+				"ru": "Home Depot",
+				"en": "Home Depot"
+			},
+			"sector": "retail",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1978,
+			"description": {
+				"ru": "Крупнейшая сеть товаров для ремонта и стройки.",
+				"en": "The largest home-improvement retailer."
+			},
+			"fundamental": {
+				"выручка": 165000,
+				"profit": 14500,
+				"debt": 60000,
+				"money": 2000,
+				"dividends": 9000
+			},
+			"рынок": {
+				"shares_mln": 993,
+				"market_cap": 380000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тед Декер",
+					"en": "Ted Decker"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прагматик розницы",
+					"en": "a retail pragmatist"
+				}
+			},
+			"staff": 470000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Атланта",
+						"en": "Headquarters, Atlanta"
+					},
+					"ш": 33.86,
+					"д": -84.48,
+					"province": 601,
+					"staff": 12000,
+					"fine": 4389
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Распределительные центры Техаса",
+						"en": "Texas distribution centres"
+					},
+					"ш": 32.8,
+					"д": -96.9,
+					"province": 1017,
+					"staff": 20000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.homedepot.com/"
+		},
+		{
+			"id": "bofa",
+			"название": {
+				"ru": "Bank of America",
+				"en": "Bank of America"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1904,
+			"description": {
+				"ru": "Второй банк Америки.",
+				"en": "America's second bank."
+			},
+			"fundamental": {
+				"выручка": 105000,
+				"profit": 29000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 7500,
+				"market_cap": 380000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.08,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.92
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Брайан Мойнихэн",
+					"en": "Brian Moynihan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2010,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир-юрист",
+					"en": "a cautious lawyer-banker"
+				}
+			},
+			"staff": 213000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шарлотт",
+						"en": "Headquarters, Charlotte"
+					},
+					"ш": 35.23,
+					"д": -80.84,
+					"province": 603,
+					"staff": 15000,
+					"fine": 4395
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Башня в Нью-Йорке",
+						"en": "New York tower"
+					},
+					"ш": 40.756,
+					"д": -73.984,
+					"province": 605,
+					"staff": 8000,
+					"fine": 4405
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://about.bankofamerica.com/"
+		},
+		{
+			"id": "abbvie",
+			"название": {
+				"ru": "AbbVie",
+				"en": "AbbVie"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2013,
+			"description": {
+				"ru": "Иммунология и ботокс.",
+				"en": "Immunology and Botox."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 4500,
+				"debt": 65000,
+				"money": 8000,
+				"dividends": 11500
+			},
+			"рынок": {
+				"shares_mln": 1770,
+				"market_cap": 400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберт Майкл",
+					"en": "Robert Michael"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист фармы",
+					"en": "a pharma finance man"
+				}
+			},
+			"staff": 55000,
+			"wage": 11000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Норт-Чикаго",
+						"en": "Headquarters, North Chicago"
+					},
+					"ш": 42.33,
+					"д": -87.84,
+					"province": 924,
+					"staff": 8000,
+					"fine": 4392
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.abbvie.com/"
+		},
+		{
+			"id": "chevron",
+			"название": {
+				"ru": "Chevron",
+				"en": "Chevron"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1879,
+			"description": {
+				"ru": "Вторая нефтяная компания Америки, купила Hess.",
+				"en": "America's second oil company, bought Hess."
+			},
+			"fundamental": {
+				"выручка": 190000,
+				"profit": 13000,
+				"debt": 40000,
+				"money": 6000,
+				"dividends": 13000
+			},
+			"рынок": {
+				"shares_mln": 2000,
+				"market_cap": 310000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майк Уирт",
+					"en": "Mike Wirth"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтепереработчик, спокоен и расчётлив",
+					"en": "a refiner, calm and calculating"
+				}
+			},
+			"staff": 45000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Хьюстон",
+						"en": "Headquarters, Houston"
+					},
+					"ш": 29.76,
+					"д": -95.37,
+					"province": 1017,
+					"staff": 6000,
+					"fine": 4382
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Пермский бассейн",
+						"en": "Permian Basin"
+					},
+					"ш": 31.8,
+					"д": -102.4,
+					"province": 1016,
+					"staff": 4000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Ричмонде, Калифорния",
+						"en": "Richmond refinery, California"
+					},
+					"ш": 37.94,
+					"д": -122.39,
+					"province": 1014,
+					"staff": 1200,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Паскагуле",
+						"en": "Pascagoula refinery"
+					},
+					"ш": 30.34,
+					"д": -88.53,
+					"province": 598,
+					"staff": 1200,
+					"fine": 4390
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.chevron.com/"
+		},
+		{
+			"id": "cocacola",
+			"название": {
+				"ru": "Coca-Cola",
+				"en": "Coca-Cola"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1892,
+			"description": {
+				"ru": "Самый известный напиток мира.",
+				"en": "The world's best-known drink."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 12500,
+				"debt": 45000,
+				"money": 13000,
+				"dividends": 8800
+			},
+			"рынок": {
+				"shares_mln": 4300,
+				"market_cap": 300000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.093,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.907
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джеймс Куинси",
+					"en": "James Quincey"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "британец-маркетолог",
+					"en": "a British marketer"
+				}
+			},
+			"staff": 69000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Атланта",
+						"en": "Headquarters, Atlanta"
+					},
+					"ш": 33.77,
+					"д": -84.39,
+					"province": 601,
+					"staff": 8000,
+					"fine": 4389
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.coca-colacompany.com/"
+		},
+		{
+			"id": "merck",
+			"название": {
+				"ru": "Merck",
+				"en": "Merck"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1891,
+			"description": {
+				"ru": "Онкология (Keytruda) и вакцины.",
+				"en": "Oncology (Keytruda) and vaccines."
+			},
+			"fundamental": {
+				"выручка": 64000,
+				"profit": 18000,
+				"debt": 35000,
+				"money": 13000,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 2500,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберт Дэвис",
+					"en": "Robert Davis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист-финансист",
+					"en": "a lawyer and finance man"
+				}
+			},
+			"staff": 74000,
+			"wage": 11000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Рауэй",
+						"en": "Headquarters, Rahway"
+					},
+					"ш": 40.61,
+					"д": -74.28,
+					"province": 605,
+					"staff": 7000,
+					"fine": 4404
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Уэст-Пойнте, Пенсильвания",
+						"en": "West Point plant, Pennsylvania"
+					},
+					"ш": 40.21,
+					"д": -75.3,
+					"province": 605,
+					"staff": 5000,
+					"fine": 4406
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.merck.com/"
+		},
+		{
+			"id": "salesforce",
+			"название": {
+				"ru": "Salesforce",
+				"en": "Salesforce"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Облачные CRM и ИИ-агенты для бизнеса.",
+				"en": "Cloud CRM and AI agents for business."
+			},
+			"fundamental": {
+				"выручка": 41000,
+				"profit": 7000,
+				"debt": 8400,
+				"money": 14000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 960,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Марк Бениофф",
+						"en": "Marc Benioff"
+					},
+					"type": "founder",
+					"доля": 0.028
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.972
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Бениофф",
+					"en": "Marc Benioff"
+				},
+				"роль": "founder",
+				"с_года": 1999,
+				"born_year": 1964,
+				"доля": 0.028,
+				"характер": {
+					"ru": "яркий основатель, любит громкие заявления",
+					"en": "a flamboyant founder"
+				}
+			},
+			"staff": 76000,
+			"wage": 14000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башня Salesforce, Сан-Франциско",
+						"en": "Salesforce Tower, San Francisco"
+					},
+					"ш": 37.79,
+					"д": -122.4,
+					"province": 1014,
+					"staff": 10000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.salesforce.com/"
+		},
+		{
+			"id": "cisco",
+			"название": {
+				"ru": "Cisco",
+				"en": "Cisco"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Сетевое оборудование и кибербезопасность.",
+				"en": "Networking gear and cybersecurity."
+			},
+			"fundamental": {
+				"выручка": 57000,
+				"profit": 10200,
+				"debt": 29000,
+				"money": 16000,
+				"dividends": 6400
+			},
+			"рынок": {
+				"shares_mln": 3950,
+				"market_cap": 280000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чак Роббинс",
+					"en": "Chuck Robbins"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец-переговорщик",
+					"en": "a salesman and negotiator"
+				}
+			},
+			"staff": 86000,
+			"wage": 13000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сан-Хосе",
+						"en": "Headquarters, San Jose"
+					},
+					"ш": 37.41,
+					"д": -121.95,
+					"province": 1014,
+					"staff": 15000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Треугольнике",
+						"en": "Research Triangle campus"
+					},
+					"ш": 35.86,
+					"д": -78.83,
+					"province": 603,
+					"staff": 5000,
+					"fine": 4395
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cisco.com/"
+		},
+		{
+			"id": "wellsfargo",
+			"название": {
+				"ru": "Wells Fargo",
+				"en": "Wells Fargo"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1852,
+			"description": {
+				"ru": "Третий банк Америки.",
+				"en": "America's third bank."
+			},
+			"fundamental": {
+				"выручка": 83000,
+				"profit": 21000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5600
+			},
+			"рынок": {
+				"shares_mln": 3200,
+				"market_cap": 270000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чарли Шарф",
+					"en": "Charlie Scharf"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чистильщик после скандалов",
+					"en": "the clean-up man after scandals"
+				}
+			},
+			"staff": 210000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сан-Франциско",
+						"en": "Headquarters, San Francisco"
+					},
+					"ш": 37.79,
+					"д": -122.4,
+					"province": 1014,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Шарлотт",
+						"en": "Charlotte centre"
+					},
+					"ш": 35.22,
+					"д": -80.84,
+					"province": 603,
+					"staff": 20000,
+					"fine": 4395
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.wellsfargo.com/"
+		},
+		{
+			"id": "amd",
+			"название": {
+				"ru": "AMD",
+				"en": "AMD"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Процессоры и ИИ-ускорители, главный соперник Nvidia и Intel.",
+				"en": "CPUs and AI accelerators, the main rival of Nvidia and Intel."
+			},
+			"fundamental": {
+				"выручка": 34000,
+				"profit": 3500,
+				"debt": 1700,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1620,
+				"market_cap": 350000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лиза Су",
+					"en": "Lisa Su"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, вытащила компанию из кризиса",
+					"en": "an engineer who pulled the company out of crisis"
+				}
+			},
+			"staff": 28000,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Санта-Клара",
+						"en": "Headquarters, Santa Clara"
+					},
+					"ш": 37.38,
+					"д": -121.96,
+					"province": 1014,
+					"staff": 5000,
+					"fine": 4367
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Кампус в Остине",
+						"en": "Austin campus"
+					},
+					"ш": 30.34,
+					"д": -97.8,
+					"province": 1015,
+					"staff": 4000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.amd.com/"
+		},
+		{
+			"id": "ibm",
+			"название": {
+				"ru": "IBM",
+				"en": "IBM"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1911,
+			"description": {
+				"ru": "Мейнфреймы, гибридное облако и квантовые компьютеры.",
+				"en": "Mainframes, hybrid cloud and quantum computers."
+			},
+			"fundamental": {
+				"выручка": 64000,
+				"profit": 8000,
+				"debt": 55000,
+				"money": 14000,
+				"dividends": 6200
+			},
+			"рынок": {
+				"shares_mln": 930,
+				"market_cap": 280000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Арвинд Кришна",
+					"en": "Arvind Krishna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-исследователь",
+					"en": "a research engineer"
+				}
+			},
+			"staff": 270000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Армонк",
+						"en": "Headquarters, Armonk"
+					},
+					"ш": 41.11,
+					"д": -73.72,
+					"province": 605,
+					"staff": 1500,
+					"fine": 4383
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мейнфреймы, Покипси",
+						"en": "Mainframes, Poughkeepsie"
+					},
+					"ш": 41.64,
+					"д": -73.92,
+					"province": 311,
+					"staff": 3000,
+					"fine": 4405
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Исследовательский центр Уотсона",
+						"en": "Watson Research Center"
+					},
+					"ш": 41.21,
+					"д": -73.8,
+					"province": 311,
+					"staff": 2000,
+					"fine": 4405
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ibm.com/"
+		},
+		{
+			"id": "pepsico",
+			"название": {
+				"ru": "PepsiCo",
+				"en": "PepsiCo"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1965,
+			"description": {
+				"ru": "Напитки и снеки: Pepsi, Lay’s.",
+				"en": "Drinks and snacks: Pepsi, Lay's."
+			},
+			"fundamental": {
+				"выручка": 93000,
+				"profit": 8500,
+				"debt": 44000,
+				"money": 8000,
+				"dividends": 7500
+			},
+			"рынок": {
+				"shares_mln": 1370,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рамон Лагуарта",
+					"en": "Ramon Laguarta"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "испанец-маркетолог",
+					"en": "a Spanish marketer"
+				}
+			},
+			"staff": 318000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Перчейз",
+						"en": "Headquarters, Purchase"
+					},
+					"ш": 41.04,
+					"д": -73.7,
+					"province": 605,
+					"staff": 4000,
+					"fine": 4405
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Frito-Lay, Плано",
+						"en": "Frito-Lay, Plano"
+					},
+					"ш": 33.07,
+					"д": -96.8,
+					"province": 1017,
+					"staff": 5000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pepsico.com/"
+		},
+		{
+			"id": "goldman",
+			"название": {
+				"ru": "Goldman Sachs",
+				"en": "Goldman Sachs"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1869,
+			"description": {
+				"ru": "Главный инвестиционный банк Уолл-стрит.",
+				"en": "Wall Street's leading investment bank."
+			},
+			"fundamental": {
+				"выручка": 58000,
+				"profit": 15500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 310,
+				"market_cap": 270000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэвид Соломон",
+					"en": "David Solomon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир и диджей, жёсткий к подчинённым",
+					"en": "a banker and DJ, tough on staff"
+				}
+			},
+			"staff": 46000,
+			"wage": 25000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "200 Уэст-стрит, Нью-Йорк",
+						"en": "200 West Street, New York"
+					},
+					"ш": 40.715,
+					"д": -74.015,
+					"province": 605,
+					"staff": 12000,
+					"fine": 4404
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Далласе",
+						"en": "Dallas office"
+					},
+					"ш": 32.79,
+					"д": -96.8,
+					"province": 1017,
+					"staff": 5000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.goldmansachs.com/"
+		},
+		{
+			"id": "morganstanley",
+			"название": {
+				"ru": "Morgan Stanley",
+				"en": "Morgan Stanley"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1935,
+			"description": {
+				"ru": "Инвестбанк и управление богатством.",
+				"en": "Investment banking and wealth management."
+			},
+			"fundamental": {
+				"выручка": 68000,
+				"profit": 16000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 6000
+			},
+			"рынок": {
+				"shares_mln": 1600,
+				"market_cap": 260000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Mitsubishi UFJ",
+						"en": "Mitsubishi UFJ"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тед Пик",
+					"en": "Ted Pick"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "трейдер, спокоен в бурю",
+					"en": "a trader, calm in storms"
+				}
+			},
+			"staff": 80000,
+			"wage": 18000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "1585 Бродвей, Нью-Йорк",
+						"en": "1585 Broadway, New York"
+					},
+					"ш": 40.76,
+					"д": -73.985,
+					"province": 605,
+					"staff": 15000,
+					"fine": 4405
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.morganstanley.com/"
+		},
+		{
+			"id": "caterpillar",
+			"название": {
+				"ru": "Caterpillar",
+				"en": "Caterpillar"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1925,
+			"description": {
+				"ru": "Строительная и горная техника, дизели и турбины.",
+				"en": "Construction and mining machines, diesels and turbines."
+			},
+			"fundamental": {
+				"выручка": 64000,
+				"profit": 9000,
+				"debt": 38000,
+				"money": 6000,
+				"dividends": 2700
+			},
+			"рынок": {
+				"shares_mln": 470,
+				"market_cap": 280000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джим Амплби",
+					"en": "Jim Umpleby"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист компании, прошёл все ступени",
+					"en": "a company finance man"
+				}
+			},
+			"staff": 112000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ирвинг",
+						"en": "Headquarters, Irving"
+					},
+					"ш": 32.87,
+					"д": -96.95,
+					"province": 1017,
+					"staff": 1000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Заводы в Пеории",
+						"en": "Peoria plants"
+					},
+					"ш": 40.69,
+					"д": -89.59,
+					"province": 924,
+					"staff": 12000,
+					"fine": 4392
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Лафайетте, Индиана",
+						"en": "Lafayette plant, Indiana"
+					},
+					"ш": 40.42,
+					"д": -86.88,
+					"province": 929,
+					"staff": 3000,
+					"fine": 4393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.caterpillar.com/"
+		},
+		{
+			"id": "geaerospace",
+			"название": {
+				"ru": "GE Aerospace",
+				"en": "GE Aerospace"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1892,
+			"description": {
+				"ru": "Авиадвигатели для гражданских и военных самолётов.",
+				"en": "Jet engines for civil and military aircraft."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 8500,
+				"debt": 20000,
+				"money": 13000,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 1060,
+				"market_cap": 310000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларри Калп",
+					"en": "Larry Culp"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор, раздробил GE и спас двигатели",
+					"en": "a reformer who broke up GE"
+				}
+			},
+			"staff": 53000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Эвендейл",
+						"en": "Headquarters, Evendale"
+					},
+					"ш": 39.25,
+					"д": -84.42,
+					"province": 929,
+					"staff": 7000,
+					"fine": 4396
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Линне",
+						"en": "Lynn plant"
+					},
+					"ш": 42.46,
+					"д": -70.97,
+					"province": 312,
+					"staff": 4000,
+					"fine": 4359
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Лафайетте",
+						"en": "Lafayette plant"
+					},
+					"ш": 40.42,
+					"д": -86.9,
+					"province": 929,
+					"staff": 500,
+					"fine": 4393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.geaerospace.com/"
+		},
+		{
+			"id": "lockheed",
+			"название": {
+				"ru": "Lockheed Martin",
+				"en": "Lockheed Martin"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший оборонный подрядчик мира: F-35, ракеты, космос.",
+				"en": "The world's largest defence contractor: F-35, missiles, space."
+			},
+			"fundamental": {
+				"выручка": 74000,
+				"profit": 5000,
+				"debt": 21000,
+				"money": 3000,
+				"dividends": 3200
+			},
+			"рынок": {
+				"shares_mln": 233,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джим Тайклет",
+					"en": "Jim Taiclet"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший военный лётчик, лоббист Пентагона",
+					"en": "a former air force pilot"
+				}
+			},
+			"staff": 121000,
+			"wage": 10000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Бетесда",
+						"en": "Headquarters, Bethesda"
+					},
+					"ш": 38.99,
+					"д": -77.1,
+					"province": 605,
+					"staff": 3000,
+					"fine": 4403
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод F-35, Форт-Уэрт",
+						"en": "F-35 plant, Fort Worth"
+					},
+					"ш": 32.77,
+					"д": -97.44,
+					"province": 1017,
+					"staff": 18000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ракеты, Гранд-Прери",
+						"en": "Missiles, Grand Prairie"
+					},
+					"ш": 32.72,
+					"д": -97.02,
+					"province": 1017,
+					"staff": 5000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Мариетте",
+						"en": "Marietta plant"
+					},
+					"ш": 33.92,
+					"д": -84.52,
+					"province": 601,
+					"staff": 6000,
+					"fine": 4389
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Космос, Саннивейл",
+						"en": "Space, Sunnyvale"
+					},
+					"ш": 37.41,
+					"д": -122.03,
+					"province": 1014,
+					"staff": 6000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lockheedmartin.com/"
+		},
+		{
+			"id": "rtx",
+			"название": {
+				"ru": "RTX (Raytheon)",
+				"en": "RTX (Raytheon)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1922,
+			"description": {
+				"ru": "Ракеты Raytheon, двигатели Pratt & Whitney, авионика Collins.",
+				"en": "Raytheon missiles, Pratt & Whitney engines, Collins avionics."
+			},
+			"fundamental": {
+				"выручка": 86000,
+				"profit": 6500,
+				"debt": 40000,
+				"money": 6000,
+				"dividends": 3400
+			},
+			"рынок": {
+				"shares_mln": 1340,
+				"market_cap": 210000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Крис Калио",
+					"en": "Chris Calio"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер двигателей",
+					"en": "an engine engineer"
+				}
+			},
+			"staff": 186000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Арлингтон",
+						"en": "Headquarters, Arlington"
+					},
+					"ш": 38.88,
+					"д": -77.1,
+					"province": 605,
+					"staff": 2000,
+					"fine": 4398
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Raytheon, Тусон",
+						"en": "Raytheon, Tucson"
+					},
+					"ш": 32.13,
+					"д": -110.94,
+					"province": 315,
+					"staff": 13000,
+					"fine": 4366
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Pratt & Whitney, Ист-Хартфорд",
+						"en": "Pratt & Whitney, East Hartford"
+					},
+					"ш": 41.75,
+					"д": -72.62,
+					"province": 312,
+					"staff": 10000,
+					"fine": 4383
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Collins, Сидар-Рапидс",
+						"en": "Collins, Cedar Rapids"
+					},
+					"ш": 41.97,
+					"д": -91.67,
+					"province": 757,
+					"staff": 8000,
+					"fine": 4375
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rtx.com/"
+		},
+		{
+			"id": "boeing",
+			"название": {
+				"ru": "Boeing",
+				"en": "Boeing"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1916,
+			"description": {
+				"ru": "Авиастроитель в затяжном кризисе качества.",
+				"en": "An aircraft maker in a long quality crisis."
+			},
+			"fundamental": {
+				"выручка": 85000,
+				"profit": -500,
+				"debt": 53000,
+				"money": 23000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 760,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Келли Ортберг",
+					"en": "Kelly Ortberg"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, чинит культуру качества",
+					"en": "an engineer fixing the safety culture"
+				}
+			},
+			"staff": 172000,
+			"wage": 9500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Арлингтон",
+						"en": "Headquarters, Arlington"
+					},
+					"ш": 38.87,
+					"д": -77.05,
+					"province": 605,
+					"staff": 1000,
+					"fine": 4402
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Эверетте",
+						"en": "Everett plant"
+					},
+					"ш": 47.92,
+					"д": -122.27,
+					"province": 303,
+					"staff": 30000,
+					"fine": 4365
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод 737, Рентон",
+						"en": "737 plant, Renton"
+					},
+					"ш": 47.49,
+					"д": -122.2,
+					"province": 303,
+					"staff": 12000,
+					"fine": 4365
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод 787, Норт-Чарлстон",
+						"en": "787 plant, North Charleston"
+					},
+					"ш": 32.9,
+					"д": -80.04,
+					"province": 602,
+					"staff": 7000,
+					"fine": 4391
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Оборонное производство, Сент-Луис",
+						"en": "Defence production, St. Louis"
+					},
+					"ш": 38.75,
+					"д": -90.37,
+					"province": 924,
+					"staff": 16000,
+					"fine": 4377
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.boeing.com/"
+		},
+		{
+			"id": "pfizer",
+			"название": {
+				"ru": "Pfizer",
+				"en": "Pfizer"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1849,
+			"description": {
+				"ru": "Фармгигант после ковидного бума.",
+				"en": "A pharma giant after the COVID boom."
+			},
+			"fundamental": {
+				"выручка": 62000,
+				"profit": 8000,
+				"debt": 60000,
+				"money": 12000,
+				"dividends": 9700
+			},
+			"рынок": {
+				"shares_mln": 5690,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Альберт Бурла",
+					"en": "Albert Bourla"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеринар по образованию, мастер сделок",
+					"en": "a veterinarian by training, a dealmaker"
+				}
+			},
+			"staff": 81000,
+			"wage": 11000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хадсон-Ярдс, Нью-Йорк",
+						"en": "Hudson Yards, New York"
+					},
+					"ш": 40.75,
+					"д": -74.0,
+					"province": 605,
+					"staff": 5000,
+					"fine": 4405
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Каламазу",
+						"en": "Kalamazoo plant"
+					},
+					"ш": 42.25,
+					"д": -85.53,
+					"province": 308,
+					"staff": 3000,
+					"fine": 4408
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Исследования в Гротоне",
+						"en": "Groton research"
+					},
+					"ш": 41.34,
+					"д": -72.08,
+					"province": 312,
+					"staff": 2500,
+					"fine": 4383
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pfizer.com/"
+		},
+		{
+			"id": "intel",
+			"название": {
+				"ru": "Intel",
+				"en": "Intel"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1968,
+			"description": {
+				"ru": "Легенда чипов в тяжёлом кризисе; государство США получило долю.",
+				"en": "A chip legend in deep crisis; the US government took a stake."
+			},
+			"fundamental": {
+				"выручка": 53000,
+				"profit": -300,
+				"debt": 46000,
+				"money": 30000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 4700,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Правительство США",
+						"en": "The US government"
+					},
+					"type": "polity",
+					"доля": 0.099,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Nvidia",
+						"en": "Nvidia"
+					},
+					"type": "company",
+					"доля": 0.04,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "SoftBank",
+						"en": "SoftBank"
+					},
+					"type": "company",
+					"доля": 0.02,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.841
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пэт Гелсингер",
+					"en": "Pat Gelsinger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "венчурный инвестор, спасает компанию",
+					"en": "a venture investor trying to rescue the company"
+				}
+			},
+			"staff": 100000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Санта-Клара",
+						"en": "Headquarters, Santa Clara"
+					},
+					"ш": 37.39,
+					"д": -121.96,
+					"province": 1014,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрики в Хиллсборо, Орегон",
+						"en": "Hillsboro fabs, Oregon"
+					},
+					"ш": 45.54,
+					"д": -122.96,
+					"province": 619,
+					"staff": 22000,
+					"fine": 4371
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрики в Чандлере, Аризона",
+						"en": "Chandler fabs, Arizona"
+					},
+					"ш": 33.28,
+					"д": -111.88,
+					"province": 315,
+					"staff": 12000,
+					"fine": 4366
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Стройка фабрики в Огайо",
+						"en": "Ohio fab construction"
+					},
+					"ш": 40.09,
+					"д": -82.73,
+					"province": 309,
+					"staff": 1000,
+					"fine": 4396
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрика в Рио-Ранчо",
+						"en": "Rio Rancho fab"
+					},
+					"ш": 35.25,
+					"д": -106.7,
+					"province": 318,
+					"staff": 2000,
+					"fine": 4370
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.intel.com/"
+		},
+		{
+			"id": "qualcomm",
+			"название": {
+				"ru": "Qualcomm",
+				"en": "Qualcomm"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1985,
+			"description": {
+				"ru": "Процессоры и модемы для смартфонов.",
+				"en": "Processors and modems for smartphones."
+			},
+			"fundamental": {
+				"выручка": 44000,
+				"profit": 5500,
+				"debt": 15000,
+				"money": 10000,
+				"dividends": 3800
+			},
+			"рынок": {
+				"shares_mln": 1080,
+				"market_cap": 180000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Криштиану Амон",
+					"en": "Cristiano Amon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бразилец-инженер, продвигает ИИ на устройствах",
+					"en": "a Brazilian engineer pushing on-device AI"
+				}
+			},
+			"staff": 49000,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сан-Диего",
+						"en": "Headquarters, San Diego"
+					},
+					"ш": 32.9,
+					"д": -117.2,
+					"province": 1013,
+					"staff": 12000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.qualcomm.com/"
+		},
+		{
+			"id": "ti",
+			"название": {
+				"ru": "Texas Instruments",
+				"en": "Texas Instruments"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1930,
+			"description": {
+				"ru": "Аналоговые чипы и собственные фабрики в Техасе.",
+				"en": "Analog chips and its own fabs in Texas."
+			},
+			"fundamental": {
+				"выручка": 17600,
+				"profit": 5000,
+				"debt": 14000,
+				"money": 5000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 910,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хавив Илан",
+					"en": "Haviv Ilan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "производственник",
+					"en": "a manufacturing man"
+				}
+			},
+			"staff": 34000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Даллас",
+						"en": "Headquarters, Dallas"
+					},
+					"ш": 32.91,
+					"д": -96.75,
+					"province": 1017,
+					"staff": 8000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрики в Шермане",
+						"en": "Sherman fabs"
+					},
+					"ш": 33.64,
+					"д": -96.6,
+					"province": 1017,
+					"staff": 3000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрика в Лихае, Юта",
+						"en": "Lehi fab, Utah"
+					},
+					"ш": 40.39,
+					"д": -111.85,
+					"province": 749,
+					"staff": 1500,
+					"fine": 4372
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ti.com/"
+		},
+		{
+			"id": "att",
+			"название": {
+				"ru": "AT&T",
+				"en": "AT&T"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Крупнейший оператор связи Америки: мобильная сеть и оптоволокно.",
+				"en": "America's largest telecom: mobile and fibre."
+			},
+			"fundamental": {
+				"выручка": 124000,
+				"profit": 21000,
+				"debt": 125000,
+				"money": 7000,
+				"dividends": 8100
+			},
+			"рынок": {
+				"shares_mln": 7150,
+				"market_cap": 180000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джон Стэнки",
+					"en": "John Stankey"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "прагматик, режет долги",
+					"en": "a pragmatist cutting debt"
+				}
+			},
+			"staff": 140000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Даллас",
+						"en": "Headquarters, Dallas"
+					},
+					"ш": 32.78,
+					"д": -96.8,
+					"province": 1017,
+					"staff": 10000,
+					"fine": 4382
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центр в Атланте",
+						"en": "Atlanta centre"
+					},
+					"ш": 33.77,
+					"д": -84.39,
+					"province": 601,
+					"staff": 8000,
+					"fine": 4389
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://about.att.com/"
+		},
+		{
+			"id": "verizon",
+			"название": {
+				"ru": "Verizon",
+				"en": "Verizon"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Второй оператор связи Америки.",
+				"en": "America's second telecom."
+			},
+			"fundamental": {
+				"выручка": 137000,
+				"profit": 18000,
+				"debt": 144000,
+				"money": 5000,
+				"dividends": 11400
+			},
+			"рынок": {
+				"shares_mln": 4220,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ханс Вестберг",
+					"en": "Hans Vestberg"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший глава PayPal, пришёл перестраивать компанию",
+					"en": "a former PayPal chief brought in to rebuild"
+				}
+			},
+			"staff": 100000,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Нью-Йорк",
+						"en": "Headquarters, New York"
+					},
+					"ш": 40.75,
+					"д": -73.99,
+					"province": 605,
+					"staff": 5000,
+					"fine": 4405
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Кампус в Баскинг-Ридже",
+						"en": "Basking Ridge campus"
+					},
+					"ш": 40.7,
+					"д": -74.55,
+					"province": 605,
+					"staff": 5000,
+					"fine": 4404
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.verizon.com/"
+		},
+		{
+			"id": "comcast",
+			"название": {
+				"ru": "Comcast",
+				"en": "Comcast"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Кабельные сети, NBCUniversal и парки Universal.",
+				"en": "Cable networks, NBCUniversal and Universal parks."
+			},
+			"fundamental": {
+				"выручка": 124000,
+				"profit": 20000,
+				"debt": 99000,
+				"money": 9000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 3700,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Робертс",
+						"en": "The Roberts family"
+					},
+					"type": "founder",
+					"доля": 0.01,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 0.99
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Брайан Робертс",
+					"en": "Brian Roberts"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2002,
+				"born_year": 1959,
+				"доля": 0.01,
+				"характер": {
+					"ru": "наследник основателя, держит контроль через голосующие акции",
+					"en": "the founder's heir who controls it via voting shares"
+				}
+			},
+			"staff": 182000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Comcast Center, Филадельфия",
+						"en": "Comcast Center, Philadelphia"
+					},
+					"ш": 39.95,
+					"д": -75.17,
+					"province": 605,
+					"staff": 10000,
+					"fine": 4406
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "NBCUniversal, Нью-Йорк",
+						"en": "NBCUniversal, New York"
+					},
+					"ш": 40.759,
+					"д": -73.979,
+					"province": 605,
+					"staff": 8000,
+					"fine": 4405
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Universal Orlando",
+						"en": "Universal Orlando"
+					},
+					"ш": 28.47,
+					"д": -81.47,
+					"province": 600,
+					"staff": 25000,
+					"fine": 4388
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.comcast.com/"
+		},
+		{
+			"id": "disney",
+			"название": {
+				"ru": "Disney",
+				"en": "Disney"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1923,
+			"description": {
+				"ru": "Студии, стриминг Disney+ и парки развлечений.",
+				"en": "Studios, Disney+ streaming and theme parks."
+			},
+			"fundamental": {
+				"выручка": 94000,
+				"profit": 12000,
+				"debt": 42000,
+				"money": 6000,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 1800,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Боб Айгер",
+					"en": "Bob Iger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1951,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вернувшийся ветеран, ищет преемника",
+					"en": "a returning veteran looking for a successor"
+				}
+			},
+			"staff": 231000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Студия в Бербанке",
+						"en": "Burbank studio"
+					},
+					"ш": 34.16,
+					"д": -118.32,
+					"province": 1013,
+					"staff": 10000,
+					"fine": 4367
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Walt Disney World, Орландо",
+						"en": "Walt Disney World, Orlando"
+					},
+					"ш": 28.39,
+					"д": -81.56,
+					"province": 600,
+					"staff": 75000,
+					"fine": 4388
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Диснейленд, Анахайм",
+						"en": "Disneyland, Anaheim"
+					},
+					"ш": 33.81,
+					"д": -117.92,
+					"province": 1013,
+					"staff": 35000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://thewaltdisneycompany.com/"
+		},
+		{
+			"id": "mcdonalds",
+			"название": {
+				"ru": "McDonald's",
+				"en": "McDonald's"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1940,
+			"description": {
+				"ru": "Крупнейшая сеть фастфуда мира.",
+				"en": "The world's largest fast-food chain."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 8300,
+				"debt": 40000,
+				"money": 1000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 713,
+				"market_cap": 220000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Крис Кемпчински",
+					"en": "Chris Kempczinski"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер-стратег",
+					"en": "a strategist manager"
+				}
+			},
+			"staff": 150000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Чикаго",
+						"en": "Headquarters, Chicago"
+					},
+					"ш": 41.88,
+					"д": -87.65,
+					"province": 924,
+					"staff": 3000,
+					"fine": 4392
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://corporate.mcdonalds.com/"
+		},
+		{
+			"id": "gm",
+			"название": {
+				"ru": "General Motors",
+				"en": "General Motors"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1908,
+			"description": {
+				"ru": "Крупнейший автопроизводитель Америки.",
+				"en": "America's largest carmaker."
+			},
+			"fundamental": {
+				"выручка": 185000,
+				"profit": 2700,
+				"debt": 130000,
+				"money": 20000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 950,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard, BlackRock и другие фонды",
+						"en": "Vanguard, BlackRock and other funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мэри Барра",
+					"en": "Mary Barra"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, выросла на заводе, спокойна в кризисах",
+					"en": "an engineer raised on the factory floor"
+				}
+			},
+			"staff": 162000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ренессанс-центр, Детройт",
+						"en": "Renaissance Center, Detroit"
+					},
+					"ш": 42.33,
+					"д": -83.04,
+					"province": 309,
+					"staff": 10000,
+					"fine": 4408
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод во Флинте",
+						"en": "Flint plant"
+					},
+					"ш": 43.0,
+					"д": -83.69,
+					"province": 308,
+					"staff": 5000,
+					"fine": 4408
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Арлингтоне, Техас",
+						"en": "Arlington plant, Texas"
+					},
+					"ш": 32.7,
+					"д": -97.07,
+					"province": 1017,
+					"staff": 5000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Спринг-Хилле",
+						"en": "Spring Hill plant"
+					},
+					"ш": 35.75,
+					"д": -86.93,
+					"province": 927,
+					"staff": 4000,
+					"fine": 4397
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Форт-Уэйне",
+						"en": "Fort Wayne plant"
+					},
+					"ш": 41.0,
+					"д": -85.27,
+					"province": 929,
+					"staff": 4000,
+					"fine": 4393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gm.com/"
+		},
+		{
+			"id": "openai",
+			"название": {
+				"ru": "OpenAI",
+				"en": "OpenAI"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Создатель ChatGPT и моделей GPT; некоммерческий фонд контролирует коммерческую часть.",
+				"en": "The maker of ChatGPT and the GPT models; a non-profit foundation controls the commercial arm."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": -8000,
+				"debt": 4000,
+				"money": 30000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Microsoft",
+						"en": "Microsoft"
+					},
+					"type": "company",
+					"доля": 0.27,
+					"country": "США",
+					"company": "microsoft"
+				},
+				{
+					"кто": {
+						"ru": "Фонд OpenAI",
+						"en": "OpenAI Foundation"
+					},
+					"type": "крупный",
+					"доля": 0.26,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.47
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сэм Альтман",
+					"en": "Sam Altman"
+				},
+				"роль": "founder",
+				"с_года": 2019,
+				"born_year": 1985,
+				"доля": 0.0,
+				"характер": {
+					"ru": "визионер",
+					"en": "визионер"
+				}
+			},
+			"staff": 3000,
+			"wage": 25000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Франциско",
+						"en": "San Francisco"
+					},
+					"ш": 37.77,
+					"д": -122.42,
+					"province": 1014,
+					"staff": 2500,
+					"fine": 4367
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Stargate, Абилин",
+						"en": "Stargate, Abilene"
+					},
+					"ш": 32.45,
+					"д": -99.73,
+					"province": 1016,
+					"staff": 300,
+					"fine": 4382
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сиэтл",
+						"en": "Seattle"
+					},
+					"ш": 47.61,
+					"д": -122.33,
+					"province": 303,
+					"staff": 200,
+					"fine": 4365
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://openai.com/"
+		},
+		{
+			"id": "anthropic",
+			"название": {
+				"ru": "Anthropic",
+				"en": "Anthropic"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Разработчик моделей Claude; делает упор на безопасность ИИ.",
+				"en": "The developer of the Claude models; focused on AI safety."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": -3000,
+				"debt": 0,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 183000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Amazon",
+						"en": "Amazon"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "США",
+					"company": "amazon"
+				},
+				{
+					"кто": {
+						"ru": "Alphabet",
+						"en": "Alphabet"
+					},
+					"type": "company",
+					"доля": 0.14,
+					"country": "США",
+					"company": "alphabet"
+				},
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.15,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дарио Амодеи",
+					"en": "Dario Amodei"
+				},
+				"роль": "founder",
+				"с_года": 2021,
+				"born_year": 1983,
+				"доля": 0.02,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 2500,
+			"wage": 25000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Франциско",
+						"en": "San Francisco"
+					},
+					"ш": 37.79,
+					"д": -122.4,
+					"province": 1014,
+					"staff": 2200,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сиэтл",
+						"en": "Seattle"
+					},
+					"ш": 47.62,
+					"д": -122.34,
+					"province": 303,
+					"staff": 300,
+					"fine": 4365
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://www.anthropic.com/"
+		},
+		{
+			"id": "xai",
+			"название": {
+				"ru": "xAI",
+				"en": "xAI"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "ИИ-компания Илона Маска, модели Grok; объединена с соцсетью X.",
+				"en": "Elon Musk's AI company, the Grok models; merged with the X social network."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": -4000,
+				"debt": 12000,
+				"money": 6000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Илон Маск",
+						"en": "Elon Musk"
+					},
+					"type": "founder",
+					"доля": 0.5,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Илон Маск",
+					"en": "Elon Musk"
+				},
+				"роль": "founder",
+				"с_года": 2023,
+				"born_year": 1971,
+				"доля": 0.5,
+				"характер": {
+					"ru": "визионер",
+					"en": "визионер"
+				}
+			},
+			"staff": 1200,
+			"wage": 20000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пало-Альто",
+						"en": "Palo Alto"
+					},
+					"ш": 37.44,
+					"д": -122.14,
+					"province": 1014,
+					"staff": 900,
+					"fine": 4367
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Colossus, Мемфис",
+						"en": "Colossus, Memphis"
+					},
+					"ш": 35.06,
+					"д": -90.03,
+					"province": 926,
+					"staff": 300,
+					"fine": 4397
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://x.ai/"
+		},
+		{
+			"id": "palantir",
+			"название": {
+				"ru": "Palantir",
+				"en": "Palantir Technologies"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2003,
+			"description": {
+				"ru": "Платформы анализа данных и ИИ для государства, армии и бизнеса.",
+				"en": "Data analysis and AI platforms for governments, armies and business."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1000,
+				"debt": 0,
+				"money": 6000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2360,
+				"market_cap": 420000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Питер Тиль",
+						"en": "Peter Thiel"
+					},
+					"type": "founder",
+					"доля": 0.06,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.94
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алекс Карп",
+					"en": "Alex Karp"
+				},
+				"роль": "founder",
+				"с_года": 2004,
+				"born_year": 1967,
+				"доля": 0.01,
+				"характер": {
+					"ru": "философ",
+					"en": "философ"
+				}
+			},
+			"staff": 4000,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Денвер",
+						"en": "Denver"
+					},
+					"ш": 39.74,
+					"д": -104.99,
+					"province": 752,
+					"staff": 2000,
+					"fine": 4368
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Пало-Альто",
+						"en": "Palo Alto"
+					},
+					"ш": 37.44,
+					"д": -122.16,
+					"province": 1014,
+					"staff": 1500,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9,
+					"д": -77.04,
+					"province": 605,
+					"staff": 500,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.palantir.com/"
+		},
+		{
+			"id": "databricks",
+			"название": {
+				"ru": "Databricks",
+				"en": "Databricks"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2013,
+			"description": {
+				"ru": "Платформа данных и ИИ для компаний.",
+				"en": "A data and AI platform for companies."
+			},
+			"fundamental": {
+				"выручка": 3700,
+				"profit": -500,
+				"debt": 0,
+				"money": 4000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.2,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Али Годси",
+					"en": "Ali Ghodsi"
+				},
+				"роль": "founder",
+				"с_года": 2016,
+				"born_year": 1979,
+				"доля": 0.03,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 8000,
+			"wage": 15000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Франциско",
+						"en": "San Francisco"
+					},
+					"ш": 37.79,
+					"д": -122.39,
+					"province": 1014,
+					"staff": 5000,
+					"fine": 4367
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Маунтин-Вью",
+						"en": "Mountain View"
+					},
+					"ш": 37.39,
+					"д": -122.08,
+					"province": 1014,
+					"staff": 3000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://www.databricks.com/"
+		},
+		{
+			"id": "thermofisher",
+			"название": {
+				"ru": "Thermo Fisher",
+				"en": "Thermo Fisher Scientific"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Крупнейший в мире поставщик научных приборов, реактивов и лабораторных услуг.",
+				"en": "The world's largest supplier of scientific instruments, reagents and lab services."
+			},
+			"fundamental": {
+				"выручка": 43000,
+				"profit": 6300,
+				"debt": 31000,
+				"money": 4000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 378,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard",
+						"en": "Vanguard"
+					},
+					"type": "крупный",
+					"доля": 0.09,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "BlackRock",
+						"en": "BlackRock"
+					},
+					"type": "крупный",
+					"доля": 0.07,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Каспер",
+					"en": "Marc Casper"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2009,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец",
+					"en": "управленец"
+				}
+			},
+			"staff": 125000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Уолтем",
+						"en": "Waltham"
+					},
+					"ш": 42.38,
+					"д": -71.24,
+					"province": 312,
+					"staff": 5000,
+					"fine": 4359
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Карлсбад",
+						"en": "Carlsbad"
+					},
+					"ш": 33.16,
+					"д": -117.35,
+					"province": 1013,
+					"staff": 40000,
+					"fine": 4367
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Питтсбург",
+						"en": "Pittsburgh"
+					},
+					"ш": 40.44,
+					"д": -79.99,
+					"province": 310,
+					"staff": 40000,
+					"fine": 4406
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Гранд-Айленд",
+						"en": "Grand Island"
+					},
+					"ш": 40.92,
+					"д": -98.34,
+					"province": 754,
+					"staff": 40000,
+					"fine": 4378
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.thermofisher.com/"
+		},
+		{
+			"id": "danaher",
+			"название": {
+				"ru": "Danaher",
+				"en": "Danaher"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Приборы для биологии, диагностики и науки о жизни.",
+				"en": "Instruments for biology, diagnostics and life sciences."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 3800,
+				"debt": 17000,
+				"money": 2000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 715,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Братья Рейлс",
+						"en": "The Rales brothers"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Райнер Блэр",
+					"en": "Rainer Blair"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец",
+					"en": "управленец"
+				}
+			},
+			"staff": 63000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9,
+					"д": -77.04,
+					"province": 605,
+					"staff": 1000,
+					"fine": 4402
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Майами",
+						"en": "Miami"
+					},
+					"ш": 25.76,
+					"д": -80.19,
+					"province": 600,
+					"staff": 31000,
+					"fine": 4388
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Сан-Хосе",
+						"en": "San Jose"
+					},
+					"ш": 37.34,
+					"д": -121.89,
+					"province": 1014,
+					"staff": 31000,
+					"fine": 4367
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.danaher.com/"
+		},
+		{
+			"id": "illumina",
+			"название": {
+				"ru": "Illumina",
+				"en": "Illumina"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Лидер в секвенировании генома: машины, читающие ДНК.",
+				"en": "The leader in genome sequencing: machines that read DNA."
+			},
+			"fundamental": {
+				"выручка": 4300,
+				"profit": 700,
+				"debt": 1500,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 155,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vanguard",
+						"en": "Vanguard"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джейкоб Тайсен",
+					"en": "Jacob Thaysen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 9000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Диего",
+						"en": "San Diego"
+					},
+					"ш": 32.89,
+					"д": -117.21,
+					"province": 1013,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мэдисон",
+						"en": "Madison"
+					},
+					"ш": 43.07,
+					"д": -89.4,
+					"province": 923,
+					"staff": 3000,
+					"fine": 4399
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.illumina.com/"
+		},
+		{
+			"id": "spacex",
+			"название": {
+				"ru": "SpaceX",
+				"en": "SpaceX"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2002,
+			"description": {
+				"ru": "Многоразовые ракеты Falcon и Starship, спутниковый интернет Starlink.",
+				"en": "Reusable Falcon and Starship rockets, Starlink satellite internet."
+			},
+			"fundamental": {
+				"выручка": 15500,
+				"profit": 2000,
+				"debt": 3000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Илон Маск",
+						"en": "Elon Musk"
+					},
+					"type": "founder",
+					"доля": 0.42,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Alphabet",
+						"en": "Alphabet"
+					},
+					"type": "company",
+					"доля": 0.07,
+					"country": "США",
+					"company": "alphabet"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Илон Маск",
+					"en": "Elon Musk"
+				},
+				"роль": "founder",
+				"с_года": 2002,
+				"born_year": 1971,
+				"доля": 0.42,
+				"характер": {
+					"ru": "визионер",
+					"en": "визионер"
+				}
+			},
+			"staff": 13000,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Старбейс",
+						"en": "Starbase"
+					},
+					"ш": 25.99,
+					"д": -97.15,
+					"province": 1015,
+					"staff": 3000,
+					"fine": 4382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Хоторн",
+						"en": "Hawthorne"
+					},
+					"ш": 33.92,
+					"д": -118.33,
+					"province": 1013,
+					"staff": 6000,
+					"fine": 4367
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Мыс Канаверал",
+						"en": "Cape Canaveral"
+					},
+					"ш": 28.56,
+					"д": -80.58,
+					"province": 600,
+					"staff": 2000,
+					"fine": 4388
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Редмонд (Starlink)",
+						"en": "Redmond (Starlink)"
+					},
+					"ш": 47.67,
+					"д": -122.12,
+					"province": 303,
+					"staff": 2000,
+					"fine": 4365
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка по раунду 2025"
+			],
+			"source": "https://www.spacex.com/"
+		},
+		{
+			"id": "blueorigin",
+			"название": {
+				"ru": "Blue Origin",
+				"en": "Blue Origin"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Ракеты New Shepard и New Glenn, лунный посадочный модуль; принадлежит Джеффу Безосу.",
+				"en": "New Shepard and New Glenn rockets, a lunar lander; owned by Jeff Bezos."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": -2000,
+				"debt": 0,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Джефф Безос",
+						"en": "Jeff Bezos"
+					},
+					"type": "founder",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэйв Лимп",
+					"en": "Dave Limp"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец",
+					"en": "управленец"
+				}
+			},
+			"staff": 11000,
+			"wage": 11000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кент",
+						"en": "Kent"
+					},
+					"ш": 47.38,
+					"д": -122.23,
+					"province": 303,
+					"staff": 6000,
+					"fine": 4365
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Мыс Канаверал",
+						"en": "Cape Canaveral"
+					},
+					"ш": 28.53,
+					"д": -80.65,
+					"province": 600,
+					"staff": 3000,
+					"fine": 4388
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Ван-Хорн",
+						"en": "Van Horn"
+					},
+					"ш": 31.42,
+					"д": -104.76,
+					"province": 1016,
+					"staff": 2000,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.blueorigin.com/"
+		},
+		{
+			"id": "rocketlab",
+			"название": {
+				"ru": "Rocket Lab",
+				"en": "Rocket Lab"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Лёгкие ракеты Electron, спутники и компоненты; строит Neutron.",
+				"en": "Light Electron rockets, satellites and components; building Neutron."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": -200,
+				"debt": 400,
+				"money": 900,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 500,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Питер Бек",
+						"en": "Peter Beck"
+					},
+					"type": "founder",
+					"доля": 0.1,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Питер Бек",
+					"en": "Peter Beck"
+				},
+				"роль": "founder",
+				"с_года": 2006,
+				"born_year": 1977,
+				"доля": 0.1,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 2500,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лонг-Бич",
+						"en": "Long Beach"
+					},
+					"ш": 33.77,
+					"д": -118.19,
+					"province": 1013,
+					"staff": 2000,
+					"fine": 4367
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Уоллопс",
+						"en": "Wallops"
+					},
+					"ш": 37.84,
+					"д": -75.48,
+					"province": 605,
+					"staff": 500,
+					"fine": 4398
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rocketlabusa.com/"
+		},
+		{
+			"id": "cvs_health",
+			"название": {
+				"ru": "CVS Health Corporation",
+				"en": "CVS Health Corporation"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1964). Крупнейшая американская медицинская и аптечная корпорация, управляющая сетью CVS Pharmacy и страховым гигантом Aetna",
+				"en": "CVS Health Corporation — a financial company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 357000,
+				"profit": 8300,
+				"debt": 78000,
+				"money": 12000,
+				"dividends": 3400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "David Joyner (наёмный управляющий, с 2024, род",
+					"en": "David Joyner (наёмный управляющий, с 2024, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9313,
+					"д": -77.0138,
+					"province": 605,
+					"staff": 90000,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.cvshealth.com/"
+		},
+		{
+			"id": "mckesson_corporation",
+			"название": {
+				"ru": "McKesson Corporation",
+				"en": "McKesson Corporation"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1967). Старейший и крупнейший в США оптовый дистрибьютор фармацевтических препаратов и медицинских изделий",
+				"en": "McKesson Corporation — a pharmaceutical company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 308000,
+				"profit": 3000,
+				"debt": 6000,
+				"money": 3000,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brian Tyler (наёмный управляющий, с 2019, род",
+					"en": "Brian Tyler (наёмный управляющий, с 2019, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 51000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тайлер",
+						"en": "Tyler"
+					},
+					"ш": 32.3758,
+					"д": -95.2895,
+					"province": 1017,
+					"staff": 15300,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.mckesson.com/"
+		},
+		{
+			"id": "the_cigna",
+			"название": {
+				"ru": "The Cigna Group",
+				"en": "The Cigna Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1966). Глобальная медико-страховая корпорация, управляющая платформой аптечных льгот Evernorth",
+				"en": "The Cigna Group — a financial company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 195000,
+				"profit": 5100,
+				"debt": 32000,
+				"money": 6000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "David Cordani (наёмный управляющий, с 2009, род",
+					"en": "David Cordani (наёмный управляющий, с 2009, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 71000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8904,
+					"д": -77.0658,
+					"province": 605,
+					"staff": 21300,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.thecignagroup.com/"
+		},
+		{
+			"id": "the_kroger",
+			"название": {
+				"ru": "The Kroger Co.",
+				"en": "The Kroger Co."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1960). Крупнейшая традиционная сеть супермаркетов в США, объединяющая бренды Kroger, Ralphs, Harris Teeter",
+				"en": "The Kroger Co. — a consumer and retail company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 2100,
+				"debt": 18000,
+				"money": 2000,
+				"dividends": 850
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Rodney McMullen (наёмный управляющий, с 2014, род",
+					"en": "Rodney McMullen (наёмный управляющий, с 2014, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 414000,
+			"wage": 3200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9317,
+					"д": -77.0218,
+					"province": 605,
+					"staff": 124200,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.thekrogerco.com/"
+		},
+		{
+			"id": "archer_daniels",
+			"название": {
+				"ru": "Archer-Daniels-Midland (ADM)",
+				"en": "Archer-Daniels-Midland (ADM)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1961). Один из крупнейших в мире агропромышленных и трейдинговых гигантов (четверка ABCD), переработчик масличных и зерновых",
+				"en": "Archer-Daniels-Midland (ADM) — a consumer and retail company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 94000,
+				"profit": 3400,
+				"debt": 12000,
+				"money": 1500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Juan Luciano (наёмный управляющий, с 2015, род",
+					"en": "Juan Luciano (наёмный управляющий, с 2015, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 42000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мидланд",
+						"en": "Midland"
+					},
+					"ш": 31.9692,
+					"д": -102.1026,
+					"province": 1016,
+					"staff": 12600,
+					"fine": 4382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.adm.com/"
+		},
+		{
+			"id": "marathon_petroleum",
+			"название": {
+				"ru": "Marathon Petroleum Corporation",
+				"en": "Marathon Petroleum Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1962). Крупнейшая нефтеперерабатывающая компания США, управляющая 13 НПЗ и сетью АЗС Speedway",
+				"en": "Marathon Petroleum Corporation — a oil and gas company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 9600,
+				"debt": 27000,
+				"money": 8000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Maryann Mannen (наёмный управляющий, с 2024, род",
+					"en": "Maryann Mannen (наёмный управляющий, с 2024, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18200,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9235,
+					"д": -77.0412,
+					"province": 605,
+					"staff": 5460,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.marathonpetroleum.com/"
+		},
+		{
+			"id": "valero_energy",
+			"название": {
+				"ru": "Valero Energy Corporation",
+				"en": "Valero Energy Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1965). Крупнейший независимый нефтепереработчик в мире и второй по величине производитель кукурузного этанола",
+				"en": "Valero Energy Corporation — a oil and gas company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 144000,
+				"profit": 8800,
+				"debt": 11000,
+				"money": 4500,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lane Riggs (наёмный управляющий, с 2023, род",
+					"en": "Lane Riggs (наёмный управляющий, с 2023, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10000,
+			"wage": 9500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8794,
+					"д": -77.0326,
+					"province": 605,
+					"staff": 3000,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.valero.com/"
+		},
+		{
+			"id": "phillips_66",
+			"название": {
+				"ru": "Phillips 66",
+				"en": "Phillips 66"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1961). Энергетический гигант: переработка нефти, нефтехимический комплекс CPChem, сеть АЗС и трубопроводы",
+				"en": "Phillips 66 — a oil and gas company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 149000,
+				"profit": 7000,
+				"debt": 19000,
+				"money": 3000,
+				"dividends": 1900
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mark Lashier (наёмный управляющий, с 2022, род",
+					"en": "Mark Lashier (наёмный управляющий, с 2022, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14000,
+			"wage": 9200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8672,
+					"д": -77.0379,
+					"province": 605,
+					"staff": 4200,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.phillips66.com/"
+		},
+		{
+			"id": "ford_motor",
+			"название": {
+				"ru": "Ford Motor Company",
+				"en": "Ford Motor Company"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1962). Легендарный автогигант, производитель пикапов F-Series, внедорожников и электромобилей Mustang Mach-E",
+				"en": "Ford Motor Company — a energy company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 176000,
+				"profit": 4300,
+				"debt": 140000,
+				"money": 28000,
+				"dividends": 2400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jim Farley (наёмный управляющий, с 2020, род",
+					"en": "Jim Farley (наёмный управляющий, с 2020, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 177000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8563,
+					"д": -77.0227,
+					"province": 605,
+					"staff": 53100,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ford.com/"
+		},
+		{
+			"id": "target_corporation",
+			"название": {
+				"ru": "Target Corporation",
+				"en": "Target Corporation"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1958). Ведущая американская сеть универсальных розничных магазинов и электронной коммерции",
+				"en": "Target Corporation — a energy company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 107000,
+				"profit": 4100,
+				"debt": 19000,
+				"money": 3800,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brian Cornell (наёмный управляющий, с 2014, род",
+					"en": "Brian Cornell (наёмный управляющий, с 2014, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 415000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8884,
+					"д": -77.0746,
+					"province": 605,
+					"staff": 124500,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://corporate.target.com/"
+		},
+		{
+			"id": "northrop_grumman",
+			"название": {
+				"ru": "Northrop Grumman Corporation",
+				"en": "Northrop Grumman Corporation"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "1971). Создатель стратегического бомбардировщика B-21 Raider, межконтинентальных ракет Sentinel, космических спутников и радаров",
+				"en": "Northrop Grumman Corporation — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 39000,
+				"profit": 2100,
+				"debt": 14000,
+				"money": 3000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (США)",
+						"en": "The state (United States of America)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Kathy Warden (наёмный управляющий, с 2019, род",
+					"en": "Kathy Warden (наёмный управляющий, с 2019, род"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 101000,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9288,
+					"д": -77.0396,
+					"province": 605,
+					"staff": 30300,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.northropgrumman.com/"
+		},
+		{
+			"id": "general_dynamics_4",
+			"название": {
+				"ru": "General Dynamics Corporation",
+				"en": "General Dynamics Corporation"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "1957). Строитель атомных субмарин классов Columbia и Virginia (Electric Boat), танков Abrams M1A2 и бизнес-джетов Gulfstream",
+				"en": "General Dynamics Corporation — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 3300,
+				"debt": 11000,
+				"money": 2000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (США)",
+						"en": "The state (United States of America)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Phebe Novakovic (наёмный управляющий, с 2013, род",
+					"en": "Phebe Novakovic (наёмный управляющий, с 2013, род"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 106000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Колумбия",
+						"en": "Columbia"
+					},
+					"ш": 34.0096,
+					"д": -81.075,
+					"province": 602,
+					"staff": 31800,
+					"fine": 4391
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.gd.com/"
+		},
+		{
+			"id": "l3harris_technologies_2",
+			"название": {
+				"ru": "L3Harris Technologies",
+				"en": "L3Harris Technologies"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "1961). Лидер в сфере тактической защищенной связи, авионики, систем РЭБ и ракетных твердотопливных двигателей (Aerojet Rocketdyne)",
+				"en": "L3Harris Technologies — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 19400,
+				"profit": 1200,
+				"debt": 12000,
+				"money": 800,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (США)",
+						"en": "The state (United States of America)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Christopher Kubasik (наёмный управляющий, с 2021, род",
+					"en": "Christopher Kubasik (наёмный управляющий, с 2021, род"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 50000,
+			"wage": 8200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.903,
+					"д": -77.0342,
+					"province": 605,
+					"staff": 15000,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.l3harris.com/"
+		},
+		{
+			"id": "huntington_ingalls",
+			"название": {
+				"ru": "Huntington Ingalls Industries (HII)",
+				"en": "Huntington Ingalls Industries (HII)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "1964). Крупнейший военный судостроитель США, единственный строитель атомных авианосцев класса Gerald R. Ford и эсминцев Arleigh Burke в Ньюпорт-Ньюс и Ингаллс",
+				"en": "Huntington Ingalls Industries (HII) — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 680,
+				"debt": 2500,
+				"money": 500,
+				"dividends": 210
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (США)",
+						"en": "The state (United States of America)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Christopher Kastner (наёмный управляющий, с 2022, род",
+					"en": "Christopher Kastner (наёмный управляющий, с 2022, род"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 44000,
+			"wage": 7200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ньюпорт-Ньюс",
+						"en": "Newport News"
+					},
+					"ш": 36.98,
+					"д": -76.4429,
+					"province": 604,
+					"staff": 13200,
+					"fine": 4398
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.hii.com/"
+		},
+		{
+			"id": "general_atomics",
+			"название": {
+				"ru": "General Atomics",
+				"en": "General Atomics"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "1935). Частный оборонный гигант: боевые разведывательно-ударные БПЛА MQ-9A Reaper, MQ-1C Gray Eagle, электромагнитные катапульты EMALS для авианосцев",
+				"en": "General Atomics — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 450,
+				"debt": 500,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Neal Blue (акционер-владелец, с 1986, род",
+					"en": "Neal Blue (акционер-владелец, с 1986, род"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12500,
+			"wage": 8500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.9048,
+					"д": -76.9974,
+					"province": 605,
+					"staff": 3750,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.ga.com/"
+		},
+		{
+			"id": "anduril_industries",
+			"название": {
+				"ru": "Anduril Industries",
+				"en": "Anduril Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "1984). Передовой стартап оборонных технологий: операционная система Lattice OS, автономные БПЛА Fury, барражирующие боеприпасы Altius и автономные подлодки Dive-LD",
+				"en": "Anduril Industries — a defence company of United States of America."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": -150,
+				"debt": 300,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (США)",
+						"en": "The state (United States of America)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "США"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brian Schimpf (основатель, с 2017, род",
+					"en": "Brian Schimpf (основатель, с 2017, род"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вашингтон",
+						"en": "Washington"
+					},
+					"ш": 38.8575,
+					"д": -77.0105,
+					"province": 605,
+					"staff": 1050,
+					"fine": 4402
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.anduril.com/"
+		}
+	]
+}

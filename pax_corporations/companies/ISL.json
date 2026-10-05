@@ -1,0 +1,941 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Исландия",
+	"iso": "ISL",
+	"data_date": "2026-03",
+	"average_wage": 6000,
+	"companies": [
+		{
+			"id": "landsvirkjun",
+			"название": {
+				"ru": "Landsvirkjun",
+				"en": "Landsvirkjun"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1965,
+			"description": {
+				"ru": "ГЭС и геотермальные станции Исландии — энергия для алюминия.",
+				"en": "Iceland's hydro and geothermal plants — power for aluminium."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 250,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Исландии",
+						"en": "The Icelandic state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Исландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хёрдур Арнарсон",
+					"en": "Hörður Arnarson"
+				},
+				"роль": "госслужащий",
+				"с_года": 2010,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 300,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.13,
+					"д": -21.9,
+					"province": 638,
+					"staff": 300,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.landsvirkjun.com/ | Landsvirkjun Annual and Sustainability Report 2024; Statistics Iceland"
+		},
+		{
+			"id": "arion",
+			"название": {
+				"ru": "Arion banki",
+				"en": "Arion banki"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Крупный банк Исландии.",
+				"en": "A big Icelandic bank."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1450,
+				"market_cap": 1600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бенедикт Гисласон",
+					"en": "Benedikt Gíslason"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 900,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.14,
+					"д": -21.92,
+					"province": 638,
+					"staff": 900,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.arionbanki.is/ | Nasdaq Iceland: ARION Annual Report 2024; Central Bank of Iceland"
+		},
+		{
+			"id": "marel_hf",
+			"название": {
+				"ru": "Marel hf. (JBT Marel)",
+				"en": "Marel hf. (JBT Marel)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой технологический лидер в производстве роботизированных линий, сенсорных сортировочных комплексов и ПО для переработки птицы, мяса и рыбы (выручка €1.7 млрд / ~$1.8 млрд, свыше 7,500 сотрудников по всему миру, штаб-квартира в Гардабайре; масштабное слияние с JBT). https://marel.com/",
+				"en": "Marel hf. (JBT Marel) — a consumer and retail company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 140,
+				"debt": 415,
+				"money": 150,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2466
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5400,
+			"wage": 6667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1382,
+					"д": -21.9507,
+					"province": 638,
+					"staff": 1620,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "landsbankinn_hf",
+			"название": {
+				"ru": "Landsbankinn hf.",
+				"en": "Landsbankinn hf."
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1886,
+			"description": {
+				"ru": "Крупнейший государственный коммерческий банк Исландии (основан в 1886 г., активы свыше $14 млрд, чистая прибыль ~$250 млн, более 800 сотрудников, обслуживает ключевую долю бизнеса и населения страны). https://www.landsbankinn.is/",
+				"en": "Landsbankinn hf. — a financial company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 250,
+				"debt": 0,
+				"money": 0,
+				"dividends": 75
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 572
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Исландия)",
+						"en": "The state (Iceland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Исландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 700,
+			"wage": 9857,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1268,
+					"д": -21.8976,
+					"province": 638,
+					"staff": 210,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "slandsbanki_hf",
+			"название": {
+				"ru": "Íslandsbanki hf.",
+				"en": "Íslandsbanki hf."
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Системно значимый универсальный банк Исландии (активы свыше $11 млрд, чистая прибыль ~$180 млн, Nasdaq Iceland: ISB, 750 сотр.). https://www.islandsbanki.is/",
+				"en": "Íslandsbanki hf. — a financial company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 227,
+				"profit": 180,
+				"debt": 0,
+				"money": 0,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 530
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 648,
+			"wage": 9857,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1492,
+					"д": -21.8948,
+					"province": 638,
+					"staff": 194,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "icelandair_group",
+			"название": {
+				"ru": "Icelandair Group",
+				"en": "Icelandair Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий авиационный холдинг Исландии (флагманская авиакомпания Icelandair, трансатлантический хаб в аэропорту Кеблавик, парк современных лайнеров Boeing 737 MAX, 757, 767, заказы на Airbus A321XLR; выручка ~$1.5 млрд, 3,500 сотр.). https://www.icelandair.com/",
+				"en": "Icelandair Group — a transport company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 100,
+				"debt": 758,
+				"money": 310,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1071
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3750,
+			"wage": 9818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.2261,
+					"д": -21.9067,
+					"province": 638,
+					"staff": 1125,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brim_hf",
+			"название": {
+				"ru": "Brim hf. (бывш. HB Grandi)",
+				"en": "Brim hf. (бывш. HB Grandi)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая рыбопромышленная корпорация Исландии (океанический траловый флот, рыбоконсервные и филейные заводы в Рейкьявике, Акранесе и Вопнафьордюре, экспорт трески, пикши, мойвы; выручка ~$300 млн, Nasdaq Iceland: BRIM). https://www.brim.is/",
+				"en": "Brim hf. (бывш. HB Grandi) — a consumer and retail company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 23,
+				"debt": 69,
+				"money": 25,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 411
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 6667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1278,
+					"д": -21.8851,
+					"province": 638,
+					"staff": 270,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "samherji_hf",
+			"название": {
+				"ru": "Samherji hf.",
+				"en": "Samherji hf."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный рыболовный конгломерат с исландскими корнями (вылов, аквакультура, переработка морепродуктов и европейские сбытовые сети; выручка свыше $500 млн). https://www.samherji.is/",
+				"en": "Samherji hf. — a consumer and retail company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 39,
+				"debt": 115,
+				"money": 42,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 685
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 6667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1595,
+					"д": -21.9062,
+					"province": 638,
+					"staff": 450,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eimskip",
+			"название": {
+				"ru": "Eimskip (Eimskipafélag Íslands)",
+				"en": "Eimskip (Eimskipafélag Íslands)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейшая и крупнейшая логистическая и судоходная компания Исландии (морские контейнерные линии в Северной Атлантике, холодильные терминалы, логистический оператор; выручка ~$800 млн, 1,700 сотр.). https://www.eimskip.com/",
+				"en": "Eimskip (Eimskipafélag Íslands) — a transport company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 53,
+				"debt": 404,
+				"money": 166,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 571
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2000,
+			"wage": 9818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1151,
+					"д": -21.8831,
+					"province": 638,
+					"staff": 600,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ssur_hf",
+			"название": {
+				"ru": "Össur hf. (Embla Medical)",
+				"en": "Össur hf. (Embla Medical)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой пионер и лидер в области неинвазивной ортопедии и бионики (микропроцессорные протезы нижних конечностей Cheetah, Rheo Knee; выручка ~$800 млн, 4,000 сотр.). https://www.ossur.com/ | https://emblamedical.com/",
+				"en": "Össur hf. (Embla Medical) — a consumer and retail company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 62,
+				"debt": 185,
+				"money": 67,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1096
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2400,
+			"wage": 6667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1316,
+					"д": -21.9276,
+					"province": 638,
+					"staff": 720,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ccp_games",
+			"название": {
+				"ru": "CCP Games",
+				"en": "CCP Games"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий исландский разработчик видеоигр, создатель космической ММО-вселенной EVE Online (штаб-квартира в Рейкьявике; подразделение Pearl Abyss). https://www.ccpgames.com/",
+				"en": "CCP Games — a media company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 227,
+				"profit": 42,
+				"debt": 50,
+				"money": 34,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 994
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 312,
+			"wage": 10357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1577,
+					"д": -21.9014,
+					"province": 638,
+					"staff": 93,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "icelandic_coast",
+			"название": {
+				"ru": "Icelandic Coast Guard (Landhelgisgæslan / ICG)",
+				"en": "Icelandic Coast Guard (Landhelgisgæslan / ICG)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Icelandic Coast Guard (Landhelgisgæslan / ICG) — a defence company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 6,
+				"debt": 23,
+				"money": 14,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 169
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Исландия)",
+						"en": "The state (Iceland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Исландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 270,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.2261,
+					"д": -21.9067,
+					"province": 638,
+					"staff": 81,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defrasol_v",
+			"название": {
+				"ru": "DefraSol / Vélfag",
+				"en": "DefraSol / Vélfag"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Исландские высокоточные машиностроительные предприятия двойного назначения (высокоточная мехобработка титана, нержавеющей стали, узлов морской гидравлики для экстремальных арктических условий)",
+				"en": "DefraSol / Vélfag — a defence company of Iceland."
+			},
+			"fundamental": {
+				"выручка": 82,
+				"profit": 5,
+				"debt": 21,
+				"money": 13,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 154
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Исландия)",
+						"en": "The state (Iceland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Исландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 246,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рейкьявик",
+						"en": "Reykjavík"
+					},
+					"ш": 64.1112,
+					"д": -21.8838,
+					"province": 638,
+					"staff": 73,
+					"fine": 1850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

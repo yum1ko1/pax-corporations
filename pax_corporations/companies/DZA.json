@@ -1,0 +1,1418 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Алжир",
+	"iso": "DZA",
+	"data_date": "2026-03",
+	"average_wage": 400,
+	"companies": [
+		{
+			"id": "sonatrach",
+			"название": {
+				"ru": "Sonatrach",
+				"en": "Sonatrach"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1963,
+			"description": {
+				"ru": "Государственный нефтегаз Алжира — главный газ для Италии и Испании.",
+				"en": "Algeria's state oil and gas — the main gas for Italy and Spain."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 6000,
+				"debt": 5000,
+				"money": 10000,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Алжира",
+						"en": "The Algerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рашид Хашиши",
+					"en": "Rachid Hachichi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 150000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.75,
+					"д": 3.06,
+					"province": 838,
+					"staff": 10000,
+					"fine": 906
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Хасси-Мессауд",
+						"en": "Hassi Messaoud"
+					},
+					"ш": 31.68,
+					"д": 6.07,
+					"province": 429,
+					"staff": 20000,
+					"fine": 905
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Хасси-Рмель",
+						"en": "Hassi R'Mel"
+					},
+					"ш": 32.93,
+					"д": 3.27,
+					"province": 843,
+					"staff": 8000,
+					"fine": 904
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://sonatrach.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sonelgaz",
+			"название": {
+				"ru": "Sonelgaz",
+				"en": "Sonelgaz"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1969,
+			"description": {
+				"ru": "Электричество и газ для домов Алжира.",
+				"en": "Power and gas for Algeria's homes."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": -500,
+				"debt": 10000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Алжира",
+						"en": "The Algerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мурад Аджаль",
+					"en": "Mourad Adjal"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 90000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.74,
+					"д": 3.08,
+					"province": 838,
+					"staff": 5000,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.sonelgaz.dz/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "cevital",
+			"название": {
+				"ru": "Cevital",
+				"en": "Cevital"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейшая частная компания Алжира: сахар, масло, стройка.",
+				"en": "Algeria's largest private company: sugar, oil, construction."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 300,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Иссад Ребраб и семья",
+						"en": "Issad Rebrab and family"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Малик Ребраб",
+					"en": "Malik Rebrab"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2022,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сын основателя",
+					"en": "сын основателя"
+				}
+			},
+			"staff": 18000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Беджая",
+						"en": "Béjaïa"
+					},
+					"ш": 36.75,
+					"д": 5.06,
+					"province": 842,
+					"staff": 5000,
+					"fine": 919
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.cevital.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "mobilis",
+			"название": {
+				"ru": "Mobilis",
+				"en": "Mobilis"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 2003,
+			"description": {
+				"ru": "Государственный мобильный оператор Алжира.",
+				"en": "Algeria's state mobile operator."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 150,
+				"debt": 300,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Алжира",
+						"en": "The Algerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шауки Бухазани",
+					"en": "Chaouki Boukhazani"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1982,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 5000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.73,
+					"д": 3.09,
+					"province": 838,
+					"staff": 2000,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.mobilis.dz/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "bna",
+			"название": {
+				"ru": "BNA",
+				"en": "BNA"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1966,
+			"description": {
+				"ru": "Национальный банк Алжира.",
+				"en": "The National Bank of Algeria."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Алжира",
+						"en": "The Algerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Самир Тамрабет",
+					"en": "Samir Tamrabet"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 5000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.77,
+					"д": 3.06,
+					"province": 838,
+					"staff": 2500,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.bna.dz/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "airalgerie",
+			"название": {
+				"ru": "Air Algérie",
+				"en": "Air Algérie"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1947,
+			"description": {
+				"ru": "Национальная авиакомпания Алжира.",
+				"en": "Algeria's national airline."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": -100,
+				"debt": 800,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Алжира",
+						"en": "The Algerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хамза Бенхамуда",
+					"en": "Hamza Benhamouda"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 9000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Алжира",
+						"en": "Algiers airport"
+					},
+					"ш": 36.69,
+					"д": 3.21,
+					"province": 838,
+					"staff": 5000,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://airalgerie.dz/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "alg_rie",
+			"название": {
+				"ru": "Algérie Télécom",
+				"en": "Algérie Télécom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор фиксированной связи, ШПД и магистральных оптических линий (выручка ~$1.0 млрд, 20,000 сотр., CEO Adel Bentoumi). https://www.algerietelecom.dz/",
+				"en": "Algérie Télécom — a IT and telecom company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 129,
+				"debt": 318,
+				"money": 167,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1893
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2649,
+			"wage": 717,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7312,
+					"д": 3.0697,
+					"province": 838,
+					"staff": 794,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ooredoo_alg",
+			"название": {
+				"ru": "Ooredoo Algérie",
+				"en": "Ooredoo Algérie"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине оператор мобильной связи Алжира, дочерняя структура катарской Ooredoo Group (выручка ~$750 млн, чистая прибыль ~$120 млн). https://www.ooredoo.dz/",
+				"en": "Ooredoo Algérie — a IT and telecom company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 120,
+				"debt": 238,
+				"money": 125,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1420
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1986,
+			"wage": 717,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7094,
+					"д": 3.0848,
+					"province": 838,
+					"staff": 595,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "djezzy",
+			"название": {
+				"ru": "Djezzy (OTA)",
+				"en": "Djezzy (OTA)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий оператор мобильной связи Алжира, 100% выкуплен государственным инвестиционным фондом FNI (выручка ~$650 млн). https://www.djezzy.dz/",
+				"en": "Djezzy (OTA) — a IT and telecom company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 84,
+				"debt": 207,
+				"money": 108,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1231
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1721,
+			"wage": 717,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.6975,
+					"д": 3.0792,
+					"province": 838,
+					"staff": 516,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_ext",
+			"название": {
+				"ru": "Banque Extérieure d'Algérie (BEA)",
+				"en": "Banque Extérieure d'Algérie (BEA)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий государственный банк по сопровождению внешней торговли, кредитованию промышленности и экспорта углеводородов (активы ~$30 млрд). https://www.bea.dz/",
+				"en": "Banque Extérieure d'Algérie (BEA) — a financial company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 118,
+				"debt": 0,
+				"money": 0,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 980
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 657,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7642,
+					"д": 3.1261,
+					"province": 838,
+					"staff": 360,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cosider_groupe",
+			"название": {
+				"ru": "Cosider Groupe",
+				"en": "Cosider Groupe"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный строительный холдинг Северной Африки (метро Алжира, гидротехнические плотины, автомагистрали, жилье; выручка ~$1.5 млрд, 40,000 сотр.). https://www.cosider-groupe.dz/",
+				"en": "Cosider Groupe — a construction company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 125,
+				"debt": 582,
+				"money": 197,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1892
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4718,
+			"wage": 512,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7706,
+					"д": 3.0545,
+					"province": 838,
+					"staff": 1415,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "condor_electronics",
+			"название": {
+				"ru": "Condor Electronics",
+				"en": "Condor Electronics"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный производитель бытовой техники, смартфонов и электроники холдинга семьи Бенхаммади (выручка ~$700 млн, 6,500 сотр.). https://www.condor.dz/",
+				"en": "Condor Electronics — a energy company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 65,
+				"debt": 425,
+				"money": 90,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 923
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1245,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.755,
+					"д": 3.099,
+					"province": 838,
+					"staff": 373,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "groupe_gica",
+			"название": {
+				"ru": "Groupe GICA (Groupe Industriel des Ciments d'Algérie)",
+				"en": "Groupe GICA (Groupe Industriel des Ciments d'Algérie)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный цементный холдинг (производство 20+ млн тонн цемента, экспорт в Европу и Западную Африку; выручка ~$800 млн). https://www.gica.dz/",
+				"en": "Groupe GICA (Groupe Industriel des Ciments d'Algérie) — a construction company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 67,
+				"debt": 310,
+				"money": 105,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1009
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2516,
+			"wage": 512,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.729,
+					"д": 3.0757,
+					"province": 838,
+					"staff": 754,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "saidal_group",
+			"название": {
+				"ru": "Saidal Group",
+				"en": "Saidal Group"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший и крупнейший государственный фармацевтический производитель препаратов и вакцин (выручка ~$250 млн). https://www.saidalgroup.dz/",
+				"en": "Saidal Group — a pharmaceutical company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 38,
+				"debt": 116,
+				"money": 33,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 928
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 456,
+			"wage": 580,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7311,
+					"д": 3.0541,
+					"province": 838,
+					"staff": 136,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bcl",
+			"название": {
+				"ru": "BCL (Base Centrale de Logistique, Блида)",
+				"en": "BCL (Base Centrale de Logistique, Блида)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военный научно-производственный комплекс и бронетанковый ремонтный завод МО Алжира (глубокая модернизация танков Т-90СА, Т-72М1, БМПТ «Терминатор», БМП-2 с боевыми модулями «Бережок», лицензионная сборка бронеавтомобилей Nimr)",
+				"en": "BCL (Base Centrale de Logistique, Блида) — a defence company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 10,
+				"debt": 39,
+				"money": 23,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 281
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Блида",
+						"en": "Blida"
+					},
+					"ш": 36.4355,
+					"д": 2.8212,
+					"province": 838,
+					"staff": 135,
+					"fine": 920
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eris",
+			"название": {
+				"ru": "ERIS (Établissement des Réalisations Industrielles de Séri)",
+				"en": "ERIS (Établissement des Réalisations Industrielles de Séri)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшее государственное предприятие боеприпасной отрасли (производство танковых, артиллерийских снарядов 122/152/155 мм, минометных мин и боеприпасов стрелкового оружия)",
+				"en": "ERIS (Établissement des Réalisations Industrielles de Séri) — a defence company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 10,
+				"debt": 39,
+				"money": 23,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 281
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7537,
+					"д": 3.1224,
+					"province": 838,
+					"staff": 135,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eca",
+			"название": {
+				"ru": "ECA (Entreprise de Construction Aéronautique, Тафрави)",
+				"en": "ECA (Entreprise de Construction Aéronautique, Тафрави)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиастроительное предприятие (производство легких самолетов Safir 43, Firnas 142, сборка и техобслуживание вертолетов Leonardo AW139/AW109)",
+				"en": "ECA (Entreprise de Construction Aéronautique, Тафрави) — a defence company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 135,
+				"profit": 9,
+				"debt": 35,
+				"money": 21,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 253
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 405,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7453,
+					"д": 3.0772,
+					"province": 838,
+					"staff": 121,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ecrn",
+			"название": {
+				"ru": "ECRN (Établissement de Construction et de Réparation Navales, Мерс-эль-Кебир)",
+				"en": "ECRN (Établissement de Construction et de Réparation Navales, Мерс-эль-Кебир)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская верфь Алжира (проектирование и постройка патрульных кораблей и корветов класса Djebel Chenoua, ремонт фрегатов)",
+				"en": "ECRN (Établissement de Construction et de Réparation Navales, Мерс-эль-Кебир) — a defence company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7274,
+					"д": 3.0894,
+					"province": 838,
+					"staff": 108,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "epic_bsfm",
+			"название": {
+				"ru": "EPIC BSFM (Хеншела)",
+				"en": "EPIC BSFM (Хеншела)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Завод стрелкового оружия (производство лицензионных автоматов Калашникова АКМ, пулеметов ПКМ, снайперских винтовок и пистолетов для вооруженных сил и сил безопасности)",
+				"en": "EPIC BSFM (Хеншела) — a defence company of Algeria."
+			},
+			"fundamental": {
+				"выручка": 116,
+				"profit": 8,
+				"debt": 30,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 218
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Алжир)",
+						"en": "The state (Algeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Алжир"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 348,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алжир",
+						"en": "Algiers"
+					},
+					"ш": 36.7682,
+					"д": 3.1096,
+					"province": 838,
+					"staff": 104,
+					"fine": 906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

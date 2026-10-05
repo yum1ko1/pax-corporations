@@ -1,0 +1,3793 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Япония",
+	"iso": "JPN",
+	"data_date": "2026-03",
+	"average_wage": 2800,
+	"companies": [
+		{
+			"id": "toyota",
+			"название": {
+				"ru": "Toyota",
+				"en": "Toyota"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1937,
+			"description": {
+				"ru": "Крупнейший автопроизводитель мира.",
+				"en": "The world's largest carmaker."
+			},
+			"fundamental": {
+				"выручка": 310000,
+				"profit": 31000,
+				"debt": 250000,
+				"money": 60000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 13000,
+				"market_cap": 280000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Toyota Industries и группа",
+						"en": "Toyota Industries and group"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кодзи Сато",
+					"en": "Koji Sato"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, при почётном председателе Акио Тоёде",
+					"en": "инженер, при почётном председателе Акио Тоёде"
+				}
+			},
+			"staff": 380000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тоёта, Айти",
+						"en": "Toyota City, Aichi"
+					},
+					"ш": 35.08,
+					"д": 137.16,
+					"province": 618,
+					"staff": 70000,
+					"fine": 2016
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод Цуцуми",
+						"en": "Tsutsumi plant"
+					},
+					"ш": 35.05,
+					"д": 137.17,
+					"province": 618,
+					"staff": 8000,
+					"fine": 2016
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://global.toyota/ | Toyota Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "sony",
+			"название": {
+				"ru": "Sony",
+				"en": "Sony"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1946,
+			"description": {
+				"ru": "Игры PlayStation, кино, музыка и сенсоры камер.",
+				"en": "PlayStation games, film, music and camera sensors."
+			},
+			"fundamental": {
+				"выручка": 85000,
+				"profit": 7700,
+				"debt": 15000,
+				"money": 10000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 6100,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хироки Тотоки",
+					"en": "Hiroki Totoki"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист, ставит на развлечения",
+					"en": "финансист, ставит на развлечения"
+				}
+			},
+			"staff": 110000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Минато, Токио",
+						"en": "Minato, Tokyo"
+					},
+					"ш": 35.63,
+					"д": 139.74,
+					"province": 618,
+					"staff": 15000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Сенсоры, Кумамото",
+						"en": "Sensors, Kumamoto"
+					},
+					"ш": 32.87,
+					"д": 130.8,
+					"province": 616,
+					"staff": 5000,
+					"fine": 2009
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sony.com/ | Sony Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "mufg",
+			"название": {
+				"ru": "Mitsubishi UFJ",
+				"en": "Mitsubishi UFJ"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Крупнейший банк Японии, владеет 20% Morgan Stanley.",
+				"en": "Japan's largest bank, owns 20% of Morgan Stanley."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 12000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 11900,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хиронори Камедзава",
+					"en": "Hironori Kamezawa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "консервативный банкир",
+					"en": "консервативный банкир"
+				}
+			},
+			"staff": 120000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 20000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mufg.jp/ | Mitsubishi UFJ Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "hitachi",
+			"название": {
+				"ru": "Hitachi",
+				"en": "Hitachi"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1910,
+			"description": {
+				"ru": "Энергосети, поезда и цифровые решения.",
+				"en": "Power grids, trains and digital solutions."
+			},
+			"fundamental": {
+				"выручка": 65000,
+				"profit": 4500,
+				"debt": 10000,
+				"money": 6000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 4600,
+				"market_cap": 130000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тосиаки Токунага",
+					"en": "Toshiaki Tokunaga"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор конгломерата",
+					"en": "реформатор конгломерата"
+				}
+			},
+			"staff": 280000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.77,
+					"province": 618,
+					"staff": 10000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Заводы в Хитати",
+						"en": "Hitachi plants"
+					},
+					"ш": 36.6,
+					"д": 140.65,
+					"province": 618,
+					"staff": 15000,
+					"fine": 2032
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hitachi.com/ | Hitachi Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "softbank",
+			"название": {
+				"ru": "SoftBank Group",
+				"en": "SoftBank Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Инвестиционный гигант Масаёси Сона: Arm, OpenAI.",
+				"en": "Masayoshi Son's investment giant: Arm, OpenAI."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 7500,
+				"debt": 150000,
+				"money": 30000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1470,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Масаёси Сон",
+						"en": "Masayoshi Son"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Масаёси Сон",
+					"en": "Masayoshi Son"
+				},
+				"роль": "founder",
+				"с_года": 1981,
+				"born_year": 1957,
+				"доля": 0.3,
+				"характер": {
+					"ru": "рисковый визионер, ставит всё на ИИ",
+					"en": "рисковый визионер, ставит всё на ИИ"
+				}
+			},
+			"staff": 65000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Минато, Токио",
+						"en": "Minato, Tokyo"
+					},
+					"ш": 35.66,
+					"д": 139.76,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.softbank/ | SoftBank Group Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "keyence",
+			"название": {
+				"ru": "Keyence",
+				"en": "Keyence"
+			},
+			"sector": "энергетика",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1974,
+			"description": {
+				"ru": "Датчики и автоматика с фантастической маржой.",
+				"en": "Sensors and automation with fantastic margins."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 2600,
+				"debt": 0,
+				"money": 16000,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 243,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Такэмицу Такидзаки",
+						"en": "Takemitsu Takizaki"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ю Накада",
+					"en": "Yu Nakata"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "продавец",
+					"en": "продавец"
+				}
+			},
+			"staff": 12000,
+			"wage": 10000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Осака",
+						"en": "Osaka"
+					},
+					"ш": 34.73,
+					"д": 135.5,
+					"province": 792,
+					"staff": 3000,
+					"fine": 2028
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.keyence.com/ | Keyence Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "fastretailing",
+			"название": {
+				"ru": "Fast Retailing (Uniqlo)",
+				"en": "Fast Retailing (Uniqlo)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Одежда Uniqlo по всему миру.",
+				"en": "Uniqlo clothing worldwide."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 2500,
+				"debt": 3000,
+				"money": 8000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 318,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Янаи",
+						"en": "The Yanai family"
+					},
+					"type": "founder",
+					"доля": 0.44
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тадаси Янаи",
+					"en": "Tadashi Yanai"
+				},
+				"роль": "founder",
+				"с_года": 1984,
+				"born_year": 1949,
+				"доля": 0.44,
+				"характер": {
+					"ru": "богатейший японец, требовательный основатель",
+					"en": "богатейший японец, требовательный основатель"
+				}
+			},
+			"staff": 60000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ямагути",
+						"en": "Yamaguchi"
+					},
+					"ш": 34.18,
+					"д": 131.47,
+					"province": 616,
+					"staff": 2000,
+					"fine": 2006
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.64,
+					"д": 139.78,
+					"province": 618,
+					"staff": 3000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fastretailing.com/ | Fast Retailing (Uniqlo) Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "smfg",
+			"название": {
+				"ru": "Sumitomo Mitsui FG",
+				"en": "Sumitomo Mitsui FG"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2002,
+			"description": {
+				"ru": "Второй банк Японии.",
+				"en": "Japan's second bank."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 8000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2800
+			},
+			"рынок": {
+				"shares_mln": 3900,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тору Накасима",
+					"en": "Toru Nakashima"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 120000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 15000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.smfg.co.jp/ | Sumitomo Mitsui FG Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "mizuho",
+			"название": {
+				"ru": "Mizuho FG",
+				"en": "Mizuho FG"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Третий банк Японии.",
+				"en": "Japan's third bank."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 6000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 2500,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Масахиро Кихара",
+					"en": "Masahiro Kihara"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 65000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Отэмати, Токио",
+						"en": "Otemachi, Tokyo"
+					},
+					"ш": 35.69,
+					"д": 139.76,
+					"province": 618,
+					"staff": 10000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mizuho-fg.com/ | Mizuho FG Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "nintendo",
+			"название": {
+				"ru": "Nintendo",
+				"en": "Nintendo"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1889,
+			"description": {
+				"ru": "Консоли Switch, Марио и Покемоны.",
+				"en": "Switch consoles, Mario and Pokémon."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 2500,
+				"debt": 0,
+				"money": 15000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1160,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сюнтаро Фурукава",
+					"en": "Shuntaro Furukawa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный хранитель брендов",
+					"en": "осторожный хранитель брендов"
+				}
+			},
+			"staff": 8000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киото",
+						"en": "Kyoto"
+					},
+					"ш": 34.97,
+					"д": 135.76,
+					"province": 792,
+					"staff": 3000,
+					"fine": 2026
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nintendo.co.jp/ | Nintendo Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "tokyoelectron",
+			"название": {
+				"ru": "Tokyo Electron",
+				"en": "Tokyo Electron"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Оборудование для производства чипов.",
+				"en": "Chipmaking equipment."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 3500,
+				"debt": 0,
+				"money": 4000,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 460,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тосики Каваи",
+					"en": "Toshiki Kawai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 18000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Акасака, Токио",
+						"en": "Akasaka, Tokyo"
+					},
+					"ш": 35.67,
+					"д": 139.74,
+					"province": 618,
+					"staff": 3000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Мияги",
+						"en": "Miyagi plant"
+					},
+					"ш": 38.4,
+					"д": 140.9,
+					"province": 617,
+					"staff": 3000,
+					"fine": 2042
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tel.com/ | Tokyo Electron Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "honda",
+			"название": {
+				"ru": "Honda",
+				"en": "Honda"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1948,
+			"description": {
+				"ru": "Мотоциклы и автомобили.",
+				"en": "Motorcycles and cars."
+			},
+			"fundamental": {
+				"выручка": 140000,
+				"profit": 5500,
+				"debt": 60000,
+				"money": 30000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 4700,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тосихиро Мибэ",
+					"en": "Toshihiro Mibe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-двигателист",
+					"en": "инженер-двигателист"
+				}
+			},
+			"staff": 195000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Минато, Токио",
+						"en": "Minato, Tokyo"
+					},
+					"ш": 35.67,
+					"д": 139.73,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Судзуке",
+						"en": "Suzuka plant"
+					},
+					"ш": 34.88,
+					"д": 136.58,
+					"province": 792,
+					"staff": 7000,
+					"fine": 2019
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://global.honda/ | Honda Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "mitsubishicorp",
+			"название": {
+				"ru": "Mitsubishi Corporation",
+				"en": "Mitsubishi Corporation"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1950,
+			"description": {
+				"ru": "Торговый дом: сырьё, СПГ, еда. Акционер — Berkshire.",
+				"en": "A trading house: resources, LNG, food. Berkshire is a shareholder."
+			},
+			"fundamental": {
+				"выручка": 130000,
+				"profit": 6000,
+				"debt": 40000,
+				"money": 10000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 4000,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.09,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кацуя Наканиси",
+					"en": "Katsuya Nakanishi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "торговец сырьём",
+					"en": "торговец сырьём"
+				}
+			},
+			"staff": 80000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mitsubishicorp.com/ | Mitsubishi Corporation Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "itochu",
+			"название": {
+				"ru": "Itochu",
+				"en": "Itochu"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1858,
+			"description": {
+				"ru": "Торговый дом: текстиль, еда, FamilyMart.",
+				"en": "A trading house: textiles, food, FamilyMart."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 6000,
+				"debt": 25000,
+				"money": 5000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 1500,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.08,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.92
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Масахиро Окафудзи",
+					"en": "Masahiro Okafuji"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2010,
+				"born_year": 1949,
+				"доля": 0.0,
+				"характер": {
+					"ru": "харизматичный торговец",
+					"en": "харизматичный торговец"
+				}
+			},
+			"staff": 115000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аояма, Токио",
+						"en": "Aoyama, Tokyo"
+					},
+					"ш": 35.67,
+					"д": 139.72,
+					"province": 618,
+					"staff": 4000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.itochu.co.jp/ | Itochu Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "mitsui",
+			"название": {
+				"ru": "Mitsui & Co.",
+				"en": "Mitsui & Co."
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1947,
+			"description": {
+				"ru": "Торговый дом: руда, газ, инфраструктура; доля в «Сахалине-2».",
+				"en": "A trading house: ore, gas, infrastructure; a stake in Sakhalin-2."
+			},
+			"fundamental": {
+				"выручка": 95000,
+				"profit": 6000,
+				"debt": 30000,
+				"money": 6000,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 2900,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Berkshire Hathaway",
+						"en": "Berkshire Hathaway"
+					},
+					"type": "company",
+					"доля": 0.09,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кэнъити Хори",
+					"en": "Kenichi Hori"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сырьевик",
+					"en": "сырьевик"
+				}
+			},
+			"staff": 55000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Отэмати, Токио",
+						"en": "Otemachi, Tokyo"
+					},
+					"ш": 35.69,
+					"д": 139.76,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mitsui.com/ | Mitsui & Co. Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "recruit",
+			"название": {
+				"ru": "Recruit Holdings",
+				"en": "Recruit Holdings"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1960,
+			"description": {
+				"ru": "Indeed и Glassdoor — работа и найм по всему миру.",
+				"en": "Indeed and Glassdoor — jobs and hiring worldwide."
+			},
+			"fundamental": {
+				"выручка": 23000,
+				"profit": 2800,
+				"debt": 2000,
+				"money": 10000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1500,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хисаюки Идэкоба",
+					"en": "Hisayuki Idekoba"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строил Indeed",
+					"en": "строил Indeed"
+				}
+			},
+			"staff": 50000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.67,
+					"д": 139.76,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://recruit-holdings.com/ | Recruit Holdings Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "shinetsu",
+			"название": {
+				"ru": "Shin-Etsu Chemical",
+				"en": "Shin-Etsu Chemical"
+			},
+			"sector": "semiconductors",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1926,
+			"description": {
+				"ru": "Кремниевые пластины и ПВХ.",
+				"en": "Silicon wafers and PVC."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 3500,
+				"debt": 0,
+				"money": 10000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 2000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ясухико Сайто",
+					"en": "Yasuhiko Saitoh"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "производственник",
+					"en": "производственник"
+				}
+			},
+			"staff": 27000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Отэмати, Токио",
+						"en": "Otemachi, Tokyo"
+					},
+					"ш": 35.69,
+					"д": 139.77,
+					"province": 618,
+					"staff": 3000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.shinetsu.co.jp/ | Shin-Etsu Chemical Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "ntt",
+			"название": {
+				"ru": "NTT",
+				"en": "NTT"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1985,
+			"description": {
+				"ru": "Крупнейший телеком Японии.",
+				"en": "Japan's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 8500,
+				"debt": 70000,
+				"money": 5000,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 83000,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Правительство Японии",
+						"en": "The Japanese government"
+					},
+					"type": "polity",
+					"доля": 0.34,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Акира Симада",
+					"en": "Akira Shimada"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1957,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком-бюрократ",
+					"en": "телеком-бюрократ"
+				}
+			},
+			"staff": 340000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Отэмати, Токио",
+						"en": "Otemachi, Tokyo"
+					},
+					"ш": 35.69,
+					"д": 139.76,
+					"province": 618,
+					"staff": 20000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.ntt/ | NTT Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "kddi",
+			"название": {
+				"ru": "KDDI",
+				"en": "KDDI"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Второй оператор мобильной связи (au).",
+				"en": "The second mobile operator (au)."
+			},
+			"fundamental": {
+				"выручка": 39000,
+				"profit": 4600,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 2000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Kyocera",
+						"en": "Kyocera"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Toyota",
+						"en": "Toyota"
+					},
+					"type": "company",
+					"доля": 0.14,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.71
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хиромити Мацуда",
+					"en": "Hiromichi Matsuda"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком-менеджер",
+					"en": "телеком-менеджер"
+				}
+			},
+			"staff": 60000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иидабаси, Токио",
+						"en": "Iidabashi, Tokyo"
+					},
+					"ш": 35.7,
+					"д": 139.75,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.kddi.com/ | KDDI Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "takeda",
+			"название": {
+				"ru": "Takeda",
+				"en": "Takeda"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1781,
+			"description": {
+				"ru": "Крупнейшая фармкомпания Японии.",
+				"en": "Japan's largest drugmaker."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 700,
+				"debt": 30000,
+				"money": 3000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1580,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристоф Вебер",
+					"en": "Christophe Weber"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз, передаёт пост в 2026",
+					"en": "француз, передаёт пост в 2026"
+				}
+			},
+			"staff": 48000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.78,
+					"province": 618,
+					"staff": 4000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Хикари",
+						"en": "Hikari plant"
+					},
+					"ш": 33.96,
+					"д": 131.94,
+					"province": 616,
+					"staff": 1500,
+					"fine": 2006
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.takeda.com/ | Takeda Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "daiichisankyo",
+			"название": {
+				"ru": "Daiichi Sankyo",
+				"en": "Daiichi Sankyo"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Противораковые лекарства (Enhertu).",
+				"en": "Cancer drugs (Enhertu)."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 2000,
+				"debt": 1000,
+				"money": 5000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1880,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хироюки Окудзава",
+					"en": "Hiroyuki Okuzawa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "исследователь",
+					"en": "исследователь"
+				}
+			},
+			"staff": 19000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.77,
+					"province": 618,
+					"staff": 4000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.daiichisankyo.com/ | Daiichi Sankyo Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "mhi",
+			"название": {
+				"ru": "Mitsubishi Heavy Industries",
+				"en": "Mitsubishi Heavy Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1884,
+			"description": {
+				"ru": "Оборона, турбины и ракеты-носители Японии.",
+				"en": "Japan's defence, turbines and rockets."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 1600,
+				"debt": 10000,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 3370,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эйсаку Ито",
+					"en": "Eisaku Ito"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "растёт на перевооружении Японии",
+					"en": "растёт на перевооружении Японии"
+				}
+			},
+			"staff": 77000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 3000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Верфь в Нагасаки",
+						"en": "Nagasaki shipyard"
+					},
+					"ш": 32.72,
+					"д": 129.86,
+					"province": 616,
+					"staff": 5000,
+					"fine": 2045
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Нагоя",
+						"en": "Nagoya"
+					},
+					"ш": 35.19,
+					"д": 136.87,
+					"province": 792,
+					"staff": 8000,
+					"fine": 2016
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.mhi.com/ | Mitsubishi Heavy Industries Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "nissan",
+			"название": {
+				"ru": "Nissan",
+				"en": "Nissan"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1933,
+			"description": {
+				"ru": "Автопроизводитель в глубоком кризисе.",
+				"en": "A carmaker in deep crisis."
+			},
+			"fundamental": {
+				"выручка": 85000,
+				"profit": -4500,
+				"debt": 45000,
+				"money": 12000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 3700,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Renault",
+						"en": "Renault"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Иван Эспиноса",
+					"en": "Ivan Espinosa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "мексиканец, закрывает заводы",
+					"en": "мексиканец, закрывает заводы"
+				}
+			},
+			"staff": 130000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иокогама",
+						"en": "Yokohama"
+					},
+					"ш": 35.46,
+					"д": 139.63,
+					"province": 618,
+					"staff": 8000,
+					"fine": 2033
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Тотиги",
+						"en": "Tochigi plant"
+					},
+					"ш": 36.4,
+					"д": 139.92,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2035
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nissan-global.com/ | Nissan Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "sevenandi",
+			"название": {
+				"ru": "Seven & i Holdings",
+				"en": "Seven & i Holdings"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Магазины 7-Eleven по всему миру.",
+				"en": "7-Eleven stores worldwide."
+			},
+			"fundamental": {
+				"выручка": 80000,
+				"profit": 1100,
+				"debt": 25000,
+				"money": 8000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 2600,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стивен Дейкус",
+					"en": "Stephen Dacus"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американец, отбился от поглощения",
+					"en": "американец, отбился от поглощения"
+				}
+			},
+			"staff": 170000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.75,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.7andi.com/ | Seven & i Holdings Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "tokiomarine",
+			"название": {
+				"ru": "Tokio Marine",
+				"en": "Tokio Marine"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1879,
+			"description": {
+				"ru": "Крупнейший страховщик Японии.",
+				"en": "Japan's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 7000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 1970,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Масахиро Коикэ",
+					"en": "Masahiro Koike"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 44000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.tokiomarinehd.com/ | Tokio Marine Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "denso",
+			"название": {
+				"ru": "Denso",
+				"en": "Denso"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Автокомпоненты группы Toyota.",
+				"en": "Car components of the Toyota group."
+			},
+			"fundamental": {
+				"выручка": 48000,
+				"profit": 2600,
+				"debt": 8000,
+				"money": 6000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 2900,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Toyota",
+						"en": "Toyota"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Синносукэ Хаяси",
+					"en": "Shinnosuke Hayashi"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер Toyota",
+					"en": "инженер Toyota"
+				}
+			},
+			"staff": 160000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кария, Айти",
+						"en": "Kariya, Aichi"
+					},
+					"ш": 34.99,
+					"д": 137.0,
+					"province": 792,
+					"staff": 20000,
+					"fine": 2016
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.denso.com/ | Denso Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "fanuc",
+			"название": {
+				"ru": "Fanuc",
+				"en": "Fanuc"
+			},
+			"sector": "энергетика",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Промышленные роботы и станки с ЧПУ.",
+				"en": "Industrial robots and CNC."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 1000,
+				"debt": 0,
+				"money": 5000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 950,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кэндзи Ямагути",
+					"en": "Kenji Yamaguchi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сын основателя-инженера",
+					"en": "сын основателя-инженера"
+				}
+			},
+			"staff": 9000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Осино, у Фудзи",
+						"en": "Oshino, near Mt Fuji"
+					},
+					"ш": 35.46,
+					"д": 138.84,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2037
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.fanuc.co.jp/ | Fanuc Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "panasonic",
+			"название": {
+				"ru": "Panasonic",
+				"en": "Panasonic"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1918,
+			"description": {
+				"ru": "Батареи для Tesla и электроника.",
+				"en": "Batteries for Tesla and electronics."
+			},
+			"fundamental": {
+				"выручка": 56000,
+				"profit": 2500,
+				"debt": 15000,
+				"money": 7000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 2340,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Юки Кусуми",
+					"en": "Yuki Kusumi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "перестраивает старую марку",
+					"en": "перестраивает старую марку"
+				}
+			},
+			"staff": 220000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кадома, Осака",
+						"en": "Kadoma, Osaka"
+					},
+					"ш": 34.74,
+					"д": 135.58,
+					"province": 792,
+					"staff": 15000,
+					"fine": 2028
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://holdings.panasonic/ | Panasonic Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "nipponsteel",
+			"название": {
+				"ru": "Nippon Steel",
+				"en": "Nippon Steel"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1950,
+			"description": {
+				"ru": "Крупнейший сталевар Японии, купил US Steel.",
+				"en": "Japan's largest steelmaker, bought US Steel."
+			},
+			"fundamental": {
+				"выручка": 58000,
+				"profit": 2500,
+				"debt": 40000,
+				"money": 5000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1040,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тадаси Имаи",
+					"en": "Tadashi Imai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург, проглотил US Steel",
+					"en": "металлург, проглотил US Steel"
+				}
+			},
+			"staff": 110000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруноути, Токио",
+						"en": "Marunouchi, Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 3000,
+					"fine": 2036
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кимицу",
+						"en": "Kimitsu"
+					},
+					"ш": 35.33,
+					"д": 139.9,
+					"province": 618,
+					"staff": 8000,
+					"fine": 2031
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Нагоя",
+						"en": "Nagoya"
+					},
+					"ш": 35.04,
+					"д": 136.87,
+					"province": 792,
+					"staff": 5000,
+					"fine": 2016
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.nipponsteel.com/ | Nippon Steel Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "khi",
+			"название": {
+				"ru": "Kawasaki Heavy Industries",
+				"en": "Kawasaki Heavy Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1896,
+			"description": {
+				"ru": "Подлодки, вертолёты, мотоциклы и поезда.",
+				"en": "Submarines, helicopters, motorcycles and trains."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 400,
+				"debt": 7000,
+				"money": 1000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1670,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ясухико Хасимото",
+					"en": "Yasuhiko Hashimoto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1957,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 40000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кобе",
+						"en": "Kobe"
+					},
+					"ш": 34.68,
+					"д": 135.18,
+					"province": 792,
+					"staff": 5000,
+					"fine": 2025
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Верфь в Кобе",
+						"en": "Kobe shipyard"
+					},
+					"ш": 34.67,
+					"д": 135.17,
+					"province": 792,
+					"staff": 3000,
+					"fine": 2025
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://global.kawasaki.com/ | Kawasaki Heavy Industries Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "preferrednetworks",
+			"название": {
+				"ru": "Preferred Networks",
+				"en": "Preferred Networks"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Глубокое обучение для заводов, медицины и свои чипы для ИИ.",
+				"en": "Deep learning for factories, medicine and its own AI chips."
+			},
+			"fundamental": {
+				"выручка": 100,
+				"profit": -100,
+				"debt": 0,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Toyota",
+						"en": "Toyota"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тору Нисикава",
+					"en": "Toru Nishikawa"
+				},
+				"роль": "founder",
+				"с_года": 2014,
+				"born_year": 1982,
+				"доля": 0.15,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 350,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.68,
+					"д": 139.76,
+					"province": 618,
+					"staff": 350,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.preferred.jp/ | Preferred Networks Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "shimadzu",
+			"название": {
+				"ru": "Shimadzu",
+				"en": "Shimadzu"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1875,
+			"description": {
+				"ru": "Аналитические и медицинские приборы, хроматографы и масс-спектрометры.",
+				"en": "Analytical and medical instruments, chromatographs and mass spectrometers."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 360,
+				"debt": 100,
+				"money": 1200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 290,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ясунори Ямамото",
+					"en": "Yasunori Yamamoto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 14000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киото",
+						"en": "Kyoto"
+					},
+					"ш": 35.0,
+					"д": 135.73,
+					"province": 792,
+					"staff": 9000,
+					"fine": 2026
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Хадано",
+						"en": "Hadano"
+					},
+					"ш": 35.37,
+					"д": 139.22,
+					"province": 618,
+					"staff": 5000,
+					"fine": 2033
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.shimadzu.com/ | Shimadzu Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "ispace",
+			"название": {
+				"ru": "ispace",
+				"en": "ispace"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Частные лунные посадочные модули.",
+				"en": "Private lunar landers."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": -80,
+				"debt": 100,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Такэси Хакамада",
+						"en": "Takeshi Hakamada"
+					},
+					"type": "founder",
+					"доля": 0.1,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Такэси Хакамада",
+					"en": "Takeshi Hakamada"
+				},
+				"роль": "founder",
+				"с_года": 2010,
+				"born_year": 1979,
+				"доля": 0.1,
+				"характер": {
+					"ru": "мечтатель",
+					"en": "мечтатель"
+				}
+			},
+			"staff": 300,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.67,
+					"д": 139.75,
+					"province": 618,
+					"staff": 300,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ispace-inc.com/ | ispace Annual Report 2024; Tokyo Stock Exchange (TSE Prime); EDINET filings"
+		},
+		{
+			"id": "marubeni_corporation",
+			"название": {
+				"ru": "Marubeni Corporation",
+				"en": "Marubeni Corporation"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший конгломерат сого сёся (лидер в международной торговле зерном Gavilon, энергогенерации, химическом сырье и цветных металлах; выручка ~$50 млрд, TSE: 8002). https://www.marubeni.com/",
+				"en": "Marubeni Corporation — a energy company of Japan."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 4623,
+				"debt": 30385,
+				"money": 6399,
+				"dividends": 1387
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 65942
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 88955,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.7106,
+					"д": 139.6598,
+					"province": 618,
+					"staff": 26686,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "canon_inc",
+			"название": {
+				"ru": "Canon Inc.",
+				"en": "Canon Inc."
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области потребительской и профессиональной оптики, фототехники, медицинских систем визуализации и литографических степперов для микроэлектроники (выручка ~$30 млрд, 170,000 сотр., TSE: 7751). https://global.canon/",
+				"en": "Canon Inc. — a semiconductor company of Japan."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 5952,
+				"debt": 4091,
+				"money": 8523,
+				"dividends": 1786
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 130952
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 42187,
+			"wage": 5444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.729,
+					"д": 139.6681,
+					"province": 618,
+					"staff": 12656,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bridgestone_corporation",
+			"название": {
+				"ru": "Bridgestone Corporation",
+				"en": "Bridgestone Corporation"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в мире производитель автомобильных шин и резинотехнических изделий (заводы на всех континентах, шины для авиалайнеров, спецтехники и гоночных серий; выручка ~$30 млрд, 125,000 сотр., TSE: 5108). https://www.bridgestone.com/",
+				"en": "Bridgestone Corporation — a automotive company of Japan."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1625,
+				"debt": 9000,
+				"money": 3822,
+				"dividends": 488
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 16667
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 51923,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6847,
+					"д": 139.6902,
+					"province": 618,
+					"staff": 15576,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "suzuki_motor",
+			"название": {
+				"ru": "Suzuki Motor Corporation",
+				"en": "Suzuki Motor Corporation"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель компактных автомобилей и внедорожников (Jimny, Swift), гегемон индийского автопрома через дочернюю компанию Maruti Suzuki (выручка ~$37 млрд, капитализация ~$35 млрд, TSE: 7269). https://www.globalsuzuki.com/",
+				"en": "Suzuki Motor Corporation — a automotive company of Japan."
+			},
+			"fundamental": {
+				"выручка": 37000,
+				"profit": 2004,
+				"debt": 11100,
+				"money": 4713,
+				"dividends": 601
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 64038,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6874,
+					"д": 139.723,
+					"province": 618,
+					"staff": 19211,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "subaru_corporation",
+			"название": {
+				"ru": "Subaru Corporation",
+				"en": "Subaru Corporation"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Знаменитый производитель полноприводных автомобилей (Forester, Outback) и поставщик аэрокосмических узлов для Boeing и Сил самообороны (выручка ~$32 млрд, TSE: 7270). https://www.subaru.co.jp/",
+				"en": "Subaru Corporation — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 2133,
+				"debt": 8229,
+				"money": 4923,
+				"dividends": 640
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 96000,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6786,
+					"д": 139.6692,
+					"province": 618,
+					"staff": 28800,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "daikin_industries",
+			"название": {
+				"ru": "Daikin Industries",
+				"en": "Daikin Industries"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер номер один в климатической технике, системах промышленного кондиционирования, вентиляции, тепловых насосах и фторсодержащих хладагентах (выручка ~$30 млрд, 100,000 сотр., TSE: 6367). https://www.daikin.com/",
+				"en": "Daikin Industries — a consumer and retail company of Japan."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2333,
+				"debt": 6923,
+				"money": 2500,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 41096
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90000,
+			"wage": 3111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.7124,
+					"д": 139.6698,
+					"province": 618,
+					"staff": 27000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "asahi_group",
+			"название": {
+				"ru": "Asahi Group Holdings / Kirin Holdings",
+				"en": "Asahi Group Holdings / Kirin Holdings"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие японские глобальные производители пива, безалкогольных напитков, спиртного и биофармацевтики (бренды Asahi Super Dry, Pilsner Urquell, Peroni, Kirin Ichiban; суммарная выручка свыше $30 млрд). https://www.asahigroup-holdings.com/ | https://www.kirinholdings.com/",
+				"en": "Asahi Group Holdings / Kirin Holdings — a consumer and retail company of Japan."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2333,
+				"debt": 6923,
+				"money": 2500,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 41096
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90000,
+			"wage": 3111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Асахи",
+						"en": "Asahi"
+					},
+					"ш": 35.6976,
+					"д": 140.6646,
+					"province": 618,
+					"staff": 27000,
+					"fine": 2031
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ana_holdings",
+			"название": {
+				"ru": "ANA Holdings (All Nippon Airways) / Japan Airlines (JAL)",
+				"en": "ANA Holdings (All Nippon Airways) / Japan Airlines (JAL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие авиационные холдинги Японии (трансконтинентальные и внутренние рейсы, парки Boeing 787, 777X, Airbus A350; суммарная выручка ~$25 млрд). https://www.ana.co.jp/ | https://www.jal.com/",
+				"en": "ANA Holdings (All Nippon Airways) / Japan Airlines (JAL) — a transport company of Japan."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 1667,
+				"debt": 12626,
+				"money": 5172,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 17857
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 62500,
+			"wage": 4582,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6613,
+					"д": 139.6717,
+					"province": 618,
+					"staff": 18750,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "east_japan",
+			"название": {
+				"ru": "East Japan Railway Company (JR East)",
+				"en": "East Japan Railway Company (JR East)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая пассажирская железнодорожная корпорация мира (сеть синкансэнов Shinkansen, городские линии Токио, вокзальные торгово-офисные мегакомплексы; перевозка 17 млн пассажиров в день; выручка ~$20 млрд). https://www.jreast.co.jp/",
+				"en": "East Japan Railway Company (JR East) — a transport company of Japan."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 1333,
+				"debt": 10101,
+				"money": 4138,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14286
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 50000,
+			"wage": 4582,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.7206,
+					"д": 139.6886,
+					"province": 618,
+					"staff": 15000,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tokyo_electric",
+			"название": {
+				"ru": "Tokyo Electric Power Company (TEPCO) / Kansai Electric Power",
+				"en": "Tokyo Electric Power Company (TEPCO) / Kansai Electric Power"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие электроэнергетические холдинги Японии (ТЭС, АЭС, ВИЭ, снабжение Токийского и Осакского мегаполисов). https://www.tepco.co.jp/ | https://www.kepco.co.jp/",
+				"en": "Tokyo Electric Power Company (TEPCO) / Kansai Electric Power — a energy company of Japan."
+			},
+			"fundamental": {
+				"выручка": 11200,
+				"profit": 1035,
+				"debt": 6806,
+				"money": 1433,
+				"dividends": 310
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14771
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 19925,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6621,
+					"д": 139.6705,
+					"province": 618,
+					"staff": 5977,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ihi_corporation",
+			"название": {
+				"ru": "IHI Corporation (Aero Engine, Space & Defense)",
+				"en": "IHI Corporation (Aero Engine, Space & Defense)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "IHI Corporation (Aero Engine, Space & Defense) — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 320,
+				"debt": 1234,
+				"money": 738,
+				"dividends": 96
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Япония)",
+						"en": "The state (Japan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Япония"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14400,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6649,
+					"д": 139.6715,
+					"province": 618,
+					"staff": 4320,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "japan_marine",
+			"название": {
+				"ru": "Japan Marine United (JMU)",
+				"en": "Japan Marine United (JMU)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Japan Marine United (JMU) — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 4650,
+				"profit": 310,
+				"debt": 1196,
+				"money": 715,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8719
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Япония)",
+						"en": "The state (Japan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Япония"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13950,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6798,
+					"д": 139.7181,
+					"province": 618,
+					"staff": 4185,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nec_corporation",
+			"название": {
+				"ru": "NEC Corporation (National Security Solutions)",
+				"en": "NEC Corporation (National Security Solutions)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "NEC Corporation (National Security Solutions) — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 300,
+				"debt": 1157,
+				"money": 692,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8438
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Япония)",
+						"en": "The state (Japan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Япония"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13500,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6808,
+					"д": 139.7036,
+					"province": 618,
+					"staff": 4050,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "komatsu_japan",
+			"название": {
+				"ru": "Komatsu / Japan Steel Works (JSW)",
+				"en": "Komatsu / Japan Steel Works (JSW)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Komatsu / Japan Steel Works (JSW) — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 300,
+				"debt": 1157,
+				"money": 692,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8438
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Япония)",
+						"en": "The state (Japan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Япония"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13500,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коматсу",
+						"en": "Komatsu"
+					},
+					"ш": 36.3861,
+					"д": 136.4392,
+					"province": 618,
+					"staff": 4050,
+					"fine": 2018
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "howa_machinery",
+			"название": {
+				"ru": "Howa Machinery",
+				"en": "Howa Machinery"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший производитель стрелкового оружия Сил самообороны Японии (новейшие штурмовые винтовки Type 20 калибра 5.56-мм, Type 89, автоматические станковые гранатометы Howa Type 96). https://www.howa.co.jp/",
+				"en": "Howa Machinery — a defence company of Japan."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 300,
+				"debt": 1157,
+				"money": 692,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8438
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Япония)",
+						"en": "The state (Japan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Япония"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13500,
+			"wage": 4200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Токио",
+						"en": "Tokyo"
+					},
+					"ш": 35.6891,
+					"д": 139.6546,
+					"province": 618,
+					"staff": 4050,
+					"fine": 2036
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

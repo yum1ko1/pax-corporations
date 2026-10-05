@@ -1,0 +1,1533 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Вьетнам",
+	"iso": "VNM",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "vingroup",
+			"название": {
+				"ru": "Vingroup",
+				"en": "Vingroup"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Недвижимость и электромобили VinFast Фам Нят Выонга.",
+				"en": "Pham Nhat Vuong's real estate and VinFast EVs."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 300,
+				"debt": 10000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 3850,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фам Нят Выонг",
+						"en": "Pham Nhat Vuong"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фам Нят Выонг",
+					"en": "Pham Nhat Vuong"
+				},
+				"роль": "founder",
+				"с_года": 1993,
+				"born_year": 1968,
+				"доля": 0.6,
+				"характер": {
+					"ru": "богатейший вьетнамец",
+					"en": "богатейший вьетнамец"
+				}
+			},
+			"staff": 50000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0,
+					"д": 105.87,
+					"province": 299,
+					"staff": 10000,
+					"fine": 4477
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "VinFast, Хайфон",
+						"en": "VinFast, Haiphong"
+					},
+					"ш": 20.8,
+					"д": 106.77,
+					"province": 299,
+					"staff": 8000,
+					"fine": 4475
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://vingroup.net/"
+		},
+		{
+			"id": "viettel",
+			"название": {
+				"ru": "Viettel",
+				"en": "Viettel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1989,
+			"description": {
+				"ru": "Связь армии Вьетнама — 10 стран, оборонная электроника.",
+				"en": "The Vietnamese army's telecom — 10 countries, defence electronics."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1500,
+				"debt": 500,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Министерство обороны Вьетнама",
+						"en": "Vietnam Ministry of Defence"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тао Дык Тханг",
+					"en": "Tao Duc Thang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "генерал",
+					"en": "генерал"
+				}
+			},
+			"staff": 50000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.03,
+					"д": 105.8,
+					"province": 299,
+					"staff": 15000,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://viettel.com.vn/"
+		},
+		{
+			"id": "petrovietnam",
+			"название": {
+				"ru": "PetroVietnam",
+				"en": "PetroVietnam"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Государственная нефть Вьетнама, СП с «Зарубежнефтью».",
+				"en": "Vietnam's state oil, a JV with Zarubezhneft."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 2000,
+				"debt": 6000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Вьетнама",
+						"en": "The Vietnamese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ле Мань Хунг",
+					"en": "Le Manh Hung"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 55000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.02,
+					"д": 105.82,
+					"province": 299,
+					"staff": 5000,
+					"fine": 4477
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Белый Тигр (офшор)",
+						"en": "White Tiger (offshore)"
+					},
+					"ш": 10.437,
+					"д": 107.3364,
+					"province": 564,
+					"staff": 3000,
+					"fine": 4506
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.pvn.vn/"
+		},
+		{
+			"id": "vietcombank",
+			"название": {
+				"ru": "Vietcombank",
+				"en": "Vietcombank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1963,
+			"description": {
+				"ru": "Самый дорогой банк Вьетнама.",
+				"en": "Vietnam's most valuable bank."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 8360,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственный банк Вьетнама",
+						"en": "State Bank of Vietnam"
+					},
+					"type": "polity",
+					"доля": 0.75,
+					"country": "Вьетнам"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нгуен Тхань Тунг",
+					"en": "Nguyen Thanh Tung"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 23000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.03,
+					"д": 105.85,
+					"province": 299,
+					"staff": 5000,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vietcombank.com.vn/"
+		},
+		{
+			"id": "hoaphat",
+			"название": {
+				"ru": "Hoa Phat",
+				"en": "Hoa Phat"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1992,
+			"description": {
+				"ru": "Крупнейший сталевар Вьетнама.",
+				"en": "Vietnam's largest steelmaker."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 500,
+				"debt": 4000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 6400,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Чан Динь Лонг",
+						"en": "Tran Dinh Long"
+					},
+					"type": "founder",
+					"доля": 0.35
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чан Динь Лонг",
+					"en": "Tran Dinh Long"
+				},
+				"роль": "founder",
+				"с_года": 1992,
+				"born_year": 1961,
+				"доля": 0.35,
+				"характер": {
+					"ru": "founder",
+					"en": "founder"
+				}
+			},
+			"staff": 32000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.04,
+					"д": 105.79,
+					"province": 299,
+					"staff": 2000,
+					"fine": 4477
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Зунгкуат",
+						"en": "Dung Quat"
+					},
+					"ш": 15.39,
+					"д": 108.79,
+					"province": 234,
+					"staff": 8000,
+					"fine": 4502
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hoaphat.com.vn/"
+		},
+		{
+			"id": "vinamilk",
+			"название": {
+				"ru": "Vinamilk",
+				"en": "Vinamilk"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "смешанная",
+			"founded": 1976,
+			"description": {
+				"ru": "Крупнейший производитель молока Вьетнама.",
+				"en": "Vietnam's largest dairy."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 350,
+				"debt": 100,
+				"money": 600,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2090,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "SCIC (государство)",
+						"en": "SCIC (the state)"
+					},
+					"type": "polity",
+					"доля": 0.36,
+					"country": "Вьетнам"
+				},
+				{
+					"кто": {
+						"ru": "F&N (Таиланд)",
+						"en": "F&N (Thailand)"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.44
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Май Киеу Лиен",
+					"en": "Mai Kieu Lien"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 1992,
+				"born_year": 1953,
+				"доля": 0.0,
+				"характер": {
+					"ru": "легенда вьетнамского бизнеса",
+					"en": "легенда вьетнамского бизнеса"
+				}
+			},
+			"staff": 9000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хошимин",
+						"en": "Ho Chi Minh City"
+					},
+					"ш": 10.79,
+					"д": 106.7,
+					"province": 564,
+					"staff": 4000,
+					"fine": 4512
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vinamilk.com.vn/"
+		},
+		{
+			"id": "vietnam_electricity",
+			"название": {
+				"ru": "Vietnam Electricity (EVN)",
+				"en": "Vietnam Electricity (EVN)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная энергетическая компания, монопольный оператор магистральных электросетей и крупных ГЭС (Шонла, Хоабинь)",
+				"en": "Vietnam Electricity (EVN) — a energy company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": -600,
+				"debt": 18000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Dang Hoang An",
+					"en": "Dang Hoang An"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 96000,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0249,
+					"д": 105.8616,
+					"province": 299,
+					"staff": 28800,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.evn.com.vn/"
+		},
+		{
+			"id": "agribank",
+			"название": {
+				"ru": "Agribank (Vietnam Bank for Agriculture)",
+				"en": "Agribank (Vietnam Bank for Agriculture)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный сельскохозяйственный банк Вьетнама по размеру активов и числу отделений",
+				"en": "Agribank (Vietnam Bank for Agriculture) — a financial company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 1050,
+				"debt": 0,
+				"money": 0,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Pham Duc An",
+					"en": "Pham Duc An"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 40000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0046,
+					"д": 105.8359,
+					"province": 299,
+					"staff": 12000,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.agribank.com.vn/"
+		},
+		{
+			"id": "bidv",
+			"название": {
+				"ru": "BIDV (Bank for Investment and Development)",
+				"en": "BIDV (Bank for Investment and Development)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший и один из крупнейших коммерческих банков Вьетнама, кредитор масштабных строек",
+				"en": "BIDV (Bank for Investment and Development) — a financial company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 3900,
+				"profit": 1100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Phan Duc Tu",
+					"en": "Phan Duc Tu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28000,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0006,
+					"д": 105.8369,
+					"province": 299,
+					"staff": 8400,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.bidv.com.vn/"
+		},
+		{
+			"id": "masan_group",
+			"название": {
+				"ru": "Masan Group",
+				"en": "Masan Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий потребительский конгломерат: соусы Chin-su, мясо MeatDeli, ритейл-сеть WinMart, добыча вольфрама",
+				"en": "Masan Group — a consumer and retail company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 180,
+				"debt": 2500,
+				"money": 650,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Nguyen Dang Quang",
+					"en": "Nguyen Dang Quang"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 40000,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0163,
+					"д": 105.8404,
+					"province": 299,
+					"staff": 12000,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.masangroup.com/"
+		},
+		{
+			"id": "petrolimex",
+			"название": {
+				"ru": "Petrolimex (Vietnam National Petroleum Group)",
+				"en": "Petrolimex (Vietnam National Petroleum Group)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Доминирующий дистрибьютор нефтепродуктов во Вьетнаме, контролирующий свыше 50% рынка АЗС",
+				"en": "Petrolimex (Vietnam National Petroleum Group) — a oil and gas company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 130,
+				"debt": 1200,
+				"money": 800,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Pham Van Thanh",
+					"en": "Pham Van Thanh"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 27000,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0419,
+					"д": 105.8531,
+					"province": 299,
+					"staff": 8100,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.petrolimex.com.vn/"
+		},
+		{
+			"id": "vietnam_airlines",
+			"название": {
+				"ru": "Vietnam Airlines",
+				"en": "Vietnam Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная 4-звездочная авиакомпания с флотом Boeing 787 и Airbus A350",
+				"en": "Vietnam Airlines — a transport company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 85,
+				"debt": 2800,
+				"money": 250,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Le Hong Ha",
+					"en": "Le Hong Ha"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0497,
+					"д": 105.8584,
+					"province": 299,
+					"staff": 6300,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.vietnamairlines.com/"
+		},
+		{
+			"id": "fpt_corporation",
+			"название": {
+				"ru": "FPT Corporation",
+				"en": "FPT Corporation"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая технологическая и ИТ-корпорация Вьетнама: аутсорсинг ПО, телекоммуникации и высшее образование",
+				"en": "FPT Corporation — a IT and telecom company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 320,
+				"debt": 300,
+				"money": 700,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Nguyen Van Khoa",
+					"en": "Nguyen Van Khoa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 48000,
+			"wage": 850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0178,
+					"д": 105.8758,
+					"province": 299,
+					"staff": 14400,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://fpt.com/"
+		},
+		{
+			"id": "vnpt",
+			"название": {
+				"ru": "VNPT (Vietnam Posts and Telecommunications Group)",
+				"en": "VNPT (Vietnam Posts and Telecommunications Group)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный телекоммуникационный гигант, оператор сотовой сети VinaPhone и волоконно-оптических линий",
+				"en": "VNPT (Vietnam Posts and Telecommunications Group) — a IT and telecom company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 2300,
+				"profit": 220,
+				"debt": 500,
+				"money": 600,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "To Dung Thai",
+					"en": "To Dung Thai"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30000,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.047,
+					"д": 105.8051,
+					"province": 299,
+					"staff": 9000,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://vnpt.com.vn/"
+		},
+		{
+			"id": "mobile_world",
+			"название": {
+				"ru": "Mobile World Investment Corporation (MWG)",
+				"en": "Mobile World Investment Corporation (MWG)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший розничный ритейлер электроники (The Gioi Di Dong, Dien May Xanh) и продуктов (Bach Hoa Xanh)",
+				"en": "Mobile World Investment Corporation (MWG) — a energy company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 4800,
+				"profit": 160,
+				"debt": 800,
+				"money": 500,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Nguyen Duc Tai",
+					"en": "Nguyen Duc Tai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 65000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0432,
+					"д": 105.8372,
+					"province": 299,
+					"staff": 19500,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://mwg.vn/"
+		},
+		{
+			"id": "vinacomin",
+			"название": {
+				"ru": "Vinacomin (Vietnam National Coal and Mineral)",
+				"en": "Vinacomin (Vietnam National Coal and Mineral)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный холдинг по добыче каменного угля в провинции Куангнинь, бокситов и меди",
+				"en": "Vinacomin (Vietnam National Coal and Mineral) — a metals and mining company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 250,
+				"debt": 2800,
+				"money": 400,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Dang Thanh Hai",
+					"en": "Dang Thanh Hai"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 95000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0311,
+					"д": 105.8362,
+					"province": 299,
+					"staff": 28500,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.vinacomin.vn/"
+		},
+		{
+			"id": "t_ng",
+			"название": {
+				"ru": "Tổng cục Công nghiệp Quốc phòng (GAET)",
+				"en": "Tổng cục Công nghiệp Quốc phòng (GAET)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная военно-промышленная корпорация Главного управления оборонной промышленности Вьетнама",
+				"en": "Tổng cục Công nghiệp Quốc phòng (GAET) — a defence company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 28,
+				"debt": 80,
+				"money": 60,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Thiếu tướng Nguyễn Việt Hùng",
+					"en": "Thiếu tướng Nguyễn Việt Hùng"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0632,
+					"д": 105.8557,
+					"province": 299,
+					"staff": 2400,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://gaet.com.vn/"
+		},
+		{
+			"id": "nh_m",
+			"название": {
+				"ru": "Nhà máy Z111 (Z111 Small Arms Factory)",
+				"en": "Nhà máy Z111 (Z111 Small Arms Factory)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий оружейный завод в Тханьхоа, выпускающий автоматы STV-215, STV-380, снайперские винтовки и пулеметы",
+				"en": "Nhà máy Z111 (Z111 Small Arms Factory) — a defence company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 12,
+				"debt": 25,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Đại tá Hoàng Quốc Vinh",
+					"en": "Đại tá Hoàng Quốc Vinh"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2200,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вин",
+						"en": "Vinh"
+					},
+					"ш": 18.676,
+					"д": 105.7201,
+					"province": 233,
+					"staff": 660,
+					"fine": 4486
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://vpk.gov.vn/"
+		},
+		{
+			"id": "t_ng_2",
+			"название": {
+				"ru": "Tổng công ty Ba Son (Ba Son Naval Shipyard)",
+				"en": "Tổng công ty Ba Son (Ba Son Naval Shipyard)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская верфь Вьетнама: ракетные катера проекта 1241.8 «Молния» и артиллерийские корабли TT-400TP",
+				"en": "Tổng công ty Ba Son (Ba Son Naval Shipyard) — a defence company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 160,
+				"profit": 15,
+				"debt": 50,
+				"money": 35,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Đại tá Mai Quốc Trưởng",
+					"en": "Đại tá Mai Quốc Trưởng"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3000,
+			"wage": 680,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0248,
+					"д": 105.8068,
+					"province": 299,
+					"staff": 900,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://basonshipyard.vn/"
+		},
+		{
+			"id": "t_ng_3",
+			"название": {
+				"ru": "Tổng công ty Sông Thu (Song Thu Shipyard)",
+				"en": "Tổng công ty Sông Thu (Song Thu Shipyard)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Оборонная верфь в Дананге, строящая патрульные корабли Damen RAmparts, спасательные суда и буксиры для ВМС и Береговой охраны",
+				"en": "Tổng công ty Sông Thu (Song Thu Shipyard) — a defence company of Vietnam."
+			},
+			"fundamental": {
+				"выручка": 95,
+				"profit": 8,
+				"debt": 30,
+				"money": 18,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Вьетнам)",
+						"en": "The state (Vietnam)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Вьетнам"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Đại tá Hà Sơn Hải",
+					"en": "Đại tá Hà Sơn Hải"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханой",
+						"en": "Hanoi"
+					},
+					"ш": 21.0274,
+					"д": 105.8469,
+					"province": 299,
+					"staff": 450,
+					"fine": 4477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://songthu.com.vn/"
+		}
+	]
+}

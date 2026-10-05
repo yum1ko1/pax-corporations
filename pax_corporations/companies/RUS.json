@@ -1,0 +1,7848 @@
+{
+	"_как_это_работает": "Компании одной страны. Суммы — в миллионах долларов за год (как казна в игре), цена акции — в долларах. Курс пересчёта из рублей — 90 ₽/$. Поле «оценка» перечисляет значения, которые собраны приблизительно и требуют проверки по отчётам. Точки: «ш»/«д» — широта и долгота места, «провинция» — id провинции из data/regions.json игры. «промыслы» — имена объектов из окна «Добыча», к которым привязана компания. «средняя_зарплата» — средняя по стране, $ в месяц (оценка: около 95 000 ₽). «forbes_2026» — место в рейтинге Forbes «100 самых прибыльных компаний России» 2026 (чистая прибыль за 2025); null — место не подтверждено или компания не вошла в рейтинг.",
+	"country": "Россия",
+	"iso": "RUS",
+	"data_date": "2026-03",
+	"companies": [
+		{
+			"id": "gazprom",
+			"название": {
+				"ru": "Газпром",
+				"en": "Gazprom"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1989,
+			"description": {
+				"ru": "Крупнейший в мире добытчик природного газа и монополист трубопроводного экспорта. После потери европейского рынка ищет покупателей на востоке.",
+				"en": "The world's largest natural gas producer and the pipeline export monopoly. After losing Europe, it is looking for buyers in the East."
+			},
+			"fundamental": {
+				"выручка": 116000,
+				"profit": 14982,
+				"debt": 80000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 23674,
+				"market_cap": 37000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество, Роснефтегаз)",
+						"en": "The state (Rosimushchestvo, Rosneftegaz)"
+					},
+					"type": "polity",
+					"country": "Россия",
+					"доля": 0.5023
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.4977
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алексей Миллер",
+					"en": "Alexei Miller"
+				},
+				"роль": "госслужащий",
+				"с_года": 2001,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный аппаратчик, говорит мало, решения согласует наверху",
+					"en": "a cautious apparatchik, says little, clears decisions upstairs"
+				}
+			},
+			"staff": 468000,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лахта-центр, Санкт-Петербург",
+						"en": "Lakhta Center, Saint Petersburg"
+					},
+					"ш": 59.987,
+					"д": 30.177,
+					"province": 130,
+					"staff": 12000,
+					"fine": 3386
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ямбургское месторождение",
+						"en": "Yamburg field"
+					},
+					"ш": 67.95,
+					"д": 75.0,
+					"province": 1152,
+					"staff": 18000,
+					"fine": 3418
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Уренгойское месторождение",
+						"en": "Urengoy field"
+					},
+					"ш": 66.08,
+					"д": 76.68,
+					"province": 1151,
+					"staff": 25000,
+					"fine": 3418
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Бованенково, Ямал",
+						"en": "Bovanenkovo, Yamal"
+					},
+					"ш": 70.4,
+					"д": 68.4,
+					"province": 1152,
+					"staff": 9000,
+					"fine": 3418
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Оренбургский газоперерабатывающий завод",
+						"en": "Orenburg gas processing plant"
+					},
+					"ш": 51.8,
+					"д": 55.1,
+					"province": 394,
+					"staff": 14000,
+					"fine": 3427
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Амурский ГПЗ",
+						"en": "Amur gas processing plant"
+					},
+					"ш": 51.9,
+					"д": 128.4,
+					"province": 985,
+					"staff": 3000,
+					"fine": 3446
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Москве",
+						"en": "Moscow office"
+					},
+					"ш": 55.68,
+					"д": 37.54,
+					"province": 882,
+					"staff": 8000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [
+				"Газпром — Ямбургское месторождение"
+			],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 2,
+			"source": "https://www.gazprom.ru/ | Оценочно: фундамент.долг; фундамент.деньги; сотрудники в точках; wage"
+		},
+		{
+			"id": "rosneft",
+			"название": {
+				"ru": "Роснефть",
+				"en": "Rosneft"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейшая нефтяная компания страны: Западная Сибирь, Ванкор и арктический проект «Восток Ойл».",
+				"en": "The country's largest oil company: Western Siberia, Vankor and the Arctic Vostok Oil project."
+			},
+			"fundamental": {
+				"выручка": 110000,
+				"profit": 6044,
+				"debt": 55000,
+				"money": 15000,
+				"dividends": 3022
+			},
+			"рынок": {
+				"shares_mln": 10598,
+				"market_cap": 52000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Роснефтегаз (государство)",
+						"en": "Rosneftegaz (the state)"
+					},
+					"type": "polity",
+					"country": "Россия",
+					"доля": 0.404
+				},
+				{
+					"кто": {
+						"ru": "BP (права заморожены)",
+						"en": "BP (rights frozen)"
+					},
+					"type": "company",
+					"country": "Великобритания",
+					"доля": 0.1975
+				},
+				{
+					"кто": {
+						"ru": "QIA (Катар)",
+						"en": "QIA (Qatar)"
+					},
+					"type": "polity",
+					"country": "Катар",
+					"доля": 0.1846
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.2139
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игорь Сечин",
+					"en": "Igor Sechin"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2012,
+				"born_year": 1960,
+				"доля": 0.0013,
+				"характер": {
+					"ru": "жёсткий, аппаратный вес больше любой должности, не прощает",
+					"en": "hard-edged, his weight in the system exceeds any title, never forgives"
+				}
+			},
+			"staff": 330000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Софийская набережная, Москва",
+						"en": "Sofiyskaya Embankment, Moscow"
+					},
+					"ш": 55.745,
+					"д": 37.62,
+					"province": 882,
+					"staff": 9000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Приобское месторождение",
+						"en": "Priobskoye field"
+					},
+					"ш": 61.0,
+					"д": 70.3,
+					"province": 1199,
+					"staff": 22000,
+					"fine": 3432
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ванкор",
+						"en": "Vankor"
+					},
+					"ш": 67.8,
+					"д": 83.5,
+					"province": 1175,
+					"staff": 9000,
+					"fine": 3443
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "«Восток Ойл», Таймыр",
+						"en": "Vostok Oil, Taymyr"
+					},
+					"ш": 72.5,
+					"д": 97.0,
+					"province": 1177,
+					"staff": 6000,
+					"fine": 3443
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Туапсинский НПЗ",
+						"en": "Tuapse refinery"
+					},
+					"ш": 44.1,
+					"д": 39.07,
+					"province": 76,
+					"staff": 3000,
+					"fine": 3407
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Новокуйбышевский НПЗ",
+						"en": "Novokuibyshevsk refinery"
+					},
+					"ш": 53.1,
+					"д": 49.93,
+					"province": 887,
+					"staff": 4000,
+					"fine": 3428
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Сахалин-1",
+						"en": "Sakhalin-1"
+					},
+					"ш": 52.6,
+					"д": 143.1,
+					"province": 634,
+					"staff": 2000,
+					"fine": 3453
+				}
+			],
+			"промыслы": [
+				"Роснефть — Приобское месторождение"
+			],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage",
+				"глава.доля"
+			],
+			"forbes_2026": 3,
+			"source": "https://www.rosneft.ru/ | Оценочно: фундамент.долг; фундамент.деньги; сотрудники в точках; wage; глава.доля"
+		},
+		{
+			"id": "lukoil",
+			"название": {
+				"ru": "Лукойл",
+				"en": "Lukoil"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Крупнейшая частная нефтяная компания страны. Под санкциями продаёт зарубежные активы и держится на внутренних заводах.",
+				"en": "The country's largest private oil company. Under sanctions it is selling foreign assets and leans on its domestic refineries."
+			},
+			"fundamental": {
+				"выручка": 93000,
+				"profit": 9300,
+				"debt": 5000,
+				"money": 12000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 693,
+				"market_cap": 49000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Вагит Алекперов",
+						"en": "Vagit Alekperov"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.09
+				},
+				{
+					"кто": {
+						"ru": "Леонид Федун",
+						"en": "Leonid Fedun"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.09
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вадим Воробьёв",
+					"en": "Vadim Vorobyov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "технократ, осторожен с властью, бережёт денежный поток",
+					"en": "a technocrat, wary of the authorities, protective of cash flow"
+				}
+			},
+			"staff": 100000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сретенский бульвар, Москва",
+						"en": "Sretensky Boulevard, Moscow"
+					},
+					"ш": 55.767,
+					"д": 37.64,
+					"province": 882,
+					"staff": 5000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Когалым, Западная Сибирь",
+						"en": "Kogalym, Western Siberia"
+					},
+					"ш": 62.26,
+					"д": 74.48,
+					"province": 1200,
+					"staff": 20000,
+					"fine": 3432
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Усинск, Коми",
+						"en": "Usinsk, Komi"
+					},
+					"ш": 65.99,
+					"д": 57.53,
+					"province": 1205,
+					"staff": 9000,
+					"fine": 3419
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Кстово",
+						"en": "Kstovo refinery"
+					},
+					"ш": 56.15,
+					"д": 44.2,
+					"province": 878,
+					"staff": 4000,
+					"fine": 3393
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Волгоградский НПЗ",
+						"en": "Volgograd refinery"
+					},
+					"ш": 48.5,
+					"д": 44.5,
+					"province": 398,
+					"staff": 3000,
+					"fine": 3405
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пермский НПЗ",
+						"en": "Perm refinery"
+					},
+					"ш": 58.0,
+					"д": 56.3,
+					"province": 886,
+					"staff": 3000,
+					"fine": 3455
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Шельф Каспия",
+						"en": "Caspian shelf"
+					},
+					"ш": 45.4614,
+					"д": 48.0103,
+					"province": 397,
+					"staff": 2000,
+					"fine": 3424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage",
+				"глава.родился"
+			],
+			"forbes_2026": null,
+			"notes": "В 2025 году — убыток из-за списаний (в рейтинг Forbes 2026 не вошла); в модели — операционная прибыль прошлых лет.",
+			"source": "https://lukoil.ru/ | Оценочно: owners; фундамент.долг; фундамент.деньги; сотрудники в точках; wage; глава.родился"
+		},
+		{
+			"id": "sber",
+			"название": {
+				"ru": "Сбербанк",
+				"en": "Sberbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1841,
+			"description": {
+				"ru": "Главный банк страны и экосистема: платежи, кредиты, облака, нейросети. Держит больше трети вкладов населения.",
+				"en": "The country's main bank and an ecosystem: payments, loans, cloud, AI. Holds over a third of household deposits."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 18954,
+				"debt": 0,
+				"money": 0,
+				"dividends": 8700
+			},
+			"рынок": {
+				"shares_mln": 22587,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Минфин, ФНБ)",
+						"en": "The state (Ministry of Finance, NWF)"
+					},
+					"type": "polity",
+					"country": "Россия",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Герман Греф",
+					"en": "Herman Gref"
+				},
+				"роль": "госслужащий",
+				"с_года": 2007,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор-технократ, любит громкие технологические ставки",
+					"en": "a reformist technocrat who loves loud technology bets"
+				}
+			},
+			"staff": 210000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Улица Вавилова, Москва",
+						"en": "Vavilova Street, Moscow"
+					},
+					"ш": 55.7,
+					"д": 37.58,
+					"province": 882,
+					"staff": 30000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Северо-Западный банк, Санкт-Петербург",
+						"en": "North-West bank, Saint Petersburg"
+					},
+					"ш": 59.93,
+					"д": 30.31,
+					"province": 130,
+					"staff": 12000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Уральский банк, Екатеринбург",
+						"en": "Ural bank, Yekaterinburg"
+					},
+					"ш": 56.84,
+					"д": 60.6,
+					"province": 866,
+					"staff": 10000,
+					"fine": 3422
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сибирский банк, Новосибирск",
+						"en": "Siberian bank, Novosibirsk"
+					},
+					"ш": 55.03,
+					"д": 82.92,
+					"province": 391,
+					"staff": 10000,
+					"fine": 3439
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр «Южный порт»",
+						"en": "Yuzhny Port data centre"
+					},
+					"ш": 55.7,
+					"д": 37.7,
+					"province": 882,
+					"staff": 1000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.выручка — операционный доход",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 1,
+			"source": "https://www.sberbank.com/ru/investor-relations | Оценочно: фундамент.выручка — операционный доход; сотрудники в точках; wage"
+		},
+		{
+			"id": "gazprom_neft",
+			"название": {
+				"ru": "Газпром нефть",
+				"en": "Gazprom Neft"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефтяная дочка Газпрома: Ямал, Приразломная в Арктике, Омский и Московский НПЗ.",
+				"en": "Gazprom's oil subsidiary: Yamal, the Arctic Prirazlomnaya platform, the Omsk and Moscow refineries."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 5300,
+				"debt": 12000,
+				"money": 3000,
+				"dividends": 3700
+			},
+			"рынок": {
+				"shares_mln": 4741,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Газпром",
+						"en": "Gazprom"
+					},
+					"type": "company",
+					"country": "Россия",
+					"company": "gazprom",
+					"доля": 0.9568
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.0432
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Дюков",
+					"en": "Alexander Dyukov"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2006,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спокойный управленец, строит технологичную компанию внутри монополии",
+					"en": "a calm manager building a tech-minded company inside a monopoly"
+				}
+			},
+			"staff": 80000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Санкт-Петербург",
+						"en": "Headquarters, Saint Petersburg"
+					},
+					"ш": 59.94,
+					"д": 30.36,
+					"province": 130,
+					"staff": 6000,
+					"fine": 3386
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Омский НПЗ",
+						"en": "Omsk refinery"
+					},
+					"ш": 54.99,
+					"д": 73.3,
+					"province": 388,
+					"staff": 6000,
+					"fine": 3433
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Московский НПЗ",
+						"en": "Moscow refinery"
+					},
+					"ш": 55.64,
+					"д": 37.8,
+					"province": 882,
+					"staff": 3000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ноябрьск",
+						"en": "Noyabrsk"
+					},
+					"ш": 63.2,
+					"д": 75.45,
+					"province": 1151,
+					"staff": 8000,
+					"fine": 3418
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Новый Порт, Ямал",
+						"en": "Novy Port, Yamal"
+					},
+					"ш": 67.7,
+					"д": 72.9,
+					"province": 1153,
+					"staff": 3000,
+					"fine": 3418
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Платформа «Приразломная»",
+						"en": "Prirazlomnaya platform"
+					},
+					"ш": 68.7524,
+					"д": 57.5903,
+					"province": 639,
+					"staff": 600,
+					"fine": 3417
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://ir.gazprom-neft.ru/ | Оценочно: фундамент.долг; фундамент.деньги; сотрудники в точках; wage"
+		},
+		{
+			"id": "novatek",
+			"название": {
+				"ru": "Новатэк",
+				"en": "Novatek"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший частный производитель газа и СПГ: «Ямал СПГ» в Сабетте и «Арктик СПГ 2» под санкциями.",
+				"en": "The largest private gas and LNG producer: Yamal LNG at Sabetta and the sanctioned Arctic LNG 2."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 2067,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 1034
+			},
+			"рынок": {
+				"shares_mln": 3036,
+				"market_cap": 36000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Леонид Михельсон",
+						"en": "Leonid Mikhelson"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.2476
+				},
+				{
+					"кто": {
+						"ru": "Геннадий Тимченко",
+						"en": "Gennady Timchenko"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.2349
+				},
+				{
+					"кто": {
+						"ru": "TotalEnergies",
+						"en": "TotalEnergies"
+					},
+					"type": "company",
+					"country": "Франция",
+					"доля": 0.194
+				},
+				{
+					"кто": {
+						"ru": "Газпром",
+						"en": "Gazprom"
+					},
+					"type": "company",
+					"country": "Россия",
+					"company": "gazprom",
+					"доля": 0.0999
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.2236
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Леонид Михельсон",
+					"en": "Leonid Mikhelson"
+				},
+				"роль": "founder",
+				"с_года": 1994,
+				"born_year": 1955,
+				"доля": 0.2476,
+				"характер": {
+					"ru": "строитель по натуре, упрямый, ставит на Арктику вдолгую",
+					"en": "a builder at heart, stubborn, betting on the Arctic for the long run"
+				}
+			},
+			"staff": 20000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.69,
+					"д": 37.5,
+					"province": 882,
+					"staff": 2500,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Тарко-Сале",
+						"en": "Tarko-Sale"
+					},
+					"ш": 64.91,
+					"д": 77.78,
+					"province": 1151,
+					"staff": 6000,
+					"fine": 3418
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "«Ямал СПГ», Сабетта",
+						"en": "Yamal LNG, Sabetta"
+					},
+					"ш": 71.27,
+					"д": 72.05,
+					"province": 1152,
+					"staff": 5000,
+					"fine": 3418
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "«Арктик СПГ 2», Гыдан",
+						"en": "Arctic LNG 2, Gydan"
+					},
+					"ш": 71.0,
+					"д": 76.3,
+					"province": 1152,
+					"staff": 3000,
+					"fine": 3418
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Комплекс в Усть-Луге",
+						"en": "Ust-Luga complex"
+					},
+					"ш": 59.68,
+					"д": 28.4,
+					"province": 130,
+					"staff": 1000,
+					"fine": 3385
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"staff",
+				"wage"
+			],
+			"forbes_2026": 12,
+			"source": "https://www.novatek.ru/ru/investors/ | Оценочно: фундамент.долг; фундамент.деньги; staff; wage"
+		},
+		{
+			"id": "nornickel",
+			"название": {
+				"ru": "Норникель",
+				"en": "Nornickel"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1935,
+			"description": {
+				"ru": "Мировой лидер по палладию и высокосортному никелю. Норильск и Кольский полуостров.",
+				"en": "World leader in palladium and high-grade nickel. Norilsk and the Kola Peninsula."
+			},
+			"fundamental": {
+				"выручка": 14400,
+				"profit": 2297,
+				"debt": 10000,
+				"money": 2500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 15286,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Владимир Потанин (Интеррос)",
+						"en": "Vladimir Potanin (Interros)"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.3595
+				},
+				{
+					"кто": {
+						"ru": "Русал",
+						"en": "Rusal"
+					},
+					"type": "company",
+					"country": "Россия",
+					"доля": 0.2639
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.3766
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Владимир Потанин",
+					"en": "Vladimir Potanin"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2012,
+				"born_year": 1961,
+				"доля": 0.3595,
+				"характер": {
+					"ru": "расчётливый переговорщик, давно воюет с совладельцем",
+					"en": "a calculating negotiator, locked in a long feud with his co-owner"
+				}
+			},
+			"staff": 80000,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.61,
+					"province": 882,
+					"staff": 2000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Норильский комбинат",
+						"en": "Norilsk combine"
+					},
+					"ш": 69.35,
+					"д": 88.2,
+					"province": 1175,
+					"staff": 45000,
+					"fine": 3443
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кольская ГМК, Мончегорск",
+						"en": "Kola MMC, Monchegorsk"
+					},
+					"ш": 67.94,
+					"д": 32.9,
+					"province": 126,
+					"staff": 11000,
+					"fine": 3382
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Быстринский ГОК, Забайкалье",
+						"en": "Bystrinsky GOK, Transbaikal"
+					},
+					"ш": 51.5,
+					"д": 117.6,
+					"province": 981,
+					"staff": 3000,
+					"fine": 3447
+				}
+			],
+			"промыслы": [
+				"Норникель — Норильский комбинат"
+			],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 8,
+			"source": "https://www.nornickel.ru/investors/ | Оценочно: фундамент.долг; фундамент.деньги; сотрудники в точках; wage"
+		},
+		{
+			"id": "surgutneftegas",
+			"название": {
+				"ru": "Сургутнефтегаз",
+				"en": "Surgutneftegas"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Самая закрытая нефтяная компания страны с огромной денежной подушкой. Руководитель тот же с 1984 года.",
+				"en": "The country's most secretive oil company, sitting on a huge cash pile. The same boss since 1984."
+			},
+			"fundamental": {
+				"выручка": 31000,
+				"profit": 9000,
+				"debt": 0,
+				"money": 60000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 43428,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Связанные структуры и казначейские акции",
+						"en": "Affiliated entities and treasury shares"
+					},
+					"type": "сама",
+					"доля": 0.35
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Владимир Богданов",
+					"en": "Vladimir Bogdanov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 1984,
+				"born_year": 1951,
+				"доля": 0.0,
+				"характер": {
+					"ru": "замкнутый старожил, копит деньги и не любит перемен",
+					"en": "a reclusive veteran who hoards cash and dislikes change"
+				}
+			},
+			"staff": 110000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Сургут",
+						"en": "Headquarters, Surgut"
+					},
+					"ш": 61.25,
+					"д": 73.4,
+					"province": 1200,
+					"staff": 20000,
+					"fine": 3432
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Месторождения Югры",
+						"en": "Yugra fields"
+					},
+					"ш": 61.8,
+					"д": 72.0,
+					"province": 1199,
+					"staff": 50000,
+					"fine": 3432
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Киришский НПЗ",
+						"en": "Kirishi refinery"
+					},
+					"ш": 59.45,
+					"д": 32.02,
+					"province": 130,
+					"staff": 4000,
+					"fine": 3385
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Талаканское месторождение, Якутия",
+						"en": "Talakan field, Yakutia"
+					},
+					"ш": 59.9,
+					"д": 111.0,
+					"province": 1163,
+					"staff": 3000,
+					"fine": 3449
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.прибыль",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"notes": "В 2025 году — убыток из-за списаний (в рейтинг Forbes 2026 не вошла); в модели — операционная прибыль прошлых лет.",
+			"source": "https://www.surgutneftegas.ru/investors/ | Оценочно: owners; фундамент.прибыль; фундамент.деньги; сотрудники в точках; wage"
+		},
+		{
+			"id": "tatneft",
+			"название": {
+				"ru": "Татнефть",
+				"en": "Tatneft"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1950,
+			"description": {
+				"ru": "Нефть Татарстана, комплекс ТАНЕКО в Нижнекамске и шины Kama. Главный кошелёк республики.",
+				"en": "Tatarstan's oil, the TANECO complex in Nizhnekamsk and Kama tyres. The republic's main wallet."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": 1689,
+				"debt": 1000,
+				"money": 2000,
+				"dividends": 1351
+			},
+			"рынок": {
+				"shares_mln": 2474,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Республика Татарстан (Связьинвестнефтехим)",
+						"en": "Republic of Tatarstan (Svyazinvestneftekhim)"
+					},
+					"type": "polity",
+					"country": "Россия",
+					"доля": 0.36
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.64
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Наиль Маганов",
+					"en": "Nail Maganov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "потомственный нефтяник, крепко связан с руководством республики",
+					"en": "a hereditary oilman, closely tied to the republic's leadership"
+				}
+			},
+			"staff": 70000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Альметьевск",
+						"en": "Headquarters, Almetyevsk"
+					},
+					"ш": 54.9,
+					"д": 52.3,
+					"province": 869,
+					"staff": 25000,
+					"fine": 3430
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТАНЕКО, Нижнекамск",
+						"en": "TANECO, Nizhnekamsk"
+					},
+					"ш": 55.63,
+					"д": 51.8,
+					"province": 869,
+					"staff": 8000,
+					"fine": 3430
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.долг",
+				"фундамент.деньги",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 13,
+			"source": "https://www.tatneft.ru/investoram/ | Оценочно: фундамент.долг; фундамент.деньги; сотрудники в точках; wage"
+		},
+		{
+			"id": "yandex",
+			"название": {
+				"ru": "Яндекс",
+				"en": "Yandex"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Главная IT-компания страны: поиск, такси, доставка, облако и своя нейросеть.",
+				"en": "The country's leading tech company: search, ride-hailing, delivery, cloud and its own AI model."
+			},
+			"fundamental": {
+				"выручка": 12100,
+				"profit": 1000,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 390,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Консорциум инвесторов",
+						"en": "Investor consortium"
+					},
+					"type": "крупный",
+					"country": "Россия",
+					"доля": 0.36
+				},
+				{
+					"кто": {
+						"ru": "Фонд для сотрудников",
+						"en": "Employee fund"
+					},
+					"type": "сама",
+					"доля": 0.08
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Артём Савиновский",
+					"en": "Artem Savinovsky"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1983,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист, аккуратный и сдержанный, бережёт независимость компании",
+					"en": "a finance man, careful and reserved, guarding the company's independence"
+				}
+			},
+			"staff": 30000,
+			"wage": 3300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Улица Льва Толстого, Москва",
+						"en": "Lva Tolstogo Street, Moscow"
+					},
+					"ш": 55.734,
+					"д": 37.588,
+					"province": 882,
+					"staff": 15000,
+					"fine": 3401
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Офис разработки, Санкт-Петербург",
+						"en": "Engineering office, Saint Petersburg"
+					},
+					"ш": 59.96,
+					"д": 30.31,
+					"province": 130,
+					"staff": 4000,
+					"fine": 3386
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Сасово",
+						"en": "Sasovo data centre"
+					},
+					"ш": 54.35,
+					"д": 41.92,
+					"province": 877,
+					"staff": 300,
+					"fine": 3410
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр во Владимире",
+						"en": "Vladimir data centre"
+					},
+					"ш": 56.13,
+					"д": 40.4,
+					"province": 876,
+					"staff": 300,
+					"fine": 3412
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Новосибирске",
+						"en": "Novosibirsk office"
+					},
+					"ш": 55.03,
+					"д": 82.92,
+					"province": 391,
+					"staff": 1500,
+					"fine": 3439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"рынок.акций_млн",
+				"фундамент.прибыль",
+				"фундамент.долг",
+				"staff",
+				"wage",
+				"глава.родился"
+			],
+			"forbes_2026": null,
+			"source": "https://ir.yandex.ru/ | Оценочно: owners; рынок.акций_млн; фундамент.прибыль; фундамент.долг; staff; wage; глава.родился"
+		},
+		{
+			"id": "vtb",
+			"название": {
+				"ru": "ВТБ",
+				"en": "VTB"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1990,
+			"description": {
+				"ru": "Второй банк страны, опора госкорпораций и оборонного заказа.",
+				"en": "The country's second bank, backbone of state corporations and defence orders."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 5579,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2800
+			},
+			"рынок": {
+				"shares_mln": 5370,
+				"market_cap": 4800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Минфин, Росимущество)",
+						"en": "The state (MinFin, Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.618,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.382
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андрей Костин",
+					"en": "Andrey Kostin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2002,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "опытный государственный банкир, осторожен и лоялен",
+					"en": "a seasoned state banker, cautious and loyal"
+				}
+			},
+			"staff": 105000,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "ВТБ Арена Парк / Москва-Сити",
+						"en": "Moscow City"
+					},
+					"ш": 55.749,
+					"д": 37.537,
+					"province": 882,
+					"staff": 20000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Северо-Западный центр, Санкт-Петербург",
+						"en": "North-West centre, Saint Petersburg"
+					},
+					"ш": 59.93,
+					"д": 30.33,
+					"province": 130,
+					"staff": 8000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Уральский центр, Екатеринбург",
+						"en": "Ural centre, Yekaterinburg"
+					},
+					"ш": 56.84,
+					"д": 60.6,
+					"province": 866,
+					"staff": 5000,
+					"fine": 3422
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сибирский центр, Новосибирск",
+						"en": "Siberian centre, Novosibirsk"
+					},
+					"ш": 55.03,
+					"д": 82.92,
+					"province": 391,
+					"staff": 4000,
+					"fine": 3439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.выручка — операционный доход",
+				"рынок",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 4,
+			"source": "https://www.vtb.ru/ir/ | Оценочно: фундамент.выручка — операционный доход; рынок; сотрудники в точках; wage"
+		},
+		{
+			"id": "polyus",
+			"название": {
+				"ru": "Полюс",
+				"en": "Polyus"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Крупнейший золотодобытчик страны: Олимпиада, Наталка, Сухой Лог.",
+				"en": "The country's largest gold miner: Olimpiada, Natalka, Sukhoi Log."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 3490,
+				"debt": 7000,
+				"money": 2500,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 1360,
+				"market_cap": 29000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Керимовых",
+						"en": "The Kerimov family"
+					},
+					"type": "крупный",
+					"доля": 0.45,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алексей Вострокнутов",
+					"en": "Alexey Vostroknutov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-горняк, методичный, мыслит проектами на десятилетия",
+					"en": "a mining engineer, methodical, thinks in decade-long projects"
+				}
+			},
+			"staff": 21000,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.745,
+					"д": 37.6,
+					"province": 882,
+					"staff": 800,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Олимпиада, Красноярский край",
+						"en": "Olimpiada, Krasnoyarsk Krai"
+					},
+					"ш": 59.0,
+					"д": 92.9,
+					"province": 1176,
+					"staff": 6000,
+					"fine": 3443
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Благодатное",
+						"en": "Blagodatnoye"
+					},
+					"ш": 58.4,
+					"д": 93.3,
+					"province": 1176,
+					"staff": 2500,
+					"fine": 3443
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Наталка, Магаданская область",
+						"en": "Natalka, Magadan Oblast"
+					},
+					"ш": 61.2,
+					"д": 148.7,
+					"province": 1146,
+					"staff": 2500,
+					"fine": 3452
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Сухой Лог, Иркутская область",
+						"en": "Sukhoi Log, Irkutsk Oblast"
+					},
+					"ш": 58.3,
+					"д": 115.0,
+					"province": 1203,
+					"staff": 1500,
+					"fine": 3442
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.выручка",
+				"рынок",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 5,
+			"source": "https://polyus.com/ru/investors/ | Оценочно: owners; фундамент.выручка; рынок; сотрудники в точках; wage"
+		},
+		{
+			"id": "transneft",
+			"название": {
+				"ru": "Транснефть",
+				"en": "Transneft"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1993,
+			"description": {
+				"ru": "Монополист трубопроводного транспорта нефти: Дружба, ВСТО, порты Приморск и Козьмино.",
+				"en": "The oil pipeline monopoly: Druzhba, ESPO, the ports of Primorsk and Kozmino."
+			},
+			"fundamental": {
+				"выручка": 16100,
+				"profit": 2679,
+				"debt": 9000,
+				"money": 4000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 725,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.781,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.219
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Николай Токарев",
+					"en": "Nikolai Tokarev"
+				},
+				"роль": "госслужащий",
+				"с_года": 2007,
+				"born_year": 1950,
+				"доля": 0.0,
+				"характер": {
+					"ru": "старый соратник власти, прямолинеен, ревниво бережёт монополию",
+					"en": "an old ally of the Kremlin, blunt, jealously guards the monopoly"
+				}
+			},
+			"staff": 115000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.72,
+					"д": 37.63,
+					"province": 882,
+					"staff": 5000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Приморск",
+						"en": "Primorsk port"
+					},
+					"ш": 60.36,
+					"д": 28.61,
+					"province": 130,
+					"staff": 2000,
+					"fine": 3385
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Козьмино",
+						"en": "Kozmino port"
+					},
+					"ш": 42.73,
+					"д": 133.03,
+					"province": 207,
+					"staff": 1500,
+					"fine": 3448
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Шесхарис, Новороссийск",
+						"en": "Sheskharis, Novorossiysk"
+					},
+					"ш": 44.72,
+					"д": 37.79,
+					"province": 76,
+					"staff": 2000,
+					"fine": 3407
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Узел Тайшет (ВСТО)",
+						"en": "Taishet hub (ESPO)"
+					},
+					"ш": 55.93,
+					"д": 98.0,
+					"province": 1201,
+					"staff": 3000,
+					"fine": 3442
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок",
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 6,
+			"source": "https://www.transneft.ru/investors/ | Оценочно: рынок; фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "alfa",
+			"название": {
+				"ru": "Альфа-Банк",
+				"en": "Alfa-Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Крупнейший частный банк страны, часть «Альфа-Групп».",
+				"en": "The country's largest private bank, part of Alfa Group."
+			},
+			"fundamental": {
+				"выручка": 7800,
+				"profit": 2556,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Акционеры «Альфа-Групп»",
+						"en": "Alfa Group shareholders"
+					},
+					"type": "крупный",
+					"доля": 0.9,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Прочие",
+						"en": "Others"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Владимир Верхошинский",
+					"en": "Vladimir Verkhoshinsky"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничный банкир, прагматик, любит цифровые продукты",
+					"en": "a retail banker, pragmatic, fond of digital products"
+				}
+			},
+			"staff": 32000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каланчёвская, Москва",
+						"en": "Kalanchevskaya, Moscow"
+					},
+					"ш": 55.77,
+					"д": 37.65,
+					"province": 882,
+					"staff": 12000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Филиал в Санкт-Петербурге",
+						"en": "Saint Petersburg branch"
+					},
+					"ш": 59.93,
+					"д": 30.36,
+					"province": 130,
+					"staff": 3000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Филиал в Екатеринбурге",
+						"en": "Yekaterinburg branch"
+					},
+					"ш": 56.84,
+					"д": 60.61,
+					"province": 866,
+					"staff": 2000,
+					"fine": 3422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок — компания не торгуется, оценка",
+				"owners",
+				"фундамент.выручка — операционный доход",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 7,
+			"source": "https://alfabank.ru/about/ | Оценочно: рынок — компания не торгуется, оценка; owners; фундамент.выручка — операционный доход; сотрудники в точках; wage"
+		},
+		{
+			"id": "sibur",
+			"название": {
+				"ru": "СИБУР",
+				"en": "SIBUR"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная нефтехимия страны: пластики и каучуки из попутного газа.",
+				"en": "The country's main petrochemical producer: plastics and rubbers from associated gas."
+			},
+			"fundamental": {
+				"выручка": 14400,
+				"profit": 2279,
+				"debt": 8000,
+				"money": 1500,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Леонид Михельсон",
+						"en": "Leonid Mikhelson"
+					},
+					"type": "крупный",
+					"доля": 0.48,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Геннадий Тимченко",
+						"en": "Gennady Timchenko"
+					},
+					"type": "крупный",
+					"доля": 0.17,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Sinopec",
+						"en": "Sinopec"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Фонд Шёлкового пути",
+						"en": "Silk Road Fund"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Менеджмент и прочие",
+						"en": "Management and others"
+					},
+					"type": "частные",
+					"доля": 0.15
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаил Карисалов",
+					"en": "Mikhail Karisalov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-химик, спокоен, строит гигантские комплексы",
+					"en": "a chemical engineer, calm, builds giant complexes"
+				}
+			},
+			"staff": 85000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.71,
+					"д": 37.58,
+					"province": 882,
+					"staff": 3000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ЗапСибНефтехим, Тобольск",
+						"en": "ZapSibNeftekhim, Tobolsk"
+					},
+					"ш": 58.2,
+					"д": 68.25,
+					"province": 386,
+					"staff": 6000,
+					"fine": 3434
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Нижнекамскнефтехим",
+						"en": "Nizhnekamskneftekhim"
+					},
+					"ш": 55.63,
+					"д": 51.82,
+					"province": 869,
+					"staff": 15000,
+					"fine": 3430
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Амурский ГХК, Свободный",
+						"en": "Amur GCC, Svobodny"
+					},
+					"ш": 51.9,
+					"д": 128.4,
+					"province": 985,
+					"staff": 2000,
+					"fine": 3446
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Воронежсинтезкаучук",
+						"en": "Voronezhsintezkauchuk"
+					},
+					"ш": 51.7,
+					"д": 39.2,
+					"province": 196,
+					"staff": 2000,
+					"fine": 3413
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Томскнефтехим",
+						"en": "Tomskneftekhim"
+					},
+					"ш": 56.6,
+					"д": 84.9,
+					"province": 871,
+					"staff": 3000,
+					"fine": 3373
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок — компания не торгуется, оценка",
+				"owners",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 9,
+			"source": "https://www.sibur.ru/investors/ | Оценочно: рынок — компания не торгуется, оценка; owners; сотрудники в точках; wage"
+		},
+		{
+			"id": "rosseti",
+			"название": {
+				"ru": "Россети",
+				"en": "Rosseti"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2013,
+			"description": {
+				"ru": "Все магистральные и распределительные электросети страны.",
+				"en": "All of the country's power transmission and distribution grids."
+			},
+			"fundamental": {
+				"выручка": 17800,
+				"profit": 2260,
+				"debt": 14000,
+				"money": 1500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 209000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.889,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.111
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андрей Рюмин",
+					"en": "Andrey Ryumin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик нового поколения, исполнителен, держит сети в новых регионах",
+					"en": "a new-generation power manager, dutiful"
+				}
+			},
+			"staff": 220000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.66,
+					"д": 37.52,
+					"province": 882,
+					"staff": 8000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Россети Ленэнерго, Санкт-Петербург",
+						"en": "Rosseti Lenenergo, Saint Petersburg"
+					},
+					"ш": 59.94,
+					"д": 30.31,
+					"province": 130,
+					"staff": 8000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Россети Кубань, Краснодар",
+						"en": "Rosseti Kuban, Krasnodar"
+					},
+					"ш": 45.04,
+					"д": 38.98,
+					"province": 76,
+					"staff": 8000,
+					"fine": 3407
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Россети Урал, Екатеринбург",
+						"en": "Rosseti Ural, Yekaterinburg"
+					},
+					"ш": 56.84,
+					"д": 60.6,
+					"province": 866,
+					"staff": 10000,
+					"fine": 3422
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Россети Сибирь, Красноярск",
+						"en": "Rosseti Siberia, Krasnoyarsk"
+					},
+					"ш": 56.01,
+					"д": 92.87,
+					"province": 1172,
+					"staff": 10000,
+					"fine": 3443
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 10,
+			"source": "https://rosseti.ru/investors/ | Оценочно: рынок; сотрудники в точках; wage"
+		},
+		{
+			"id": "t_tech",
+			"название": {
+				"ru": "Т-Технологии",
+				"en": "T-Technologies"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Т-Банк и экосистема: онлайн-банк без отделений, инвестиции, мобильная связь.",
+				"en": "T-Bank and its ecosystem: a branchless online bank, investing, mobile."
+			},
+			"fundamental": {
+				"выручка": 8900,
+				"profit": 2138,
+				"debt": 0,
+				"money": 0,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 268,
+				"market_cap": 8900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Владимир Потанин (Интеррос)",
+						"en": "Vladimir Potanin (Interros)"
+					},
+					"type": "крупный",
+					"доля": 0.35,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Станислав Близнюк",
+					"en": "Stanislav Bliznyuk"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "выходец из стартапа, быстрый, любит риск и технологии",
+					"en": "a startup veteran, fast, loves risk and technology"
+				}
+			},
+			"staff": 55000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "2-я Хуторская, Москва",
+						"en": "2nd Khutorskaya, Moscow"
+					},
+					"ш": 55.81,
+					"д": 37.58,
+					"province": 882,
+					"staff": 12000,
+					"fine": 3401
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "IT-центр в Санкт-Петербурге",
+						"en": "IT centre, Saint Petersburg"
+					},
+					"ш": 59.96,
+					"д": 30.31,
+					"province": 130,
+					"staff": 3000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Контакт-центр в Новосибирске",
+						"en": "Contact centre, Novosibirsk"
+					},
+					"ш": 55.03,
+					"д": 82.92,
+					"province": 391,
+					"staff": 6000,
+					"fine": 3439
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Контакт-центр в Екатеринбурге",
+						"en": "Contact centre, Yekaterinburg"
+					},
+					"ш": 56.84,
+					"д": 60.6,
+					"province": 866,
+					"staff": 6000,
+					"fine": 3422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.выручка — операционный доход",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 11,
+			"source": "https://t-technologies.ru/investors/ | Оценочно: owners; фундамент.выручка — операционный доход; сотрудники в точках; wage"
+		},
+		{
+			"id": "evraz",
+			"название": {
+				"ru": "Евраз",
+				"en": "Evraz"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1992,
+			"description": {
+				"ru": "Сталь для рельсов и строек: Нижний Тагил, Новокузнецк, уголь Распадской.",
+				"en": "Steel for rails and construction: Nizhny Tagil, Novokuznetsk, Raspadskaya coal."
+			},
+			"fundamental": {
+				"выручка": 8900,
+				"profit": 1669,
+				"debt": 4000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Роман Абрамович",
+						"en": "Roman Abramovich"
+					},
+					"type": "крупный",
+					"доля": 0.29,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Александр Абрамов",
+						"en": "Alexander Abramov"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Александр Фролов",
+						"en": "Alexander Frolov"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алексей Иванов",
+					"en": "Alexey Ivanov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург старой школы, упрямо держит заводы в строю",
+					"en": "an old-school steelman"
+				}
+			},
+			"staff": 70000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.76,
+					"д": 37.61,
+					"province": 882,
+					"staff": 1500,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ЕВРАЗ НТМК, Нижний Тагил",
+						"en": "EVRAZ NTMK, Nizhny Tagil"
+					},
+					"ш": 57.91,
+					"д": 59.97,
+					"province": 866,
+					"staff": 15000,
+					"fine": 3422
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ЕВРАЗ ЗСМК, Новокузнецк",
+						"en": "EVRAZ ZSMK, Novokuznetsk"
+					},
+					"ш": 53.76,
+					"д": 87.1,
+					"province": 871,
+					"staff": 20000,
+					"fine": 3437
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Распадская, Междуреченск",
+						"en": "Raspadskaya, Mezhdurechensk"
+					},
+					"ш": 53.7,
+					"д": 88.06,
+					"province": 873,
+					"staff": 9000,
+					"fine": 3437
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок — оценка",
+				"owners",
+				"глава.имя",
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 14,
+			"source": "https://www.evraz.com/ru/investors/ | Оценочно: рынок — оценка; owners; глава.имя; фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "uralkali",
+			"название": {
+				"ru": "Уралкалий",
+				"en": "Uralkali"
+			},
+			"sector": "metallurgy",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 1930,
+			"description": {
+				"ru": "Один из крупнейших в мире производителей калийных удобрений, Верхнекамское месторождение.",
+				"en": "One of the world's largest potash producers, the Verkhnekamskoye deposit."
+			},
+			"fundamental": {
+				"выручка": 3900,
+				"profit": 1662,
+				"debt": 3500,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Структуры Дмитрия Мазепина (Уралхим)",
+						"en": "Dmitry Mazepin (Uralchem)"
+					},
+					"type": "крупный",
+					"доля": 0.81,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Прочие",
+						"en": "Others"
+					},
+					"type": "частные",
+					"доля": 0.19
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дмитрий Коновалов",
+					"en": "Dmitry Konovalov"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "человек владельца, держит курс на экспорт в Азию",
+					"en": "the owner's man, steering exports to Asia"
+				}
+			},
+			"staff": 20000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Березники",
+						"en": "Headquarters, Berezniki"
+					},
+					"ш": 59.41,
+					"д": 56.82,
+					"province": 886,
+					"staff": 3000,
+					"fine": 3455
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудники Соликамска",
+						"en": "Solikamsk mines"
+					},
+					"ш": 59.62,
+					"д": 56.77,
+					"province": 886,
+					"staff": 8000,
+					"fine": 3455
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудники Березников",
+						"en": "Berezniki mines"
+					},
+					"ш": 59.35,
+					"д": 56.75,
+					"province": 886,
+					"staff": 6000,
+					"fine": 3455
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок — оценка",
+				"owners",
+				"глава.имя",
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 15,
+			"source": "https://www.uralkali.com/ru/investors/ | Оценочно: рынок — оценка; owners; глава.имя; фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "rwb",
+			"название": {
+				"ru": "Wildberries (RWB)",
+				"en": "Wildberries (RWB)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2004,
+			"description": {
+				"ru": "Крупнейший маркетплейс страны, объединённый с рекламной группой Russ.",
+				"en": "The country's largest marketplace, merged with the Russ advertising group."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1583,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Татьяна Ким",
+						"en": "Tatyana Kim"
+					},
+					"type": "founder",
+					"доля": 0.65,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Акционеры Russ",
+						"en": "Russ shareholders"
+					},
+					"type": "крупный",
+					"доля": 0.35,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Татьяна Ким",
+					"en": "Tatyana Kim"
+				},
+				"роль": "founder",
+				"с_года": 2004,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "основательница, жёсткая, ведёт затяжную войну с бывшим мужем за контроль",
+					"en": "the founder, tough, in a long fight with her ex-husband over control"
+				}
+			},
+			"staff": 100000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.53,
+					"province": 882,
+					"staff": 6000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Подольске",
+						"en": "Podolsk warehouse"
+					},
+					"ш": 55.43,
+					"д": 37.54,
+					"province": 882,
+					"staff": 15000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Электростали",
+						"en": "Elektrostal warehouse"
+					},
+					"ш": 55.79,
+					"д": 38.44,
+					"province": 882,
+					"staff": 10000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Казани",
+						"en": "Kazan warehouse"
+					},
+					"ш": 55.8,
+					"д": 49.1,
+					"province": 883,
+					"staff": 8000,
+					"fine": 3430
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Краснодаре",
+						"en": "Krasnodar warehouse"
+					},
+					"ш": 45.03,
+					"д": 39.04,
+					"province": 76,
+					"staff": 7000,
+					"fine": 3407
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Новосибирске",
+						"en": "Novosibirsk warehouse"
+					},
+					"ш": 55.0,
+					"д": 82.9,
+					"province": 391,
+					"staff": 6000,
+					"fine": 3439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"рынок — оценка",
+				"фундамент.выручка",
+				"staff",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 17,
+			"aliases": [
+				"Вайлдберриз",
+				"Валдберис",
+				"Вайлдбериз",
+				"Wildberries",
+				"WB",
+				"ВБ"
+			],
+			"source": "https://www.wildberries.ru/ | Оценочно: рынок — оценка; фундамент.выручка; staff; сотрудники в точках; wage"
+		},
+		{
+			"id": "x5",
+			"название": {
+				"ru": "X5 Group",
+				"en": "X5 Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Крупнейшая розничная сеть: «Пятёрочка», «Перекрёсток», «Чижик».",
+				"en": "The largest retailer: Pyaterochka, Perekrestok, Chizhik."
+			},
+			"fundamental": {
+				"выручка": 51000,
+				"profit": 923,
+				"debt": 9000,
+				"money": 1500,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 272,
+				"market_cap": 8900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Консорциум инвесторов (бывшие акционеры «Альфа-Групп»)",
+						"en": "Investor consortium (former Alfa Group shareholders)"
+					},
+					"type": "крупный",
+					"доля": 0.48,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игорь Шехтерман",
+					"en": "Igor Shekhterman"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник, считает копейки, умеет договариваться с поставщиками",
+					"en": "a retailer who counts every kopeck"
+				}
+			},
+			"staff": 400000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.75,
+					"д": 37.53,
+					"province": 882,
+					"staff": 10000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Распределительные центры Подмосковья",
+						"en": "Moscow region DCs"
+					},
+					"ш": 55.6,
+					"д": 37.9,
+					"province": 882,
+					"staff": 30000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Санкт-Петербург",
+						"en": "Saint Petersburg DC"
+					},
+					"ш": 59.85,
+					"д": 30.45,
+					"province": 130,
+					"staff": 15000,
+					"fine": 3386
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Екатеринбург",
+						"en": "Yekaterinburg DC"
+					},
+					"ш": 56.8,
+					"д": 60.65,
+					"province": 866,
+					"staff": 10000,
+					"fine": 3422
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Нижний Новгород",
+						"en": "Nizhny Novgorod DC"
+					},
+					"ш": 56.3,
+					"д": 43.95,
+					"province": 878,
+					"staff": 8000,
+					"fine": 3393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 25,
+			"aliases": [
+				"Пятёрочка",
+				"Перекрёсток",
+				"Икс5"
+			],
+			"source": "https://www.x5.ru/ru/investors/ | Оценочно: owners; фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "pik",
+			"название": {
+				"ru": "ПИК",
+				"en": "PIK"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший девелопер жилья Москвы и области.",
+				"en": "The largest housing developer in Moscow and its region."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 764,
+				"debt": 6000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 660,
+				"market_cap": 4400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Сергей Гордеев",
+						"en": "Sergei Gordeev"
+					},
+					"type": "крупный",
+					"доля": 0.6,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Гордеев",
+					"en": "Sergei Gordeev"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2013,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "девелопер-меценат, любит архитектуру и большие кварталы",
+					"en": "a developer and patron of architecture"
+				}
+			},
+			"staff": 20000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.72,
+					"д": 37.57,
+					"province": 882,
+					"staff": 4000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Домостроительные комбинаты Подмосковья",
+						"en": "House-building plants, Moscow region"
+					},
+					"ш": 55.9,
+					"д": 37.4,
+					"province": 882,
+					"staff": 8000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Проекты в Санкт-Петербурге",
+						"en": "Saint Petersburg projects"
+					},
+					"ш": 59.9,
+					"д": 30.3,
+					"province": 130,
+					"staff": 1500,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"owners",
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 29,
+			"source": "https://pik-holding.ru/investors/ | Оценочно: owners; фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "nlmk",
+			"название": {
+				"ru": "НЛМК",
+				"en": "NLMK"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1934,
+			"description": {
+				"ru": "Новолипецкий металлургический комбинат — одна из самых эффективных сталей мира.",
+				"en": "Novolipetsk steel — one of the most efficient steelmakers in the world."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 701,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 5993,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Владимир Лисин",
+						"en": "Vladimir Lisin"
+					},
+					"type": "крупный",
+					"доля": 0.79,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.21
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Баратов",
+					"en": "Sergey Baratov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист владельца, сухой и точный",
+					"en": "the owner's financier, dry and precise"
+				}
+			},
+			"staff": 52000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Липецк",
+						"en": "Headquarters, Lipetsk"
+					},
+					"ш": 52.61,
+					"д": 39.6,
+					"province": 867,
+					"staff": 30000,
+					"fine": 3399
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Стойленский ГОК",
+						"en": "Stoilensky GOK"
+					},
+					"ш": 51.28,
+					"д": 37.78,
+					"province": 867,
+					"staff": 6000,
+					"fine": 3406
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Алтай-Кокс, Заринск",
+						"en": "Altai-Koks, Zarinsk"
+					},
+					"ш": 53.7,
+					"д": 84.93,
+					"province": 871,
+					"staff": 4000,
+					"fine": 3435
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НЛМК-Урал",
+						"en": "NLMK-Ural"
+					},
+					"ш": 56.95,
+					"д": 60.45,
+					"province": 866,
+					"staff": 4000,
+					"fine": 3422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.выручка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 33,
+			"source": "https://nlmk.com/ru/investor-relations/ | Оценочно: фундамент.выручка; сотрудники в точках; wage"
+		},
+		{
+			"id": "a101",
+			"название": {
+				"ru": "А101",
+				"en": "A101"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Девелопер «Новой Москвы»: жилые районы на юго-западе столицы.",
+				"en": "The developer of «New Moscow»: residential districts in the capital's south-west."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 500,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные владельцы",
+						"en": "Private owners"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игнатий Данилиди",
+					"en": "Ignatiy Danilidi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "застройщик, мыслит кварталами и метро",
+					"en": "a builder who thinks in districts and metro lines"
+				}
+			},
+			"staff": 5000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Коммунарка, Новая Москва",
+						"en": "Kommunarka, New Moscow"
+					},
+					"ш": 55.57,
+					"д": 37.47,
+					"province": 882,
+					"staff": 3000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"фундамент.прибыль — оценка по месту в рейтинге",
+				"фундамент.выручка",
+				"рынок",
+				"owners",
+				"глава.имя",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": 41,
+			"source": "https://a101.ru/ | Оценочно: фундамент.прибыль — оценка по месту в рейтинге; фундамент.выручка; рынок; owners; глава.имя; сотрудники в точках; wage"
+		},
+		{
+			"id": "gazprombank",
+			"название": {
+				"ru": "Газпромбанк",
+				"en": "Gazprombank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1990,
+			"description": {
+				"ru": "Третий банк страны, обслуживает газовую отрасль и крупные проекты.",
+				"en": "The country's third bank, serving the gas industry and big projects."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 1200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Газпром и связанные структуры",
+						"en": "Gazprom and affiliates"
+					},
+					"type": "company",
+					"доля": 0.7,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Государство",
+						"en": "The state"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андрей Акимов",
+					"en": "Andrey Akimov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2002,
+				"born_year": 1953,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир старой закалки, держится в тени",
+					"en": "an old-school banker who stays in the shadows"
+				}
+			},
+			"staff": 25000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Наметкина, Москва",
+						"en": "Nametkina, Moscow"
+					},
+					"ш": 55.66,
+					"д": 37.55,
+					"province": 882,
+					"staff": 10000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Филиал в Санкт-Петербурге",
+						"en": "Saint Petersburg branch"
+					},
+					"ш": 59.93,
+					"д": 30.35,
+					"province": 130,
+					"staff": 2000,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.gazprombank.ru/investor_relations/ | Оценочно: всё — оценка; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "interrao",
+			"название": {
+				"ru": "Интер РАО",
+				"en": "Inter RAO"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1997,
+			"description": {
+				"ru": "Генерация и сбыт электричества, экспорт энергии; огромная денежная подушка.",
+				"en": "Power generation, retail supply and exports; a huge cash pile."
+			},
+			"fundamental": {
+				"выручка": 17800,
+				"profit": 1560,
+				"debt": 500,
+				"money": 6000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 104400,
+				"market_cap": 3700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Роснефтегаз и Россети",
+						"en": "Rosneftegaz and Rosseti"
+					},
+					"type": "polity",
+					"доля": 0.362,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Казначейские акции (Интер РАО Капитал)",
+						"en": "Treasury (Inter RAO Capital)"
+					},
+					"type": "сама",
+					"доля": 0.296
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.342
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Дрегваль",
+					"en": "Sergey Dregval"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "из влиятельной семьи, уверенный, строит энергоимперию",
+					"en": "from an influential family, confident"
+				}
+			},
+			"staff": 50000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.76,
+					"д": 37.65,
+					"province": 882,
+					"staff": 3000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Костромская ГРЭС",
+						"en": "Kostroma GRES"
+					},
+					"ш": 57.44,
+					"д": 41.13,
+					"province": 876,
+					"staff": 1500,
+					"fine": 3392
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ириклинская ГРЭС",
+						"en": "Iriklinskaya GRES"
+					},
+					"ш": 51.66,
+					"д": 58.62,
+					"province": 394,
+					"staff": 1000,
+					"fine": 3427
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пермская ГРЭС",
+						"en": "Perm GRES"
+					},
+					"ш": 58.46,
+					"д": 56.41,
+					"province": 886,
+					"staff": 1000,
+					"fine": 3455
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Калининградская ТЭЦ-2",
+						"en": "Kaliningrad CHP-2"
+					},
+					"ш": 54.72,
+					"д": 20.42,
+					"province": 193,
+					"staff": 800,
+					"fine": 3381
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"fundamental",
+				"рынок",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.interrao.ru/investors/ | Оценочно: fundamental; рынок; сотрудники в точках; wage"
+		},
+		{
+			"id": "sovcombank",
+			"название": {
+				"ru": "Совкомбанк",
+				"en": "Sovcombank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Быстрорастущий частный банк, скупающий конкурентов, карта «Халва».",
+				"en": "A fast-growing private bank buying up rivals, the Halva card."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 670,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 22300,
+				"market_cap": 3700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Хотимских и Дмитрий Гусев",
+						"en": "The Khotimsky family and Dmitry Gusev"
+					},
+					"type": "крупный",
+					"доля": 0.6,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дмитрий Гусев",
+					"en": "Dmitry Gusev"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2014,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "дерзкий собиратель банков",
+					"en": "a bold collector of banks"
+				}
+			},
+			"staff": 45000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Кострома",
+						"en": "Headquarters, Kostroma"
+					},
+					"ш": 57.77,
+					"д": 40.93,
+					"province": 876,
+					"staff": 5000,
+					"fine": 3392
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Центральный офис, Москва",
+						"en": "Central office, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.66,
+					"province": 882,
+					"staff": 12000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://sovcombank.ru/investors | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "moex",
+			"название": {
+				"ru": "Мосбиржа",
+				"en": "Moscow Exchange"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1992,
+			"description": {
+				"ru": "Главная биржа страны: акции, облигации, валюта.",
+				"en": "The country's main exchange: shares, bonds, currencies."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 1000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 2276,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Банк России",
+						"en": "Bank of Russia"
+					},
+					"type": "polity",
+					"доля": 0.118,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Сбербанк",
+						"en": "Sberbank"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "ВЭБ.РФ",
+						"en": "VEB.RF"
+					},
+					"type": "polity",
+					"доля": 0.084,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.698
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виктор Жидков",
+					"en": "Viktor Zhidkov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "технократ рынка, осторожен в словах",
+					"en": "a market technocrat"
+				}
+			},
+			"staff": 2500,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Воздвиженка, Москва",
+						"en": "Vozdvizhenka, Moscow"
+					},
+					"ш": 55.753,
+					"д": 37.604,
+					"province": 882,
+					"staff": 2300,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.moex.com/s197 | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "phosagro",
+			"название": {
+				"ru": "ФосАгро",
+				"en": "PhosAgro"
+			},
+			"sector": "metallurgy",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Фосфорные удобрения из хибинских апатитов, крупнейший в Европе производитель.",
+				"en": "Phosphate fertilisers from Khibiny apatite, Europe's largest producer."
+			},
+			"fundamental": {
+				"выручка": 6100,
+				"profit": 1300,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 129.5,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Гурьевых",
+						"en": "The Guryev family"
+					},
+					"type": "крупный",
+					"доля": 0.48,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Владимир Литвиненко",
+						"en": "Vladimir Litvinenko"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.32
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаил Рыбников",
+					"en": "Mikhail Rybnikov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик-производственник, спокоен",
+					"en": "a chemical production man"
+				}
+			},
+			"staff": 22000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.56,
+					"province": 882,
+					"staff": 1000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Апатит, Кировск",
+						"en": "Apatit, Kirovsk"
+					},
+					"ш": 67.61,
+					"д": 33.67,
+					"province": 126,
+					"staff": 9000,
+					"fine": 3382
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Апатит, Череповец",
+						"en": "Apatit, Cherepovets"
+					},
+					"ш": 59.13,
+					"д": 37.87,
+					"province": 879,
+					"staff": 7000,
+					"fine": 3395
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Балаковский филиал",
+						"en": "Balakovo branch"
+					},
+					"ш": 52.03,
+					"д": 47.8,
+					"province": 396,
+					"staff": 3000,
+					"fine": 3429
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Метахим, Волхов",
+						"en": "Metakhim, Volkhov"
+					},
+					"ш": 59.92,
+					"д": 32.33,
+					"province": 130,
+					"staff": 1500,
+					"fine": 3385
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.phosagro.ru/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "severstal",
+			"название": {
+				"ru": "Северсталь",
+				"en": "Severstal"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1955,
+			"description": {
+				"ru": "Череповецкая сталь, окатыши Карелии и уголь Воркуты.",
+				"en": "Cherepovets steel, Karelian pellets and Vorkuta coal."
+			},
+			"fundamental": {
+				"выручка": 8900,
+				"profit": 1100,
+				"debt": 1500,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 838,
+				"market_cap": 10500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Алексей Мордашов",
+						"en": "Alexey Mordashov"
+					},
+					"type": "крупный",
+					"доля": 0.77,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.23
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Шевелев",
+					"en": "Alexander Shevelev"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец-реформатор, внедряет «бережливое производство»",
+					"en": "a reforming manager"
+				}
+			},
+			"staff": 50000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Череповец",
+						"en": "Headquarters, Cherepovets"
+					},
+					"ш": 59.12,
+					"д": 37.93,
+					"province": 879,
+					"staff": 30000,
+					"fine": 3395
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Карельский окатыш, Костомукша",
+						"en": "Karelsky Okatysh, Kostomuksha"
+					},
+					"ш": 64.58,
+					"д": 30.58,
+					"province": 127,
+					"staff": 5000,
+					"fine": 3389
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Олкон, Оленегорск",
+						"en": "Olcon, Olenegorsk"
+					},
+					"ш": 68.14,
+					"д": 33.28,
+					"province": 126,
+					"staff": 2500,
+					"fine": 3382
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Воркутауголь",
+						"en": "Vorkutaugol"
+					},
+					"ш": 67.5,
+					"д": 64.05,
+					"province": 1153,
+					"staff": 7000,
+					"fine": 3419
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://severstal.com/rus/ir/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "mmk",
+			"название": {
+				"ru": "ММК",
+				"en": "MMK"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1932,
+			"description": {
+				"ru": "Магнитогорский металлургический комбинат — сталь Урала с 1932 года.",
+				"en": "Magnitogorsk Iron and Steel Works — Ural steel since 1932."
+			},
+			"fundamental": {
+				"выручка": 8300,
+				"profit": 400,
+				"debt": 500,
+				"money": 1000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 11175,
+				"market_cap": 4400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Виктор Рашников",
+						"en": "Viktor Rashnikov"
+					},
+					"type": "крупный",
+					"доля": 0.8,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.2
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Павел Шиляев",
+					"en": "Pavel Shilyaev"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург, выросший на комбинате",
+					"en": "a steelman raised at the works"
+				}
+			},
+			"staff": 55000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Магнитогорск",
+						"en": "Headquarters, Magnitogorsk"
+					},
+					"ш": 53.41,
+					"д": 58.98,
+					"province": 392,
+					"staff": 45000,
+					"fine": 3415
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Белон, Кузбасс",
+						"en": "Belon, Kuzbass"
+					},
+					"ш": 54.5,
+					"д": 86.3,
+					"province": 871,
+					"staff": 4000,
+					"fine": 3437
+				}
+			],
+			"промыслы": [
+				"Магнитогорский металлургический комбинат"
+			],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://mmk.ru/ru/investor/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "psb",
+			"название": {
+				"ru": "ПСБ",
+				"en": "PSB"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Опорный банк оборонной промышленности.",
+				"en": "The backbone bank of the defence industry."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пётр Фрадков",
+					"en": "Pyotr Fradkov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2018,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сын бывшего премьера, осторожный администратор оборонного банка",
+					"en": "a former premier's son"
+				}
+			},
+			"staff": 30000,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Смирновская, Москва",
+						"en": "Smirnovskaya, Moscow"
+					},
+					"ш": 55.73,
+					"д": 37.68,
+					"province": 882,
+					"staff": 12000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Филиал в Нижнем Новгороде",
+						"en": "Nizhny Novgorod branch"
+					},
+					"ш": 56.32,
+					"д": 44.0,
+					"province": 878,
+					"staff": 2000,
+					"fine": 3393
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.psbank.ru/Corporate/FinancialMarkets/IR | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "domrf",
+			"название": {
+				"ru": "ДОМ.РФ",
+				"en": "DOM.RF"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1997,
+			"description": {
+				"ru": "Госинститут жилищной политики: ипотека, проектное финансирование строек.",
+				"en": "The state housing institution: mortgages and project finance for builders."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 1000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.9,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виталий Мутко",
+					"en": "Vitaly Mutko"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший министр, мастер аппаратных компромиссов",
+					"en": "a former minister"
+				}
+			},
+			"staff": 10000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Воздвиженка, Москва",
+						"en": "Vozdvizhenka, Moscow"
+					},
+					"ш": 55.752,
+					"д": 37.6,
+					"province": 882,
+					"staff": 6000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://xn--d1aqf.xn--p1ai/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "raiffeisen",
+			"название": {
+				"ru": "Райффайзенбанк",
+				"en": "Raiffeisenbank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Российская «дочка» австрийской RBI — застрявший между уходом и заработком.",
+				"en": "The Russian arm of Austria's RBI, stuck between leaving and earning."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 1100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Raiffeisen Bank International",
+						"en": "Raiffeisen Bank International"
+					},
+					"type": "company",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Монин",
+					"en": "Sergey Monin"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2016,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир между двух огней — Веной и Москвой",
+					"en": "a banker caught between Vienna and Moscow"
+				}
+			},
+			"staff": 9000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Смоленская-Сенная, Москва",
+						"en": "Smolenskaya-Sennaya, Moscow"
+					},
+					"ш": 55.745,
+					"д": 37.58,
+					"province": 882,
+					"staff": 5000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.raiffeisen.ru/about/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "rshb",
+			"название": {
+				"ru": "Россельхозбанк",
+				"en": "Russian Agricultural Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 2000,
+			"description": {
+				"ru": "Государственный банк агропрома.",
+				"en": "The state bank of agriculture."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 560,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Борис Листов",
+					"en": "Boris Listov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2018,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "аппаратный банкир, близок к аграрному лобби",
+					"en": "a bureaucratic banker"
+				}
+			},
+			"staff": 30000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гагаринский переулок, Москва",
+						"en": "Gagarinsky Lane, Moscow"
+					},
+					"ш": 55.745,
+					"д": 37.595,
+					"province": 882,
+					"staff": 8000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Филиал в Краснодаре",
+						"en": "Krasnodar branch"
+					},
+					"ш": 45.04,
+					"д": 38.98,
+					"province": 76,
+					"staff": 2000,
+					"fine": 3407
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.rshb.ru/investor/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "rushydro",
+			"название": {
+				"ru": "РусГидро",
+				"en": "RusHydro"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2004,
+			"description": {
+				"ru": "Гидроэлектростанции страны и вся энергетика Дальнего Востока.",
+				"en": "The country's hydro plants and the whole Far East power system."
+			},
+			"fundamental": {
+				"выручка": 6700,
+				"profit": 670,
+				"debt": 7000,
+				"money": 800,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 444000,
+				"market_cap": 2600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.622,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "ВТБ",
+						"en": "VTB"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.278
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виктор Хмарин",
+					"en": "Viktor Khmarin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1983,
+				"доля": 0.0,
+				"характер": {
+					"ru": "молодой управленец с сильными связями",
+					"en": "a young, well-connected manager"
+				}
+			},
+			"staff": 70000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.77,
+					"д": 37.6,
+					"province": 882,
+					"staff": 2000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Саяно-Шушенская ГЭС",
+						"en": "Sayano-Shushenskaya HPP"
+					},
+					"ш": 52.83,
+					"д": 91.37,
+					"province": 873,
+					"staff": 1500,
+					"fine": 3443
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Волжская ГЭС",
+						"en": "Volzhskaya HPP"
+					},
+					"ш": 48.81,
+					"д": 44.72,
+					"province": 398,
+					"staff": 800,
+					"fine": 3405
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Бурейская ГЭС",
+						"en": "Bureya HPP"
+					},
+					"ш": 50.0,
+					"д": 130.4,
+					"province": 985,
+					"staff": 700,
+					"fine": 3446
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Жигулёвская ГЭС",
+						"en": "Zhigulevskaya HPP"
+					},
+					"ш": 53.45,
+					"д": 49.49,
+					"province": 887,
+					"staff": 700,
+					"fine": 3428
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "РАО ЭС Востока, Хабаровск",
+						"en": "RAO ES Vostoka, Khabarovsk"
+					},
+					"ш": 48.48,
+					"д": 135.08,
+					"province": 987,
+					"staff": 30000,
+					"fine": 3451
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://rushydro.ru/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "magnit",
+			"название": {
+				"ru": "Магнит",
+				"en": "Magnit"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Вторая розничная сеть страны родом из Краснодара.",
+				"en": "The country's second retailer, born in Krasnodar."
+			},
+			"fundamental": {
+				"выручка": 35500,
+				"profit": 450,
+				"debt": 5000,
+				"money": 1000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 102,
+				"market_cap": 3900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Марафон Групп (Александр Винокуров)",
+						"en": "Marathon Group (Alexander Vinokurov)"
+					},
+					"type": "крупный",
+					"доля": 0.29,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Казначейские акции",
+						"en": "Treasury shares"
+					},
+					"type": "сама",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Винокуров",
+					"en": "Alexander Vinokurov"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2023,
+				"born_year": 1982,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инвестор-фармацевт, пришёл перестраивать сеть",
+					"en": "an investor rebuilding the chain"
+				}
+			},
+			"staff": 360000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Краснодар",
+						"en": "Headquarters, Krasnodar"
+					},
+					"ш": 45.04,
+					"д": 38.98,
+					"province": 76,
+					"staff": 8000,
+					"fine": 3407
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Подмосковье",
+						"en": "Moscow region DC"
+					},
+					"ш": 55.55,
+					"д": 37.9,
+					"province": 882,
+					"staff": 15000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Санкт-Петербург",
+						"en": "Saint Petersburg DC"
+					},
+					"ш": 59.85,
+					"д": 30.5,
+					"province": 130,
+					"staff": 8000,
+					"fine": 3386
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "РЦ Казань",
+						"en": "Kazan DC"
+					},
+					"ш": 55.78,
+					"д": 49.2,
+					"province": 883,
+					"staff": 6000,
+					"fine": 3430
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.magnit.com/ru/shareholders-and-investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "mts",
+			"название": {
+				"ru": "МТС",
+				"en": "MTS"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейший мобильный оператор и экосистема: связь, банк, облака, кинотеатр.",
+				"en": "The largest mobile operator and an ecosystem: telecom, bank, cloud, streaming."
+			},
+			"fundamental": {
+				"выручка": 7800,
+				"profit": 620,
+				"debt": 5200,
+				"money": 750,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1998,
+				"market_cap": 4800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "АФК «Система» (Владимир Евтушенков)",
+						"en": "Sistema (Vladimir Evtushenkov)"
+					},
+					"type": "крупный",
+					"доля": 0.42,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.58
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Инесса Галактионова",
+					"en": "Inessa Galaktionova"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком-менеджер, делает ставку на цифровые сервисы",
+					"en": "a telecom manager betting on digital services"
+				}
+			},
+			"staff": 60000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Воронцовская, Москва",
+						"en": "Vorontsovskaya, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.66,
+					"province": 882,
+					"staff": 15000,
+					"fine": 3401
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Санкт-Петербурге",
+						"en": "Saint Petersburg data centre"
+					},
+					"ш": 59.9,
+					"д": 30.4,
+					"province": 130,
+					"staff": 500,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Макрорегион Урал, Екатеринбург",
+						"en": "Ural macro-region, Yekaterinburg"
+					},
+					"ш": 56.84,
+					"д": 60.6,
+					"province": 866,
+					"staff": 5000,
+					"fine": 3422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://moskva.mts.ru/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "megafon",
+			"название": {
+				"ru": "МегаФон",
+				"en": "MegaFon"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Второй оператор связи страны, принадлежит группе Усманова.",
+				"en": "The country's second mobile operator, owned by Usmanov's group."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 560,
+				"debt": 3000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "USM (Алишер Усманов)",
+						"en": "USM (Alisher Usmanov)"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хачатур Помбухчан",
+					"en": "Khachatur Pombukhchan"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оператор-технарь, строит сети быстро",
+					"en": "a network builder"
+				}
+			},
+			"staff": 30000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Оружейный переулок, Москва",
+						"en": "Oruzheyny Lane, Moscow"
+					},
+					"ш": 55.77,
+					"д": 37.6,
+					"province": 882,
+					"staff": 8000,
+					"fine": 3401
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Северо-Западный филиал",
+						"en": "North-West branch"
+					},
+					"ш": 59.95,
+					"д": 30.3,
+					"province": 130,
+					"staff": 3000,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://corp.megafon.ru/investoram/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "bspb",
+			"название": {
+				"ru": "Банк «Санкт-Петербург»",
+				"en": "Bank Saint Petersburg"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Главный региональный банк Петербурга.",
+				"en": "Saint Petersburg's main regional bank."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 550,
+				"debt": 0,
+				"money": 0,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 450,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Александр Савельев и менеджмент",
+						"en": "Alexander Saveliev and management"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Савельев",
+					"en": "Alexander Saveliev"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1995,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "петербургский банкир, консервативен",
+					"en": "a conservative Petersburg banker"
+				}
+			},
+			"staff": 4500,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Малоохтинский проспект, Санкт-Петербург",
+						"en": "Malookhtinsky Avenue, Saint Petersburg"
+					},
+					"ш": 59.93,
+					"д": 30.41,
+					"province": 130,
+					"staff": 4000,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.bspb.ru/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "aeroflot",
+			"название": {
+				"ru": "Аэрофлот",
+				"en": "Aeroflot"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1923,
+			"description": {
+				"ru": "Главный авиаперевозчик страны; летает без западных запчастей.",
+				"en": "The country's flag carrier, flying without Western spare parts."
+			},
+			"fundamental": {
+				"выручка": 9700,
+				"profit": 600,
+				"debt": 6000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 3975,
+				"market_cap": 2700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.738,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.262
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Александровский",
+					"en": "Sergey Aleksandrovsky"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер, держит флот на ремонте и импортозамещении",
+					"en": "an airline manager keeping the fleet flying"
+				}
+			},
+			"staff": 45000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Арбат, Москва",
+						"en": "Arbat, Moscow"
+					},
+					"ш": 55.75,
+					"д": 37.59,
+					"province": 882,
+					"staff": 5000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хаб Шереметьево",
+						"en": "Sheremetyevo hub"
+					},
+					"ш": 55.97,
+					"д": 37.41,
+					"province": 882,
+					"staff": 20000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Пулково, Санкт-Петербург",
+						"en": "Pulkovo, Saint Petersburg"
+					},
+					"ш": 59.8,
+					"д": 30.26,
+					"province": 130,
+					"staff": 3000,
+					"fine": 3386
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Хаб Красноярск",
+						"en": "Krasnoyarsk hub"
+					},
+					"ш": 56.17,
+					"д": 92.49,
+					"province": 1172,
+					"staff": 2500,
+					"fine": 3443
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Сочи",
+						"en": "Sochi"
+					},
+					"ш": 43.45,
+					"д": 39.95,
+					"province": 76,
+					"staff": 1500,
+					"fine": 3407
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://ir.aeroflot.ru/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "alrosa",
+			"название": {
+				"ru": "Алроса",
+				"en": "Alrosa"
+			},
+			"sector": "metallurgy",
+			"profile": "diamonds",
+			"type": "государственная",
+			"founded": 1992,
+			"description": {
+				"ru": "Крупнейший в мире добытчик алмазов, Якутия.",
+				"en": "The world's largest diamond miner, Yakutia."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 250,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 7365,
+				"market_cap": 3700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.33,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Республика Саха (Якутия)",
+						"en": "Republic of Sakha (Yakutia)"
+					},
+					"type": "polity",
+					"доля": 0.33,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Улусы Якутии",
+						"en": "Yakutia districts"
+					},
+					"type": "polity",
+					"доля": 0.08,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Павел Маринычев",
+					"en": "Pavel Marinychev"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1981,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставленник Якутии, бережёт рабочие места севера",
+					"en": "Yakutia's man, protects northern jobs"
+				}
+			},
+			"staff": 30000,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Мирный",
+						"en": "Headquarters, Mirny"
+					},
+					"ш": 62.53,
+					"д": 113.96,
+					"province": 1163,
+					"staff": 8000,
+					"fine": 3449
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Удачный",
+						"en": "Udachny"
+					},
+					"ш": 66.42,
+					"д": 112.4,
+					"province": 1161,
+					"staff": 6000,
+					"fine": 3449
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ломоносовское месторождение, Архангельская область",
+						"en": "Lomonosov deposit, Arkhangelsk Oblast"
+					},
+					"ш": 65.2,
+					"д": 41.0,
+					"province": 644,
+					"staff": 1500,
+					"fine": 3390
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Москве",
+						"en": "Moscow office"
+					},
+					"ш": 55.745,
+					"д": 37.62,
+					"province": 882,
+					"staff": 1000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://alrosa.ru/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "ugmk",
+			"название": {
+				"ru": "УГМК",
+				"en": "UMMC"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Уральская горно-металлургическая компания: медь, цинк, уголь, заводы Урала.",
+				"en": "Urals Mining and Metallurgical Company: copper, zinc, coal."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1100,
+				"debt": 5000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Искандар Махмудов",
+						"en": "Iskandar Makhmudov"
+					},
+					"type": "крупный",
+					"доля": 0.5,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Андрей Бокарев",
+						"en": "Andrey Bokarev"
+					},
+					"type": "крупный",
+					"доля": 0.5,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эльфат Исмагилов",
+					"en": "Elfat Ismagilov"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2022,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "уральский промышленник, хозяин Верхней Пышмы",
+					"en": "a Ural industrialist"
+				}
+			},
+			"staff": 90000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Верхняя Пышма",
+						"en": "Headquarters, Verkhnyaya Pyshma"
+					},
+					"ш": 56.97,
+					"д": 60.58,
+					"province": 866,
+					"staff": 15000,
+					"fine": 3422
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Гайский ГОК",
+						"en": "Gaysky GOK"
+					},
+					"ш": 51.47,
+					"д": 58.45,
+					"province": 394,
+					"staff": 8000,
+					"fine": 3427
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Кузбассразрезуголь",
+						"en": "Kuzbassrazrezugol"
+					},
+					"ш": 54.36,
+					"д": 86.3,
+					"province": 871,
+					"staff": 20000,
+					"fine": 3437
+				}
+			],
+			"промыслы": [
+				"Кузбассразрезуголь"
+			],
+			"оценка": [
+				"всё — оценка",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.ugmk.com/ | Оценочно: всё — оценка; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "metalloinvest",
+			"название": {
+				"ru": "Металлоинвест",
+				"en": "Metalloinvest"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Железная руда Курской магнитной аномалии и горячебрикетированное железо.",
+				"en": "Iron ore from the Kursk Magnetic Anomaly and HBI."
+			},
+			"fundamental": {
+				"выручка": 6100,
+				"profit": 1100,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "USM (Алишер Усманов)",
+						"en": "USM (Alisher Usmanov)"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Олег Крестинин",
+					"en": "Oleg Krestinin"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец владельца, держит курс на экологичную сталь",
+					"en": "the owner's manager"
+				}
+			},
+			"staff": 50000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.72,
+					"д": 37.55,
+					"province": 882,
+					"staff": 1000,
+					"fine": 3401
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Лебединский ГОК, Губкин",
+						"en": "Lebedinsky GOK, Gubkin"
+					},
+					"ш": 51.28,
+					"д": 37.55,
+					"province": 867,
+					"staff": 10000,
+					"fine": 3406
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Михайловский ГОК, Железногорск",
+						"en": "Mikhailovsky GOK, Zheleznogorsk"
+					},
+					"ш": 52.34,
+					"д": 35.37,
+					"province": 867,
+					"staff": 9000,
+					"fine": 3402
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ОЭМК, Старый Оскол",
+						"en": "OEMK, Stary Oskol"
+					},
+					"ш": 51.3,
+					"д": 37.84,
+					"province": 867,
+					"staff": 7000,
+					"fine": 3406
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Уральская сталь, Новотроицк",
+						"en": "Ural Steel, Novotroitsk"
+					},
+					"ш": 51.2,
+					"д": 58.3,
+					"province": 394,
+					"staff": 10000,
+					"fine": 3427
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.metalloinvest.com/investors/ | Оценочно: всё — оценка; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "acron",
+			"название": {
+				"ru": "Акрон",
+				"en": "Acron"
+			},
+			"sector": "metallurgy",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Азотные удобрения из Великого Новгорода.",
+				"en": "Nitrogen fertilisers from Veliky Novgorod."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 560,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 36.3,
+				"market_cap": 7200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Вячеслав Кантор",
+						"en": "Viatcheslav Kantor"
+					},
+					"type": "крупный",
+					"доля": 0.9,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Попов",
+					"en": "Alexander Popov"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2012,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик-производственник",
+					"en": "a chemical production man"
+				}
+			},
+			"staff": 16000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Великий Новгород",
+						"en": "Headquarters, Veliky Novgorod"
+					},
+					"ш": 58.52,
+					"д": 31.27,
+					"province": 880,
+					"staff": 7000,
+					"fine": 3383
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Дорогобуж",
+						"en": "Dorogobuzh"
+					},
+					"ш": 54.91,
+					"д": 33.3,
+					"province": 194,
+					"staff": 3000,
+					"fine": 3388
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Талицкий ГОК",
+						"en": "Talitsky GOK"
+					},
+					"ш": 59.8,
+					"д": 56.9,
+					"province": 886,
+					"staff": 1000,
+					"fine": 3455
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.acron.ru/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "eurochem",
+			"название": {
+				"ru": "ЕвроХим",
+				"en": "EuroChem"
+			},
+			"sector": "metallurgy",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Азот, фосфор и калий: крупный производитель удобрений.",
+				"en": "Nitrogen, phosphate and potash: a major fertiliser producer."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1500,
+				"debt": 5000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мельниченко (через траст)",
+						"en": "The Melnichenko family (via a trust)"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вадим Рябов",
+					"en": "Vadim Ryabov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управленец, держит заводы на экспорт",
+					"en": "a manager focused on exports"
+				}
+			},
+			"staff": 27000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Офис в Москве",
+						"en": "Moscow office"
+					},
+					"ш": 55.75,
+					"д": 37.6,
+					"province": 882,
+					"staff": 1500,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Невинномысский Азот",
+						"en": "Nevinnomyssk Azot"
+					},
+					"ш": 44.63,
+					"д": 41.94,
+					"province": 888,
+					"staff": 5000,
+					"fine": 3379
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Новомосковский Азот",
+						"en": "Novomoskovsk Azot"
+					},
+					"ш": 54.03,
+					"д": 38.27,
+					"province": 872,
+					"staff": 5000,
+					"fine": 3404
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ковдорский ГОК",
+						"en": "Kovdorsky GOK"
+					},
+					"ш": 67.57,
+					"д": 30.47,
+					"province": 126,
+					"staff": 4000,
+					"fine": 3382
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Усольский калийный комбинат",
+						"en": "Usolsky potash combine"
+					},
+					"ш": 59.4,
+					"д": 56.9,
+					"province": 886,
+					"staff": 2000,
+					"fine": 3455
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"глава.имя",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.eurochemgroup.com/ru/ | Оценочно: всё — оценка; глава.имя; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "sovcomflot",
+			"название": {
+				"ru": "Совкомфлот",
+				"en": "Sovcomflot"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1988,
+			"description": {
+				"ru": "Государственный танкерный флот: нефть и СПГ из Арктики.",
+				"en": "The state tanker fleet: oil and LNG from the Arctic."
+			},
+			"fundamental": {
+				"выручка": 1700,
+				"profit": 330,
+				"debt": 2000,
+				"money": 500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 2375,
+				"market_cap": 2800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.828,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.172
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игорь Тонковидов",
+					"en": "Igor Tonkovidov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "капитан дальнего плавания в кабинете",
+					"en": "a sea captain in an office"
+				}
+			},
+			"staff": 8000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Санкт-Петербург",
+						"en": "Headquarters, Saint Petersburg"
+					},
+					"ш": 59.93,
+					"д": 30.27,
+					"province": 130,
+					"staff": 1500,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Москве",
+						"en": "Moscow office"
+					},
+					"ш": 55.75,
+					"д": 37.62,
+					"province": 882,
+					"staff": 500,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Мурманск",
+						"en": "Murmansk port"
+					},
+					"ш": 68.97,
+					"д": 33.08,
+					"province": 126,
+					"staff": 800,
+					"fine": 3382
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.scf-group.com/investors/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "vkusno",
+			"название": {
+				"ru": "«Вкусно — и точка»",
+				"en": "Vkusno & tochka"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Бывшие рестораны McDonald's в России, новичок рейтинга прибыльных компаний.",
+				"en": "Russia's former McDonald's restaurants, a newcomer to the most-profitable ranking."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 400,
+				"debt": 500,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Александр Говор",
+						"en": "Alexander Govor"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Олег Пароев",
+					"en": "Oleg Paroev"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший топ McDonald's, держит стандарты",
+					"en": "a former McDonald's executive"
+				}
+			},
+			"staff": 70000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.765,
+					"д": 37.605,
+					"province": 882,
+					"staff": 3000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Рестораны Подмосковья",
+						"en": "Moscow region restaurants"
+					},
+					"ш": 55.8,
+					"д": 37.7,
+					"province": 882,
+					"staff": 20000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Рестораны Санкт-Петербурга",
+						"en": "Saint Petersburg restaurants"
+					},
+					"ш": 59.93,
+					"д": 30.34,
+					"province": 130,
+					"staff": 8000,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://vkusnoitochka.ru/ | Оценочно: всё — оценка; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "uralchem",
+			"название": {
+				"ru": "Уралхим",
+				"en": "Uralchem"
+			},
+			"sector": "metallurgy",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 2007,
+			"description": {
+				"ru": "Азотные удобрения и аммиачная селитра; владеет «Уралкалием».",
+				"en": "Nitrogen fertilisers and ammonium nitrate; owns Uralkali."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 700,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Дмитрий Мазепин",
+						"en": "Dmitry Mazepin"
+					},
+					"type": "крупный",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дмитрий Коновалов",
+					"en": "Dmitry Konovalov"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "человек владельца",
+					"en": "the owner's man"
+				}
+			},
+			"staff": 15000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.73,
+					"д": 37.62,
+					"province": 882,
+					"staff": 800,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Азот, Березники",
+						"en": "Azot, Berezniki"
+					},
+					"ш": 59.4,
+					"д": 56.78,
+					"province": 886,
+					"staff": 5000,
+					"fine": 3455
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Кирово-Чепецкий химкомбинат",
+						"en": "Kirovo-Chepetsk chemical plant"
+					},
+					"ш": 58.55,
+					"д": 50.05,
+					"province": 884,
+					"staff": 5000,
+					"fine": 3420
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"глава.имя",
+				"рынок — не торгуется",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://uralchem.ru/ | Оценочно: всё — оценка; глава.имя; рынок — не торгуется; сотрудники в точках; wage"
+		},
+		{
+			"id": "rostelecom",
+			"название": {
+				"ru": "Ростелеком",
+				"en": "Rostelecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1993,
+			"description": {
+				"ru": "Государственный оператор фиксированной связи, облаков и госуслуг; владеет Т2.",
+				"en": "The state fixed-line, cloud and e-government operator; owns T2."
+			},
+			"fundamental": {
+				"выручка": 8300,
+				"profit": 170,
+				"debt": 7000,
+				"money": 500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 3500,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Росимущество)",
+						"en": "The state (Rosimushchestvo)"
+					},
+					"type": "polity",
+					"доля": 0.382,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Мобител",
+						"en": "Mobitel"
+					},
+					"type": "company",
+					"доля": 0.227,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.391
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаил Осеевский",
+					"en": "Mikhail Oseevsky"
+				},
+				"роль": "госслужащий",
+				"с_года": 2013,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "опытный связист, аккуратен с государством",
+					"en": "a veteran telecom manager"
+				}
+			},
+			"staff": 130000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гончарная, Москва",
+						"en": "Goncharnaya, Moscow"
+					},
+					"ш": 55.74,
+					"д": 37.65,
+					"province": 882,
+					"staff": 10000,
+					"fine": 3401
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Удомле",
+						"en": "Udomlya data centre"
+					},
+					"ш": 57.88,
+					"д": 35.0,
+					"province": 881,
+					"staff": 500,
+					"fine": 3394
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Макрорегион Северо-Запад",
+						"en": "North-West macro-region"
+					},
+					"ш": 59.93,
+					"д": 30.33,
+					"province": 130,
+					"staff": 15000,
+					"fine": 3386
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Макрорегион Сибирь",
+						"en": "Siberia macro-region"
+					},
+					"ш": 55.03,
+					"д": 82.92,
+					"province": 391,
+					"staff": 15000,
+					"fine": 3439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка",
+				"сотрудники в точках",
+				"wage"
+			],
+			"forbes_2026": null,
+			"source": "https://www.company.rt.ru/ir/ | Оценочно: всё — оценка; сотрудники в точках; wage"
+		},
+		{
+			"id": "roscosmos",
+			"название": {
+				"ru": "Роскосмос",
+				"en": "Roscosmos"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "государственная",
+			"founded": 2015,
+			"description": {
+				"ru": "Государственная корпорация: ракеты «Союз» и «Ангара», пилотируемые полёты, космодром Восточный.",
+				"en": "The state corporation: Soyuz and Angara rockets, crewed flights, the Vostochny cosmodrome."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": -200,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство России",
+						"en": "The Russian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дмитрий Баканов",
+					"en": "Dmitry Bakanov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1986,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 170000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.79,
+					"д": 37.6,
+					"province": 882,
+					"staff": 20000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Королёв (РКК «Энергия»)",
+						"en": "Korolyov (RSC Energia)"
+					},
+					"ш": 55.92,
+					"д": 37.82,
+					"province": 882,
+					"staff": 40000,
+					"fine": 3400
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Самара («Прогресс»)",
+						"en": "Samara (Progress)"
+					},
+					"ш": 53.2,
+					"д": 50.15,
+					"province": 887,
+					"staff": 50000,
+					"fine": 3428
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Восточный",
+						"en": "Vostochny"
+					},
+					"ш": 51.88,
+					"д": 128.33,
+					"province": 985,
+					"staff": 10000,
+					"fine": 3446
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Москва (Хруничев)",
+						"en": "Moscow (Khrunichev)"
+					},
+					"ш": 55.75,
+					"д": 37.47,
+					"province": 882,
+					"staff": 50000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.roscosmos.ru/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "kurchatov",
+			"название": {
+				"ru": "Курчатовский институт",
+				"en": "Kurchatov Institute"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "государственная",
+			"founded": 1943,
+			"description": {
+				"ru": "Национальный исследовательский центр: атом, синхротроны, нанотехнологии.",
+				"en": "The national research centre: nuclear physics, synchrotrons, nanotechnology."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 20,
+				"debt": 100,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство России",
+						"en": "The Russian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаил Ковальчук",
+					"en": "Mikhail Kovalchuk"
+				},
+				"роль": "госслужащий",
+				"с_года": 2005,
+				"born_year": 1946,
+				"доля": 0.0,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 20000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.8,
+					"д": 37.48,
+					"province": 882,
+					"staff": 12000,
+					"fine": 3401
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Гатчина",
+						"en": "Gatchina"
+					},
+					"ш": 59.57,
+					"д": 30.12,
+					"province": 130,
+					"staff": 4000,
+					"fine": 3385
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Протвино",
+						"en": "Protvino"
+					},
+					"ш": 54.87,
+					"д": 37.22,
+					"province": 872,
+					"staff": 4000,
+					"fine": 3397
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "http://nrcki.ru/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "ozon",
+			"название": {
+				"ru": "Ozon",
+				"en": "Ozon"
+			},
+			"aliases": [
+				"Озон"
+			],
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Второй маркетплейс страны: склады по всей России, свой банк и доставка до пункта выдачи.",
+				"en": "The country's second marketplace: warehouses all over Russia, its own bank and pick-up points."
+			},
+			"fundamental": {
+				"выручка": 7600,
+				"profit": -300,
+				"debt": 4000,
+				"money": 2500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 216,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "АФК «Система»",
+						"en": "AFK Sistema"
+					},
+					"type": "крупный",
+					"доля": 0.26,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Российские инвесторы (бывшая доля Baring Vostok)",
+						"en": "Russian investors (the former Baring Vostok stake)"
+					},
+					"type": "крупный",
+					"доля": 0.25,
+					"country": "Россия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры",
+						"en": "Free float"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игорь Герасимов",
+					"en": "Igor Gerasimov"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1987,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наёмный менеджер, ставит рост выше прибыли, догоняет Wildberries",
+					"en": "a hired manager, puts growth before profit, chasing Wildberries"
+				}
+			},
+			"staff": 60000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва-Сити",
+						"en": "Headquarters, Moscow City"
+					},
+					"ш": 55.749,
+					"д": 37.539,
+					"province": 882,
+					"staff": 5000,
+					"fine": 3401
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Хоругвино",
+						"en": "Khorugvino warehouse"
+					},
+					"ш": 56.17,
+					"д": 37.27,
+					"province": 882,
+					"staff": 14000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Петровском",
+						"en": "Petrovskoye warehouse"
+					},
+					"ш": 55.6,
+					"д": 37.9,
+					"province": 882,
+					"staff": 9000,
+					"fine": 3400
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Казани",
+						"en": "Kazan warehouse"
+					},
+					"ш": 55.78,
+					"д": 49.2,
+					"province": 883,
+					"staff": 8000,
+					"fine": 3430
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Екатеринбурге",
+						"en": "Yekaterinburg warehouse"
+					},
+					"ш": 56.8,
+					"д": 60.65,
+					"province": 866,
+					"staff": 8000,
+					"fine": 3422
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Санкт-Петербурге",
+						"en": "St Petersburg warehouse"
+					},
+					"ш": 59.85,
+					"д": 30.5,
+					"province": 130,
+					"staff": 8000,
+					"fine": 3386
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Склад в Краснодаре",
+						"en": "Krasnodar warehouse"
+					},
+					"ш": 45.03,
+					"д": 39.04,
+					"province": 76,
+					"staff": 8000,
+					"fine": 3407
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"fundamental — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"owners — оценка"
+			],
+			"source": "https://ir.ozon.com/ru/ | Оценочно: fundamental — оценка по отчётам 2024–2025; сотрудники в точках; wage; owners — оценка"
+		},
+		{
+			"id": "rostec",
+			"название": {
+				"ru": "Ростех",
+				"en": "Rostec"
+			},
+			"aliases": [
+				"Ростехнологии",
+				"Rostekh"
+			],
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2007,
+			"description": {
+				"ru": "Государственная корпорация: танки, вертолёты, авиадвигатели, электроника, КАМАЗ и сотни заводов оборонки.",
+				"en": "The state corporation: tanks, helicopters, aircraft engines, electronics, KAMAZ and hundreds of defence plants."
+			},
+			"fundamental": {
+				"выручка": 35500,
+				"profit": 1800,
+				"debt": 20000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство России",
+						"en": "The Russian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сергей Чемезов",
+					"en": "Sergey Chemezov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2007,
+				"born_year": 1952,
+				"доля": 0.0,
+				"характер": {
+					"ru": "давний руководитель госкорпорации, опытный аппаратчик",
+					"en": "the state corporation's long-time head, a seasoned official"
+				}
+			},
+			"staff": 600000,
+			"wage": 950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Москва",
+						"en": "Headquarters, Moscow"
+					},
+					"ш": 55.73,
+					"д": 37.57,
+					"province": 882,
+					"staff": 30000,
+					"fine": 3401
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Уралвагонзавод, Нижний Тагил",
+						"en": "Uralvagonzavod, Nizhny Tagil"
+					},
+					"ш": 57.93,
+					"д": 59.95,
+					"province": 866,
+					"staff": 90000,
+					"fine": 3422
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Казанский вертолётный завод",
+						"en": "Kazan Helicopter Plant"
+					},
+					"ш": 55.88,
+					"д": 49.18,
+					"province": 883,
+					"staff": 60000,
+					"fine": 3430
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "КАМАЗ, Набережные Челны",
+						"en": "KAMAZ, Naberezhnye Chelny"
+					},
+					"ш": 55.74,
+					"д": 52.4,
+					"province": 869,
+					"staff": 120000,
+					"fine": 3430
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ОДК-Сатурн, Рыбинск",
+						"en": "UEC-Saturn, Rybinsk"
+					},
+					"ш": 58.05,
+					"д": 38.83,
+					"province": 876,
+					"staff": 90000,
+					"fine": 3396
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Авиазавод, Комсомольск-на-Амуре",
+						"en": "Aircraft plant, Komsomolsk-on-Amur"
+					},
+					"ш": 50.55,
+					"д": 137.0,
+					"province": 987,
+					"staff": 80000,
+					"fine": 3451
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "КРЭТ, Москва",
+						"en": "KRET, Moscow"
+					},
+					"ш": 55.79,
+					"д": 37.6,
+					"province": 882,
+					"staff": 130000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2023–2024",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://rostec.ru/ | Оценочно: всё — оценка по отчётам 2023–2024; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "kalashnikov",
+			"название": {
+				"ru": "Концерн «Калашников»",
+				"en": "Kalashnikov Concern"
+			},
+			"aliases": [
+				"Калашников",
+				"Kalashnikov",
+				"Ижмаш"
+			],
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1807,
+			"description": {
+				"ru": "Стрелковое оружие (автоматы АК), боевые катера, беспилотники и гражданские ружья; главный завод — в Ижевске.",
+				"en": "Small arms (the AK rifles), patrol boats, drones and civilian guns; the main plant is in Izhevsk."
+			},
+			"fundamental": {
+				"выручка": 950,
+				"profit": 90,
+				"debt": 350,
+				"money": 120,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ростех",
+						"en": "Rostec"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Россия",
+					"company": "rostec"
+				},
+				{
+					"кто": {
+						"ru": "Частные инвесторы (группа Алана Лушникова)",
+						"en": "Private investors (Alan Lushnikov's group)"
+					},
+					"type": "крупный",
+					"доля": 0.75,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алан Лушников",
+					"en": "Alan Lushnikov"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "совладелец, делает ставку на беспилотники и экспорт",
+					"en": "a co-owner betting on drones and exports"
+				}
+			},
+			"staff": 15000,
+			"wage": 850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира и завод, Ижевск",
+						"en": "Headquarters and plant, Izhevsk"
+					},
+					"ш": 56.85,
+					"д": 53.21,
+					"province": 869,
+					"staff": 11000,
+					"fine": 3423
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Рыбинская верфь (катера)",
+						"en": "Rybinsk shipyard (boats)"
+					},
+					"ш": 58.05,
+					"д": 38.86,
+					"province": 876,
+					"staff": 2000,
+					"fine": 3396
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ZALA Aero, Ижевск (беспилотники)",
+						"en": "ZALA Aero, Izhevsk (drones)"
+					},
+					"ш": 56.87,
+					"д": 53.25,
+					"province": 869,
+					"staff": 2000,
+					"fine": 3423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"fundamental — оценка по отчётам 2022–2024",
+				"сотрудники в точках",
+				"wage",
+				"owners — оценка",
+				"рынок — не торгуется"
+			],
+			"source": "https://kalashnikovgroup.ru/ | Оценочно: fundamental — оценка по отчётам 2022–2024; сотрудники в точках; wage; owners — оценка; рынок — не торгуется"
+		},
+		{
+			"id": "oao_rossiyskie",
+			"название": {
+				"ru": "ОАО «Российские железные дороги» (РЖД)",
+				"en": "ОАО «Российские железные дороги» (РЖД)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2015,
+			"description": {
+				"ru": "Москва — государственная вертикально интегрированная железнодорожная монополия, одна из трех крупнейших транспортных систем мира (85 000 км путей). [Выручка: 35 000 млн $ (3 150 млрд руб.), Чистая прибыль: 1 900 млн $ (170 млрд руб.), Штат: 700 000 чел., Руководитель: Олег Белозёров (Oleg Belozerov), с 2015 года, 1969 г.р.]. Официальные источники: https://company.rzd.ru/ru/9349, https://company.rz",
+				"en": "ОАО «Российские железные дороги» (РЖД) — a transport company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2905,
+				"profit": 194,
+				"debt": 1467,
+				"money": 601,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2075
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7262,
+			"wage": 1718,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7717,
+					"д": 37.6401,
+					"province": 882,
+					"staff": 2178,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gosudarstvennaya_korpora",
+			"название": {
+				"ru": "Государственная корпорация по атомной энергии «Росатом»",
+				"en": "Государственная корпорация по атомной энергии «Росатом»"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Москва — мировой лидер ядерных технологий, обогащения урана (1-е место в мире), зарубежного строительства АЭС и атомного ледокольного флота. [Выручка: 30 000 млн $ (2 650 млрд руб.), Чистая прибыль: 3 500 млн $, Штат: 330 000 чел., Руководитель: Алексей Лихачёв (Alexei Likhachev), с 2016 года, 1962 г.р.]. Официальные источники: https://rosatom.ru/about/publichnaya-otchetnost/, https://rosatom.ru/i",
+				"en": "Государственная корпорация по атомной энергии «Росатом» — a metals and mining company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2852,
+				"profit": 317,
+				"debt": 951,
+				"money": 342,
+				"dividends": 95
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3422
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8239,
+			"wage": 1875,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7591,
+					"д": 37.6442,
+					"province": 882,
+					"staff": 2471,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_pochta",
+			"название": {
+				"ru": "АО «Почта России»",
+				"en": "АО «Почта России»"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Москва — федеральный почтовый и логистический оператор РФ (38 000 отделений по всей стране, логистические хабы, Почта Банк). [Выручка: 2 400 млн $ (220 млрд руб.), Чистая прибыль: -80 млн $, Штат: 270 000 чел., Руководитель: Михаил Волков (Mikhail Volkov), с 2023 года, 1976 г.р.]. Официальные источники: https://www.pochta.ru/about-disclosure, https://www.pochta.ru/investors (Годовой отчет / Раскры",
+				"en": "АО «Почта России» — a transport company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 187,
+				"debt": 1414,
+				"money": 579,
+				"dividends": 56
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7000,
+			"wage": 1718,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7419,
+					"д": 37.6398,
+					"province": 882,
+					"staff": 2100,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "veb_rf",
+			"название": {
+				"ru": "ВЭБ.РФ (Государственная корпорация развития «ВЭБ.РФ»)",
+				"en": "ВЭБ.РФ (Государственная корпорация развития «ВЭБ.РФ»)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Москва — институт развития, финансирующий стратегические инвестиционные проекты в промышленности, инфраструктуре и экспорте. [Выручка: 4 500 млн $ (400 млрд руб.), Чистая прибыль: 800 млн $, Штат: 3 500 чел., Руководитель: Игорь Шувалов (Igor Shuvalov), председатель с 2018 года, 1967 г.р.]. Официальные источники: https://xn--90ab5f.xn--p1ai/investoram/",
+				"en": "ВЭБ.РФ (Государственная корпорация развития «ВЭБ.РФ») — a financial company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2765,
+				"profit": 778,
+				"debt": 0,
+				"money": 0,
+				"dividends": 233
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6452
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7900,
+			"wage": 1725,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7296,
+					"д": 37.6326,
+					"province": 882,
+					"staff": 2370,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "moskovskiy_kreditnyy",
+			"название": {
+				"ru": "Московский кредитный банк (МКБ)",
+				"en": "Московский кредитный банк (МКБ)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Москва — системно значимый банк, один из крупнейших частных банков России по активам и корпоративному кредитованию. [Выручка: 2 200 млн $ (200 млрд руб.), Чистая прибыль: 650 млн $ (59 млрд руб.), Штат: 9 000 чел., Руководитель: Николай Каторжнов (Nikolay Katorzhnov), с 2022 года, 1976 г.р.]. Официальные источники: https://mkb.ru/about/investor",
+				"en": "Московский кредитный банк (МКБ) — a financial company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2730,
+				"profit": 768,
+				"debt": 0,
+				"money": 0,
+				"dividends": 230
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6370
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7800,
+			"wage": 1725,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7702,
+					"д": 37.6283,
+					"province": 882,
+					"staff": 2340,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pao_trubnaya",
+			"название": {
+				"ru": "ПАО «Трубная металлургическая компания» (ТМК)",
+				"en": "ПАО «Трубная металлургическая компания» (ТМК)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Москва — крупнейший мировой и российский производитель стальных труб для нефтегазового сектора (OCTG). [Выручка: 6 500 млн $ (580 млрд руб.), Чистая прибыль: 450 млн $ (39 млрд руб.), Штат: 55 000 чел., Руководитель: Сергей Чикалов (Sergey Chikalov), с 2023 года, 1971 г.р.]. Официальные источники: https://www.tmk-group.ru/investors",
+				"en": "ПАО «Трубная металлургическая компания» (ТМК) — a oil and gas company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2730,
+				"profit": 163,
+				"debt": 769,
+				"money": 259,
+				"dividends": 49
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1698
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2387,
+			"wage": 1878,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7316,
+					"д": 37.5815,
+					"province": 882,
+					"staff": 716,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pao_gruppa",
+			"название": {
+				"ru": "ПАО «Группа Черкизово»",
+				"en": "ПАО «Группа Черкизово»"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Москва — крупнейший в России производитель мясной продукции, комбикормов и агрокультур («Петелинка», «Куриное царство», «Пава-Пава»). [Выручка: 2 600 млн $ (230 млрд руб.), Чистая прибыль: 350 млн $ (33 млрд руб.), Штат: 42 000 чел., Руководитель: Сергей Михайлов (Sergey Mikhailov), с 2006 года, 1978 г.р.]. Официальные источники: https://cherkizovo-group.com/investors/",
+				"en": "ПАО «Группа Черкизово» — a consumer and retail company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2730,
+				"profit": 212,
+				"debt": 630,
+				"money": 228,
+				"dividends": 64
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3740
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8190,
+			"wage": 1167,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7439,
+					"д": 37.5866,
+					"province": 882,
+					"staff": 2457,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gruppa_sportmaster",
+			"название": {
+				"ru": "Группа «Спортмастер»",
+				"en": "Группа «Спортмастер»"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Москва — крупнейшая розничная сеть спортивных товаров и спортивной одежды в РФ и странах СНГ. [Выручка: 2 100 млн $ (190 млрд руб.), Чистая прибыль: 250 млн $, Штат: 25 000 чел., Руководитель: Леонид Страхов (Leonid Strakhov), с 2010 года, 1968 г.р.]. Официальные источники: https://www.sportmaster.ru/, https://www.sportmaster.ru/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Группа «Спортмастер» — a transport company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2695,
+				"profit": 180,
+				"debt": 1361,
+				"money": 558,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1925
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6737,
+			"wage": 1718,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7167,
+					"д": 37.5886,
+					"province": 882,
+					"staff": 2021,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pao_gk",
+			"название": {
+				"ru": "ПАО «ГК „Самолет“»",
+				"en": "ПАО «ГК „Самолет“»"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Москва — ведущий российский девелопер и финтех-платформа в сфере жилой недвижимости, лидер по объемам текущего строительства в РФ. [Выручка: 3 400 млн $ (300 млрд руб.), Чистая прибыль: 300 млн $ (26 млрд руб.), Штат: 10 000 чел., Руководитель: Анна Акиньшина (Anna Akinshina), генеральный директор с 2024 года, 1982 г.р.]. Официальные источники: https://samolet.ru/investors/",
+				"en": "ПАО «ГК „Самолет“» — a construction company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2660,
+				"profit": 222,
+				"debt": 1032,
+				"money": 349,
+				"dividends": 67
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3355
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8367,
+			"wage": 1343,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7172,
+					"д": 37.6562,
+					"province": 882,
+					"staff": 2510,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "segezha_group",
+			"название": {
+				"ru": "Segezha Group (ПАО «Сегежа Групп»)",
+				"en": "Segezha Group (ПАО «Сегежа Групп»)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Москва / Карелия — крупнейший лесопромышленный холдинг РФ (мешочная бумага, фанера, пиломатериалы, CLT-панели, в составе АФК «Система»). [Выручка: 1 100 млн $ (100 млрд руб.), Чистая прибыль: -150 млн $, Штат: 13 000 чел., Руководитель: Александр Крещенко (Alexander Kreshchenko), с 2024 года, 1980 г.р.]. Официальные источники: https://segezha-group.com/investors/",
+				"en": "Segezha Group (ПАО «Сегежа Групп») — a consumer and retail company of Russia."
+			},
+			"fundamental": {
+				"выручка": 2502,
+				"profit": 195,
+				"debt": 577,
+				"money": 208,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3427
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7506,
+			"wage": 1167,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7595,
+					"д": 37.6138,
+					"province": 882,
+					"staff": 2251,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_kontsern",
+			"название": {
+				"ru": "АО «Концерн ВКО „Алмаз-Антей“»",
+				"en": "АО «Концерн ВКО „Алмаз-Антей“»"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2014,
+			"description": {
+				"ru": "Москва — головной разработчик и производитель зенитных ракетных систем ПВО и ПРО: С-300В4, С-400 «Триумф», С-500 «Прометей», «Бук-М3», «Тор-М2», радиолокационных комплексов «Небо-М» и средств противодействия БПЛА. (Зенитно-ракетные комплексы большой, средней и малой дальности, радиолокационные системы контроля воздушного пространства.) [Выручка: 6 500 млн $ (580 млрд руб.), Чистая прибыль: 450 млн",
+				"en": "АО «Концерн ВКО „Алмаз-Антей“» — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 1005,
+				"profit": 67,
+				"debt": 258,
+				"money": 155,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1884
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3015,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.7324,
+					"д": 37.6046,
+					"province": 882,
+					"staff": 904,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_obedinennaya",
+			"название": {
+				"ru": "АО «Объединенная судостроительная корпорация» (ОСК)",
+				"en": "АО «Объединенная судостроительная корпорация» (ОСК)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Санкт-Петербург — крупнейший судостроительный холдинг РФ (Севмаш, Адмиралтейские верфи, Северная верфь, Центр судоремонта «Звездочка», Прибалтийский завод «Янтарь»): строительство атомных подводных крейсеров проектов «Борей-А» и «Ясень-М», дизель-электрических ПЛ «Варшавянка» и «Лада», фрегатов проекта 22350 и корветов 20380/20385. (Атомные и дизельные подводные лодки, надводные боевые корабли все",
+				"en": "АО «Объединенная судостроительная корпорация» (ОСК) — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 960,
+				"profit": 64,
+				"debt": 247,
+				"money": 148,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2880,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Санкт-Петербург",
+						"en": "Saint Petersburg"
+					},
+					"ш": 59.9153,
+					"д": 30.3333,
+					"province": 130,
+					"staff": 864,
+					"fine": 3386
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pao_obedinennaya",
+			"название": {
+				"ru": "ПАО «Объединенная авиастроительная корпорация» (ОАК)",
+				"en": "ПАО «Объединенная авиастроительная корпорация» (ОАК)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Москва, входит в ГК «Ростех» — флагман военного и гражданского авиастроения: боевые истребители Су-30СМ2, Су-35С, Су-57 пятого поколения, фронтовые бомбардировщики Су-34М, перехватчики МиГ-31БМ, стратегические ракетоносцы Ту-160М, военно-транспортные самолеты Ил-76МД-90А. (Производство и глубокая модернизация боевой фронтовой и дальней стратегической авиации ВКС РФ.) [Выручка: 5 800 млн $ (520 млр",
+				"en": "ПАО «Объединенная авиастроительная корпорация» (ОАК) — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 915,
+				"profit": 61,
+				"debt": 235,
+				"money": 141,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1716
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2745,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.79,
+					"д": 37.6113,
+					"province": 882,
+					"staff": 823,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_npk",
+			"название": {
+				"ru": "АО «НПК „Уралвагонзавод“»",
+				"en": "АО «НПК „Уралвагонзавод“»"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2017,
+			"description": {
+				"ru": "Нижний Тагил, входит в ГК «Ростех» — мировой лидер танкостроения: серийное производство и глубокая модернизация основных боевых танков Т-90М «Прорыв», Т-72Б3М, Т-80БВМ, боевых машин поддержки танков БМПТ «Терминатор», тяжелых огнеметных систем ТОС-1А «Солнцепек» и ТОС-2 «Тосочка». (Танкостроение, тяжелая гусеничная бронетехника, артиллерийские башни и динамическая защита брони.) [Выручка: 2 200 мл",
+				"en": "АО «НПК „Уралвагонзавод“» — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 915,
+				"profit": 61,
+				"debt": 235,
+				"money": 141,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1716
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2745,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нижний Тагил",
+						"en": "Nizhny Tagil"
+					},
+					"ш": 57.9214,
+					"д": 59.9976,
+					"province": 866,
+					"staff": 823,
+					"fine": 3422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_korporatsiya",
+			"название": {
+				"ru": "АО «Корпорация „Тактическое ракетное вооружение“» (КТРВ)",
+				"en": "АО «Корпорация „Тактическое ракетное вооружение“» (КТРВ)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2003,
+			"description": {
+				"ru": "Королев, Московская область — главный разработчик и производитель высокоточного ракетного оружия: гиперзвуковые авиационные ракеты «Кинжал», крылатые ракеты большой дальности Х-101, противокорабельные Х-35У, высокоточные авиабомбы с модулями планирования и коррекции (УМПК), комплектующие морского подводного оружия. (Высокоточное ракетное вооружение воздушного, морского и наземного базирования, упр",
+				"en": "АО «Корпорация „Тактическое ракетное вооружение“» (КТРВ) — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 915,
+				"profit": 61,
+				"debt": 235,
+				"money": 141,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1716
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2745,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Королев",
+						"en": "Korolev"
+					},
+					"ш": 55.8937,
+					"д": 37.8063,
+					"province": 882,
+					"staff": 823,
+					"fine": 3400
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ao_vertolety",
+			"название": {
+				"ru": "АО «Вертолеты России»",
+				"en": "АО «Вертолеты России»"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2021,
+			"description": {
+				"ru": "Москва, входит в ГК «Ростех» — единственный серийный производитель вертолетной техники в России: ударные разведывательно-боевые вертолеты Ка-52М «Аллигатор», Ми-28НМ «Ночной охотник», тяжелые военно-транспортные Ми-26, многоцелевые десантные Ми-8АМТШ/Ми-8МТВ-5. (Разработка и выпуск боевых и военно-транспортных вертолетов, сервис и модернизация несущих систем.) [Выручка: 3 200 млн $ (285 млрд руб.)",
+				"en": "АО «Вертолеты России» — a defence company of Russia."
+			},
+			"fundamental": {
+				"выручка": 870,
+				"profit": 58,
+				"debt": 224,
+				"money": 134,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1631
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Россия)",
+						"en": "The state (Russia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Россия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2610,
+			"wage": 1575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Москва",
+						"en": "Moscow"
+					},
+					"ш": 55.772,
+					"д": 37.6182,
+					"province": 882,
+					"staff": 783,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	],
+	"average_wage": 1050
+}

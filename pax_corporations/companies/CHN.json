@@ -1,0 +1,6602 @@
+{
+	"_как_это_работает": "Компании Китая. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). Непубличные группы — оценка стоимости на условную 1000 млн акций. «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Китай",
+	"iso": "CHN",
+	"data_date": "2026-03",
+	"average_wage": 1300,
+	"companies": [
+		{
+			"id": "tencent",
+			"название": {
+				"ru": "Tencent",
+				"en": "Tencent"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "WeChat, игры и облако — главная интернет-компания Китая.",
+				"en": "WeChat, games and cloud — China's leading internet company."
+			},
+			"fundamental": {
+				"выручка": 92000,
+				"profit": 27000,
+				"debt": 50000,
+				"money": 60000,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 9200,
+				"market_cap": 600000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Prosus (Naspers)",
+						"en": "Prosus (Naspers)"
+					},
+					"type": "company",
+					"доля": 0.24,
+					"country": "Нидерланды"
+				},
+				{
+					"кто": {
+						"ru": "Ма Хуатэн",
+						"en": "Ma Huateng"
+					},
+					"type": "founder",
+					"доля": 0.08
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.68
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ма Хуатэн",
+					"en": "Ma Huateng"
+				},
+				"роль": "founder",
+				"с_года": 1998,
+				"born_year": 1971,
+				"доля": 0.08,
+				"характер": {
+					"ru": "тихий основатель «Пони», осторожен с властями",
+					"en": "тихий основатель «Пони», осторожен с властями"
+				}
+			},
+			"staff": 110000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Башни Tencent, Шэньчжэнь",
+						"en": "Tencent towers, Shenzhen"
+					},
+					"ш": 22.5659,
+					"д": 114.0601,
+					"province": 494,
+					"staff": 40000,
+					"fine": 626
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Гуйане",
+						"en": "Guiyang data centre"
+					},
+					"ш": 26.6,
+					"д": 106.7,
+					"province": 814,
+					"staff": 500,
+					"fine": 621
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Офис в Пекине",
+						"en": "Beijing office"
+					},
+					"ш": 40.05,
+					"д": 116.3,
+					"province": 628,
+					"staff": 8000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tencent.com/en-us/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "alibaba",
+			"название": {
+				"ru": "Alibaba",
+				"en": "Alibaba"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Taobao, Tmall, облако Alibaba Cloud и ИИ Qwen.",
+				"en": "Taobao, Tmall, Alibaba Cloud and Qwen AI."
+			},
+			"fundamental": {
+				"выручка": 137000,
+				"profit": 18000,
+				"debt": 35000,
+				"money": 80000,
+				"dividends": 4500
+			},
+			"рынок": {
+				"shares_mln": 19000,
+				"market_cap": 300000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Джек Ма",
+						"en": "Jack Ma"
+					},
+					"type": "founder",
+					"доля": 0.04
+				},
+				{
+					"кто": {
+						"ru": "Джо Цай",
+						"en": "Joe Tsai"
+					},
+					"type": "крупный",
+					"доля": 0.015,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.945
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдди У (У Юнмин)",
+					"en": "Eddie Wu (Wu Yongming)"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "один из основателей, ставит всё на облако и ИИ",
+					"en": "один из основателей, ставит всё на облако и ИИ"
+				}
+			},
+			"staff": 125000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус Сиси, Ханчжоу",
+						"en": "Xixi campus, Hangzhou"
+					},
+					"ш": 30.27,
+					"д": 120.15,
+					"province": 612,
+					"staff": 40000,
+					"fine": 645
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Чжанбэе",
+						"en": "Zhangbei data centre"
+					},
+					"ш": 41.16,
+					"д": 114.7,
+					"province": 628,
+					"staff": 500,
+					"fine": 637
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Cainiao, Ханчжоу",
+						"en": "Cainiao, Hangzhou"
+					},
+					"ш": 30.2,
+					"д": 120.3,
+					"province": 612,
+					"staff": 10000,
+					"fine": 645
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.alibabagroup.com/en-US/ir | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "icbc",
+			"название": {
+				"ru": "ICBC",
+				"en": "ICBC"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1984,
+			"description": {
+				"ru": "Крупнейший банк мира по активам.",
+				"en": "The world's largest bank by assets."
+			},
+			"fundamental": {
+				"выручка": 115000,
+				"profit": 51000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 15000
+			},
+			"рынок": {
+				"shares_mln": 356000,
+				"market_cap": 330000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Центральная Хуэйцзинь и Минфин (государство)",
+						"en": "Central Huijin and the Ministry of Finance (the state)"
+					},
+					"type": "polity",
+					"доля": 0.7,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ляо Линь",
+					"en": "Liao Lin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "партийный банкир, исполняет линию",
+					"en": "партийный банкир, исполняет линию"
+				}
+			},
+			"staff": 415000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 20000,
+					"fine": 623
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Отделение в Шанхае",
+						"en": "Shanghai branch"
+					},
+					"ш": 31.23,
+					"д": 121.5,
+					"province": 613,
+					"staff": 15000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.icbc-ltd.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ccb",
+			"название": {
+				"ru": "China Construction Bank",
+				"en": "China Construction Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1954,
+			"description": {
+				"ru": "Второй банк Китая, кредитует стройку и инфраструктуру.",
+				"en": "China's second bank, lending to construction and infrastructure."
+			},
+			"fundamental": {
+				"выручка": 105000,
+				"profit": 46000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 14000
+			},
+			"рынок": {
+				"shares_mln": 250000,
+				"market_cap": 260000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Центральная Хуэйцзинь и Минфин (государство)",
+						"en": "Central Huijin and the Ministry of Finance (the state)"
+					},
+					"type": "polity",
+					"доля": 0.57,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.43
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжан Цзиньлян",
+					"en": "Zhang Jinliang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный банкир",
+					"en": "государственный банкир"
+				}
+			},
+			"staff": 375000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 18000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ccb.com/en/investor/index.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "abc",
+			"название": {
+				"ru": "Agricultural Bank of China",
+				"en": "Agricultural Bank of China"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1951,
+			"description": {
+				"ru": "Банк деревни и уездов.",
+				"en": "The bank of the countryside and counties."
+			},
+			"fundamental": {
+				"выручка": 100000,
+				"profit": 39000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 12000
+			},
+			"рынок": {
+				"shares_mln": 350000,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Центральная Хуэйцзинь и Минфин (государство)",
+						"en": "Central Huijin and the Ministry of Finance (the state)"
+					},
+					"type": "polity",
+					"доля": 0.75,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гу Шу",
+					"en": "Gu Shu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный банкир",
+					"en": "государственный банкир"
+				}
+			},
+			"staff": 450000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 15000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.abchina.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "boc",
+			"название": {
+				"ru": "Bank of China",
+				"en": "Bank of China"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1912,
+			"description": {
+				"ru": "Самый международный банк Китая.",
+				"en": "China's most international bank."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 33000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 10000
+			},
+			"рынок": {
+				"shares_mln": 294000,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Центральная Хуэйцзинь и Минфин (государство)",
+						"en": "Central Huijin and the Ministry of Finance (the state)"
+					},
+					"type": "polity",
+					"доля": 0.64,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гэ Хайцзяо",
+					"en": "Ge Haijiao"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный банкир",
+					"en": "государственный банкир"
+				}
+			},
+			"staff": 305000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 15000,
+					"fine": 623
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Башня в Шанхае",
+						"en": "Shanghai tower"
+					},
+					"ш": 31.24,
+					"д": 121.5,
+					"province": 613,
+					"staff": 8000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.boc.cn/en/investor/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "moutai",
+			"название": {
+				"ru": "Kweichow Moutai",
+				"en": "Kweichow Moutai"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1951,
+			"description": {
+				"ru": "Байцзю Маотай — самый дорогой алкоголь Китая.",
+				"en": "Moutai baijiu — China's most prestigious liquor."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 12500,
+				"debt": 0,
+				"money": 25000,
+				"dividends": 9500
+			},
+			"рынок": {
+				"shares_mln": 1256,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Провинция Гуйчжоу (государство)",
+						"en": "Guizhou province (the state)"
+					},
+					"type": "polity",
+					"доля": 0.61,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.39
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжан Дэцинь",
+					"en": "Zhang Deqin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник провинции во главе национального символа",
+					"en": "чиновник провинции во главе национального символа"
+				}
+			},
+			"staff": 34000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Завод и штаб, Жэньхуай",
+						"en": "Plant and headquarters, Renhuai"
+					},
+					"ш": 27.8,
+					"д": 106.4,
+					"province": 814,
+					"staff": 30000,
+					"fine": 621
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.moutaichina.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "petrochina",
+			"название": {
+				"ru": "PetroChina",
+				"en": "PetroChina"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1999,
+			"description": {
+				"ru": "Крупнейшая нефтегазовая компания Китая.",
+				"en": "China's largest oil and gas company."
+			},
+			"fundamental": {
+				"выручка": 400000,
+				"profit": 23000,
+				"debt": 45000,
+				"money": 40000,
+				"dividends": 11000
+			},
+			"рынок": {
+				"shares_mln": 183000,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CNPC (государство)",
+						"en": "CNPC (the state)"
+					},
+					"type": "polity",
+					"доля": 0.82,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.18
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дай Хоулян",
+					"en": "Dai Houliang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяной генерал партии",
+					"en": "нефтяной генерал партии"
+				}
+			},
+			"staff": 370000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 10000,
+					"fine": 623
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Дацин",
+						"en": "Daqing"
+					},
+					"ш": 46.6,
+					"д": 125.1,
+					"province": 208,
+					"staff": 60000,
+					"fine": 648
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Тарим",
+						"en": "Tarim"
+					},
+					"ш": 41.7,
+					"д": 86.1,
+					"province": 948,
+					"staff": 15000,
+					"fine": 628
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Душаньцзы",
+						"en": "Dushanzi refinery"
+					},
+					"ш": 44.3,
+					"д": 84.9,
+					"province": 948,
+					"staff": 8000,
+					"fine": 628
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.petrochina.com.cn/ptr/ir/index.shtml | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sinopec",
+			"название": {
+				"ru": "Sinopec",
+				"en": "Sinopec"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2000,
+			"description": {
+				"ru": "Крупнейший нефтепереработчик мира.",
+				"en": "The world's largest oil refiner."
+			},
+			"fundamental": {
+				"выручка": 430000,
+				"profit": 7000,
+				"debt": 50000,
+				"money": 15000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 121000,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Sinopec Group (государство)",
+						"en": "Sinopec Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.69,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.31
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ма Юншэн",
+					"en": "Ma Yongsheng"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "геолог, ищет сланцевый газ",
+					"en": "геолог, ищет сланцевый газ"
+				}
+			},
+			"staff": 370000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 10000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Чжэньхай, Нинбо",
+						"en": "Zhenhai refinery, Ningbo"
+					},
+					"ш": 29.97,
+					"д": 121.68,
+					"province": 612,
+					"staff": 8000,
+					"fine": 645
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Шэнли, Дунъин",
+						"en": "Shengli, Dongying"
+					},
+					"ш": 37.43,
+					"д": 118.5,
+					"province": 627,
+					"staff": 40000,
+					"fine": 640
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Сланцевый газ Фулин",
+						"en": "Fuling shale gas"
+					},
+					"ш": 29.7,
+					"д": 107.4,
+					"province": 813,
+					"staff": 3000,
+					"fine": 622
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "http://www.sinopec.com/listco/en/investor_centre/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cnooc",
+			"название": {
+				"ru": "CNOOC",
+				"en": "CNOOC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1982,
+			"description": {
+				"ru": "Шельфовая нефть и газ Китая.",
+				"en": "China's offshore oil and gas."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 19000,
+				"debt": 12000,
+				"money": 25000,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 47500,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CNOOC Group (государство)",
+						"en": "CNOOC Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.64,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ван Дунцзинь",
+					"en": "Wang Dongjin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "морской нефтяник",
+					"en": "морской нефтяник"
+				}
+			},
+			"staff": 21000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 3000,
+					"fine": 623
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Платформы Бохайского залива",
+						"en": "Bohai Bay platforms"
+					},
+					"ш": 39.2212,
+					"д": 119.0698,
+					"province": 627,
+					"staff": 5000,
+					"fine": 637
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Устье Жемчужной реки",
+						"en": "Pearl River Mouth"
+					},
+					"ш": 22.0386,
+					"д": 114.3237,
+					"province": 494,
+					"staff": 3000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cnoocltd.com/col/col6661/index.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "chinamobile",
+			"название": {
+				"ru": "China Mobile",
+				"en": "China Mobile"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1997,
+			"description": {
+				"ru": "Крупнейший мобильный оператор мира.",
+				"en": "The world's largest mobile operator."
+			},
+			"fundamental": {
+				"выручка": 145000,
+				"profit": 19500,
+				"debt": 5000,
+				"money": 50000,
+				"dividends": 14000
+			},
+			"рынок": {
+				"shares_mln": 21500,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Mobile Group (государство)",
+						"en": "China Mobile Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.7,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Цзе",
+					"en": "Yang Jie"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "связист партии, строит 5G",
+					"en": "связист партии, строит 5G"
+				}
+			},
+			"staff": 450000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 15000,
+					"fine": 623
+				},
+				{
+					"type": "датацентр",
+					"name": {
+						"ru": "Дата-центр в Хух-Хото",
+						"en": "Hohhot data centre"
+					},
+					"ш": 40.8,
+					"д": 111.7,
+					"province": 961,
+					"staff": 500,
+					"fine": 647
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.chinamobileltd.com/en/ir/index.php | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "chinatelecom",
+			"название": {
+				"ru": "China Telecom",
+				"en": "China Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 2002,
+			"description": {
+				"ru": "Фиксированная связь и облако.",
+				"en": "Fixed-line and cloud."
+			},
+			"fundamental": {
+				"выручка": 72000,
+				"profit": 4600,
+				"debt": 15000,
+				"money": 10000,
+				"dividends": 3300
+			},
+			"рынок": {
+				"shares_mln": 91500,
+				"market_cap": 90000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Telecom Group (государство)",
+						"en": "China Telecom Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.71,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.29
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кэ Жуйвэнь",
+					"en": "Ke Ruiwen"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "связист",
+					"en": "связист"
+				}
+			},
+			"staff": 280000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 10000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.chinatelecom-h.com/en/ir/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "chinaunicom",
+			"название": {
+				"ru": "China Unicom",
+				"en": "China Unicom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1994,
+			"description": {
+				"ru": "Третий оператор связи Китая.",
+				"en": "China's third telecom."
+			},
+			"fundamental": {
+				"выручка": 54000,
+				"profit": 3000,
+				"debt": 12000,
+				"money": 6000,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 31000,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Unicom Group (государство)",
+						"en": "China Unicom Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.53,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.47
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чэнь Чжунъюэ",
+					"en": "Chen Zhongyue"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "связист",
+					"en": "связист"
+				}
+			},
+			"staff": 240000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 8000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.chinaunicom.com.hk/en/ir/index.php | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "byd",
+			"название": {
+				"ru": "BYD",
+				"en": "BYD"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель электромобилей мира.",
+				"en": "The world's largest maker of electric cars."
+			},
+			"fundamental": {
+				"выручка": 107000,
+				"profit": 5600,
+				"debt": 6000,
+				"money": 20000,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 9100,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ван Чуаньфу",
+						"en": "Wang Chuanfu"
+					},
+					"type": "founder",
+					"доля": 0.17
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.83
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ван Чуаньфу",
+					"en": "Wang Chuanfu"
+				},
+				"роль": "founder",
+				"с_года": 1995,
+				"born_year": 1966,
+				"доля": 0.17,
+				"характер": {
+					"ru": "химик-изобретатель батарей, ведёт ценовую войну",
+					"en": "химик-изобретатель батарей, ведёт ценовую войну"
+				}
+			},
+			"staff": 900000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шэньчжэнь",
+						"en": "Headquarters, Shenzhen"
+					},
+					"ш": 22.5659,
+					"д": 114.0601,
+					"province": 494,
+					"staff": 80000,
+					"fine": 626
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Сиане",
+						"en": "Xi'an plant"
+					},
+					"ш": 34.37,
+					"д": 108.9,
+					"province": 817,
+					"staff": 60000,
+					"fine": 631
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Хэфэе",
+						"en": "Hefei plant"
+					},
+					"ш": 31.82,
+					"д": 117.2,
+					"province": 822,
+					"staff": 50000,
+					"fine": 625
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Чжэнчжоу",
+						"en": "Zhengzhou plant"
+					},
+					"ш": 34.75,
+					"д": 113.62,
+					"province": 820,
+					"staff": 60000,
+					"fine": 638
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bydglobal.com/en/Investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "catl",
+			"название": {
+				"ru": "CATL",
+				"en": "CATL"
+			},
+			"sector": "auto_industry",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Крупнейший производитель аккумуляторов в мире.",
+				"en": "The world's largest battery maker."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 7500,
+				"debt": 15000,
+				"money": 42000,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 4400,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Цзэн Юйцюнь",
+						"en": "Zeng Yuqun"
+					},
+					"type": "founder",
+					"доля": 0.23
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цзэн Юйцюнь",
+					"en": "Zeng Yuqun"
+				},
+				"роль": "founder",
+				"с_года": 2011,
+				"born_year": 1968,
+				"доля": 0.23,
+				"характер": {
+					"ru": "инженер, «король батарей»",
+					"en": "инженер, «король батарей»"
+				}
+			},
+			"staff": 130000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Нинде",
+						"en": "Headquarters, Ningde"
+					},
+					"ш": 26.66,
+					"д": 119.55,
+					"province": 587,
+					"staff": 50000,
+					"fine": 624
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Ибине",
+						"en": "Yibin plant"
+					},
+					"ш": 28.77,
+					"д": 104.63,
+					"province": 1192,
+					"staff": 15000,
+					"fine": 635
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Шанхае",
+						"en": "Shanghai plant"
+					},
+					"ш": 30.9,
+					"д": 121.9,
+					"province": 612,
+					"staff": 5000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.catl.com/en/investor/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pingan",
+			"название": {
+				"ru": "Ping An",
+				"en": "Ping An"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Крупнейший страховщик Китая.",
+				"en": "China's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 145000,
+				"profit": 17500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 18200,
+				"market_cap": 130000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Шэньчжэньская инвестиционная (государство)",
+						"en": "Shenzhen Investment (the state)"
+					},
+					"type": "polity",
+					"доля": 0.05,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "CP Group",
+						"en": "CP Group"
+					},
+					"type": "company",
+					"доля": 0.05,
+					"country": "Таиланд"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ма Минчжэ",
+					"en": "Ma Mingzhe"
+				},
+				"роль": "founder",
+				"с_года": 1988,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "основатель, строил страховщика с нуля",
+					"en": "основатель, строил страховщика с нуля"
+				}
+			},
+			"staff": 290000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ping An Finance Center, Шэньчжэнь",
+						"en": "Ping An Finance Center, Shenzhen"
+					},
+					"ш": 22.5659,
+					"д": 114.0601,
+					"province": 494,
+					"staff": 20000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://group.pingan.com/investor_relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "chinalife",
+			"название": {
+				"ru": "China Life",
+				"en": "China Life"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1949,
+			"description": {
+				"ru": "Крупнейший страховщик жизни Китая.",
+				"en": "China's largest life insurer."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 15000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 28300,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Life Group (государство)",
+						"en": "China Life Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.68,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.32
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цай Силян",
+					"en": "Cai Xiliang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный страховщик",
+					"en": "государственный страховщик"
+				}
+			},
+			"staff": 100000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 8000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.e-chinalife.com/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "cmb",
+			"название": {
+				"ru": "China Merchants Bank",
+				"en": "China Merchants Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1987,
+			"description": {
+				"ru": "Лучший розничный банк Китая.",
+				"en": "China's best retail bank."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 20700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 25200,
+				"market_cap": 140000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Merchants Group (государство)",
+						"en": "China Merchants Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "COSCO Shipping",
+						"en": "COSCO Shipping"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мяо Цзяньминь",
+					"en": "Miao Jianmin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир",
+					"en": "осторожный банкир"
+				}
+			},
+			"staff": 117000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шэньчжэнь",
+						"en": "Headquarters, Shenzhen"
+					},
+					"ш": 22.54,
+					"д": 113.95,
+					"province": 494,
+					"staff": 12000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://english.cmbchina.com/investor/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "xiaomi",
+			"название": {
+				"ru": "Xiaomi",
+				"en": "Xiaomi"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Смартфоны, умный дом и электромобили SU7.",
+				"en": "Smartphones, smart home and SU7 electric cars."
+			},
+			"fundamental": {
+				"выручка": 51000,
+				"profit": 3700,
+				"debt": 5000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 25900,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лэй Цзюнь",
+						"en": "Lei Jun"
+					},
+					"type": "founder",
+					"доля": 0.23
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лэй Цзюнь",
+					"en": "Lei Jun"
+				},
+				"роль": "founder",
+				"с_года": 2010,
+				"born_year": 1969,
+				"доля": 0.23,
+				"характер": {
+					"ru": "кумир фанатов, «китайский Стив Джобс»",
+					"en": "кумир фанатов, «китайский Стив Джобс»"
+				}
+			},
+			"staff": 43000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус Xiaomi, Пекин",
+						"en": "Xiaomi campus, Beijing"
+					},
+					"ш": 40.03,
+					"д": 116.3,
+					"province": 628,
+					"staff": 15000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Автозавод в Ичжуане",
+						"en": "Yizhuang car plant"
+					},
+					"ш": 39.78,
+					"д": 116.52,
+					"province": 628,
+					"staff": 5000,
+					"fine": 623
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Центр в Ухане",
+						"en": "Wuhan centre"
+					},
+					"ш": 30.5,
+					"д": 114.4,
+					"province": 821,
+					"staff": 3000,
+					"fine": 633
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.mi.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "meituan",
+			"название": {
+				"ru": "Meituan",
+				"en": "Meituan"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Доставка еды и сервисы; ушла в убыток в ценовой войне доставки.",
+				"en": "Food delivery and services; lost money in the delivery price war."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 4500,
+				"debt": 5000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 6100,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ван Син",
+						"en": "Wang Xing"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ван Син",
+					"en": "Wang Xing"
+				},
+				"роль": "founder",
+				"с_года": 2010,
+				"born_year": 1979,
+				"доля": 0.1,
+				"характер": {
+					"ru": "упорный основатель, воюет с Alibaba и JD за доставку",
+					"en": "упорный основатель, воюет с Alibaba и JD за доставку"
+				}
+			},
+			"staff": 110000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.98,
+					"д": 116.49,
+					"province": 628,
+					"staff": 30000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"фундамент.прибыль — убыток 2025 по ценовой войне"
+			],
+			"source": "https://about.meituan.com/en/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; фундамент.прибыль — убыток 2025 по ценовой войне"
+		},
+		{
+			"id": "pdd",
+			"название": {
+				"ru": "PDD (Pinduoduo, Temu)",
+				"en": "PDD (Pinduoduo, Temu)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Дешёвый маркетплейс Pinduoduo и мировой Temu.",
+				"en": "The cheap Pinduoduo marketplace and global Temu."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 15000,
+				"debt": 0,
+				"money": 45000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1400,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Колин Хуан",
+						"en": "Colin Huang"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чэнь Лэй",
+					"en": "Chen Lei"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, закрытый и немногословный",
+					"en": "инженер, закрытый и немногословный"
+				}
+			},
+			"staff": 23000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.21,
+					"д": 121.42,
+					"province": 613,
+					"staff": 15000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.pddholdings.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "jd",
+			"название": {
+				"ru": "JD.com",
+				"en": "JD.com"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Интернет-магазин с собственной логистикой.",
+				"en": "An online retailer with its own logistics."
+			},
+			"fundamental": {
+				"выручка": 160000,
+				"profit": 5500,
+				"debt": 10000,
+				"money": 30000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 2900,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лю Цянгдун",
+						"en": "Richard Liu"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сэнди Сюй",
+					"en": "Sandy Xu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист основателя",
+					"en": "финансист основателя"
+				}
+			},
+			"staff": 570000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.79,
+					"д": 116.56,
+					"province": 628,
+					"staff": 30000,
+					"fine": 623
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Логистический хаб в Гуанчжоу",
+						"en": "Guangzhou hub"
+					},
+					"ш": 23.2,
+					"д": 113.4,
+					"province": 494,
+					"staff": 30000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.jd.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "baidu",
+			"название": {
+				"ru": "Baidu",
+				"en": "Baidu"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Поиск, ИИ Ernie и роботакси Apollo.",
+				"en": "Search, Ernie AI and Apollo robotaxis."
+			},
+			"fundamental": {
+				"выручка": 18500,
+				"profit": 3200,
+				"debt": 10000,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2800,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Робин Ли",
+						"en": "Robin Li"
+					},
+					"type": "founder",
+					"доля": 0.16
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Робин Ли (Ли Яньхун)",
+					"en": "Robin Li (Li Yanhong)"
+				},
+				"роль": "founder",
+				"с_года": 2000,
+				"born_year": 1968,
+				"доля": 0.16,
+				"характер": {
+					"ru": "основатель поисковика, ставит на беспилотники",
+					"en": "основатель поисковика, ставит на беспилотники"
+				}
+			},
+			"staff": 35000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 40.05,
+					"д": 116.3,
+					"province": 628,
+					"staff": 15000,
+					"fine": 623
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Apollo, Ухань",
+						"en": "Apollo, Wuhan"
+					},
+					"ш": 30.5,
+					"д": 114.3,
+					"province": 821,
+					"staff": 2000,
+					"fine": 633
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.baidu.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "netease",
+			"название": {
+				"ru": "NetEase",
+				"en": "NetEase"
+			},
+			"sector": "медиа",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Видеоигры и музыка.",
+				"en": "Video games and music."
+			},
+			"fundamental": {
+				"выручка": 14700,
+				"profit": 4200,
+				"debt": 3000,
+				"money": 20000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 3200,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Дин Лэй",
+						"en": "Ding Lei"
+					},
+					"type": "founder",
+					"доля": 0.44
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.56
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дин Лэй",
+					"en": "Ding Lei"
+				},
+				"роль": "founder",
+				"с_года": 1997,
+				"born_year": 1971,
+				"доля": 0.44,
+				"характер": {
+					"ru": "основатель, фермер-любитель",
+					"en": "основатель, фермер-любитель"
+				}
+			},
+			"staff": 29000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ханчжоу",
+						"en": "Headquarters, Hangzhou"
+					},
+					"ш": 30.19,
+					"д": 120.19,
+					"province": 612,
+					"staff": 15000,
+					"fine": 645
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.netease.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "huawei",
+			"название": {
+				"ru": "Huawei",
+				"en": "Huawei"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Телеком-оборудование, смартфоны и чипы вопреки санкциям.",
+				"en": "Telecom gear, phones and chips despite sanctions."
+			},
+			"fundamental": {
+				"выручка": 120000,
+				"profit": 8700,
+				"debt": 25000,
+				"money": 40000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Профсоюз сотрудников",
+						"en": "Employee union"
+					},
+					"type": "сама",
+					"доля": 0.99
+				},
+				{
+					"кто": {
+						"ru": "Жэнь Чжэнфэй",
+						"en": "Ren Zhengfei"
+					},
+					"type": "founder",
+					"доля": 0.01
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жэнь Чжэнфэй",
+					"en": "Ren Zhengfei"
+				},
+				"роль": "founder",
+				"с_года": 1987,
+				"born_year": 1944,
+				"доля": 0.01,
+				"характер": {
+					"ru": "бывший военный инженер, говорит о выживании под санкциями",
+					"en": "бывший военный инженер, говорит о выживании под санкциями"
+				}
+			},
+			"staff": 208000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кампус Бантянь, Шэньчжэнь",
+						"en": "Bantian campus, Shenzhen"
+					},
+					"ш": 22.65,
+					"д": 114.06,
+					"province": 494,
+					"staff": 60000,
+					"fine": 626
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Озеро Суншань, Дунгуань",
+						"en": "Songshan Lake, Dongguan"
+					},
+					"ш": 22.9,
+					"д": 113.9,
+					"province": 494,
+					"staff": 25000,
+					"fine": 626
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Центр в Шанхае",
+						"en": "Shanghai centre"
+					},
+					"ш": 31.1,
+					"д": 120.99,
+					"province": 612,
+					"staff": 20000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.huawei.com/en/annual-report | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "stategrid",
+			"название": {
+				"ru": "State Grid",
+				"en": "State Grid"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2002,
+			"description": {
+				"ru": "Крупнейшая энергосеть мира и одна из крупнейших компаний планеты.",
+				"en": "The world's largest power grid and one of the biggest companies on Earth."
+			},
+			"fundamental": {
+				"выручка": 530000,
+				"profit": 12000,
+				"debt": 250000,
+				"money": 30000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжан Чжиган",
+					"en": "Zhang Zhigang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик партии, строит сверхвысоковольтные линии",
+					"en": "энергетик партии, строит сверхвысоковольтные линии"
+				}
+			},
+			"staff": 950000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 20000,
+					"fine": 623
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сеть Шанхая",
+						"en": "Shanghai grid"
+					},
+					"ш": 31.2,
+					"д": 121.4,
+					"province": 612,
+					"staff": 30000,
+					"fine": 644
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Сеть Сычуани",
+						"en": "Sichuan grid"
+					},
+					"ш": 30.6,
+					"д": 104.1,
+					"province": 1192,
+					"staff": 30000,
+					"fine": 635
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "ЛЭП Синьцзян — восток",
+						"en": "Xinjiang–east UHV line"
+					},
+					"ш": 43.8,
+					"д": 87.6,
+					"province": 946,
+					"staff": 5000,
+					"fine": 628
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "http://www.sgcc.com.cn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "cscec",
+			"название": {
+				"ru": "CSCEC",
+				"en": "CSCEC"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "государственная",
+			"founded": 1982,
+			"description": {
+				"ru": "Крупнейшая строительная компания мира.",
+				"en": "The world's largest construction company."
+			},
+			"fundamental": {
+				"выручка": 310000,
+				"profit": 6500,
+				"debt": 60000,
+				"money": 40000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 41000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 0.56,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.44
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжэн Сюэсюань",
+					"en": "Zheng Xuexuan"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 380000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 10000,
+					"fine": 623
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Стройки Шэньчжэня",
+						"en": "Shenzhen projects"
+					},
+					"ш": 22.55,
+					"д": 114.1,
+					"province": 494,
+					"staff": 30000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://english.cscec.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "shenhua",
+			"название": {
+				"ru": "China Shenhua",
+				"en": "China Shenhua"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2004,
+			"description": {
+				"ru": "Уголь, электростанции и железные дороги.",
+				"en": "Coal, power plants and railways."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 8300,
+				"debt": 5000,
+				"money": 15000,
+				"dividends": 6000
+			},
+			"рынок": {
+				"shares_mln": 19900,
+				"market_cap": 100000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CHN Energy (государство)",
+						"en": "CHN Energy (the state)"
+					},
+					"type": "polity",
+					"доля": 0.69,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.31
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Люй Чжижэнь",
+					"en": "Lü Zhiren"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "угольщик",
+					"en": "угольщик"
+				}
+			},
+			"staff": 83000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 3000,
+					"fine": 623
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Шэньдун, Ордос",
+						"en": "Shendong, Ordos"
+					},
+					"ш": 39.6,
+					"д": 110.0,
+					"province": 959,
+					"staff": 30000,
+					"fine": 647
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Хуанхуа",
+						"en": "Huanghua port"
+					},
+					"ш": 38.3,
+					"д": 117.8,
+					"province": 628,
+					"staff": 3000,
+					"fine": 637
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "http://www.csec.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "zijin",
+			"название": {
+				"ru": "Zijin Mining",
+				"en": "Zijin Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "смешанная",
+			"founded": 1993,
+			"description": {
+				"ru": "Медь и золото по всему миру.",
+				"en": "Copper and gold worldwide."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 4400,
+				"debt": 18000,
+				"money": 7000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 26600,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Миньси Синхан (государство)",
+						"en": "Minxi Xinghang (the state)"
+					},
+					"type": "polity",
+					"доля": 0.23,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чэнь Цзинхэ",
+					"en": "Chen Jinghe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 1993,
+				"born_year": 1957,
+				"доля": 0.0,
+				"характер": {
+					"ru": "геолог, создатель компании",
+					"en": "геолог, создатель компании"
+				}
+			},
+			"staff": 50000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Лунъянь",
+						"en": "Headquarters, Longyan"
+					},
+					"ш": 25.1,
+					"д": 117.02,
+					"province": 587,
+					"staff": 3000,
+					"fine": 624
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Цзыцзиньшань, Шанхан",
+						"en": "Zijinshan, Shanghang"
+					},
+					"ш": 25.18,
+					"д": 116.4,
+					"province": 587,
+					"staff": 6000,
+					"fine": 624
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Цзюйлун, Тибет",
+						"en": "Julong, Tibet"
+					},
+					"ш": 29.7,
+					"д": 91.5,
+					"province": 952,
+					"staff": 3000,
+					"fine": 627
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.zijinmining.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "yangtzepower",
+			"название": {
+				"ru": "China Yangtze Power",
+				"en": "China Yangtze Power"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2002,
+			"description": {
+				"ru": "ГЭС «Три ущелья» и каскад Янцзы.",
+				"en": "The Three Gorges Dam and the Yangtze cascade."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 4600,
+				"debt": 45000,
+				"money": 1000,
+				"dividends": 3600
+			},
+			"рынок": {
+				"shares_mln": 24500,
+				"market_cap": 95000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Three Gorges (государство)",
+						"en": "China Three Gorges (the state)"
+					},
+					"type": "polity",
+					"доля": 0.6,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лю Вэйпин",
+					"en": "Liu Weiping"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "гидроэнергетик",
+					"en": "гидроэнергетик"
+				}
+			},
+			"staff": 9000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ичан",
+						"en": "Headquarters, Yichang"
+					},
+					"ш": 30.7,
+					"д": 111.3,
+					"province": 821,
+					"staff": 2000,
+					"fine": 633
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС «Три ущелья»",
+						"en": "Three Gorges Dam"
+					},
+					"ш": 30.82,
+					"д": 111.0,
+					"province": 821,
+					"staff": 3000,
+					"fine": 633
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Байхэтань",
+						"en": "Baihetan HPP"
+					},
+					"ш": 27.2,
+					"д": 102.9,
+					"province": 80,
+					"staff": 1500,
+					"fine": 636
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.cypc.com.cn/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "saic",
+			"название": {
+				"ru": "SAIC Motor",
+				"en": "SAIC Motor"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "государственная",
+			"founded": 1955,
+			"description": {
+				"ru": "Крупнейший автоконцерн Китая: MG и совместные заводы с VW и GM.",
+				"en": "China's largest carmaker: MG and joint ventures with VW and GM."
+			},
+			"fundamental": {
+				"выручка": 87000,
+				"profit": 230,
+				"debt": 30000,
+				"money": 25000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 11600,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Правительство Шанхая",
+						"en": "Shanghai government"
+					},
+					"type": "polity",
+					"доля": 0.63,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ван Сяоцю",
+					"en": "Wang Xiaoqiu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник-автомобилист",
+					"en": "чиновник-автомобилист"
+				}
+			},
+			"staff": 200000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.21,
+					"д": 121.44,
+					"province": 613,
+					"staff": 10000,
+					"fine": 644
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Аньтине",
+						"en": "Anting plant"
+					},
+					"ш": 31.3,
+					"д": 121.17,
+					"province": 613,
+					"staff": 30000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.saicmotor.com/english/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "geely",
+			"название": {
+				"ru": "Geely",
+				"en": "Geely"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Geely, Volvo, Zeekr и доля в Mercedes.",
+				"en": "Geely, Volvo, Zeekr and a stake in Mercedes."
+			},
+			"fundamental": {
+				"выручка": 33000,
+				"profit": 2300,
+				"debt": 3000,
+				"money": 7000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 10100,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ли Шуфу",
+						"en": "Li Shufu"
+					},
+					"type": "founder",
+					"доля": 0.41
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.59
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Шуфу",
+					"en": "Li Shufu"
+				},
+				"роль": "founder",
+				"с_года": 1997,
+				"born_year": 1963,
+				"доля": 0.41,
+				"характер": {
+					"ru": "дерзкий собиратель марок",
+					"en": "дерзкий собиратель марок"
+				}
+			},
+			"staff": 50000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ханчжоу",
+						"en": "Headquarters, Hangzhou"
+					},
+					"ш": 30.2,
+					"д": 120.2,
+					"province": 612,
+					"staff": 8000,
+					"fine": 645
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в заливе Ханчжоу",
+						"en": "Hangzhou Bay plant"
+					},
+					"ш": 30.33,
+					"д": 121.2,
+					"province": 612,
+					"staff": 12000,
+					"fine": 645
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.geelyauto.com.hk/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "midea",
+			"название": {
+				"ru": "Midea",
+				"en": "Midea"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Кондиционеры и бытовая техника, владеет KUKA.",
+				"en": "Air conditioners and appliances, owns KUKA."
+			},
+			"fundamental": {
+				"выручка": 57000,
+				"profit": 5500,
+				"debt": 10000,
+				"money": 35000,
+				"dividends": 3300
+			},
+			"рынок": {
+				"shares_mln": 7600,
+				"market_cap": 75000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Хэ Сянцзянь",
+						"en": "He Xiangjian"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фан Хунбо",
+					"en": "Fang Hongbo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2012,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наёмный менеджер основателя",
+					"en": "наёмный менеджер основателя"
+				}
+			},
+			"staff": 190000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Фошань",
+						"en": "Headquarters, Foshan"
+					},
+					"ш": 22.92,
+					"д": 113.21,
+					"province": 494,
+					"staff": 30000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.midea-group.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "haier",
+			"название": {
+				"ru": "Haier",
+				"en": "Haier"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "смешанная",
+			"founded": 1984,
+			"description": {
+				"ru": "Холодильники и стиральные машины, владеет GE Appliances.",
+				"en": "Fridges and washers, owns GE Appliances."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 2600,
+				"debt": 5000,
+				"money": 8000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 9400,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Haier Group (коллективная собственность)",
+						"en": "Haier Group (collective)"
+					},
+					"type": "крупный",
+					"доля": 0.34,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Хуаган",
+					"en": "Li Huagang"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер-реформатор",
+					"en": "менеджер-реформатор"
+				}
+			},
+			"staff": 110000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Циндао",
+						"en": "Headquarters, Qingdao"
+					},
+					"ш": 36.07,
+					"д": 120.4,
+					"province": 627,
+					"staff": 20000,
+					"fine": 640
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://smart-home.haier.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "wuliangye",
+			"название": {
+				"ru": "Wuliangye",
+				"en": "Wuliangye"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Второй производитель байцзю.",
+				"en": "The second baijiu maker."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 4500,
+				"debt": 0,
+				"money": 15000,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 3880,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Правительство Ибиня",
+						"en": "Yibin government"
+					},
+					"type": "polity",
+					"доля": 0.54,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.46
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цзэн Цунцинь",
+					"en": "Zeng Congqin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "местный чиновник",
+					"en": "местный чиновник"
+				}
+			},
+			"staff": 25000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Завод и штаб, Ибинь",
+						"en": "Plant and headquarters, Yibin"
+					},
+					"ш": 28.77,
+					"д": 104.63,
+					"province": 1192,
+					"staff": 20000,
+					"fine": 635
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.wuliangye.com.cn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "hengrui",
+			"название": {
+				"ru": "Hengrui Medicine",
+				"en": "Hengrui Medicine"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1970,
+			"description": {
+				"ru": "Крупнейшая фармкомпания Китая, лицензирует лекарства на Запад.",
+				"en": "China's largest drugmaker, licensing drugs to the West."
+			},
+			"fundamental": {
+				"выручка": 3900,
+				"profit": 880,
+				"debt": 0,
+				"money": 3000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 6380,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Сунь Пяоян",
+						"en": "Sun Piaoyang"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сунь Пяоян",
+					"en": "Sun Piaoyang"
+				},
+				"роль": "founder",
+				"с_года": 1990,
+				"born_year": 1958,
+				"доля": 0.25,
+				"характер": {
+					"ru": "фармацевт, перестроил компанию на инновации",
+					"en": "фармацевт, перестроил компанию на инновации"
+				}
+			},
+			"staff": 20000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ляньюньган",
+						"en": "Headquarters, Lianyungang"
+					},
+					"ш": 34.6,
+					"д": 119.2,
+					"province": 613,
+					"staff": 10000,
+					"fine": 643
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "R&D в Шанхае",
+						"en": "Shanghai R&D"
+					},
+					"ш": 31.2,
+					"д": 121.6,
+					"province": 612,
+					"staff": 3000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hengrui.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cosco",
+			"название": {
+				"ru": "COSCO Shipping",
+				"en": "COSCO Shipping"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1961,
+			"description": {
+				"ru": "Один из крупнейших контейнерных перевозчиков мира.",
+				"en": "One of the world's largest container lines."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 6800,
+				"debt": 10000,
+				"money": 25000,
+				"dividends": 3400
+			},
+			"рынок": {
+				"shares_mln": 16000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "COSCO Group (государство)",
+						"en": "COSCO Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.45,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вань Минь",
+					"en": "Wan Min"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "морской руководитель",
+					"en": "морской руководитель"
+				}
+			},
+			"staff": 35000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.24,
+					"д": 121.49,
+					"province": 613,
+					"staff": 5000,
+					"fine": 644
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Яншань",
+						"en": "Yangshan port"
+					},
+					"ш": 30.8716,
+					"д": 121.9702,
+					"province": 612,
+					"staff": 3000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://lines.coscoshipping.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "crec",
+			"название": {
+				"ru": "China Railway Group",
+				"en": "China Railway Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "государственная",
+			"founded": 1950,
+			"description": {
+				"ru": "Строит железные дороги, мосты и тоннели.",
+				"en": "Builds railways, bridges and tunnels."
+			},
+			"fundamental": {
+				"выручка": 160000,
+				"profit": 3800,
+				"debt": 50000,
+				"money": 20000,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 24700,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 0.47,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чэнь Юнь",
+					"en": "Chen Yun"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель дорог",
+					"en": "строитель дорог"
+				}
+			},
+			"staff": 290000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 8000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "http://www.crec.cn/english/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "avic",
+			"название": {
+				"ru": "AVIC",
+				"en": "AVIC"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2008,
+			"description": {
+				"ru": "Военная и гражданская авиация: истребители J-20 и J-35.",
+				"en": "Military and civil aviation: J-20 and J-35 fighters."
+			},
+			"fundamental": {
+				"выручка": 83000,
+				"profit": 2500,
+				"debt": 40000,
+				"money": 15000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжоу Синьминь",
+					"en": "Zhou Xinmin"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаконструктор партии",
+					"en": "авиаконструктор партии"
+				}
+			},
+			"staff": 400000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 5000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Шэньянский авиазавод",
+						"en": "Shenyang Aircraft"
+					},
+					"ш": 41.8,
+					"д": 123.4,
+					"province": 210,
+					"staff": 20000,
+					"fine": 639
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Чэндуский авиазавод",
+						"en": "Chengdu Aircraft"
+					},
+					"ш": 30.7,
+					"д": 104.0,
+					"province": 1192,
+					"staff": 20000,
+					"fine": 635
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Сианьский авиазавод",
+						"en": "Xi'an Aircraft"
+					},
+					"ш": 34.3,
+					"д": 108.94,
+					"province": 817,
+					"staff": 20000,
+					"fine": 631
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.avic.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "norinco",
+			"название": {
+				"ru": "Norinco",
+				"en": "Norinco"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1980,
+			"description": {
+				"ru": "Сухопутные вооружения: танки, артиллерия, снаряды.",
+				"en": "Land weapons: tanks, artillery, shells."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 2500,
+				"debt": 30000,
+				"money": 10000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжоу Чжипин",
+					"en": "Zhou Zhiping"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оружейник партии",
+					"en": "оружейник партии"
+				}
+			},
+			"staff": 200000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 3000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Танковый завод в Баотоу",
+						"en": "Baotou tank plant"
+					},
+					"ш": 40.66,
+					"д": 109.84,
+					"province": 959,
+					"staff": 20000,
+					"fine": 647
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Заводы в Чунцине",
+						"en": "Chongqing plants"
+					},
+					"ш": 29.56,
+					"д": 106.55,
+					"province": 813,
+					"staff": 15000,
+					"fine": 622
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "http://www.norinco.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "crrc",
+			"название": {
+				"ru": "CRRC",
+				"en": "CRRC"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2015,
+			"description": {
+				"ru": "Крупнейший производитель поездов в мире.",
+				"en": "The world's largest train maker."
+			},
+			"fundamental": {
+				"выручка": 34000,
+				"profit": 1700,
+				"debt": 8000,
+				"money": 8000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 28700,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сунь Юнцай",
+					"en": "Sun Yongcai"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "машиностроитель",
+					"en": "машиностроитель"
+				}
+			},
+			"staff": 160000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 5000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Чанчуне",
+						"en": "Changchun plant"
+					},
+					"ш": 43.9,
+					"д": 125.3,
+					"province": 208,
+					"staff": 15000,
+					"fine": 646
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Циндао",
+						"en": "Qingdao plant"
+					},
+					"ш": 36.2,
+					"д": 120.4,
+					"province": 627,
+					"staff": 15000,
+					"fine": 640
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.crrcgc.cc/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "smic",
+			"название": {
+				"ru": "SMIC",
+				"en": "SMIC"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 2000,
+			"description": {
+				"ru": "Главный чипмейкер Китая, делает 7-нм под санкциями.",
+				"en": "China's main chipmaker, producing 7 nm under sanctions."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 500,
+				"debt": 10000,
+				"money": 12000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 7970,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Datang (государство)",
+						"en": "Datang (the state)"
+					},
+					"type": "polity",
+					"доля": 0.14,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Национальный фонд микросхем",
+						"en": "National IC Fund"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.76
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжао Хайцзюнь",
+					"en": "Zhao Haijun"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-технолог",
+					"en": "инженер-технолог"
+				}
+			},
+			"staff": 20000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.2,
+					"д": 121.6,
+					"province": 612,
+					"staff": 8000,
+					"fine": 644
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Фабрика в Пекине",
+						"en": "Beijing fab"
+					},
+					"ш": 39.8,
+					"д": 116.5,
+					"province": 628,
+					"staff": 5000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.smics.com/en/site/about_investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hikvision",
+			"название": {
+				"ru": "Hikvision",
+				"en": "Hikvision"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 2001,
+			"description": {
+				"ru": "Крупнейший производитель камер видеонаблюдения.",
+				"en": "The world's largest maker of surveillance cameras."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1700,
+				"debt": 2000,
+				"money": 5000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 9200,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CETC (государство)",
+						"en": "CETC (the state)"
+					},
+					"type": "polity",
+					"доля": 0.36,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.64
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ху Янчжун",
+					"en": "Hu Yangzhong"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2001,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер-основатель",
+					"en": "инженер-основатель"
+				}
+			},
+			"staff": 58000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Ханчжоу",
+						"en": "Headquarters, Hangzhou"
+					},
+					"ш": 30.19,
+					"д": 120.19,
+					"province": 612,
+					"staff": 20000,
+					"fine": 645
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hikvision.com/en/about-us/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lenovo",
+			"название": {
+				"ru": "Lenovo",
+				"en": "Lenovo"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Крупнейший производитель ПК в мире.",
+				"en": "The world's largest PC maker."
+			},
+			"fundamental": {
+				"выручка": 69000,
+				"profit": 1400,
+				"debt": 5000,
+				"money": 4000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 12400,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Legend Holdings",
+						"en": "Legend Holdings"
+					},
+					"type": "company",
+					"доля": 0.24,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Ян Юаньцин",
+						"en": "Yang Yuanqing"
+					},
+					"type": "крупный",
+					"доля": 0.07,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.69
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Юаньцин",
+					"en": "Yang Yuanqing"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2009,
+				"born_year": 1964,
+				"доля": 0.07,
+				"характер": {
+					"ru": "продавец компьютеров, глобалист",
+					"en": "продавец компьютеров, глобалист"
+				}
+			},
+			"staff": 72000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 40.04,
+					"д": 116.27,
+					"province": 628,
+					"staff": 10000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Завод в Хэфэе",
+						"en": "Hefei plant"
+					},
+					"ш": 31.8,
+					"д": 117.3,
+					"province": 822,
+					"staff": 8000,
+					"fine": 625
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.lenovo.com/en/global/home.php | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cssc",
+			"название": {
+				"ru": "CSSC",
+				"en": "CSSC"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2019,
+			"description": {
+				"ru": "Крупнейшая судостроительная группа мира: авианосцы и танкеры.",
+				"en": "The world's largest shipbuilding group: carriers and tankers."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 2000,
+				"debt": 20000,
+				"money": 15000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вэнь Ган",
+					"en": "Wen Gang"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "кораблестроитель",
+					"en": "кораблестроитель"
+				}
+			},
+			"staff": 200000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.2,
+					"д": 121.5,
+					"province": 612,
+					"staff": 5000,
+					"fine": 644
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Верфь Цзяннань, остров Чансин",
+						"en": "Jiangnan Shipyard, Changxing Island"
+					},
+					"ш": 31.35,
+					"д": 121.75,
+					"province": 613,
+					"staff": 20000,
+					"fine": 644
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Далянская верфь",
+						"en": "Dalian Shipyard"
+					},
+					"ш": 38.93,
+					"д": 121.64,
+					"province": 210,
+					"staff": 15000,
+					"fine": 639
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "http://www.cssc.net.cn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "chinasouthern",
+			"название": {
+				"ru": "China Southern Airlines",
+				"en": "China Southern Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1988,
+			"description": {
+				"ru": "Крупнейшая авиакомпания Китая.",
+				"en": "China's largest airline."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": -200,
+				"debt": 25000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 18100,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "China Southern Group (государство)",
+						"en": "China Southern Group (the state)"
+					},
+					"type": "polity",
+					"доля": 0.65,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ма Сюйлунь",
+					"en": "Ma Xulun"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 100000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Гуанчжоу",
+						"en": "Headquarters, Guangzhou"
+					},
+					"ш": 23.39,
+					"д": 113.3,
+					"province": 494,
+					"staff": 30000,
+					"fine": 626
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Пекин Дасин",
+						"en": "Beijing Daxing"
+					},
+					"ш": 39.51,
+					"д": 116.41,
+					"province": 628,
+					"staff": 8000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.csair.com/en/about/investor/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "anta",
+			"название": {
+				"ru": "Anta Sports",
+				"en": "Anta Sports"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Спортивная одежда, владеет Fila и Amer Sports.",
+				"en": "Sportswear, owns Fila and Amer Sports."
+			},
+			"fundamental": {
+				"выручка": 9800,
+				"profit": 2200,
+				"debt": 1500,
+				"money": 5000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 2800,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Дин",
+						"en": "The Ding family"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дин Шичжун",
+					"en": "Ding Shizhong"
+				},
+				"роль": "founder",
+				"с_года": 1994,
+				"born_year": 1970,
+				"доля": 0.5,
+				"характер": {
+					"ru": "семейный основатель",
+					"en": "семейный основатель"
+				}
+			},
+			"staff": 60000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Цзиньцзян",
+						"en": "Headquarters, Jinjiang"
+					},
+					"ш": 24.8,
+					"д": 118.55,
+					"province": 587,
+					"staff": 15000,
+					"fine": 624
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.anta.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bocom",
+			"название": {
+				"ru": "Bank of Communications",
+				"en": "Bank of Communications"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1908,
+			"description": {
+				"ru": "Пятый банк Китая; у HSBC почти пятая часть.",
+				"en": "China's fifth bank; HSBC owns almost a fifth."
+			},
+			"fundamental": {
+				"выручка": 36000,
+				"profit": 13000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 74300,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Минфин и соцфонд (государство)",
+						"en": "MoF and social fund (the state)"
+					},
+					"type": "polity",
+					"доля": 0.33,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "HSBC",
+						"en": "HSBC"
+					},
+					"type": "company",
+					"доля": 0.19,
+					"country": "Великобритания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жэнь Дэци",
+					"en": "Ren Deqi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный банкир",
+					"en": "государственный банкир"
+				}
+			},
+			"staff": 95000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Шанхай",
+						"en": "Headquarters, Shanghai"
+					},
+					"ш": 31.23,
+					"д": 121.5,
+					"province": 613,
+					"staff": 10000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bankcomm.com/BankCommSite/en/index.jsp | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "baowu",
+			"название": {
+				"ru": "China Baowu Steel",
+				"en": "China Baowu Steel"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2016,
+			"description": {
+				"ru": "Крупнейший производитель стали в мире.",
+				"en": "The world's largest steelmaker."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 3000,
+				"debt": 60000,
+				"money": 15000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ху Ванмин",
+					"en": "Hu Wangming"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург партии",
+					"en": "металлург партии"
+				}
+			},
+			"staff": 240000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Баошань, Шанхай",
+						"en": "Baoshan, Shanghai"
+					},
+					"ш": 31.4,
+					"д": 121.44,
+					"province": 613,
+					"staff": 30000,
+					"fine": 644
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Уханьский металлургический",
+						"en": "Wuhan Iron and Steel"
+					},
+					"ш": 30.62,
+					"д": 114.43,
+					"province": 821,
+					"staff": 20000,
+					"fine": 633
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мааньшань",
+						"en": "Ma'anshan"
+					},
+					"ш": 31.7,
+					"д": 118.5,
+					"province": 822,
+					"staff": 15000,
+					"fine": 625
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.baowugroup.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "sinochem",
+			"название": {
+				"ru": "Sinochem Holdings",
+				"en": "Sinochem Holdings"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "государственная",
+			"founded": 1950,
+			"description": {
+				"ru": "Химия, нефтепереработка и Syngenta; владеет долей Pirelli.",
+				"en": "Chemicals, refining and Syngenta; holds a stake in Pirelli."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 1500,
+				"debt": 70000,
+				"money": 15000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (SASAC)",
+						"en": "The state (SASAC)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Фаньжун",
+					"en": "Li Fanrong"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтехимик партии",
+					"en": "нефтехимик партии"
+				}
+			},
+			"staff": 220000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штаб-квартира, Пекин",
+						"en": "Headquarters, Beijing"
+					},
+					"ш": 39.91,
+					"д": 116.39,
+					"province": 628,
+					"staff": 5000,
+					"fine": 623
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ в Цюаньчжоу",
+						"en": "Quanzhou refinery"
+					},
+					"ш": 24.9,
+					"д": 118.8,
+					"province": 587,
+					"staff": 5000,
+					"fine": 624
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Syngenta, Шанхай",
+						"en": "Syngenta, Shanghai"
+					},
+					"ш": 31.2,
+					"д": 121.5,
+					"province": 612,
+					"staff": 5000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.sinochem.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "deepseek",
+			"название": {
+				"ru": "DeepSeek",
+				"en": "DeepSeek"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Открытые модели ИИ мирового уровня при малых затратах; принадлежит фонду High-Flyer.",
+				"en": "World-class open AI models at low cost; owned by the High-Flyer fund."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 50,
+				"debt": 0,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лян Вэньфэн",
+						"en": "Liang Wenfeng"
+					},
+					"type": "founder",
+					"доля": 0.84,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.16
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лян Вэньфэн",
+					"en": "Liang Wenfeng"
+				},
+				"роль": "founder",
+				"с_года": 2023,
+				"born_year": 1985,
+				"доля": 0.84,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 200,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ханчжоу",
+						"en": "Hangzhou"
+					},
+					"ш": 30.27,
+					"д": 120.15,
+					"province": 612,
+					"staff": 200,
+					"fine": 645
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"всё — оценка: компания не раскрывает отчётность"
+			],
+			"source": "https://www.deepseek.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; всё — оценка: компания не раскрывает отчётность"
+		},
+		{
+			"id": "zhipu",
+			"название": {
+				"ru": "Zhipu AI",
+				"en": "Zhipu AI"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Модели GLM, выросла из университета Цинхуа.",
+				"en": "The GLM models, grown out of Tsinghua University."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": -300,
+				"debt": 0,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонды Цинхуа",
+						"en": "Tsinghua funds"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Государственные фонды",
+						"en": "State funds"
+					},
+					"type": "polity",
+					"доля": 0.15,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжан Пэн",
+					"en": "Zhang Peng"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 1000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.99,
+					"д": 116.31,
+					"province": 628,
+					"staff": 1000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.zhipuai.cn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — частная, оценка"
+		},
+		{
+			"id": "moonshot",
+			"название": {
+				"ru": "Moonshot AI",
+				"en": "Moonshot AI"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Ассистент Kimi с очень длинной памятью.",
+				"en": "The Kimi assistant with a very long memory."
+			},
+			"fundamental": {
+				"выручка": 100,
+				"profit": -300,
+				"debt": 0,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Alibaba",
+						"en": "Alibaba"
+					},
+					"type": "company",
+					"доля": 0.36,
+					"country": "Китай",
+					"company": "alibaba"
+				},
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.34
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Чжилинь",
+					"en": "Yang Zhilin"
+				},
+				"роль": "founder",
+				"с_года": 2023,
+				"born_year": 1992,
+				"доля": 0.15,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 300,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.98,
+					"д": 116.33,
+					"province": 628,
+					"staff": 300,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.moonshot.cn/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — частная, оценка"
+		},
+		{
+			"id": "sensetime",
+			"название": {
+				"ru": "SenseTime",
+				"en": "SenseTime"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Компьютерное зрение и большие модели; торгуется в Гонконге.",
+				"en": "Computer vision and large models; listed in Hong Kong."
+			},
+			"fundamental": {
+				"выручка": 520,
+				"profit": -600,
+				"debt": 500,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 35000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.2,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "SoftBank",
+						"en": "SoftBank"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Япония",
+					"company": "softbank"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сюй Ли",
+					"en": "Xu Li"
+				},
+				"роль": "founder",
+				"с_года": 2014,
+				"born_year": 1982,
+				"доля": 0.05,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 4000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Шанхай",
+						"en": "Shanghai"
+					},
+					"ш": 31.23,
+					"д": 121.47,
+					"province": 613,
+					"staff": 3000,
+					"fine": 644
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Гонконг",
+						"en": "Hong Kong"
+					},
+					"ш": 22.5659,
+					"д": 114.104,
+					"province": 494,
+					"staff": 1000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sensetime.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "iflytek",
+			"название": {
+				"ru": "iFlytek",
+				"en": "iFlytek"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Распознавание речи и модели Spark; партнёр государства в образовании и медицине.",
+				"en": "Speech recognition and the Spark models; the state's partner in education and health."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 80,
+				"debt": 1500,
+				"money": 1500,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 2310,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лю Цинфэн",
+						"en": "Liu Qingfeng"
+					},
+					"type": "founder",
+					"доля": 0.05,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Государственные фонды",
+						"en": "State funds"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Лю Цинфэн",
+					"en": "Liu Qingfeng"
+				},
+				"роль": "founder",
+				"с_года": 1999,
+				"born_year": 1973,
+				"доля": 0.05,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 18000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хэфэй",
+						"en": "Hefei"
+					},
+					"ш": 31.82,
+					"д": 117.23,
+					"province": 822,
+					"staff": 12000,
+					"fine": 625
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.98,
+					"д": 116.3,
+					"province": 628,
+					"staff": 6000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.iflytek.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "wuxiapptec",
+			"название": {
+				"ru": "WuXi AppTec",
+				"en": "WuXi AppTec"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Крупнейшая в Китае лаборатория исследований на заказ для фармы всего мира.",
+				"en": "China's largest contract research lab for the world's pharma."
+			},
+			"fundamental": {
+				"выручка": 5600,
+				"profit": 1300,
+				"debt": 800,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 2900,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ли Гэ",
+						"en": "Ge Li"
+					},
+					"type": "founder",
+					"доля": 0.2,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Гэ",
+					"en": "Ge Li"
+				},
+				"роль": "founder",
+				"с_года": 2000,
+				"born_year": 1967,
+				"доля": 0.2,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 38000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Шанхай",
+						"en": "Shanghai"
+					},
+					"ш": 31.3,
+					"д": 121.6,
+					"province": 613,
+					"staff": 20000,
+					"fine": 644
+				},
+				{
+					"type": "нии",
+					"name": {
+						"ru": "Уси",
+						"en": "Wuxi"
+					},
+					"ш": 31.57,
+					"д": 120.3,
+					"province": 613,
+					"staff": 18000,
+					"fine": 643
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.wuxiapptec.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bgi",
+			"название": {
+				"ru": "BGI",
+				"en": "BGI Genomics"
+			},
+			"sector": "наука",
+			"profile": "наука",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Геномный центр: секвенирование, генетические тесты.",
+				"en": "A genomics centre: sequencing, genetic tests."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": -100,
+				"debt": 300,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 420,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ван Цзянь",
+						"en": "Wang Jian"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ван Цзянь",
+					"en": "Wang Jian"
+				},
+				"роль": "founder",
+				"с_года": 1999,
+				"born_year": 1954,
+				"доля": 0.3,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 5000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Шэньчжэнь",
+						"en": "Shenzhen"
+					},
+					"ш": 22.5659,
+					"д": 114.0601,
+					"province": 494,
+					"staff": 5000,
+					"fine": 626
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bgi.com/global | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "casc",
+			"название": {
+				"ru": "CASC",
+				"en": "China Aerospace Science and Technology Corp."
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "государственная",
+			"founded": 1999,
+			"description": {
+				"ru": "Государственная космическая корпорация Китая: ракеты «Чанчжэн», станция «Тяньгун», лунные и марсианские программы.",
+				"en": "China's state space corporation: Long March rockets, the Tiangong station, Moon and Mars programmes."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 3000,
+				"debt": 15000,
+				"money": 8000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Китая",
+						"en": "The Chinese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чэнь Минбо",
+					"en": "Chen Mingbo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 180000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.92,
+					"д": 116.32,
+					"province": 628,
+					"staff": 40000,
+					"fine": 623
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Цзюцюань",
+						"en": "Jiuquan"
+					},
+					"ш": 40.96,
+					"д": 100.29,
+					"province": 962,
+					"staff": 20000,
+					"fine": 647
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Вэньчан",
+						"en": "Wenchang"
+					},
+					"ш": 19.61,
+					"д": 110.95,
+					"province": 585,
+					"staff": 15000,
+					"fine": 629
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Сиань",
+						"en": "Xi'an"
+					},
+					"ш": 34.34,
+					"д": 108.94,
+					"province": 817,
+					"staff": 50000,
+					"fine": 631
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Шанхай",
+						"en": "Shanghai"
+					},
+					"ш": 31.02,
+					"д": 121.43,
+					"province": 612,
+					"staff": 55000,
+					"fine": 644
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава — оценка"
+			],
+			"source": "http://english.spacechina.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава — оценка"
+		},
+		{
+			"id": "landspace",
+			"название": {
+				"ru": "LandSpace",
+				"en": "LandSpace"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Частная ракетная компания: первая в мире метановая ракета на орбите.",
+				"en": "A private rocket company: the world's first methane rocket in orbit."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": -80,
+				"debt": 80,
+				"money": 450,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.3,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Чжан Чанъу",
+					"en": "Zhang Changwu"
+				},
+				"роль": "founder",
+				"с_года": 2015,
+				"born_year": 1979,
+				"доля": 0.2,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 2000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8,
+					"д": 116.5,
+					"province": 628,
+					"staff": 1500,
+					"fine": 623
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Цзюцюань",
+						"en": "Jiuquan"
+					},
+					"ш": 40.95,
+					"д": 100.28,
+					"province": 962,
+					"staff": 500,
+					"fine": 647
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "http://www.landspace.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — частная, оценка"
+		},
+		{
+			"id": "bytedance",
+			"название": {
+				"ru": "ByteDance",
+				"en": "ByteDance"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в мире частный интернет- и ИИ-гигант (TikTok, Douyin, Toutiao; выручка ~$120 млрд+, чистая прибыль ~$40 млрд, оценка ~$250-300 млрд)",
+				"en": "ByteDance — a AI company of China."
+			},
+			"fundamental": {
+				"выручка": 120000,
+				"profit": 40000,
+				"debt": 0,
+				"money": 120000,
+				"dividends": 12000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 720000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 378947,
+			"wage": 3773,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8747,
+					"д": 116.3884,
+					"province": 628,
+					"staff": 113684,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zte_corporation",
+			"название": {
+				"ru": "ZTE Corporation",
+				"en": "ZTE Corporation"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный производитель сетевого и телекоммуникационного оборудования 5G (выручка ~$17 млрд, кап ~$20 млрд)",
+				"en": "ZTE Corporation — a metals and mining company of China."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 1889,
+				"debt": 5667,
+				"money": 2040,
+				"dividends": 567
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 49111,
+			"wage": 2321,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8725,
+					"д": 116.368,
+					"province": 628,
+					"staff": 14733,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chery_automobile",
+			"название": {
+				"ru": "Chery Automobile / Changan / Great Wall Motor / Li Auto / NIO",
+				"en": "Chery Automobile / Changan / Great Wall Motor / Li Auto / NIO"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лидеры мирового автопрома и интеллектуальных электромобилей (совокупная выручка >$150 млрд)",
+				"en": "Chery Automobile / Changan / Great Wall Motor / Li Auto / NIO — a energy company of China."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 13868,
+				"debt": 91154,
+				"money": 19196,
+				"dividends": 4160
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 197826
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 266865,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.9092,
+					"д": 116.4152,
+					"province": 628,
+					"staff": 80059,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "crcc_cccc",
+			"название": {
+				"ru": "CRCC (China Railway Construction Corp) & CCCC (China Communications Construction)",
+				"en": "CRCC (China Railway Construction Corp) & CCCC (China Communications Construction)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировые гиганты инфраструктурного и транспортного строительства (выручка каждой >$150 млрд)",
+				"en": "CRCC (China Railway Construction Corp) & CCCC (China Communications Construction) — a transport company of China."
+			},
+			"fundamental": {
+				"выручка": 150000,
+				"profit": 10000,
+				"debt": 75758,
+				"money": 31034,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 107143
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 375000,
+			"wage": 2127,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8713,
+					"д": 116.4,
+					"province": 628,
+					"staff": 112500,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sany_group",
+			"название": {
+				"ru": "SANY Group & XCMG",
+				"en": "SANY Group & XCMG"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировые лидеры строительного и горного тяжелого машиностроения (выручка каждого ~–14 млрд)",
+				"en": "SANY Group & XCMG — a metals and mining company of China."
+			},
+			"fundamental": {
+				"выручка": 18900,
+				"profit": 2100,
+				"debt": 6300,
+				"money": 2268,
+				"dividends": 630
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 22680
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 54600,
+			"wage": 2321,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8756,
+					"д": 116.3813,
+					"province": 628,
+					"staff": 16380,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sf_express",
+			"название": {
+				"ru": "SF Express (Shunfeng)",
+				"en": "SF Express (Shunfeng)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный логистический и авиагрузовой оператор Китая (выручка ~$36 млрд, флот 80+ грузовых самолетов)",
+				"en": "SF Express (Shunfeng) — a transport company of China."
+			},
+			"fundamental": {
+				"выручка": 36000,
+				"profit": 2400,
+				"debt": 18182,
+				"money": 7448,
+				"dividends": 720
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90000,
+			"wage": 2127,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8776,
+					"д": 116.411,
+					"province": 628,
+					"staff": 27000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "longi_green",
+			"название": {
+				"ru": "LONGi Green Energy / JinkoSolar",
+				"en": "LONGi Green Energy / JinkoSolar"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировые технологические лидеры солнечной энергетики и фотовольтаики",
+				"en": "LONGi Green Energy / JinkoSolar — a energy company of China."
+			},
+			"fundamental": {
+				"выручка": 17850,
+				"profit": 1650,
+				"debt": 10847,
+				"money": 2284,
+				"dividends": 495
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 23541
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 31757,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8713,
+					"д": 116.4138,
+					"province": 628,
+					"staff": 9527,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "china_resources",
+			"название": {
+				"ru": "China Resources (CRC)",
+				"en": "China Resources (CRC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный многопрофильный конгломерат (пиво Snow, ритейл, фарма, цемент; выручка ~$120 млрд)",
+				"en": "China Resources (CRC) — a consumer and retail company of China."
+			},
+			"fundamental": {
+				"выручка": 120000,
+				"profit": 9333,
+				"debt": 27692,
+				"money": 10000,
+				"dividends": 2800
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 164384
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Китай)",
+						"en": "The state (China)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360000,
+			"wage": 1444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.9371,
+					"д": 116.399,
+					"province": 628,
+					"staff": 108000,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nongfu_spring",
+			"название": {
+				"ru": "Nongfu Spring",
+				"en": "Nongfu Spring"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный производитель бутилированной воды и напитков (кап ~$45 млрд, основатель Чжун Шаньшань)",
+				"en": "Nongfu Spring — a consumer and retail company of China."
+			},
+			"fundamental": {
+				"выручка": 32850,
+				"profit": 2555,
+				"debt": 7581,
+				"money": 2738,
+				"dividends": 766
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 98550,
+			"wage": 1444,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8719,
+					"д": 116.4092,
+					"province": 628,
+					"staff": 29565,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "casic",
+			"название": {
+				"ru": "CASIC (China Aerospace Science and Industry Corp)",
+				"en": "CASIC (China Aerospace Science and Industry Corp)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный разработчик ракетного оружия Китая: гиперзвуковые комплексы DF-17, крылатые ракеты YJ-18/YJ-12, системы ПВО/ПРО HQ-9B, HQ-19. Выручка ~$45 млрд, 150 000 сотр",
+				"en": "CASIC (China Aerospace Science and Industry Corp) — a defence company of China."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 3000,
+				"debt": 11571,
+				"money": 6923,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 84375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Китай)",
+						"en": "The state (China)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 135000,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.8815,
+					"д": 116.3885,
+					"province": 628,
+					"staff": 40500,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cetc",
+			"название": {
+				"ru": "CETC (China Electronics Technology Group Corp)",
+				"en": "CETC (China Electronics Technology Group Corp)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Самолеты ДРЛО (KJ-500), РЛС с АФАР, комплексы РЭБ, квантовая связь, военная микроэлектроника. Выручка ~$55 млрд, 200 000 сотр",
+				"en": "CETC (China Electronics Technology Group Corp) — a defence company of China."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 3667,
+				"debt": 14143,
+				"money": 8462,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Китай)",
+						"en": "The state (China)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 165000,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.9297,
+					"д": 116.4167,
+					"province": 628,
+					"staff": 49500,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "csgc",
+			"название": {
+				"ru": "CSGC (China South Industries Group Corp)",
+				"en": "CSGC (China South Industries Group Corp)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стрелковое оружие, высокоточные боеприпасы, легкая колесная бронетехника",
+				"en": "CSGC (China South Industries Group Corp) — a defence company of China."
+			},
+			"fundamental": {
+				"выручка": 7575,
+				"profit": 505,
+				"debt": 1948,
+				"money": 1165,
+				"dividends": 152
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 14203
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Китай)",
+						"en": "The state (China)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 22725,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.9072,
+					"д": 116.3596,
+					"province": 628,
+					"staff": 6817,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aecc",
+			"название": {
+				"ru": "AECC (Aero Engine Corp of China)",
+				"en": "AECC (Aero Engine Corp of China)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка и производство военных турбореактивных двигателей (WS-10C, WS-15 для J-20, WS-20 для Y-20). Выручка ~$25 млрд, 100 000 сотр",
+				"en": "AECC (Aero Engine Corp of China) — a defence company of China."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 1667,
+				"debt": 6429,
+				"money": 3846,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 46875
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Китай)",
+						"en": "The state (China)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Китай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75000,
+			"wage": 1950,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пекин",
+						"en": "Beijing"
+					},
+					"ш": 39.9309,
+					"д": 116.3956,
+					"province": 628,
+					"staff": 22500,
+					"fine": 623
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

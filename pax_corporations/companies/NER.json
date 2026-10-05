@@ -1,0 +1,1160 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Нигер",
+	"iso": "NER",
+	"data_date": "2026-03",
+	"average_wage": 80,
+	"companies": [
+		{
+			"id": "somair",
+			"название": {
+				"ru": "Somaïr",
+				"en": "Somaïr"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1968,
+			"description": {
+				"ru": "Урановый рудник Арлит — хунта национализировала его у Orano.",
+				"en": "The Arlit uranium mine — the junta nationalised it from Orano."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 0,
+				"debt": 100,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Нигера",
+						"en": "The Nigerien state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гарба Иллу Абдул-Нассиру",
+					"en": "Garba Illou Abdoul-Nassirou"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горный инженер от государства",
+					"en": "ищет покупателя в России"
+				}
+			},
+			"staff": 900,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Арлит",
+						"en": "Arlit"
+					},
+					"ш": 18.74,
+					"д": 7.39,
+					"province": 1031,
+					"staff": 900,
+					"fine": 2889
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.anp.ne | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "sonidep",
+			"название": {
+				"ru": "SONIDEP (Société Nigérienne des Pétroles)",
+				"en": "SONIDEP (Société Nigérienne des Pétroles)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Нефтегазовая промышленность (государственная национальная нефтяная компания, оператор месторождений в бассейне Агадем и экспорта нефти — ) [Выручка: $650 млн, Чистая прибыль: $80 млн, Долг: $150 млн, Деньги: $80 млн, Дивиденды: $30 млн, Капитализация: $1,200 млн (100% госсобственность), Штат: 1,200 чел., Зарплата: $400/мес, Руководитель: Полковник Али Сейбу Хассан (Colonel Ali Seibou Hassane), Ген",
+				"en": "SONIDEP (Société Nigérienne des Pétroles) — a oil and gas company of Niger."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 80,
+				"debt": 150,
+				"money": 80,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 568,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.5429,
+					"д": 2.0971,
+					"province": 283,
+					"staff": 170,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "soraz",
+			"название": {
+				"ru": "SORAZ (Société de Raffinage de Zinder)",
+				"en": "SORAZ (Société de Raffinage de Zinder)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1970,
+			"description": {
+				"ru": "Нефтепереработка (НПЗ в Зиндере мощностью 20,000 баррелей в сутки, совместное предприятие CNPC 60% и Государства Нигер 40% — ) [Выручка: $500 млн, Чистая прибыль: $60 млн, Долг: $200 млн, Деньги: $50 млн, Дивиденды: $20 млн, Капитализация: $800 млн, Штат: 1,500 чел., Зарплата: $450/мес, Руководитель: Махаман Мустафа (Mahaman Moustapha), Генеральный директор, родился в 1970 году.]. Официальные исто",
+				"en": "SORAZ (Société de Raffinage de Zinder) — a oil and gas company of Niger."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 60,
+				"debt": 200,
+				"money": 50,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 437,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Зиндер",
+						"en": "Zinder"
+					},
+					"ш": 13.8444,
+					"д": 9.005,
+					"province": 281,
+					"staff": 131,
+					"fine": 2891
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "wapco_niger",
+			"название": {
+				"ru": "WAPCO Niger (West African Oil Pipeline Company - Niger)",
+				"en": "WAPCO Niger (West African Oil Pipeline Company - Niger)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Нефтепроводный транспорт (оператор 2,000-километрового экспортного нефтепровода Агадем — порт Семе в Бенине, проектная мощность 110,000 барр./сутки — ) [Выручка: $400 млн (транзитные тарифы), Чистая прибыль: $100 млн, Долг: $2,500 млн (инвестиции CNPC), Деньги: $150 млн, Дивиденды: $50 млн, Капитализация: $3,000 млн (CNPC), Штат: 800 инженеров и операторов, Зарплата: $600/мес, Руководитель: Ню Чжи",
+				"en": "WAPCO Niger (West African Oil Pipeline Company - Niger) — a transport company of Niger."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 100,
+				"debt": 2500,
+				"money": 150,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.5021,
+					"д": 2.0834,
+					"province": 283,
+					"staff": 300,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "nigelec",
+			"название": {
+				"ru": "NIGELEC (Société Nigérienne d'Electricité)",
+				"en": "NIGELEC (Société Nigérienne d'Electricité)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1968,
+			"description": {
+				"ru": "Электроэнергетика (национальный государственный монополист электроснабжения: ТЭС Гору Банда, строящаяся ГЭС Кандаджи — ) [Выручка: $250 млн, Чистая прибыль: -$30 млн (кризис тарифов и отключения трансграничных линий из Нигерии), Долг: $400 млн, Деньги: $20 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 2,500 чел., Зарплата: $320/мес, Руководитель: Фукори Ибрагим (Foukori Ibra",
+				"en": "NIGELEC (Société Nigérienne d'Electricité) — a energy company of Niger."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": -30,
+				"debt": 400,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 330
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 444,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.4949,
+					"д": 2.0834,
+					"province": 283,
+					"staff": 133,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sopamin",
+			"название": {
+				"ru": "SOPAMIN (Société du Patrimoine des Mines du Niger)",
+				"en": "SOPAMIN (Société du Patrimoine des Mines du Niger)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Горнорудный холдинг (управляет государственными долями в урановых рудниках Somaïr, Imouraren, Cominak и золотом руднике Самира-Хилл — ) [Выручка: $180 млн, Чистая прибыль: $25 млн, Долг: $50 млн, Деньги: $30 млн, Дивиденды: $10 млн, Капитализация: $600 млн (государственная корпорация), Штат: 350 специалистов, Зарплата: $600/мес, Руководитель: Усман Махамаду (Ousmane Mahamadou), Генеральный директо",
+				"en": "SOPAMIN (Société du Patrimoine des Mines du Niger) — a metals and mining company of Niger."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 25,
+				"debt": 50,
+				"money": 30,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 520,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.4746,
+					"д": 2.0866,
+					"province": 283,
+					"staff": 156,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "airtel_niger",
+			"название": {
+				"ru": "Airtel Niger",
+				"en": "Airtel Niger"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Мобильная связь, 4G и мобильные платежи Airtel Money (крупнейший оператор сотовой связи Нигера, группа Bharti Airtel — ) [Выручка: $220 млн, Чистая прибыль: $35 млн, Долг: $40 млн, Деньги: $25 млн, Дивиденды: $20 млн, Капитализация: $350 млн, Штат: 450 чел., Зарплата: $600/мес, Руководитель: Абделлатиф Бузиани (Abdellatif Bouziani), Управляющий директор с 2022 года, родился в 1972 году.]. Официаль",
+				"en": "Airtel Niger — a IT and telecom company of Niger."
+			},
+			"fundamental": {
+				"выручка": 220,
+				"profit": 35,
+				"debt": 40,
+				"money": 25,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 582,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.4913,
+					"д": 2.1143,
+					"province": 283,
+					"staff": 174,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "niger_telecoms",
+			"название": {
+				"ru": "Niger Telecoms",
+				"en": "Niger Telecoms"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1974,
+			"description": {
+				"ru": "Телекоммуникации (государственный оператор проводной связи и мобильной сети, созданный слиянием Sonitel и SahelCom — ) [Выручка: $120 млн, Чистая прибыль: $10 млн, Долг: $50 млн, Деньги: $15 млн, Дивиденды: $2 млн, Капитализация: $150 млн (100% госсобственность), Штат: 1,000 чел., Зарплата: $400/мес, Руководитель: Абдулкарим Сумана (Abdoulkarim Soumana), Генеральный директор, родился в 1974 году.]",
+				"en": "Niger Telecoms — a IT and telecom company of Niger."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 10,
+				"debt": 50,
+				"money": 15,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 317,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.509,
+					"д": 2.0932,
+					"province": 283,
+					"staff": 95,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "sml_soci",
+			"название": {
+				"ru": "SML - Société des Mines du Liptako (Рудник Самира-Хилл)",
+				"en": "SML - Société des Mines du Liptako (Рудник Самира-Хилл)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1970,
+			"description": {
+				"ru": "Добыча золота (главный промышленный золоторудный карьер Самира-Хилл в регионе Тиллабери — ) [Выручка: $90 млн, Чистая прибыль: $20 млн, Долг: $20 млн, Деньги: $15 млн, Дивиденды: $5 млн, Капитализация: $180 млн (100% государственная собственность через SOPAMIN), Штат: 700 чел., Зарплата: $450/мес, Руководитель: Амаду Сейду (Amadou Seydou), Генеральный директор, родился в 1970 году.]. Официальные и",
+				"en": "SML - Société des Mines du Liptako (Рудник Самира-Хилл) — a metals and mining company of Niger."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 20,
+				"debt": 20,
+				"money": 15,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 260,
+			"wage": 143,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тиллабери",
+						"en": "Tillabéri"
+					},
+					"ш": 14.2036,
+					"д": 1.4882,
+					"province": 283,
+					"staff": 78,
+					"fine": 2887
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "sonibank",
+			"название": {
+				"ru": "SONIBANK (Société Nigérienne de Banque)",
+				"en": "SONIBANK (Société Nigérienne de Banque)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1964,
+			"description": {
+				"ru": "Банковские и финансовые услуги (крупнейший коммерческий банк страны по числу отделений — ) [Выручка: $85 млн, Чистая прибыль: $22 млн, Долг: $0 (активы $1.1 млрд), Деньги: $0, Дивиденды: $10 млн, Капитализация: $160 млн, Штат: 650 чел., Зарплата: $520/мес, Руководитель: Сулей Умару (Souley Oumarou), Генеральный директор, родился в 1964 году.]. Официальные источники: https://www.sonibank.com, https",
+				"en": "SONIBANK (Société Nigérienne de Banque) — a financial company of Niger."
+			},
+			"fundamental": {
+				"выручка": 85,
+				"profit": 22,
+				"debt": 1100,
+				"money": 0,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 160
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 242,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.4914,
+					"д": 2.1418,
+					"province": 283,
+					"staff": 72,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "bia_niger",
+			"название": {
+				"ru": "BIA Niger (Banque Internationale pour l'Afrique au Niger)",
+				"en": "BIA Niger (Banque Internationale pour l'Afrique au Niger)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Банки и корпоративные финансы (старейший банк Нигера, входит в марокканскую группу Banque Centrale Populaire — ) [Выручка: $70 млн, Чистая прибыль: $18 млн, Долг: $0 (активы $900 млн), Деньги: $0, Дивиденды: $8 млн, Капитализация: $130 млн, Штат: 500 чел., Зарплата: $500/мес, Руководитель: Анго Нана (Ango Nana), Генеральный директор, родилась в 1966 году.]. Официальные источники: https://www.biani",
+				"en": "BIA Niger (Banque Internationale pour l'Afrique au Niger) — a financial company of Niger."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 18,
+				"debt": 900,
+				"money": 0,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 130
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 200,
+			"wage": 131,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.487,
+					"д": 2.107,
+					"province": 283,
+					"staff": 60,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_du_4",
+			"название": {
+				"ru": "Direction du Matériel et des Ateliers Centraux des Armées (Ateliers Centraux Niamey)",
+				"en": "Direction du Matériel et des Ateliers Centraux des Armées (Ateliers Centraux Niamey)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-ремонтный комплекс вооружения, бронетехники и тактических автомобилей Вооруженных сил Нигера (FAN — Официальные источники: https://www.defense.gouv.ne, https://www.defense.gouv.ne/defense (Оборонные программы)",
+				"en": "Direction du Matériel et des Ateliers Centraux des Armées (Ateliers Centraux Niamey) — a defence company of Niger."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 56
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор службы вооружения и материально-технического снабжения Генштаба FAN (Colonel / Directeur du Materiel des Armees)]",
+					"en": "Директор службы вооружения и материально-технического снабжения Генштаба FAN (Colonel / Directeur du Materiel des Armees)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.5417,
+					"д": 2.1193,
+					"province": 283,
+					"staff": 27,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_7",
+			"название": {
+				"ru": "Base Aérienne 101 Niamey (Ateliers Techniques de l'Armée de l'Air)",
+				"en": "Base Aérienne 101 Niamey (Ateliers Techniques de l'Armée de l'Air)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-авиационная база ударных БПЛА и боевой авиации ВВС Нигера — Официальные источники: https://www.defense.gouv.ne, https://www.defense.gouv.ne/defense (Оборонные программы)",
+				"en": "Base Aérienne 101 Niamey (Ateliers Techniques de l'Armée de l'Air) — a defence company of Niger."
+			},
+			"fundamental": {
+				"выручка": 28,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 52
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник авиации, Командующий ВВС Нигера (Colonel / Chef d'Etat-Major de l'Armee de l'Air)]",
+					"en": "Полковник авиации, Командующий ВВС Нигера (Colonel / Chef d'Etat-Major de l'Armee de l'Air)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 84,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.4952,
+					"д": 2.104,
+					"province": 283,
+					"staff": 25,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_centrale_3",
+			"название": {
+				"ru": "Direction Centrale du Génie Militaire et Déminage (Génielab Niamey)",
+				"en": "Direction Centrale du Génie Militaire et Déminage (Génielab Niamey)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-инженерный научно-производственный комплекс Сухопутных войск — Официальные источники: https://www.defense.gouv.ne, https://www.defense.gouv.ne/defense (Оборонные программы)",
+				"en": "Direction Centrale du Génie Militaire et Déminage (Génielab Niamey) — a defence company of Niger."
+			},
+			"fundamental": {
+				"выручка": 27,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 51
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник инженерных войск FAN (Colonel / Directeur du Genie Militaire)]",
+					"en": "Начальник инженерных войск FAN (Colonel / Directeur du Genie Militaire)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 81,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ниамей",
+						"en": "Niamey"
+					},
+					"ш": 13.531,
+					"д": 2.1072,
+					"province": 283,
+					"staff": 24,
+					"fine": 2893
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_8",
+			"название": {
+				"ru": "Base Aérienne 201 Agadez (Centre d'Opérations Aériennes du Nord)",
+				"en": "Base Aérienne 201 Agadez (Centre d'Opérations Aériennes du Nord)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стратегическая авиабаза в Сахаре, перешедшая под полный контроль вооруженных сил Нигера в 2024 году (бывшая база БПЛА США — Официальные источники: https://www.defense.gouv.ne, https://www.defense.gouv.ne/defense (Оборонные программы)",
+				"en": "Base Aérienne 201 Agadez (Centre d'Opérations Aériennes du Nord) — a defence company of Niger."
+			},
+			"fundamental": {
+				"выручка": 22,
+				"profit": 1,
+				"debt": 6,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 41
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир 201-й авиабазы (Commandant de la Base Aerienne 201)]",
+					"en": "Командир 201-й авиабазы (Commandant de la Base Aerienne 201)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 66,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Агадез",
+						"en": "Agadez"
+					},
+					"ш": 17.0113,
+					"д": 7.9769,
+					"province": 1031,
+					"staff": 19,
+					"fine": 2889
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "d_p_5",
+			"название": {
+				"ru": "Dépôt Central des Munitions et d'Armement de Tondibia",
+				"en": "Dépôt Central des Munitions et d'Armement de Tondibia"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный стратегический арсенал хранения боеприпасов и тяжелого вооружения — Официальные источники: https://www.defense.gouv.ne, https://www.defense.gouv.ne/defense (Оборонные программы)",
+				"en": "Dépôt Central des Munitions et d'Armement de Tondibia — a defence company of Niger."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигер)",
+						"en": "The state (Niger)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигер"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Комендант центрального арсенала Тондибия]",
+					"en": "Комендант центрального арсенала Тондибия]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тиллабери",
+						"en": "Tillabéri"
+					},
+					"ш": 14.1683,
+					"д": 1.4859,
+					"province": 283,
+					"staff": 18,
+					"fine": 2887
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

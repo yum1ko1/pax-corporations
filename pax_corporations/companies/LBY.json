@@ -1,0 +1,1044 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ливия",
+	"iso": "LBY",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "libyanoc",
+			"название": {
+				"ru": "Национальная нефтяная корпорация Ливии",
+				"en": "National Oil Corporation of Libya"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1970,
+			"description": {
+				"ru": "Государственная нефть Ливии — зависит от того, кто держит Триполи.",
+				"en": "Libya's state oil — hostage to whoever holds Tripoli."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 8000,
+				"debt": 1000,
+				"money": 5000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ливии",
+						"en": "The Libyan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Масуд Сулейман",
+					"en": "Masoud Suleman"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "между двумя правительствами",
+					"en": "между двумя правительствами"
+				}
+			},
+			"staff": 50000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.89,
+					"д": 13.19,
+					"province": 578,
+					"staff": 5000,
+					"fine": 2227
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Эс-Шарара",
+						"en": "El Sharara field"
+					},
+					"ш": 26.55,
+					"д": 12.23,
+					"province": 905,
+					"staff": 2000,
+					"fine": 2235
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Рас-Лануф",
+						"en": "Ras Lanuf"
+					},
+					"ш": 30.5,
+					"д": 18.55,
+					"province": 577,
+					"staff": 3000,
+					"fine": 2232
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://noc.ly/ | NOC Libya Official Reports 2024–2025; Ministry of Oil and Gas Libya"
+		},
+		{
+			"id": "lia",
+			"название": {
+				"ru": "Libyan Investment Authority",
+				"en": "Libyan Investment Authority"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 2006,
+			"description": {
+				"ru": "Суверенный фонд Ливии, активы заморожены санкциями ООН.",
+				"en": "Libya's sovereign fund, assets frozen by UN sanctions."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 800,
+				"debt": 0,
+				"money": 20000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ливии",
+						"en": "The Libyan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Али Махмуд Хасан",
+					"en": "Ali Mahmoud Hassan"
+				},
+				"роль": "госслужащий",
+				"с_года": 2017,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "хранитель замороженных денег",
+					"en": "хранитель замороженных денег"
+				}
+			},
+			"staff": 400,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.88,
+					"д": 13.18,
+					"province": 578,
+					"staff": 400,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://lia.ly/ | Libyan Investment Authority Annual Disclosures 2024; UN Security Council reports"
+		},
+		{
+			"id": "general_electricity",
+			"название": {
+				"ru": "General Electricity Company of Libya (GECOL)",
+				"en": "General Electricity Company of Libya (GECOL)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая монополия Ливии (управление ТЭС в Триполи, Мисрате, Бенгази, Завии и единой национальной энергосетью; выработка свыше 30 млрд кВт⋅ч; выручка ~$1.5 млрд, 40,000 сотр.). https://gecol.ly/",
+				"en": "General Electricity Company of Libya (GECOL) — a energy company of Libya."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 139,
+				"debt": 912,
+				"money": 192,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1978
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2668,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.8609,
+					"д": 13.1984,
+					"province": 578,
+					"staff": 800,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "libyan_iron",
+			"название": {
+				"ru": "Libyan Iron and Steel Company (LISCO)",
+				"en": "Libyan Iron and Steel Company (LISCO)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Северной Африке металлургический комбинат прямого восстановления железа (DRI) и выплавки стали в Мисрате (мощность до 2 млн тонн стали, проката, арматуры и катанки в год; 7,000 сотр.). https://www.liscolibya.com/",
+				"en": "Libyan Iron and Steel Company (LISCO) — a metals and mining company of Libya."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 58,
+				"debt": 175,
+				"money": 63,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 630
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1516,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.8874,
+					"д": 13.2072,
+					"province": 578,
+					"staff": 454,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lptic",
+			"название": {
+				"ru": "LPTIC (Libyan Post Telecommunications & Information Technology Company)",
+				"en": "LPTIC (Libyan Post Telecommunications & Information Technology Company)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный телекоммуникационный холдинг-монополист Ливии (материнская компания мобильных операторов Libyana и Al-Madar Al-Jadeed, интернет-провайдера Hatif Libya; суммарная выручка свыше $1.8 млрд). https://lptic.ly/",
+				"en": "LPTIC (Libyan Post Telecommunications & Information Technology Company) — a IT and telecom company of Libya."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 232,
+				"debt": 572,
+				"money": 300,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3408
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4768,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.9008,
+					"д": 13.2137,
+					"province": 578,
+					"staff": 1430,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "al_madar",
+			"название": {
+				"ru": "Al-Madar Al-Jadeed / Libyana",
+				"en": "Al-Madar Al-Jadeed / Libyana"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие национальные мобильные операторы Ливии (свыше 6 млн абонентов, развертывание 4G+ и пилотных зон 5G). https://almadar.ly/ | https://libyana.ly/",
+				"en": "Al-Madar Al-Jadeed / Libyana — a IT and telecom company of Libya."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 68,
+				"debt": 167,
+				"money": 88,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 994
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1390,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.8532,
+					"д": 13.2205,
+					"province": 578,
+					"staff": 417,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jumhouria_bank",
+			"название": {
+				"ru": "Jumhouria Bank (Банк Аль-Джумхурия)",
+				"en": "Jumhouria Bank (Банк Аль-Джумхурия)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный коммерческий банк Ливии по величине активов и филиальной сети (свыше 170 отделений по всей стране, активы свыше $25 млрд). https://jbank.ly/",
+				"en": "Jumhouria Bank (Банк Аль-Джумхурия) — a financial company of Libya."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 148,
+				"debt": 0,
+				"money": 0,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.8501,
+					"д": 13.1652,
+					"province": 578,
+					"staff": 450,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_commercial",
+			"название": {
+				"ru": "National Commercial Bank (NCB Libya)",
+				"en": "National Commercial Bank (NCB Libya)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк страны со штаб-квартирой в Бенгази (сеть из 80 филиалов, активы свыше $10 млрд). https://ncb.ly/",
+				"en": "National Commercial Bank (NCB Libya) — a financial company of Libya."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 148,
+				"debt": 0,
+				"money": 0,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бенгази",
+						"en": "Benghazi"
+					},
+					"ш": 32.1182,
+					"д": 20.1037,
+					"province": 615,
+					"staff": 450,
+					"fine": 2231
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "waha_oil",
+			"название": {
+				"ru": "Waha Oil Company / Sirte Oil Company",
+				"en": "Waha Oil Company / Sirte Oil Company"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевые дочерние нефтегазодобывающие операторы NOC (добыча нефти на месторождениях бассейнов Сирт и Музук, экспорт через терминалы Эс-Сидер и Марса-эль-Брега). https://waha-oil.ly/ | https://soc.ly/",
+				"en": "Waha Oil Company / Sirte Oil Company — a oil and gas company of Libya."
+			},
+			"fundamental": {
+				"выручка": 354,
+				"profit": 21,
+				"debt": 100,
+				"money": 34,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 309,
+			"wage": 894,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сирт",
+						"en": "Sirte"
+					},
+					"ш": 31.1963,
+					"д": 16.6176,
+					"province": 577,
+					"staff": 92,
+					"fine": 2232
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "afriqiyah_airways",
+			"название": {
+				"ru": "Afriqiyah Airways / Libyan Airlines",
+				"en": "Afriqiyah Airways / Libyan Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственные авиаперевозчики Ливии (базовые хабы — аэропорт Митига в Триполи и аэропорт Бенина в Бенгази; рейсы в Турцию, Египет, Тунис, Иорданию). https://afriqiyah.aero/ | https://www.libyanairlines.aero/",
+				"en": "Afriqiyah Airways / Libyan Airlines — a transport company of Libya."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 12,
+				"debt": 93,
+				"money": 38,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 460,
+			"wage": 818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.892,
+					"д": 13.2032,
+					"province": 578,
+					"staff": 138,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "libyan_ports",
+			"название": {
+				"ru": "Libyan Ports Company",
+				"en": "Libyan Ports Company"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная портовая администрация (управление морскими портами Триполи, Бенгази, Мисрата, Хомс, Тобрук). https://ports.ly/",
+				"en": "Libyan Ports Company — a transport company of Libya."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 12,
+				"debt": 93,
+				"money": 38,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 460,
+			"wage": 818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.8728,
+					"д": 13.2213,
+					"province": 578,
+					"staff": 138,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tsentralnye_remontno",
+			"название": {
+				"ru": "Центральные ремонтно-восстановительные базы и мастерские (Триполи / Бенгази)",
+				"en": "Центральные ремонтно-восстановительные базы и мастерские (Триполи / Бенгази)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Центральные ремонтно-восстановительные базы и мастерские (Триполи / Бенгази) — a defence company of Libya."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.888,
+					"д": 13.2,
+					"province": 578,
+					"staff": 71,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aviaremontnye_bazy",
+			"название": {
+				"ru": "Авиаремонтные базы Митига, Бенина и Аль-Джуфра",
+				"en": "Авиаремонтные базы Митига, Бенина и Аль-Джуфра"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Регламентные работы, техническое обслуживание и ремонт боевых самолетов МиГ-29, МиГ-21/23, фронтовых бомбардировщиков Су-24, ударных вертолетов Ми-24/35 и транспортных Ми-8/17",
+				"en": "Авиаремонтные базы Митига, Бенина и Аль-Джуфра — a defence company of Libya."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.9102,
+					"д": 13.1614,
+					"province": 578,
+					"staff": 71,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "voenno_morskie",
+			"название": {
+				"ru": "Военно-морские мастерские Абу-Ситта (Триполи) и верфи Бенгази",
+				"en": "Военно-морские мастерские Абу-Ситта (Триполи) и верфи Бенгази"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонт и докование патрульных катеров и перехватчиков береговой охраны Ливии (Combattante II, Damen Stan Patrol 1605, PV30-LS)",
+				"en": "Военно-морские мастерские Абу-Ситта (Триполи) и верфи Бенгази — a defence company of Libya."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ливия)",
+						"en": "The state (Libya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ливия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Триполи",
+						"en": "Tripoli"
+					},
+					"ш": 32.908,
+					"д": 13.2029,
+					"province": 578,
+					"staff": 71,
+					"fine": 2227
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

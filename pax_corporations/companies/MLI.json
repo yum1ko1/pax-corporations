@@ -1,0 +1,1168 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мали",
+	"iso": "MLI",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "loulo",
+			"название": {
+				"ru": "Loulo-Gounkoto",
+				"en": "Loulo-Gounkoto"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Золото Мали — хунта отбирает его у Barrick.",
+				"en": "Mali's gold — the junta is seizing it from Barrick."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 300,
+				"debt": 0,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Barrick",
+						"en": "Barrick"
+					},
+					"type": "company",
+					"доля": 0.8,
+					"country": "Канада",
+					"company": "barrick"
+				},
+				{
+					"кто": {
+						"ru": "Государство Мали",
+						"en": "The Malian state"
+					},
+					"type": "polity",
+					"доля": 0.2,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сумана Макаджи",
+					"en": "Soumana Makadji"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1954,
+				"доля": 0.0,
+				"характер": {
+					"ru": "судебный администратор / экс-министр",
+					"en": "поставлен хунтой"
+				}
+			},
+			"staff": 4000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лоуло",
+						"en": "Loulo"
+					},
+					"ш": 13.1177,
+					"д": -11.4478,
+					"province": 134,
+					"staff": 4000,
+					"fine": 2650
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.barrick.com/English/operations/loulo-gounkoto/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "fekola_gold",
+			"название": {
+				"ru": "Fekola Gold Mine (B2Gold Mali)",
+				"en": "Fekola Gold Mine (B2Gold Mali)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1957,
+			"description": {
+				"ru": "Горнодобывающая промышленность (крупнейший карьер по добыче золота Фекола в регионе Кайес, канадская B2Gold 80%, государство 20% — ) [Выручка: $1,000 млн, Чистая прибыль: $250 млн, Долг: $50 млн, Деньги: $120 млн, Дивиденды: $80 млн, Капитализация: $2,200 млн (ключевой актив B2Gold Corp, TSX: BTO, NYSE: BTG), Штат: 2,500 чел., Зарплата: $550/мес, Руководитель: Клайв Джонсон (Clive Johnson), Презид",
+				"en": "Fekola Gold Mine (B2Gold Mali) — a metals and mining company of Mali."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 250,
+				"debt": 50,
+				"money": 120,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2888,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кайес",
+						"en": "Kayes"
+					},
+					"ш": 14.4779,
+					"д": -11.4086,
+					"province": 134,
+					"staff": 866,
+					"fine": 2650
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "compagnie_malienne",
+			"название": {
+				"ru": "Compagnie Malienne pour le Développement des Textiles (CMDT)",
+				"en": "Compagnie Malienne pour le Développement des Textiles (CMDT)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Сельское хозяйство и текстильная промышленность (государственный хлопковый гигант, Мали — лидер по сбору хлопка в Африке — Nango Dembélé), Президент и Генеральный директор с 2020 года (экс-министр сельского хозяйства Мали), родился в 1957 году.]. Официальные источники: https://www.cmdt-mali.net, https://www.cmdt-mali.net/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Compagnie Malienne pour le Développement des Textiles (CMDT) — a consumer and retail company of Mali."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 30,
+				"debt": 180,
+				"money": 40,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 959
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Д-р Нанго Дембеле (Dr",
+					"en": "Д-р Нанго Дембеле (Dr"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2100,
+			"wage": 111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6375,
+					"д": -7.9457,
+					"province": 296,
+					"staff": 630,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, штат, зарплата"
+			]
+		},
+		{
+			"id": "orange_mali",
+			"название": {
+				"ru": "Orange Mali",
+				"en": "Orange Mali"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Телекоммуникации и цифровые финансовые сервисы (крупнейший оператор мобильной связи и мобильного банкинга Orange Money — ) [Выручка: $550 млн, Чистая прибыль: $95 млн, Долг: $60 млн, Деньги: $45 млн, Дивиденды: $50 млн, Капитализация: $800 млн (группа Orange MEA), Штат: 1,100 чел., Зарплата: $500/мес, Руководитель: Абубакар Садик Диоп (Aboubacar Sadikh Diop), Генеральный директор с 2022 года, роди",
+				"en": "Orange Mali — a IT and telecom company of Mali."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 95,
+				"debt": 60,
+				"money": 45,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1456,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5796,
+					"д": -7.9736,
+					"province": 296,
+					"staff": 436,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "syama_gold",
+			"название": {
+				"ru": "Syama Gold Mine (Resolute Mining)",
+				"en": "Syama Gold Mine (Resolute Mining)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Добыча золота (высокомеханизированный подземный и открытый рудник Сьяма в регионе Сикасо — ) [Выручка: $450 млн, Чистая прибыль: $85 млн, Долг: $30 млн, Деньги: $70 млн, Дивиденды: $25 млн, Капитализация: $850 млн (Resolute Mining Ltd, ASX/LSE: RSG), Штат: 1,800 чел., Зарплата: $500/мес, Руководитель: Терри Холохан (Terry Holohan), Главный исполнительный директор Resolute Mining, родился в 1961 го",
+				"en": "Syama Gold Mine (Resolute Mining) — a metals and mining company of Mali."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 85,
+				"debt": 30,
+				"money": 70,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 850
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1300,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6333,
+					"д": -8.013,
+					"province": 296,
+					"staff": 390,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "nergie_du",
+			"название": {
+				"ru": "Énergie du Mali - EDM-SA",
+				"en": "Énergie du Mali - EDM-SA"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1974,
+			"description": {
+				"ru": "Электроэнергетика (национальная энергетическая монополия: ГЭС Манантали, Селинге, ТЭС — ) [Выручка: $350 млн, Чистая прибыль: -$80 млн (тяжелый кризис субсидирования топлива и нехватки мощностей), Долг: $600 млн, Деньги: $25 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 2,800 чел., Зарплата: $320/мес, Руководитель: Абдулай Джибриль Диалло (Abdoulaye Djibril Diallo), Генераль",
+				"en": "Énergie du Mali - EDM-SA — a energy company of Mali."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": -80,
+				"debt": 600,
+				"money": 25,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 462
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 622,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5721,
+					"д": -7.9589,
+					"province": 296,
+					"staff": 186,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sotelma_malitel",
+			"название": {
+				"ru": "SOTELMA-Malitel (Moov Africa Malitel)",
+				"en": "SOTELMA-Malitel (Moov Africa Malitel)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1968,
+			"description": {
+				"ru": "Телекоммуникации (национальный оператор проводной связи и второй оператор мобильной сети, 51% Maroc Telecom, 49% государство — ) [Выручка: $260 млн, Чистая прибыль: $30 млн, Долг: $40 млн, Деньги: $20 млн, Дивиденды: $15 млн, Капитализация: $350 млн, Штат: 900 чел., Зарплата: $450/мес, Руководитель: Абдель Азиз Бахи (Abdel Aziz Bahi), Генеральный директор, родился в 1968 году.]. Официальные источн",
+				"en": "SOTELMA-Malitel (Moov Africa Malitel) — a IT and telecom company of Mali."
+			},
+			"fundamental": {
+				"выручка": 260,
+				"profit": 30,
+				"debt": 40,
+				"money": 20,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 688,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6096,
+					"д": -7.9741,
+					"province": 296,
+					"staff": 206,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_de",
+			"название": {
+				"ru": "Banque de Développement du Mali (BDM-SA)",
+				"en": "Banque de Développement du Mali (BDM-SA)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1963,
+			"description": {
+				"ru": "Банковские и финансовые услуги (крупнейший коммерческий банк Мали, входит в группу BMCE Bank of Africa — ) [Выручка: $140 млн, Чистая прибыль: $40 млн, Долг: $0 (активы $2.2 млрд), Деньги: $0, Дивиденды: $18 млн, Капитализация: $220 млн, Штат: 1,100 чел., Зарплата: $550/мес, Руководитель: Ибрахима Н'Диай (Ibrahima N'Diaye), Генеральный директор, родился в 1963 году.]. Официальные источники: https:",
+				"en": "Banque de Développement du Mali (BDM-SA) — a financial company of Mali."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 40,
+				"debt": 2200,
+				"money": 0,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5844,
+					"д": -7.95,
+					"province": 296,
+					"staff": 120,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "goulamina_lithium",
+			"название": {
+				"ru": "Goulamina Lithium Project (Ganfeng Lithium)",
+				"en": "Goulamina Lithium Project (Ganfeng Lithium)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Добыча и переработка лития (один из крупнейших в мире проектов разработки сподуменовых руд лития в Гуламине — ) [Выручка: $200 млн (фаза выхода на проектную мощность обогатительной фабрики), Чистая прибыль: $40 млн, Долг: $150 млн, Деньги: $50 млн, Дивиденды: $0, Капитализация: $650 млн (Ganfeng Lithium Group), Штат: 1,200 чел., Зарплата: $450/мес, Руководитель: Ван Сяошэнь (Wang Xiaoshen), Вице-п",
+				"en": "Goulamina Lithium Project (Ganfeng Lithium) — a metals and mining company of Mali."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 40,
+				"debt": 150,
+				"money": 50,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 577,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6401,
+					"д": -7.992,
+					"province": 296,
+					"staff": 173,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_malienne",
+			"название": {
+				"ru": "Banque Malienne de Solidarité (BMS-SA)",
+				"en": "Banque Malienne de Solidarité (BMS-SA)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банки и финансы (второй по величине банк Мали — ) [Выручка: $110 млн, Чистая прибыль: $25 млн, Долг: $0 (активы $1.8 млрд), Деньги: $0, Дивиденды: $10 млн, Капитализация: $160 млн, Штат: 850 чел., Зарплата: $500/мес, Руководитель: Ланфия Койта (Lanfia Koita), Генеральный директор с 2022 года, родился в 1968 году.]. Официальные источники: https://www.bms-sa.com, https://www.bms-sa.com/investors (Го",
+				"en": "Banque Malienne de Solidarité (BMS-SA) — a financial company of Mali."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 25,
+				"debt": 1800,
+				"money": 0,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 160
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 314,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5965,
+					"д": -7.9848,
+					"province": 296,
+					"staff": 94,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "bramali",
+			"название": {
+				"ru": "Bramali (Brasseries du Mali)",
+				"en": "Bramali (Brasseries du Mali)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Пивоваренная и безалкогольная промышленность (Castel Beer, боттлинг напитков Coca-Cola, входит в Groupe Castel — ) [Выручка: $120 млн, Чистая прибыль: $15 млн, Долг: $20 млн, Деньги: $15 млн, Дивиденды: $8 млн, Капитализация: $140 млн, Штат: 600 чел., Зарплата: $320/мес, Руководитель: Дамьен Барон (Damien Baron), Генеральный директор, родился в 1972 году.]. Официальные источники: https://www.brama",
+				"en": "Bramali (Brasseries du Mali) — a consumer and retail company of Mali."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 15,
+				"debt": 20,
+				"money": 15,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 140
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6235,
+					"д": -7.9476,
+					"province": 296,
+					"staff": 108,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_5",
+			"название": {
+				"ru": "Base Aérienne 101 Sénou (Ateliers Techniques de l'Armée de l'Air)",
+				"en": "Base Aérienne 101 Sénou (Ateliers Techniques de l'Armée de l'Air)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-авиационная база, центр боевой подготовки и технического обслуживания ударной авиации и БПЛА ВВС Мали (FAMa — Официальные источники: https://fama.ml, https://fama.ml/defense (Оборонные программы)",
+				"en": "Base Aérienne 101 Sénou (Ateliers Techniques de l'Armée de l'Air) — a defence company of Mali."
+			},
+			"fundamental": {
+				"выручка": 52,
+				"profit": 3,
+				"debt": 13,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 98
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник штаба ВВС Мали (General de Brigade Aerienne Alou Boï Diarra, Chef d'Etat-Major de l'Armee de l'Air)]",
+					"en": "Начальник штаба ВВС Мали (General de Brigade Aerienne Alou Boï Diarra, Chef d'Etat-Major de l'Armee de l'Air)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 156,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5987,
+					"д": -7.9624,
+					"province": 296,
+					"staff": 46,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_du_3",
+			"название": {
+				"ru": "Direction du Matériel, des Hydrocarbures et du Transport des Armées (DMHTA Workshops Kati)",
+				"en": "Direction du Matériel, des Hydrocarbures et du Transport des Armées (DMHTA Workshops Kati)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные бронетанковые и авторемонтные мастерские Вооруженных сил Мали — Официальные источники: https://fama.ml, https://fama.ml/defense (Оборонные программы)",
+				"en": "Direction du Matériel, des Hydrocarbures et du Transport des Armées (DMHTA Workshops Kati) — a defence company of Mali."
+			},
+			"fundamental": {
+				"выручка": 46,
+				"profit": 3,
+				"debt": 12,
+				"money": 7,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 86
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор службы вооружения и автотранспорта (Colonel / Directeur du Materiel FAMa)]",
+					"en": "Директор службы вооружения и автотранспорта (Colonel / Directeur du Materiel FAMa)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 138,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6159,
+					"д": -8.0028,
+					"province": 296,
+					"staff": 41,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_centrale_2",
+			"название": {
+				"ru": "Direction Centrale du Génie Militaire (Camp Soundiata Keïta)",
+				"en": "Direction Centrale du Génie Militaire (Camp Soundiata Keïta)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-инженерный комплекс Сухопутных войск Мали — Официальные источники: https://fama.ml, https://fama.ml/defense (Оборонные программы)",
+				"en": "Direction Centrale du Génie Militaire (Camp Soundiata Keïta) — a defence company of Mali."
+			},
+			"fundamental": {
+				"выручка": 39,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 73
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник инженерных войск FAMa (Colonel / Directeur du Genie Militaire)]",
+					"en": "Начальник инженерных войск FAMa (Colonel / Directeur du Genie Militaire)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 117,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.5748,
+					"д": -7.9621,
+					"province": 296,
+					"staff": 35,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_des_3",
+			"название": {
+				"ru": "Direction des Transmissions et des Télécommunications des Armées (DTTA)",
+				"en": "Direction des Transmissions et des Télécommunications des Armées (DTTA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный узел военной связи, радиоэлектронной разведки и управления БПЛА — Официальные источники: https://fama.ml, https://fama.ml/defense (Оборонные программы)",
+				"en": "Direction des Transmissions et des Télécommunications des Armées (DTTA) — a defence company of Mali."
+			},
+			"fundamental": {
+				"выручка": 34,
+				"profit": 2,
+				"debt": 9,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 64
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Начальник связи вооруженных сил (Colonel / Directeur des Transmissions)]",
+					"en": "Начальник связи вооруженных сил (Colonel / Directeur des Transmissions)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 102,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бамако",
+						"en": "Bamako"
+					},
+					"ш": 12.6096,
+					"д": -7.9396,
+					"province": 296,
+					"staff": 30,
+					"fine": 2649
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "d_p_2",
+			"название": {
+				"ru": "Dépôt Central des Munitions et d'Armement de Kati",
+				"en": "Dépôt Central des Munitions et d'Armement de Kati"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный стратегический арсенал хранения и снаряжения боеприпасов Вооруженных сил Мали — Официальные источники: https://fama.ml, https://fama.ml/defense (Оборонные программы)",
+				"en": "Dépôt Central des Munitions et d'Armement de Kati — a defence company of Mali."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 56
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мали)",
+						"en": "The state (Mali)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мали"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Комендант центрального арсенала (Commandant du Depot Central de Kati)]",
+					"en": "Комендант центрального арсенала (Commandant du Depot Central de Kati)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 90,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кати",
+						"en": "Kati"
+					},
+					"ш": 12.7681,
+					"д": -8.0585,
+					"province": 296,
+					"staff": 27,
+					"fine": 2654
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

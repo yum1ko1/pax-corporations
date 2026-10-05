@@ -1,0 +1,934 @@
+{
+	"_": "Технологии нового времени (capabilities.gd, раздел 7 идей): технологии далёкого будущего, которых на старте нет ни у одной страны. «нужно» — условия, все обязательны; каждое — список вариантов [отрасль, узел древа]. Узел должен быть открыт в древе отрасли страны, а в отрасли — хоть одна компания. «слова» — по ним мод узнаёт технологию в приказе или исследовании. «ведомство» — кто докладывает об отказе. «цена» — покупка готового у другой страны, млн $ (0 — не продаётся). «цвет» — рамка на карте. «картинка» — рисунок технологии на карте.",
+	"mastering_weeks": 26,
+	"debuff_weeks": 52,
+	"debuff": 0.08,
+	"sell_from": 0.5,
+	"lose_below": 0.3,
+	"capabilities_list": [
+		{
+			"id": "экзоскелеты",
+			"name": {
+				"ru": "Боевые экзоскелеты",
+				"en": "Combat exoskeletons"
+			},
+			"нужно": [
+				[
+					[
+						"defence",
+						"t5"
+					]
+				],
+				[
+					[
+						"metallurgy",
+						"t4"
+					]
+				]
+			],
+			"agency": "оборона",
+			"price": 20000,
+			"слова": [
+				"экзоскелет",
+				"exoskeleton",
+				"боевой костюм",
+				"power armor",
+				"power armour"
+			],
+			"description": {
+				"ru": "Пехота в силовой броне: солдат несёт тонны и не устаёт.",
+				"en": "Infantry in powered armour: a soldier carries tonnes and never tires."
+			},
+			"colour": [
+				0.55,
+				0.65,
+				0.35
+			],
+			"picture": "icons/tech/exoskeleton.svg"
+		},
+		{
+			"id": "лазеры",
+			"name": {
+				"ru": "Боевые лазеры",
+				"en": "Combat lasers"
+			},
+			"нужно": [
+				[
+					[
+						"defence",
+						"t3"
+					]
+				],
+				[
+					[
+						"энергетика",
+						"t1"
+					]
+				]
+			],
+			"agency": "оборона",
+			"price": 25000,
+			"слова": [
+				"лазер",
+				"энергетическ оруж",
+				"направленной энерг",
+				"laser",
+				"directed-energy"
+			],
+			"description": {
+				"ru": "Оружие направленной энергии сбивает ракеты и дроны за доли секунды.",
+				"en": "Directed-energy weapons shoot down missiles and drones in a split second."
+			},
+			"colour": [
+				1.0,
+				0.35,
+				0.3
+			],
+			"picture": "icons/tech/laser.svg"
+		},
+		{
+			"id": "рои",
+			"name": {
+				"ru": "Автономные рои дронов",
+				"en": "Autonomous drone swarms"
+			},
+			"нужно": [
+				[
+					[
+						"defence",
+						"t4"
+					]
+				],
+				[
+					[
+						"ии",
+						"t1"
+					]
+				]
+			],
+			"agency": "оборона",
+			"price": 20000,
+			"слова": [
+				"рой дрон",
+				"рои дрон",
+				"роя дрон",
+				"автономн оруж",
+				"боевые робот",
+				"drone swarm",
+				"autonomous weapon",
+				"combat robot"
+			],
+			"description": {
+				"ru": "Тысячи дронов воюют сами, управляемые ИИ.",
+				"en": "Thousands of drones fight on their own, run by AI."
+			},
+			"colour": [
+				0.9,
+				0.55,
+				0.25
+			],
+			"picture": "icons/tech/swarm.svg"
+		},
+		{
+			"id": "космическое_оружие",
+			"name": {
+				"ru": "Космическое оружие",
+				"en": "Space weapons"
+			},
+			"нужно": [
+				[
+					[
+						"defence",
+						"t6"
+					]
+				],
+				[
+					[
+						"космос",
+						"d5"
+					]
+				]
+			],
+			"agency": "оборона",
+			"price": 40000,
+			"слова": [
+				"космическ оруж",
+				"орбитальн оруж",
+				"орбитальн удар",
+				"space weapon",
+				"orbital strike"
+			],
+			"description": {
+				"ru": "Оружие на орбите: удар из космоса и щит от ракет.",
+				"en": "Weapons in orbit: strikes from space and a shield against missiles."
+			},
+			"colour": [
+				0.6,
+				0.5,
+				1.0
+			],
+			"picture": "icons/tech/space_weapon.svg"
+		},
+		{
+			"id": "стелс",
+			"name": {
+				"ru": "Метаматериальная невидимость",
+				"en": "Metamaterial cloaking"
+			},
+			"нужно": [
+				[
+					[
+						"metallurgy",
+						"t5"
+					]
+				],
+				[
+					[
+						"defence",
+						"t2"
+					]
+				]
+			],
+			"agency": "оборона",
+			"price": 25000,
+			"слова": [
+				"невидим",
+				"метаматериал",
+				"плащ-невидим",
+				"cloak",
+				"invisib",
+				"metamaterial"
+			],
+			"description": {
+				"ru": "Покрытия, которые прячут технику от радаров и глаз.",
+				"en": "Coatings that hide machines from radar and eyes."
+			},
+			"colour": [
+				0.5,
+				0.75,
+				0.8
+			],
+			"picture": "icons/tech/cloak.svg"
+		},
+		{
+			"id": "квантовый_компьютер",
+			"name": {
+				"ru": "Квантовые компьютеры",
+				"en": "Quantum computers"
+			},
+			"нужно": [
+				[
+					[
+						"it",
+						"t3"
+					]
+				],
+				[
+					[
+						"semiconductors",
+						"t3"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 30000,
+			"слова": [
+				"квантов компьют",
+				"квантовый компьют",
+				"квантовые вычисл",
+				"quantum comput"
+			],
+			"description": {
+				"ru": "Задачи, на которые обычным машинам нужны века, решаются за минуты.",
+				"en": "Problems ordinary machines need centuries for are solved in minutes."
+			},
+			"colour": [
+				0.35,
+				0.8,
+				1.0
+			],
+			"picture": "icons/tech/quantum_computer.svg"
+		},
+		{
+			"id": "квантовый_интернет",
+			"name": {
+				"ru": "Квантовый интернет",
+				"en": "Quantum internet"
+			},
+			"нужно": [
+				[
+					[
+						"it",
+						"t6"
+					]
+				],
+				[
+					[
+						"космос",
+						"c3"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 30000,
+			"слова": [
+				"квантов интернет",
+				"квантовой связ",
+				"квантовая связ",
+				"quantum internet",
+				"quantum network"
+			],
+			"description": {
+				"ru": "Связь, которую невозможно перехватить.",
+				"en": "Communications that cannot be intercepted."
+			},
+			"colour": [
+				0.3,
+				0.6,
+				1.0
+			],
+			"picture": "icons/tech/quantum_internet.svg"
+		},
+		{
+			"id": "нейроинтерфейсы",
+			"name": {
+				"ru": "Нейроинтерфейсы",
+				"en": "Neural interfaces"
+			},
+			"нужно": [
+				[
+					[
+						"it",
+						"t5"
+					]
+				],
+				[
+					[
+						"наука",
+						"l1"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 25000,
+			"слова": [
+				"нейроинтерфейс",
+				"чип в мозг",
+				"мозг-компьютер",
+				"neural interface",
+				"brain-computer",
+				"brain chip"
+			],
+			"description": {
+				"ru": "Человек управляет машинами силой мысли.",
+				"en": "People control machines by thought."
+			},
+			"colour": [
+				0.85,
+				0.45,
+				0.95
+			],
+			"picture": "icons/tech/neural_interface.svg"
+		},
+		{
+			"id": "общий_ии",
+			"name": {
+				"ru": "Общий искусственный интеллект",
+				"en": "Artificial general intelligence"
+			},
+			"нужно": [
+				[
+					[
+						"ии",
+						"t6"
+					]
+				],
+				[
+					[
+						"semiconductors",
+						"t4"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 0,
+			"слова": [
+				"общий искусственн",
+				"сверхинтеллект",
+				"общего ии",
+				"сильный ии",
+				"agi",
+				"superintelligence",
+				"general intelligence"
+			],
+			"description": {
+				"ru": "Разум, который думает как человек — и быстрее.",
+				"en": "A mind that thinks like a human — and faster."
+			},
+			"colour": [
+				0.7,
+				0.5,
+				1.0
+			],
+			"picture": "icons/tech/agi.svg"
+		},
+		{
+			"id": "термояд",
+			"name": {
+				"ru": "Термоядерная энергетика",
+				"en": "Fusion power"
+			},
+			"нужно": [
+				[
+					[
+						"энергетика",
+						"t6"
+					]
+				],
+				[
+					[
+						"наука",
+						"b3"
+					]
+				]
+			],
+			"agency": "энергетика",
+			"price": 0,
+			"слова": [
+				"термояд",
+				"токамак",
+				"fusion"
+			],
+			"description": {
+				"ru": "Энергия звёзд в каждой розетке.",
+				"en": "The energy of stars in every socket."
+			},
+			"colour": [
+				1.0,
+				0.75,
+				0.3
+			],
+			"picture": "icons/tech/fusion.svg"
+		},
+		{
+			"id": "углеродное_топливо",
+			"name": {
+				"ru": "Синтетическое безуглеродное топливо",
+				"en": "Synthetic carbon-neutral fuel"
+			},
+			"нужно": [
+				[
+					[
+						"oil_gas",
+						"t6"
+					]
+				],
+				[
+					[
+						"энергетика",
+						"t4"
+					]
+				]
+			],
+			"agency": "энергетика",
+			"price": 15000,
+			"слова": [
+				"синтетическ топлив",
+				"безуглеродн топлив",
+				"синтетический бензин",
+				"e-fuel",
+				"synthetic fuel",
+				"carbon-neutral fuel"
+			],
+			"description": {
+				"ru": "Топливо из воздуха и солнца: машины ездят без выбросов.",
+				"en": "Fuel from air and sunlight: cars run with no emissions."
+			},
+			"colour": [
+				0.45,
+				0.8,
+				0.45
+			],
+			"picture": "icons/tech/synfuel.svg"
+		},
+		{
+			"id": "биопечать",
+			"name": {
+				"ru": "Биопечать органов",
+				"en": "Organ bioprinting"
+			},
+			"нужно": [
+				[
+					[
+						"pharma",
+						"t4"
+					]
+				],
+				[
+					[
+						"наука",
+						"l0"
+					]
+				]
+			],
+			"agency": "здравоохранение",
+			"price": 15000,
+			"слова": [
+				"биопечат",
+				"печать орган",
+				"искусственн орган",
+				"bioprint",
+				"printed organ",
+				"artificial organ"
+			],
+			"description": {
+				"ru": "Органы для пересадки печатают из клеток пациента.",
+				"en": "Transplant organs are printed from the patient's own cells."
+			},
+			"colour": [
+				0.95,
+				0.4,
+				0.5
+			],
+			"picture": "icons/tech/bioprint.svg"
+		},
+		{
+			"id": "бессмертие",
+			"name": {
+				"ru": "Продление жизни",
+				"en": "Life extension"
+			},
+			"нужно": [
+				[
+					[
+						"pharma",
+						"t6"
+					]
+				],
+				[
+					[
+						"наука",
+						"l6"
+					]
+				]
+			],
+			"agency": "здравоохранение",
+			"price": 0,
+			"слова": [
+				"продлени жизн",
+				"бессмерт",
+				"омоложен",
+				"старени",
+				"life extension",
+				"immortal",
+				"rejuvenat",
+				"anti-aging"
+			],
+			"description": {
+				"ru": "Старение замедлено: люди живут и работают на десятилетия дольше.",
+				"en": "Ageing is slowed: people live and work decades longer."
+			},
+			"colour": [
+				1.0,
+				0.85,
+				0.5
+			],
+			"picture": "icons/tech/longevity.svg"
+		},
+		{
+			"id": "лунная_база",
+			"name": {
+				"ru": "Лунная база",
+				"en": "A lunar base"
+			},
+			"нужно": [
+				[
+					[
+						"космос",
+						"f3"
+					]
+				],
+				[
+					[
+						"строительство",
+						"t1"
+					]
+				]
+			],
+			"agency": "космос",
+			"price": 0,
+			"слова": [
+				"лунн баз",
+				"база на луне",
+				"колони на луне",
+				"lunar base",
+				"moon base"
+			],
+			"description": {
+				"ru": "Постоянное поселение на Луне, построенное 3D-печатью из реголита.",
+				"en": "A permanent settlement on the Moon, 3D-printed from regolith."
+			},
+			"colour": [
+				0.8,
+				0.8,
+				0.85
+			],
+			"picture": "icons/tech/moon_base.svg"
+		},
+		{
+			"id": "марс",
+			"name": {
+				"ru": "Человек на Марсе",
+				"en": "Humans on Mars"
+			},
+			"нужно": [
+				[
+					[
+						"космос",
+						"f6"
+					]
+				],
+				[
+					[
+						"энергетика",
+						"t2"
+					]
+				]
+			],
+			"agency": "космос",
+			"price": 0,
+			"слова": [
+				"марс",
+				"mars"
+			],
+			"description": {
+				"ru": "Экспедиция и база на Марсе с атомной энергией.",
+				"en": "An expedition and a base on Mars powered by nuclear energy."
+			},
+			"colour": [
+				1.0,
+				0.45,
+				0.3
+			],
+			"picture": "icons/tech/mars.svg"
+		},
+		{
+			"id": "астероиды",
+			"name": {
+				"ru": "Добыча на астероидах",
+				"en": "Asteroid mining"
+			},
+			"нужно": [
+				[
+					[
+						"metallurgy",
+						"t6"
+					]
+				],
+				[
+					[
+						"космос",
+						"f4"
+					]
+				]
+			],
+			"agency": "промышленность",
+			"price": 0,
+			"слова": [
+				"астероид",
+				"asteroid"
+			],
+			"description": {
+				"ru": "Металлы везут из космоса — редкое становится дешёвым.",
+				"en": "Metals come from space — the rare becomes cheap."
+			},
+			"colour": [
+				0.75,
+				0.6,
+				0.45
+			],
+			"picture": "icons/tech/asteroids.svg"
+		},
+		{
+			"id": "орбитальные_отели",
+			"name": {
+				"ru": "Отели на орбите",
+				"en": "Orbital hotels"
+			},
+			"нужно": [
+				[
+					[
+						"tourism",
+						"t6"
+					]
+				],
+				[
+					[
+						"космос",
+						"n2"
+					]
+				]
+			],
+			"agency": "транспорт",
+			"price": 10000,
+			"слова": [
+				"отель на орбит",
+				"орбитальн отел",
+				"космическ туриз",
+				"orbital hotel",
+				"space hotel",
+				"space tourism"
+			],
+			"description": {
+				"ru": "Отпуск с видом на Землю из иллюминатора.",
+				"en": "A holiday with a view of the Earth from the window."
+			},
+			"colour": [
+				0.5,
+				0.75,
+				0.95
+			],
+			"picture": "icons/tech/orbital_hotel.svg"
+		},
+		{
+			"id": "гиперлуп",
+			"name": {
+				"ru": "Гиперлуп",
+				"en": "Hyperloop"
+			},
+			"нужно": [
+				[
+					[
+						"авиа",
+						"t4"
+					]
+				],
+				[
+					[
+						"энергетика",
+						"t3"
+					]
+				]
+			],
+			"agency": "транспорт",
+			"price": 15000,
+			"слова": [
+				"гиперлуп",
+				"вакуумн поезд",
+				"hyperloop",
+				"vactrain"
+			],
+			"description": {
+				"ru": "Капсулы в вакуумной трубе: от столицы до столицы за час.",
+				"en": "Capsules in a vacuum tube: capital to capital in an hour."
+			},
+			"colour": [
+				0.4,
+				0.7,
+				0.9
+			],
+			"picture": "icons/tech/hyperloop.svg"
+		},
+		{
+			"id": "автономный_транспорт",
+			"name": {
+				"ru": "Полностью автономный транспорт",
+				"en": "Fully autonomous transport"
+			},
+			"нужно": [
+				[
+					[
+						"auto_industry",
+						"t6"
+					]
+				],
+				[
+					[
+						"ии",
+						"a4"
+					]
+				]
+			],
+			"agency": "транспорт",
+			"price": 15000,
+			"слова": [
+				"автономн транспорт",
+				"беспилотн автомоб",
+				"беспилотные машин",
+				"self-driving",
+				"driverless",
+				"autonomous vehicle"
+			],
+			"description": {
+				"ru": "Ни одного водителя: машины и грузовики ездят сами.",
+				"en": "Not a single driver: cars and trucks drive themselves."
+			},
+			"colour": [
+				0.85,
+				0.3,
+				0.3
+			],
+			"picture": "icons/tech/autonomous.svg"
+		},
+		{
+			"id": "города_будущего",
+			"name": {
+				"ru": "Города будущего",
+				"en": "Cities of the future"
+			},
+			"нужно": [
+				[
+					[
+						"строительство",
+						"t6"
+					]
+				],
+				[
+					[
+						"it",
+						"t4"
+					]
+				]
+			],
+			"agency": "промышленность",
+			"price": 0,
+			"слова": [
+				"город будущ",
+				"города будущ",
+				"умный город",
+				"умные город",
+				"city of the future",
+				"smart city"
+			],
+			"description": {
+				"ru": "Города, которые строят и обслуживают себя сами.",
+				"en": "Cities that build and run themselves."
+			},
+			"colour": [
+				0.7,
+				0.55,
+				0.35
+			],
+			"picture": "icons/tech/future_city.svg"
+		},
+		{
+			"id": "квантовые_финансы",
+			"name": {
+				"ru": "Квантово-защищённые финансы",
+				"en": "Quantum-safe finance"
+			},
+			"нужно": [
+				[
+					[
+						"banks",
+						"t6"
+					]
+				],
+				[
+					[
+						"it",
+						"t1"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 10000,
+			"слова": [
+				"квантово-защищ",
+				"квантовая криптограф",
+				"quantum-safe",
+				"quantum cryptograph"
+			],
+			"description": {
+				"ru": "Деньги, которые невозможно украсть хакерам.",
+				"en": "Money hackers cannot steal."
+			},
+			"colour": [
+				0.25,
+				0.75,
+				0.5
+			],
+			"picture": "icons/tech/quantum_finance.svg"
+		},
+		{
+			"id": "полное_погружение",
+			"name": {
+				"ru": "Полное погружение",
+				"en": "Full immersion"
+			},
+			"нужно": [
+				[
+					[
+						"медиа",
+						"t6"
+					]
+				],
+				[
+					[
+						"it",
+						"t5"
+					]
+				]
+			],
+			"agency": "наука",
+			"price": 10000,
+			"слова": [
+				"полное погружен",
+				"виртуальн реальност",
+				"метавселен",
+				"full immersion",
+				"virtual reality",
+				"metaverse"
+			],
+			"description": {
+				"ru": "Виртуальные миры, которые не отличить от настоящего.",
+				"en": "Virtual worlds you cannot tell from the real one."
+			},
+			"colour": [
+				0.75,
+				0.4,
+				0.9
+			],
+			"picture": "icons/tech/immersion.svg"
+		},
+		{
+			"id": "мгновенная_доставка",
+			"name": {
+				"ru": "Мгновенная доставка",
+				"en": "Instant delivery"
+			},
+			"нужно": [
+				[
+					[
+						"retail",
+						"t6"
+					]
+				],
+				[
+					[
+						"ии",
+						"a4"
+					]
+				]
+			],
+			"agency": "транспорт",
+			"price": 8000,
+			"слова": [
+				"мгновенн доставк",
+				"доставка дрон",
+				"instant delivery",
+				"drone delivery"
+			],
+			"description": {
+				"ru": "Любой заказ у двери за десять минут — роботы и дроны.",
+				"en": "Any order at your door in ten minutes — robots and drones."
+			},
+			"colour": [
+				0.95,
+				0.4,
+				0.6
+			],
+			"picture": "icons/tech/instant_delivery.svg"
+		}
+	]
+}

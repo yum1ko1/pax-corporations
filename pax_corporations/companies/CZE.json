@@ -1,0 +1,914 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Чехия",
+	"iso": "CZE",
+	"data_date": "2026-03",
+	"average_wage": 2100,
+	"companies": [
+		{
+			"id": "cez",
+			"название": {
+				"ru": "ČEZ",
+				"en": "ČEZ"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1992,
+			"description": {
+				"ru": "Крупнейшая энергокомпания Чехии: АЭС Дукованы и Темелин.",
+				"en": "Czechia's largest power company: Dukovany and Temelín NPPs."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1300,
+				"debt": 7000,
+				"money": 1000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 538,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Чехии",
+						"en": "The Czech state"
+					},
+					"type": "polity",
+					"доля": 0.7,
+					"country": "Чехия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даниэль Бенеш",
+					"en": "Daniel Beneš"
+				},
+				"роль": "госслужащий",
+				"с_года": 2011,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "государственный энергетик",
+					"en": "государственный энергетик"
+				}
+			},
+			"staff": 30000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.05,
+					"д": 14.46,
+					"province": 930,
+					"staff": 3000,
+					"fine": 813
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "АЭС Темелин",
+						"en": "Temelín NPP"
+					},
+					"ш": 49.18,
+					"д": 14.38,
+					"province": 930,
+					"staff": 1000,
+					"fine": 811
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cez.cz/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "komercni",
+			"название": {
+				"ru": "Komerční banka",
+				"en": "Komerční banka"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Третий банк Чехии, дочка Société Générale.",
+				"en": "Czechia's third bank, a Société Générale subsidiary."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 190,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Société Générale",
+						"en": "Société Générale"
+					},
+					"type": "company",
+					"доля": 0.61,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.39
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Юхелька",
+					"en": "Jan Juchelka"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2018,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 7500,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.09,
+					"д": 14.42,
+					"province": 930,
+					"staff": 3000,
+					"fine": 813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kb.cz/en/about-the-bank/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "moneta",
+			"название": {
+				"ru": "Moneta Money Bank",
+				"en": "Moneta Money Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Розничный банк Чехии, контроль у PPF.",
+				"en": "A Czech retail bank, controlled by PPF."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 250,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 511,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PPF",
+						"en": "PPF"
+					},
+					"type": "company",
+					"доля": 0.29,
+					"country": "Чехия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.71
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Томаш Спурни",
+					"en": "Tomáš Spurný"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 3000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.04,
+					"д": 14.46,
+					"province": 930,
+					"staff": 2000,
+					"fine": 813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.moneta.cz/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "skodaauto",
+			"название": {
+				"ru": "Škoda Auto",
+				"en": "Škoda Auto"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1895,
+			"description": {
+				"ru": "Автомобили Škoda, дочка Volkswagen.",
+				"en": "Škoda cars, a Volkswagen subsidiary."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1800,
+				"debt": 0,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Volkswagen",
+						"en": "Volkswagen"
+					},
+					"type": "company",
+					"доля": 1.0,
+					"country": "Германия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Клаус Цельмер",
+					"en": "Klaus Zellmer"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "немецкий автоменеджер",
+					"en": "немецкий автоменеджер"
+				}
+			},
+			"staff": 40000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Млада-Болеслав",
+						"en": "Mladá Boleslav"
+					},
+					"ш": 50.41,
+					"д": 14.91,
+					"province": 930,
+					"staff": 25000,
+					"fine": 814
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.skoda-auto.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "agrofert",
+			"название": {
+				"ru": "Agrofert",
+				"en": "Agrofert"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Агрохимия и продукты Андрея Бабиша (в трасте).",
+				"en": "Andrej Babiš's agrochemicals and food (in a trust)."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 300,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Трасты Андрея Бабиша",
+						"en": "Andrej Babiš's trusts"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Збынек Пруша",
+					"en": "Zbyněk Průša"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2017,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управляющий трастом премьера",
+					"en": "управляющий трастом премьера"
+				}
+			},
+			"staff": 30000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.1,
+					"д": 14.48,
+					"province": 930,
+					"staff": 1000,
+					"fine": 813
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Азотные удобрения Лович",
+						"en": "Lovochemie fertilisers"
+					},
+					"ш": 50.52,
+					"д": 14.05,
+					"province": 930,
+					"staff": 1500,
+					"fine": 804
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.agrofert.cz/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "csg",
+			"название": {
+				"ru": "Czechoslovak Group",
+				"en": "Czechoslovak Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Снаряды и бронетехника, растёт на войне в Украине.",
+				"en": "Ammunition and armoured vehicles, growing on the war in Ukraine."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1000,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Михал Стрнад",
+						"en": "Michal Strnad"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михал Стрнад",
+					"en": "Michal Strnad"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2013,
+				"born_year": 1992,
+				"доля": 1.0,
+				"характер": {
+					"ru": "самый молодой миллиардер Чехии",
+					"en": "самый молодой миллиардер Чехии"
+				}
+			},
+			"staff": 14000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.08,
+					"д": 14.43,
+					"province": 930,
+					"staff": 1000,
+					"fine": 813
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Tatra (Копршивнице)",
+						"en": "Tatra (Kopřivnice)"
+					},
+					"ш": 49.6,
+					"д": 18.14,
+					"province": 930,
+					"staff": 3000,
+					"fine": 817
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://czechoslovakgroup.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "ppf",
+			"название": {
+				"ru": "PPF Group",
+				"en": "PPF Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Империя семьи Келлнер: банки, связь, медиа.",
+				"en": "The Kellner family empire: banks, telecom, media."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1000,
+				"debt": 15000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Рената Келлнерова",
+						"en": "Renáta Kellnerová"
+					},
+					"type": "founder",
+					"доля": 0.99
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.01
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Иржи Шмейц",
+					"en": "Jiří Šmejc"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "хранитель империи",
+					"en": "хранитель империи"
+				}
+			},
+			"staff": 40000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.09,
+					"д": 14.4,
+					"province": 930,
+					"staff": 500,
+					"fine": 813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ppf.eu/en/financial-results | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "eph",
+			"название": {
+				"ru": "EPH",
+				"en": "EPH"
+			},
+			"sector": "энергетика",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 2009,
+			"description": {
+				"ru": "Газопроводы и электростанции Даниэля Кржетинского в Европе.",
+				"en": "Daniel Křetínský's gas pipelines and power plants across Europe."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2500,
+				"debt": 15000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Даниэль Кржетинский",
+						"en": "Daniel Křetínský"
+					},
+					"type": "founder",
+					"доля": 0.56
+				},
+				{
+					"кто": {
+						"ru": "J&T",
+						"en": "J&T"
+					},
+					"type": "крупный",
+					"доля": 0.44,
+					"country": "Чехия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даниэль Кржетинский",
+					"en": "Daniel Křetínský"
+				},
+				"роль": "founder",
+				"с_года": 2009,
+				"born_year": 1975,
+				"доля": 0.56,
+				"характер": {
+					"ru": "скупает то, от чего уходят другие",
+					"en": "скупает то, от чего уходят другие"
+				}
+			},
+			"staff": 25000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.08,
+					"д": 14.42,
+					"province": 930,
+					"staff": 500,
+					"fine": 813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.epholding.cz/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "kofola",
+			"название": {
+				"ru": "Kofola",
+				"en": "Kofola"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Чехословацкая кола и напитки.",
+				"en": "Czechoslovak cola and drinks."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 30,
+				"debt": 150,
+				"money": 20,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 22,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Самарас",
+						"en": "The Samaras family"
+					},
+					"type": "founder",
+					"доля": 0.68
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.32
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Янис Самарас",
+					"en": "Jannis Samaras"
+				},
+				"роль": "founder",
+				"с_года": 2002,
+				"born_year": 1970,
+				"доля": 0.68,
+				"характер": {
+					"ru": "грек-основатель",
+					"en": "грек-основатель"
+				}
+			},
+			"staff": 2500,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Острава",
+						"en": "Ostrava"
+					},
+					"ш": 49.83,
+					"д": 18.28,
+					"province": 930,
+					"staff": 1000,
+					"fine": 817
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.kofola.cz/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "coltcz",
+			"название": {
+				"ru": "Colt CZ Group",
+				"en": "Colt CZ Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1936,
+			"description": {
+				"ru": "Оружие CZ и Colt.",
+				"en": "CZ and Colt firearms."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 90,
+				"debt": 500,
+				"money": 100,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 56,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Рене Холечек",
+						"en": "René Holeček"
+					},
+					"type": "founder",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Драгота",
+					"en": "Jan Drahota"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оружейник",
+					"en": "оружейник"
+				}
+			},
+			"staff": 3000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Угерски-Брод",
+						"en": "Uherský Brod"
+					},
+					"ш": 49.03,
+					"д": 17.65,
+					"province": 930,
+					"staff": 2000,
+					"fine": 807
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.coltczgroup.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "pbs_group",
+			"название": {
+				"ru": "PBS Group (První brněnská strojírna Velká Bíteš)",
+				"en": "PBS Group (První brněnská strojírna Velká Bíteš)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Турбореактивные двигатели для БПЛА и крылатых ракет",
+				"en": "PBS Group (První brněnská strojírna Velká Bíteš) — a defence company of Czech Republic."
+			},
+			"fundamental": {
+				"выручка": 1050,
+				"profit": 70,
+				"debt": 270,
+				"money": 162,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1969
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Чехия)",
+						"en": "The state (Czech Republic)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Чехия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3150,
+			"wage": 3150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Прага",
+						"en": "Prague"
+					},
+					"ш": 50.0984,
+					"д": 14.4017,
+					"province": 930,
+					"staff": 945,
+					"fine": 813
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

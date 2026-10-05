@@ -1,0 +1,1275 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Намибия",
+	"iso": "NAM",
+	"data_date": "2026-03",
+	"average_wage": 450,
+	"companies": [
+		{
+			"id": "namdeb",
+			"название": {
+				"ru": "Namdeb Holdings",
+				"en": "Namdeb Holdings"
+			},
+			"sector": "metallurgy",
+			"profile": "diamonds",
+			"type": "государственная",
+			"founded": 1994,
+			"description": {
+				"ru": "Морские алмазы Намибии, 50/50 с De Beers.",
+				"en": "Namibia's marine diamonds, 50/50 with De Beers."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 250,
+				"debt": 100,
+				"money": 100,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Намибии",
+						"en": "The Namibian state"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Намибия"
+				},
+				{
+					"кто": {
+						"ru": "De Beers (Anglo American)",
+						"en": "De Beers (Anglo American)"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Великобритания",
+					"company": "angloamerican"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Риан Бюргер",
+					"en": "Riaan Burger"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2017,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "алмазник",
+					"en": "алмазник"
+				}
+			},
+			"staff": 2000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.57,
+					"д": 17.08,
+					"province": 532,
+					"staff": 400,
+					"fine": 2873
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Ораньемунд",
+						"en": "Oranjemund"
+					},
+					"ш": -28.55,
+					"д": 16.43,
+					"province": 45,
+					"staff": 1600,
+					"fine": 2871
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.namdeb.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "rossing",
+			"название": {
+				"ru": "Rössing Uranium",
+				"en": "Rössing Uranium"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1976,
+			"description": {
+				"ru": "Урановый рудник, контроль у китайской CNNC.",
+				"en": "A uranium mine, controlled by China's CNNC."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 50,
+				"debt": 0,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CNNC",
+						"en": "CNNC"
+					},
+					"type": "company",
+					"доля": 0.69,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Государство Намибии",
+						"en": "The Namibian state"
+					},
+					"type": "polity",
+					"доля": 0.03,
+					"country": "Намибия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.28
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йохан Кутзее",
+					"en": "Johan Coetzee"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 1000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Арандис",
+						"en": "Arandis"
+					},
+					"ш": -22.47,
+					"д": 15.05,
+					"province": 532,
+					"staff": 1000,
+					"fine": 2875
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.rossing.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "swakop_uranium",
+			"название": {
+				"ru": "Swakop Uranium (Husab Uranium Mine)",
+				"en": "Swakop Uranium (Husab Uranium Mine)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2021,
+			"description": {
+				"ru": "Горнорудная промышленность (гигантский урановый карьер Хусаб, входит в тройку крупнейших рудников урана в мире — ) [Выручка: $750 млн (производство свыше 3,500 тонн закиси-окиси урана U3O8 в год), Чистая прибыль: $120 млн, Долг: $500 млн, Деньги: $80 млн, Дивиденды: $40 млн, Капитализация: $1,500 млн (акционеры: китайская CGN 90%, намибийская государственная Epangelo Mining 10%), Штат: 1,800 чел.,",
+				"en": "Swakop Uranium (Husab Uranium Mine) — a metals and mining company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 120,
+				"debt": 500,
+				"money": 80,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2166,
+			"wage": 804,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.568,
+					"д": 17.0796,
+					"province": 532,
+					"staff": 649,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "namibia_breweries",
+			"название": {
+				"ru": "Namibia Breweries Limited (NBL)",
+				"en": "Namibia Breweries Limited (NBL)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Пивоваренная промышленность (премиальное пиво по закону о чистоте пива Reinheitsgebot: Windhoek Lager, Tafel Lager, King Lager; контроль у Heineken N.V. — ) [Выручка: $250 млн (NAD 4.5+ млрд), Чистая прибыль: $35 млн, Долг: $20 млн, Деньги: $30 млн, Дивиденды: $15 млн, Капитализация: $450 млн (Namibian Stock Exchange: NBS), Штат: 900 чел., Зарплата: $950/мес, Руководитель: Питер Симонс (Peter Simo",
+				"en": "Namibia Breweries Limited (NBL) — a consumer and retail company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 35,
+				"debt": 20,
+				"money": 30,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5402,
+					"д": 17.0438,
+					"province": 532,
+					"staff": 225,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "nampower",
+			"название": {
+				"ru": "NamPower (Namibia Power Corporation)",
+				"en": "NamPower (Namibia Power Corporation)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2016,
+			"description": {
+				"ru": "Электроэнергетика (национальная энергетическая государственная монополия: ГЭС Руакана, ТЭС Ван Эк, межсистемные ЛЭП с ЮАР — ) [Выручка: $420 млн (NAD 7.5 млрд), Чистая прибыль: $15 млн, Долг: $200 млн, Деньги: $100 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 1,100 чел., Зарплата: $1,200/мес, Руководитель: Симсон Хаулофу (Simson Haulofu), Управляющий директор с 2016 года, р",
+				"en": "NamPower (Namibia Power Corporation) — a energy company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 15,
+				"debt": 200,
+				"money": 100,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 554
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 747,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5946,
+					"д": 17.0752,
+					"province": 532,
+					"staff": 224,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "firstrand_namibia",
+			"название": {
+				"ru": "FirstRand Namibia (FNB Namibia)",
+				"en": "FirstRand Namibia (FNB Namibia)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Банковские и финансовые услуги (крупнейшая финансовая группа Намибии — ) [Выручка: $350 млн (чистый доход NAD 6.2 млрд), Чистая прибыль: $95 млн (NAD 1.7 млрд), Долг: $0 (активы $3.5 млрд), Деньги: $0, Дивиденды: $55 млн, Капитализация: $700 млн (NSX: FNB), Штат: 2,400 чел., Зарплата: $1,100/мес, Руководитель: Конрад Демпси (Conrad Dempsey), Главный исполнительный директор с 2020 года, родился в 1",
+				"en": "FirstRand Namibia (FNB Namibia) — a financial company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 95,
+				"debt": 3500,
+				"money": 0,
+				"dividends": 55
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5963,
+					"д": 17.069,
+					"province": 532,
+					"staff": 300,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_windhoek",
+			"название": {
+				"ru": "Bank Windhoek (Capricorn Group)",
+				"en": "Bank Windhoek (Capricorn Group)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Банки и управление активами (крупнейший национальный банк под контролем местных акционеров — ) [Выручка: $280 млн, Чистая прибыль: $75 млн, Долг: $0 (активы $3.2 млрд), Деньги: $0, Дивиденды: $40 млн, Капитализация: $500 млн (NSX: CGP), Штат: 2,100 чел., Зарплата: $1,050/мес, Руководитель: Баронис Ханс (Baronice Hans), Управляющий директор Bank Windhoek, родилась в 1972 году; Давид Нуйома (David N",
+				"en": "Bank Windhoek (Capricorn Group) — a financial company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 75,
+				"debt": 3200,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5468,
+					"д": 17.0803,
+					"province": 532,
+					"staff": 240,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "mtc_namibia",
+			"название": {
+				"ru": "MTC Namibia (Mobile Telecommunications Limited)",
+				"en": "MTC Namibia (Mobile Telecommunications Limited)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Телекоммуникации (крупнейший мобильный и фиксированный оператор страны, 90% абонентской базы — ) [Выручка: $180 млн (NAD 3.1 млрд), Чистая прибыль: $45 млн (NAD 800 млн), Долг: $20 млн, Деньги: $40 млн, Дивиденды: $30 млн, Капитализация: $350 млн (NSX: MTC), Штат: 700 чел., Зарплата: $1,300/мес, Руководитель: Мелвин Ангула (Melvin Angula), И.о. управляющего директора с 2024 года, родился в 1975 го",
+				"en": "MTC Namibia (Mobile Telecommunications Limited) — a IT and telecom company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 45,
+				"debt": 20,
+				"money": 40,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 476,
+			"wage": 807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5671,
+					"д": 17.0781,
+					"province": 532,
+					"staff": 142,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "namport",
+			"название": {
+				"ru": "Namport (Namibian Ports Authority)",
+				"en": "Namport (Namibian Ports Authority)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Портовое хозяйство и транзитная логистика (глубоководный порт Уолфиш-Бей и новый контейнерный терминал на искусственном острове — ) [Выручка: $120 млн, Чистая прибыль: $25 млн, Долг: $150 млн, Деньги: $35 млн, Дивиденды: $5 млн, Капитализация: $500 млн (государственное предприятие), Штат: 1,000 чел., Зарплата: $1,100/мес, Руководитель: Эндрю Каниме (Andrew Kanime), Главный исполнительный директор ",
+				"en": "Namport (Namibian Ports Authority) — a transport company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 25,
+				"debt": 150,
+				"money": 35,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 736,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5671,
+					"д": 17.0947,
+					"province": 532,
+					"staff": 90,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "namcor",
+			"название": {
+				"ru": "NAMCOR (National Petroleum Corporation of Namibia)",
+				"en": "NAMCOR (National Petroleum Corporation of Namibia)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Нефтегазовая промышленность (государственная корпорация, со-владелец 10% в гигантских шельфовых открытиях легкой нефти Venus, Graff, Jonker и Mopane в бассейне реки Оранжевая — ) [Выручка: $200 млн (сбыт топлива и роялти), Чистая прибыль: $15 млн, Долг: $100 млн, Деньги: $30 млн, Дивиденды: $0, Капитализация: $800 млн (100% госсобственность), Штат: 250 специалистов, Зарплата: $1,500/мес, Руководит",
+				"en": "NAMCOR (National Petroleum Corporation of Namibia) — a oil and gas company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 15,
+				"debt": 100,
+				"money": 30,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 174,
+			"wage": 805,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5783,
+					"д": 17.0704,
+					"province": 532,
+					"staff": 52,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "b2gold_namibia",
+			"название": {
+				"ru": "B2Gold Namibia (Otjikoto Gold Mine)",
+				"en": "B2Gold Namibia (Otjikoto Gold Mine)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1971,
+			"description": {
+				"ru": "Золотодобыча (крупнейший в стране открытый и подземный рудник Оджикото, B2Gold 90%, Ediva Mineworks 10% — ) [Выручка: $350 млн, Чистая прибыль: $80 млн, Долг: $20 млн, Деньги: $40 млн, Дивиденды: $45 млн, Капитализация: $650 млн, Штат: 900 чел., Зарплата: $1,200/мес, Руководитель: Эрик Барнард (Eric Barnard), Генеральный менеджер рудника, родился в 1971 году.]. Официальные источники: https://www.b",
+				"en": "B2Gold Namibia (Otjikoto Gold Mine) — a metals and mining company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 80,
+				"debt": 20,
+				"money": 40,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1011,
+			"wage": 804,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5417,
+					"д": 17.0752,
+					"province": 532,
+					"staff": 303,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "telecom_namibia",
+			"название": {
+				"ru": "Telecom Namibia",
+				"en": "Telecom Namibia"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Телекоммуникации (национальная опорная оптоволоконная сеть, широкополосный интернет и дата-центры — Stanley Shanapinda), Главный исполнительный директор с 2021 года, родился в 1979 году.]. Официальные источники: https://www.telecom.na, https://www.telecom.na/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Telecom Namibia — a IT and telecom company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": -5,
+				"debt": 60,
+				"money": 15,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Д-р Стэнли Шанапинда (Dr",
+					"en": "Д-р Стэнли Шанапинда (Dr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 211,
+			"wage": 807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5668,
+					"д": 17.1166,
+					"province": 532,
+					"staff": 63,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "windhoeker_maschinenfabr",
+			"название": {
+				"ru": "Windhoeker Maschinenfabrik - WMF (August 26 Holdings)",
+				"en": "Windhoeker Maschinenfabrik - WMF (August 26 Holdings)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный государственный завод колесной бронированной техники Министерства обороны Намибии (входит в военный холдинг August 26 Holding — Официальные источники: https://www.wmf.com.na, https://www.wmf.com.na/defense (Оборонные программы)",
+				"en": "Windhoeker Maschinenfabrik - WMF (August 26 Holdings) — a defence company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Управляющий директор WMF / Генерал-майор, председатель August 26 Holdings]",
+					"en": "Управляющий директор WMF / Генерал-майор, председатель August 26 Holdings]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5533,
+					"д": 17.0975,
+					"province": 532,
+					"staff": 18,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "august_26",
+			"название": {
+				"ru": "August 26 Manufacturing / August 26 Logistics",
+				"en": "August 26 Manufacturing / August 26 Logistics"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-промышленная корпорация тылового снабжения и производства экипировки — Официальные источники: https://www.mod.gov.na, https://www.mod.gov.na/defense (Оборонные программы)",
+				"en": "August 26 Manufacturing / August 26 Logistics — a defence company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 42,
+				"profit": 3,
+				"debt": 11,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 79
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Исполнительный директор August 26 Manufacturing]",
+					"en": "Исполнительный директор August 26 Manufacturing]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 126,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5628,
+					"д": 17.1154,
+					"province": 532,
+					"staff": 37,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "naval_base",
+			"название": {
+				"ru": "Naval Base Captain P.N. Sacharia (Walvis Bay Naval Dockyard)",
+				"en": "Naval Base Captain P.N. Sacharia (Walvis Bay Naval Dockyard)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская база и судоремонтный док Военно-морских сил Намибии (Namibian Navy — Официальные источники: https://www.mod.gov.na, https://www.mod.gov.na/defense (Оборонные программы)",
+				"en": "Naval Base Captain P.N. Sacharia (Walvis Bay Naval Dockyard) — a defence company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 75
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Контр-адмирал, Командующий ВМС Намибии (Rear Admiral, Commander of the Namibian Navy)]",
+					"en": "Контр-адмирал, Командующий ВМС Намибии (Rear Admiral, Commander of the Namibian Navy)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 120,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Уолфиш Бей",
+						"en": "Walvis Bay"
+					},
+					"ш": -22.9913,
+					"д": 14.4924,
+					"province": 532,
+					"staff": 36,
+					"fine": 2875
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grootfontein_air",
+			"название": {
+				"ru": "Grootfontein Air Force Base Technical Center (NDF Air Wing Depot)",
+				"en": "Grootfontein Air Force Base Technical Center (NDF Air Wing Depot)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная авиационно-техническая ремонтная база Военно-воздушных сил Намибии — Официальные источники: https://www.mod.gov.na, https://www.mod.gov.na/defense (Оборонные программы)",
+				"en": "Grootfontein Air Force Base Technical Center (NDF Air Wing Depot) — a defence company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 38,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 71
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Воздушный вице-маршал, Командующий ВВС Намибии (Air Vice Marshal, Commander of Air Force)]",
+					"en": "Воздушный вице-маршал, Командующий ВВС Намибии (Air Vice Marshal, Commander of Air Force)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 114,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5921,
+					"д": 17.0911,
+					"province": 532,
+					"staff": 34,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "osona_military",
+			"название": {
+				"ru": "Osona Military Base Heavy Armoured Workshops",
+				"en": "Osona Military Base Heavy Armoured Workshops"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные бронетанковые и артиллерийские мастерские Сухопутных войск Намибии — Официальные источники: https://www.mod.gov.na, https://www.mod.gov.na/defense (Оборонные программы)",
+				"en": "Osona Military Base Heavy Armoured Workshops — a defence company of Namibia."
+			},
+			"fundamental": {
+				"выручка": 34,
+				"profit": 2,
+				"debt": 9,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 64
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Намибия)",
+						"en": "The state (Namibia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Намибия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир технического арсенала армии NDF]",
+					"en": "Командир технического арсенала армии NDF]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 102,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виндхук",
+						"en": "Windhoek"
+					},
+					"ш": -22.5387,
+					"д": 17.072,
+					"province": 532,
+					"staff": 30,
+					"fine": 2873
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

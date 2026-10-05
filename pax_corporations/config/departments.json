@@ -1,0 +1,123 @@
+{
+	"_как_это_работает": "Госдепартаменты (departments.gd). У страны игрока каждый департамент получает долю своей нормы (норма = «доля_налогов» × налоговые доходы государства в год (все департаменты на 100% ≈ пятая часть налогов, на 200% ≈ 40%)); деньги уходят из казны каждую неделю. Качество 0–100 движется к уровню, который покупают деньги: Q* = 100 × (1 − e^(−1,2 × доля × (1 − ½ коррупции))), со «скорость» в неделю. Выше 50 — польза, ниже — вред, линейно: k = (Q − 50) / 50; «эффекты» — при Q = 100 (при Q = 0 — с обратным знаком). «коррупция» и «довольство» — прибавка (доля), остальное — множитель (1 + эффект × k): «уход» — увольнения по собственному, «издержки» — прочие расходы всех компаний, «издержки_пром» — промышленности, «производительность» — выручка с человека, «силовые» — шанс силовых акций конкурентов. Другие страны: доля = база + разброс × tanh(ln богатства) − вес_коррупции × (коррупция − 0,25), и «траты_из_налогов» налогов, которые им платит мод, уходят на их службы. Деньги сверх нормы работают хуже: доля' = min(доля, 1) + отдача_сверх_нормы × (1 − коррупция) × (доля − 1), а часть разворовывают: коррупция страны растёт на распил × средний перерасход × (½ + коррупция).",
+	"speed": 0.03,
+	"corruption_default": 0.3,
+	"other_countries": {
+		"база": 0.6,
+		"spread": 0.45,
+		"corruption_weight": 0.8,
+		"spending_from_taxes": 0.8
+	},
+	"departments": {
+		"здравоохранение": {
+			"icon": "🏥",
+			"name": {
+				"ru": "Здравоохранение",
+				"en": "Health care"
+			},
+			"description": {
+				"ru": "Больницы и поликлиники: здоровые люди довольнее и реже уходят с работы.",
+				"en": "Hospitals and clinics: healthy people are happier and quit less."
+			},
+			"effects": {
+				"satisfaction": 0.08,
+				"exit": -0.25
+			},
+			"tax_share": 0.05
+		},
+		"полиция": {
+			"icon": "👮",
+			"name": {
+				"ru": "Полиция",
+				"en": "Police"
+			},
+			"description": {
+				"ru": "Порядок на улицах: меньше коррупции и силовых разборок между корпорациями.",
+				"en": "Order in the streets: less corruption and fewer violent fights between corporations."
+			},
+			"effects": {
+				"corruption": -0.06,
+				"security_forces": -0.6
+			},
+			"tax_share": 0.03
+		},
+		"прокуратура": {
+			"icon": "⚖",
+			"name": {
+				"ru": "Прокуратура и суды",
+				"en": "Prosecutors and courts"
+			},
+			"description": {
+				"ru": "Борьба с коррупцией: компании прячут меньше налогов, честнее играют с государством.",
+				"en": "Fighting corruption: companies hide less tax and deal more honestly with the state."
+			},
+			"effects": {
+				"corruption": -0.1
+			},
+			"tax_share": 0.012
+		},
+		"автодор": {
+			"icon": "🛣",
+			"name": {
+				"ru": "Автодор и транспорт",
+				"en": "Roads and transport"
+			},
+			"description": {
+				"ru": "Дороги, мосты, логистика: дешевле возить — у всех компаний ниже издержки.",
+				"en": "Roads, bridges, logistics: cheaper transport — lower costs for every company."
+			},
+			"effects": {
+				"издержки": -0.02
+			},
+			"tax_share": 0.035
+		},
+		"жкх": {
+			"icon": "💡",
+			"name": {
+				"ru": "Энергосети и ЖКХ",
+				"en": "Power grids and utilities"
+			},
+			"description": {
+				"ru": "Свет, вода, тепло: промышленности дешевле работать, людям — жить.",
+				"en": "Power, water, heating: cheaper for industry to work and for people to live."
+			},
+			"effects": {
+				"costs_industry": -0.03,
+				"satisfaction": 0.03
+			},
+			"tax_share": 0.023
+		},
+		"образование": {
+			"icon": "🎓",
+			"name": {
+				"ru": "Образование и наука",
+				"en": "Education and science"
+			},
+			"description": {
+				"ru": "Школы, вузы, лаборатории: обученные люди производят больше.",
+				"en": "Schools, universities, labs: trained people make more."
+			},
+			"effects": {
+				"производительность": 0.04
+			},
+			"tax_share": 0.045
+		},
+		"antitrust": {
+			"icon": "🏛",
+			"name": {
+				"ru": "Антимонопольная служба",
+				"en": "Antimonopoly service"
+			},
+			"description": {
+				"ru": "Следит за конкуренцией: запрещает сделки, после которых компания слишком велика, штрафует и делит монополистов. Сильная служба строже. У неё есть настроение к правительству: обиженная мешает сделкам государства, довольная закрывает глаза.",
+				"en": "Watches competition: bans deals that make a company too big, fines and splits monopolies. A strong service is stricter. It has a mood towards the government: a hostile one gets in the way of the state's deals, a friendly one turns a blind eye."
+			},
+			"effects": {
+				"antitrust": 0.5
+			},
+			"tax_share": 0.005
+		}
+	},
+	"excess_return": 0.4,
+	"embezzlement": 0.08
+}

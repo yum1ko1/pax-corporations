@@ -1,0 +1,1902 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мексика",
+	"iso": "MEX",
+	"data_date": "2026-03",
+	"average_wage": 900,
+	"companies": [
+		{
+			"id": "pemex",
+			"название": {
+				"ru": "Pemex",
+				"en": "Pemex"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1938,
+			"description": {
+				"ru": "Государственная нефть Мексики — самая задолженная нефтяная компания мира.",
+				"en": "Mexico's state oil — the world's most indebted oil company."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": -8000,
+				"debt": 100000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Мексики",
+						"en": "The Mexican state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виктор Родригес Падилья",
+					"en": "Víctor Rodríguez Padilla"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "экономист власти",
+					"en": "экономист власти"
+				}
+			},
+			"staff": 125000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.44,
+					"д": -99.18,
+					"province": 896,
+					"staff": 15000,
+					"fine": 2549
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Кампече (офшор)",
+						"en": "Campeche (offshore)"
+					},
+					"ш": 18.7866,
+					"д": -91.604,
+					"province": 326,
+					"staff": 10000,
+					"fine": 2544
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Ольмека (Дос-Бокас)",
+						"en": "Olmeca refinery (Dos Bocas)"
+					},
+					"ш": 18.42,
+					"д": -93.2,
+					"province": 326,
+					"staff": 3000,
+					"fine": 2547
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.pemex.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "cfe",
+			"название": {
+				"ru": "CFE",
+				"en": "CFE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1937,
+			"description": {
+				"ru": "Государственная электроэнергетика Мексики.",
+				"en": "Mexico's state power utility."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1000,
+				"debt": 30000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Мексики",
+						"en": "The Mexican state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эмилия Кальеха",
+					"en": "Emilia Calleja"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая женщина во главе CFE",
+					"en": "первая женщина во главе CFE"
+				}
+			},
+			"staff": 90000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.43,
+					"д": -99.17,
+					"province": 896,
+					"staff": 10000,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.cfe.mx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "americamovil",
+			"название": {
+				"ru": "América Movil",
+				"en": "América Movil"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2000,
+			"description": {
+				"ru": "Крупнейший оператор связи Латинской Америки Карлоса Слима.",
+				"en": "Carlos Slim's largest telecom of Latin America."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 3500,
+				"debt": 30000,
+				"money": 3000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 60500,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Слим",
+						"en": "The Slim family"
+					},
+					"type": "founder",
+					"доля": 0.47
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Даниэль Айюб",
+					"en": "Daniel Hajj"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2000,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "зять Слима",
+					"en": "зять Слима"
+				}
+			},
+			"staff": 180000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.43,
+					"д": -99.2,
+					"province": 896,
+					"staff": 15000,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.americamovil.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "walmex",
+			"название": {
+				"ru": "Walmart de México",
+				"en": "Walmart de México"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1958,
+			"description": {
+				"ru": "Крупнейший розничник Мексики и Центральной Америки.",
+				"en": "The largest retailer of Mexico and Central America."
+			},
+			"fundamental": {
+				"выручка": 50000,
+				"profit": 3000,
+				"debt": 5000,
+				"money": 2000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 17400,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Walmart",
+						"en": "Walmart"
+					},
+					"type": "company",
+					"доля": 0.7,
+					"country": "США",
+					"company": "walmart"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Игнасио Каиде",
+					"en": "Ignacio Caride"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "аргентинец",
+					"en": "аргентинец"
+				}
+			},
+			"staff": 240000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.37,
+					"д": -99.19,
+					"province": 896,
+					"staff": 10000,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.walmex.mx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "femsa",
+			"название": {
+				"ru": "FEMSA",
+				"en": "FEMSA"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1890,
+			"description": {
+				"ru": "Магазины OXXO, разлив Coca-Cola, пиво Heineken.",
+				"en": "OXXO stores, Coca-Cola bottling, Heineken beer."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 1500,
+				"debt": 12000,
+				"money": 5000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 3580,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Гарса Лагуэра и Фернандес",
+						"en": "The Garza Laguera and Fernández families"
+					},
+					"type": "founder",
+					"доля": 0.38
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.62
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хосе Антонио Фернандес",
+					"en": "José Antonio Fernández Carbajal"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2024,
+				"born_year": 1954,
+				"доля": 0.02,
+				"характер": {
+					"ru": "вернулся руководить",
+					"en": "вернулся руководить"
+				}
+			},
+			"staff": 390000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтеррей",
+						"en": "Monterrey"
+					},
+					"ш": 25.67,
+					"д": -100.31,
+					"province": 322,
+					"staff": 10000,
+					"fine": 2536
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.femsa.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "grupomexico",
+			"название": {
+				"ru": "Grupo México",
+				"en": "Grupo México"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1978,
+			"description": {
+				"ru": "Медь Мексики и Перу, железные дороги.",
+				"en": "Copper of Mexico and Peru, railways."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 4000,
+				"debt": 9000,
+				"money": 6000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 7780,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Ларреа",
+						"en": "The Larrea family"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Херман Ларреа",
+					"en": "Germán Larrea"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1994,
+				"born_year": 1953,
+				"доля": 0.55,
+				"характер": {
+					"ru": "второй богач Мексики",
+					"en": "второй богач Мексики"
+				}
+			},
+			"staff": 32000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.43,
+					"д": -99.2,
+					"province": 896,
+					"staff": 1000,
+					"fine": 2549
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Буэнависта",
+						"en": "Buenavista mine"
+					},
+					"ш": 30.98,
+					"д": -110.3,
+					"province": 316,
+					"staff": 7000,
+					"fine": 2534
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gmexico.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "banorte",
+			"название": {
+				"ru": "Banorte",
+				"en": "Banorte"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1899,
+			"description": {
+				"ru": "Крупнейший мексиканский банк в местной собственности.",
+				"en": "The largest Mexican-owned bank."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 2900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 2880,
+				"market_cap": 24000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Гонсалес Морено",
+						"en": "The González Moreno family"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маркос Рамирес",
+					"en": "Marcos Ramírez"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 33000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтеррей",
+						"en": "Monterrey"
+					},
+					"ш": 25.67,
+					"д": -100.3,
+					"province": 322,
+					"staff": 6000,
+					"fine": 2536
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.banorte.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "cemex",
+			"название": {
+				"ru": "Cemex",
+				"en": "Cemex"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1906,
+			"description": {
+				"ru": "Один из крупнейших производителей цемента в мире.",
+				"en": "One of the world's largest cement makers."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 900,
+				"debt": 6000,
+				"money": 700,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 14500,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хайме Мугиро",
+					"en": "Jaime Muguiro"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "испанец",
+					"en": "испанец"
+				}
+			},
+			"staff": 44000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтеррей",
+						"en": "Monterrey"
+					},
+					"ш": 25.66,
+					"д": -100.35,
+					"province": 322,
+					"staff": 3000,
+					"fine": 2536
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cemex.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bimbo",
+			"название": {
+				"ru": "Grupo Bimbo",
+				"en": "Grupo Bimbo"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Крупнейший хлебопёк мира.",
+				"en": "The world's largest baker."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 600,
+				"debt": 9000,
+				"money": 700,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 4370,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сервитхе",
+						"en": "The Servitje family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алехандро Родригес Бас",
+					"en": "Alejandro Rodríguez Bas"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "хлебопек (экс-Danone, C&D)",
+					"en": "наследник"
+				}
+			},
+			"staff": 150000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико, Санта-Фе",
+						"en": "Mexico City, Santa Fe"
+					},
+					"ш": 19.36,
+					"д": -99.26,
+					"province": 896,
+					"staff": 5000,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grupobimbo.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bbvamexico",
+			"название": {
+				"ru": "BBVA México",
+				"en": "BBVA México"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1932,
+			"description": {
+				"ru": "Крупнейший банк Мексики, главная дочка BBVA.",
+				"en": "Mexico's largest bank, BBVA's main subsidiary."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 5500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "BBVA",
+						"en": "BBVA"
+					},
+					"type": "company",
+					"доля": 1.0,
+					"country": "Испания",
+					"company": "bbva"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдуардо Осуна",
+					"en": "Eduardo Osuna"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2015,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 45000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико, Торре BBVA",
+						"en": "Mexico City, Torre BBVA"
+					},
+					"ш": 19.42,
+					"д": -99.18,
+					"province": 896,
+					"staff": 8000,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.bbva.mx | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "grupo_carso",
+			"название": {
+				"ru": "Grupo Carso (Carso Infraestructura / Condumex / Sanborns)",
+				"en": "Grupo Carso (Carso Infraestructura / Condumex / Sanborns)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Многоотраслевой инфраструктурный конгломерат Карлоса Слима (кабельное производство Condumex, нефтесервис Carso Energy, ритейл Sanborns, мосты и трубопроводы — ) [Выручка: $11,000 млн (MXN 195 млрд), Чистая прибыль: $950 млн (MXN 17 млрд), Долг: $2,200 млн, Деньги: $1,100 млн, Дивиденды: $350 млн, Капитализация: $16,000 млн (BMV: GCARSOA1), Штат: 95,000 чел., Зарплата: $900/мес, Руководитель: Антон",
+				"en": "Grupo Carso (Carso Infraestructura / Condumex / Sanborns) — a oil and gas company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 950,
+				"debt": 2200,
+				"money": 1100,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9618,
+			"wage": 1610,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вилья-де-Гарсиа",
+						"en": "García"
+					},
+					"ш": 25.8292,
+					"д": -100.5722,
+					"province": 322,
+					"staff": 2885,
+					"fine": 2536
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "alfa_s",
+			"название": {
+				"ru": "ALFA, S.A.B. de C.V. (Sigma Alimentos / Alpek)",
+				"en": "ALFA, S.A.B. de C.V. (Sigma Alimentos / Alpek)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2010,
+			"description": {
+				"ru": "Продукты питания (Sigma Alimentos: мясные и молочные бренды Fud, San Rafael, Bar-S — и нефтехимия (полиэфиры Alpek)) [Выручка: $16,000 млн, Чистая прибыль: $400 млн, Долг: $4,500 млн, Деньги: $1,200 млн, Дивиденды: $200 млн, Капитализация: $3,500 млн (BMV: ALFAA), Штат: 60,000 чел., Зарплата: $950/мес, Руководитель: Альваро Фернандес Гарса (Álvaro Fernández Garza), Президент и СЕО с 2010 года, род",
+				"en": "ALFA, S.A.B. de C.V. (Sigma Alimentos / Alpek) — a consumer and retail company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 400,
+				"debt": 4500,
+				"money": 1200,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 48000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4103,
+					"д": -99.1462,
+					"province": 896,
+					"staff": 14400,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "arca_continental",
+			"название": {
+				"ru": "Arca Continental",
+				"en": "Arca Continental"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2019,
+			"description": {
+				"ru": "Производство и дистрибуция напитков (второй по величине боттлер The Coca-Cola Company в Латинской Америке: Мексика, Техас, Эквадор, Перу, Аргентина — ) [Выручка: $12,500 млн (MXN 215+ млрд), Чистая прибыль: $950 млн, Долг: $2,800 млн, Деньги: $1,500 млн, Дивиденды: $450 млн, Капитализация: $16,000 млн (BMV: AC), Штат: 68,000 чел., Зарплата: $900/мес, Руководитель: Артуро Гутьеррес Эрнандес (Arturo",
+				"en": "Arca Continental — a consumer and retail company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 950,
+				"debt": 2800,
+				"money": 1500,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 37500,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4346,
+					"д": -99.103,
+					"province": 896,
+					"staff": 11250,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_salinas",
+			"название": {
+				"ru": "Grupo Salinas (Elektra / Banco Azteca / TV Azteca)",
+				"en": "Grupo Salinas (Elektra / Banco Azteca / TV Azteca)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1955,
+			"description": {
+				"ru": "Розничная торговля бытовой техникой, микрофинансирование Banco Azteca, мотоциклы Italika, медиахолдинг TV Azteca — [Выручка: $9,500 млн (MXN 170 млрд), Чистая прибыль: $300 млн, Долг: $4,000 млн, Деньги: $2,000 млн, Дивиденды: $100 млн, Капитализация: $5,500 млн, Штат: 110,000 чел., Зарплата: $800/мес, Руководитель: Рикардо Салинас Плиего (Ricardo Salinas Pliego), Основатель и Председатель совета ",
+				"en": "Grupo Salinas (Elektra / Banco Azteca / TV Azteca) — a financial company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 300,
+				"debt": 4000,
+				"money": 2000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 27142,
+			"wage": 1479,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4541,
+					"д": -99.1174,
+					"province": 896,
+					"staff": 8142,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "industrias_pe",
+			"название": {
+				"ru": "Industrias Peñoles & Fresnillo plc (Grupo BAL)",
+				"en": "Industrias Peñoles & Fresnillo plc (Grupo BAL)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Горно-металлургическая промышленность (крупнейший в мире производитель первичного серебра Fresnillo plc, добыча золота, свинца, цинка — ) [Выручка: $7,500 млн, Чистая прибыль: $450 млн, Долг: $2,500 млн, Деньги: $1,100 млн, Дивиденды: $150 млн, Капитализация: $9,000 млн (BMV: PE&OLES, LSE: FRES), Штат: 28,000 чел., Зарплата: $1,300/мес, Руководитель: Рафаэль Реболлар Гонсалес (Rafael Rebollar Gonz",
+				"en": "Industrias Peñoles & Fresnillo plc (Grupo BAL) — a metals and mining company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 450,
+				"debt": 2500,
+				"money": 1100,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21666,
+			"wage": 1607,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Фреснильо",
+						"en": "Fresnillo"
+					},
+					"ш": 23.1373,
+					"д": -102.897,
+					"province": 899,
+					"staff": 6499,
+					"fine": 2535
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "gruma_s",
+			"название": {
+				"ru": "Gruma, S.A.B. de C.V. (Maseca / Mission Foods)",
+				"en": "Gruma, S.A.B. de C.V. (Maseca / Mission Foods)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2012,
+			"description": {
+				"ru": "Пищевая промышленность (мировой лидер в производстве кукурузной муки, тортилий и лепешек: Mission, Guerrero — ) [Выручка: $6,800 млн (MXN 115 млрд), Чистая прибыль: $430 млн, Долг: $1,900 млн, Деньги: $450 млн, Дивиденды: $200 млн, Капитализация: $6,500 млн (BMV: GRUMAB), Штат: 26,000 чел., Зарплата: $950/мес, Руководитель: Хуан Антонио Гонсалес Морено (Juan Antonio González Moreno), Председатель ",
+				"en": "Gruma, S.A.B. de C.V. (Maseca / Mission Foods) — a consumer and retail company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 430,
+				"debt": 1900,
+				"money": 450,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 20400,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.3956,
+					"д": -99.1073,
+					"province": 896,
+					"staff": 6120,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_televisa",
+			"название": {
+				"ru": "Grupo Televisa (TelevisaUnivision)",
+				"en": "Grupo Televisa (TelevisaUnivision)"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Медиа, спутниковое ТВ (Sky México — , кабельные сети и интернет Izzi Telecom, кино и телеконтент на испанском языке) [Выручка: $4,500 млн (MXN 75 млрд), Чистая прибыль: $150 млн, Долг: $5,500 млн, Деньги: $1,800 млн, Дивиденды: $80 млн, Капитализация: $2,500 млн (BMV: TLEVISACPO, NYSE: TV), Штат: 35,000 чел., Зарплата: $850/мес, Руководитель: Альфонсо де Ангоития Норьега (Alfonso de Angoitia Norie",
+				"en": "Grupo Televisa (TelevisaUnivision) — a space company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 150,
+				"debt": 5500,
+				"money": 1800,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15576,
+			"wage": 1498,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4379,
+					"д": -99.091,
+					"province": 896,
+					"staff": 4672,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "orbia_advance",
+			"название": {
+				"ru": "Orbia Advance Corporation (ранее Mexichem)",
+				"en": "Orbia Advance Corporation (ранее Mexichem)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Полимерные трубы, фторсодержащие соединения, системы точного микроорошения (Netafim — , ПВХ-смолы (Vestolit, Alphagary)) [Выручка: $8,200 млн, Чистая прибыль: $250 млн, Долг: $4,200 млн, Деньги: $800 млн, Дивиденды: $180 млн, Капитализация: $2,800 млн (BMV: ORBIA), Штат: 24,000 чел., Зарплата: $1,400/мес, Руководитель: Самир Бхарадвадж (Sameer Bharadwaj), Главный исполнительный директор с 2021 год",
+				"en": "Orbia Advance Corporation (ранее Mexichem) — a consumer and retail company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 8200,
+				"profit": 250,
+				"debt": 4200,
+				"money": 800,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 24600,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4182,
+					"д": -99.1502,
+					"province": 896,
+					"staff": 7380,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "el_puerto",
+			"название": {
+				"ru": "El Puerto de Liverpool",
+				"en": "El Puerto de Liverpool"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Ритейл, крупнейшая сеть элитных универмагов (Liverpool, Suburbia — и торгово-развлекательных моллов Galerías) [Выручка: $10,500 млн (MXN 185 млрд), Чистая прибыль: $980 млн (MXN 17 млрд), Долг: $2,500 млн, Деньги: $1,400 млн, Дивиденды: $250 млн, Капитализация: $9,500 млн (BMV: LIVEPOLC1), Штат: 80,000 чел., Зарплата: $800/мес, Руководитель: Грасиано Гишар Гонсалес (Graciano Guichard González), Ге",
+				"en": "El Puerto de Liverpool — a consumer and retail company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 980,
+				"debt": 2500,
+				"money": 1400,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 31500,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4012,
+					"д": -99.1086,
+					"province": 896,
+					"staff": 9450,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_aeroportuario",
+			"название": {
+				"ru": "Grupo Aeroportuario del Pacífico (GAP)",
+				"en": "Grupo Aeroportuario del Pacífico (GAP)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Управление инфраструктурой аэропортов (12 аэропортов в Мексике: Гвадалахара, Тихуана, Лос-Кабос, Пуэрто-Вальярта и 2 на Ямайке — ) [Выручка: $1,800 млн (MXN 31 млрд), Чистая прибыль: $500 млн (MXN 9+ млрд), Долг: $1,500 млн, Деньги: $600 млн, Дивиденды: $350 млн, Капитализация: $8,000 млн (BMV: GAPB, NYSE: PAC), Штат: 2,500 чел., Зарплата: $1,200/мес, Руководитель: Рауль Ревуэльта Мусалем (Raúl Re",
+				"en": "Grupo Aeroportuario del Pacífico (GAP) — a transport company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 500,
+				"debt": 1500,
+				"money": 600,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 1473,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тихуана",
+						"en": "Tijuana"
+					},
+					"ш": 32.4908,
+					"д": -116.9865,
+					"province": 317,
+					"staff": 1350,
+					"fine": 2528
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "direcci_n",
+			"название": {
+				"ru": "Dirección General de Industria Militar (DGIM SEDENA - \"La Célula\" Complex)",
+				"en": "Dirección General de Industria Militar (DGIM SEDENA - \"La Célula\" Complex)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-промышленный комплекс Министерства национальной обороны Мексики (SEDENA — ) — Локация: Орьенталь (штат Пуэбла, индустриальный комплекс «La Célula»); Продукция: Серийный выпуск штатной штурмовой винтовки FX-05 Xiuhcoatl (5.56x45 мм) для армии и Национальной гвардии, снайперских винтовок Морелос, пистолетов, 40-мм подствольных гранатометов, патронные заводы всех калибров (5.56 мм, 7.6",
+				"en": "Dirección General de Industria Militar (DGIM SEDENA - \"La Célula\" Complex) — a defence company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 2062,
+				"profit": 137,
+				"debt": 530,
+				"money": 317,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3866
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мексика)",
+						"en": "The state (Mexico)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6186,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.3986,
+					"д": -99.1049,
+					"province": 896,
+					"staff": 1855,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "astilleros_de",
+			"название": {
+				"ru": "Astilleros de la Secretaría de Marina (ASTIMAR SEMAR)",
+				"en": "Astilleros de la Secretaría de Marina (ASTIMAR SEMAR)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственные военно-морские судостроительные и судоремонтные верфи Военно-морского министерства Мексики — Официальные источники: https://www.gob.mx/semar, https://www.gob.mx/defense (Оборонные программы)",
+				"en": "Astilleros de la Secretaría de Marina (ASTIMAR SEMAR) — a defence company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 1875,
+				"profit": 125,
+				"debt": 482,
+				"money": 288,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3516
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мексика)",
+						"en": "The state (Mexico)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адмирал, Генеральный директор военно-морского строительства (Almirante / Director General de Construcciones Navales SEMAR)]",
+					"en": "Адмирал, Генеральный директор военно-морского строительства (Almirante / Director General de Construcciones Navales SEMAR)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5625,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тампико",
+						"en": "Tampico"
+					},
+					"ш": 22.2911,
+					"д": -97.8703,
+					"province": 321,
+					"staff": 1687,
+					"fine": 2556
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direcci_n_2",
+			"название": {
+				"ru": "Dirección General de Fábricas de Vestuario y Equipo (FAVE SEDENA)",
+				"en": "Dirección General de Fábricas de Vestuario y Equipo (FAVE SEDENA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военный индустриальный комплекс средств индивидуальной бронезащиты и экипировки — Официальные источники: https://www.gob.mx/sedena, https://www.gob.mx/defense (Оборонные программы)",
+				"en": "Dirección General de Fábricas de Vestuario y Equipo (FAVE SEDENA) — a defence company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 1762,
+				"profit": 117,
+				"debt": 453,
+				"money": 271,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3304
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мексика)",
+						"en": "The state (Mexico)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бригадный генерал, Директор фабрик снаряжения (General de Brigada / Director de FAVE)]",
+					"en": "Бригадный генерал, Директор фабрик снаряжения (General de Brigada / Director de FAVE)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5286,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4128,
+					"д": -99.1054,
+					"province": 896,
+					"staff": 1585,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "centro_de_2",
+			"название": {
+				"ru": "Centro de Investigación y Desarrollo del Ejército y Fuerza Aérea (CIDEFA / BAM Santa Lucía)",
+				"en": "Centro de Investigación y Desarrollo del Ejército y Fuerza Aérea (CIDEFA / BAM Santa Lucía)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационный научно-исследовательский и ремонтный комплекс ВВС Мексики (Fuerza Aérea Mexicana — Официальные источники: https://www.gob.mx/sedena, https://www.gob.mx/defense (Оборонные программы)",
+				"en": "Centro de Investigación y Desarrollo del Ejército y Fuerza Aérea (CIDEFA / BAM Santa Lucía) — a defence company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 1650,
+				"profit": 110,
+				"debt": 424,
+				"money": 254,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3094
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мексика)",
+						"en": "The state (Mexico)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал группы ВВС (General de Ala / Comandante de Mantenimiento Aéreo FAM)]",
+					"en": "Генерал группы ВВС (General de Ala / Comandante de Mantenimiento Aéreo FAM)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4950,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.4371,
+					"д": -99.1133,
+					"province": 896,
+					"staff": 1485,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "blindajes_epel",
+			"название": {
+				"ru": "Blindajes Epel / IBN Industrias Militares / WBA Blindajes Alemanes",
+				"en": "Blindajes Epel / IBN Industrias Militares / WBA Blindajes Alemanes"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие мексиканские частные предприятия по производству военной бронетехники и бронированных штурмовых машин — Официальные источники: https://www.blindajesepel.com, https://www.blindajesepel.com/defense (Оборонные программы)",
+				"en": "Blindajes Epel / IBN Industrias Militares / WBA Blindajes Alemanes — a defence company of Mexico."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 8,
+				"debt": 31,
+				"money": 18,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мексика)",
+						"en": "The state (Mexico)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мексика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдуардо Эпельбаум (Eduardo Epelbaum), Президент Blindajes Epel]",
+					"en": "Эдуардо Эпельбаум (Eduardo Epelbaum), Президент Blindajes Epel]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 360,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мехико",
+						"en": "Mexico City"
+					},
+					"ш": 19.3898,
+					"д": -99.1309,
+					"province": 896,
+					"staff": 108,
+					"fine": 2549
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1383 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Хорватия",
+	"iso": "HRV",
+	"data_date": "2026-03",
+	"average_wage": 1500,
+	"companies": [
+		{
+			"id": "hep",
+			"название": {
+				"ru": "HEP",
+				"en": "HEP"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1990,
+			"description": {
+				"ru": "Государственная электроэнергетика Хорватии.",
+				"en": "Croatia's state power company."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 200,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Хорватии",
+						"en": "The Croatian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Виче Оршулич",
+					"en": "Vice Oršulić"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 10000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.81,
+					"д": 15.98,
+					"province": 140,
+					"staff": 3000,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.hep.hr/ | Отчёты HEP 2024–2025; https://www.hep.hr/"
+		},
+		{
+			"id": "ina",
+			"название": {
+				"ru": "INA",
+				"en": "INA"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1964,
+			"description": {
+				"ru": "Нефтяная компания Хорватии под контролем MOL.",
+				"en": "Croatia's oil company controlled by MOL."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 150,
+				"debt": 500,
+				"money": 200,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 10,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "MOL",
+						"en": "MOL"
+					},
+					"type": "company",
+					"доля": 0.49,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Государство Хорватии",
+						"en": "The Croatian state"
+					},
+					"type": "polity",
+					"доля": 0.45,
+					"country": "Хорватия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.06
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Петер Рататич",
+					"en": "Péter Ratatics"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1982,
+				"доля": 0.0,
+				"характер": {
+					"ru": "венгр от MOL",
+					"en": "венгр от MOL"
+				}
+			},
+			"staff": 9000,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8,
+					"д": 15.96,
+					"province": 140,
+					"staff": 2000,
+					"fine": 1630
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Риека",
+						"en": "Rijeka refinery"
+					},
+					"ш": 45.33,
+					"д": 14.49,
+					"province": 140,
+					"staff": 1000,
+					"fine": 1627
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ina.hr/ | Отчёты INA / MOL 2024–2025; https://www.ina.hr/"
+		},
+		{
+			"id": "zaba",
+			"название": {
+				"ru": "Zagrebačka banka",
+				"en": "Zagrebačka banka"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1914,
+			"description": {
+				"ru": "Крупнейший банк Хорватии, дочка UniCredit.",
+				"en": "Croatia's largest bank, a UniCredit subsidiary."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 320,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "UniCredit",
+						"en": "UniCredit"
+					},
+					"type": "company",
+					"доля": 0.97,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.03
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Далибор Чубела",
+					"en": "Dalibor Ćubela"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир UniCredit",
+					"en": "банкир"
+				}
+			},
+			"staff": 4000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8,
+					"д": 15.97,
+					"province": 140,
+					"staff": 2000,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.zaba.hr/ | Отчёты Zagrebačka banka / UniCredit 2024–2025; https://www.zaba.hr/"
+		},
+		{
+			"id": "koncar",
+			"название": {
+				"ru": "Končar",
+				"en": "Končar"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1921,
+			"description": {
+				"ru": "Трансформаторы и электрооборудование.",
+				"en": "Transformers and electrical equipment."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 90,
+				"debt": 100,
+				"money": 200,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 2.57,
+				"market_cap": 1300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Хорватии",
+						"en": "The Croatian state"
+					},
+					"type": "polity",
+					"доля": 0.28,
+					"country": "Хорватия"
+				},
+				{
+					"кто": {
+						"ru": "Пенсионные фонды",
+						"en": "Pension funds"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Хорватия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.42
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гордан Колак",
+					"en": "Gordan Kolak"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 5000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8,
+					"д": 15.93,
+					"province": 140,
+					"staff": 3000,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.koncar.hr/ | Отчёты Končar 2024–2025; https://www.koncar.hr/"
+		},
+		{
+			"id": "podravka",
+			"название": {
+				"ru": "Podravka",
+				"en": "Podravka"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1934,
+			"description": {
+				"ru": "Приправа Vegeta и продукты.",
+				"en": "Vegeta seasoning and food."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 70,
+				"debt": 100,
+				"money": 50,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 7.1,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Пенсионные фонды",
+						"en": "Pension funds"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Хорватия"
+				},
+				{
+					"кто": {
+						"ru": "Государство Хорватии",
+						"en": "The Croatian state"
+					},
+					"type": "polity",
+					"доля": 0.25,
+					"country": "Хорватия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мартина Далич",
+					"en": "Martina Dalić"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший министр экономики",
+					"en": "бывший министр экономики"
+				}
+			},
+			"staff": 7000,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копривница",
+						"en": "Koprivnica"
+					},
+					"ш": 46.16,
+					"д": 16.83,
+					"province": 140,
+					"staff": 3000,
+					"fine": 1638
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.podravka.hr/ | Отчёты Podravka 2024–2025; https://www.podravka.hr/"
+		},
+		{
+			"id": "fortenova_grupa",
+			"название": {
+				"ru": "Fortenova Grupa (бывший Agrokor)",
+				"en": "Fortenova Grupa (бывший Agrokor)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный агропромышленный, ритейловый и пищевой холдинг Юго-Восточной Европы (розничные сети Konzum в Хорватии и Mercator в Словении/Сербии, производители Jamnica, Zvijezda, Pik Vrbovec; выручка свыше $6.0 млрд, более 45,000 сотрудников). https://fortenova.hr/",
+				"en": "Fortenova Grupa (бывший Agrokor) — a consumer and retail company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 467,
+				"debt": 1385,
+				"money": 500,
+				"dividends": 140
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8219
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18000,
+			"wage": 1667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.7852,
+					"д": 15.9816,
+					"province": 140,
+					"staff": 5400,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rimac_group",
+			"название": {
+				"ru": "Rimac Group (Bugatti Rimac / Rimac Technology)",
+				"en": "Rimac Group (Bugatti Rimac / Rimac Technology)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой технологический лидер в создании электрических гиперкаров (Nevera, Bugatti Tourbillon) и разработке тяговых батарей и компонентов электропривода для ведущих автоконцернов (BMW, Porsche, Hyundai; капитализация ~$2.5 млрд, 2,000+ инженеров). https://www.rimac-group.com/",
+				"en": "Rimac Group (Bugatti Rimac / Rimac Technology) — a energy company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 1896,
+				"profit": 175,
+				"debt": 1152,
+				"money": 243,
+				"dividends": 52
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3373,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8332,
+					"д": 15.9828,
+					"province": 140,
+					"staff": 1011,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hrvatski_telekom",
+			"название": {
+				"ru": "Hrvatski Telekom (HT)",
+				"en": "Hrvatski Telekom (HT)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий национальный телекоммуникационный оператор (контролируется Deutsche Telekom 53%; фиксированная связь, мобильные сети 5G, широкополосный интернет и ИТ-услуги Combis; котируется на ZSE; выручка ~$1.2 млрд, чистая прибыль ~$140 млн). https://www.t.ht.hr/",
+				"en": "Hrvatski Telekom (HT) — a IT and telecom company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 140,
+				"debt": 381,
+				"money": 200,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2272
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3178,
+			"wage": 2689,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8181,
+					"д": 15.974,
+					"province": 140,
+					"staff": 953,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "adris_grupa",
+			"название": {
+				"ru": "Adris Grupa",
+				"en": "Adris Grupa"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из мощнейших диверсифицированных холдингов Хорватии: страховой лидер Croatia Osiguranje, гостиничный и люксовый туристический оператор Maistra (Ровинь, Дубровник, Загреб) и марикультура Cromaris (котируется на ZSE; выручка ~$1.1 млрд). https://www.adris.hr/",
+				"en": "Adris Grupa — a financial company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 309,
+				"debt": 0,
+				"money": 0,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2567
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3142,
+			"wage": 2464,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.7902,
+					"д": 15.9919,
+					"province": 140,
+					"staff": 942,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "atlantic_grupa",
+			"название": {
+				"ru": "Atlantic Grupa",
+				"en": "Atlantic Grupa"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий региональный производитель продуктов питания, спортивного питания и FMCG-дистрибутор (бренды Cedevita, Argeta, Barcaffe, Donat Mg; выручка ~$1.1 млрд). https://www.atlanticgrupa.com/",
+				"en": "Atlantic Grupa — a transport company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 73,
+				"debt": 556,
+				"money": 228,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 786
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2750,
+			"wage": 2455,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8085,
+					"д": 16.0078,
+					"province": 140,
+					"staff": 825,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "valamar_riviera",
+			"название": {
+				"ru": "Valamar Riviera",
+				"en": "Valamar Riviera"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая курортно-гостиничная группа на Адриатическом побережье (управляет десятками отелей, курортов и кемпингов в Истрии, на островах Крк, Раб, Хвар и в Дубровнике; выручка ~$450 млн). https://www.valamar-riviera.com/",
+				"en": "Valamar Riviera — a tourism company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 68,
+				"debt": 191,
+				"money": 326,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 529
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6136,
+			"wage": 2025,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8333,
+					"д": 15.9655,
+					"province": 140,
+					"staff": 1840,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pliva_hrvatska",
+			"название": {
+				"ru": "Pliva Hrvatska (Teva Pharmaceutical Industries)",
+				"en": "Pliva Hrvatska (Teva Pharmaceutical Industries)"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая фармацевтическая компания Юго-Восточной Европы, создатель азитромицина (Сумамед), крупный производственный и исследовательский R&D хаб (выручка ~$800 млн). https://www.pliva.hr/",
+				"en": "Pliva Hrvatska (Teva Pharmaceutical Industries) — a pharmaceutical company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 120,
+				"debt": 373,
+				"money": 105,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2969
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1460,
+			"wage": 2174,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.804,
+					"д": 15.9626,
+					"province": 140,
+					"staff": 438,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jadrolinija",
+			"название": {
+				"ru": "Jadrolinija",
+				"en": "Jadrolinija"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная паромная компания (национальный морской перевозчик Хорватии с флотом свыше 50 паромов и катамаранов, связывающих материк с островами и портами Италии; пассажиропоток более 12 млн чел./год). https://www.jadrolinija.hr/",
+				"en": "Jadrolinija — a transport company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 385,
+				"profit": 26,
+				"debt": 194,
+				"money": 80,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 275
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 962,
+			"wage": 2455,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8095,
+					"д": 15.9877,
+					"province": 140,
+					"staff": 288,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hs_produkt",
+			"название": {
+				"ru": "HS Produkt (Карловац)",
+				"en": "HS Produkt (Карловац)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Всемирно известный хорватский производитель стрелкового оружия",
+				"en": "HS Produkt (Карловац) — a defence company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 42,
+				"money": 25,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 495,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карловац",
+						"en": "Karlovac"
+					},
+					"ш": 45.5187,
+					"д": 15.5574,
+					"province": 140,
+					"staff": 148,
+					"fine": 1625
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dok_ing",
+			"название": {
+				"ru": "DOK-ING (Загреб)",
+				"en": "DOK-ING (Загреб)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области роботизированных систем разминирования, инженерных машин и беспилотных комплексов пожаротушения",
+				"en": "DOK-ING (Загреб) — a defence company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 42,
+				"money": 25,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 495,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8306,
+					"д": 15.9935,
+					"province": 140,
+					"staff": 148,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "estan_busch",
+			"название": {
+				"ru": "Šestan-Busch (Прелог)",
+				"en": "Šestan-Busch (Прелог)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из мировых лидеров по производству композитных баллистических шлемов, касок и индивидуальной бронезащиты для сухопутных войск и спецназа (поставлено более 2.5 млн шлемов для армий свыше 70 стран). https://sestan-busch.hr/",
+				"en": "Šestan-Busch (Прелог) — a defence company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 42,
+				"money": 25,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 495,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.8058,
+					"д": 15.9753,
+					"province": 140,
+					"staff": 148,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uro_akovi",
+			"название": {
+				"ru": "Đuro Đaković Specijalna Vozila (Славонски-Брод)",
+				"en": "Đuro Đaković Specijalna Vozila (Славонски-Брод)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главное бронетанковое предприятие Хорватии",
+				"en": "Đuro Đaković Specijalna Vozila (Славонски-Брод) — a defence company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 150,
+				"profit": 10,
+				"debt": 39,
+				"money": 23,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 281
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Загреб",
+						"en": "Zagreb"
+					},
+					"ш": 45.7871,
+					"д": 15.9581,
+					"province": 140,
+					"staff": 135,
+					"fine": 1630
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brodosplit_brodogradili",
+			"название": {
+				"ru": "Brodosplit / Brodogradilište Specijalnih Objekata (BSO, Сплит)",
+				"en": "Brodosplit / Brodogradilište Specijalnih Objekata (BSO, Сплит)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военное судостроение",
+				"en": "Brodosplit / Brodogradilište Specijalnih Objekata (BSO, Сплит) — a defence company of Croatia."
+			},
+			"fundamental": {
+				"выручка": 135,
+				"profit": 9,
+				"debt": 35,
+				"money": 21,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 253
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Хорватия)",
+						"en": "The state (Croatia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Хорватия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 405,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сплит",
+						"en": "Split"
+					},
+					"ш": 43.5403,
+					"д": 16.475,
+					"province": 140,
+					"staff": 121,
+					"fine": 1622
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

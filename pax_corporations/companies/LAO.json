@@ -1,0 +1,942 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Лаос",
+	"iso": "LAO",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "edl",
+			"название": {
+				"ru": "Électricité du Laos",
+				"en": "Électricité du Laos"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1959,
+			"description": {
+				"ru": "ГЭС на Меконге, долги перед Китаем.",
+				"en": "Mekong dams, debts to China."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": -200,
+				"debt": 6000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Лаоса",
+						"en": "The Lao state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Акхомдет Вонгсай",
+					"en": "Akhomdeth Vongsay"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 4000,
+			"wage": 250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вьентьян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9956,
+					"д": 102.5903,
+					"province": 232,
+					"staff": 2000,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://edl.com.la/ | Electricité du Laos (EDL) Reports 2024; EDL-Gen LSX disclosures; Ministry of Energy Laos"
+		},
+		{
+			"id": "edl_generation",
+			"название": {
+				"ru": "EDL-Generation Public Company (EDL-Gen)",
+				"en": "EDL-Generation Public Company (EDL-Gen)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая генерирующая компания страны, первая лаосская публичная корпорация (LSX: EDLGEN; владеет ГЭС Нам Нгум, Сесет, Нам Сонг суммарной мощностью свыше 1,700 МВт; ключевой поставщик валютной экспортной выручки от продажи энергии в Таиланд; выручка ~$250 млн). https://edlgen.com.la/",
+				"en": "EDL-Generation Public Company (EDL-Gen) — a energy company of Laos."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 23,
+				"debt": 152,
+				"money": 32,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 330
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 444,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9699,
+					"д": 102.6293,
+					"province": 232,
+					"staff": 133,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_pour",
+			"название": {
+				"ru": "Banque Pour Le Commerce Exterieur Lao (BCEL)",
+				"en": "Banque Pour Le Commerce Exterieur Lao (BCEL)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Крупнейший государственный коммерческий банк Лаоса (основан в 1975 г., котируется на LSX: BCEL; обслуживает свыше 60% внешнеторговых и корпоративных расчетов страны; активы свыше $4.5 млрд). https://www.bcel.com.la/",
+				"en": "Banque Pour Le Commerce Exterieur Lao (BCEL) — a financial company of Laos."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 52,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.933,
+					"д": 102.6236,
+					"province": 232,
+					"staff": 157,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lao_china",
+			"название": {
+				"ru": "Lao-China Railway Company (LCRC)",
+				"en": "Lao-China Railway Company (LCRC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стратегическая совместная железнодорожная корпорация Лаоса и Китая (эксплуатация трансграничной высокоскоростной электрифицированной магистрали Ботен — Вьентьян протяженностью 414 км стоимостью $5.9 млрд, связавшей Лаос с китайской сетью железных дорог). https://www.laochinarailway.com/",
+				"en": "Lao-China Railway Company (LCRC) — a energy company of Laos."
+			},
+			"fundamental": {
+				"выручка": 88,
+				"profit": 8,
+				"debt": 53,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 116
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 156,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9873,
+					"д": 102.6371,
+					"province": 232,
+					"staff": 46,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lao_state",
+			"название": {
+				"ru": "Lao State Fuel Company (LSFC)",
+				"en": "Lao State Fuel Company (LSFC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная топливная монополия Лаоса (импорт, хранение стратегических запасов светлых нефтепродуктов и общенациональная сеть автозаправочных станций). https://www.laostatefuel.com/",
+				"en": "Lao State Fuel Company (LSFC) — a oil and gas company of Laos."
+			},
+			"fundamental": {
+				"выручка": 76,
+				"profit": 5,
+				"debt": 21,
+				"money": 7,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 47
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 66,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9655,
+					"д": 102.6364,
+					"province": 232,
+					"staff": 19,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "unitel_lao",
+			"название": {
+				"ru": "Unitel (Star Telecom) / Lao Telecom (LTC)",
+				"en": "Unitel (Star Telecom) / Lao Telecom (LTC)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие национальные телекоммуникационные операторы (Unitel — совместное предприятие Минобороны Лаоса и вьетнамского военного холдинга Viettel, контролирует 55% рынка сотовой связи; LTC — СП с тайской Thaicom; суммарная выручка свыше $350 млн). https://unitel.com.la/ | https://www.laotel.com/",
+				"en": "Unitel (Star Telecom) / Lao Telecom (LTC) — a IT and telecom company of Laos."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 45,
+				"debt": 111,
+				"money": 58,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 663
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 927,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9956,
+					"д": 102.5903,
+					"province": 229,
+					"staff": 278,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lao_brewery",
+			"название": {
+				"ru": "Lao Brewery Company (Beerlao)",
+				"en": "Lao Brewery Company (Beerlao)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагман пищевой индустрии Лаоса (национальный пивной бренд Beerlao, контролирующий 90% рынка пива страны и экспортируемый в десятки стран мира; совместное предприятие правительства Лаоса и Carlsberg Group; выручка свыше $250 млн). https://www.beerlao.la/",
+				"en": "Lao Brewery Company (Beerlao) — a consumer and retail company of Laos."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 19,
+				"debt": 58,
+				"money": 21,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 342
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.98,
+					"д": 102.5724,
+					"province": 229,
+					"staff": 225,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lane_xang",
+			"название": {
+				"ru": "Lane Xang Minerals (Sepon Mine) / Phu Bia Mining",
+				"en": "Lane Xang Minerals (Sepon Mine) / Phu Bia Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие промышленные медные и золотодобывающие комплексы Лаоса (СП с Chifeng Gold и PanAust; годовой экспорт золота, катодной меди и серебра на сумму свыше $1 млрд). https://www.panaust.com.au/ | https://chifenggold.com/",
+				"en": "Lane Xang Minerals (Sepon Mine) / Phu Bia Mining — a metals and mining company of Laos."
+			},
+			"fundamental": {
+				"выручка": 88,
+				"profit": 10,
+				"debt": 29,
+				"money": 11,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 106
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 254,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 18.0068,
+					"д": 102.5651,
+					"province": 229,
+					"staff": 76,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lao_airlines",
+			"название": {
+				"ru": "Lao Airlines",
+				"en": "Lao Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный национальный авиаперевозчик (парк самолетов Airbus A320 и ATR 72, региональная маршрутная сеть в Таиланд, Вьетнам, Китай, Камбоджу и Южную Корею). https://www.laoairlines.com/",
+				"en": "Lao Airlines — a transport company of Laos."
+			},
+			"fundamental": {
+				"выручка": 76,
+				"profit": 5,
+				"debt": 38,
+				"money": 16,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 54
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 190,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9964,
+					"д": 102.5678,
+					"province": 229,
+					"staff": 57,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "petrotrade",
+			"название": {
+				"ru": "PetroTrade (Petroleum Trading Lao)",
+				"en": "PetroTrade (Petroleum Trading Lao)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий частный топливно-логистический оператор Лаоса (сеть современных АЗС Plus, логистический сухой порт Vientiane Logistics Park / Thanaleng Dry Port, котируется на LSX: PTL). https://www.petroleumlao.com/",
+				"en": "PetroTrade (Petroleum Trading Lao) — a transport company of Laos."
+			},
+			"fundamental": {
+				"выручка": 64,
+				"profit": 4,
+				"debt": 32,
+				"money": 13,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 46
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 160,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9956,
+					"д": 102.5903,
+					"province": 229,
+					"staff": 48,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tehnicheskoe_upravlenie",
+			"название": {
+				"ru": "Техническое управление Народной армии Лаоса (Lao People's Armed Forces Technical Department)",
+				"en": "Техническое управление Народной армии Лаоса (Lao People's Armed Forces Technical Department)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Техническое управление Народной армии Лаоса (Lao People's Armed Forces Technical Department) — a defence company of Laos."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9751,
+					"д": 102.5886,
+					"province": 232,
+					"staff": 18,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aviatsionno_tehnicheskiy",
+			"название": {
+				"ru": "Авиационно-технический центр ВВС Лаоса (Авиабаза Ваттай, Вьентьян)",
+				"en": "Авиационно-технический центр ВВС Лаоса (Авиабаза Ваттай, Вьентьян)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Авиационно-технический центр ВВС Лаоса (Авиабаза Ваттай, Вьентьян) — a defence company of Laos."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9855,
+					"д": 102.6033,
+					"province": 232,
+					"staff": 18,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rechnoy_pogranichnyy",
+			"название": {
+				"ru": "Речной пограничный дивизион Народной армии (река Меконг)",
+				"en": "Речной пограничный дивизион Народной армии (река Меконг)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "База технического обслуживания и мелкого судоремонта речных патрульных катеров и катеров огневой поддержки пограничной охраны на реке Меконг",
+				"en": "Речной пограничный дивизион Народной армии (река Меконг) — a defence company of Laos."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Лаос)",
+						"en": "The state (Laos)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Лаос"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Виентян",
+						"en": "Vientiane"
+					},
+					"ш": 17.9773,
+					"д": 102.6218,
+					"province": 232,
+					"staff": 18,
+					"fine": 2182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1464 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Кения",
+	"iso": "KEN",
+	"data_date": "2026-03",
+	"average_wage": 250,
+	"companies": [
+		{
+			"id": "safaricom",
+			"название": {
+				"ru": "Safaricom",
+				"en": "Safaricom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1997,
+			"description": {
+				"ru": "Связь и мобильные деньги M-Pesa.",
+				"en": "Telecom and M-Pesa mobile money."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 350,
+				"debt": 600,
+				"money": 200,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 40065,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кении",
+						"en": "The Kenyan state"
+					},
+					"type": "polity",
+					"доля": 0.35,
+					"country": "Кения"
+				},
+				{
+					"кто": {
+						"ru": "Vodacom (Vodafone)",
+						"en": "Vodacom (Vodafone)"
+					},
+					"type": "company",
+					"доля": 0.35,
+					"country": "Великобритания",
+					"company": "vodafone"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Питер Ндегва",
+					"en": "Peter Ndegwa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "выводит M-Pesa в Эфиопию",
+					"en": "выводит M-Pesa в Эфиопию"
+				}
+			},
+			"staff": 7000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.26,
+					"д": 36.78,
+					"province": 23,
+					"staff": 4000,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.safaricom.co.ke/ | NSE: SCOM Annual Report 2024; Vodafone / Vodacom Group filings"
+		},
+		{
+			"id": "equity",
+			"название": {
+				"ru": "Equity Group",
+				"en": "Equity Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Банк для небогатых, работает по Восточной Африке.",
+				"en": "A bank for the not-rich, across East Africa."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 3770,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Норфунд и частные",
+						"en": "Norfund and private"
+					},
+					"type": "крупный",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джеймс Мванги",
+					"en": "James Mwangi"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2005,
+				"born_year": 1962,
+				"доля": 0.02,
+				"характер": {
+					"ru": "сделал банк для бедных",
+					"en": "сделал банк для бедных"
+				}
+			},
+			"staff": 13000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.29,
+					"д": 36.78,
+					"province": 23,
+					"staff": 4000,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://equitygroupholdings.com/ | NSE: EQTY Annual Report 2024; Central Bank of Kenya"
+		},
+		{
+			"id": "kcb",
+			"название": {
+				"ru": "KCB Group",
+				"en": "KCB Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1896,
+			"description": {
+				"ru": "Крупнейший банк Кении.",
+				"en": "Kenya's largest bank."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 450,
+				"debt": 0,
+				"money": 0,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 3210,
+				"market_cap": 1300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кении",
+						"en": "The Kenyan state"
+					},
+					"type": "polity",
+					"доля": 0.2,
+					"country": "Кения"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пол Руссо",
+					"en": "Paul Russo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 12000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.28,
+					"д": 36.82,
+					"province": 422,
+					"staff": 4000,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://kcbgroup.com/ | NSE: KCB Annual Report 2024; Central Bank of Kenya"
+		},
+		{
+			"id": "eabl",
+			"название": {
+				"ru": "East African Breweries",
+				"en": "East African Breweries"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1922,
+			"description": {
+				"ru": "Пиво Tusker, контроль у Diageo.",
+				"en": "Tusker beer, controlled by Diageo."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 80,
+				"debt": 400,
+				"money": 50,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 791,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Diageo",
+						"en": "Diageo"
+					},
+					"type": "company",
+					"доля": 0.65,
+					"country": "Великобритания",
+					"company": "diageo"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джейн Каруку",
+					"en": "Jane Karuku"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 2000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби, Рурака",
+						"en": "Nairobi, Ruaraka"
+					},
+					"ш": -1.24,
+					"д": 36.87,
+					"province": 422,
+					"staff": 1500,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.eabl.com/ | NSE: EABL Annual Report 2024; Diageo plc annual disclosures"
+		},
+		{
+			"id": "kenyaairways",
+			"название": {
+				"ru": "Kenya Airways",
+				"en": "Kenya Airways"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1977,
+			"description": {
+				"ru": "Национальная авиакомпания, в долгах.",
+				"en": "The national airline, deep in debt."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": -100,
+				"debt": 1500,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 5680,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кении",
+						"en": "The Kenyan state"
+					},
+					"type": "polity",
+					"доля": 0.49,
+					"country": "Кения"
+				},
+				{
+					"кто": {
+						"ru": "KLM",
+						"en": "KLM"
+					},
+					"type": "company",
+					"доля": 0.07,
+					"country": "Франция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.44
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аллан Килавуки",
+					"en": "Allan Kilavuka"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасает авиакомпанию",
+					"en": "спасает авиакомпанию"
+				}
+			},
+			"staff": 4000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Найроби",
+						"en": "Nairobi airport"
+					},
+					"ш": -1.32,
+					"д": 36.93,
+					"province": 422,
+					"staff": 3500,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kenya-airways.com/ | Kenya Airways Annual Report 2024; Ministry of Transport Kenya"
+		},
+		{
+			"id": "kengen",
+			"название": {
+				"ru": "KenGen",
+				"en": "KenGen"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1954,
+			"description": {
+				"ru": "Электроэнергия Кении: ГЭС и геотермальные станции.",
+				"en": "Kenya's power: hydro and geothermal plants."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 80,
+				"debt": 1200,
+				"money": 100,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 6600,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кении",
+						"en": "The Kenyan state"
+					},
+					"type": "polity",
+					"доля": 0.7,
+					"country": "Кения"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Питер Ндженга",
+					"en": "Peter Njenga"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 2500,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.29,
+					"д": 36.81,
+					"province": 422,
+					"staff": 800,
+					"fine": 2069
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Геотермальная Олкария",
+						"en": "Olkaria geothermal"
+					},
+					"ш": -0.88,
+					"д": 36.3,
+					"province": 23,
+					"staff": 800,
+					"fine": 2072
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.kengen.co.ke/ | NSE: KGEN Annual Report 2024; Ministry of Energy Kenya"
+		},
+		{
+			"id": "kenya_power",
+			"название": {
+				"ru": "Kenya Power and Lighting Company (Kenya Power / KPLC)",
+				"en": "Kenya Power and Lighting Company (Kenya Power / KPLC)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монопольный оператор распределения и сбыта электроэнергии (электроснабжение свыше 9.3 млн домохозяйств и предприятий страны; выручка свыше $1.5 млрд, NSE: KPLC). https://www.kplc.co.ke/",
+				"en": "Kenya Power and Lighting Company (Kenya Power / KPLC) — a energy company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 139,
+				"debt": 912,
+				"money": 192,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1978
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2668,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2725,
+					"д": 36.8157,
+					"province": 422,
+					"staff": 800,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "co_operative",
+			"название": {
+				"ru": "Co-operative Bank of Kenya (Co-op Bank)",
+				"en": "Co-operative Bank of Kenya (Co-op Bank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по величине системно значимый коммерческий банк Кении (опора кооперативного сектора, фермерских хозяйств и малого бизнеса; активы свыше $5.5 млрд, чистая прибыль ~$180 млн, 5,000 сотр., NSE: COOP). https://www.co-opbank.co.ke/",
+				"en": "Co-operative Bank of Kenya (Co-op Bank) — a financial company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 180,
+				"debt": 0,
+				"money": 0,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2701,
+					"д": 36.8171,
+					"province": 422,
+					"staff": 450,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ncba_group",
+			"название": {
+				"ru": "NCBA Group",
+				"en": "NCBA Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая финансовая корпорация страны (лидер в цифровом мобильном банкинге M-Shwari, корпоративном и автокредитовании; активы свыше $5 млрд, контролируется семьями Кеньятта и Ндегва). https://ncbagroup.com/",
+				"en": "NCBA Group — a financial company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 490,
+				"profit": 138,
+				"debt": 0,
+				"money": 0,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1143
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1400,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.3224,
+					"д": 36.7833,
+					"province": 23,
+					"staff": 420,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kenya_pipeline",
+			"название": {
+				"ru": "Kenya Pipeline Company (KPC)",
+				"en": "Kenya Pipeline Company (KPC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная монополия трубопроводного транспорта светлых нефтепродуктов (магистральные трубопроводы Момбаса — Найроби — Элдорет — Кисуму, топливное снабжение Кении, Уганды, Руанды и востока ДРК; выручка ~$250 млн). https://www.kpc.co.ke/",
+				"en": "Kenya Pipeline Company (KPC) — a oil and gas company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 15,
+				"debt": 70,
+				"money": 24,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 156
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 218,
+			"wage": 447,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2676,
+					"д": 36.8409,
+					"province": 422,
+					"staff": 65,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kenya_ports",
+			"название": {
+				"ru": "Kenya Ports Authority (KPA)",
+				"en": "Kenya Ports Authority (KPA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная администрация морских портов (управление глубоководным портом Момбаса — главным транзитным морским хабом Восточной Африки, и новым мегапортом Ламу / коридор LAPSSET; грузооборот свыше 35 млн тонн). https://www.kpa.co.ke/",
+				"en": "Kenya Ports Authority (KPA) — a transport company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 385,
+				"profit": 26,
+				"debt": 194,
+				"money": 80,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 275
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 962,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Момбаса",
+						"en": "Mombasa"
+					},
+					"ш": -4.0443,
+					"д": 39.6903,
+					"province": 439,
+					"staff": 288,
+					"fine": 2067
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bamburi_cement",
+			"название": {
+				"ru": "Bamburi Cement (Amsons Group / бывш. Holcim)",
+				"en": "Bamburi Cement (Amsons Group / бывш. Holcim)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель цемента, клинкера и строительных смесей в Кении и Уганде (крупные цементные заводы в Момбасе и Найроби; выручка ~$300 млн, NSE: BAMB). https://www.lafarge.co.ke/",
+				"en": "Bamburi Cement (Amsons Group / бывш. Holcim) — a construction company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 25,
+				"debt": 116,
+				"money": 39,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 378
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 943,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.3132,
+					"д": 36.83,
+					"province": 422,
+					"staff": 282,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nation_media",
+			"название": {
+				"ru": "Nation Media Group (NMG)",
+				"en": "Nation Media Group (NMG)"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший независимый медиаконгломерат Восточной Африки (газеты Daily Nation, Business Daily, The EastAfrican, телеканал NTV; основан Ага Ханом IV, NSE: NMG). https://nationmedia.com/",
+				"en": "Nation Media Group (NMG) — a media company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 249,
+				"profit": 46,
+				"debt": 55,
+				"money": 37,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1091
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 342,
+			"wage": 432,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2734,
+					"д": 36.7772,
+					"province": 23,
+					"staff": 102,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bata_shoe",
+			"название": {
+				"ru": "Bata Shoe Company Kenya",
+				"en": "Bata Shoe Company Kenya"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшее обувное производство Восточной Африки на фабрике в Лимуру и общенациональная розничная сеть магазинов (свыше 2,000 сотр.). https://www.batakenya.com/",
+				"en": "Bata Shoe Company Kenya — a consumer and retail company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 14,
+				"debt": 42,
+				"money": 15,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 252
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 552,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2611,
+					"д": 36.7964,
+					"province": 422,
+					"staff": 165,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kakuzi_plc",
+			"название": {
+				"ru": "Kakuzi Plc",
+				"en": "Kakuzi Plc"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий агропромышленный экспортер премиального авокадо сорта Hass, орехов макадамия, черники и чая на рынки Европы и Азии (крупнейшие плантации в Муранге, NSE: KUKZ). https://kakuzi.co.ke/",
+				"en": "Kakuzi Plc — a metals and mining company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 178,
+				"profit": 20,
+				"debt": 59,
+				"money": 21,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 214
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 514,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.3161,
+					"д": 36.8238,
+					"province": 422,
+					"staff": 154,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kenya_shipyards",
+			"название": {
+				"ru": "Kenya Shipyards Limited (KSL)",
+				"en": "Kenya Shipyards Limited (KSL)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная судостроительная верфь Министерства обороны Кении",
+				"en": "Kenya Shipyards Limited (KSL) — a defence company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 74,
+				"profit": 5,
+				"debt": 19,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 139
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 222,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2664,
+					"д": 36.837,
+					"province": 422,
+					"staff": 66,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kenya_ordnance",
+			"название": {
+				"ru": "Kenya Ordnance Factories Corporation (KOFC)",
+				"en": "Kenya Ordnance Factories Corporation (KOFC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный патронный завод Министерства обороны Кении в Элдорете",
+				"en": "Kenya Ordnance Factories Corporation (KOFC) — a defence company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 5,
+				"debt": 18,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 210,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2603,
+					"д": 36.7937,
+					"province": 23,
+					"staff": 63,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_air",
+			"название": {
+				"ru": "National Air Support Department (NASD)",
+				"en": "National Air Support Department (NASD)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Централизованный центр капитального ремонта и технического обслуживания авиатехники ВВС Кении (вертолеты огневой поддержки MD 530F, Bell UH-1H Huey, транспортные самолеты C-27J Spartan)",
+				"en": "National Air Support Department (NASD) — a defence company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 68,
+				"profit": 5,
+				"debt": 17,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 128
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 204,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.3162,
+					"д": 36.8163,
+					"province": 422,
+					"staff": 61,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kahawa_barracks",
+			"название": {
+				"ru": "Kahawa Barracks Heavy Workshops",
+				"en": "Kahawa Barracks Heavy Workshops"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные армейские ремонтные базы Вооруженных сил Кении в Найроби (сервис и капитальный ремонт колесной бронетехники WZ-551, бронемашин CS/VP14 MRAP, турецких Otokar Cobra II и южноафриканских броневиков RG-31 Nyala)",
+				"en": "Kahawa Barracks Heavy Workshops — a defence company of Kenya."
+			},
+			"fundamental": {
+				"выручка": 63,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 118
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кения)",
+						"en": "The state (Kenya)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 189,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Найроби",
+						"en": "Nairobi"
+					},
+					"ш": -1.2784,
+					"д": 36.8516,
+					"province": 422,
+					"staff": 56,
+					"fine": 2069
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

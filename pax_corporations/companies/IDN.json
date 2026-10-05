@@ -1,0 +1,1763 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Индонезия",
+	"iso": "IDN",
+	"data_date": "2026-03",
+	"average_wage": 350,
+	"companies": [
+		{
+			"id": "bca",
+			"название": {
+				"ru": "Bank Central Asia",
+				"en": "Bank Central Asia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Самый дорогой банк Юго-Восточной Азии.",
+				"en": "South-East Asia's most valuable bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 3500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 123000,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Хартоно (Djarum)",
+						"en": "The Hartono family (Djarum)"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джахья Сетиаатмаджа",
+					"en": "Jahja Setiaatmadja"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 25000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2,
+					"д": 106.82,
+					"province": 542,
+					"staff": 8000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bca.co.id/ | Отчёты BCA 2024–2025; https://www.bca.co.id/"
+		},
+		{
+			"id": "bri",
+			"название": {
+				"ru": "Bank Rakyat Indonesia",
+				"en": "Bank Rakyat Indonesia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1895,
+			"description": {
+				"ru": "Крупнейший микрокредитный банк мира.",
+				"en": "The world's largest microfinance bank."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 3700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2800
+			},
+			"рынок": {
+				"shares_mln": 151000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 0.53,
+					"country": "Индонезия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.47
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хери Гунарди",
+					"en": "Hery Gunardi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 80000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.21,
+					"д": 106.82,
+					"province": 542,
+					"staff": 8000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir-bri.com/ | Отчёты BRI 2024–2025; https://ir-bri.com/"
+		},
+		{
+			"id": "mandiri",
+			"название": {
+				"ru": "Bank Mandiri",
+				"en": "Bank Mandiri"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Второй банк Индонезии.",
+				"en": "Indonesia's second bank."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 3400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 93300,
+				"market_cap": 33000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 0.52,
+					"country": "Индонезия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дармаван Джунайди",
+					"en": "Darmawan Junaidi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 38000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.22,
+					"д": 106.81,
+					"province": 542,
+					"staff": 8000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://bankmandiri.co.id/ | Отчёты Bank Mandiri 2024–2025; https://bankmandiri.co.id/"
+		},
+		{
+			"id": "telkom",
+			"название": {
+				"ru": "Telkom Indonesia",
+				"en": "Telkom Indonesia"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1856,
+			"description": {
+				"ru": "Главная связь Индонезии (Telkomsel).",
+				"en": "Indonesia's main telecom (Telkomsel)."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 1500,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 99000,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 0.52,
+					"country": "Индонезия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Диан Сисварини",
+					"en": "Dian Siswarini"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 20000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бандунг",
+						"en": "Bandung"
+					},
+					"ш": -6.9,
+					"д": 107.62,
+					"province": 542,
+					"staff": 5000,
+					"fine": 1696
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.telkom.co.id/ | Отчёты Telkom Indonesia 2024–2025; https://www.telkom.co.id/"
+		},
+		{
+			"id": "pertamina",
+			"название": {
+				"ru": "Pertamina",
+				"en": "Pertamina"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1957,
+			"description": {
+				"ru": "Государственная нефть и газ Индонезии.",
+				"en": "Indonesia's state oil and gas."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 3000,
+				"debt": 15000,
+				"money": 5000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Симон Алоизиус Мантири",
+					"en": "Simon Aloysius Mantiri"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 40000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.17,
+					"д": 106.82,
+					"province": 542,
+					"staff": 5000,
+					"fine": 1700
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Чилачап",
+						"en": "Cilacap refinery"
+					},
+					"ш": -7.72,
+					"д": 109.0,
+					"province": 542,
+					"staff": 3000,
+					"fine": 1697
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.pertamina.com/ | Отчёты Pertamina 2024–2025; https://www.pertamina.com/"
+		},
+		{
+			"id": "astra",
+			"название": {
+				"ru": "Astra International",
+				"en": "Astra International"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Toyota и Honda в Индонезии, тяжёлая техника, банки.",
+				"en": "Toyota and Honda in Indonesia, heavy equipment, banks."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": 2100,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 40500,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Jardine Matheson",
+						"en": "Jardine Matheson"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Великобритания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джони Бунарто Чондро",
+					"en": "Djony Bunarto Tjondro"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 190000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.15,
+					"д": 106.88,
+					"province": 542,
+					"staff": 8000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.astra.co.id/ | Отчёты Astra International 2024–2025; https://www.astra.co.id/"
+		},
+		{
+			"id": "pln",
+			"название": {
+				"ru": "PLN",
+				"en": "PLN"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1945,
+			"description": {
+				"ru": "Государственная электроэнергетика Индонезии на угле.",
+				"en": "Indonesia's coal-fired state power."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 1000,
+				"debt": 40000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дармаван Прасодьо",
+					"en": "Darmawan Prasodjo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 55000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.24,
+					"д": 106.8,
+					"province": 542,
+					"staff": 5000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://web.pln.co.id/ | Отчёты PLN 2024–2025; https://web.pln.co.id/"
+		},
+		{
+			"id": "mindid",
+			"название": {
+				"ru": "MIND ID",
+				"en": "MIND ID"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2017,
+			"description": {
+				"ru": "Горный холдинг: никель, олово, бокситы, 51% Grasberg.",
+				"en": "A mining holding: nickel, tin, bauxite, 51% of Grasberg."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1500,
+				"debt": 5000,
+				"money": 2000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индонезии (Danantara)",
+						"en": "The Indonesian state (Danantara)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хенди Прио Сантосо",
+					"en": "Hendi Prio Santoso"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 30000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.23,
+					"д": 106.83,
+					"province": 542,
+					"staff": 1000,
+					"fine": 1700
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Грасберг (Папуа)",
+						"en": "Grasberg (Papua)"
+					},
+					"ш": -4.05,
+					"д": 137.11,
+					"province": 363,
+					"staff": 15000,
+					"fine": 1726
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.mind.id/ | Отчёты MIND ID 2024–2025; https://www.mind.id/"
+		},
+		{
+			"id": "indofood",
+			"название": {
+				"ru": "Indofood",
+				"en": "Indofood"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Лапша Indomie и еда.",
+				"en": "Indomie noodles and food."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 600,
+				"debt": 3000,
+				"money": 1500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 8780,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "First Pacific (семья Салим)",
+						"en": "First Pacific (the Salim family)"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Энтони Салим",
+					"en": "Anthoni Salim"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2004,
+				"born_year": 1949,
+				"доля": 0.0,
+				"характер": {
+					"ru": "магнат",
+					"en": "магнат"
+				}
+			},
+			"staff": 90000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2,
+					"д": 106.83,
+					"province": 542,
+					"staff": 5000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.indofood.com/ | Отчёты Indofood 2024–2025; https://www.indofood.com/"
+		},
+		{
+			"id": "goto",
+			"название": {
+				"ru": "GoTo",
+				"en": "GoTo"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Такси, доставка и платежи Gojek и Tokopedia.",
+				"en": "Gojek and Tokopedia ride-hailing, delivery and payments."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": -300,
+				"debt": 200,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1200000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Alibaba и SoftBank",
+						"en": "Alibaba and SoftBank"
+					},
+					"type": "company",
+					"доля": 0.15,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Патрик Валужо",
+					"en": "Patrick Walujo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "investor",
+					"en": "investor"
+				}
+			},
+			"staff": 5000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.24,
+					"д": 106.8,
+					"province": 542,
+					"staff": 4000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gotocompany.com/ | Отчёты GoTo 2024–2025; https://www.gotocompany.com/"
+		},
+		{
+			"id": "adaro_energy",
+			"название": {
+				"ru": "Adaro Energy (PT Adaro Energy Indonesia)",
+				"en": "Adaro Energy (PT Adaro Energy Indonesia)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный интегрированный угледобывающий, металлургический и энергетический холдинг (Бой Тхохир; добыча угля, металлургический уголь, алюминиевый комплекс в Северном Калимантане; капитализация ~$7.5 млрд, выручка ~$6.5 млрд, чистая прибыль ~$1.6 млрд). https://www.adaro.com/",
+				"en": "Adaro Energy (PT Adaro Energy Indonesia) — a metals and mining company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 1600,
+				"debt": 2167,
+				"money": 780,
+				"dividends": 480
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18777,
+			"wage": 625,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.1956,
+					"д": 106.8658,
+					"province": 542,
+					"staff": 5633,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bayan_resources",
+			"название": {
+				"ru": "Bayan Resources",
+				"en": "Bayan Resources"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине угольный гигант страны с одними из самых низких в мире издержек открытой добычи угля на концессии Табанг (основатель Лоу Так Квонг; капитализация ~$40 млрд, выручка ~$3.6 млрд, чистая прибыль ~$1.2 млрд). https://www.bayan.com.sg/",
+				"en": "Bayan Resources — a metals and mining company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 3600,
+				"profit": 1200,
+				"debt": 1200,
+				"money": 432,
+				"dividends": 360
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10400,
+			"wage": 625,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2456,
+					"д": 106.8167,
+					"province": 542,
+					"staff": 3120,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "barito_pacific",
+			"название": {
+				"ru": "Barito Pacific / Barito Renewables (BREN) / Chandra Asri",
+				"en": "Barito Pacific / Barito Renewables (BREN) / Chandra Asri"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мощнейший конгломерат нефтехимии и возобновляемой геотермальной энергетики Индонезии (основатель Праяго Пангесту; капитализация группы свыше $45 млрд, выручка ~$3.5 млрд). https://barito-pacific.com/ | https://chandra-asri.com/",
+				"en": "Barito Pacific / Barito Renewables (BREN) / Chandra Asri — a oil and gas company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 208,
+				"debt": 986,
+				"money": 332,
+				"dividends": 62
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3060,
+			"wage": 626,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.1886,
+					"д": 106.8811,
+					"province": 542,
+					"staff": 918,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_amman",
+			"название": {
+				"ru": "PT Amman Mineral Internasional (AMMN)",
+				"en": "PT Amman Mineral Internasional (AMMN)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Горнорудный гигант, оператор гигантского медно-золотого карьера Бату-Хиджау на острове Сумбава и нового медеплавильного завода (одно из крупнейших IPO в ЮВА; капитализация ~$45 млрд, выручка ~$2.8 млрд). https://amman.co.id/",
+				"en": "PT Amman Mineral Internasional (AMMN) — a metals and mining company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 311,
+				"debt": 933,
+				"money": 336,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8088,
+			"wage": 625,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.1912,
+					"д": 106.8421,
+					"province": 542,
+					"staff": 2426,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sinar_mas",
+			"название": {
+				"ru": "Sinar Mas Group (Golden Agri-Resources / Asia Pulp & Paper - APP)",
+				"en": "Sinar Mas Group (Golden Agri-Resources / Asia Pulp & Paper - APP)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших в мире агропромышленных и целлюлозно-бумажных конгломератов (семья Виджая; мировое лидерство в производстве пальмового масла, целлюлозы, бумаги и упаковочных материалов; выручка свыше $10 млрд). https://www.sinarmas.com/",
+				"en": "Sinar Mas Group (Golden Agri-Resources / Asia Pulp & Paper - APP) — a consumer and retail company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 778,
+				"debt": 2308,
+				"money": 833,
+				"dividends": 233
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 13699
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30000,
+			"wage": 389,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.251,
+					"д": 106.8245,
+					"province": 542,
+					"staff": 9000,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gudang_garam",
+			"название": {
+				"ru": "Gudang Garam / Djarum",
+				"en": "Gudang Garam / Djarum"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие табачные конгломераты страны, производящие традиционные сигареты с гвоздикой кретек (Gudang Garam котируется на бирже, выручка ~$7.5 млрд, 30,000 сотр.; Djarum — холдинг семьи Хартоно, владельцев BCA). https://www.gudanggaramtbk.com/ | https://www.djarum.com/",
+				"en": "Gudang Garam / Djarum — a financial company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 2109,
+				"debt": 0,
+				"money": 0,
+				"dividends": 633
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 17500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21428,
+			"wage": 575,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2069,
+					"д": 106.8704,
+					"province": 542,
+					"staff": 6428,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "garuda_indonesia",
+			"название": {
+				"ru": "Garuda Indonesia",
+				"en": "Garuda Indonesia"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная авиакомпания Индонезии (базовый международный хаб Сукарно-Хатта в Джакарте, флот широкофюзеляжных и узкофюзеляжных лайнеров; член SkyTeam). https://www.garuda-indonesia.com/",
+				"en": "Garuda Indonesia — a transport company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 187,
+				"debt": 1414,
+				"money": 579,
+				"dividends": 56
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7000,
+			"wage": 573,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2168,
+					"д": 106.8307,
+					"province": 542,
+					"staff": 2100,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defend_id",
+			"название": {
+				"ru": "Defend ID (Государственный оборонно-промышленный холдинг Индонезии)",
+				"en": "Defend ID (Государственный оборонно-промышленный холдинг Индонезии)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единый холдинг, объединяющий стратегические оборонные предприятия страны",
+				"en": "Defend ID (Государственный оборонно-промышленный холдинг Индонезии) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 80,
+				"debt": 309,
+				"money": 185,
+				"dividends": 24
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.1759,
+					"д": 106.82,
+					"province": 542,
+					"staff": 1080,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_pindad",
+			"название": {
+				"ru": "PT Pindad (Бандунг)",
+				"en": "PT Pindad (Бандунг)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий производитель бронетехники, артиллерии и стрелкового оружия в ЮВА",
+				"en": "PT Pindad (Бандунг) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1162,
+				"profit": 77,
+				"debt": 299,
+				"money": 179,
+				"dividends": 23
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2179
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3486,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бандунг",
+						"en": "Bandung"
+					},
+					"ш": -6.9458,
+					"д": 107.6351,
+					"province": 542,
+					"staff": 1045,
+					"fine": 1696
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_pal",
+			"название": {
+				"ru": "PT PAL Indonesia (Сурабая)",
+				"en": "PT PAL Indonesia (Сурабая)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская верфь страны",
+				"en": "PT PAL Indonesia (Сурабая) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2015,
+					"д": 106.8301,
+					"province": 542,
+					"staff": 1012,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_dirgantara",
+			"название": {
+				"ru": "PT Dirgantara Indonesia (PTDI / Indonesian Aerospace, Бандунг)",
+				"en": "PT Dirgantara Indonesia (PTDI / Indonesian Aerospace, Бандунг)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиастроительный завод",
+				"en": "PT Dirgantara Indonesia (PTDI / Indonesian Aerospace, Бандунг) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1088,
+				"profit": 73,
+				"debt": 280,
+				"money": 167,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2040
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3264,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бандунг",
+						"en": "Bandung"
+					},
+					"ш": -6.9496,
+					"д": 107.5698,
+					"province": 542,
+					"staff": 979,
+					"fine": 1696
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_len",
+			"название": {
+				"ru": "PT Len Industri (Бандунг, головная компания Defend ID)",
+				"en": "PT Len Industri (Бандунг, головная компания Defend ID)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка и интеграция военных РЛС, систем боевого управления кораблями (CMS), систем тактической защищенной связи и РЭБ. https://www.len.co.id/",
+				"en": "PT Len Industri (Бандунг, головная компания Defend ID) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1050,
+				"profit": 70,
+				"debt": 270,
+				"money": 162,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1969
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3150,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бандунг",
+						"en": "Bandung"
+					},
+					"ш": -6.9272,
+					"д": 107.6132,
+					"province": 542,
+					"staff": 945,
+					"fine": 1696
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pt_dahana",
+			"название": {
+				"ru": "PT Dahana (Субанг)",
+				"en": "PT Dahana (Субанг)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство взрывчатых веществ, авиабомб, боевых частей ракет и артиллерийских метательных зарядов. https://www.dahana.id/",
+				"en": "PT Dahana (Субанг) — a defence company of Indonesia."
+			},
+			"fundamental": {
+				"выручка": 1012,
+				"profit": 67,
+				"debt": 260,
+				"money": 156,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1898
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индонезия)",
+						"en": "The state (Indonesia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индонезия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3036,
+			"wage": 525,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джакарта",
+						"en": "Jakarta"
+					},
+					"ш": -6.2283,
+					"д": 106.8776,
+					"province": 542,
+					"staff": 910,
+					"fine": 1700
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

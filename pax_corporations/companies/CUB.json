@@ -1,0 +1,1177 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Куба",
+	"iso": "CUB",
+	"data_date": "2026-03",
+	"average_wage": 50,
+	"companies": [
+		{
+			"id": "gaesa",
+			"название": {
+				"ru": "GAESA",
+				"en": "GAESA"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Конгломерат кубинских военных: отели, магазины, порт Мариэль.",
+				"en": "The Cuban military's conglomerate: hotels, shops, the port of Mariel."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1000,
+				"debt": 1000,
+				"money": 5000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Революционные вооружённые силы Кубы",
+						"en": "Cuban Revolutionary Armed Forces"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ания Гильермина Ластрес",
+					"en": "Ania Guillermina Lastres"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бригадный генерал",
+					"en": "бригадный генерал"
+				}
+			},
+			"staff": 50000,
+			"wage": 60,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.13,
+					"д": -82.38,
+					"province": 663,
+					"staff": 10000,
+					"fine": 791
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт Мариэль",
+						"en": "Port of Mariel"
+					},
+					"ш": 22.99,
+					"д": -82.75,
+					"province": 663,
+					"staff": 3000,
+					"fine": 792
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.presidencia.gob.cu/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "etecsa",
+			"название": {
+				"ru": "ETECSA",
+				"en": "ETECSA"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1994,
+			"description": {
+				"ru": "Единственная связь Кубы.",
+				"en": "Cuba's only telecom."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 150,
+				"debt": 200,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кубы",
+						"en": "The Cuban state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тания Веласкес",
+					"en": "Tania Velázquez"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 12000,
+			"wage": 50,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.14,
+					"д": -82.36,
+					"province": 663,
+					"staff": 5000,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.etecsa.cu/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "biocubafarma",
+			"название": {
+				"ru": "BioCubaFarma",
+				"en": "BioCubaFarma"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный биофармацевтический холдинг (CIGB, Институт Финли, Центр молекулярной иммунологии CIM; вакцины Абдала, Соберана, Эберпрот-П; выручка ~$140 млн)",
+				"en": "BioCubaFarma — a pharmaceutical company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 21,
+				"debt": 65,
+				"money": 18,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 520
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 255,
+			"wage": 72,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.098,
+					"д": -82.4199,
+					"province": 663,
+					"staff": 76,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "habanos_s",
+			"название": {
+				"ru": "Habanos S.A. / Cubatabaco",
+				"en": "Habanos S.A. / Cubatabaco"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой экспортный монополист кубинских премиальных сигар (Cohiba, Montecristo, Romeo y Julieta, Partagás; выручка ~$140 млн)",
+				"en": "Habanos S.A. / Cubatabaco — a transport company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 9,
+				"debt": 71,
+				"money": 29,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 82,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.0993,
+					"д": -82.3592,
+					"province": 663,
+					"staff": 105,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cupet",
+			"название": {
+				"ru": "CUPET (Unión Cuba-Petróleo)",
+				"en": "CUPET (Unión Cuba-Petróleo)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтегазовая корпорация (добыча нефти, импорт, НПЗ в Сьенфуэгосе, Гаване и Сантьяго-де-Куба; выручка ~.5 млрд)",
+				"en": "CUPET (Unión Cuba-Petróleo) — a oil and gas company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 147,
+				"profit": 9,
+				"debt": 41,
+				"money": 14,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 91
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 128,
+			"wage": 89,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1416,
+					"д": -82.3605,
+					"province": 663,
+					"staff": 38,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "havana_club",
+			"название": {
+				"ru": "Havana Club International / Cuba Ron",
+				"en": "Havana Club International / Cuba Ron"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное предприятие с французской Pernod Ricard по мировому экспорту кубинского рома (выручка ~$140 млн)",
+				"en": "Havana Club International / Cuba Ron — a transport company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 9,
+				"debt": 71,
+				"money": 29,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 82,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1412,
+					"д": -82.365,
+					"province": 663,
+					"staff": 105,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uni_n",
+			"название": {
+				"ru": "Unión Eléctrica (UNE)",
+				"en": "Unión Eléctrica (UNE)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая монополия (ТЭС Антонио Гитерас, ТЭС Фельтон)",
+				"en": "Unión Eléctrica (UNE) — a energy company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 50,
+				"profit": 5,
+				"debt": 30,
+				"money": 6,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 66
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 88,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1314,
+					"д": -82.358,
+					"province": 663,
+					"staff": 26,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_cubanac",
+			"название": {
+				"ru": "Grupo Cubanacán / Gran Caribe / Islazul",
+				"en": "Grupo Cubanacán / Gran Caribe / Islazul"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственные гостиничные сети Министерства туризма (MINTUR)",
+				"en": "Grupo Cubanacán / Gran Caribe / Islazul — a tourism company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 7,
+				"debt": 21,
+				"money": 36,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 58
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 668,
+			"wage": 68,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1335,
+					"д": -82.3746,
+					"province": 663,
+					"staff": 200,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_azucarero",
+			"название": {
+				"ru": "Grupo Azucarero AZCUBA",
+				"en": "Grupo Azucarero AZCUBA"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная сахарная и спиртовая промышленность",
+				"en": "Grupo Azucarero AZCUBA — a consumer and retail company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 4,
+				"debt": 11,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 67
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 147,
+			"wage": 56,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1088,
+					"д": -82.4121,
+					"province": 663,
+					"staff": 44,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cubana_de",
+			"название": {
+				"ru": "Cubana de Aviación",
+				"en": "Cubana de Aviación"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиаперевозчик",
+				"en": "Cubana de Aviación — a transport company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 49,
+				"profit": 3,
+				"debt": 25,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 122,
+			"wage": 82,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1608,
+					"д": -82.3527,
+					"province": 663,
+					"staff": 36,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "uni_n_2",
+			"название": {
+				"ru": "Unión de Industrias Militares (UIM / Военно-промышленное объединение Кубы)",
+				"en": "Unión de Industrias Militares (UIM / Военно-промышленное объединение Кубы)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-промышленный холдинг Революционных вооруженных сил (MINFAR), объединяющий 16 оборонных заводов:",
+				"en": "Unión de Industrias Militares (UIM / Военно-промышленное объединение Кубы) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1036,
+					"д": -82.3599,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "emi_francisco",
+			"название": {
+				"ru": "EMI «Francisco Aguiar Rodríguez» (Матансас)",
+				"en": "EMI «Francisco Aguiar Rodríguez» (Матансас)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Модернизация танков Т-55, Т-62, создание тяжелых колесных БТР-60 со 100-мм орудиями",
+				"en": "EMI «Francisco Aguiar Rodríguez» (Матансас) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1595,
+					"д": -82.3432,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "emi_yuri",
+			"название": {
+				"ru": "EMI «Yuri Gagarin» (Гавана)",
+				"en": "EMI «Yuri Gagarin» (Гавана)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Капитальный ремонт и модернизация боевых самолетов (МиГ-21/23/29, вертолетов Ми-24, Ми-8/17) и ЗРК (С-75, С-125 «Печора-2М»)",
+				"en": "EMI «Yuri Gagarin» (Гавана) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1372,
+					"д": -82.3755,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "emi_grito",
+			"название": {
+				"ru": "EMI «Grito de Baire» (Гавана / Сантьяго-де-Куба)",
+				"en": "EMI «Grito de Baire» (Гавана / Сантьяго-де-Куба)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Береговые противокорабельные ракетные комплексы Bandera (на базе ПКР П-15 Термит на шасси КрАЗ/МАЗ), модернизация РСЗО",
+				"en": "EMI «Grito de Baire» (Гавана / Сантьяго-де-Куба) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1319,
+					"д": -82.3984,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "emi_comandante",
+			"название": {
+				"ru": "EMI «Comandante Ernesto Che Guevara» (Камагуэй)",
+				"en": "EMI «Comandante Ernesto Che Guevara» (Камагуэй)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство снайперских винтовок «Алехандро» 7.62 мм, крупнокалиберных «Mambi» 14.5 мм, патронов всех калибров",
+				"en": "EMI «Comandante Ernesto Che Guevara» (Камагуэй) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.106,
+					"д": -82.3464,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "emi_granma",
+			"название": {
+				"ru": "EMI «Granma» (Гавана)",
+				"en": "EMI «Granma» (Гавана)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская верфь (патрульные фрегаты класса Rio Damuji, ракетные и торпедные катера)",
+				"en": "EMI «Granma» (Гавана) — a defence company of Cuba."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Куба)",
+						"en": "The state (Cuba)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Куба"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 75,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гавана",
+						"en": "Havana"
+					},
+					"ш": 23.1003,
+					"д": -82.3687,
+					"province": 663,
+					"staff": 18,
+					"fine": 791
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

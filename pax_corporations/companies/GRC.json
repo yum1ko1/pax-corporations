@@ -1,0 +1,1802 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Греция",
+	"iso": "GRC",
+	"data_date": "2026-03",
+	"average_wage": 1400,
+	"companies": [
+		{
+			"id": "nbg",
+			"название": {
+				"ru": "National Bank of Greece",
+				"en": "National Bank of Greece"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1841,
+			"description": {
+				"ru": "Крупнейший банк Греции.",
+				"en": "Greece's largest bank."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 1400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 915,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Павлос Милонас",
+					"en": "Pavlos Mylonas"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пережил кризис",
+					"en": "пережил кризис"
+				}
+			},
+			"staff": 7000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.98,
+					"д": 23.73,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nbg.gr/en/group | Отчёты NBG 2024–2025; https://www.nbg.gr/"
+		},
+		{
+			"id": "eurobank",
+			"название": {
+				"ru": "Eurobank",
+				"en": "Eurobank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Банк Греции и Кипра.",
+				"en": "A bank of Greece and Cyprus."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 3700,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Fairfax",
+						"en": "Fairfax"
+					},
+					"type": "company",
+					"доля": 0.33,
+					"country": "Канада"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фокион Каравиас",
+					"en": "Fokion Karavias"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 10000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.97,
+					"д": 23.72,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.eurobank.gr/en/group | Отчёты Eurobank 2024–2025; https://www.eurobank.gr/"
+		},
+		{
+			"id": "piraeus",
+			"название": {
+				"ru": "Piraeus Bank",
+				"en": "Piraeus Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1916,
+			"description": {
+				"ru": "Банк Пирея.",
+				"en": "The bank of Piraeus."
+			},
+			"fundamental": {
+				"выручка": 3300,
+				"profit": 1200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1250,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Христос Мегалу",
+					"en": "Christos Megalou"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший JPMorgan",
+					"en": "бывший JPMorgan"
+				}
+			},
+			"staff": 8500,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.98,
+					"д": 23.73,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.piraeusbank.gr/en/idiwtes | Отчёты Piraeus Bank 2024–2025; https://www.piraeusbank.gr/"
+		},
+		{
+			"id": "alphabank",
+			"название": {
+				"ru": "Alpha Bank",
+				"en": "Alpha Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1879,
+			"description": {
+				"ru": "Банк, в который вошла UniCredit.",
+				"en": "A bank UniCredit bought into."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 2330,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "UniCredit",
+						"en": "UniCredit"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "Италия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Василиос Псалтис",
+					"en": "Vassilios Psaltis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 8000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.98,
+					"д": 23.74,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.alpha.gr/en/group | Отчёты Alpha Bank 2024–2025; https://www.alpha.gr/"
+		},
+		{
+			"id": "ote",
+			"название": {
+				"ru": "OTE",
+				"en": "OTE"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Связь Греции, дочка Deutsche Telekom.",
+				"en": "Greece's telecom, a Deutsche Telekom subsidiary."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 700,
+				"debt": 800,
+				"money": 1000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 420,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Deutsche Telekom",
+						"en": "Deutsche Telekom"
+					},
+					"type": "company",
+					"доля": 0.53,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.47
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Костас Небис",
+					"en": "Kostas Nebis"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 10000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруси (Афины)",
+						"en": "Marousi (Athens)"
+					},
+					"ш": 38.05,
+					"д": 23.8,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cosmote.gr/cs/otegroup/en/omilos_ote.html | Отчёты OTE Group 2024–2025; https://www.cosmote.gr/"
+		},
+		{
+			"id": "metlen",
+			"название": {
+				"ru": "Metlen",
+				"en": "Metlen"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Алюминий, энергетика и стройка Мытилинеоса.",
+				"en": "Mytilineos's aluminium, energy and construction."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 500,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 143,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Евангелос Мытилинеос",
+						"en": "Evangelos Mytilineos"
+					},
+					"type": "founder",
+					"доля": 0.21
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.79
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Евангелос Митилинеос",
+					"en": "Evangelos Mytilineos"
+				},
+				"роль": "founder",
+				"с_года": 1990,
+				"born_year": 1954,
+				"доля": 0.21,
+				"характер": {
+					"ru": "магнат",
+					"en": "магнат"
+				}
+			},
+			"staff": 7000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 38.04,
+					"д": 23.8,
+					"province": 645,
+					"staff": 1000,
+					"fine": 1524
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Алюминий Эллады",
+						"en": "Aluminium of Greece"
+					},
+					"ш": 38.37,
+					"д": 22.62,
+					"province": 645,
+					"staff": 1500,
+					"fine": 1531
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.metlengroup.com/ | Отчёты Metlen 2024–2025; https://www.metlengroup.com/"
+		},
+		{
+			"id": "motoroil",
+			"название": {
+				"ru": "Motor Oil Hellas",
+				"en": "Motor Oil Hellas"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1970,
+			"description": {
+				"ru": "НПЗ Коринфа.",
+				"en": "The Corinth refinery."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 500,
+				"debt": 2500,
+				"money": 1500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 111,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Вардинояннис",
+						"en": "The Vardinoyannis family"
+					},
+					"type": "founder",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Янис Вардинояннис",
+					"en": "Yannis Vardinoyannis"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2023,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник",
+					"en": "наследник"
+				}
+			},
+			"staff": 3000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Маруси (Афины)",
+						"en": "Marousi (Athens)"
+					},
+					"ш": 38.05,
+					"д": 23.81,
+					"province": 645,
+					"staff": 500,
+					"fine": 1524
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Коринф",
+						"en": "Corinth refinery"
+					},
+					"ш": 37.92,
+					"д": 23.03,
+					"province": 645,
+					"staff": 1300,
+					"fine": 1525
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.moh.gr/ | Отчёты Motor Oil Hellas 2024–2025; https://www.moh.gr/"
+		},
+		{
+			"id": "helleniq",
+			"название": {
+				"ru": "HELLENiQ Energy",
+				"en": "HELLENiQ Energy"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший нефтепереработчик Греции.",
+				"en": "Greece's largest oil refiner."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 250,
+				"debt": 3500,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 306,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Paneuropean Oil (семья Латсис)",
+						"en": "Paneuropean Oil (Latsis family)"
+					},
+					"type": "founder",
+					"доля": 0.46
+				},
+				{
+					"кто": {
+						"ru": "Государство Греции",
+						"en": "The Greek state"
+					},
+					"type": "polity",
+					"доля": 0.31,
+					"country": "Греция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.23
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреас Шиамисис",
+					"en": "Andreas Shiamishis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 3500,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 38.0,
+					"д": 23.75,
+					"province": 645,
+					"staff": 800,
+					"fine": 1524
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Аспропиргос",
+						"en": "Aspropyrgos refinery"
+					},
+					"ш": 38.05,
+					"д": 23.58,
+					"province": 645,
+					"staff": 1200,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.helleniqenergy.com/ | Отчёты HELLENiQ Energy 2024–2025; https://www.helleniqenergy.com/"
+		},
+		{
+			"id": "ppc",
+			"название": {
+				"ru": "PPC",
+				"en": "PPC"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1950,
+			"description": {
+				"ru": "Государственная электроэнергетика Греции.",
+				"en": "Greece's power utility."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 400,
+				"debt": 6000,
+				"money": 2000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 382,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Греции",
+						"en": "The Greek state"
+					},
+					"type": "polity",
+					"доля": 0.34,
+					"country": "Греция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Георгиос Стассис",
+					"en": "Georgios Stassis"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор",
+					"en": "реформатор"
+				}
+			},
+			"staff": 15000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.98,
+					"д": 23.73,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1524
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Лигнитовые ТЭС Козани",
+						"en": "Kozani lignite plants"
+					},
+					"ш": 40.3,
+					"д": 21.79,
+					"province": 645,
+					"staff": 3000,
+					"fine": 1527
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.dei.gr/en/ | Отчёты PPC 2024–2025; https://www.dei.gr/"
+		},
+		{
+			"id": "aegean",
+			"название": {
+				"ru": "Aegean Airlines",
+				"en": "Aegean Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1987,
+			"description": {
+				"ru": "Крупнейшая авиакомпания Греции.",
+				"en": "Greece's largest airline."
+			},
+			"fundamental": {
+				"выручка": 1900,
+				"profit": 150,
+				"debt": 800,
+				"money": 800,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 90,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Вассилакис",
+						"en": "The Vassilakis family"
+					},
+					"type": "founder",
+					"доля": 0.33
+				},
+				{
+					"кто": {
+						"ru": "Lufthansa",
+						"en": "Lufthansa"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.57
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Димитрис Герогианнис",
+					"en": "Dimitris Gerogiannis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2007,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 3000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Афин",
+						"en": "Athens airport"
+					},
+					"ш": 37.94,
+					"д": 23.94,
+					"province": 645,
+					"staff": 2000,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://en.about.aegeanair.com/ | Отчёты Aegean Airlines 2024–2025; https://en.about.aegeanair.com/"
+		},
+		{
+			"id": "opap",
+			"название": {
+				"ru": "OPAP (Greek Organisation of Football Prognostics)",
+				"en": "OPAP (Greek Organisation of Football Prognostics)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший греческий и европейский оператор лотерей, спортивного беттинга и игорного бизнеса (сеть из тысяч агентств PLAY stores, онлайн-платформы; под контролем Allwyn International Карела Комарека; капитализация ~$6.5 млрд, выручка ~$2.4 млрд, чистая прибыль ~$500 млн). https://www.opap.gr/",
+				"en": "OPAP (Greek Organisation of Football Prognostics) — a metals and mining company of Greece."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 500,
+				"debt": 800,
+				"money": 288,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6933,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9556,
+					"д": 23.7234,
+					"province": 645,
+					"staff": 2079,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "titan_cement",
+			"название": {
+				"ru": "Titan Cement International",
+				"en": "Titan Cement International"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный производитель цемента, бетона и строительных смесей (заводы в Греции, США, Юго-Восточной Европе и Египте; капитализация ~$3.5 млрд, выручка ~$2.8 млрд, чистая прибыль ~$300 млн, 6,000 сотр.). https://www.titan-cement.com/",
+				"en": "Titan Cement International — a construction company of Greece."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 300,
+				"debt": 1086,
+				"money": 367,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8807,
+			"wage": 1791,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9473,
+					"д": 23.7634,
+					"province": 645,
+					"staff": 2642,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jumbo_s",
+			"название": {
+				"ru": "Jumbo S.A.",
+				"en": "Jumbo S.A."
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая розничная сеть гипермаркетов детских товаров, игрушек, сезонных и домашних аксессуаров в Юго-Восточной Европе (более 85 мегасторов в Греции, Кипре, Болгарии, Румынии; капитализация ~$4.0 млрд, выручка ~$1.2 млрд, чистая прибыль ~$350 млн). https://corporate.e-jumbo.gr/",
+				"en": "Jumbo S.A. — a consumer and retail company of Greece."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 350,
+				"debt": 277,
+				"money": 100,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 1556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9958,
+					"д": 23.7458,
+					"province": 645,
+					"staff": 1080,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gek_terna",
+			"название": {
+				"ru": "GEK TERNA",
+				"en": "GEK TERNA"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший диверсифицированный инфраструктурный, концессионный и энергетический холдинг Греции (автомагистрали Egnatia Odos, Attiki Odos, новый аэропорт Кастели на Крите, подразделение ВИЭ Terna Energy; капитализация ~$2.0 млрд, выручка ~$3.5 млрд). https://www.gekterna.com/",
+				"en": "GEK TERNA — a transport company of Greece."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 233,
+				"debt": 1768,
+				"money": 724,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8750,
+			"wage": 2291,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9673,
+					"д": 23.7639,
+					"province": 645,
+					"staff": 2625,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cenergy_holdings",
+			"название": {
+				"ru": "Cenergy Holdings (Viohalco Group)",
+				"en": "Cenergy Holdings (Viohalco Group)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий мировой производитель морских и высоковольтных силовых кабелей (Hellenic Cables) и стальных труб для подводных трубопроводов (Corinth Pipeworks); капитализация ~$2.0 млрд, выручка ~$1.8 млрд. https://cenergyholdings.com/",
+				"en": "Cenergy Holdings (Viohalco Group) — a metals and mining company of Greece."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 200,
+				"debt": 600,
+				"money": 216,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5200,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9562,
+					"д": 23.7476,
+					"province": 645,
+					"staff": 1560,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "viohalco_s",
+			"название": {
+				"ru": "Viohalco S.A.",
+				"en": "Viohalco S.A."
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший промышленный холдинг цветной и черной металлургии Греции (производство алюминия Elval, меди Halcor, стали Sidenor и недвижимости Noval Property; выручка ~$7.5 млрд, 10,000 сотр.). https://www.viohalco.com/",
+				"en": "Viohalco S.A. — a metals and mining company of Greece."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 833,
+				"debt": 2500,
+				"money": 900,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21666,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9542,
+					"д": 23.6951,
+					"province": 645,
+					"staff": 6499,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "danaos_corporation",
+			"название": {
+				"ru": "Danaos Corporation / Angelicoussis Group",
+				"en": "Danaos Corporation / Angelicoussis Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальные лидеры греческого торгового судоходства (Греция контролирует свыше 20% мирового морского тоннажа). Danaos Corporation (крупнейший независимый владелец флота контейнеровозов, котируется на NYSE, капитализация ~$2.0 млрд, выручка ~$1.0 млрд); Angelicoussis Group (крупнейший частный судовладелец Греции: Maran Gas, Maran Tankers, Maran Dry — свыше 140 крупнотоннажных танкеров и газовозов). ",
+				"en": "Danaos Corporation / Angelicoussis Group — a transport company of Greece."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 67,
+				"debt": 505,
+				"money": 207,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 2291,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 38.0204,
+					"д": 23.7271,
+					"province": 645,
+					"staff": 750,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "athens_international",
+			"название": {
+				"ru": "Athens International Airport (AIA Eleftherios Venizelos)",
+				"en": "Athens International Airport (AIA Eleftherios Venizelos)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Оператор главного столичного международного аэропорта Афин (успешно размещен на Афинской бирже в 2024 году, пассажиропоток свыше 30 млн чел.; выручка ~$650 млн). https://www.aia.gr/",
+				"en": "Athens International Airport (AIA Eleftherios Venizelos) — a transport company of Greece."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 43,
+				"debt": 328,
+				"money": 134,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 464
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1625,
+			"wage": 2291,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 38.0232,
+					"д": 23.7104,
+					"province": 645,
+					"staff": 487,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hellenic_aerospace",
+			"название": {
+				"ru": "Hellenic Aerospace Industry (HAI / EAB - Ελληνική Αεροπορική Βιομηχανία)",
+				"en": "Hellenic Aerospace Industry (HAI / EAB - Ελληνική Αεροπορική Βιομηχανία)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная аэрокосмическая и оборонная корпорация Греции",
+				"en": "Hellenic Aerospace Industry (HAI / EAB - Ελληνική Αεροπορική Βιομηχανία) — a defence company of Greece."
+			},
+			"fundamental": {
+				"выручка": 510,
+				"profit": 34,
+				"debt": 131,
+				"money": 78,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 956
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Греция)",
+						"en": "The state (Greece)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Греция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1530,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9638,
+					"д": 23.7641,
+					"province": 645,
+					"staff": 459,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hellenic_defence",
+			"название": {
+				"ru": "Hellenic Defence Systems (HDS / EAS - Ελληνικά Αμυντικά Συστήματα)",
+				"en": "Hellenic Defence Systems (HDS / EAS - Ελληνικά Αμυντικά Συστήματα)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный государственный производитель сухопутного вооружения и боеприпасов",
+				"en": "Hellenic Defence Systems (HDS / EAS - Ελληνικά Αμυντικά Συστήματα) — a defence company of Greece."
+			},
+			"fundamental": {
+				"выручка": 495,
+				"profit": 33,
+				"debt": 127,
+				"money": 76,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 928
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Греция)",
+						"en": "The state (Greece)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Греция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1485,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9552,
+					"д": 23.7046,
+					"province": 645,
+					"staff": 445,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "elefsis_shipyards",
+			"название": {
+				"ru": "Elefsis Shipyards (ONEX Elefsis Shipyards) & Skaramangas Shipyards (Hellenic Shipyards S.A.)",
+				"en": "Elefsis Shipyards (ONEX Elefsis Shipyards) & Skaramangas Shipyards (Hellenic Shipyards S.A.)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие военные верфи Греции",
+				"en": "Elefsis Shipyards (ONEX Elefsis Shipyards) & Skaramangas Shipyards (Hellenic Shipyards S.A.) — a defence company of Greece."
+			},
+			"fundamental": {
+				"выручка": 458,
+				"profit": 31,
+				"debt": 118,
+				"money": 70,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 859
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Греция)",
+						"en": "The state (Greece)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Греция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1374,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9442,
+					"д": 23.7371,
+					"province": 645,
+					"staff": 412,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "intracom_defense",
+			"название": {
+				"ru": "Intracom Defense (IDE)",
+				"en": "Intracom Defense (IDE)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "в составе Israel Aerospace Industries - IAI",
+				"en": "Intracom Defense (IDE) — a defence company of Greece."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Греция)",
+						"en": "The state (Greece)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Греция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.9989,
+					"д": 23.7004,
+					"province": 645,
+					"staff": 378,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "theon_sensors",
+			"название": {
+				"ru": "THEON Sensors",
+				"en": "THEON Sensors"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области разработки и производства приборов ночного видения, тепловизионных прицелов и оптико-электронных систем для бронетехники и пехоты (поставки в армии более 60 стран, включая спецподразделения США, Германии, Франции; акции торгуются на Euronext Amsterdam). https://www.theon.com/",
+				"en": "THEON Sensors — a defence company of Greece."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Греция)",
+						"en": "The state (Greece)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Греция"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Афины",
+						"en": "Athens"
+					},
+					"ш": 37.969,
+					"д": 23.7629,
+					"province": 645,
+					"staff": 378,
+					"fine": 1524
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1333 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Узбекистан",
+	"iso": "UZB",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "uzbekneftegaz",
+			"название": {
+				"ru": "Узбекнефтегаз",
+				"en": "Uzbekneftegaz"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1992,
+			"description": {
+				"ru": "Государственный газ Узбекистана.",
+				"en": "Uzbekistan's state gas."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 200,
+				"debt": 5000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Узбекистана",
+						"en": "The Uzbek state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Баходир Сидиков",
+					"en": "Bakhodir Sidikov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 60000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.31,
+					"д": 69.28,
+					"province": 95,
+					"staff": 5000,
+					"fine": 4424
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Газли (Бухара)",
+						"en": "Gazli (Bukhara)"
+					},
+					"ш": 40.13,
+					"д": 63.45,
+					"province": 373,
+					"staff": 8000,
+					"fine": 4411
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.ung.uz/"
+		},
+		{
+			"id": "nmmc",
+			"название": {
+				"ru": "Навоийский ГМК",
+				"en": "Navoi Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "государственная",
+			"founded": 1958,
+			"description": {
+				"ru": "Мурунтау — одно из крупнейших золотых месторождений мира.",
+				"en": "Muruntau — one of the world's largest gold deposits."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 3000,
+				"debt": 2000,
+				"money": 1000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Узбекистана",
+						"en": "The Uzbek state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кувондик Санакулов",
+					"en": "Kuvandik Sanakulov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2008,
+				"born_year": 1957,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 45000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Навои",
+						"en": "Navoi"
+					},
+					"ш": 40.1,
+					"д": 65.38,
+					"province": 373,
+					"staff": 5000,
+					"fine": 4414
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Мурунтау",
+						"en": "Muruntau"
+					},
+					"ш": 41.5,
+					"д": 64.6,
+					"province": 371,
+					"staff": 15000,
+					"fine": 4414
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ngmk.uz/"
+		},
+		{
+			"id": "almalyk",
+			"название": {
+				"ru": "Алмалыкский ГМК",
+				"en": "Almalyk MMC"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1949,
+			"description": {
+				"ru": "Медь, золото и серебро Узбекистана.",
+				"en": "Uzbekistan's copper, gold and silver."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 700,
+				"debt": 3000,
+				"money": 300,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Узбекистана",
+						"en": "The Uzbek state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдулла Хурсанов",
+					"en": "Abdulla Khursanov"
+				},
+				"роль": "госслужащий",
+				"с_года": 2017,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 40000,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Алмалык",
+						"en": "Almalyk"
+					},
+					"ш": 40.85,
+					"д": 69.6,
+					"province": 95,
+					"staff": 20000,
+					"fine": 4423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.agmk.uz/"
+		},
+		{
+			"id": "ao_uzbekgidroenergo",
+			"название": {
+				"ru": "АО «Узбекгидроэнерго» (Uzbekhydroenergo)",
+				"en": "АО «Узбекгидроэнерго» (Uzbekhydroenergo)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная гидроэнергетическая компания, объединяющая Чарвакскую, Туямуюнскую и десятки малых ГЭС",
+				"en": "АО «Узбекгидроэнерго» (Uzbekhydroenergo) — a energy company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 45,
+				"debt": 1100,
+				"money": 60,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдугани Сангинов",
+					"en": "Абдугани Сангинов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2969,
+					"д": 69.2398,
+					"province": 95,
+					"staff": 1950,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://uzgidro.uz/"
+		},
+		{
+			"id": "natsionalnyy_bank",
+			"название": {
+				"ru": "Национальный банк ВЭД РУз (Узнацбанк / NBU)",
+				"en": "Национальный банк ВЭД РУз (Узнацбанк / NBU)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк Узбекистана, финансирующий масштабные инфраструктурные и промышленные проекты",
+				"en": "Национальный банк ВЭД РУз (Узнацбанк / NBU) — a financial company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 180,
+				"debt": 0,
+				"money": 0,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алишер Мирсоатов",
+					"en": "Алишер Мирсоатов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6800,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2694,
+					"д": 69.2146,
+					"province": 95,
+					"staff": 2040,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://nbu.uz/"
+		},
+		{
+			"id": "ao_uzbekiston",
+			"название": {
+				"ru": "АО «Узбекистон темир йуллари» (Uzbekistan Railways)",
+				"en": "АО «Узбекистон темир йуллари» (Uzbekistan Railways)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная железнодорожная монополия, оператор высокоскоростных поездов Afrosiyob и транзитных магистралей",
+				"en": "АО «Узбекистон темир йуллари» (Uzbekistan Railways) — a transport company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 90,
+				"debt": 2200,
+				"money": 120,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Зуфар Нарзуллаев",
+					"en": "Зуфар Нарзуллаев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 85000,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2349,
+					"д": 69.2294,
+					"province": 95,
+					"staff": 25500,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://railway.uz/"
+		},
+		{
+			"id": "ao_uzbekistan",
+			"название": {
+				"ru": "АО «Uzbekistan Airways»",
+				"en": "АО «Uzbekistan Airways»"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиаперевозчик с современным дальнемагистральным флотом Boeing 787 Dreamliner и Airbus A321neo",
+				"en": "АО «Uzbekistan Airways» — a transport company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 50,
+				"debt": 900,
+				"money": 150,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шухрат Худайкулов",
+					"en": "Шухрат Худайкулов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2411,
+					"д": 69.2079,
+					"province": 95,
+					"staff": 1650,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.uzairways.com/"
+		},
+		{
+			"id": "ak_uzbektelekom",
+			"название": {
+				"ru": "АК «Узбектелеком» (Uztelecom / UZMOBILE)",
+				"en": "АК «Узбектелеком» (Uztelecom / UZMOBILE)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор фиксированной связи, широкополосного интернета и сотовой связи под единым брендом Uztelecom",
+				"en": "АК «Узбектелеком» (Uztelecom / UZMOBILE) — a IT and telecom company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 85,
+				"debt": 350,
+				"money": 90,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Назиржон Хасанов",
+					"en": "Назиржон Хасанов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15000,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2573,
+					"д": 69.2341,
+					"province": 95,
+					"staff": 4500,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://uztelecom.uz/"
+		},
+		{
+			"id": "ao_uzmetkombinat",
+			"название": {
+				"ru": "АО «Узметкомбинат» (Uzmetkombinat)",
+				"en": "АО «Узметкомбинат» (Uzmetkombinat)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагман черной металлургии в Бекабаде, ведущий производитель арматуры, сортового проката и ферросплавов",
+				"en": "АО «Узметкомбинат» (Uzmetkombinat) — a metals and mining company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 950,
+				"profit": 60,
+				"debt": 450,
+				"money": 70,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рашид Пирматов",
+					"en": "Рашид Пирматов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 480,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.26,
+					"д": 69.2046,
+					"province": 95,
+					"staff": 3600,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://uzbeksteel.uz/"
+		},
+		{
+			"id": "akb_uzpromstroybank",
+			"название": {
+				"ru": "АКБ «Узпромстройбанк» (SQB)",
+				"en": "АКБ «Узпромстройбанк» (SQB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший финансовый институт, ключевой кредитор базовых отраслей промышленности и строительства",
+				"en": "АКБ «Узпромстройбанк» (SQB) — a financial company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 110,
+				"debt": 0,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Азиз Акбаржонов",
+					"en": "Азиз Акбаржонов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2952,
+					"д": 69.181,
+					"province": 95,
+					"staff": 1500,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://sqb.uz/"
+		},
+		{
+			"id": "ao_uzavtosanoat",
+			"название": {
+				"ru": "АО «Узавтосаноат» (UzAuto Motors)",
+				"en": "АО «Узавтосаноат» (UzAuto Motors)"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Автомобильный холдинг, выпускающий автомобили Chevrolet в Асаке (Cobalt, Tracker, Onix)",
+				"en": "АО «Узавтосаноат» (UzAuto Motors) — a automotive company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": 190,
+				"debt": 800,
+				"money": 350,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Улугбек Розукулов",
+					"en": "Улугбек Розукулов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25000,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2755,
+					"д": 69.2201,
+					"province": 95,
+					"staff": 7500,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://uzavtosanoat.uz/"
+		},
+		{
+			"id": "ao_navoiazot",
+			"название": {
+				"ru": "АО «Навоиазот» (Navoiyazot)",
+				"en": "АО «Навоиазот» (Navoiyazot)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшее химическое предприятие Узбекистана по производству азотных удобрений, карбамида и цианистого натрия",
+				"en": "АО «Навоиазот» (Navoiyazot) — a consumer and retail company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 65,
+				"debt": 900,
+				"money": 80,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фаррух Самадов",
+					"en": "Фаррух Самадов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8500,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.225,
+					"д": 69.2353,
+					"province": 95,
+					"staff": 2550,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://navoiyazot.uz/"
+		},
+		{
+			"id": "ao_teplovye",
+			"название": {
+				"ru": "АО «Тепловые электрические станции» (Thermal Power Plants)",
+				"en": "АО «Тепловые электрические станции» (Thermal Power Plants)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный холдинг, управляющий Сырдарьинской, Ново-Ангренской, Талимарджанской и Ташкентской ТЭС",
+				"en": "АО «Тепловые электрические станции» (Thermal Power Plants) — a energy company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 120,
+				"debt": 3500,
+				"money": 180,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Баходир Жураев",
+					"en": "Баходир Жураев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 22000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2479,
+					"д": 69.2154,
+					"province": 95,
+					"staff": 6600,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://tpp.uz/"
+		},
+		{
+			"id": "gp_chirchikskiy",
+			"название": {
+				"ru": "ГП «Чирчикский авиационный ремонтно-механический завод» (CHARZ)",
+				"en": "ГП «Чирчикский авиационный ремонтно-механический завод» (CHARZ)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Базовое авиаремонтное предприятие по капитальному ремонту и модернизации вертолетов Ми-8, Ми-24 и штурмовиков Су-25",
+				"en": "ГП «Чирчикский авиационный ремонтно-механический завод» (CHARZ) — a defence company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 4,
+				"debt": 15,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фарход Курбанов",
+					"en": "Фарход Курбанов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2261,
+					"д": 69.2295,
+					"province": 95,
+					"staff": 360,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://oboronprom.uz/"
+		},
+		{
+			"id": "gp_tsentralnyy",
+			"название": {
+				"ru": "ГП «Центральный авторемонтный завод МО РУз» (Chirchiq Tank Repair)",
+				"en": "ГП «Центральный авторемонтный завод МО РУз» (Chirchiq Tank Repair)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонт и модернизация танков Т-72Б, Т-62М, БМП-2 и бронетранспортеров БТР-80/82А",
+				"en": "ГП «Центральный авторемонтный завод МО РУз» (Chirchiq Tank Repair) — a defence company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 3,
+				"debt": 12,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник Рустам Исмаилов",
+					"en": "Полковник Рустам Исмаилов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Чирчик",
+						"en": "Chirchiq"
+					},
+					"ш": 41.4876,
+					"д": 69.575,
+					"province": 95,
+					"staff": 270,
+					"fine": 4423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://oboronprom.uz/"
+		},
+		{
+			"id": "gosudarstvennyy_zavod",
+			"название": {
+				"ru": "Государственный завод военной электроники (Tashkent Military Electronics)",
+				"en": "Государственный завод военной электроники (Tashkent Military Electronics)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство средств тактической войсковой радиосвязи, приборов ночного видения и тепловизионных прицелов",
+				"en": "Государственный завод военной электроники (Tashkent Military Electronics) — a defence company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 28,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жасурбек Назиров",
+					"en": "Жасурбек Назиров"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 480,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2752,
+					"д": 69.2286,
+					"province": 95,
+					"staff": 180,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://oboronprom.uz/"
+		},
+		{
+			"id": "voenno_tehnicheskiy",
+			"название": {
+				"ru": "Военно-технический кластер «Махсусмаш» (Special Machinery Cluster)",
+				"en": "Военно-технический кластер «Махсусмаш» (Special Machinery Cluster)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство легкобронированных колесных машин с противоминной защитой Qalqon 4x4 и бронетранспортеров Arslon 8x8",
+				"en": "Военно-технический кластер «Махсусмаш» (Special Machinery Cluster) — a defence company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 4,
+				"debt": 15,
+				"money": 7,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 65
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шерзод Холматов",
+					"en": "Шерзод Холматов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.2772,
+					"д": 69.2454,
+					"province": 95,
+					"staff": 225,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://oboronprom.uz/"
+		},
+		{
+			"id": "gp_vostok",
+			"название": {
+				"ru": "ГП «Восток» (Vostok Munitions Factory Tashkent)",
+				"en": "ГП «Восток» (Vostok Munitions Factory Tashkent)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство стрелковых патронов советских и натовских калибров, сигнальных ракет и артиллерийских взрывателей",
+				"en": "ГП «Восток» (Vostok Munitions Factory Tashkent) — a defence company of Uzbekistan."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 3,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Узбекистан)",
+						"en": "The state (Uzbekistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Узбекистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алишер Усманов",
+					"en": "Алишер Усманов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 700,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ташкент",
+						"en": "Tashkent"
+					},
+					"ш": 41.262,
+					"д": 69.2378,
+					"province": 95,
+					"staff": 210,
+					"fine": 4424
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://oboronprom.uz/"
+		}
+	]
+}

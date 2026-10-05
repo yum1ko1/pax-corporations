@@ -1,0 +1,2905 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Бразилия",
+	"iso": "BRA",
+	"data_date": "2026-03",
+	"average_wage": 700,
+	"companies": [
+		{
+			"id": "petrobras",
+			"название": {
+				"ru": "Petrobras",
+				"en": "Petrobras"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1953,
+			"description": {
+				"ru": "Государственная нефть Бразилии — глубоководный подсолевой шельф.",
+				"en": "Brazil's state oil — the deep pre-salt offshore."
+			},
+			"fundamental": {
+				"выручка": 90000,
+				"profit": 7500,
+				"debt": 60000,
+				"money": 15000,
+				"dividends": 12000
+			},
+			"рынок": {
+				"shares_mln": 13040,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бразилии",
+						"en": "The Brazilian state"
+					},
+					"type": "polity",
+					"доля": 0.37,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.63
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Магда Шамбриард",
+					"en": "Magda Chambriard"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1957,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер, ставленница Лулы",
+					"en": "инженер, ставленница Лулы"
+				}
+			},
+			"staff": 41000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рио-де-Жанейро",
+						"en": "Rio de Janeiro"
+					},
+					"ш": -22.91,
+					"д": -43.17,
+					"province": 519,
+					"staff": 10000,
+					"fine": 490
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Бассейн Сантус (подсолевой)",
+						"en": "Santos basin (pre-salt)"
+					},
+					"ш": -23.5327,
+					"д": -45.0659,
+					"province": 519,
+					"staff": 5000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investidorpetrobras.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vale",
+			"название": {
+				"ru": "Vale",
+				"en": "Vale"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1942,
+			"description": {
+				"ru": "Второй в мире экспортёр железной руды, никель.",
+				"en": "The world's second iron ore exporter, nickel."
+			},
+			"fundamental": {
+				"выручка": 38000,
+				"profit": 6000,
+				"debt": 15000,
+				"money": 5000,
+				"dividends": 4500
+			},
+			"рынок": {
+				"shares_mln": 4270,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Previ (пенсии Banco do Brasil)",
+						"en": "Previ (Banco do Brasil pensions)"
+					},
+					"type": "крупный",
+					"доля": 0.09,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.91
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Густаво Пимента",
+					"en": "Gustavo Pimenta"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 66000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рио-де-Жанейро",
+						"en": "Rio de Janeiro"
+					},
+					"ш": -22.95,
+					"д": -43.18,
+					"province": 519,
+					"staff": 3000,
+					"fine": 490
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Каражас",
+						"en": "Carajás"
+					},
+					"ш": -6.07,
+					"д": -50.17,
+					"province": 967,
+					"staff": 15000,
+					"fine": 474
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://vale.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "itau",
+			"название": {
+				"ru": "Itaú Unibanco",
+				"en": "Itaú Unibanco"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1924,
+			"description": {
+				"ru": "Крупнейший частный банк Латинской Америки.",
+				"en": "Latin America's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 40000,
+				"profit": 7500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 9800,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Сетубал и Моррейра Саллес",
+						"en": "The Setubal and Moreira Salles families"
+					},
+					"type": "founder",
+					"доля": 0.26
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.74
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Милтон Малуи Фильо",
+					"en": "Milton Maluhy Filho"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 96000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.56,
+					"д": -46.65,
+					"province": 520,
+					"staff": 20000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.itau.com.br/relacoes-com-investidores/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bradesco",
+			"название": {
+				"ru": "Bradesco",
+				"en": "Bradesco"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1943,
+			"description": {
+				"ru": "Второй частный банк Бразилии.",
+				"en": "Brazil's second private bank."
+			},
+			"fundamental": {
+				"выручка": 35000,
+				"profit": 3500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 10600,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Cidade de Deus (фонд)",
+						"en": "Cidade de Deus (foundation)"
+					},
+					"type": "сама",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марселу Нороньа",
+					"en": "Marcelo Noronha"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 86000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Озаску",
+						"en": "Osasco"
+					},
+					"ш": -23.53,
+					"д": -46.79,
+					"province": 520,
+					"staff": 15000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bradescori.com.br/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bancodobrasil",
+			"название": {
+				"ru": "Banco do Brasil",
+				"en": "Banco do Brasil"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1808,
+			"description": {
+				"ru": "Крупнейший банк Бразилии, государственный.",
+				"en": "Brazil's largest bank, state-owned."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 6500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 5730,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бразилии",
+						"en": "The Brazilian state"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тарсиана Медейрос",
+					"en": "Tarciana Medeiros"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая женщина во главе банка",
+					"en": "первая женщина во главе банка"
+				}
+			},
+			"staff": 86000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бразилиа",
+						"en": "Brasília"
+					},
+					"ш": -15.8,
+					"д": -47.88,
+					"province": 828,
+					"staff": 15000,
+					"fine": 477
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.bb.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "nubank",
+			"название": {
+				"ru": "Nu Holdings",
+				"en": "Nu Holdings"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2013,
+			"description": {
+				"ru": "Крупнейший цифровой банк мира вне Азии.",
+				"en": "The largest digital bank in the world outside Asia."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 2000,
+				"debt": 0,
+				"money": 8000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 4800,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Давид Велес",
+						"en": "David Vélez"
+					},
+					"type": "founder",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Давид Велес",
+					"en": "David Vélez"
+				},
+				"роль": "founder",
+				"с_года": 2013,
+				"born_year": 1981,
+				"доля": 0.2,
+				"характер": {
+					"ru": "колумбиец-основатель",
+					"en": "колумбиец-основатель"
+				}
+			},
+			"staff": 8000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.57,
+					"д": -46.69,
+					"province": 520,
+					"staff": 6000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investors.nu/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ambev",
+			"название": {
+				"ru": "Ambev",
+				"en": "Ambev"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Пиво Латинской Америки, контроль у AB InBev.",
+				"en": "Latin America's beer, controlled by AB InBev."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 2700,
+				"debt": 500,
+				"money": 3000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 15750,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "AB InBev",
+						"en": "AB InBev"
+					},
+					"type": "company",
+					"доля": 0.62,
+					"country": "Бельгия",
+					"company": "abinbev"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.38
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карлос Лисбоа",
+					"en": "Carlos Lisboa"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пивовар 3G",
+					"en": "пивовар 3G"
+				}
+			},
+			"staff": 43000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.6,
+					"д": -46.68,
+					"province": 520,
+					"staff": 3000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.ambev.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "jbs",
+			"название": {
+				"ru": "JBS",
+				"en": "JBS"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1953,
+			"description": {
+				"ru": "Крупнейший производитель мяса в мире.",
+				"en": "The world's largest meat producer."
+			},
+			"fundamental": {
+				"выручка": 77000,
+				"profit": 1800,
+				"debt": 18000,
+				"money": 4000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1100,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Братья Батиста (J&F)",
+						"en": "The Batista brothers (J&F)"
+					},
+					"type": "founder",
+					"доля": 0.48
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.52
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жилберту Томазони",
+					"en": "Gilberto Tomazoni"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "мясник-менеджер",
+					"en": "мясник-менеджер"
+				}
+			},
+			"staff": 280000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.52,
+					"д": -46.7,
+					"province": 520,
+					"staff": 5000,
+					"fine": 469
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Бойни Мату-Гросу",
+						"en": "Mato Grosso slaughterhouses"
+					},
+					"ш": -15.6,
+					"д": -56.1,
+					"province": 1028,
+					"staff": 20000,
+					"fine": 480
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.jbs.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "weg",
+			"название": {
+				"ru": "WEG",
+				"en": "WEG"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Электродвигатели и трансформаторы на весь мир.",
+				"en": "Electric motors and transformers for the world."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1100,
+				"debt": 500,
+				"money": 1500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 4190,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи основателей",
+						"en": "The founding families"
+					},
+					"type": "founder",
+					"доля": 0.63
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алберто Куба",
+					"en": "Alberto Kuba"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 45000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жарагуа-ду-Сул",
+						"en": "Jaraguá do Sul"
+					},
+					"ш": -26.48,
+					"д": -49.07,
+					"province": 181,
+					"staff": 15000,
+					"fine": 483
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.weg.net/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "embraer",
+			"название": {
+				"ru": "Embraer",
+				"en": "Embraer"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Региональные самолёты и военный транспортник KC-390.",
+				"en": "Regional jets and the KC-390 military transport."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 300,
+				"debt": 2500,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 735,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бразилии (золотая акция)",
+						"en": "The Brazilian state (golden share)"
+					},
+					"type": "polity",
+					"доля": 0.01,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.99
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсиску Гомес Нету",
+					"en": "Francisco Gomes Neto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 20000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Жозе-дус-Кампус",
+						"en": "São José dos Campos"
+					},
+					"ш": -23.22,
+					"д": -45.86,
+					"province": 520,
+					"staff": 15000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.embraer.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vivo",
+			"название": {
+				"ru": "Telefônica Brasil (Vivo)",
+				"en": "Telefônica Brasil (Vivo)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший оператор связи Бразилии, дочка Telefónica.",
+				"en": "Brazil's largest telecom, a Telefónica subsidiary."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 1100,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1650,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Telefónica",
+						"en": "Telefónica"
+					},
+					"type": "company",
+					"доля": 0.74,
+					"country": "Испания",
+					"company": "telefonica"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристиан Жебара",
+					"en": "Christian Gebara"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 35000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.6,
+					"д": -46.69,
+					"province": 520,
+					"staff": 8000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://ri.telefonica.com.br/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "eletrobras",
+			"название": {
+				"ru": "Eletrobras",
+				"en": "Eletrobras"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1962,
+			"description": {
+				"ru": "Крупнейший энергетик Латинской Америки, ГЭС Итайпу (доля).",
+				"en": "Latin America's largest power company, a stake in Itaipu."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 1800,
+				"debt": 12000,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 2250,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бразилии",
+						"en": "The Brazilian state"
+					},
+					"type": "polity",
+					"доля": 0.43,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.57
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Иван Монтейру",
+					"en": "Ivan Monteiro"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 8000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рио-де-Жанейро",
+						"en": "Rio de Janeiro"
+					},
+					"ш": -22.9,
+					"д": -43.18,
+					"province": 519,
+					"staff": 2000,
+					"fine": 490
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Тукуруи",
+						"en": "Tucuruí dam"
+					},
+					"ш": -3.83,
+					"д": -49.65,
+					"province": 968,
+					"staff": 1000,
+					"fine": 474
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.eletrobras.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "gerdau",
+			"название": {
+				"ru": "Gerdau",
+				"en": "Gerdau"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1901,
+			"description": {
+				"ru": "Сталь Бразилии и США.",
+				"en": "Steel of Brazil and the US."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 800,
+				"debt": 2500,
+				"money": 1500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2020,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Гердау Йоханнпетер",
+						"en": "The Gerdau Johannpeter family"
+					},
+					"type": "founder",
+					"доля": 0.33
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Густаво Вернек",
+					"en": "Gustavo Werneck"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 30000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.59,
+					"д": -46.69,
+					"province": 520,
+					"staff": 1000,
+					"fine": 469
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ору-Бранку",
+						"en": "Ouro Branco"
+					},
+					"ш": -20.52,
+					"д": -43.69,
+					"province": 519,
+					"staff": 6000,
+					"fine": 479
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://ri.gerdau.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "suzano",
+			"название": {
+				"ru": "Suzano",
+				"en": "Suzano"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1924,
+			"description": {
+				"ru": "Крупнейший производитель целлюлозы из эвкалипта.",
+				"en": "The largest eucalyptus pulp producer."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 1000,
+				"debt": 15000,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1260,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Фейффер",
+						"en": "The Feffer family"
+					},
+					"type": "founder",
+					"доля": 0.47
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жуан Алберту Абреу",
+					"en": "João Alberto Abreu"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бумажник",
+					"en": "бумажник"
+				}
+			},
+			"staff": 20000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.6,
+					"д": -46.68,
+					"province": 520,
+					"staff": 1000,
+					"fine": 469
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Целлюлозный Рибас-ду-Риу-Парду",
+						"en": "Ribas do Rio Pardo pulp mill"
+					},
+					"ш": -20.44,
+					"д": -53.76,
+					"province": 177,
+					"staff": 5000,
+					"fine": 478
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.suzano.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "btg",
+			"название": {
+				"ru": "BTG Pactual",
+				"en": "BTG Pactual"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Крупнейший инвестиционный банк Латинской Америки.",
+				"en": "Latin America's largest investment bank."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 3800,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Андре Эстевес и партнёры",
+						"en": "André Esteves and partners"
+					},
+					"type": "founder",
+					"доля": 0.65
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.35
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберто Саллути",
+					"en": "Roberto Sallouti"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инвестбанкир",
+					"en": "инвестбанкир"
+				}
+			},
+			"staff": 7000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.59,
+					"д": -46.68,
+					"province": 520,
+					"staff": 3000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.btgpactual.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "rumo",
+			"название": {
+				"ru": "Rumo",
+				"en": "Rumo"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Железные дороги для сои и зерна.",
+				"en": "Railways for soy and grain."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 200,
+				"debt": 4000,
+				"money": 1000,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1850,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Cosan",
+						"en": "Cosan"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Педру Палма",
+					"en": "Pedro Palma"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "логист",
+					"en": "логист"
+				}
+			},
+			"staff": 10000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Куритиба",
+						"en": "Curitiba"
+					},
+					"ш": -25.43,
+					"д": -49.27,
+					"province": 181,
+					"staff": 3000,
+					"fine": 482
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.rumolog.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "raizen",
+			"название": {
+				"ru": "Raízen",
+				"en": "Raízen"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2011,
+			"description": {
+				"ru": "Биоэтанол из сахарного тростника и АЗС Shell.",
+				"en": "Sugarcane bioethanol and Shell stations."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": -1000,
+				"debt": 8000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 10300,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Shell",
+						"en": "Shell"
+					},
+					"type": "company",
+					"доля": 0.44,
+					"country": "Великобритания",
+					"company": "shell"
+				},
+				{
+					"кто": {
+						"ru": "Cosan",
+						"en": "Cosan"
+					},
+					"type": "крупный",
+					"доля": 0.44,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.12
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нелсон Гомес",
+					"en": "Nelson Gomes"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 40000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.58,
+					"д": -46.7,
+					"province": 520,
+					"staff": 3000,
+					"fine": 469
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Заводы этанола Пирасикабы",
+						"en": "Piracicaba ethanol mills"
+					},
+					"ш": -22.72,
+					"д": -47.65,
+					"province": 520,
+					"staff": 15000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.raizen.com.br/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "magalu",
+			"название": {
+				"ru": "Magazine Luiza",
+				"en": "Magazine Luiza"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Крупный онлайн- и офлайн-ритейлер Бразилии.",
+				"en": "A big online and offline retailer of Brazil."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 50,
+				"debt": 2000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 740,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Трахано",
+						"en": "The Trajano family"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фредерико Траяно",
+					"en": "Frederico Trajano"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2016,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "цифровизатор",
+					"en": "цифровизатор"
+				}
+			},
+			"staff": 35000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.52,
+					"д": -46.69,
+					"province": 520,
+					"staff": 3000,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ri.magazineluiza.com.br/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "localiza",
+			"название": {
+				"ru": "Localiza",
+				"en": "Localiza"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1973,
+			"description": {
+				"ru": "Крупнейший прокат автомобилей Латинской Америки.",
+				"en": "Latin America's largest car rental."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 400,
+				"debt": 10000,
+				"money": 2000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1070,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "The founders"
+					},
+					"type": "founder",
+					"доля": 0.18
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бруно Лазански",
+					"en": "Bruno Lasansky"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 20000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Белу-Оризонти",
+						"en": "Belo Horizonte"
+					},
+					"ш": -19.92,
+					"д": -43.94,
+					"province": 1198,
+					"staff": 3000,
+					"fine": 479
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://ri.localiza.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "braskem",
+			"название": {
+				"ru": "Braskem",
+				"en": "Braskem"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 2002,
+			"description": {
+				"ru": "Крупнейший нефтехимик Америк, в убытках.",
+				"en": "The largest petrochemical maker of the Americas, losing money."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": -500,
+				"debt": 9000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 800,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Novonor (бывший Odebrecht)",
+						"en": "Novonor (formerly Odebrecht)"
+					},
+					"type": "крупный",
+					"доля": 0.38,
+					"country": "Бразилия"
+				},
+				{
+					"кто": {
+						"ru": "Petrobras",
+						"en": "Petrobras"
+					},
+					"type": "company",
+					"доля": 0.36,
+					"country": "Бразилия",
+					"company": "petrobras"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роберто Рамос",
+					"en": "Roberto Ramos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 8000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.58,
+					"д": -46.69,
+					"province": 520,
+					"staff": 1500,
+					"fine": 469
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Камасари",
+						"en": "Camaçari"
+					},
+					"ш": -12.69,
+					"д": -38.32,
+					"province": 1101,
+					"staff": 4000,
+					"fine": 487
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.braskem-ri.com.br/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "csn",
+			"название": {
+				"ru": "CSN (Companhia Siderúrgica Nacional)",
+				"en": "CSN (Companhia Siderúrgica Nacional)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший интегрированный металлургический и горнодобывающий конгломерат (сталь, железная руда, цемент, энергетика, логистика; выручка ~.5 млрд)",
+				"en": "CSN (Companhia Siderúrgica Nacional) — a metals and mining company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 4112,
+				"profit": 457,
+				"debt": 1371,
+				"money": 493,
+				"dividends": 137
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4934
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11879,
+			"wage": 1250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5614,
+					"д": -46.65,
+					"province": 520,
+					"staff": 3563,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brf_marfrig",
+			"название": {
+				"ru": "BRF (Brasil Foods) & Marfrig Global Foods",
+				"en": "BRF (Brasil Foods) & Marfrig Global Foods"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировые гиганты производства мясной продукции и полуфабрикатов (бренды Sadia, Perdigão, National Beef; совокупная выручка > млрд)",
+				"en": "BRF (Brasil Foods) & Marfrig Global Foods — a consumer and retail company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 4025,
+				"profit": 313,
+				"debt": 929,
+				"money": 335,
+				"dividends": 94
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5514
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12075,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5448,
+					"д": -46.6618,
+					"province": 520,
+					"staff": 3622,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "equatorial_energia",
+			"название": {
+				"ru": "Equatorial Energia",
+				"en": "Equatorial Energia"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная электросетевая распределительная корпорация (выручка ~.5 млрд, кап ~.5 млрд)",
+				"en": "Equatorial Energia — a energy company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 3937,
+				"profit": 364,
+				"debt": 2392,
+				"money": 504,
+				"dividends": 109
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5192
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7004,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5824,
+					"д": -46.639,
+					"province": 520,
+					"staff": 2101,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "assa_atacadista",
+			"название": {
+				"ru": "Assaí Atacadista (Sendas Distribuidora)",
+				"en": "Assaí Atacadista (Sendas Distribuidora)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в стране сеть мелкооптовых гипермаркетов Cash & Carry (выручка ~$15 млрд, 80 000 сотр.)",
+				"en": "Assaí Atacadista (Sendas Distribuidora) — a consumer and retail company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 1167,
+				"debt": 3462,
+				"money": 1250,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20548
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 45000,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5276,
+					"д": -46.6246,
+					"province": 520,
+					"staff": 13500,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rede_d",
+			"название": {
+				"ru": "Rede D'Or São Luiz",
+				"en": "Rede D'Or São Luiz"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая сеть частных госпиталей и медицинских центров в Латинской Америке (выручка ~$5 млрд, кап ~$11 млрд)",
+				"en": "Rede D'Or São Luiz — a pharmaceutical company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 751,
+				"debt": 2328,
+				"money": 654,
+				"dividends": 225
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9130,
+			"wage": 1015,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5815,
+					"д": -46.6586,
+					"province": 520,
+					"staff": 2739,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "b3",
+			"название": {
+				"ru": "B3 (Brasil, Bolsa, Balcão)",
+				"en": "B3 (Brasil, Bolsa, Balcão)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Фондовая и товарная биржа Бразилии в Сан-Паулу (выручка ~$2.0 млрд, чистая прибыль ~$900 млн, кап ~$13 млрд)",
+				"en": "B3 (Brasil, Bolsa, Balcão) — a financial company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 270
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5714,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5662,
+					"д": -46.6237,
+					"province": 520,
+					"staff": 1714,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "klabin",
+			"название": {
+				"ru": "Klabin",
+				"en": "Klabin"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель и экспортер упаковочной бумаги, картона и целлюлозы (выручка ~.0 млрд)",
+				"en": "Klabin — a transport company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 3412,
+				"profit": 227,
+				"debt": 1723,
+				"money": 706,
+				"dividends": 68
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2437
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8530,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5312,
+					"д": -46.671,
+					"province": 520,
+					"staff": 2559,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "totvs",
+			"название": {
+				"ru": "Totvs",
+				"en": "Totvs"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий разработчик корпоративного ПО и ERP-систем в Латинской Америке (выручка ~.0 млрд)",
+				"en": "Totvs — a consumer and retail company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 2975,
+				"profit": 231,
+				"debt": 687,
+				"money": 248,
+				"dividends": 69
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4075
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8925,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5071,
+					"д": -46.6326,
+					"province": 520,
+					"staff": 2677,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "avibras_ind",
+			"название": {
+				"ru": "Avibras Indústria Aeroespacial",
+				"en": "Avibras Indústria Aeroespacial"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Реактивные системы залпового огня ASTROS II / ASTROS 2020, крылатые ракеты AV-TM 300 Mansup, ракетные твердотопливные двигатели",
+				"en": "Avibras Indústria Aeroespacial — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1238,
+				"profit": 83,
+				"debt": 318,
+				"money": 190,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2321
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3714,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5242,
+					"д": -46.6136,
+					"province": 520,
+					"staff": 1114,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cbc_taurus",
+			"название": {
+				"ru": "CBC (Companhia Brasileira de Cartuchos) / Taurus Armas",
+				"en": "CBC (Companhia Brasileira de Cartuchos) / Taurus Armas"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой гигант стрелкового оружия и боеприпасов (Taurus, Magtech, Sellier & Bellot, MEN Germany; ведущий экспортер патронов всех калибров)",
+				"en": "CBC (Companhia Brasileira de Cartuchos) / Taurus Armas — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 80,
+				"debt": 309,
+				"money": 185,
+				"dividends": 24
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5601,
+					"д": -46.6538,
+					"province": 520,
+					"staff": 1080,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "imbel",
+			"название": {
+				"ru": "IMBEL (Indústria de Material Bélico do Brasil)",
+				"en": "IMBEL (Indústria de Material Bélico do Brasil)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное предприятие МО Бразилии (штурмовые винтовки IA2, боеприпасы всех калибров, взрывчатые вещества, армейская связь)",
+				"en": "IMBEL (Indústria de Material Bélico do Brasil) — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1162,
+				"profit": 77,
+				"debt": 299,
+				"money": 179,
+				"dividends": 23
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2179
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3486,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5246,
+					"д": -46.6483,
+					"province": 520,
+					"staff": 1045,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "iveco_defence",
+			"название": {
+				"ru": "Iveco Defence Vehicles Brazil (IDV)",
+				"en": "Iveco Defence Vehicles Brazil (IDV)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство колесных бронетранспортеров 6×6 VBTP-MR Guarani и бронеавтомобилей LMV-BR",
+				"en": "Iveco Defence Vehicles Brazil (IDV) — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5672,
+					"д": -46.6081,
+					"province": 520,
+					"staff": 1012,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "helibras",
+			"название": {
+				"ru": "Helibras (Airbus Helicopters)",
+				"en": "Helibras (Airbus Helicopters)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Единственный производитель вертолетов в Южной Америке (военные вертолеты H225M Caracal, H145M, Fennec)",
+				"en": "Helibras (Airbus Helicopters) — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5351,
+					"д": -46.6672,
+					"province": 520,
+					"staff": 1012,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "itagua_constru",
+			"название": {
+				"ru": "Itaguaí Construções Navais (ICN) / AMRJ",
+				"en": "Itaguaí Construções Navais (ICN) / AMRJ"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Строительство подлодок класса Riachuelo (Scorpène), первой национальной атомной подлодки Álvaro Alberto (программа PROSUB) и фрегатов класса Tamandaré",
+				"en": "Itaguaí Construções Navais (ICN) / AMRJ — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Итагуаи",
+						"en": "Itaguaí"
+					},
+					"ш": -22.8198,
+					"д": -43.7713,
+					"province": 519,
+					"staff": 1012,
+					"fine": 490
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mac_jee",
+			"название": {
+				"ru": "Mac Jee Defesa",
+				"en": "Mac Jee Defesa"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокоточные планирующие авиабомбы Dagger, РСЗО Armadillo TA-2",
+				"en": "Mac Jee Defesa — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1088,
+				"profit": 73,
+				"debt": 280,
+				"money": 167,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2040
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3264,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5184,
+					"д": -46.6328,
+					"province": 520,
+					"staff": 979,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "condor_non",
+			"название": {
+				"ru": "Condor Non-Lethal Technologies",
+				"en": "Condor Non-Lethal Technologies"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в сфере нелетального оружия и спецсредств",
+				"en": "Condor Non-Lethal Technologies — a defence company of Brazil."
+			},
+			"fundamental": {
+				"выручка": 1050,
+				"profit": 70,
+				"debt": 270,
+				"money": 162,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1969
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бразилия)",
+						"en": "The state (Brazil)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бразилия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3150,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Паулу",
+						"en": "São Paulo"
+					},
+					"ш": -23.5232,
+					"д": -46.6114,
+					"province": 520,
+					"staff": 945,
+					"fine": 469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

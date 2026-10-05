@@ -1,0 +1,1260 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мозамбик",
+	"iso": "MOZ",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "mozal",
+			"название": {
+				"ru": "Mozal",
+				"en": "Mozal"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Алюминиевый завод у Мапуту — крупнейший экспортёр страны.",
+				"en": "The aluminium smelter near Maputo — the country's largest exporter."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 100,
+				"debt": 100,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "South32",
+						"en": "South32"
+					},
+					"type": "company",
+					"доля": 0.64,
+					"country": "Австралия"
+				},
+				{
+					"кто": {
+						"ru": "Mitsubishi Corporation",
+						"en": "Mitsubishi Corporation"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Япония",
+					"company": "mitsubishicorp"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.11
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Самир Сулеман",
+					"en": "Samir Salémane"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 1100,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Белулуане (Мапуту)",
+						"en": "Beluluane (Maputo)"
+					},
+					"ш": -25.92,
+					"д": 32.47,
+					"province": 459,
+					"staff": 1100,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.south32.net/our-business/southern-africa/mozal-aluminium | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "hcb",
+			"название": {
+				"ru": "Hidroeléctrica de Cahora Bassa",
+				"en": "Hidroeléctrica de Cahora Bassa"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "ГЭС Кабора-Баса — электричество для ЮАР.",
+				"en": "The Cahora Bassa dam — power for South Africa."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 150,
+				"debt": 100,
+				"money": 200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 26000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Мозамбика",
+						"en": "The Mozambican state"
+					},
+					"type": "polity",
+					"доля": 0.85,
+					"country": "Мозамбик"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.15
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Томаш Матола",
+					"en": "Tomás Matola"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 800,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сонго",
+						"en": "Songo"
+					},
+					"ш": -15.6,
+					"д": 32.75,
+					"province": 456,
+					"staff": 800,
+					"fine": 2784
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.hcb.mz | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "coral_south",
+			"название": {
+				"ru": "Coral South FLNG (Eni Rovuma Basin / Mozambique Rovuma Venture)",
+				"en": "Coral South FLNG (Eni Rovuma Basin / Mozambique Rovuma Venture)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Нефтегазовая промышленность, СПГ (первый глубоководный плавучий завод сжижения природного газа FLNG в Африке на шельфовом блоке Area 4 — ) [Выручка: $2,000 млн, Чистая прибыль: $600 млн, Долг: $3,500 млн (проектное финансирование консорциума Eni, ExxonMobil, CNPC, Galp, KOGAS, ENH), Деньги: $400 млн, Дивиденды: $250 млн, Капитализация: $6,000 млн, Штат: 1,200 морских специалистов и инженеров, Зарп",
+				"en": "Coral South FLNG (Eni Rovuma Basin / Mozambique Rovuma Venture) — a oil and gas company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 600,
+				"debt": 3500,
+				"money": 400,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1748,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Mozambique"
+					},
+					"ш": -15.0424,
+					"д": 40.7174,
+					"province": 536,
+					"staff": 524,
+					"fine": 2788
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "vulcan_mo",
+			"название": {
+				"ru": "Vulcan Moçambique (бывшая Vale Moçambique / Угольный комплекс Моатизе)",
+				"en": "Vulcan Moçambique (бывшая Vale Moçambique / Угольный комплекс Моатизе)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Горнодобывающая промышленность (крупнейший в Африке открытый разрез металлургического коксующегося и энергетического угля Моатизе и логистический коридор Накала — ) [Выручка: $1,400 млн, Чистая прибыль: $200 млн, Долг: $300 млн, Деньги: $150 млн, Дивиденды: $80 млн, Капитализация: $2,200 млн (входит в индийскую промышленную группу Jindal / Vulcan Group), Штат: 5,500 чел., Зарплата: $600/мес, Руков",
+				"en": "Vulcan Moçambique (бывшая Vale Moçambique / Угольный комплекс Моатизе) — a metals and mining company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 200,
+				"debt": 300,
+				"money": 150,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4044,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Mozambique"
+					},
+					"ш": -15.0583,
+					"д": 40.7246,
+					"province": 536,
+					"staff": 1213,
+					"fine": 2788
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "portos_e",
+			"название": {
+				"ru": "Portos e Caminhos de Ferro de Moçambique (CFM)",
+				"en": "Portos e Caminhos de Ferro de Moçambique (CFM)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Транспортная инфраструктура, порты и железные дороги (управляет глубоководными портами Мапуту, Бейра, Накала и угольными магистралями — ) [Выручка: $450 млн, Чистая прибыль: $60 млн, Долг: $200 млн, Деньги: $120 млн, Дивиденды: $25 млн (в госбюджет), Капитализация: $1,500 млн (100% государственная собственность), Штат: 6,500 чел., Зарплата: $500/мес, Руководитель: Агоштинью Франсишку Ланга Жуниор ",
+				"en": "Portos e Caminhos de Ferro de Moçambique (CFM) — a transport company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 60,
+				"debt": 200,
+				"money": 120,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1125,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9497,
+					"д": 32.6294,
+					"province": 459,
+					"staff": 337,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "empresa_nacional",
+			"название": {
+				"ru": "Empresa Nacional de Hidrocarbonetos (ENH)",
+				"en": "Empresa Nacional de Hidrocarbonetos (ENH)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Нефть и газ (государственная национальная углеводородная корпорация, партнер во всех проектах СПГ бассейна Рувума — ) [Выручка: $450 млн, Чистая прибыль: $80 млн, Долг: $800 млн (государственное долевое финансирование проектов Area 1 и Area 4), Деньги: $150 млн, Дивиденды: $30 млн, Капитализация: $2,500 млн (100% госсобственность), Штат: 500 чел., Зарплата: $1,200/мес, Руководитель: Эштеван Пале (",
+				"en": "Empresa Nacional de Hidrocarbonetos (ENH) — a oil and gas company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 80,
+				"debt": 800,
+				"money": 150,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 393,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9491,
+					"д": 32.5756,
+					"province": 459,
+					"staff": 117,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "electricidade_de",
+			"название": {
+				"ru": "Electricidade de Moçambique (EDM)",
+				"en": "Electricidade de Moçambique (EDM)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2020,
+			"description": {
+				"ru": "Электроэнергетика (национальный государственный оператор распределительных и магистральных сетей — ) [Выручка: $500 млн, Чистая прибыль: $30 млн, Долг: $800 млн, Деньги: $60 млн, Дивиденды: $5 млн, Капитализация: $0 (100% госсобственность), Штат: 4,000 чел., Зарплата: $450/мес, Руководитель: Марселину Жилду Алберту (Marcelino Gildo Alberto), Председатель совета директоров с 2020 года, родился в 19",
+				"en": "Electricidade de Moçambique (EDM) — a energy company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 30,
+				"debt": 800,
+				"money": 60,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 659
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 889,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.997,
+					"д": 32.5441,
+					"province": 459,
+					"staff": 266,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, штат, зарплата"
+			]
+		},
+		{
+			"id": "millennium_bim",
+			"название": {
+				"ru": "Millennium bim (Banco Internacional de Moçambique)",
+				"en": "Millennium bim (Banco Internacional de Moçambique)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банковские и финансовые услуги (крупнейший коммерческий банк страны по депозитам и активам — ) [Выручка: $350 млн (банковские доходы), Чистая прибыль: $110 млн (MZN 7.2 млрд), Долг: $0 (активы свыше $3.5 млрд), Деньги: $0, Дивиденды: $60 млн, Капитализация: $750 млн (мажоритарный акционер Millennium BCP Portugal 66.7%, государство Мозамбик), Штат: 2,500 чел., Зарплата: $650/мес, Руководитель: Мойз",
+				"en": "Millennium bim (Banco Internacional de Moçambique) — a financial company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 110,
+				"debt": 3500,
+				"money": 0,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 750
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9497,
+					"д": 32.6294,
+					"province": 459,
+					"staff": 300,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "banco_comercial",
+			"название": {
+				"ru": "Banco Comercial e de Investimentos (BCI)",
+				"en": "Banco Comercial e de Investimentos (BCI)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Банки и финансы (второй по величине банк Молдавии/Мозамбика, контролируется Caixa Geral de Depósitos и BPI — ) [Выручка: $280 млн, Чистая прибыль: $85 млн, Долг: $0 (активы $3.0 млрд), Деньги: $0, Дивиденды: $45 млн, Капитализация: $600 млн, Штат: 2,800 чел., Зарплата: $600/мес, Руководитель: Франсишку Кошта (Francisco Costa), Председатель исполнительного комитета с 2021 года, родился в 1966 году.",
+				"en": "Banco Comercial e de Investimentos (BCI) — a financial company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 85,
+				"debt": 3000,
+				"money": 0,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9952,
+					"д": 32.5888,
+					"province": 459,
+					"staff": 240,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "vodacom_mo",
+			"название": {
+				"ru": "Vodacom Moçambique",
+				"en": "Vodacom Moçambique"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Мобильная связь, интернет и мобильный банкинг M-Pesa (крупнейший мобильный оператор Мозамбика — ) [Выручка: $380 млн, Чистая прибыль: $60 млн, Долг: $50 млн, Деньги: $40 млн, Дивиденды: $35 млн, Капитализация: $550 млн (Vodacom Group / Vodafone), Штат: 800 чел., Зарплата: $700/мес, Руководитель: Саймон Карикари (Simon Karikari), Главный исполнительный директор с 2022 года, родился в 1976 году.]. О",
+				"en": "Vodacom Moçambique — a IT and telecom company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 380,
+				"profit": 60,
+				"debt": 50,
+				"money": 40,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 550
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1006,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9261,
+					"д": 32.6024,
+					"province": 459,
+					"staff": 301,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "cervejas_de",
+			"название": {
+				"ru": "Cervejas de Moçambique (CDM)",
+				"en": "Cervejas de Moçambique (CDM)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Пивоваренная промышленность (национальные бренды 2M, Laurentina, Manica, дочернее предприятие AB InBev — ) [Выручка: $320 млн, Чистая прибыль: $40 млн, Долг: $40 млн, Деньги: $30 млн, Дивиденды: $20 млн, Капитализация: $350 млн (BVM: CDM), Штат: 1,400 чел., Зарплата: $450/мес, Руководитель: Уго Гомеш (Hugo Gomes), Управляющий директор, родился в 1975 году.]. Официальные источники: https://www.cdm.",
+				"en": "Cervejas de Moçambique (CDM) — a consumer and retail company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 320,
+				"profit": 40,
+				"debt": 40,
+				"money": 30,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 350
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 960,
+			"wage": 111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Manica"
+					},
+					"ш": -18.9,
+					"д": 32.8616,
+					"province": 458,
+					"staff": 288,
+					"fine": 2785
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "linhas_a",
+			"название": {
+				"ru": "Linhas Aéreas de Moçambique (LAM)",
+				"en": "Linhas Aéreas de Moçambique (LAM)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Авиаперевозки (национальный авиаперевозчик Мозамбика — ) [Выручка: $120 млн, Чистая прибыль: -$20 млн (программа оздоровления), Долг: $150 млн, Деньги: $15 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 850 чел., Зарплата: $700/мес, Руководитель: Америку Мушанга (Américo Muchanga), Генеральный директор с 2024 года, родился в 1969 году.]. Официальные источники: https://www.lam",
+				"en": "Linhas Aéreas de Moçambique (LAM) — a transport company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": -20,
+				"debt": 150,
+				"money": 15,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 86
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9557,
+					"д": 32.5928,
+					"province": 459,
+					"staff": 90,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "complexo_de",
+			"название": {
+				"ru": "Complexo de Manutenção e Oficinas Gerais das FADM (Matola General Workshops)",
+				"en": "Complexo de Manutenção e Oficinas Gerais das FADM (Matola General Workshops)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-ремонтный комплекс вооружения и бронетанковой техники Вооруженных сил обороны Мозамбика (FADM — Официальные источники: https://www.mdn.gov.mz, https://www.mdn.gov.mz/defense (Оборонные программы)",
+				"en": "Complexo de Manutenção e Oficinas Gerais das FADM (Matola General Workshops) — a defence company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 64,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор службы материально-технического снабжения и вооружения Генштаба FADM (Coronel / Diretor de Logística Militar)]",
+					"en": "Директор службы материально-технического снабжения и вооружения Генштаба FADM (Coronel / Diretor de Logística Militar)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 192,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Матола",
+						"en": "Matola"
+					},
+					"ш": -25.9858,
+					"д": 32.4866,
+					"province": 459,
+					"staff": 57,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_naval",
+			"название": {
+				"ru": "Base Naval de Maputo e Nacala (Estaleiros da Marinha de Guerra)",
+				"en": "Base Naval de Maputo e Nacala (Estaleiros da Marinha de Guerra)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судоремонтные верфи и пункты базирования ВМС Мозамбика (Marinha de Guerra de Moçambique — Официальные источники: https://www.mdn.gov.mz, https://www.mdn.gov.mz/defense (Оборонные программы)",
+				"en": "Base Naval de Maputo e Nacala (Estaleiros da Marinha de Guerra) — a defence company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 112
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Контр-адмирал, Командующий ВМС Мозамбика (Contra-almirante, Comandante da Marinha de Guerra)]",
+					"en": "Контр-адмирал, Командующий ВМС Мозамбика (Contra-almirante, Comandante da Marinha de Guerra)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 180,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -26.0016,
+					"д": 32.5636,
+					"province": 459,
+					"staff": 54,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_6",
+			"название": {
+				"ru": "Base Aérienne de Mavalane (Oficinas Técnicas da Força Aérea)",
+				"en": "Base Aérienne de Mavalane (Oficinas Técnicas da Força Aérea)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-техническая база обслуживания боевой и военно-транспортной авиации ВВС Мозамбика — Официальные источники: https://www.mdn.gov.mz, https://www.mdn.gov.mz/defense (Оборонные программы)",
+				"en": "Base Aérienne de Mavalane (Oficinas Técnicas da Força Aérea) — a defence company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 58,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал-майор авиации, Командующий ВВС Мозамбика (Major-general, Comandante da Força Aérea)]",
+					"en": "Генерал-майор авиации, Командующий ВВС Мозамбика (Major-general, Comandante da Força Aérea)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 174,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9497,
+					"д": 32.6294,
+					"province": 459,
+					"staff": 52,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "batalh_o",
+			"название": {
+				"ru": "Batalhão de Engenharia Militar e Desminagem de Boane",
+				"en": "Batalhão de Engenharia Militar e Desminagem de Boane"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-инженерный центр и полигон механизированного разминирования — Официальные источники: https://www.mdn.gov.mz, https://www.mdn.gov.mz/defense (Оборонные программы)",
+				"en": "Batalhão de Engenharia Militar e Desminagem de Boane — a defence company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 57,
+				"profit": 4,
+				"debt": 15,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 107
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир инженерного батальона FADM]",
+					"en": "Командир инженерного батальона FADM]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 171,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9713,
+					"д": 32.6193,
+					"province": 459,
+					"staff": 51,
+					"fine": 2794
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "d_p_3",
+			"название": {
+				"ru": "Dépósito Central de Material Bélico e Munições (Polígono de Malhazine)",
+				"en": "Dépósito Central de Material Bélico e Munições (Polígono de Malhazine)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный стратегический арсенал боеприпасов и артиллерийского вооружения Вооруженных сил — Официальные источники: https://www.mdn.gov.mz, https://www.mdn.gov.mz/defense (Оборонные программы)",
+				"en": "Dépósito Central de Material Bélico e Munições (Polígono de Malhazine) — a defence company of Mozambique."
+			},
+			"fundamental": {
+				"выручка": 55,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 103
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мозамбик)",
+						"en": "The state (Mozambique)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мозамбик"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Комендант центрального арсенала FADM]",
+					"en": "Комендант центрального арсенала FADM]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 165,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мапуто",
+						"en": "Maputo"
+					},
+					"ш": -25.9824,
+					"д": 32.5768,
+					"province": 459,
+					"staff": 49,
+					"fine": 2793
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

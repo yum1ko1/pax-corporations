@@ -1,0 +1,3535 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Индия",
+	"iso": "IND",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "reliance",
+			"название": {
+				"ru": "Reliance Industries",
+				"en": "Reliance Industries"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Крупнейшая компания Индии: НПЗ Джамнагар, связь Jio, ритейл.",
+				"en": "India's largest company: the Jamnagar refinery, Jio telecom, retail."
+			},
+			"fundamental": {
+				"выручка": 115000,
+				"profit": 8500,
+				"debt": 40000,
+				"money": 25000,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 13530,
+				"market_cap": 230000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Амбани",
+						"en": "The Ambani family"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мукеш Амбани",
+					"en": "Mukesh Ambani"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2002,
+				"born_year": 1957,
+				"доля": 0.5,
+				"характер": {
+					"ru": "богатейший азиат",
+					"en": "богатейший азиат"
+				}
+			},
+			"staff": 350000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.06,
+					"д": 72.83,
+					"province": 631,
+					"staff": 20000,
+					"fine": 1741
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Джамнагар",
+						"en": "Jamnagar refinery"
+					},
+					"ш": 22.35,
+					"д": 69.85,
+					"province": 490,
+					"staff": 30000,
+					"fine": 1759
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ril.com/ | Отчёты Reliance Industries 2024–2025; https://www.ril.com/"
+		},
+		{
+			"id": "tcs",
+			"название": {
+				"ru": "Tata Consultancy Services",
+				"en": "Tata Consultancy Services"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Крупнейший IT-аутсорсер Индии.",
+				"en": "India's largest IT outsourcer."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 5800,
+				"debt": 0,
+				"money": 6000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 3620,
+				"market_cap": 160000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tata Sons",
+						"en": "Tata Sons"
+					},
+					"type": "крупный",
+					"доля": 0.72,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.28
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "К. Кртивасан",
+					"en": "K. Krithivasan"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер Tata",
+					"en": "инженер Tata"
+				}
+			},
+			"staff": 610000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.93,
+					"д": 72.83,
+					"province": 631,
+					"staff": 20000,
+					"fine": 1741
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bangalore"
+					},
+					"ш": 12.97,
+					"д": 77.59,
+					"province": 633,
+					"staff": 60000,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tcs.com/ | Отчёты TCS 2024–2025; https://www.tcs.com/"
+		},
+		{
+			"id": "hdfcbank",
+			"название": {
+				"ru": "HDFC Bank",
+				"en": "HDFC Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший частный банк Индии.",
+				"en": "India's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 8000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 7650,
+				"market_cap": 170000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сашидхар Джагдишан",
+					"en": "Sashidhar Jagdishan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 210000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.99,
+					"д": 72.83,
+					"province": 631,
+					"staff": 15000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hdfcbank.com/ | Отчёты HDFC Bank 2024–2025; https://www.hdfcbank.com/"
+		},
+		{
+			"id": "icici",
+			"название": {
+				"ru": "ICICI Bank",
+				"en": "ICICI Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Второй частный банк Индии.",
+				"en": "India's second private bank."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 6000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 7100,
+				"market_cap": 115000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сандип Бакши",
+					"en": "Sandeep Bakhshi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 140000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.06,
+					"д": 72.86,
+					"province": 631,
+					"staff": 12000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.icicibank.com/ | Отчёты ICICI Bank 2024–2025; https://www.icicibank.com/"
+		},
+		{
+			"id": "infosys",
+			"название": {
+				"ru": "Infosys",
+				"en": "Infosys"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Второй IT-аутсорсер Индии.",
+				"en": "India's second IT outsourcer."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 3200,
+				"debt": 0,
+				"money": 4500,
+				"dividends": 2300
+			},
+			"рынок": {
+				"shares_mln": 4150,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели (Нараяна Мурти и др.)",
+						"en": "The founders (Narayana Murthy and others)"
+					},
+					"type": "founder",
+					"доля": 0.14
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.86
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Салил Парекх",
+					"en": "Salil Parekh"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 320000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bangalore"
+					},
+					"ш": 12.85,
+					"д": 77.66,
+					"province": 633,
+					"staff": 40000,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.infosys.com/ | Отчёты Infosys 2024–2025; https://www.infosys.com/"
+		},
+		{
+			"id": "sbi",
+			"название": {
+				"ru": "State Bank of India",
+				"en": "State Bank of India"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1806,
+			"description": {
+				"ru": "Крупнейший банк Индии, государственный.",
+				"en": "India's largest bank, state-owned."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 8500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1700
+			},
+			"рынок": {
+				"shares_mln": 8920,
+				"market_cap": 85000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.57,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.43
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ч. С. Сетти",
+					"en": "C. S. Setty"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "госбанкир",
+					"en": "госбанкир"
+				}
+			},
+			"staff": 230000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.92,
+					"д": 72.83,
+					"province": 631,
+					"staff": 15000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://sbi.co.in/ | Отчёты State Bank of India 2024–2025; https://sbi.co.in/"
+		},
+		{
+			"id": "airtel",
+			"название": {
+				"ru": "Bharti Airtel",
+				"en": "Bharti Airtel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй оператор связи Индии, Airtel Africa.",
+				"en": "India's second telecom, Airtel Africa."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": 2500,
+				"debt": 25000,
+				"money": 2000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 6000,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Миттал (Bharti)",
+						"en": "The Mittal family (Bharti)"
+					},
+					"type": "founder",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Singtel",
+						"en": "Singtel"
+					},
+					"type": "company",
+					"доля": 0.28,
+					"country": "Сингапур"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.32
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гопал Виттал",
+					"en": "Gopal Vittal"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог",
+					"en": "маркетолог"
+				}
+			},
+			"staff": 30000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.55,
+					"д": 77.2,
+					"province": 915,
+					"staff": 8000,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.airtel.in/ | Отчёты Bharti Airtel 2024–2025; https://www.airtel.in/"
+		},
+		{
+			"id": "itc",
+			"название": {
+				"ru": "ITC",
+				"en": "ITC"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1910,
+			"description": {
+				"ru": "Сигареты, еда, отели; BAT — крупнейший акционер.",
+				"en": "Cigarettes, food, hotels; BAT is the biggest shareholder."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 2400,
+				"debt": 0,
+				"money": 2500,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 12500,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "British American Tobacco",
+						"en": "British American Tobacco"
+					},
+					"type": "company",
+					"доля": 0.23,
+					"country": "Великобритания",
+					"company": "bat"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Санджив Пури",
+					"en": "Sanjiv Puri"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 37000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калькутта",
+						"en": "Kolkata"
+					},
+					"ш": 22.55,
+					"д": 88.35,
+					"province": 149,
+					"staff": 5000,
+					"fine": 1752
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.itcportal.com/ | Отчёты ITC Limited 2024–2025; https://www.itcportal.com/"
+		},
+		{
+			"id": "hul",
+			"название": {
+				"ru": "Hindustan Unilever",
+				"en": "Hindustan Unilever"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1933,
+			"description": {
+				"ru": "Потребтовары Unilever в Индии.",
+				"en": "Unilever's consumer goods in India."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 1250,
+				"debt": 0,
+				"money": 1000,
+				"dividends": 1150
+			},
+			"рынок": {
+				"shares_mln": 2350,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Unilever",
+						"en": "Unilever"
+					},
+					"type": "company",
+					"доля": 0.62,
+					"country": "Великобритания",
+					"company": "unilever"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.38
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рохит Джава",
+					"en": "Rohit Jawa"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог",
+					"en": "маркетолог"
+				}
+			},
+			"staff": 21000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.12,
+					"д": 72.85,
+					"province": 631,
+					"staff": 3000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.hul.co.in/ | Отчёты Hindustan Unilever 2024–2025; https://www.hul.co.in/"
+		},
+		{
+			"id": "lic",
+			"название": {
+				"ru": "Life Insurance Corporation",
+				"en": "Life Insurance Corporation"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1956,
+			"description": {
+				"ru": "Крупнейший страховщик Индии.",
+				"en": "India's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 100000,
+				"profit": 5000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 6320,
+				"market_cap": 70000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.96,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.04
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сиддхартха Моханти",
+					"en": "Siddhartha Mohanty"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 100000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.94,
+					"д": 72.83,
+					"province": 631,
+					"staff": 10000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://licindia.in/ | Отчёты LIC of India 2024–2025; https://licindia.in/"
+		},
+		{
+			"id": "lt",
+			"название": {
+				"ru": "Larsen & Toubro",
+				"en": "Larsen & Toubro"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1938,
+			"description": {
+				"ru": "Крупнейший строитель и машиностроитель Индии.",
+				"en": "India's largest builder and engineer."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1800,
+				"debt": 15000,
+				"money": 4000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1375,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд сотрудников L&T",
+						"en": "L&T employee trust"
+					},
+					"type": "сама",
+					"доля": 0.14
+				},
+				{
+					"кто": {
+						"ru": "LIC",
+						"en": "LIC"
+					},
+					"type": "company",
+					"доля": 0.13,
+					"country": "Индия",
+					"company": "lic"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.73
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "С. Н. Субраманьян",
+					"en": "S. N. Subrahmanyan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 50000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.12,
+					"д": 72.88,
+					"province": 631,
+					"staff": 5000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.larsentoubro.com/ | Отчёты Larsen & Toubro 2024–2025; https://www.larsentoubro.com/"
+		},
+		{
+			"id": "tatamotors",
+			"название": {
+				"ru": "Tata Motors",
+				"en": "Tata Motors"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Автомобили Tata и Jaguar Land Rover.",
+				"en": "Tata cars and Jaguar Land Rover."
+			},
+			"fundamental": {
+				"выручка": 52000,
+				"profit": 3000,
+				"debt": 12000,
+				"money": 6000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 3680,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tata Sons",
+						"en": "Tata Sons"
+					},
+					"type": "крупный",
+					"доля": 0.46,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шайлеш Чандра",
+					"en": "Shailesh Chandra"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер Tata",
+					"en": "менеджер Tata"
+				}
+			},
+			"staff": 90000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.93,
+					"д": 72.83,
+					"province": 631,
+					"staff": 3000,
+					"fine": 1741
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пуна",
+						"en": "Pune"
+					},
+					"ш": 18.62,
+					"д": 73.81,
+					"province": 631,
+					"staff": 15000,
+					"fine": 1741
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Jaguar Land Rover, Солихалл",
+						"en": "Jaguar Land Rover, Solihull"
+					},
+					"ш": 52.43,
+					"д": -1.78,
+					"province": 487,
+					"staff": 10000,
+					"fine": 1428
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tatamotors.com/ | Отчёты Tata Motors 2024–2025; https://www.tatamotors.com/"
+		},
+		{
+			"id": "tatasteel",
+			"название": {
+				"ru": "Tata Steel",
+				"en": "Tata Steel"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1907,
+			"description": {
+				"ru": "Сталь Индии и Европы (Порт-Тэлбот, Эймёйден).",
+				"en": "Steel of India and Europe (Port Talbot, IJmuiden)."
+			},
+			"fundamental": {
+				"выручка": 27000,
+				"profit": 500,
+				"debt": 11000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 12480,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tata Sons",
+						"en": "Tata Sons"
+					},
+					"type": "крупный",
+					"доля": 0.33,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Т. В. Нарендран",
+					"en": "T. V. Narendran"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2013,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 78000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джамшедпур",
+						"en": "Jamshedpur"
+					},
+					"ш": 22.8,
+					"д": 86.2,
+					"province": 747,
+					"staff": 20000,
+					"fine": 1751
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Эймёйден",
+						"en": "IJmuiden"
+					},
+					"ш": 52.47,
+					"д": 4.6,
+					"province": 487,
+					"staff": 9000,
+					"fine": 2954
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.tatasteel.com/ | Отчёты Tata Steel 2024–2025; https://www.tatasteel.com/"
+		},
+		{
+			"id": "adani",
+			"название": {
+				"ru": "Adani Enterprises",
+				"en": "Adani Enterprises"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Флагман группы Адани: уголь, аэропорты, «зелёный» водород.",
+				"en": "The Adani group flagship: coal, airports, green hydrogen."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 900,
+				"debt": 12000,
+				"money": 1500,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1150,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Адани",
+						"en": "The Adani family"
+					},
+					"type": "founder",
+					"доля": 0.74
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.26
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гаутам Адани",
+					"en": "Gautam Adani"
+				},
+				"роль": "founder",
+				"с_года": 1988,
+				"born_year": 1962,
+				"доля": 0.74,
+				"характер": {
+					"ru": "магнат, близок к Моди, обвинён в США",
+					"en": "магнат, близок к Моди, обвинён в США"
+				}
+			},
+			"staff": 25000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ахмадабад",
+						"en": "Ahmedabad"
+					},
+					"ш": 23.03,
+					"д": 72.56,
+					"province": 490,
+					"staff": 5000,
+					"fine": 1759
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Угольный рудник Кармайкл (Австралия)",
+						"en": "Carmichael coal mine (Australia)"
+					},
+					"ш": -22.0,
+					"д": 146.3,
+					"province": 657,
+					"staff": 2000,
+					"fine": 171
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.adanienterprises.com/ | Отчёты Adani Enterprises 2024–2025; https://www.adanienterprises.com/"
+		},
+		{
+			"id": "adaniports",
+			"название": {
+				"ru": "Adani Ports",
+				"en": "Adani Ports"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший оператор портов Индии, порт Хайфа.",
+				"en": "India's largest port operator, the port of Haifa."
+			},
+			"fundamental": {
+				"выручка": 3600,
+				"profit": 1300,
+				"debt": 6000,
+				"money": 1000,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 2160,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Адани",
+						"en": "The Adani family"
+					},
+					"type": "founder",
+					"доля": 0.66
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.34
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карáн Адани",
+					"en": "Karan Adani"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2016,
+				"born_year": 1987,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сын Гаутама",
+					"en": "сын Гаутама"
+				}
+			},
+			"staff": 7000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мундра",
+						"en": "Mundra"
+					},
+					"ш": 22.75,
+					"д": 69.7,
+					"province": 490,
+					"staff": 5000,
+					"fine": 1759
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.adaniports.com/ | Отчёты Adani Ports 2024–2025; https://www.adaniports.com/"
+		},
+		{
+			"id": "ntpc",
+			"название": {
+				"ru": "NTPC",
+				"en": "NTPC"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Крупнейший энергетик Индии на угле.",
+				"en": "India's largest coal-fired power company."
+			},
+			"fundamental": {
+				"выручка": 22000,
+				"profit": 2700,
+				"debt": 25000,
+				"money": 1500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 9700,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гурдип Сингх",
+					"en": "Gurdeep Singh"
+				},
+				"роль": "госслужащий",
+				"с_года": 2016,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 16000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.59,
+					"д": 77.24,
+					"province": 915,
+					"staff": 3000,
+					"fine": 1731
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Виндхьячал",
+						"en": "Vindhyachal power station"
+					},
+					"ш": 24.1,
+					"д": 82.67,
+					"province": 747,
+					"staff": 3000,
+					"fine": 1756
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ntpc.co.in/ | Отчёты NTPC Limited 2024–2025; https://www.ntpc.co.in/"
+		},
+		{
+			"id": "ongc",
+			"название": {
+				"ru": "ONGC",
+				"en": "ONGC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1956,
+			"description": {
+				"ru": "Государственная нефтедобыча Индии, доля в «Сахалине-1».",
+				"en": "India's state oil producer, a stake in Sakhalin-1."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 5500,
+				"debt": 15000,
+				"money": 4000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 12580,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.59,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Арун Кумар Сингх",
+					"en": "Arun Kumar Singh"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 26000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6,
+					"д": 77.22,
+					"province": 915,
+					"staff": 3000,
+					"fine": 1731
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Бомбей-Хай (офшор)",
+						"en": "Bombay High (offshore)"
+					},
+					"ш": 20.7202,
+					"д": 71.0815,
+					"province": 490,
+					"staff": 3000,
+					"fine": 1759
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ongcindia.com/ | Отчёты ONGC 2024–2025; https://ongcindia.com/"
+		},
+		{
+			"id": "ioc",
+			"название": {
+				"ru": "Indian Oil",
+				"en": "Indian Oil"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1959,
+			"description": {
+				"ru": "Крупнейший нефтепереработчик Индии — покупает российскую нефть.",
+				"en": "India's largest refiner — buys Russian oil."
+			},
+			"fundamental": {
+				"выручка": 100000,
+				"profit": 1500,
+				"debt": 18000,
+				"money": 1000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 14120,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Арвиндер Сингх Сахни",
+					"en": "Arvinder Singh Sahney"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтепереработчик",
+					"en": "нефтепереработчик"
+				}
+			},
+			"staff": 31000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.53,
+					"д": 77.2,
+					"province": 915,
+					"staff": 3000,
+					"fine": 1731
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Панипат",
+						"en": "Panipat refinery"
+					},
+					"ш": 29.48,
+					"д": 76.88,
+					"province": 915,
+					"staff": 3000,
+					"fine": 1733
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://iocl.com/ | Отчёты Indian Oil Corporation 2024–2025; https://iocl.com/"
+		},
+		{
+			"id": "coalindia",
+			"название": {
+				"ru": "Coal India",
+				"en": "Coal India"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1975,
+			"description": {
+				"ru": "Крупнейший добытчик угля в мире.",
+				"en": "The world's largest coal miner."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 4300,
+				"debt": 0,
+				"money": 4000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 6160,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.63,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.37
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "П. М. Прасад",
+					"en": "P. M. Prasad"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 220000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калькутта",
+						"en": "Kolkata"
+					},
+					"ш": 22.57,
+					"д": 88.42,
+					"province": 149,
+					"staff": 2000,
+					"fine": 1752
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Угольный бассейн Джхария",
+						"en": "Jharia coalfield"
+					},
+					"ш": 23.75,
+					"д": 86.42,
+					"province": 747,
+					"staff": 50000,
+					"fine": 1751
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.coalindia.in/ | Отчёты Coal India Limited 2024–2025; https://www.coalindia.in/"
+		},
+		{
+			"id": "maruti",
+			"название": {
+				"ru": "Maruti Suzuki",
+				"en": "Maruti Suzuki"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Каждый второй автомобиль Индии.",
+				"en": "Every second car in India."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": 1700,
+				"debt": 0,
+				"money": 7000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 314,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Suzuki",
+						"en": "Suzuki"
+					},
+					"type": "company",
+					"доля": 0.58,
+					"country": "Япония"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.42
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хисаси Такеути",
+					"en": "Hisashi Takeuchi"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "японец",
+					"en": "японец"
+				}
+			},
+			"staff": 40000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.61,
+					"д": 77.21,
+					"province": 915,
+					"staff": 2000,
+					"fine": 1731
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Манесар",
+						"en": "Manesar"
+					},
+					"ш": 28.35,
+					"д": 76.94,
+					"province": 915,
+					"staff": 15000,
+					"fine": 1733
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.marutisuzuki.com/ | Отчёты Maruti Suzuki 2024–2025; https://www.marutisuzuki.com/"
+		},
+		{
+			"id": "mahindra",
+			"название": {
+				"ru": "Mahindra & Mahindra",
+				"en": "Mahindra & Mahindra"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Внедорожники и крупнейший производитель тракторов в мире.",
+				"en": "SUVs and the world's largest tractor maker."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 1500,
+				"debt": 12000,
+				"money": 2000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1240,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Махиндра",
+						"en": "The Mahindra family"
+					},
+					"type": "founder",
+					"доля": 0.18
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аниш Шах",
+					"en": "Anish Shah"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 260000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 18.96,
+					"д": 72.83,
+					"province": 631,
+					"staff": 3000,
+					"fine": 1741
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Накик",
+						"en": "Nashik"
+					},
+					"ш": 19.99,
+					"д": 73.79,
+					"province": 631,
+					"staff": 8000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mahindra.com/ | Отчёты Mahindra & Mahindra 2024–2025; https://www.mahindra.com/"
+		},
+		{
+			"id": "sunpharma",
+			"название": {
+				"ru": "Sun Pharma",
+				"en": "Sun Pharma"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Крупнейший производитель дженериков в Индии.",
+				"en": "India's largest generic drugmaker."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 1200,
+				"debt": 500,
+				"money": 3000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 2400,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Дилип Шангви",
+						"en": "Dilip Shanghvi"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кирти Ганорвала",
+					"en": "Kirti Ganorkar"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "фармацевт",
+					"en": "фармацевт"
+				}
+			},
+			"staff": 43000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.11,
+					"д": 72.88,
+					"province": 631,
+					"staff": 3000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://sunpharma.com/ | Отчёты Sun Pharma 2024–2025; https://sunpharma.com/"
+		},
+		{
+			"id": "wipro",
+			"название": {
+				"ru": "Wipro",
+				"en": "Wipro"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "IT-аутсорсер Азима Премджи.",
+				"en": "Azim Premji's IT outsourcer."
+			},
+			"fundamental": {
+				"выручка": 10500,
+				"profit": 1400,
+				"debt": 1000,
+				"money": 4000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 10450,
+				"market_cap": 33000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Азим Премджи и фонд",
+						"en": "Azim Premji and foundation"
+					},
+					"type": "founder",
+					"доля": 0.73
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.27
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шринивас Палия",
+					"en": "Srinivas Pallia"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 230000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bangalore"
+					},
+					"ш": 12.84,
+					"д": 77.66,
+					"province": 633,
+					"staff": 30000,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.wipro.com/ | Отчёты Wipro Limited 2024–2025; https://www.wipro.com/"
+		},
+		{
+			"id": "hal",
+			"название": {
+				"ru": "Hindustan Aeronautics",
+				"en": "Hindustan Aeronautics"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1940,
+			"description": {
+				"ru": "Истребители Tejas и вертолёты, лицензионные Су-30.",
+				"en": "Tejas fighters and helicopters, licensed Su-30s."
+			},
+			"fundamental": {
+				"выручка": 3700,
+				"profit": 900,
+				"debt": 0,
+				"money": 4000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 669,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 0.72,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.28
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Д. К. Сунил",
+					"en": "D. K. Sunil"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаинженер",
+					"en": "авиаинженер"
+				}
+			},
+			"staff": 24000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bangalore"
+					},
+					"ш": 12.95,
+					"д": 77.67,
+					"province": 633,
+					"staff": 12000,
+					"fine": 1740
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Насик (Су-30)",
+						"en": "Nashik (Su-30)"
+					},
+					"ш": 20.13,
+					"д": 73.92,
+					"province": 631,
+					"staff": 5000,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://hal-india.co.in/ | Отчёты Hindustan Aeronautics 2024–2025; https://hal-india.co.in/"
+		},
+		{
+			"id": "airindia",
+			"название": {
+				"ru": "Air India",
+				"en": "Air India"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1932,
+			"description": {
+				"ru": "Национальная авиакомпания, выкуплена Tata обратно.",
+				"en": "The national airline, bought back by Tata."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": -500,
+				"debt": 6000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Tata Sons",
+						"en": "Tata Sons"
+					},
+					"type": "крупный",
+					"доля": 0.74,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Singapore Airlines",
+						"en": "Singapore Airlines"
+					},
+					"type": "company",
+					"доля": 0.26,
+					"country": "Сингапур"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кэмпбелл Уилсон",
+					"en": "Campbell Wilson"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "новозеландец, после катастрофы в Ахмадабаде",
+					"en": "новозеландец, после катастрофы в Ахмадабаде"
+				}
+			},
+			"staff": 30000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гургаон",
+						"en": "Gurugram"
+					},
+					"ш": 28.46,
+					"д": 77.03,
+					"province": 915,
+					"staff": 15000,
+					"fine": 1733
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.airindia.com/ | Отчёты Air India 2024–2025; https://www.airindia.com/"
+		},
+		{
+			"id": "nsil",
+			"название": {
+				"ru": "NSIL",
+				"en": "NewSpace India Limited"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "государственная",
+			"founded": 2019,
+			"description": {
+				"ru": "Коммерческая рука индийского космического агентства ISRO: запуски PSLV и LVM3, спутники.",
+				"en": "The commercial arm of the Indian space agency ISRO: PSLV and LVM3 launches, satellites."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 100,
+				"debt": 0,
+				"money": 400,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Индии",
+						"en": "The Indian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Радхакришнан Дурайрадж",
+					"en": "Radhakrishnan Durairaj"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 2000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bengaluru"
+					},
+					"ш": 12.97,
+					"д": 77.59,
+					"province": 633,
+					"staff": 1500,
+					"fine": 1740
+				},
+				{
+					"type": "космодром",
+					"name": {
+						"ru": "Шрихарикота",
+						"en": "Sriharikota"
+					},
+					"ш": 13.72,
+					"д": 80.23,
+					"province": 572,
+					"staff": 500,
+					"fine": 1735
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.nsilindia.co.in/ | Отчёты NSIL / ISRO 2024–2025; https://www.nsilindia.co.in/"
+		},
+		{
+			"id": "skyroot",
+			"название": {
+				"ru": "Skyroot Aerospace",
+				"en": "Skyroot Aerospace"
+			},
+			"sector": "космос",
+			"profile": "космос",
+			"type": "частная",
+			"founded": 2018,
+			"description": {
+				"ru": "Первая частная ракетная компания Индии.",
+				"en": "India's first private rocket company."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": -10,
+				"debt": 0,
+				"money": 65,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели",
+						"en": "Founders"
+					},
+					"type": "founder",
+					"доля": 0.4,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паван Кумар Чандана",
+					"en": "Pawan Kumar Chandana"
+				},
+				"роль": "founder",
+				"с_года": 2018,
+				"born_year": 1990,
+				"доля": 0.25,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 400,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хайдарабад",
+						"en": "Hyderabad"
+					},
+					"ш": 17.39,
+					"д": 78.49,
+					"province": 916,
+					"staff": 500,
+					"fine": 1728
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://skyroot.in/ | Отчёты Skyroot Aerospace 2024–2025; https://skyroot.in/"
+		},
+		{
+			"id": "krutrim",
+			"название": {
+				"ru": "Krutrim",
+				"en": "Krutrim"
+			},
+			"sector": "ии",
+			"profile": "ии",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Индийская ИИ-компания группы Ola.",
+				"en": "An Indian AI company of the Ola group."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": -50,
+				"debt": 0,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Бхавиш Аггарвал",
+						"en": "Bhavish Aggarwal"
+					},
+					"type": "founder",
+					"доля": 0.7,
+					"country": "Индия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бхавиш Аггарвал",
+					"en": "Bhavish Aggarwal"
+				},
+				"роль": "founder",
+				"с_года": 2023,
+				"born_year": 1985,
+				"доля": 0.7,
+				"характер": {
+					"ru": "предприниматель",
+					"en": "предприниматель"
+				}
+			},
+			"staff": 300,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bengaluru"
+					},
+					"ш": 12.93,
+					"д": 77.62,
+					"province": 633,
+					"staff": 300,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — частная, оценка"
+			],
+			"source": "https://www.krutrim.com/ | Отчёты Krutrim SI Designs 2024–2025; https://www.krutrim.com/"
+		},
+		{
+			"id": "adani_green",
+			"название": {
+				"ru": "Adani Green Energy / Adani Power (Adani Group)",
+				"en": "Adani Green Energy / Adani Power (Adani Group)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный холдинг возобновляемой и тепловой энергетики Индии (строительство гигантского энергопарка Хавада в Гуджарате на 30 ГВт ВИЭ; суммарная капитализация свыше $50 млрд, выручка ~$10 млрд). https://www.adanigreenenergy.com/ | https://www.adanipower.com/",
+				"en": "Adani Green Energy / Adani Power (Adani Group) — a energy company of India."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 925,
+				"debt": 6077,
+				"money": 1280,
+				"dividends": 278
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 17791,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6549,
+					"д": 77.1751,
+					"province": 915,
+					"staff": 5337,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jsw_steel",
+			"название": {
+				"ru": "JSW Steel (Jindal South West / Саджан Джиндал)",
+				"en": "JSW Steel (Jindal South West / Саджан Джиндал)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший независимый производитель стали в Индии с годовой мощностью более 29 млн тонн (металлургический мегакомбинат Виджаянагар; капитализация ~$28 млрд, выручка ~$21 млрд, чистая прибыль ~$1.1 млрд). https://www.jswsteel.in/",
+				"en": "JSW Steel (Jindal South West / Саджан Джиндал) — a metals and mining company of India."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": 1100,
+				"debt": 7000,
+				"money": 2520,
+				"dividends": 330
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60666,
+			"wage": 536,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6402,
+					"д": 77.2013,
+					"province": 915,
+					"staff": 18199,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bajaj_auto",
+			"название": {
+				"ru": "Bajaj Auto / Bajaj Finserv (Bajaj Group)",
+				"en": "Bajaj Auto / Bajaj Finserv (Bajaj Group)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер и крупнейший индийский экспортер двух- и трехколесного транспорта (мотоциклы Pulsar, Boxer, электроскутеры Chetak; финансовый гигант Bajaj Finance; суммарная капитализация свыше $80 млрд, выручка ~$15 млрд). https://www.bajajauto.com/ | https://www.bajajfinserv.in/",
+				"en": "Bajaj Auto / Bajaj Finserv (Bajaj Group) — a transport company of India."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": 1000,
+				"debt": 7576,
+				"money": 3103,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 80000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 37500,
+			"wage": 491,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.5958,
+					"д": 77.21,
+					"province": 915,
+					"staff": 11250,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hcl_technologies",
+			"название": {
+				"ru": "HCL Technologies",
+				"en": "HCL Technologies"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по величине глобальный индийский ИТ-концерн (Рошни Надар Мальхотра; цифровые трансформации, инженерные R&D-услуги, гибридные облака; капитализация ~$55 млрд, выручка ~$13.5 млрд, чистая прибыль ~$1.9 млрд, 225,000 сотр.). https://www.hcltech.com/",
+				"en": "HCL Technologies — a IT and telecom company of India."
+			},
+			"fundamental": {
+				"выручка": 13500,
+				"profit": 1900,
+				"debt": 4292,
+				"money": 2250,
+				"dividends": 570
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 35761,
+			"wage": 538,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6361,
+					"д": 77.251,
+					"province": 915,
+					"staff": 10728,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ultratech_cement",
+			"название": {
+				"ru": "UltraTech Cement (Aditya Birla Group)",
+				"en": "UltraTech Cement (Aditya Birla Group)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель цемента, клинкера и строительных смесей в Индии и третий в мире (мощности свыше 150 млн тонн в год; капитализация ~$38 млрд, выручка ~$8.5 млрд). https://www.ultratechcement.com/",
+				"en": "UltraTech Cement (Aditya Birla Group) — a construction company of India."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 708,
+				"debt": 3298,
+				"money": 1115,
+				"dividends": 212
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 26738,
+			"wage": 384,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.5817,
+					"д": 77.2421,
+					"province": 915,
+					"staff": 8021,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vedanta_limited",
+			"название": {
+				"ru": "Vedanta Limited (Анил Агарвал)",
+				"en": "Vedanta Limited (Анил Агарвал)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Многопрофильный горно-металлургический и ресурсный конгломерат (крупнейший в Индии производитель первичного алюминия, цинка Hindustan Zinc, свинца, меди и добыча нефти Cairn Oil & Gas; выручка ~$18 млрд). https://www.vedantalimited.com/",
+				"en": "Vedanta Limited (Анил Агарвал) — a metals and mining company of India."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 2000,
+				"debt": 6000,
+				"money": 2160,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 21600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 52000,
+			"wage": 536,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6166,
+					"д": 77.2026,
+					"province": 915,
+					"staff": 15600,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "indigo",
+			"название": {
+				"ru": "IndiGo (InterGlobe Aviation)",
+				"en": "IndiGo (InterGlobe Aviation)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Абсолютный доминант индийских пассажирских авиаперевозок с долей внутреннего рынка более 60% (флот из более 380 самолетов A320neo/A321neo, портфель твердых заказов на сотни бортов; выручка ~$8.5 млрд). https://www.goindigo.in/",
+				"en": "IndiGo (InterGlobe Aviation) — a transport company of India."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 567,
+				"debt": 4293,
+				"money": 1759,
+				"dividends": 170
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6071
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 21250,
+			"wage": 491,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6489,
+					"д": 77.2067,
+					"province": 915,
+					"staff": 6375,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dr_reddy",
+			"название": {
+				"ru": "Dr. Reddy's Laboratories & Cipla",
+				"en": "Dr. Reddy's Laboratories & Cipla"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагманы «мировой аптеки» — глобальные фармацевтические гиганты по разработке и синтезу дженериков, биосимиляров и активных фармингредиентов (выручка каждого ~$3.5–4.0 млрд, капитализация ~$15–18 млрд). https://www.drreddys.com/ | https://www.cipla.com/",
+				"en": "Dr. Reddy's Laboratories & Cipla — a pharmaceutical company of India."
+			},
+			"fundamental": {
+				"выручка": 5950,
+				"profit": 893,
+				"debt": 2771,
+				"money": 778,
+				"dividends": 268
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 22085
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10865,
+			"wage": 435,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6118,
+					"д": 77.2272,
+					"province": 915,
+					"staff": 3259,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bharat_electronics",
+			"название": {
+				"ru": "Bharat Electronics Limited (BEL, Бангалор)",
+				"en": "Bharat Electronics Limited (BEL, Бангалор)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный гигант радиоэлектронного и радиолокационного оборонного комплекса",
+				"en": "Bharat Electronics Limited (BEL, Бангалор) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2550,
+				"profit": 170,
+				"debt": 656,
+				"money": 392,
+				"dividends": 51
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4781
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7650,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bengaluru"
+					},
+					"ш": 12.979,
+					"д": 77.5582,
+					"province": 633,
+					"staff": 2295,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mazagon_dock",
+			"название": {
+				"ru": "Mazagon Dock Shipbuilders Limited (MDL, Мумбаи)",
+				"en": "Mazagon Dock Shipbuilders Limited (MDL, Мумбаи)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная верфь военного кораблестроения Индии",
+				"en": "Mazagon Dock Shipbuilders Limited (MDL, Мумбаи) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2550,
+				"profit": 170,
+				"debt": 656,
+				"money": 392,
+				"dividends": 51
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4781
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7650,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мумбаи",
+						"en": "Mumbai"
+					},
+					"ш": 19.0894,
+					"д": 72.8877,
+					"province": 631,
+					"staff": 2295,
+					"fine": 1741
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cochin_shipyard",
+			"название": {
+				"ru": "Cochin Shipyard Limited (CSL, Кочи) & Garden Reach Shipbuilders (GRSE, Калькутта)",
+				"en": "Cochin Shipyard Limited (CSL, Кочи) & Garden Reach Shipbuilders (GRSE, Калькутта)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Cochin Shipyard Limited (CSL, Кочи) & Garden Reach Shipbuilders (GRSE, Калькутта) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 160,
+				"debt": 617,
+				"money": 369,
+				"dividends": 48
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7200,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Калькутта",
+						"en": "Kolkata"
+					},
+					"ш": 22.5352,
+					"д": 88.3681,
+					"province": 149,
+					"staff": 2160,
+					"fine": 1752
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bharat_dynamics",
+			"название": {
+				"ru": "Bharat Dynamics Limited (BDL, Хайдарабад)",
+				"en": "Bharat Dynamics Limited (BDL, Хайдарабад)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный центр ракетостроения и производства высокоточного оружия",
+				"en": "Bharat Dynamics Limited (BDL, Хайдарабад) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2250,
+				"profit": 150,
+				"debt": 579,
+				"money": 346,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4219
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6750,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хайдарабад",
+						"en": "Hyderabad"
+					},
+					"ш": 17.4185,
+					"д": 78.4299,
+					"province": 916,
+					"staff": 2025,
+					"fine": 1728
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "brahmos_aerospace",
+			"название": {
+				"ru": "BrahMos Aerospace (Нью-Дели / Хайдарабад)",
+				"en": "BrahMos Aerospace (Нью-Дели / Хайдарабад)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное российско-индийское предприятие (DRDO и АО «ВПК «НПО машиностроения»)",
+				"en": "BrahMos Aerospace (Нью-Дели / Хайдарабад) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2138,
+				"profit": 143,
+				"debt": 550,
+				"money": 329,
+				"dividends": 43
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4009
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6414,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дели",
+						"en": "Delhi"
+					},
+					"ш": 28.6154,
+					"д": 77.2274,
+					"province": 915,
+					"staff": 1924,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "munitions_india",
+			"название": {
+				"ru": "Munitions India Limited (MIL) & Armoured Vehicles Nigam Limited (AVANI)",
+				"en": "Munitions India Limited (MIL) & Armoured Vehicles Nigam Limited (AVANI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Munitions India Limited (MIL) & Armoured Vehicles Nigam Limited (AVANI) — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 2025,
+				"profit": 135,
+				"debt": 521,
+				"money": 312,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3797
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Индия)",
+						"en": "The state (India)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Индия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6075,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.5966,
+					"д": 77.1936,
+					"province": 915,
+					"staff": 1822,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tata_advanced",
+			"название": {
+				"ru": "Tata Advanced Systems (TASL) & L&T Defence",
+				"en": "Tata Advanced Systems (TASL) & L&T Defence"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие частные оборонные холдинги",
+				"en": "Tata Advanced Systems (TASL) & L&T Defence — a defence company of India."
+			},
+			"fundamental": {
+				"выручка": 1912,
+				"profit": 127,
+				"debt": 492,
+				"money": 294,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3585
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5736,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нью-Дели",
+						"en": "New Delhi"
+					},
+					"ш": 28.6271,
+					"д": 77.1969,
+					"province": 915,
+					"staff": 1720,
+					"fine": 1731
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

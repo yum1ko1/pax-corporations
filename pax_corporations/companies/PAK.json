@@ -1,0 +1,1493 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Пакистан",
+	"iso": "PAK",
+	"data_date": "2026-03",
+	"average_wage": 150,
+	"companies": [
+		{
+			"id": "ogdcl",
+			"название": {
+				"ru": "OGDCL",
+				"en": "OGDCL"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1961,
+			"description": {
+				"ru": "Государственная нефть и газ Пакистана.",
+				"en": "Pakistan's state oil and gas."
+			},
+			"fundamental": {
+				"выручка": 1700,
+				"profit": 700,
+				"debt": 0,
+				"money": 2000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 4300,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Пакистана",
+						"en": "The Pakistani state"
+					},
+					"type": "polity",
+					"доля": 0.85,
+					"country": "Пакистан"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.15
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ахмед Хаят Лак",
+					"en": "Ahmed Hayat Lak"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 10000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исламабад",
+						"en": "Islamabad"
+					},
+					"ш": 33.7,
+					"д": 73.05,
+					"province": 380,
+					"staff": 3000,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ogdcl.com/financial-reports | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hbl",
+			"название": {
+				"ru": "HBL",
+				"en": "Habib Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1941,
+			"description": {
+				"ru": "Крупнейший банк Пакистана, контроль у фонда Ага Хана.",
+				"en": "Pakistan's largest bank, controlled by the Aga Khan fund."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 350,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1470,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд экономического развития Ага Хана",
+						"en": "Aga Khan Fund for Economic Development"
+					},
+					"type": "крупный",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нассир Салим",
+					"en": "Nassir Salim"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 23000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.85,
+					"д": 67.0,
+					"province": 489,
+					"staff": 8000,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.hbl.com/investor-relations/financial-reports | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "pso",
+			"название": {
+				"ru": "Pakistan State Oil",
+				"en": "Pakistan State Oil"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1976,
+			"description": {
+				"ru": "Топливо и АЗС Пакистана.",
+				"en": "Pakistan's fuel and stations."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 100,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 470,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Пакистана",
+						"en": "The Pakistani state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Пакистан"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сайед Мухаммад Таха",
+					"en": "Syed Muhammad Taha"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 2500,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.84,
+					"д": 67.03,
+					"province": 489,
+					"staff": 2500,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://psopk.com/en/investors/financial-reports | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lucky",
+			"название": {
+				"ru": "Lucky Cement",
+				"en": "Lucky Cement"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1993,
+			"description": {
+				"ru": "Крупнейший цементник Пакистана и сборка Kia.",
+				"en": "Pakistan's largest cement maker and Kia assembly."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 250,
+				"debt": 300,
+				"money": 200,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 293,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Табба",
+						"en": "The Tabba family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мухаммад Али Табба",
+					"en": "Muhammad Ali Tabba"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2005,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "промышленник",
+					"en": "промышленник"
+				}
+			},
+			"staff": 5000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.86,
+					"д": 67.05,
+					"province": 489,
+					"staff": 1000,
+					"fine": 3055
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пезу",
+						"en": "Pezu"
+					},
+					"ш": 32.29,
+					"д": 70.71,
+					"province": 380,
+					"staff": 2000,
+					"fine": 3056
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lucky-cement.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "fauji_fertilizer",
+			"название": {
+				"ru": "Fauji Fertilizer Company (FFC / Fauji Group)",
+				"en": "Fauji Fertilizer Company (FFC / Fauji Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Равалпинди — крупнейший диверсифицированный военно-промышленный и коммерческий холдинг (лидер в производстве карбамида, удобрений, энергетике и пищепроме). [Выручка: 2 200 млн $ (610 000 млн PKR), Чистая прибыль: 250 млн $, Штат: 18 000 чел., Руководитель: Джахангир Пирача (Jahangir Piracha), с 2023 года, 1968 г.р.]. Официальные источники: https://www.ffc.com.pk/investor-relations/",
+				"en": "Fauji Fertilizer Company (FFC / Fauji Group) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 648,
+				"profit": 43,
+				"debt": 167,
+				"money": 100,
+				"dividends": 13
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1215
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1944,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Равалпинди",
+						"en": "Rawalpindi"
+					},
+					"ш": 33.5598,
+					"д": 73.0402,
+					"province": 380,
+					"staff": 583,
+					"fine": 3054
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "engro_corporation",
+			"название": {
+				"ru": "Engro Corporation",
+				"en": "Engro Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Карачи — ведущий частный промышленный конгломерат Пакистана (полимеры Engro Polymer, агрохимия, СПГ-терминал Elengy, энергетика Thar Coal). [Выручка: 1 600 млн $ (440 000 млн PKR), Чистая прибыль: 130 млн $, Штат: 4 000 чел., Руководитель: Гиас Хан (Ghias Khan), президент с 2016 года, 1976 г.р.]. Официальные источники: https://www.engro.com/investor-relations/",
+				"en": "Engro Corporation — a oil and gas company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 595,
+				"profit": 35,
+				"debt": 168,
+				"money": 57,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 370
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 520,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8722,
+					"д": 67.0198,
+					"province": 489,
+					"staff": 156,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mcb_bank",
+			"название": {
+				"ru": "MCB Bank",
+				"en": "MCB Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Лахор — один из самых стабильных и рентабельных коммерческих банков Пакистана (контролируется Nishat Group). [Выручка: 1 400 млн $ (390 000 млн PKR), Чистая прибыль: 230 млн $, Штат: 14 000 чел., Руководитель: Шоаиб Мумтаз (Shoaib Mumtaz), с 2021 года, 1966 г.р.]. Официальные источники: https://www.mcb.com.pk/investor-relations/annual-reports",
+				"en": "MCB Bank — a financial company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 560,
+				"profit": 158,
+				"debt": 0,
+				"money": 0,
+				"dividends": 47
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1307
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1600,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лахор",
+						"en": "Lahore"
+					},
+					"ш": 31.5365,
+					"д": 74.3398,
+					"province": 486,
+					"staff": 480,
+					"fine": 3054
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_bank",
+			"название": {
+				"ru": "National Bank of Pakistan (NBP)",
+				"en": "National Bank of Pakistan (NBP)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 2023,
+			"description": {
+				"ru": "Карачи — крупнейший государственный коммерческий банк Пакистана, агент Государственного банка Пакистана. [Выручка: 2 100 млн $, Чистая прибыль: 190 млн $, Штат: 15 000 чел., Руководитель: Рехмат Али Хасни (Rehmat Ali Hasnie), с 2023 года, 1968 г.р.]. Официальные источники: https://www.nbp.com.pk/, https://www.nbp.com.pk/investors (Годовой отчет / Раскрытие информации)",
+				"en": "National Bank of Pakistan (NBP) — a financial company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 148,
+				"debt": 0,
+				"money": 0,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.875,
+					"д": 67.0107,
+					"province": 489,
+					"staff": 450,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "united_bank_2",
+			"название": {
+				"ru": "United Bank Limited (UBL)",
+				"en": "United Bank Limited (UBL)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Карачи — ведущий частный инновационный коммерческий банк, лидер по цифровому банкингу и филиальной сети за рубежом. [Выручка: 1 500 млн $, Чистая прибыль: 200 млн $, Штат: 12 000 чел., Руководитель: Зия Иджаз (Zia Ijaz), с 2024 года, 1970 г.р.]. Официальные источники: https://www.ubldigital.com/Investor-Relations",
+				"en": "United Bank Limited (UBL) — a financial company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 376,
+				"profit": 106,
+				"debt": 0,
+				"money": 0,
+				"dividends": 32
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 877
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1074,
+			"wage": 246,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8976,
+					"д": 67.0399,
+					"province": 489,
+					"staff": 322,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ptcl_group",
+			"название": {
+				"ru": "PTCL Group (Pakistan Telecommunication Company Limited / Ufone)",
+				"en": "PTCL Group (Pakistan Telecommunication Company Limited / Ufone)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 2021,
+			"description": {
+				"ru": "Исламабад — национальный оператор фиксированной, магистральной и мобильной связи (совместное владение государства и e& / Etisalat). [Выручка: 750 млн $ (210 000 млн PKR), Чистая прибыль: -40 млн $, Штат: 15 000 чел., Руководитель: Хатем Баматраф (Hatem Bamatraf), с 2021 года, 1972 г.р.]. Официальные источники: https://www.ptcl.com.pk/Home/PageDetail?ItemId=83, https://www.ptcl.com.pk/investors (Го",
+				"en": "PTCL Group (Pakistan Telecommunication Company Limited / Ufone) — a IT and telecom company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 227,
+				"profit": 29,
+				"debt": 72,
+				"money": 38,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 430
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 601,
+			"wage": 269,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исламабад",
+						"en": "Islamabad"
+					},
+					"ш": 33.7386,
+					"д": 73.0044,
+					"province": 380,
+					"staff": 180,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hub_power",
+			"название": {
+				"ru": "Hub Power Company (HUBCO)",
+				"en": "Hub Power Company (HUBCO)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Карачи — крупнейший независимый производитель электроэнергии (ТЭС, угольная генерация Thar Energy, гидроэлектростанции). [Выручка: 450 млн $, Чистая прибыль: 180 млн $, Штат: 1 200 чел., Руководитель: Камран Камал (Kamran Kamal), с 2021 года, 1974 г.р.]. Официальные источники: https://hubpower.com/investor-relations/",
+				"en": "Hub Power Company (HUBCO) — a energy company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 218,
+				"profit": 20,
+				"debt": 132,
+				"money": 28,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 288
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 387,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8996,
+					"д": 67.0082,
+					"province": 489,
+					"staff": 116,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pakistan_petroleum",
+			"название": {
+				"ru": "Pakistan Petroleum Limited (PPL)",
+				"en": "Pakistan Petroleum Limited (PPL)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 2022,
+			"description": {
+				"ru": "Карачи — старейшая государственная нефтегазодобывающая корпорация (оператор гигантского газового месторождения Суи). [Выручка: 1 100 млн $ (300 000 млн PKR), Чистая прибыль: 400 млн $, Штат: 2 700 чел., Руководитель: Имран Аббаси (Imran Abbasy), с 2022 года, 1967 г.р.]. Официальные источники: https://www.ppl.com.pk/content/financial-reports, https://www.ppl.com.pk/investors (Годовой отчет / Раскры",
+				"en": "Pakistan Petroleum Limited (PPL) — a oil and gas company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 208,
+				"profit": 12,
+				"debt": 59,
+				"money": 20,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 129
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 181,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8278,
+					"д": 66.9854,
+					"province": 489,
+					"staff": 54,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mari_petroleum",
+			"название": {
+				"ru": "Mari Petroleum Company Limited (MPCL)",
+				"en": "Mari Petroleum Company Limited (MPCL)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Исламабад — одна из ведущих компаний по разведке и добыче природного газа (оператор месторождения Мари, снабжающего сырьем 90% производства удобрений). [Выручка: 600 млн $ (165 000 млн PKR), Чистая прибыль: 220 млн $, Штат: 1 600 чел., Руководитель: Фахим Хайдер (Faheem Haider), с 2020 года, 1970 г.р.]. Официальные источники: https://mpcl.com.pk/investors/financial-reports/",
+				"en": "Mari Petroleum Company Limited (MPCL) — a oil and gas company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 202,
+				"profit": 12,
+				"debt": 57,
+				"money": 19,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 126
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 176,
+			"wage": 268,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исламабад",
+						"en": "Islamabad"
+					},
+					"ш": 33.7132,
+					"д": 73.0155,
+					"province": 380,
+					"staff": 52,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pakistan_international",
+			"название": {
+				"ru": "Pakistan International Airlines (PIA)",
+				"en": "Pakistan International Airlines (PIA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Карачи — национальный авиаперевозчик Пакистана. [Выручка: 800 млн $, Чистая прибыль: -250 млн $, Штат: 8 000 чел., Руководитель: Вице-маршал авиации Мухаммад Амир Хаят (Muhammad Amir Hayat), с 2022 года, 1971 г.р.]. Официальные источники: https://www.piac.com.pk/, https://www.piac.com.pk/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Pakistan International Airlines (PIA) — a transport company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 196,
+				"profit": 13,
+				"debt": 99,
+				"money": 41,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 140
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 490,
+			"wage": 245,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8476,
+					"д": 67.0192,
+					"province": 489,
+					"staff": 147,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pakistan_aeronautical",
+			"название": {
+				"ru": "Pakistan Aeronautical Complex (PAC Kamra)",
+				"en": "Pakistan Aeronautical Complex (PAC Kamra)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Камра / Атток — ведущий авиастроительный холдинг ВВС Пакистана: серийное совместное производство легких истребителей JF-17 Thunder (Block 1/2/3) с Китаем (CAC), учебно-тренировочных самолетов Super Mushshak, лицензионная сборка K-8 Karakoram и капитальный ремонт F-16 и Mirage. (Производство и модернизация реактивных истребителей JF-17, БПЛА Shahpar, авиационная авионика и радары AESA.) [Выручка: 7",
+				"en": "Pakistan Aeronautical Complex (PAC Kamra) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 81,
+				"profit": 5,
+				"debt": 21,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 152
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 243,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Kamra"
+					},
+					"ш": 33.8336,
+					"д": 72.3556,
+					"province": 380,
+					"staff": 72,
+					"fine": 3054
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "heavy_industries",
+			"название": {
+				"ru": "Heavy Industries Taxila (HIT)",
+				"en": "Heavy Industries Taxila (HIT)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Таксила — крупнейший комплекс бронетанкового машиностроения: производство основных боевых танков Al-Khalid I и Al-Khalid II, модернизация танков Al-Zarrar (Тип 59), выпуск бронетранспортеров Talha, тяжелых БМП Viper и бронеавтомобилей Mohafiz. (Танкостроение, тяжелая гусеничная и колесная бронетехника, динамическая защита и танковые орудия 125 мм.) [Выручка: 550 млн $, Чистая прибыль: 45 млн $, Шт",
+				"en": "Heavy Industries Taxila (HIT) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исламабад",
+						"en": "Islamabad"
+					},
+					"ш": 33.6978,
+					"д": 73.0313,
+					"province": 380,
+					"staff": 71,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pakistan_ordnance",
+			"название": {
+				"ru": "Pakistan Ordnance Factories (POF)",
+				"en": "Pakistan Ordnance Factories (POF)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Вах Кантонмент — стратегический оборонный кластер из 14 специализированных оружейно-патронных заводов: выпуск стрелкового автоматического оружия (G3, MP5, POF Eye), патронов всех калибров, танковых снарядов 125 мм, артиллерийских выстрелов 155 мм и авиабомб. (Артиллерийские и танковые боеприпасы, стрелковое оружие, ракетные твердые топлива и гексоген/тротил.) [Выручка: 650 млн $, Чистая прибыль: 5",
+				"en": "Pakistan Ordnance Factories (POF) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 68,
+				"profit": 5,
+				"debt": 17,
+				"money": 10,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 128
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 204,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исламабад",
+						"en": "Islamabad"
+					},
+					"ш": 33.736,
+					"д": 73.0405,
+					"province": 380,
+					"staff": 61,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "karachi_shipyard",
+			"название": {
+				"ru": "Karachi Shipyard & Engineering Works (KS&EW)",
+				"en": "Karachi Shipyard & Engineering Works (KS&EW)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Карачи — главная верфь ВМС Пакистана: постройка дизель-электрических подводных лодок с ВНЭУ типа Hangor (совместный проект Type 039B с КНР), корветов типа Babur (проект MILGEM совместно с Турцией), ракетных катеров класса Azmat и флотских танкеров. (Строительство подводных лодок, корветов и ракетных катеров, доковый ремонт боевых кораблей.) [Выручка: 250 млн $, Чистая прибыль: 20 млн $, Штат: 4 00",
+				"en": "Karachi Shipyard & Engineering Works (KS&EW) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 56,
+				"profit": 4,
+				"debt": 14,
+				"money": 9,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 105
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 168,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Карачи",
+						"en": "Karachi"
+					},
+					"ш": 24.8544,
+					"д": 66.9896,
+					"province": 489,
+					"staff": 50,
+					"fine": 3055
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "global_industrial",
+			"название": {
+				"ru": "Global Industrial & Defence Solutions (GIDS)",
+				"en": "Global Industrial & Defence Solutions (GIDS)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Равалпинди / Исламабад — головная государственная холдинговая и экспортная структура ВПК Пакистана, объединяющая разработки комиссий NESCOM, AWC и NDC: ударно-разведывательные БПЛА Shahpar-II, высокоточные РСЗО Fateh-1 и Fateh-2, противокорабельные крылатые ракеты Harbah. (Ударные беспилотники MALE, высокоточные ракетные комплексы, противокорабельные ракеты и СУО.) [Выручка: 300 млн $, Чистая приб",
+				"en": "Global Industrial & Defence Solutions (GIDS) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 3,
+				"debt": 12,
+				"money": 7,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 84
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 135,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Равалпинди",
+						"en": "Rawalpindi"
+					},
+					"ш": 33.6322,
+					"д": 73.0657,
+					"province": 380,
+					"staff": 40,
+					"fine": 3051
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_radio",
+			"название": {
+				"ru": "National Radio Telecommunication Corporation (NRTC)",
+				"en": "National Radio Telecommunication Corporation (NRTC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Харипур — ведущее предприятие оборонной радиоэлектроники: производство защищенных тактических радиостанций SDR, систем РЭБ, комплексов подавления беспилотников (C-UAS jamming) и оптико-электронных приборов ночного видения. (Военная тактическая связь, комплексы радиоэлектронной борьбы, радиолокационные датчики.) [Выручка: 120 млн $, Чистая прибыль: 15 млн $, Штат: 1 800 чел.]. Официальные источники",
+				"en": "National Radio Telecommunication Corporation (NRTC) — a defence company of Pakistan."
+			},
+			"fundamental": {
+				"выручка": 34,
+				"profit": 2,
+				"debt": 9,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 64
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Пакистан)",
+						"en": "The state (Pakistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Пакистан"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 102,
+			"wage": 225,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Харипур",
+						"en": "Haripur"
+					},
+					"ш": 34.0188,
+					"д": 72.9324,
+					"province": 380,
+					"staff": 30,
+					"fine": 3056
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

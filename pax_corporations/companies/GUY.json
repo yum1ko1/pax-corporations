@@ -1,0 +1,759 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Гайана",
+	"iso": "GUY",
+	"data_date": "2026-03",
+	"average_wage": 700,
+	"companies": [
+		{
+			"id": "stabroek",
+			"название": {
+				"ru": "Блок Stabroek",
+				"en": "Stabroek block"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Нефтяной блок Стабрук на глубоководном шельфе Гайаны — один из крупнейших шельфовых добычных проектов в мире (консорциум ExxonMobil 45%, Hess/Chevron 30%, CNOOC 25%).",
+				"en": "The deepwater Stabroek oil block in Guyana — one of the world's largest offshore exploration and production projects (ExxonMobil 45%, Hess/Chevron 30%, CNOOC 25%)."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 6000,
+				"debt": 2000,
+				"money": 1000,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "ExxonMobil",
+						"en": "ExxonMobil"
+					},
+					"type": "company",
+					"доля": 0.45,
+					"country": "США",
+					"company": "exxon"
+				},
+				{
+					"кто": {
+						"ru": "Chevron",
+						"en": "Chevron"
+					},
+					"type": "company",
+					"доля": 0.3,
+					"country": "США",
+					"company": "chevron"
+				},
+				{
+					"кто": {
+						"ru": "CNOOC",
+						"en": "CNOOC"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Китай",
+					"company": "cnooc"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алистер Рутледж",
+					"en": "Alistair Routledge"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник-управленец",
+					"en": "управляющий ExxonMobil Guyana"
+				}
+			},
+			"staff": 6000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Джорджтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.8,
+					"д": -58.16,
+					"province": 571,
+					"staff": 1000,
+					"fine": 1579
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Плавучие платформы (офшор)",
+						"en": "Floating platforms (offshore)"
+					},
+					"ш": 6.7896,
+					"д": -57.9858,
+					"province": 571,
+					"staff": 5000,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://corporate.exxonmobil.com/locations/guyana | Отчёты ExxonMobil Guyana / Hess / CNOOC 2024–2025; https://corporate.exxonmobil.com/locations/guyana"
+		},
+		{
+			"id": "demerara_distillers",
+			"название": {
+				"ru": "Demerara Distillers Limited (DDL)",
+				"en": "Demerara Distillers Limited (DDL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный производитель всемирно известного рома El Dorado, спиртов, безалкогольных напитков, владелец логистических и судоходных терминалов (котируется на бирже GASCI; капитализация ~$500 млн, выручка ~$180 млн). https://www.demeraradistillers.com/",
+				"en": "Demerara Distillers Limited (DDL) — a transport company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 12,
+				"debt": 91,
+				"money": 37,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 1145,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7816,
+					"д": -58.1636,
+					"province": 571,
+					"staff": 135,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banks_dih",
+			"название": {
+				"ru": "Banks DIH Limited",
+				"en": "Banks DIH Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий диверсифицированный конгломерат пищевой промышленности и ритейла (производство пива Banks Beer, напитков под брендом Coca-Cola, хлебобулочных изделий, мажоритарный акционер Citizens Bank Guyana; капитализация ~$600 млн, выручка ~$200 млн). https://www.banksdih.com/",
+				"en": "Banks DIH Limited — a consumer and retail company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 16,
+				"debt": 46,
+				"money": 17,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.8392,
+					"д": -58.1906,
+					"province": 571,
+					"staff": 180,
+					"fine": 1580
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "republic_bank",
+			"название": {
+				"ru": "Republic Bank (Guyana) Limited",
+				"en": "Republic Bank (Guyana) Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк Ганы по величине активов и объему депозитов (дочерняя структура тринидадской финансовой группы Republic Financial Holdings; активы ~$1.5 млрд). https://republicguyana.com/",
+				"en": "Republic Bank (Guyana) Limited — a financial company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 20,
+				"debt": 0,
+				"money": 0,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 163
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 200,
+			"wage": 1150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7683,
+					"д": -58.1575,
+					"province": 571,
+					"staff": 60,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "guyana_bank",
+			"название": {
+				"ru": "Guyana Bank for Trade and Industry (GBTI)",
+				"en": "Guyana Bank for Trade and Industry (GBTI)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий национальный частный банк Гайаны, главный кредитор нефтесервисного сектора, инфраструктурного строительства и малого бизнеса (активы ~$1.2 млрд). https://www.gbtibank.com/",
+				"en": "Guyana Bank for Trade and Industry (GBTI) — a construction company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 66,
+				"profit": 6,
+				"debt": 26,
+				"money": 9,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 83
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 207,
+			"wage": 895,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.8414,
+					"д": -58.138,
+					"province": 571,
+					"staff": 62,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "guyana_sugar",
+			"название": {
+				"ru": "Guyana Sugar Corporation (GuySuCo)",
+				"en": "Guyana Sugar Corporation (GuySuCo)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Историческая государственная корпорация сахарного тростника, крупнейший агропромышленный работодатель страны (управляет плантациями и сахарными заводами Albion, Blairmont, Uitvlugt). https://guysuco.com/",
+				"en": "Guyana Sugar Corporation (GuySuCo) — a consumer and retail company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 63,
+				"profit": 5,
+				"debt": 15,
+				"money": 5,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 86
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гайана)",
+						"en": "The state (Guyana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гайана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 189,
+			"wage": 778,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.8246,
+					"д": -58.1705,
+					"province": 571,
+					"staff": 56,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "guyana_goldfields",
+			"название": {
+				"ru": "Guyana Goldfields (Aurora Gold Mine - Zijin Mining)",
+				"en": "Guyana Goldfields (Aurora Gold Mine - Zijin Mining)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший промышленный золотодобывающий рудник страны (рудник Аврора в бассейне Куюни-Мазаруни, принадлежит китайскому горнорудному гиганту Zijin Mining; добыча ~150,000 унций золота в год; выручка ~$300 млн). https://www.zijinmining.com/",
+				"en": "Guyana Goldfields (Aurora Gold Mine - Zijin Mining) — a metals and mining company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 33,
+				"debt": 100,
+				"money": 36,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 360
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 866,
+			"wage": 1250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7873,
+					"д": -58.134,
+					"province": 571,
+					"staff": 259,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "one_communications",
+			"название": {
+				"ru": "One Communications / GTT (Guyana Telephone and Telegraph Company)",
+				"en": "One Communications / GTT (Guyana Telephone and Telegraph Company)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший телекоммуникационный оператор страны (фиксированная связь, волоконно-оптические магистрали, подводный кабель СГ-К1, сотовая сеть и мобильный кошелек mmg+; входит в группу ATN International; выручка ~$170 млн). https://onecomm.gy/",
+				"en": "One Communications / GTT (Guyana Telephone and Telegraph Company) — a IT and telecom company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 170,
+				"profit": 22,
+				"debt": 54,
+				"money": 28,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 322
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 1255,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7729,
+					"д": -58.1596,
+					"province": 571,
+					"staff": 135,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "guyana_power",
+			"название": {
+				"ru": "Guyana Power and Light (GPL)",
+				"en": "Guyana Power and Light (GPL)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электросетевая корпорация (генерация, передача и сбыт электроэнергии в Джорджтауне и прибрежных регионах, ключевой бенефициар мегапроекта Gas-to-Energy). https://gplinc.com/",
+				"en": "Guyana Power and Light (GPL) — a energy company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 61,
+				"profit": 6,
+				"debt": 37,
+				"money": 8,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 80
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гайана)",
+						"en": "The state (Guyana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гайана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 108,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7979,
+					"д": -58.1223,
+					"province": 571,
+					"staff": 32,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "guyana_defence",
+			"название": {
+				"ru": "Guyana Defence Force (GDF) - Technical Support Services & Air/Coast Guard Workshops",
+				"en": "Guyana Defence Force (GDF) - Technical Support Services & Air/Coast Guard Workshops"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Guyana Defence Force (GDF) - Technical Support Services & Air/Coast Guard Workshops — a defence company of Guyana."
+			},
+			"fundamental": {
+				"выручка": 26,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 49
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гайана)",
+						"en": "The state (Guyana)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гайана"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 78,
+			"wage": 1050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жоржтаун",
+						"en": "Georgetown"
+					},
+					"ш": 6.7686,
+					"д": -58.1705,
+					"province": 571,
+					"staff": 23,
+					"fine": 1579
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

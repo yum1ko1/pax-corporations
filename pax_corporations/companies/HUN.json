@@ -1,0 +1,1785 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Венгрия",
+	"iso": "HUN",
+	"data_date": "2026-03",
+	"average_wage": 1500,
+	"companies": [
+		{
+			"id": "mol",
+			"название": {
+				"ru": "MOL",
+				"en": "MOL"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Нефтегаз Венгрии, покупает российскую нефть по «Дружбе».",
+				"en": "Hungary's oil and gas, buys Russian oil via Druzhba."
+			},
+			"fundamental": {
+				"выручка": 26000,
+				"profit": 1200,
+				"debt": 4000,
+				"money": 2000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 820,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонды Орбана (MOL Foundation, MCC)",
+						"en": "Orbán-linked foundations (MOL Foundation, MCC)"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "OTP",
+						"en": "OTP"
+					},
+					"type": "company",
+					"доля": 0.05,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жолт Хернади",
+					"en": "Zsolt Hernádi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2001,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "долгожитель, близок к власти",
+					"en": "долгожитель, близок к власти"
+				}
+			},
+			"staff": 25000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.49,
+					"д": 19.07,
+					"province": 185,
+					"staff": 2000,
+					"fine": 1657
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Сазхаломбатта",
+						"en": "Százhalombatta refinery"
+					},
+					"ш": 47.3,
+					"д": 18.9,
+					"province": 185,
+					"staff": 2000,
+					"fine": 1675
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://molgroup.info/ | Отчёты MOL Group 2024–2025; https://molgroup.info/"
+		},
+		{
+			"id": "otp",
+			"название": {
+				"ru": "OTP Bank",
+				"en": "OTP Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Крупнейший банк Венгрии, работает и в России.",
+				"en": "Hungary's largest bank, also works in Russia."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 3000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 280,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Чани и менеджмент",
+						"en": "Csányi family and management"
+					},
+					"type": "крупный",
+					"доля": 0.08,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.92
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шандор Чани",
+					"en": "Sándor Csányi"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1992,
+				"born_year": 1953,
+				"доля": 0.04,
+				"характер": {
+					"ru": "богатейший венгр, банкир с 1992",
+					"en": "богатейший венгр, банкир с 1992"
+				}
+			},
+			"staff": 40000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.5,
+					"д": 19.05,
+					"province": 185,
+					"staff": 5000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.otpbank.hu/ | Отчёты OTP Bank 2024–2025; https://www.otpbank.hu/"
+		},
+		{
+			"id": "richter",
+			"название": {
+				"ru": "Gedeon Richter",
+				"en": "Gedeon Richter"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1901,
+			"description": {
+				"ru": "Фармкомпания Венгрии, женское здоровье.",
+				"en": "Hungary's drugmaker, women's health."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 600,
+				"debt": 100,
+				"money": 800,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 186,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд MNV (государство)",
+						"en": "MNV foundation (the state)"
+					},
+					"type": "polity",
+					"доля": 0.25,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Габор Орбан",
+					"en": "Gábor Orbán"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "фармацевт",
+					"en": "фармацевт"
+				}
+			},
+			"staff": 12000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.48,
+					"д": 19.15,
+					"province": 185,
+					"staff": 4000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gedeonrichter.com/ | Отчёты Gedeon Richter 2024–2025; https://www.gedeonrichter.com/"
+		},
+		{
+			"id": "magyartelekom",
+			"название": {
+				"ru": "Magyar Telekom",
+				"en": "Magyar Telekom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Связь Венгрии, дочка Deutsche Telekom.",
+				"en": "Hungary's telecom, a Deutsche Telekom subsidiary."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 350,
+				"debt": 800,
+				"money": 200,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 900,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Deutsche Telekom",
+						"en": "Deutsche Telekom"
+					},
+					"type": "company",
+					"доля": 0.6,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тибор Рекаши",
+					"en": "Tibor Rékasi"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2018,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 7000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.52,
+					"д": 19.08,
+					"province": 185,
+					"staff": 3000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.telekom.hu/ | Отчёты Magyar Telekom 2024–2025; https://www.telekom.hu/"
+		},
+		{
+			"id": "mvm",
+			"название": {
+				"ru": "MVM",
+				"en": "MVM"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1963,
+			"description": {
+				"ru": "Государственная энергетика Венгрии, АЭС Пакш.",
+				"en": "Hungary's state power, the Paks NPP."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 500,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Венгрии",
+						"en": "The Hungarian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карой Матраи",
+					"en": "Károly Mátrai"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик власти",
+					"en": "энергетик власти"
+				}
+			},
+			"staff": 15000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.47,
+					"д": 19.05,
+					"province": 185,
+					"staff": 3000,
+					"fine": 1657
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "АЭС Пакш",
+						"en": "Paks NPP"
+					},
+					"ш": 46.57,
+					"д": 18.85,
+					"province": 185,
+					"staff": 2500,
+					"fine": 1662
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://mvm.hu/ | Отчёты MVM 2024–2025; https://mvm.hu/"
+		},
+		{
+			"id": "fourig",
+			"название": {
+				"ru": "4iG",
+				"en": "4iG"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "IT, связь и оборонка приближённого к власти Гелленцсера Ясаи.",
+				"en": "IT, telecom and defence of Gellért Jászai, close to power."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 0,
+				"debt": 2000,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 111,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Геллерт Ясаи",
+						"en": "Gellért Jászai"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Геллерт Ясаи",
+					"en": "Gellért Jászai"
+				},
+				"роль": "founder",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.6,
+				"характер": {
+					"ru": "скупает всё для государства",
+					"en": "скупает всё для государства"
+				}
+			},
+			"staff": 7000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.52,
+					"д": 19.07,
+					"province": 185,
+					"staff": 1500,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.4ig.hu/ | Отчёты 4iG 2024–2025; https://www.4ig.hu/"
+		},
+		{
+			"id": "mbh",
+			"название": {
+				"ru": "MBH Bank",
+				"en": "MBH Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Второй банк Венгрии, слияние трёх банков.",
+				"en": "Hungary's second bank, a merger of three."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 322,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лёринц Месарош и соратники",
+						"en": "Lőrinc Mészáros and associates"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жолт Барна",
+					"en": "Zsolt Barna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 8000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.5,
+					"д": 19.05,
+					"province": 185,
+					"staff": 3000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mbhbank.hu/ | Отчёты MBH Bank 2024–2025; https://www.mbhbank.hu/"
+		},
+		{
+			"id": "wizzair",
+			"название": {
+				"ru": "Wizz Air",
+				"en": "Wizz Air"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 2003,
+			"description": {
+				"ru": "Лоукостер Восточной Европы.",
+				"en": "The low-cost airline of Eastern Europe."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 250,
+				"debt": 6000,
+				"money": 1500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 103,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Indigo Partners",
+						"en": "Indigo Partners"
+					},
+					"type": "крупный",
+					"доля": 0.2,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йожеф Варади",
+					"en": "József Váradi"
+				},
+				"роль": "founder",
+				"с_года": 2003,
+				"born_year": 1965,
+				"доля": 0.02,
+				"характер": {
+					"ru": "основатель, агрессивно режет цены",
+					"en": "основатель, агрессивно режет цены"
+				}
+			},
+			"staff": 8000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт, аэропорт",
+						"en": "Budapest airport"
+					},
+					"ш": 47.44,
+					"д": 19.26,
+					"province": 185,
+					"staff": 2000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://wizzair.com/ | Отчёты Wizz Air 2024–2025; https://wizzair.com/"
+		},
+		{
+			"id": "opus",
+			"название": {
+				"ru": "Opus Global",
+				"en": "Opus Global"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1912,
+			"description": {
+				"ru": "Стройка, еда и энергетика Лёринца Месароша.",
+				"en": "Lőrinc Mészáros's construction, food and energy."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 700,
+				"money": 150,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 700,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Лёринц Месарош",
+						"en": "Lőrinc Mészáros"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Коппань Лельфаи",
+					"en": "Koppány Lélfai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист-управленец",
+					"en": "дочь олигарха"
+				}
+			},
+			"staff": 5000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.49,
+					"д": 19.04,
+					"province": 185,
+					"staff": 500,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.opusglobal.hu/ | Отчёты Opus Global 2024–2025; https://www.opusglobal.hu/"
+		},
+		{
+			"id": "waberers",
+			"название": {
+				"ru": "Waberer's",
+				"en": "Waberer's"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1946,
+			"description": {
+				"ru": "Крупнейший грузоперевозчик Европы по фурам.",
+				"en": "One of Europe's largest truckers."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": 30,
+				"debt": 300,
+				"money": 80,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 17,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Приватные инвесторы Венгрии",
+						"en": "Hungarian private investors"
+					},
+					"type": "крупный",
+					"доля": 0.7,
+					"country": "Венгрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жолт Барна",
+					"en": "Zsolt Barna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "логист-руководитель",
+					"en": "логист"
+				}
+			},
+			"staff": 7000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.44,
+					"д": 19.14,
+					"province": 185,
+					"staff": 2000,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.waberers.com/ | Отчёты Waberer's 2024–2025; https://www.waberers.com/"
+		},
+		{
+			"id": "audi_hungaria",
+			"название": {
+				"ru": "Audi Hungaria (Дьёр)",
+				"en": "Audi Hungaria (Дьёр)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший моторостроительный завод в мире и ключевой автосборочный комплекс группы Volkswagen (производство свыше 1.7 млн бензиновых, дизельных и электромоторов и ~170,000 автомобилей Audi Q3/TT ежегодно; выручка свыше $10.0 млрд, более 12,000 сотрудников). https://audi.hu/",
+				"en": "Audi Hungaria (Дьёр) — a metals and mining company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 1111,
+				"debt": 3333,
+				"money": 1200,
+				"dividends": 333
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 28888,
+			"wage": 2679,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.4673,
+					"д": 19.0682,
+					"province": 185,
+					"staff": 8666,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mercedes_benz",
+			"название": {
+				"ru": "Mercedes-Benz Manufacturing Hungary (Кечкемет)",
+				"en": "Mercedes-Benz Manufacturing Hungary (Кечкемет)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй крупнейший автомобильный производственный комплекс в Венгрии (выпуск компактных моделей Mercedes-Benz CLA, EQB, A-Class; выручка свыше $5.0 млрд, более 4,500 сотрудников). https://gyar.mercedes-benz.hu/",
+				"en": "Mercedes-Benz Manufacturing Hungary (Кечкемет) — a metals and mining company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 556,
+				"debt": 1667,
+				"money": 600,
+				"dividends": 167
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14444,
+			"wage": 2679,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кечкемет",
+						"en": "Kecskemét"
+					},
+					"ш": 46.8709,
+					"д": 19.6984,
+					"province": 185,
+					"staff": 4333,
+					"fine": 1683
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "samsung_sdi",
+			"название": {
+				"ru": "Samsung SDI Magyarország (Гёд)",
+				"en": "Samsung SDI Magyarország (Гёд)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших в Европе мегазаводов по выпуску литий-ионных аккумуляторов для электромобилей европейских марок (BMW, Volkswagen; выручка свыше $3.5 млрд, 6,000+ сотр.). https://samsungsdi.hu/",
+				"en": "Samsung SDI Magyarország (Гёд) — a metals and mining company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 389,
+				"debt": 1167,
+				"money": 420,
+				"dividends": 117
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10111,
+			"wage": 2679,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.4714,
+					"д": 19.0415,
+					"province": 185,
+					"staff": 3033,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "catl_hungary",
+			"название": {
+				"ru": "CATL Hungary (Дебрецен)",
+				"en": "CATL Hungary (Дебрецен)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая прямая иностранная инвестиция в истории Венгрии (€7.3 млрд) — гигафабрика тяговых батарей Contemporary Amperex Technology Ltd мощностью до 100 ГВт·ч для европейского автопрома. https://www.catl.com/",
+				"en": "CATL Hungary (Дебрецен) — a financial company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 1225,
+				"profit": 345,
+				"debt": 0,
+				"money": 0,
+				"dividends": 104
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2858
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 2464,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дебрецен",
+						"en": "Debrecen"
+					},
+					"ш": 47.5595,
+					"д": 21.6638,
+					"province": 185,
+					"staff": 1050,
+					"fine": 1692
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "borsodchem",
+			"название": {
+				"ru": "BorsodChem (Казинцбарцика, Wanhua Chemical Group)",
+				"en": "BorsodChem (Казинцбарцика, Wanhua Chemical Group)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий в Центральной Европе производитель полиуретанового сырья (MDI, TDI) и поливинилхлорида (ПВХ); выручка ~$3.0 млрд, более 3,500 сотрудников. https://www.borsodchem.com/",
+				"en": "BorsodChem (Казинцбарцика, Wanhua Chemical Group) — a metals and mining company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 333,
+				"debt": 1000,
+				"money": 360,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8666,
+			"wage": 2679,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Казинцбарцика",
+						"en": "Kazincbarcika"
+					},
+					"ш": 48.2303,
+					"д": 20.6531,
+					"province": 185,
+					"staff": 2599,
+					"fine": 1664
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mol_petrochemicals",
+			"название": {
+				"ru": "MOL Petrochemicals (Тисауйварош)",
+				"en": "MOL Petrochemicals (Тисауйварош)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший нефтехимический комбинат страны (производство этилена, пропилена, полиэтилена и полипропилена; выручка ~$1.5 млрд). https://molgroup.info/",
+				"en": "MOL Petrochemicals (Тисауйварош) — a oil and gas company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 89,
+				"debt": 423,
+				"money": 142,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 933
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1311,
+			"wage": 2683,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.4668,
+					"д": 19.069,
+					"province": 185,
+					"staff": 393,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "egis_gy",
+			"название": {
+				"ru": "Egis Gyógyszergyár (Servier Group)",
+				"en": "Egis Gyógyszergyár (Servier Group)"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Вторая по величине фармацевтическая корпорация Венгрии (разработка, клинические испытания и производство готовых дженериков и активных фармсубстанций; выручка ~$650 млн, 4,500 сотр.). https://hu.egis.health/",
+				"en": "Egis Gyógyszergyár (Servier Group) — a pharmaceutical company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 98,
+				"debt": 303,
+				"money": 85,
+				"dividends": 29
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2413
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1187,
+			"wage": 2174,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.5028,
+					"д": 19.0374,
+					"province": 185,
+					"staff": 356,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "budapest_airport",
+			"название": {
+				"ru": "Budapest Airport (BUD - Международный аэропорт имени Ференца Листа)",
+				"en": "Budapest Airport (BUD - Международный аэропорт имени Ференца Листа)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Главные воздушные ворота Венгрии (выкуплен консорциумом венгерского государства Corvinus Zrt. и французской Vinci Airports в 2024 году, пассажиропоток более 16 млн чел.; выручка ~$450 млн). https://www.bud.hu/",
+				"en": "Budapest Airport (BUD - Международный аэропорт имени Ференца Листа) — a consumer and retail company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 35,
+				"debt": 104,
+				"money": 38,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 616
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1350,
+			"wage": 1667,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.4951,
+					"д": 19.0783,
+					"province": 185,
+					"staff": 405,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rheinmetall_hungary",
+			"название": {
+				"ru": "Rheinmetall Hungary (Залаэгерсег, Варпалота, Сегед)",
+				"en": "Rheinmetall Hungary (Залаэгерсег, Варпалота, Сегед)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный центр современного военного производства и перевооружения венгерской армии (программа «Zrínyi 2026»)",
+				"en": "Rheinmetall Hungary (Залаэгерсег, Варпалота, Сегед) — a defence company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 375,
+				"profit": 25,
+				"debt": 96,
+				"money": 58,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 703
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1125,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сегед",
+						"en": "Szeged"
+					},
+					"ш": 46.2411,
+					"д": 20.1264,
+					"province": 185,
+					"staff": 337,
+					"fine": 1684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "4ig_defence",
+			"название": {
+				"ru": "4iG Defence & Space",
+				"en": "4iG Defence & Space"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стратегический интегратор цифровых оборонных технологий, военных систем связи, тактических БПЛА и решений РЭБ (в тесном альянсе с Rheinmetall и Министерством обороны Венгрии). https://www.4ig.hu/",
+				"en": "4iG Defence & Space — a defence company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 375,
+				"profit": 25,
+				"debt": 96,
+				"money": 58,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 703
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1125,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.5088,
+					"д": 19.0054,
+					"province": 185,
+					"staff": 337,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hm_currus",
+			"название": {
+				"ru": "HM Currus Zrt. & HM Arzenál Zrt. (Предприятия Министерства обороны Венгрии)",
+				"en": "HM Currus Zrt. & HM Arzenál Zrt. (Предприятия Министерства обороны Венгрии)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "HM Currus Zrt. & HM Arzenál Zrt. (Предприятия Министерства обороны Венгрии) — a defence company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 368,
+				"profit": 25,
+				"debt": 95,
+				"money": 57,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 690
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1104,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Будапешт",
+						"en": "Budapest"
+					},
+					"ш": 47.4596,
+					"д": 19.0358,
+					"province": 185,
+					"staff": 331,
+					"fine": 1657
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gestor_kiskunf",
+			"название": {
+				"ru": "Gestor Kiskunfélegyháza (Оружейный завод Кишкунфеледьхаза)",
+				"en": "Gestor Kiskunfélegyháza (Оружейный завод Кишкунфеледьхаза)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лицензионный выпуск стрелкового оружия по контракту с чешской Česká Zbrojovka (CZ) — штурмовые винтовки CZ BREN 2 калибра 5.56 мм, пистолеты-пулеметы CZ Scorpion EVO 3 и пистолеты CZ P-07/P-09 для армии и спецслужб Венгрии",
+				"en": "Gestor Kiskunfélegyháza (Оружейный завод Кишкунфеледьхаза) — a defence company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 360,
+				"profit": 24,
+				"debt": 93,
+				"money": 55,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 675
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1080,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кишкунфеледьхаза",
+						"en": "Kiskunfélegyháza"
+					},
+					"ш": 46.697,
+					"д": 19.8656,
+					"province": 185,
+					"staff": 324,
+					"fine": 1658
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "airbus_helicopters",
+			"название": {
+				"ru": "Airbus Helicopters Hungary (Дьюла)",
+				"en": "Airbus Helicopters Hungary (Дьюла)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Завод прецизионного машиностроения по выпуску высокоточных металлических и композитных компонентов динамических систем и трансмиссий для военных вертолетов H145M и H225M Caracal. https://www.airbus.com/",
+				"en": "Airbus Helicopters Hungary (Дьюла) — a defence company of Hungary."
+			},
+			"fundamental": {
+				"выручка": 292,
+				"profit": 19,
+				"debt": 75,
+				"money": 45,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 548
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венгрия)",
+						"en": "The state (Hungary)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венгрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 876,
+			"wage": 2250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дьюла",
+						"en": "Gyula"
+					},
+					"ш": 46.6247,
+					"д": 21.2582,
+					"province": 185,
+					"staff": 262,
+					"fine": 1666
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

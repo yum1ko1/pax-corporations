@@ -1,0 +1,2468 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Швейцария",
+	"iso": "CHE",
+	"data_date": "2026-03",
+	"average_wage": 7500,
+	"companies": [
+		{
+			"id": "nestle",
+			"название": {
+				"ru": "Nestlé",
+				"en": "Nestlé"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1866,
+			"description": {
+				"ru": "Крупнейшая пищевая компания мира.",
+				"en": "The world's largest food company."
+			},
+			"fundamental": {
+				"выручка": 102000,
+				"profit": 12000,
+				"debt": 65000,
+				"money": 6000,
+				"dividends": 8500
+			},
+			"рынок": {
+				"shares_mln": 2580,
+				"market_cap": 250000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Филипп Навратил",
+					"en": "Philipp Navratil"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сменил уволенного Фрексе",
+					"en": "сменил уволенного Фрексе"
+				}
+			},
+			"staff": 277000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Веве",
+						"en": "Vevey"
+					},
+					"ш": 46.46,
+					"д": 6.84,
+					"province": 743,
+					"staff": 3000,
+					"fine": 595
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nestle.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "roche",
+			"название": {
+				"ru": "Roche",
+				"en": "Roche"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1896,
+			"description": {
+				"ru": "Крупнейший производитель лекарств от рака и диагностики.",
+				"en": "The largest maker of cancer drugs and diagnostics."
+			},
+			"fundamental": {
+				"выручка": 68000,
+				"profit": 11000,
+				"debt": 30000,
+				"money": 8000,
+				"dividends": 8500
+			},
+			"рынок": {
+				"shares_mln": 800,
+				"market_cap": 260000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Хоффманн и Ори",
+						"en": "The Hoffmann and Oeri families"
+					},
+					"type": "founder",
+					"доля": 0.45
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Томас Шинекер",
+					"en": "Thomas Schinecker"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "учёный",
+					"en": "учёный"
+				}
+			},
+			"staff": 103000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Базель",
+						"en": "Basel"
+					},
+					"ш": 47.56,
+					"д": 7.6,
+					"province": 743,
+					"staff": 15000,
+					"fine": 598
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.roche.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "novartis",
+			"название": {
+				"ru": "Novartis",
+				"en": "Novartis"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Инновационные лекарства, отделила Sandoz.",
+				"en": "Innovative drugs, spun off Sandoz."
+			},
+			"fundamental": {
+				"выручка": 51000,
+				"profit": 12000,
+				"debt": 25000,
+				"money": 12000,
+				"dividends": 8000
+			},
+			"рынок": {
+				"shares_mln": 1980,
+				"market_cap": 230000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вас Нарасимхан",
+					"en": "Vas Narasimhan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "врач-учёный",
+					"en": "врач-учёный"
+				}
+			},
+			"staff": 76000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Базель",
+						"en": "Basel"
+					},
+					"ш": 47.57,
+					"д": 7.58,
+					"province": 743,
+					"staff": 12000,
+					"fine": 598
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.novartis.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ubs",
+			"название": {
+				"ru": "UBS",
+				"en": "UBS"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1862,
+			"description": {
+				"ru": "Крупнейший банк Швейцарии, поглотил Credit Suisse.",
+				"en": "Switzerland's largest bank, swallowed Credit Suisse."
+			},
+			"fundamental": {
+				"выручка": 48000,
+				"profit": 5000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2800
+			},
+			"рынок": {
+				"shares_mln": 3200,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Серджо Эрмотти",
+					"en": "Sergio Ermotti"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасатель, спорит с властями о капитале",
+					"en": "спасатель, спорит с властями о капитале"
+				}
+			},
+			"staff": 105000,
+			"wage": 9500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Цюрих",
+						"en": "Zurich"
+					},
+					"ш": 47.37,
+					"д": 8.54,
+					"province": 743,
+					"staff": 20000,
+					"fine": 592
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ubs.com/global/en/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "abb",
+			"название": {
+				"ru": "ABB",
+				"en": "ABB"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Электрификация и роботы — шведско-швейцарский гигант.",
+				"en": "Electrification and robots — a Swedish-Swiss giant."
+			},
+			"fundamental": {
+				"выручка": 33000,
+				"profit": 3900,
+				"debt": 7000,
+				"money": 4000,
+				"dividends": 1900
+			},
+			"рынок": {
+				"shares_mln": 1840,
+				"market_cap": 110000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Investor AB",
+						"en": "Investor AB"
+					},
+					"type": "company",
+					"доля": 0.13,
+					"country": "Швеция",
+					"company": "investor"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.87
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мортен Вьерод",
+					"en": "Morten Wierod"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "норвежец",
+					"en": "норвежец"
+				}
+			},
+			"staff": 110000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Цюрих",
+						"en": "Zurich"
+					},
+					"ш": 47.42,
+					"д": 8.55,
+					"province": 743,
+					"staff": 5000,
+					"fine": 592
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://global.abb/group/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "zurich",
+			"название": {
+				"ru": "Zurich Insurance",
+				"en": "Zurich Insurance"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1872,
+			"description": {
+				"ru": "Крупнейший страховщик Швейцарии.",
+				"en": "Switzerland's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 6000,
+				"debt": 10000,
+				"money": 0,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 143,
+				"market_cap": 95000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марио Греко",
+					"en": "Mario Greco"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "итальянец-страховщик",
+					"en": "итальянец-страховщик"
+				}
+			},
+			"staff": 60000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Цюрих",
+						"en": "Zurich"
+					},
+					"ш": 47.36,
+					"д": 8.53,
+					"province": 743,
+					"staff": 7000,
+					"fine": 592
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.zurich.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "glencore",
+			"название": {
+				"ru": "Glencore",
+				"en": "Glencore"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1974,
+			"description": {
+				"ru": "Крупнейший сырьевой трейдер и горняк: медь, кобальт, уголь.",
+				"en": "The largest commodity trader and miner: copper, cobalt, coal."
+			},
+			"fundamental": {
+				"выручка": 230000,
+				"profit": -1600,
+				"debt": 35000,
+				"money": 2000,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 12000,
+				"market_cap": 55000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Иван Глазенберг",
+						"en": "Ivan Glasenberg"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Катар (QIA)",
+						"en": "Qatar (QIA)"
+					},
+					"type": "polity",
+					"доля": 0.08,
+					"country": "Катар"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.82
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гэри Нейгл",
+					"en": "Gary Nagle"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "южноафриканец, угольщик",
+					"en": "южноафриканец, угольщик"
+				}
+			},
+			"staff": 150000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бар",
+						"en": "Baar"
+					},
+					"ш": 47.2,
+					"д": 8.53,
+					"province": 743,
+					"staff": 1500,
+					"fine": 593
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.glencore.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "holcim",
+			"название": {
+				"ru": "Holcim",
+				"en": "Holcim"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1912,
+			"description": {
+				"ru": "Крупнейший производитель цемента вне Китая.",
+				"en": "The largest cement maker outside China."
+			},
+			"fundamental": {
+				"выручка": 18000,
+				"profit": 2200,
+				"debt": 12000,
+				"money": 3000,
+				"dividends": 1600
+			},
+			"рынок": {
+				"shares_mln": 550,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Томас Шмидхейни",
+						"en": "Thomas Schmidheiny"
+					},
+					"type": "крупный",
+					"доля": 0.07,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.93
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Милян Гутович",
+					"en": "Miljan Gutovic"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1979,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сербо-швейцарец",
+					"en": "сербо-швейцарец"
+				}
+			},
+			"staff": 48000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Цуг",
+						"en": "Zug"
+					},
+					"ш": 47.17,
+					"д": 8.52,
+					"province": 743,
+					"staff": 1000,
+					"fine": 593
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.holcim.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "richemont",
+			"название": {
+				"ru": "Richemont",
+				"en": "Richemont"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Ювелирные Cartier и Van Cleef, часы.",
+				"en": "Cartier and Van Cleef jewellery, watches."
+			},
+			"fundamental": {
+				"выручка": 24000,
+				"profit": 3500,
+				"debt": 5000,
+				"money": 13000,
+				"dividends": 1800
+			},
+			"рынок": {
+				"shares_mln": 575,
+				"market_cap": 95000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Иоганн Руперт",
+						"en": "Johann Rupert"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Николя Бос",
+					"en": "Nicolas Bos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ювелир",
+					"en": "ювелир"
+				}
+			},
+			"staff": 38000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бельвю (Женева)",
+						"en": "Bellevue (Geneva)"
+					},
+					"ш": 46.26,
+					"д": 6.15,
+					"province": 743,
+					"staff": 2000,
+					"fine": 576
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.richemont.com/en/home/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "swissre",
+			"название": {
+				"ru": "Swiss Re",
+				"en": "Swiss Re"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1863,
+			"description": {
+				"ru": "Второй перестраховщик мира.",
+				"en": "The world's second reinsurer."
+			},
+			"fundamental": {
+				"выручка": 47000,
+				"profit": 3200,
+				"debt": 10000,
+				"money": 0,
+				"dividends": 2200
+			},
+			"рынок": {
+				"shares_mln": 290,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреас Бергер",
+					"en": "Andreas Berger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "перестраховщик",
+					"en": "перестраховщик"
+				}
+			},
+			"staff": 14000,
+			"wage": 10000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Цюрих",
+						"en": "Zurich"
+					},
+					"ш": 47.35,
+					"д": 8.54,
+					"province": 743,
+					"staff": 4000,
+					"fine": 592
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.swissre.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "sika",
+			"название": {
+				"ru": "Sika",
+				"en": "Sika"
+			},
+			"sector": "строительство",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1910,
+			"description": {
+				"ru": "Строительная химия: клеи, герметики.",
+				"en": "Construction chemicals: adhesives, sealants."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1300,
+				"debt": 6000,
+				"money": 500,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 160,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Томас Хаслер",
+					"en": "Thomas Hasler"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 33000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Баар",
+						"en": "Baar"
+					},
+					"ш": 47.2,
+					"д": 8.52,
+					"province": 743,
+					"staff": 1000,
+					"fine": 593
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sika.com/en/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "givaudan",
+			"название": {
+				"ru": "Givaudan",
+				"en": "Givaudan"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1895,
+			"description": {
+				"ru": "Крупнейший производитель ароматов и вкусов.",
+				"en": "The largest maker of fragrances and flavours."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 1200,
+				"debt": 5000,
+				"money": 500,
+				"dividends": 750
+			},
+			"рынок": {
+				"shares_mln": 9.2,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жиль Андрие",
+					"en": "Gilles Andrier"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2005,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "парфюмер",
+					"en": "парфюмер"
+				}
+			},
+			"staff": 17000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вернье (Женева)",
+						"en": "Vernier (Geneva)"
+					},
+					"ш": 46.21,
+					"д": 6.09,
+					"province": 743,
+					"staff": 2000,
+					"fine": 576
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.givaudan.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lindt",
+			"название": {
+				"ru": "Lindt & Sprüngli",
+				"en": "Lindt & Sprüngli"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1845,
+			"description": {
+				"ru": "Премиальный шоколад.",
+				"en": "Premium chocolate."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 750,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 0.023,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адальберт Лехнер",
+					"en": "Adalbert Lechner"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 15000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кильхберг",
+						"en": "Kilchberg"
+					},
+					"ш": 47.32,
+					"д": 8.55,
+					"province": 743,
+					"staff": 2000,
+					"fine": 592
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lindt-spruengli.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "swisscom",
+			"название": {
+				"ru": "Swisscom",
+				"en": "Swisscom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1998,
+			"description": {
+				"ru": "Главная связь Швейцарии, купила Vodafone Italia.",
+				"en": "Switzerland's main telecom, bought Vodafone Italia."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 1700,
+				"debt": 15000,
+				"money": 500,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 52,
+				"market_cap": 33000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Швейцарии",
+						"en": "The Swiss state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Швейцария"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кристоф Эшлиманн",
+					"en": "Christoph Aeschlimann"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 20000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Иттиген (Берн)",
+						"en": "Ittigen (Bern)"
+					},
+					"ш": 46.97,
+					"д": 7.48,
+					"province": 743,
+					"staff": 4000,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.swisscom.ch/en/about/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ruag",
+			"название": {
+				"ru": "RUAG",
+				"en": "RUAG"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1999,
+			"description": {
+				"ru": "Оборонная промышленность Швейцарии.",
+				"en": "Switzerland's defence industry."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 30,
+				"debt": 200,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Швейцарии",
+						"en": "The Swiss state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ральф Мюллер",
+					"en": "Ralf Muller"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "оборонщик",
+					"en": "оборонщик"
+				}
+			},
+			"staff": 3000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.95,
+					"д": 7.44,
+					"province": 743,
+					"staff": 1500,
+					"fine": 597
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Тун",
+						"en": "Thun"
+					},
+					"ш": 46.75,
+					"д": 7.62,
+					"province": 743,
+					"staff": 1500,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.ruag.ch/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "lonza_group",
+			"название": {
+				"ru": "Lonza Group",
+				"en": "Lonza Group"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в мире биофармацевтическая корпорация по контрактной разработке и производству лекарств и биопрепаратов (CDMO; выручка ~$7.5 млрд, кап ~$45 млрд)",
+				"en": "Lonza Group — a pharmaceutical company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 1126,
+				"debt": 3493,
+				"money": 981,
+				"dividends": 338
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13696,
+			"wage": 10871,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.919,
+					"д": 7.4522,
+					"province": 743,
+					"staff": 4108,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kuehne_nagel",
+			"название": {
+				"ru": "Kuehne + Nagel International",
+				"en": "Kuehne + Nagel International"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой логистический лидер №1 в морских и авиационных контейнерных перевозках (выручка ~$30 млрд, кап ~$30 млрд)",
+				"en": "Kuehne + Nagel International — a transport company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 2000,
+				"debt": 15152,
+				"money": 6207,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 75000,
+			"wage": 12273,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9254,
+					"д": 7.4223,
+					"province": 743,
+					"staff": 22500,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "the_swatch",
+			"название": {
+				"ru": "The Swatch Group",
+				"en": "The Swatch Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший мировой часовой холдинг (Omega, Breguet, Blancpain, Longines, Tissot, Swatch; выручка ~$8.5 млрд, кап ~$10 млрд)",
+				"en": "The Swatch Group — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 661,
+				"debt": 1962,
+				"money": 708,
+				"dividends": 198
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25500,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9206,
+					"д": 7.4148,
+					"province": 743,
+					"staff": 7650,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "schindler_group",
+			"название": {
+				"ru": "Schindler Group",
+				"en": "Schindler Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий мировой производитель лифтов, эскалаторов и траволаторов (выручка ~$13 млрд, кап ~$26 млрд)",
+				"en": "Schindler Group — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 1011,
+				"debt": 3000,
+				"money": 1083,
+				"dividends": 303
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 26000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 39000,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9804,
+					"д": 7.4688,
+					"province": 743,
+					"staff": 11700,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alcon",
+			"название": {
+				"ru": "Alcon",
+				"en": "Alcon"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области офтальмологической хирургии и интраокулярных линз (выручка ~$9.8 млрд, кап ~$45 млрд)",
+				"en": "Alcon — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 9800,
+				"profit": 762,
+				"debt": 2262,
+				"money": 817,
+				"dividends": 229
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 29400,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9511,
+					"д": 7.4172,
+					"province": 743,
+					"staff": 8820,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sonova_holding",
+			"название": {
+				"ru": "Sonova Holding",
+				"en": "Sonova Holding"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер слуховых аппаратов и кохлеарных имплантов (Phonak, Unitron, Sennheiser; выручка ~$4.0 млрд, кап ~$18 млрд)",
+				"en": "Sonova Holding — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 311,
+				"debt": 923,
+				"money": 333,
+				"dividends": 93
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9443,
+					"д": 7.447,
+					"province": 743,
+					"staff": 3600,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "geberit",
+			"название": {
+				"ru": "Geberit",
+				"en": "Geberit"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий европейский производитель санитарно-технических систем (выручка ~$3.5 млрд, кап ~$20 млрд)",
+				"en": "Geberit — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 272,
+				"debt": 808,
+				"money": 292,
+				"dividends": 82
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10500,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9114,
+					"д": 7.4288,
+					"province": 743,
+					"staff": 3150,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "straumann_group",
+			"название": {
+				"ru": "Straumann Group",
+				"en": "Straumann Group"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный лидер зубной имплантологии и цифровой стоматологии (выручка ~$2.8 млрд, кап ~$20 млрд)",
+				"en": "Straumann Group — a IT and telecom company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 361,
+				"debt": 890,
+				"money": 467,
+				"dividends": 108
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7417,
+			"wage": 13446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9318,
+					"д": 7.4207,
+					"province": 743,
+					"staff": 2225,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "barry_callebaut",
+			"название": {
+				"ru": "Barry Callebaut",
+				"en": "Barry Callebaut"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в мире производитель промышленного шоколада и какао-продуктов (выручка ~.5 млрд)",
+				"en": "Barry Callebaut — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 5600,
+				"profit": 436,
+				"debt": 1292,
+				"money": 467,
+				"dividends": 131
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7671
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 16800,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.979,
+					"д": 7.41,
+					"province": 743,
+					"staff": 5040,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ems_chemie",
+			"название": {
+				"ru": "EMS-Chemie",
+				"en": "EMS-Chemie"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производитель высокотехнологичных конструкционных полимеров (выручка ~$2.5 млрд, кап ~$15 млрд)",
+				"en": "EMS-Chemie — a consumer and retail company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 194,
+				"debt": 577,
+				"money": 208,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7500,
+			"wage": 8333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9542,
+					"д": 7.4124,
+					"province": 743,
+					"staff": 2250,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ruag_mro",
+			"название": {
+				"ru": "RUAG MRO Holding (Берн)",
+				"en": "RUAG MRO Holding (Берн)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оборонный холдинг Швейцарии: ТОиР боевых самолетов F/A-18, F-35A, вертолетов Super Puma, танков Leopard 2, военная кибербезопасность (учтен в базовой таблице)",
+				"en": "RUAG MRO Holding (Берн) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1950,
+				"profit": 130,
+				"debt": 501,
+				"money": 300,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3656
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5850,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9525,
+					"д": 7.484,
+					"province": 743,
+					"staff": 1755,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "general_dynamics_3",
+			"название": {
+				"ru": "General Dynamics European Land Systems – Mowag (GDELS-Mowag, Кройцлинген)",
+				"en": "General Dynamics European Land Systems – Mowag (GDELS-Mowag, Кройцлинген)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой производитель колесной бронетехники: семейство БТР Piranha (Piranha III, IV, V), бронеавтомобилей Duro и Eagle (состоят на вооружении Швейцарии, Дании, Испании, Румынии, Канады)",
+				"en": "General Dynamics European Land Systems – Mowag (GDELS-Mowag, Кройцлинген) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1950,
+				"profit": 130,
+				"debt": 501,
+				"money": 300,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3656
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5850,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9269,
+					"д": 7.4567,
+					"province": 743,
+					"staff": 1755,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pilatus_aircraft",
+			"название": {
+				"ru": "Pilatus Aircraft (Штанс)",
+				"en": "Pilatus Aircraft (Штанс)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер по производству военных учебно-тренировочных самолетов (Pilatus PC-21, PC-9, PC-7 MkX для ВВС Швейцарии, Великобритании, Франции, Австралии, Саудовской Аравии) и турбовинтовых PC-12 / бизнес-джетов PC-24",
+				"en": "Pilatus Aircraft (Штанс) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1950,
+				"profit": 130,
+				"debt": 501,
+				"money": 300,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3656
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5850,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9522,
+					"д": 7.471,
+					"province": 743,
+					"staff": 1755,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rheinmetall_air",
+			"название": {
+				"ru": "Rheinmetall Air Defence (бывш. Oerlikon Contraves, Цюрих)",
+				"en": "Rheinmetall Air Defence (бывш. Oerlikon Contraves, Цюрих)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер систем войсковой ПВО малого радиуса (зенитные комплексы Skynex, Skyranger 30/35, 35-мм автоматические пушки Oerlikon GDF, снаряды с программируемым подрывом AHEAD)",
+				"en": "Rheinmetall Air Defence (бывш. Oerlikon Contraves, Цюрих) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1710,
+				"profit": 114,
+				"debt": 440,
+				"money": 263,
+				"dividends": 34
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3206
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5130,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.985,
+					"д": 7.4435,
+					"province": 743,
+					"staff": 1539,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sig_sauer",
+			"название": {
+				"ru": "SIG Sauer AG (Нойхаузен-ам-Райнфалль)",
+				"en": "SIG Sauer AG (Нойхаузен-ам-Райнфалль)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Исторический разработчик штурмовых винтовок SG 550 / Stgw 90 швейцарской армии, снайперских винтовок и пистолетов",
+				"en": "SIG Sauer AG (Нойхаузен-ам-Райнфалль) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1470,
+				"profit": 98,
+				"debt": 378,
+				"money": 226,
+				"dividends": 29
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2756
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4410,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.915,
+					"д": 7.4711,
+					"province": 743,
+					"staff": 1323,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "safran_vectronix",
+			"название": {
+				"ru": "Safran Vectronix (Хербругг)",
+				"en": "Safran Vectronix (Хербругг)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военная оптика, лазерные дальномеры (VECTOR), приборы ночного видения и тепловизоры для пехоты и сил спецназначения",
+				"en": "Safran Vectronix (Хербругг) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1372,
+				"profit": 91,
+				"debt": 353,
+				"money": 211,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2572
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4116,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9776,
+					"д": 7.4661,
+					"province": 743,
+					"staff": 1234,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "br_gger",
+			"название": {
+				"ru": "Brügger & Thomet (B&T AG, Тун)",
+				"en": "Brügger & Thomet (B&T AG, Тун)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик пистолетов-пулеметов (APC9, MP9), штурмовых/снайперских винтовок (APC223, APR308) и глушителей для спецподразделений США и стран Европы",
+				"en": "Brügger & Thomet (B&T AG, Тун) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1275,
+				"profit": 85,
+				"debt": 328,
+				"money": 196,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2391
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3825,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.957,
+					"д": 7.4104,
+					"province": 743,
+					"staff": 1147,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "swiss_p",
+			"название": {
+				"ru": "Swiss P Defence (Тун, группа Beretta)",
+				"en": "Swiss P Defence (Тун, группа Beretta)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство высокоточных снайперских и армейских патронов",
+				"en": "Swiss P Defence (Тун, группа Beretta) — a defence company of Switzerland."
+			},
+			"fundamental": {
+				"выручка": 1275,
+				"profit": 85,
+				"debt": 328,
+				"money": 196,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2391
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Швейцария)",
+						"en": "The state (Switzerland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Швейцария"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3825,
+			"wage": 11250,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Берн",
+						"en": "Bern"
+					},
+					"ш": 46.9766,
+					"д": 7.4433,
+					"province": 743,
+					"staff": 1147,
+					"fine": 597
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

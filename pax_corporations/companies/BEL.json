@@ -1,0 +1,2328 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Бельгия",
+	"iso": "BEL",
+	"data_date": "2026-03",
+	"average_wage": 4600,
+	"companies": [
+		{
+			"id": "abinbev",
+			"название": {
+				"ru": "AB InBev",
+				"en": "AB InBev"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2008,
+			"description": {
+				"ru": "Крупнейший пивовар мира: Budweiser, Stella Artois, Corona.",
+				"en": "The world's largest brewer: Budweiser, Stella Artois, Corona."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 6000,
+				"debt": 70000,
+				"money": 11000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 2020,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Stichting AK (3G, семьи основателей)",
+						"en": "Stichting AK (3G, founding families)"
+					},
+					"type": "крупный",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Altria",
+						"en": "Altria"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "США"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мишель Дукерис",
+					"en": "Michel Doukeris"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бразилец, экономный, как все из 3G",
+					"en": "бразилец, экономный, как все из 3G"
+				}
+			},
+			"staff": 150000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лёвен",
+						"en": "Leuven"
+					},
+					"ш": 50.88,
+					"д": 4.7,
+					"province": 74,
+					"staff": 3000,
+					"fine": 281
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ab-inbev.com/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "kbc",
+			"название": {
+				"ru": "KBC Group",
+				"en": "KBC Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший банк Бельгии, силён в Центральной Европе.",
+				"en": "Belgium's largest bank, strong in Central Europe."
+			},
+			"fundamental": {
+				"выручка": 13000,
+				"profit": 3600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2200
+			},
+			"рынок": {
+				"shares_mln": 418,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Cera и MRBB (кооперативы)",
+						"en": "Cera and MRBB (cooperatives)"
+					},
+					"type": "крупный",
+					"доля": 0.4,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йоханн Тейс",
+					"en": "Johan Thijs"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2012,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "осторожный банкир",
+					"en": "осторожный банкир"
+				}
+			},
+			"staff": 40000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.86,
+					"д": 4.35,
+					"province": 74,
+					"staff": 8000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kbc.com/en/investor-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ucb",
+			"название": {
+				"ru": "UCB",
+				"en": "UCB"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1928,
+			"description": {
+				"ru": "Лекарства от эпилепсии и псориаза.",
+				"en": "Epilepsy and psoriasis drugs."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 1200,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 195,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Financière de Tubize (семья Жансен)",
+						"en": "Financière de Tubize (Janssen family)"
+					},
+					"type": "founder",
+					"доля": 0.36
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.64
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Жан-Кристоф Телье",
+					"en": "Jean-Christophe Tellier"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "врач-фармацевт",
+					"en": "врач-фармацевт"
+				}
+			},
+			"staff": 9000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.83,
+					"д": 4.32,
+					"province": 74,
+					"staff": 2000,
+					"fine": 280
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Брен-л'Аллё",
+						"en": "Braine-l'Alleud"
+					},
+					"ш": 50.68,
+					"д": 4.37,
+					"province": 74,
+					"staff": 2000,
+					"fine": 288
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ucb.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ageas",
+			"название": {
+				"ru": "Ageas",
+				"en": "Ageas"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Страховщик, крупный в Азии.",
+				"en": "An insurer, big in Asia."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 1200,
+				"debt": 2000,
+				"money": 0,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 183,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Fosun",
+						"en": "Fosun"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ханс Де Кёйпер",
+					"en": "Hans De Cuyper"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 45000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.85,
+					"д": 4.36,
+					"province": 74,
+					"staff": 2000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ageas.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "solvay",
+			"название": {
+				"ru": "Solvay",
+				"en": "Solvay"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1863,
+			"description": {
+				"ru": "Сода, перекись, базовая химия.",
+				"en": "Soda ash, peroxides, basic chemicals."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 300,
+				"debt": 2000,
+				"money": 700,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 105,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сольве (Solvac)",
+						"en": "The Solvay family (Solvac)"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Филипп Керен",
+					"en": "Philippe Kehren"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 9000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.81,
+					"д": 4.39,
+					"province": 74,
+					"staff": 1000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.solvay.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "syensqo",
+			"название": {
+				"ru": "Syensqo",
+				"en": "Syensqo"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Специальные материалы: полимеры, композиты для авиации и батарей.",
+				"en": "Specialty materials: polymers, composites for aircraft and batteries."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 300,
+				"debt": 3000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 105,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Сольве (Solvac)",
+						"en": "The Solvay family (Solvac)"
+					},
+					"type": "founder",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ильхам Кадри",
+					"en": "Ilham Kadri"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "уходит, оставляя спад",
+					"en": "уходит, оставляя спад"
+				}
+			},
+			"staff": 13000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.81,
+					"д": 4.39,
+					"province": 74,
+					"staff": 1000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.syensqo.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "umicore",
+			"название": {
+				"ru": "Umicore",
+				"en": "Umicore"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1805,
+			"description": {
+				"ru": "Переработка металлов, катоды для батарей.",
+				"en": "Metal recycling, battery cathodes."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": -1500,
+				"debt": 2500,
+				"money": 800,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 240,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Sofina",
+						"en": "Sofina"
+					},
+					"type": "company",
+					"доля": 0.16,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Барт Сап",
+					"en": "Bart Sap"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чинит батарейный бизнес",
+					"en": "чинит батарейный бизнес"
+				}
+			},
+			"staff": 11500,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.86,
+					"д": 4.38,
+					"province": 74,
+					"staff": 500,
+					"fine": 280
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Хобокен (Антверпен)",
+						"en": "Hoboken (Antwerp)"
+					},
+					"ш": 51.17,
+					"д": 4.34,
+					"province": 74,
+					"staff": 1500,
+					"fine": 286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.umicore.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "gbl",
+			"название": {
+				"ru": "Groupe Bruxelles Lambert",
+				"en": "Groupe Bruxelles Lambert"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1902,
+			"description": {
+				"ru": "Инвестхолдинг семей Фрер и Демаре.",
+				"en": "The investment holding of the Frère and Desmarais families."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 500,
+				"debt": 5000,
+				"money": 3000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 134,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семьи Фрер и Демаре (Pargesa)",
+						"en": "Frère and Desmarais families (Pargesa)"
+					},
+					"type": "founder",
+					"доля": 0.43
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.57
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йоханнес Хут",
+					"en": "Johannes Huth"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управляющий капиталом",
+					"en": "управляющий капиталом"
+				}
+			},
+			"staff": 30,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.84,
+					"д": 4.37,
+					"province": 74,
+					"staff": 30,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.gbl.com/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "sofina",
+			"название": {
+				"ru": "Sofina",
+				"en": "Sofina"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1898,
+			"description": {
+				"ru": "Инвестхолдинг: венчур и доли в европейских компаниях.",
+				"en": "An investment holding: venture and stakes in European companies."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 300,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 34,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Боэль (Union Financière Boël)",
+						"en": "The Boël family (Union Financière Boël)"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Арольд Боэль",
+					"en": "Harold Boël"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2008,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник",
+					"en": "наследник"
+				}
+			},
+			"staff": 80,
+			"wage": 12000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.84,
+					"д": 4.36,
+					"province": 74,
+					"staff": 80,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sofinagroup.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ackermans",
+			"название": {
+				"ru": "Ackermans & van Haaren",
+				"en": "Ackermans & van Haaren"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1876,
+			"description": {
+				"ru": "Холдинг: дноуглубление DEME, банки, недвижимость.",
+				"en": "A holding: DEME dredging, banks, real estate."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 500,
+				"debt": 2000,
+				"money": 1500,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 33,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Бертран (Scaldis)",
+						"en": "The Bertrand family (Scaldis)"
+					},
+					"type": "founder",
+					"доля": 0.33
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пит Дежонге",
+					"en": "Piet Dejonghe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "investor",
+					"en": "investor"
+				}
+			},
+			"staff": 22000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Антверпен",
+						"en": "Antwerp"
+					},
+					"ш": 51.21,
+					"д": 4.4,
+					"province": 74,
+					"staff": 1000,
+					"fine": 286
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.avh.be/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "elia",
+			"название": {
+				"ru": "Elia Group",
+				"en": "Elia Group"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 2001,
+			"description": {
+				"ru": "Электросети Бельгии и восточной Германии.",
+				"en": "Power grids of Belgium and eastern Germany."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 450,
+				"debt": 12000,
+				"money": 1000,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 110,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Публичный холдинг муниципалитетов (Publi-T)",
+						"en": "Municipal holding (Publi-T)"
+					},
+					"type": "polity",
+					"доля": 0.45,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.55
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бернар Гюстен",
+					"en": "Bernard Gustin"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сетевик",
+					"en": "сетевик"
+				}
+			},
+			"staff": 4000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.86,
+					"д": 4.39,
+					"province": 74,
+					"staff": 1500,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.eliagroup.eu/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "proximus",
+			"название": {
+				"ru": "Proximus",
+				"en": "Proximus"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1930,
+			"description": {
+				"ru": "Главный оператор связи Бельгии.",
+				"en": "Belgium's main telecom."
+			},
+			"fundamental": {
+				"выручка": 6800,
+				"profit": 400,
+				"debt": 4000,
+				"money": 500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 338,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бельгии",
+						"en": "The Belgian state"
+					},
+					"type": "polity",
+					"доля": 0.54,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.46
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стейн Бейненс",
+					"en": "Stijn Bijnens"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строит оптоволокно",
+					"en": "строит оптоволокно"
+				}
+			},
+			"staff": 11500,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.86,
+					"д": 4.36,
+					"province": 74,
+					"staff": 4000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.proximus.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "colruyt",
+			"название": {
+				"ru": "Colruyt",
+				"en": "Colruyt"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1928,
+			"description": {
+				"ru": "Бельгийская сеть дискаунтеров.",
+				"en": "A Belgian discount supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 300,
+				"debt": 500,
+				"money": 500,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 125,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Колрейт",
+						"en": "The Colruyt family"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Стефан Гутарт",
+					"en": "Stefan Goethaert"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 33000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Халле",
+						"en": "Halle"
+					},
+					"ш": 50.73,
+					"д": 4.24,
+					"province": 74,
+					"staff": 3000,
+					"fine": 281
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.colruytgroup.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "dieteren",
+			"название": {
+				"ru": "D'Ieteren",
+				"en": "D'Ieteren"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1805,
+			"description": {
+				"ru": "Импорт VW в Бельгию и стёкла Belron.",
+				"en": "VW imports in Belgium and Belron auto glass."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 600,
+				"debt": 3000,
+				"money": 800,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 53,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Д'Иетерен",
+						"en": "The D'Ieteren family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсис Депре",
+					"en": "Francis Deprez"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "investor",
+					"en": "investor"
+				}
+			},
+			"staff": 30000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.84,
+					"д": 4.39,
+					"province": 74,
+					"staff": 1500,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.dieterengroup.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "belfius",
+			"название": {
+				"ru": "Belfius",
+				"en": "Belfius"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1860,
+			"description": {
+				"ru": "Государственный банк, бывшая Dexia.",
+				"en": "A state bank, formerly Dexia."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бельгии (SFPI)",
+						"en": "The Belgian state (SFPI)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бельгия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Раисьер",
+					"en": "Marc Raisière"
+				},
+				"роль": "госслужащий",
+				"с_года": 2016,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 5500,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.85,
+					"д": 4.36,
+					"province": 74,
+					"staff": 3000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.belfius.be/about-us/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "bpost",
+			"название": {
+				"ru": "bpost",
+				"en": "bpost"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "смешанная",
+			"founded": 1830,
+			"description": {
+				"ru": "Почта Бельгии и логистика.",
+				"en": "Belgium's post and logistics."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 100,
+				"debt": 2500,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 200,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Бельгии",
+						"en": "The Belgian state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Крис Пейтерс",
+					"en": "Chris Peeters"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реформатор почты",
+					"en": "реформатор почты"
+				}
+			},
+			"staff": 36000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.86,
+					"д": 4.36,
+					"province": 74,
+					"staff": 5000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://bpostgroup.com/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lotus",
+			"название": {
+				"ru": "Lotus Bakeries",
+				"en": "Lotus Bakeries"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1932,
+			"description": {
+				"ru": "Печенье Biscoff.",
+				"en": "Biscoff biscuits."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 180,
+				"debt": 300,
+				"money": 100,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 0.81,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Бооне",
+						"en": "The Boone family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян Бон",
+					"en": "Jan Boone"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2011,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наследник, вывел Biscoff в мир",
+					"en": "наследник, вывел Biscoff в мир"
+				}
+			},
+			"staff": 3000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лембек",
+						"en": "Lembeke"
+					},
+					"ш": 51.19,
+					"д": 3.64,
+					"province": 74,
+					"staff": 1500,
+					"fine": 284
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lotusbakeries.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "euroclear",
+			"название": {
+				"ru": "Euroclear",
+				"en": "Euroclear"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Депозитарий, где заморожены активы России.",
+				"en": "The depository holding frozen Russian assets."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 1200,
+				"debt": 0,
+				"money": 5000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Банки-участники",
+						"en": "Member banks"
+					},
+					"type": "крупный",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Валери Урбен",
+					"en": "Valérie Urbain"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "между Москвой и Брюсселем",
+					"en": "между Москвой и Брюсселем"
+				}
+			},
+			"staff": 4500,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.84,
+					"д": 4.37,
+					"province": 74,
+					"staff": 3000,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.euroclear.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "fluxys",
+			"название": {
+				"ru": "Fluxys",
+				"en": "Fluxys"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "смешанная",
+			"founded": 1929,
+			"description": {
+				"ru": "Газопроводы и терминал СПГ Зебрюгге.",
+				"en": "Gas pipelines and the Zeebrugge LNG terminal."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 200,
+				"debt": 4000,
+				"money": 300,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Publigaz (муниципалитеты)",
+						"en": "Publigaz (municipalities)"
+					},
+					"type": "polity",
+					"доля": 0.77,
+					"country": "Бельгия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.23
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паскаль Де Бюк",
+					"en": "Pascal De Buck"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 1400,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.85,
+					"д": 4.36,
+					"province": 74,
+					"staff": 700,
+					"fine": 280
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Терминал СПГ Зебрюгге",
+						"en": "Zeebrugge LNG terminal"
+					},
+					"ш": 51.33,
+					"д": 3.2,
+					"province": 74,
+					"staff": 300,
+					"fine": 285
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.fluxys.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "johncockerill",
+			"название": {
+				"ru": "John Cockerill",
+				"en": "John Cockerill"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1817,
+			"description": {
+				"ru": "Башни для бронетехники, водородные электролизёры.",
+				"en": "Turrets for armoured vehicles, hydrogen electrolysers."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 50,
+				"debt": 300,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Бернар Серен",
+						"en": "Bernard Serin"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франсуа Мишель",
+					"en": "François Michel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 6000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Серен (Льеж)",
+						"en": "Seraing (Liège)"
+					},
+					"ш": 50.6,
+					"д": 5.51,
+					"province": 74,
+					"staff": 3000,
+					"fine": 287
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://johncockerill.com/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "deme_group",
+			"название": {
+				"ru": "DEME Group",
+				"en": "DEME Group"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области морского строительства, дноуглубления и оффшорных ветроэлектростанций (выручка ~.7 млрд, кап ~.3 млрд)",
+				"en": "DEME Group — a energy company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1925,
+				"profit": 178,
+				"debt": 1170,
+				"money": 246,
+				"dividends": 53
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2539
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3424,
+			"wage": 6900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8451,
+					"д": 4.3722,
+					"province": 74,
+					"staff": 1027,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "jan_de",
+			"название": {
+				"ru": "Jan De Nul Group",
+				"en": "Jan De Nul Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая глобальная группа в гидротехническом строительстве, подводных кабельных линиях и дноуглублении (выручка ~.2 млрд)",
+				"en": "Jan De Nul Group — a construction company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 146,
+				"debt": 679,
+				"money": 230,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2207
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5504,
+			"wage": 5884,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.849,
+					"д": 4.314,
+					"province": 74,
+					"staff": 1651,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bekaert",
+			"название": {
+				"ru": "Bekaert",
+				"en": "Bekaert"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер по производству высокотехнологичной стальной проволоки и корда (выручка ~.5 млрд, кап ~.7 млрд)",
+				"en": "Bekaert — a metals and mining company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 194,
+				"debt": 583,
+				"money": 210,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5055,
+			"wage": 8214,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8375,
+					"д": 4.3551,
+					"province": 74,
+					"staff": 1516,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "azelis_group",
+			"название": {
+				"ru": "Azelis Group",
+				"en": "Azelis Group"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший глобальный дистрибьютор специализированной химии и фармацевтических ингредиентов (выручка ~.5 млрд, кап ~.8 млрд)",
+				"en": "Azelis Group — a pharmaceutical company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 263,
+				"debt": 815,
+				"money": 229,
+				"dividends": 79
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6496
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3195,
+			"wage": 6668,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8737,
+					"д": 4.3681,
+					"province": 74,
+					"staff": 958,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "etex_group",
+			"название": {
+				"ru": "Etex Group",
+				"en": "Etex Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный производитель современных строительных и фасадных систем (выручка ~.1 млрд)",
+				"en": "Etex Group — a construction company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 131,
+				"debt": 611,
+				"money": 207,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1987
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4954,
+			"wage": 5884,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8324,
+					"д": 4.3232,
+					"province": 74,
+					"staff": 1486,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fn_herstal",
+			"название": {
+				"ru": "FN Herstal (Herstal Group)",
+				"en": "FN Herstal (Herstal Group)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагман бельгийского ВПК (принадлежит правительству Валлонии). Разработчик и производитель всемирно известного стрелкового оружия (SCAR, Minimi, MAG, P90, Five-seveN) и боеприпасов (бренды FN Herstal, Browning, Winchester). Выручка ~€1.0 млрд+",
+				"en": "FN Herstal (Herstal Group) — a defence company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 1080,
+				"profit": 72,
+				"debt": 278,
+				"money": 166,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2025
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бельгия)",
+						"en": "The state (Belgium)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бельгия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3240,
+			"wage": 6900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Херстал",
+						"en": "Herstal"
+					},
+					"ш": 50.6817,
+					"д": 5.6313,
+					"province": 74,
+					"staff": 972,
+					"fine": 287
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "sabca",
+			"название": {
+				"ru": "SABCA (Orizio Group / Blueberry)",
+				"en": "SABCA (Orizio Group / Blueberry)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Аэрокосмическая и оборонная корпорация (системы приводов для космических ракет Ariane 6 / Vega, обслуживание и модернизация истребителей F-16 и F-35)",
+				"en": "SABCA (Orizio Group / Blueberry) — a defence company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бельгия)",
+						"en": "The state (Belgium)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бельгия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 6900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8782,
+					"д": 4.3226,
+					"province": 74,
+					"staff": 540,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "thales_belgium",
+			"название": {
+				"ru": "Thales Belgium",
+				"en": "Thales Belgium"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка и производство 70-мм ракетных систем с лазерным наведением (FZ275 LGR), электроники и систем управления огнем",
+				"en": "Thales Belgium — a defence company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бельгия)",
+						"en": "The state (Belgium)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бельгия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 6900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.8346,
+					"д": 4.3137,
+					"province": 74,
+					"staff": 540,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mecar",
+			"название": {
+				"ru": "Mecar (KNDS Belgium)",
+				"en": "Mecar (KNDS Belgium)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство артиллерийских, танковых (90мм, 105мм, 120мм) и минометных боеприпасов",
+				"en": "Mecar (KNDS Belgium) — a defence company of Belgium."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 40,
+				"debt": 154,
+				"money": 92,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1125
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Бельгия)",
+						"en": "The state (Belgium)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Бельгия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 6900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брюссель",
+						"en": "Brussels"
+					},
+					"ш": 50.853,
+					"д": 4.3376,
+					"province": 74,
+					"staff": 540,
+					"fine": 280
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

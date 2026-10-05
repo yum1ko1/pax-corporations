@@ -1,0 +1,2060 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Австралия",
+	"iso": "AUS",
+	"data_date": "2026-03",
+	"average_wage": 5000,
+	"companies": [
+		{
+			"id": "bhp",
+			"название": {
+				"ru": "BHP",
+				"en": "BHP"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1885,
+			"description": {
+				"ru": "Крупнейшая горнодобывающая компания мира.",
+				"en": "The world's largest mining company."
+			},
+			"fundamental": {
+				"выручка": 55700,
+				"profit": 7900,
+				"debt": 20000,
+				"money": 12000,
+				"dividends": 6000
+			},
+			"рынок": {
+				"shares_mln": 5070,
+				"market_cap": 135000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майк Хенри",
+					"en": "Mike Henry"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 90000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мельбурн",
+						"en": "Melbourne"
+					},
+					"ш": -37.82,
+					"д": 144.96,
+					"province": 529,
+					"staff": 3000,
+					"fine": 170
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Пилбара (железная руда)",
+						"en": "Pilbara (iron ore)"
+					},
+					"ш": -22.6,
+					"д": 118.0,
+					"province": 1106,
+					"staff": 15000,
+					"fine": 166
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Эскондида (Чили)",
+						"en": "Escondida (Chile)"
+					},
+					"ш": -24.27,
+					"д": -69.07,
+					"province": 1106,
+					"staff": 5000,
+					"fine": 607
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bhp.com/investors | Отчет FY24/25: выручка .7B, прибыль .9B, капитализация ~ USD"
+		},
+		{
+			"id": "cba",
+			"название": {
+				"ru": "Commonwealth Bank",
+				"en": "Commonwealth Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1911,
+			"description": {
+				"ru": "Крупнейший банк Австралии.",
+				"en": "Australia's largest bank."
+			},
+			"fundamental": {
+				"выручка": 18500,
+				"profit": 6500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 5000
+			},
+			"рынок": {
+				"shares_mln": 1670,
+				"market_cap": 165000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мэтт Комин",
+					"en": "Matt Comyn"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1975,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 50000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней",
+						"en": "Sydney"
+					},
+					"ш": -33.87,
+					"д": 151.21,
+					"province": 1133,
+					"staff": 15000,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.commbank.com.au/about-us/investors.html | Отчет FY24/25: прибыль AUD 9.8B (.5B), капитализация AUD 250B ()"
+		},
+		{
+			"id": "nab",
+			"название": {
+				"ru": "National Australia Bank",
+				"en": "National Australia Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1858,
+			"description": {
+				"ru": "Второй банк Австралии.",
+				"en": "Australia's second bank."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 4650,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 3070,
+				"market_cap": 78000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эндрю Ирвайн",
+					"en": "Andrew Irvine"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 40000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мельбурн",
+						"en": "Melbourne"
+					},
+					"ш": -37.82,
+					"д": 144.95,
+					"province": 529,
+					"staff": 12000,
+					"fine": 170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nab.com.au/about-us/shareholder-centre | Отчет 2024–2025: прибыль AUD 7.1B (.65B), капитализация , CEO Andrew Irvine"
+		},
+		{
+			"id": "westpac",
+			"название": {
+				"ru": "Westpac",
+				"en": "Westpac"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1817,
+			"description": {
+				"ru": "Старейший банк Австралии.",
+				"en": "Australia's oldest bank."
+			},
+			"fundamental": {
+				"выручка": 14200,
+				"profit": 4700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3500
+			},
+			"рынок": {
+				"shares_mln": 3450,
+				"market_cap": 72000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Энтони Миллер",
+					"en": "Anthony Miller"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 35000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней",
+						"en": "Sydney"
+					},
+					"ш": -33.87,
+					"д": 151.2,
+					"province": 1133,
+					"staff": 12000,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.westpac.com.au/about-westpac/investor-centre/ | Отчет 2024–2025: прибыль AUD 7.2B (.7B), капитализация , CEO Anthony Miller"
+		},
+		{
+			"id": "anz",
+			"название": {
+				"ru": "ANZ",
+				"en": "ANZ"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1835,
+			"description": {
+				"ru": "Банк Австралии, Новой Зеландии и Азии.",
+				"en": "The bank of Australia, New Zealand and Asia."
+			},
+			"fundamental": {
+				"выручка": 13500,
+				"profit": 4400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 3200
+			},
+			"рынок": {
+				"shares_mln": 2980,
+				"market_cap": 58000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нуно Матуш",
+					"en": "Nuno Matos"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "португалец из HSBC",
+					"en": "португалец из HSBC"
+				}
+			},
+			"staff": 40000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мельбурн",
+						"en": "Melbourne"
+					},
+					"ш": -37.82,
+					"д": 144.94,
+					"province": 529,
+					"staff": 10000,
+					"fine": 170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.anz.com/shareholder/centre/ | Отчет 2024–2025: прибыль AUD 6.7B (.4B), капитализация , CEO Nuno Matos"
+		},
+		{
+			"id": "csl",
+			"название": {
+				"ru": "CSL",
+				"en": "CSL"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1916,
+			"description": {
+				"ru": "Препараты из плазмы крови и вакцины.",
+				"en": "Plasma-derived medicines and vaccines."
+			},
+			"fundamental": {
+				"выручка": 15200,
+				"profit": 2900,
+				"debt": 12000,
+				"money": 1500,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 484,
+				"market_cap": 88000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пол Маккензи",
+					"en": "Paul McKenzie"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "делит компанию",
+					"en": "делит компанию"
+				}
+			},
+			"staff": 32000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мельбурн",
+						"en": "Melbourne"
+					},
+					"ш": -37.78,
+					"д": 144.95,
+					"province": 529,
+					"staff": 3000,
+					"fine": 170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.csl.com/investors | Отчет 2024–2025: выручка .2B, прибыль .9B, капитализация"
+		},
+		{
+			"id": "macquarie",
+			"название": {
+				"ru": "Macquarie Group",
+				"en": "Macquarie Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1969,
+			"description": {
+				"ru": "Инвестбанк и крупнейший инфраструктурный инвестор мира.",
+				"en": "An investment bank and the world's largest infrastructure investor."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 2350,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 382,
+				"market_cap": 54000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шемара Викраманаяке",
+					"en": "Shemara Wikramanayake"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инвестбанкир",
+					"en": "инвестбанкир"
+				}
+			},
+			"staff": 20000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней",
+						"en": "Sydney"
+					},
+					"ш": -33.86,
+					"д": 151.21,
+					"province": 1133,
+					"staff": 6000,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.macquarie.com/au/en/investors.html | Отчет 2024–2025: прибыль AUD 3.5B (.35B), капитализация"
+		},
+		{
+			"id": "woodside",
+			"название": {
+				"ru": "Woodside Energy",
+				"en": "Woodside Energy"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "частная",
+			"founded": 1954,
+			"description": {
+				"ru": "Крупнейший экспортёр СПГ Австралии.",
+				"en": "Australia's largest LNG exporter."
+			},
+			"fundamental": {
+				"выручка": 13500,
+				"profit": 2800,
+				"debt": 8000,
+				"money": 3000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1900,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мег О'Нил",
+					"en": "Meg O'Neill"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американка-нефтяник",
+					"en": "американка-нефтяник"
+				}
+			},
+			"staff": 5000,
+			"wage": 9000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Перт",
+						"en": "Perth"
+					},
+					"ш": -31.95,
+					"д": 115.86,
+					"province": 1104,
+					"staff": 2500,
+					"fine": 166
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "СПГ Плуто (Карратта)",
+						"en": "Pluto LNG (Karratha)"
+					},
+					"ш": -20.6,
+					"д": 116.8,
+					"province": 1106,
+					"staff": 1500,
+					"fine": 166
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.woodside.com/investors | Отчет 2024–2025: выручка .5B, прибыль .8B, капитализация"
+		},
+		{
+			"id": "fortescue",
+			"название": {
+				"ru": "Fortescue",
+				"en": "Fortescue"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2003,
+			"description": {
+				"ru": "Железная руда Пилбары Эндрю Форреста.",
+				"en": "Andrew Forrest's Pilbara iron ore."
+			},
+			"fundamental": {
+				"выручка": 18200,
+				"profit": 5700,
+				"debt": 5000,
+				"money": 4500,
+				"dividends": 4000
+			},
+			"рынок": {
+				"shares_mln": 3080,
+				"market_cap": 38000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Эндрю Форрест (Tattarang)",
+						"en": "Andrew Forrest (Tattarang)"
+					},
+					"type": "founder",
+					"доля": 0.37
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.63
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дино Отранто",
+					"en": "Dino Otranto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 15000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Перт",
+						"en": "Perth"
+					},
+					"ш": -31.95,
+					"д": 115.85,
+					"province": 1104,
+					"staff": 2000,
+					"fine": 166
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Кристмас-Крик",
+						"en": "Christmas Creek mine"
+					},
+					"ш": -22.4,
+					"д": 119.9,
+					"province": 1107,
+					"staff": 5000,
+					"fine": 166
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://fortescue.com/investors | Отчет FY24/25: выручка .2B, чистая прибыль .7B, капитализация"
+		},
+		{
+			"id": "wesfarmers",
+			"название": {
+				"ru": "Wesfarmers",
+				"en": "Wesfarmers"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1914,
+			"description": {
+				"ru": "Магазины Bunnings и Kmart.",
+				"en": "Bunnings and Kmart stores."
+			},
+			"fundamental": {
+				"выручка": 29000,
+				"profit": 1680,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1130,
+				"market_cap": 58000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роб Скотт",
+					"en": "Rob Scott"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 120000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Перт",
+						"en": "Perth"
+					},
+					"ш": -31.95,
+					"д": 115.86,
+					"province": 1104,
+					"staff": 2000,
+					"fine": 166
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.wesfarmers.com.au/investor-centre | Отчет FY24/25: выручка AUD 44.2B (), прибыль AUD 2.55B (.68B), капитализация"
+		},
+		{
+			"id": "woolworths",
+			"название": {
+				"ru": "Woolworths",
+				"en": "Woolworths"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1924,
+			"description": {
+				"ru": "Крупнейшая сеть супермаркетов Австралии.",
+				"en": "Australia's largest supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 720,
+				"debt": 6000,
+				"money": 1000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1220,
+				"market_cap": 26500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аманда Бардуэлл",
+					"en": "Amanda Bardwell"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "розничник",
+					"en": "розничник"
+				}
+			},
+			"staff": 200000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней",
+						"en": "Sydney"
+					},
+					"ш": -33.73,
+					"д": 150.9,
+					"province": 1133,
+					"staff": 4000,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.woolworthsgroup.com.au/investors | Отчет FY24/25: выручка AUD 67.9B (), прибыль , CEO Amanda Bardwell"
+		},
+		{
+			"id": "telstra",
+			"название": {
+				"ru": "Telstra",
+				"en": "Telstra"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Главная связь Австралии.",
+				"en": "Australia's main telecom."
+			},
+			"fundamental": {
+				"выручка": 15500,
+				"profit": 1400,
+				"debt": 8000,
+				"money": 1000,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 11550,
+				"market_cap": 32000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Вики Брэди",
+					"en": "Vicki Brady"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 30000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мельбурн",
+						"en": "Melbourne"
+					},
+					"ш": -37.81,
+					"д": 144.97,
+					"province": 529,
+					"staff": 8000,
+					"fine": 170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.telstra.com.au/aboutus/investors | Отчет 2024–2025: выручка AUD 23.5B (.5B), чистая прибыль .4B"
+		},
+		{
+			"id": "qantas",
+			"название": {
+				"ru": "Qantas",
+				"en": "Qantas"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1920,
+			"description": {
+				"ru": "Национальная авиакомпания Австралии.",
+				"en": "Australia's national airline."
+			},
+			"fundamental": {
+				"выручка": 14500,
+				"profit": 950,
+				"debt": 4000,
+				"money": 3000,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1520,
+				"market_cap": 10500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ванесса Хадсон",
+					"en": "Vanessa Hudson"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чинит репутацию",
+					"en": "чинит репутацию"
+				}
+			},
+			"staff": 28000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней, аэропорт",
+						"en": "Sydney airport"
+					},
+					"ш": -33.94,
+					"д": 151.17,
+					"province": 1133,
+					"staff": 10000,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.qantas.com/ | Отчет 2024–2025: выручка AUD 21.9B (.5B), прибыль , CEO Vanessa Hudson"
+		},
+		{
+			"id": "austal",
+			"название": {
+				"ru": "Austal",
+				"en": "Austal"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Военные корабли для ВМС США и Австралии (AUKUS).",
+				"en": "Warships for the US and Australian navies (AUKUS)."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 60,
+				"debt": 300,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 415,
+				"market_cap": 1600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Hanwha",
+						"en": "Hanwha"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Южная Корея",
+					"company": "hanwhaaero"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пэдди Грегг",
+					"en": "Paddy Gregg"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "корабел",
+					"en": "корабел"
+				}
+			},
+			"staff": 4000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хендерсон (Перт)",
+						"en": "Henderson (Perth)"
+					},
+					"ш": -32.15,
+					"д": 115.77,
+					"province": 1104,
+					"staff": 1500,
+					"fine": 166
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Мобил, Алабама",
+						"en": "Mobile, Alabama"
+					},
+					"ш": 30.68,
+					"д": -88.04,
+					"province": 1106,
+					"staff": 2500,
+					"fine": 4387
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.austal.com/investor-centre | Отчет 2024–2025: выручка .1B, чистая прибыль , верфи в Австралии и США"
+		},
+		{
+			"id": "agl",
+			"название": {
+				"ru": "AGL Energy",
+				"en": "AGL Energy"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1837,
+			"description": {
+				"ru": "Крупнейший энергетик Австралии, закрывает угольные ТЭС.",
+				"en": "Australia's largest power company, closing coal plants."
+			},
+			"fundamental": {
+				"выручка": 8800,
+				"profit": 470,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 673,
+				"market_cap": 4800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Майк Кэннон-Брукс",
+						"en": "Mike Cannon-Brookes"
+					},
+					"type": "крупный",
+					"доля": 0.11,
+					"country": "Австралия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.89
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Деймиен Николс",
+					"en": "Damien Nicks"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 4000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сидней",
+						"en": "Sydney"
+					},
+					"ш": -33.87,
+					"д": 151.2,
+					"province": 1133,
+					"staff": 1500,
+					"fine": 168
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Бейсуотер",
+						"en": "Bayswater power station"
+					},
+					"ш": -32.4,
+					"д": 150.95,
+					"province": 1131,
+					"staff": 500,
+					"fine": 168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.agl.com.au/about-agl/investors | Отчет 2024–2025: выручка AUD 13.5B (.8B), чистая прибыль"
+		},
+		{
+			"id": "atlassian_corporation",
+			"название": {
+				"ru": "Atlassian Corporation",
+				"en": "Atlassian Corporation"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "IT / Разработка ПО: Jira, Confluence, Trello — крупнейшая IT-корпорация австралийского происхождения (листинг NASDAQ: TEAM, выручка >$4.3 млрд, капитализация ~$50 млрд)",
+				"en": "Atlassian Corporation — a IT and telecom company of Australia."
+			},
+			"fundamental": {
+				"выручка": 4300,
+				"profit": 555,
+				"debt": 1367,
+				"money": 717,
+				"dividends": 166
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11390,
+			"wage": 8964,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2984,
+					"д": 149.1106,
+					"province": 1133,
+					"staff": 3417,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "goodman_group",
+			"название": {
+				"ru": "Goodman Group",
+				"en": "Goodman Group"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Индустриальная недвижимость и Дата-центры под ИИ — крупнейший в Азиатско-Тихоокеанском регионе девелопер складов и дата-центров (листинг ASX: GMG, капитализация ~$40 млрд)",
+				"en": "Goodman Group — a IT and telecom company of Australia."
+			},
+			"fundamental": {
+				"выручка": 21127,
+				"profit": 2726,
+				"debt": 6716,
+				"money": 3521,
+				"dividends": 818
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 55965,
+			"wage": 8964,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2547,
+					"д": 149.1371,
+					"province": 1133,
+					"staff": 16789,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "coles_group",
+			"название": {
+				"ru": "Coles Group",
+				"en": "Coles Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ритейл / Супермаркеты — 2-я по величине розничная сеть страны (выручка ~$28 млрд, капитализация ~$16 млрд)",
+				"en": "Coles Group — a consumer and retail company of Australia."
+			},
+			"fundamental": {
+				"выручка": 28000,
+				"profit": 2178,
+				"debt": 6462,
+				"money": 2333,
+				"dividends": 653
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 84000,
+			"wage": 5556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2459,
+					"д": 149.1296,
+					"province": 1133,
+					"staff": 25200,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "santos_limited",
+			"название": {
+				"ru": "Santos Limited",
+				"en": "Santos Limited"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефть и газ / СПГ — крупнейший национальный производитель газа для внутреннего рынка Австралии и СПГ (выручка ~$6 млрд, капитализация ~$15 млрд)",
+				"en": "Santos Limited — a oil and gas company of Australia."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 357,
+				"debt": 1690,
+				"money": 570,
+				"dividends": 107
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5246,
+			"wage": 8944,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2859,
+					"д": 149.1558,
+					"province": 1133,
+					"staff": 1573,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "transurban_group",
+			"название": {
+				"ru": "Transurban Group",
+				"en": "Transurban Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Инфраструктура / Платные автомагистрали — крупнейший в мире оператор платных городских дорог (капитализация ~$28 млрд)",
+				"en": "Transurban Group — a construction company of Australia."
+			},
+			"fundamental": {
+				"выручка": 22198,
+				"profit": 1850,
+				"debt": 8612,
+				"money": 2912,
+				"dividends": 555
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 69828,
+			"wage": 6395,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2988,
+					"д": 149.091,
+					"province": 1133,
+					"staff": 20948,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "origin_energy",
+			"название": {
+				"ru": "Origin Energy",
+				"en": "Origin Energy"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Энергетика / СПГ — ключевой интегрированный энергопоставщик Австралии и совладелец проекта APLNG (выручка ~$10 млрд, капитализация ~$12 млрд)",
+				"en": "Origin Energy — a oil and gas company of Australia."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 595,
+				"debt": 2817,
+				"money": 950,
+				"dividends": 178
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8744,
+			"wage": 8944,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2712,
+					"д": 149.1056,
+					"province": 1133,
+					"staff": 2623,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mineral_resources",
+			"название": {
+				"ru": "Mineral Resources (MinRes)",
+				"en": "Mineral Resources (MinRes)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Горная добыча: Литий и Железная руда — мировой лидер добычи литиевого сырья и железной руды (выручка ~$3.5 млрд)",
+				"en": "Mineral Resources (MinRes) — a metals and mining company of Australia."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 389,
+				"debt": 1167,
+				"money": 420,
+				"dividends": 117
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10111,
+			"wage": 8929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2792,
+					"д": 149.148,
+					"province": 1133,
+					"staff": 3033,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cea_technologies",
+			"название": {
+				"ru": "CEA Technologies",
+				"en": "CEA Technologies"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Радары ПВО и флотские АФАР — разработчик инновационных 3D-радаров с активной фазированной решеткой (CEAFAR, CEAMOUNT) для фрегатов ANZAC и перспективных фрегатов Hunter ВМС Австралии",
+				"en": "CEA Technologies — a defence company of Australia."
+			},
+			"fundamental": {
+				"выручка": 2152,
+				"profit": 143,
+				"debt": 553,
+				"money": 331,
+				"dividends": 43
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4035
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австралия)",
+						"en": "The state (Australia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австралия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6456,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2846,
+					"д": 149.1193,
+					"province": 1133,
+					"staff": 1936,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "electro_optic",
+			"название": {
+				"ru": "Electro Optic Systems (EOS)",
+				"en": "Electro Optic Systems (EOS)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Дистанционные боевые модули / Лазерное оружие — разработчик турелей RWS R400/R600, противодроновых комплексов Slinger и боевых лазеров (листинг ASX: EOS)",
+				"en": "Electro Optic Systems (EOS) — a defence company of Australia."
+			},
+			"fundamental": {
+				"выручка": 2130,
+				"profit": 142,
+				"debt": 548,
+				"money": 328,
+				"dividends": 43
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3994
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австралия)",
+						"en": "The state (Australia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австралия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6390,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2982,
+					"д": 149.1637,
+					"province": 1133,
+					"staff": 1917,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "droneshield",
+			"название": {
+				"ru": "DroneShield",
+				"en": "DroneShield"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Системы противодействия БПЛА / РЭБ — мировой лидер портативных и стационарных комплексов РЭБ и обнаружения дронов (DroneGun, DroneSentry; листинг ASX: DRO)",
+				"en": "DroneShield — a defence company of Australia."
+			},
+			"fundamental": {
+				"выручка": 2115,
+				"profit": 141,
+				"debt": 544,
+				"money": 325,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3966
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австралия)",
+						"en": "The state (Australia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австралия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6345,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.3168,
+					"д": 149.1328,
+					"province": 1133,
+					"staff": 1903,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "asc_pty",
+			"название": {
+				"ru": "ASC Pty Ltd (Australian Submarine Corporation)",
+				"en": "ASC Pty Ltd (Australian Submarine Corporation)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Подводное кораблестроение, гос. — государственная верфь по постройке и модернизации подводных лодок (класс Collins и будущие АПЛ AUKUS)",
+				"en": "ASC Pty Ltd (Australian Submarine Corporation) — a defence company of Australia."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 140,
+				"debt": 540,
+				"money": 323,
+				"dividends": 42
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3938
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австралия)",
+						"en": "The state (Australia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австралия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6300,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.2968,
+					"д": 149.1523,
+					"province": 1133,
+					"staff": 1890,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defendtex",
+			"название": {
+				"ru": "DefendTex",
+				"en": "DefendTex"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокоточные боеприпасы / Дроны — разработчик гранатометных БПЛА Drone40, ракетных комплексов и боеприпасов",
+				"en": "DefendTex — a defence company of Australia."
+			},
+			"fundamental": {
+				"выручка": 2062,
+				"profit": 137,
+				"debt": 530,
+				"money": 317,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3866
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австралия)",
+						"en": "The state (Australia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австралия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6186,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Канберра",
+						"en": "Canberra"
+					},
+					"ш": -35.3141,
+					"д": 149.1575,
+					"province": 1133,
+					"staff": 1855,
+					"fine": 167
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

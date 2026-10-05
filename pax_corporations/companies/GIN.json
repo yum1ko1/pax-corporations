@@ -1,0 +1,761 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Гвинея",
+	"iso": "GIN",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "simandou",
+			"название": {
+				"ru": "Simandou",
+				"en": "Simandou"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Крупнейшее в мире нетронутое месторождение высококачественной железной руды, разрабатываемое консорциумом Rio Tinto, WCS, Chinalco, Baowu и правительством Гвинеи (пуск 2025–2026).",
+				"en": "The world's largest untapped high-grade iron ore deposit, developed by Rio Tinto, WCS, Chinalco, Baowu and the Guinean government."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 200,
+				"debt": 5000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Rio Tinto",
+						"en": "Rio Tinto"
+					},
+					"type": "company",
+					"доля": 0.45,
+					"country": "Великобритания",
+					"company": "riotinto"
+				},
+				{
+					"кто": {
+						"ru": "Winning Consortium (Китай)",
+						"en": "Winning Consortium (China)"
+					},
+					"type": "company",
+					"доля": 0.4,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Государство Гвинеи",
+						"en": "The Guinean state"
+					},
+					"type": "polity",
+					"доля": 0.15,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Робин Лу",
+					"en": "Robin Lu"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель мегапроекта",
+					"en": "строители рудника"
+				}
+			},
+			"staff": 10000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.51,
+					"д": -13.71,
+					"province": 797,
+					"staff": 500,
+					"fine": 1470
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Горы Симанду",
+						"en": "Simandou range"
+					},
+					"ш": 8.6,
+					"д": -8.9,
+					"province": 295,
+					"staff": 9500,
+					"fine": 1491
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://ctg.gn/ | CTG / Rio Tinto / WCS отчёты 2024-2026; https://ctg.gn/"
+		},
+		{
+			"id": "compagnie_des",
+			"название": {
+				"ru": "Compagnie des Bauxites de Guinée (CBG)",
+				"en": "Compagnie des Bauxites de Guinée (CBG)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Исторический флагман бокситовой индустрии (месторождение Сангареди/Боке, глубоководный порт Камсар; совместное предприятие государства Гвинея 49% и международного консорциума Halco Mining 51% [Alcoa, Rio Tinto, Dadco]; добыча ~18-20 млн т/год, выручка ~$900 млн, 4,500 сотр.). https://www.cbg-guinee.com/",
+				"en": "Compagnie des Bauxites de Guinée (CBG) — a metals and mining company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 100,
+				"debt": 300,
+				"money": 108,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1080
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2600,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.554,
+					"д": -13.7085,
+					"province": 797,
+					"staff": 780,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_3",
+			"название": {
+				"ru": "Société Minière de Boké (SMB)",
+				"en": "Société Minière de Boké (SMB)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший независимый производитель и экспортер бокситов в Гвинее (консорциум SMB-Winning: Winning International Group, Shandong Weiqiao, UMS и государство; экспорт свыше 45 млн т бокситов ежегодно в КНР, собственные речные терминалы на реке Рио-Нуньес; выручка ~$1.8 млрд, 8,500 сотр.). https://smb-guinee.com/",
+				"en": "Société Minière de Boké (SMB) — a transport company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 909,
+				"money": 372,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1286
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Boké"
+					},
+					"ш": 10.9148,
+					"д": -14.2632,
+					"province": 797,
+					"staff": 1350,
+					"fine": 1469
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rusal_guinea",
+			"название": {
+				"ru": "RUSAL Guinea (Friguia, Compagnie des Bauxites de Kindia - CBK, COBAD Dian-Dian)",
+				"en": "RUSAL Guinea (Friguia, Compagnie des Bauxites de Kindia - CBK, COBAD Dian-Dian)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Гвинейские активы ОК РУСАЛ — глиноземный комбинат Friguia, рудник Киндия и месторождение Диан-Диан; собственная железнодорожная линия Киндия — порт Конакри (выручка подразделения ~$500 млн, 3,500 сотр.). https://rusal.ru/",
+				"en": "RUSAL Guinea (Friguia, Compagnie des Bauxites de Kindia - CBK, COBAD Dian-Dian) — a transport company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 33,
+				"debt": 253,
+				"money": 103,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 357
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1250,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5559,
+					"д": -13.6926,
+					"province": 797,
+					"staff": 375,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_4",
+			"название": {
+				"ru": "Société Aurifère de Guinée (SAG)",
+				"en": "Société Aurifère de Guinée (SAG)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшее золотодобывающее предприятие Гвинеи (рудник Сигури / Siguiri; принадлежит AngloGold Ashanti 85% и государству 15%; производство ~270,000 унций золота в год; выручка ~$550 млн). https://www.anglogoldashanti.com/",
+				"en": "Société Aurifère de Guinée (SAG) — a metals and mining company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 61,
+				"debt": 183,
+				"money": 66,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 660
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1588,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сигири",
+						"en": "Siguiri"
+					},
+					"ш": 11.4419,
+					"д": -9.1808,
+					"province": 798,
+					"staff": 476,
+					"fine": 1497
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "orange_guin",
+			"название": {
+				"ru": "Orange Guinée",
+				"en": "Orange Guinée"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий телекоммуникационный оператор и провайдер мобильных финансовых услуг (Orange Money) в стране (доля рынка мобильной связи >60%, свыше 5 млн абонентов; выручка ~$280 млн). https://www.orange-guinee.com/",
+				"en": "Orange Guinée — a IT and telecom company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 36,
+				"debt": 89,
+				"money": 47,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 530
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 741,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5752,
+					"д": -13.6569,
+					"province": 797,
+					"staff": 222,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lectricit_de",
+			"название": {
+				"ru": "Électricité de Guinée (EDG)",
+				"en": "Électricité de Guinée (EDG)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная энергетическая корпорация Гвинеи (эксплуатация гидроэлектростанций Калета, Суапити и распределительных электросетей страны; выручка ~$200 млн). https://edg.com.gn/",
+				"en": "Électricité de Guinée (EDG) — a energy company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 200,
+				"profit": 18,
+				"debt": 122,
+				"money": 26,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 264
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 355,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5057,
+					"д": -13.667,
+					"province": 797,
+					"staff": 106,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_5",
+			"название": {
+				"ru": "Société Nationale des Pétroles (SONAP)",
+				"en": "Société Nationale des Pétroles (SONAP)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная нефтяная компания Гвинеи (монопольный импорт, стратегическое хранение светлых нефтепродуктов, развитие сети нефтебаз и управление лицензиями на шельфе). https://sonap.gov.gn/",
+				"en": "Société Nationale des Pétroles (SONAP) — a oil and gas company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 192,
+				"profit": 11,
+				"debt": 54,
+				"money": 18,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 119
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 167,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5634,
+					"д": -13.6989,
+					"province": 797,
+					"staff": 50,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome_4",
+			"название": {
+				"ru": "Port Autonome de Conakry (PAC)",
+				"en": "Port Autonome de Conakry (PAC)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное управление автономного морского порта Конакри — главные морские ворота страны и контейнерный хаб (контейнерный терминал под концессионным управлением Africa Global Logistics / AGL). https://portconakry.com/",
+				"en": "Port Autonome de Conakry (PAC) — a transport company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 12,
+				"debt": 93,
+				"money": 38,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 460,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5351,
+					"д": -13.6708,
+					"province": 797,
+					"staff": 138,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "direction_des_2",
+			"название": {
+				"ru": "Direction des Services de l'Intendance Militaire & Génie Militaire",
+				"en": "Direction des Services de l'Intendance Militaire & Génie Militaire"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-технические службы и тыловое обеспечение Вооруженных сил Гвинеи",
+				"en": "Direction des Services de l'Intendance Militaire & Génie Militaire — a defence company of Guinea."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 5,
+				"debt": 19,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 141
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гвинея)",
+						"en": "The state (Guinea)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гвинея"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 225,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Конакри",
+						"en": "Conakry"
+					},
+					"ш": 9.5215,
+					"д": -13.6786,
+					"province": 797,
+					"staff": 67,
+					"fine": 1470
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

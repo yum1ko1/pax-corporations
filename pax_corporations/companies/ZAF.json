@@ -1,0 +1,1763 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "ЮАР",
+	"iso": "ZAF",
+	"data_date": "2026-03",
+	"average_wage": 1500,
+	"companies": [
+		{
+			"id": "naspers",
+			"название": {
+				"ru": "Naspers",
+				"en": "Naspers"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1915,
+			"description": {
+				"ru": "Медиахолдинг, через Prosus владеет долей Tencent.",
+				"en": "A media holding that owns a Tencent stake through Prosus."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 6000,
+				"debt": 15000,
+				"money": 18000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонды сотрудников и основателей (Wheel)",
+						"en": "Employee and founder trusts (Wheel)"
+					},
+					"type": "сама",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фабрисио Блоизи",
+					"en": "Fabricio Bloisi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "руководит и Prosus",
+					"en": "руководит и Prosus"
+				}
+			},
+			"staff": 30000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кейптаун",
+						"en": "Cape Town"
+					},
+					"ш": -33.92,
+					"д": 18.42,
+					"province": 533,
+					"staff": 1500,
+					"fine": 4569
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.naspers.com/"
+		},
+		{
+			"id": "firstrand",
+			"название": {
+				"ru": "FirstRand",
+				"en": "FirstRand"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший банк Африки по стоимости: FNB, RMB.",
+				"en": "Africa's most valuable bank: FNB, RMB."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 2300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 5610,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели (Ruplu, Dippenaar, Burgess)",
+						"en": "The founders (Rupert, Dippenaar, Burgess)"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мэри Вилакази",
+					"en": "Mary Vilakazi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая чернокожая женщина во главе банка",
+					"en": "первая чернокожая женщина во главе банка"
+				}
+			},
+			"staff": 50000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург, Сэндтон",
+						"en": "Johannesburg, Sandton"
+					},
+					"ш": -26.1,
+					"д": 28.05,
+					"province": 475,
+					"staff": 12000,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.firstrand.co.za/"
+		},
+		{
+			"id": "standardbank",
+			"название": {
+				"ru": "Standard Bank",
+				"en": "Standard Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1862,
+			"description": {
+				"ru": "Крупнейший банк Африки по активам, работает в 20 странах.",
+				"en": "Africa's largest bank by assets, in 20 countries."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 2400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 1670,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "ICBC",
+						"en": "ICBC"
+					},
+					"type": "company",
+					"доля": 0.19,
+					"country": "Китай",
+					"company": "icbc"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.81
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сим Цхабалала",
+					"en": "Sim Tshabalala"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2013,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист",
+					"en": "юрист"
+				}
+			},
+			"staff": 50000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург",
+						"en": "Johannesburg"
+					},
+					"ш": -26.2,
+					"д": 28.04,
+					"province": 475,
+					"staff": 12000,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.standardbank.com/"
+		},
+		{
+			"id": "mtn",
+			"название": {
+				"ru": "MTN Group",
+				"en": "MTN Group"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Крупнейший оператор связи Африки.",
+				"en": "Africa's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 200,
+				"debt": 6000,
+				"money": 2000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1880,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIC (госпенсии ЮАР)",
+						"en": "PIC (South African state pensions)"
+					},
+					"type": "polity",
+					"доля": 0.24,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.76
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ральф Мупита",
+					"en": "Ralph Mupita"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бьётся с девальвацией найры",
+					"en": "бьётся с девальвацией найры"
+				}
+			},
+			"staff": 16000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург",
+						"en": "Johannesburg"
+					},
+					"ш": -26.06,
+					"д": 28.02,
+					"province": 475,
+					"staff": 3000,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mtn.com/"
+		},
+		{
+			"id": "sasol",
+			"название": {
+				"ru": "Sasol",
+				"en": "Sasol"
+			},
+			"sector": "oil_gas",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 1950,
+			"description": {
+				"ru": "Синтетическое топливо из угля и химия.",
+				"en": "Synthetic fuel from coal and chemicals."
+			},
+			"fundamental": {
+				"выручка": 15000,
+				"profit": -2000,
+				"debt": 7000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 640,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIC (госпенсии ЮАР)",
+						"en": "PIC (South African state pensions)"
+					},
+					"type": "polity",
+					"доля": 0.15,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.85
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Саймон Балойи",
+					"en": "Simon Baloyi"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасает баланс",
+					"en": "спасает баланс"
+				}
+			},
+			"staff": 28000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург",
+						"en": "Johannesburg"
+					},
+					"ш": -26.15,
+					"д": 28.05,
+					"province": 475,
+					"staff": 3000,
+					"fine": 4572
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Секунда (уголь в топливо)",
+						"en": "Secunda (coal to liquids)"
+					},
+					"ш": -26.55,
+					"д": 29.17,
+					"province": 475,
+					"staff": 8000,
+					"fine": 4573
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.sasol.com/"
+		},
+		{
+			"id": "valterra",
+			"название": {
+				"ru": "Valterra Platinum",
+				"en": "Valterra Platinum"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший добытчик платины, отделён от Anglo American.",
+				"en": "The largest platinum miner, spun off from Anglo American."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 500,
+				"debt": 500,
+				"money": 1500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 265,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PIC (госпенсии ЮАР)",
+						"en": "PIC (South African state pensions)"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Крейг Миллер",
+					"en": "Craig Miller"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 26000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург",
+						"en": "Johannesburg"
+					},
+					"ш": -26.19,
+					"д": 28.03,
+					"province": 475,
+					"staff": 500,
+					"fine": 4572
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудники Могалаквена",
+						"en": "Mogalakwena mine"
+					},
+					"ш": -24.1,
+					"д": 28.96,
+					"province": 239,
+					"staff": 8000,
+					"fine": 4574
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.angloamericanplatinum.com/"
+		},
+		{
+			"id": "shoprite",
+			"название": {
+				"ru": "Shoprite",
+				"en": "Shoprite"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1979,
+			"description": {
+				"ru": "Крупнейшая сеть супермаркетов Африки.",
+				"en": "Africa's largest supermarket chain."
+			},
+			"fundamental": {
+				"выручка": 13500,
+				"profit": 400,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 590,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Кристо Визе",
+						"en": "Christo Wiese"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Питер Энгельбрехт",
+					"en": "Pieter Engelbrecht"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бережливый розничник",
+					"en": "бережливый розничник"
+				}
+			},
+			"staff": 160000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Брэкенфелл (Кейптаун)",
+						"en": "Brackenfell (Cape Town)"
+					},
+					"ш": -33.87,
+					"д": 18.7,
+					"province": 533,
+					"staff": 5000,
+					"fine": 4569
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.shopriteholdings.co.za/"
+		},
+		{
+			"id": "eskom",
+			"название": {
+				"ru": "Eskom",
+				"en": "Eskom"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1923,
+			"description": {
+				"ru": "Государственная энергетика ЮАР — веерные отключения и огромный долг.",
+				"en": "South Africa's state power: rolling blackouts and huge debt."
+			},
+			"fundamental": {
+				"выручка": 17000,
+				"profit": -500,
+				"debt": 22000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство ЮАР",
+						"en": "The South African state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дэн Марокане",
+					"en": "Dan Marokane"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чинит электростанции",
+					"en": "чинит электростанции"
+				}
+			},
+			"staff": 40000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Йоханнесбург, Мегаватт-парк",
+						"en": "Johannesburg, Megawatt Park"
+					},
+					"ш": -26.1,
+					"д": 28.06,
+					"province": 475,
+					"staff": 3000,
+					"fine": 4572
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Медупи",
+						"en": "Medupi power station"
+					},
+					"ш": -23.7,
+					"д": 27.56,
+					"province": 239,
+					"staff": 3000,
+					"fine": 4574
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.eskom.co.za/"
+		},
+		{
+			"id": "vodacom_group",
+			"название": {
+				"ru": "Vodacom Group",
+				"en": "Vodacom Group"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий оператор мобильной связи и финтеха (M-Pesa) в Африке, дочерняя структура Vodafone",
+				"en": "Vodacom Group — a IT and telecom company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 950,
+				"debt": 3500,
+				"money": 800,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Shameel Joosub",
+					"en": "Shameel Joosub"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.719,
+					"д": 28.1847,
+					"province": 475,
+					"staff": 2400,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.vodacom.com/"
+		},
+		{
+			"id": "nedbank_group",
+			"название": {
+				"ru": "Nedbank Group",
+				"en": "Nedbank Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из ведущих универсальных банков ЮАР, лидер в финансировании коммерческой недвижимости и «зеленой» энергетики",
+				"en": "Nedbank Group — a financial company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 6500,
+				"profit": 850,
+				"debt": 0,
+				"money": 0,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jason Quinn",
+					"en": "Jason Quinn"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 27000,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7052,
+					"д": 28.1769,
+					"province": 475,
+					"staff": 8100,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.nedbank.co.za/"
+		},
+		{
+			"id": "absa_group",
+			"название": {
+				"ru": "Absa Group",
+				"en": "Absa Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая пан-африканская финансовая корпорация с операциями в 12 странах субсахарской Африки",
+				"en": "Absa Group — a financial company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 7200,
+				"profit": 900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Arrie Rautenbach",
+					"en": "Arrie Rautenbach"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 35000,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.715,
+					"д": 28.1644,
+					"province": 475,
+					"staff": 10500,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.absa.africa/"
+		},
+		{
+			"id": "sanlam",
+			"название": {
+				"ru": "Sanlam",
+				"en": "Sanlam"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая страховая компания и управляющий активами в Африке со штаб-квартирой в Беллвилле",
+				"en": "Sanlam — a financial company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 7800,
+				"profit": 800,
+				"debt": 1200,
+				"money": 1500,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Paul Hanratty",
+					"en": "Paul Hanratty"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7683,
+					"д": 28.1581,
+					"province": 475,
+					"staff": 7500,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.sanlam.com/"
+		},
+		{
+			"id": "gold_fields_2",
+			"название": {
+				"ru": "Gold Fields Limited",
+				"en": "Gold Fields Limited"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Глобальный производитель золота с глубокими шахтами в ЮАР (South Deep), Гане, Австралии и Перу",
+				"en": "Gold Fields Limited — a metals and mining company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": 700,
+				"debt": 1000,
+				"money": 800,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mike Fraser",
+					"en": "Mike Fraser"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 22000,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7329,
+					"д": 28.2038,
+					"province": 475,
+					"staff": 6600,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.goldfields.com/"
+		},
+		{
+			"id": "anglogold_ashanti_2",
+			"название": {
+				"ru": "AngloGold Ashanti",
+				"en": "AngloGold Ashanti"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международная золотодобывающая корпорация с операциями на четырех континентах",
+				"en": "AngloGold Ashanti — a metals and mining company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 500,
+				"debt": 1500,
+				"money": 900,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 11000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Alberto Calderon",
+					"en": "Alberto Calderon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 33000,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7784,
+					"д": 28.1674,
+					"province": 475,
+					"staff": 9900,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.anglogoldashanti.com/"
+		},
+		{
+			"id": "transnet_soc",
+			"название": {
+				"ru": "Transnet SOC Ltd",
+				"en": "Transnet SOC Ltd"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монополист грузовых железных дорог, трубопроводов и морских портов (Дурбан, Кейптаун)",
+				"en": "Transnet SOC Ltd — a transport company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 4100,
+				"profit": -150,
+				"debt": 7500,
+				"money": 350,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ЮАР)",
+						"en": "The state (South Africa)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Michelle Phillips",
+					"en": "Michelle Phillips"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 50000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кейптаун",
+						"en": "Cape Town"
+					},
+					"ш": -33.921,
+					"д": 18.4293,
+					"province": 533,
+					"staff": 15000,
+					"fine": 4569
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.transnet.net/"
+		},
+		{
+			"id": "woolworths_holdings",
+			"название": {
+				"ru": "Woolworths Holdings Limited",
+				"en": "Woolworths Holdings Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупная розничная корпорация, управляющая премиальными супермаркетами еды и универмагами моды",
+				"en": "Woolworths Holdings Limited — a consumer and retail company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 4600,
+				"profit": 220,
+				"debt": 1100,
+				"money": 300,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Roy Bagattini",
+					"en": "Roy Bagattini"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 45000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7108,
+					"д": 28.2155,
+					"province": 475,
+					"staff": 13500,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.woolworthsholdings.co.za/"
+		},
+		{
+			"id": "the_bidvest",
+			"название": {
+				"ru": "The Bidvest Group",
+				"en": "The Bidvest Group"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный сервисный конгломерат: коммерческая логистика, авиасервис, безопасность, автоуслуги",
+				"en": "The Bidvest Group — a transport company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 340,
+				"debt": 1400,
+				"money": 400,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mpumi Madisa",
+					"en": "Mpumi Madisa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 120000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7631,
+					"д": 28.1579,
+					"province": 475,
+					"staff": 36000,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.bidvest.co.za/"
+		},
+		{
+			"id": "remgro_limited",
+			"название": {
+				"ru": "Remgro Limited",
+				"en": "Remgro Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Инвестиционный холдинг семьи Руперт, контролирующий банковские активы, медицину (Mediclinic) и телеком (CIVH)",
+				"en": "Remgro Limited — a financial company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 450,
+				"debt": 900,
+				"money": 600,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jannie Durand",
+					"en": "Jannie Durand"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7133,
+					"д": 28.2128,
+					"province": 475,
+					"staff": 5400,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.remgro.com/"
+		},
+		{
+			"id": "denel_soc",
+			"название": {
+				"ru": "Denel SOC Ltd",
+				"en": "Denel SOC Ltd"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оборонный концерн ЮАР: дальнобойные САУ G6 Rhino, ударные вертолеты Rooivalk, ракеты воздух-воздух A-Darter, ПТРК Ingwe",
+				"en": "Denel SOC Ltd — a defence company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": -40,
+				"debt": 250,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ЮАР)",
+						"en": "The state (South Africa)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Tsepo Monaheng",
+					"en": "Tsepo Monaheng"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2800,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7794,
+					"д": 28.1613,
+					"province": 475,
+					"staff": 840,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.denel.co.za/"
+		},
+		{
+			"id": "paramount_group",
+			"название": {
+				"ru": "Paramount Group",
+				"en": "Paramount Group"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная оборонная корпорация Африки: бронеавтомобили Marauder, Mbombe 4/6/8 и разведывательно-штурмовой самолет Mwari",
+				"en": "Paramount Group — a defence company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 35,
+				"debt": 90,
+				"money": 70,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ivor Ichikowitz",
+					"en": "Ivor Ichikowitz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3000,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7356,
+					"д": 28.2092,
+					"province": 475,
+					"staff": 900,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.paramountgroup.com/"
+		},
+		{
+			"id": "reutech_radar",
+			"название": {
+				"ru": "Reutech Radar Systems (Reutech Ltd)",
+				"en": "Reutech Radar Systems (Reutech Ltd)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик поисковых корабельных радаров RTS 6400, систем охраны периметра Spider и дистанционных турелей Super Land Rogue",
+				"en": "Reutech Radar Systems (Reutech Ltd) — a defence company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 85,
+				"profit": 9,
+				"debt": 15,
+				"money": 20,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ЮАР)",
+						"en": "The state (South Africa)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Peter van der Bijl",
+					"en": "Peter van der Bijl"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7099,
+					"д": 28.1511,
+					"province": 475,
+					"staff": 255,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.reutech.co.za/"
+		},
+		{
+			"id": "hensoldt_south",
+			"название": {
+				"ru": "Hensoldt South Africa",
+				"en": "Hensoldt South Africa"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Подразделение европейского оборонного гиганта Hensoldt: нашлемные системы прицеливания, оптико-электронные подвесные станции Argos и средства РЭБ GEW",
+				"en": "Hensoldt South Africa — a defence company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 14,
+				"debt": 20,
+				"money": 30,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 320
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ЮАР)",
+						"en": "The state (South Africa)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ryno van Staden",
+					"en": "Ryno van Staden"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7722,
+					"д": 28.178,
+					"province": 475,
+					"staff": 270,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://hensoldt.org.za/"
+		},
+		{
+			"id": "rheinmetall_denel",
+			"название": {
+				"ru": "Rheinmetall Denel Munition (RDM)",
+				"en": "Rheinmetall Denel Munition (RDM)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в разработке и производстве 155-мм дальнобойных артиллерийских снарядов серии Assegai, метательных зарядов и авиабомб",
+				"en": "Rheinmetall Denel Munition (RDM) — a defence company of South Africa."
+			},
+			"fundamental": {
+				"выручка": 260,
+				"profit": 28,
+				"debt": 40,
+				"money": 50,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ЮАР)",
+						"en": "The state (South Africa)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ЮАР"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jan-Patrick Helmsen",
+					"en": "Jan-Patrick Helmsen"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2200,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Преториа",
+						"en": "Pretoria"
+					},
+					"ш": -25.7264,
+					"д": 28.1658,
+					"province": 475,
+					"staff": 660,
+					"fine": 4572
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.rheinmetall.com/"
+		}
+	]
+}

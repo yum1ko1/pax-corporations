@@ -1,0 +1,1247 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Венесуэла",
+	"iso": "VEN",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "pdvsa",
+			"название": {
+				"ru": "PDVSA",
+				"en": "PDVSA"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1976,
+			"description": {
+				"ru": "Нефть Венесуэлы — крупнейшие запасы мира, санкции и разруха.",
+				"en": "Venezuela's oil — the world's largest reserves, sanctions and ruin."
+			},
+			"fundamental": {
+				"выручка": 16000,
+				"profit": 0,
+				"debt": 35000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Венесуэлы",
+						"en": "The Venezuelan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эктор Обрегон",
+					"en": "Héctor Obregón"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "человек Мадуро",
+					"en": "человек Мадуро"
+				}
+			},
+			"staff": 60000,
+			"wage": 100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.5,
+					"д": -66.9,
+					"province": 738,
+					"staff": 10000,
+					"fine": 4450
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Пояс Ориноко",
+						"en": "Orinoco Belt"
+					},
+					"ш": 8.5,
+					"д": -64.0,
+					"province": 569,
+					"staff": 20000,
+					"fine": 4447
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "http://www.pdvsa.com/"
+		},
+		{
+			"id": "cantv",
+			"название": {
+				"ru": "CANTV",
+				"en": "CANTV"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1930,
+			"description": {
+				"ru": "Государственная связь Венесуэлы.",
+				"en": "Venezuela's state telecom."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": -50,
+				"debt": 200,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Венесуэлы",
+						"en": "The Venezuelan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хесус Альдана Кинтеро",
+					"en": "Jesús Aldana Quintero"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чиновник",
+					"en": "чиновник"
+				}
+			},
+			"staff": 8000,
+			"wage": 80,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.49,
+					"д": -66.88,
+					"province": 738,
+					"staff": 5000,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.cantv.com.ve/"
+		},
+		{
+			"id": "corpoelec",
+			"название": {
+				"ru": "CORPOELEC (Corporación Eléctrica Nacional)",
+				"en": "CORPOELEC (Corporación Eléctrica Nacional)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация, оператор гигантской ГЭС «Гури» и единой сети энергоснабжения",
+				"en": "CORPOELEC (Corporación Eléctrica Nacional) — a energy company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": -100,
+				"debt": 6000,
+				"money": 80,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jorge Márquez",
+					"en": "Jorge Márquez"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 32000,
+			"wage": 120,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4731,
+					"д": -66.8479,
+					"province": 738,
+					"staff": 9600,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.corpoelec.gob.ve/"
+		},
+		{
+			"id": "cvg_ferrominera",
+			"название": {
+				"ru": "CVG Ferrominera Orinoco",
+				"en": "CVG Ferrominera Orinoco"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное горнорудное предприятие в Пуэрто-Ордас, добывающее железную руду на месторождениях Серро-Боливар",
+				"en": "CVG Ferrominera Orinoco — a metals and mining company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 30,
+				"debt": 800,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Aldo Cantafio",
+					"en": "Aldo Cantafio"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6500,
+			"wage": 140,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.5002,
+					"д": -66.906,
+					"province": 738,
+					"staff": 1950,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.ferrominera.gob.ve/"
+		},
+		{
+			"id": "banco_de_2",
+			"название": {
+				"ru": "Banco de Venezuela (BDV)",
+				"en": "Banco de Venezuela (BDV)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший банк страны, контролирующий свыше 60% депозитов и расчетных счетов населения и госсектора",
+				"en": "Banco de Venezuela (BDV) — a financial company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 220,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Román Maniglia",
+					"en": "Román Maniglia"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4931,
+					"д": -66.8564,
+					"province": 738,
+					"staff": 3600,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.bancodevenezuela.com/"
+		},
+		{
+			"id": "cvg_venalum",
+			"название": {
+				"ru": "CVG Venalum (Venezolana de Alumnio)",
+				"en": "CVG Venalum (Venezolana de Alumnio)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший электролизный завод первичного алюминия в Латинской Америке, расположенный в Сьюдад-Гуаяна",
+				"en": "CVG Venalum (Venezolana de Alumnio) — a metals and mining company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 15,
+				"debt": 600,
+				"money": 25,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ángel González",
+					"en": "Ángel González"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 130,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4883,
+					"д": -66.8767,
+					"province": 738,
+					"staff": 1200,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.venalum.com.ve/"
+		},
+		{
+			"id": "banesco_banco",
+			"название": {
+				"ru": "Banesco Banco Universal",
+				"en": "Banesco Banco Universal"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный банк Венесуэлы, лидер по объему эквайринга и розничных транзакций",
+				"en": "Banesco Banco Universal — a financial company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 75,
+				"debt": 0,
+				"money": 0,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Marco Tulio Vargas",
+					"en": "Marco Tulio Vargas"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4867,
+					"д": -66.8682,
+					"province": 738,
+					"staff": 1350,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.banesco.com/"
+		},
+		{
+			"id": "empresas_polar",
+			"название": {
+				"ru": "Empresas Polar",
+				"en": "Empresas Polar"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный пищевой и пивоваренный конгломерат: кукурузная мука Harina P.A.N., пиво Polar, безалкогольные напитки",
+				"en": "Empresas Polar — a consumer and retail company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 180,
+				"debt": 400,
+				"money": 250,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lorenzo Mendoza",
+					"en": "Lorenzo Mendoza"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 30000,
+			"wage": 180,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4776,
+					"д": -66.893,
+					"province": 738,
+					"staff": 9000,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://empresaspolar.com/"
+		},
+		{
+			"id": "conviasa",
+			"название": {
+				"ru": "CONVIASA (Consorcio Venezolano de Industrias Aeronáuticas)",
+				"en": "CONVIASA (Consorcio Venezolano de Industrias Aeronáuticas)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагманская государственная авиакомпания Венесуэлы с флотом Embraer 190 и Airbus A340",
+				"en": "CONVIASA (Consorcio Venezolano de Industrias Aeronáuticas) — a transport company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 220,
+				"profit": -10,
+				"debt": 250,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ramón Velásquez Araguayán",
+					"en": "Ramón Velásquez Araguayán"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2200,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.504,
+					"д": -66.8604,
+					"province": 738,
+					"staff": 660,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.conviasa.aero/"
+		},
+		{
+			"id": "movilnet",
+			"название": {
+				"ru": "Movilnet (Telecomunicaciones Movilnet)",
+				"en": "Movilnet (Telecomunicaciones Movilnet)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оператор мобильной связи, обслуживающий миллионы абонентов в стандарте 4G LTE",
+				"en": "Movilnet (Telecomunicaciones Movilnet) — a IT and telecom company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 15,
+				"debt": 120,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Aníbal Briceño",
+					"en": "Aníbal Briceño"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 130,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.5027,
+					"д": -66.8728,
+					"province": 738,
+					"staff": 1050,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.movilnet.com.ve/"
+		},
+		{
+			"id": "pequiven",
+			"название": {
+				"ru": "Pequiven (Petroquímica de Venezuela)",
+				"en": "Pequiven (Petroquímica de Venezuela)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтехимическая корпорация, производящая олефины, удобрения (карбамид, аммиак) и пластмассы",
+				"en": "Pequiven (Petroquímica de Venezuela) — a oil and gas company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 120,
+				"debt": 900,
+				"money": 110,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ninoska La Concha",
+					"en": "Ninoska La Concha"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 160,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4994,
+					"д": -66.857,
+					"province": 738,
+					"staff": 2400,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.pequiven.com/"
+		},
+		{
+			"id": "cvg_sidor",
+			"название": {
+				"ru": "CVG Sidor (Siderúrgica del Orinoco)",
+				"en": "CVG Sidor (Siderúrgica del Orinoco)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший металлургический комбинат страны в Матансасе, производящий сталь, листовой прокат и трубы",
+				"en": "CVG Sidor (Siderúrgica del Orinoco) — a metals and mining company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": -40,
+				"debt": 1200,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Sandi Villarroel",
+					"en": "Sandi Villarroel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11000,
+			"wage": 140,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4677,
+					"д": -66.9121,
+					"province": 738,
+					"staff": 3300,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.sidor.com/"
+		},
+		{
+			"id": "cavim",
+			"название": {
+				"ru": "CAVIM (Compañía Anónima Venezolana de Industrias Militares)",
+				"en": "CAVIM (Compañía Anónima Venezolana de Industrias Militares)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный производитель боеприпасов, снайперских винтовок Catatumbo, пистолетов Zamorana и сборщик автоматов АК-103 в Маракае",
+				"en": "CAVIM (Compañía Anónima Venezolana de Industrias Militares) — a defence company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 5,
+				"debt": 20,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "General de División Víctor Rosas Colón",
+					"en": "General de División Víctor Rosas Colón"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 140,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "",
+						"en": "Colón"
+					},
+					"ш": 8.0036,
+					"д": -72.257,
+					"province": 739,
+					"staff": 750,
+					"fine": 4437
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.cavim.com.ve/"
+		},
+		{
+			"id": "dianca",
+			"название": {
+				"ru": "DIANCA (Diques y Astilleros Nacionales C.A.)",
+				"en": "DIANCA (Diques y Astilleros Nacionales C.A.)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная верфь в Пуэрто-Кабельо: сухой док для ремонта фрегатов Lupo и подлодок Type 209 ВМС Венесуэлы",
+				"en": "DIANCA (Diques y Astilleros Nacionales C.A.) — a defence company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 45,
+				"profit": 4,
+				"debt": 25,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 75
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Contralmirante Luis Enrique Castillo",
+					"en": "Contralmirante Luis Enrique Castillo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1400,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.5062,
+					"д": -66.8504,
+					"province": 738,
+					"staff": 420,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.dianca.gob.ve/"
+		},
+		{
+			"id": "cemablin_2",
+			"название": {
+				"ru": "CEMABLIN (Centro de Mantenimiento de Blindados Fuerte Paramacay)",
+				"en": "CEMABLIN (Centro de Mantenimiento de Blindados Fuerte Paramacay)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонтно-восстановительный центр бронетанковой техники: регламент танков Т-72Б1В, AMX-30, БМП-3 и БТР-80А",
+				"en": "CEMABLIN (Centro de Mantenimiento de Blindados Fuerte Paramacay) — a defence company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "General de Brigada José Gregorio Martínez",
+					"en": "General de Brigada José Gregorio Martínez"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 130,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4699,
+					"д": -66.8434,
+					"province": 738,
+					"staff": 240,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mindefensa.gob.ve/"
+		},
+		{
+			"id": "cma_aviaci",
+			"название": {
+				"ru": "CMA Aviación Militar Bolivariana (Base Aérea El Libertador)",
+				"en": "CMA Aviación Militar Bolivariana (Base Aérea El Libertador)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-технический центр в Пало-Негро: обслуживание и регламент тяжелых истребителей Су-30МК2 и K-8 Karakorum",
+				"en": "CMA Aviación Militar Bolivariana (Base Aérea El Libertador) — a defence company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 2,
+				"debt": 12,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "General de División Santiago Infante",
+					"en": "General de División Santiago Infante"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 160,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.5025,
+					"д": -66.8547,
+					"province": 738,
+					"staff": 225,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.aviacion.mil.ve/"
+		},
+		{
+			"id": "dicomil",
+			"название": {
+				"ru": "DICOMIL (Dirección de Comunicaciones de la FANB)",
+				"en": "DICOMIL (Dirección de Comunicaciones de la FANB)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка и регламент армейских систем шифрованной радиосвязи, радаров ПВО JYL-1/JY-27 и систем РЭБ",
+				"en": "DICOMIL (Dirección de Comunicaciones de la FANB) — a defence company of Venezuela."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Венесуэла)",
+						"en": "The state (Venezuela)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Венесуэла"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "General de Brigada Rafael Coronado",
+					"en": "General de Brigada Rafael Coronado"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 140,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каракас",
+						"en": "Caracas"
+					},
+					"ш": 10.4993,
+					"д": -66.8584,
+					"province": 738,
+					"staff": 135,
+					"fine": 4450
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mindefensa.gob.ve/"
+		}
+	]
+}

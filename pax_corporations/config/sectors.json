@@ -1,0 +1,804 @@
+{
+	"_как_это_работает": "Секторы экономики (раздел 21 дизайн-документа). «чувствительность» — как сектор реагирует на событие, от −1 до +1 (21.1). «законы» — реакция на закон, от −2 до +2, один балл ≈ 10 пунктов доверия (21.2). «мобильность» и «загрязнение» — доли 0..1. «волатильность» — недельная σ цены акции. «дрейф» — ожидаемый рост цены за год без событий. «цвет» — цвет метки на карте. Значок берётся по «профилю» компании, а если его нет — по «значку» сектора. «премия_зарплаты» — во сколько раз рыночная зарплата сектора выше средней по стране. У точек «довольство» — поправка к довольству сотрудников компании в пунктах (на промысле в тундре тяжелее).",
+	"sectors_list": {
+		"oil_gas": {
+			"name": {
+				"ru": "Нефть и газ",
+				"en": "Oil and gas"
+			},
+			"icon": "oil",
+			"colour": [
+				0.16,
+				0.16,
+				0.2
+			],
+			"volatility": 0.03,
+			"drift": 0.03,
+			"mobility": 0.1,
+			"pollution": 0.9,
+			"sensitivity": {
+				"война": 0.5,
+				"санкции": -0.6,
+				"oil_rises": 0.9,
+				"breakthrough": 0.0,
+				"кризис": -0.6,
+				"gdp_growth": 0.3
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -2,
+				"science_subsidies": 0,
+				"military_course": 1,
+				"экология": -2,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.7
+		},
+		"metallurgy": {
+			"name": {
+				"ru": "Металлургия и добыча",
+				"en": "Metals and mining"
+			},
+			"icon": "metals",
+			"colour": [
+				0.45,
+				0.42,
+				0.48
+			],
+			"volatility": 0.035,
+			"drift": 0.03,
+			"mobility": 0.2,
+			"pollution": 0.8,
+			"sensitivity": {
+				"война": 0.4,
+				"санкции": -0.5,
+				"oil_rises": -0.2,
+				"breakthrough": 0.0,
+				"кризис": -0.7,
+				"gdp_growth": 0.5
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 0,
+				"military_course": 1,
+				"экология": -2,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.4
+		},
+		"энергетика": {
+			"name": {
+				"ru": "Энергетика",
+				"en": "Power"
+			},
+			"icon": "energy",
+			"colour": [
+				0.85,
+				0.62,
+				0.12
+			],
+			"volatility": 0.025,
+			"drift": 0.03,
+			"mobility": 0.2,
+			"pollution": 0.6,
+			"sensitivity": {
+				"война": 0.0,
+				"санкции": -0.3,
+				"oil_rises": 0.3,
+				"breakthrough": 0.3,
+				"кризис": -0.3,
+				"gdp_growth": 0.3
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 1,
+				"military_course": 0,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.2
+		},
+		"it": {
+			"name": {
+				"ru": "IT и связь",
+				"en": "Tech and telecom"
+			},
+			"icon": "it",
+			"colour": [
+				0.2,
+				0.55,
+				0.9
+			],
+			"volatility": 0.045,
+			"drift": 0.08,
+			"mobility": 0.9,
+			"pollution": 0.1,
+			"sensitivity": {
+				"война": -0.2,
+				"санкции": -0.5,
+				"oil_rises": -0.2,
+				"breakthrough": 0.8,
+				"кризис": -0.6,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 2,
+				"military_course": -1,
+				"экология": 0,
+				"labour_rights": -1,
+				"market_opening": 2
+			},
+			"wage_premium": 2.5
+		},
+		"semiconductors": {
+			"name": {
+				"ru": "Полупроводники",
+				"en": "Semiconductors"
+			},
+			"icon": "semiconductors",
+			"colour": [
+				0.35,
+				0.3,
+				0.85
+			],
+			"volatility": 0.05,
+			"drift": 0.08,
+			"mobility": 0.4,
+			"pollution": 0.4,
+			"sensitivity": {
+				"война": -0.1,
+				"санкции": -0.8,
+				"oil_rises": -0.2,
+				"breakthrough": 0.9,
+				"кризис": -0.7,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 2,
+				"military_course": 0,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 2
+			},
+			"wage_premium": 2.2,
+			"sector_icon": true
+		},
+		"banks": {
+			"name": {
+				"ru": "Банки и финансы",
+				"en": "Banks and finance"
+			},
+			"icon": "bank",
+			"colour": [
+				0.12,
+				0.6,
+				0.35
+			],
+			"volatility": 0.03,
+			"drift": 0.05,
+			"mobility": 0.8,
+			"pollution": 0.0,
+			"sensitivity": {
+				"война": -0.4,
+				"санкции": -0.7,
+				"oil_rises": 0.0,
+				"breakthrough": 0.1,
+				"кризис": -0.9,
+				"gdp_growth": 0.7
+			},
+			"законы": {
+				"tax_growth": -2,
+				"windfall_tax": -2,
+				"science_subsidies": 0,
+				"military_course": -1,
+				"экология": 0,
+				"labour_rights": 0,
+				"market_opening": 2
+			},
+			"wage_premium": 1.6
+		},
+		"pharma": {
+			"name": {
+				"ru": "Фарма и медицина",
+				"en": "Pharma and health"
+			},
+			"icon": "pharma",
+			"colour": [
+				0.85,
+				0.3,
+				0.45
+			],
+			"volatility": 0.03,
+			"drift": 0.05,
+			"mobility": 0.5,
+			"pollution": 0.3,
+			"sensitivity": {
+				"война": 0.0,
+				"санкции": -0.3,
+				"oil_rises": -0.1,
+				"breakthrough": 0.8,
+				"кризис": -0.2,
+				"gdp_growth": 0.2
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 2,
+				"military_course": 0,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.3
+		},
+		"defence": {
+			"name": {
+				"ru": "Оборонная промышленность",
+				"en": "Defence"
+			},
+			"icon": "defence",
+			"colour": [
+				0.45,
+				0.5,
+				0.25
+			],
+			"volatility": 0.03,
+			"drift": 0.04,
+			"mobility": 0.2,
+			"pollution": 0.4,
+			"sensitivity": {
+				"война": 0.9,
+				"санкции": -0.2,
+				"oil_rises": 0.0,
+				"breakthrough": 0.4,
+				"кризис": 0.0,
+				"gdp_growth": 0.1
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 1,
+				"military_course": 2,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": -1
+			},
+			"wage_premium": 1.1
+		},
+		"авиа": {
+			"name": {
+				"ru": "Авиа и транспорт",
+				"en": "Airlines and transport"
+			},
+			"icon": "авиа",
+			"colour": [
+				0.3,
+				0.7,
+				0.8
+			],
+			"volatility": 0.04,
+			"drift": 0.04,
+			"mobility": 0.4,
+			"pollution": 0.6,
+			"sensitivity": {
+				"война": -0.6,
+				"санкции": -0.5,
+				"oil_rises": -0.8,
+				"breakthrough": 0.2,
+				"кризис": -0.8,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 1,
+				"military_course": -1,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.2
+		},
+		"tourism": {
+			"name": {
+				"ru": "Туризм",
+				"en": "Tourism"
+			},
+			"icon": "tourism",
+			"colour": [
+				0.95,
+				0.5,
+				0.3
+			],
+			"volatility": 0.045,
+			"drift": 0.04,
+			"mobility": 0.3,
+			"pollution": 0.2,
+			"sensitivity": {
+				"война": -0.9,
+				"санкции": -0.6,
+				"oil_rises": -0.4,
+				"breakthrough": 0.0,
+				"кризис": -0.9,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 0,
+				"military_course": -2,
+				"экология": 1,
+				"labour_rights": -1,
+				"market_opening": 2
+			},
+			"wage_premium": 0.8
+		},
+		"auto_industry": {
+			"name": {
+				"ru": "Автопром",
+				"en": "Automotive"
+			},
+			"icon": "авто",
+			"colour": [
+				0.6,
+				0.35,
+				0.2
+			],
+			"volatility": 0.04,
+			"drift": 0.04,
+			"mobility": 0.3,
+			"pollution": 0.5,
+			"sensitivity": {
+				"война": -0.3,
+				"санкции": -0.6,
+				"oil_rises": -0.5,
+				"breakthrough": 0.4,
+				"кризис": -0.8,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 1,
+				"military_course": 0,
+				"экология": -2,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.0
+		},
+		"retail": {
+			"name": {
+				"ru": "Ритейл и потребтовары",
+				"en": "Retail and consumer goods"
+			},
+			"icon": "retail",
+			"colour": [
+				0.9,
+				0.75,
+				0.2
+			],
+			"volatility": 0.03,
+			"drift": 0.04,
+			"mobility": 0.5,
+			"pollution": 0.2,
+			"sensitivity": {
+				"война": -0.3,
+				"санкции": -0.4,
+				"oil_rises": -0.3,
+				"breakthrough": 0.1,
+				"кризис": -0.5,
+				"gdp_growth": 0.5
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 0,
+				"military_course": -1,
+				"экология": 0,
+				"labour_rights": -2,
+				"market_opening": 1
+			},
+			"wage_premium": 0.7
+		},
+		"медиа": {
+			"name": {
+				"ru": "Медиа",
+				"en": "Media"
+			},
+			"icon": "медиа",
+			"colour": [
+				0.7,
+				0.3,
+				0.7
+			],
+			"volatility": 0.04,
+			"drift": 0.03,
+			"mobility": 0.6,
+			"pollution": 0.1,
+			"sensitivity": {
+				"война": 0.1,
+				"санкции": -0.3,
+				"oil_rises": 0.0,
+				"breakthrough": 0.3,
+				"кризис": -0.4,
+				"gdp_growth": 0.4
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 0,
+				"military_course": 0,
+				"экология": 0,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.2
+		},
+		"строительство": {
+			"name": {
+				"ru": "Строительство",
+				"en": "Construction"
+			},
+			"icon": "стройка",
+			"colour": [
+				0.75,
+				0.55,
+				0.35
+			],
+			"volatility": 0.035,
+			"drift": 0.03,
+			"mobility": 0.2,
+			"pollution": 0.5,
+			"sensitivity": {
+				"война": -0.3,
+				"санкции": -0.3,
+				"oil_rises": -0.3,
+				"breakthrough": 0.1,
+				"кризис": -0.8,
+				"gdp_growth": 0.7
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 0,
+				"military_course": 0,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.0
+		},
+		"ии": {
+			"name": {
+				"ru": "Искусственный интеллект",
+				"en": "Artificial intelligence"
+			},
+			"icon": "ии",
+			"colour": [
+				0.55,
+				0.4,
+				0.95
+			],
+			"volatility": 0.06,
+			"drift": 0.12,
+			"mobility": 0.9,
+			"pollution": 0.15,
+			"sensitivity": {
+				"война": -0.1,
+				"санкции": -0.6,
+				"oil_rises": -0.1,
+				"breakthrough": 1.0,
+				"кризис": -0.7,
+				"gdp_growth": 0.6
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 2,
+				"military_course": 0,
+				"экология": 0,
+				"labour_rights": -1,
+				"market_opening": 2
+			},
+			"wage_premium": 3.0
+		},
+		"наука": {
+			"name": {
+				"ru": "Наука и исследования",
+				"en": "Science and research"
+			},
+			"icon": "наука",
+			"colour": [
+				0.22,
+				0.55,
+				1.0
+			],
+			"volatility": 0.03,
+			"drift": 0.06,
+			"mobility": 0.5,
+			"pollution": 0.1,
+			"sensitivity": {
+				"война": 0.0,
+				"санкции": -0.4,
+				"oil_rises": -0.1,
+				"breakthrough": 0.9,
+				"кризис": -0.3,
+				"gdp_growth": 0.3
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": 0,
+				"science_subsidies": 2,
+				"military_course": 0,
+				"экология": 0,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 1.8
+		},
+		"космос": {
+			"name": {
+				"ru": "Космос",
+				"en": "Space"
+			},
+			"icon": "космос",
+			"colour": [
+				0.3,
+				0.4,
+				0.85
+			],
+			"volatility": 0.055,
+			"drift": 0.09,
+			"mobility": 0.3,
+			"pollution": 0.3,
+			"sensitivity": {
+				"война": 0.4,
+				"санкции": -0.5,
+				"oil_rises": -0.2,
+				"breakthrough": 0.8,
+				"кризис": -0.5,
+				"gdp_growth": 0.4
+			},
+			"законы": {
+				"tax_growth": -1,
+				"windfall_tax": -1,
+				"science_subsidies": 2,
+				"military_course": 1,
+				"экология": -1,
+				"labour_rights": -1,
+				"market_opening": 1
+			},
+			"wage_premium": 2.2
+		}
+	},
+	"profiles": {
+		"oil": {
+			"icon": "oil",
+			"colour": [
+				0.13,
+				0.13,
+				0.16
+			]
+		},
+		"gas": {
+			"icon": "gas",
+			"colour": [
+				0.2,
+				0.45,
+				0.85
+			]
+		},
+		"bank": {
+			"icon": "bank",
+			"colour": [
+				0.12,
+				0.6,
+				0.35
+			]
+		},
+		"metals": {
+			"icon": "metals",
+			"colour": [
+				0.5,
+				0.47,
+				0.55
+			]
+		},
+		"it": {
+			"icon": "it",
+			"colour": [
+				0.95,
+				0.75,
+				0.1
+			]
+		},
+		"gold": {
+			"icon": "metals",
+			"colour": [
+				0.85,
+				0.65,
+				0.1
+			]
+		},
+		"химия": {
+			"icon": "химия",
+			"colour": [
+				0.55,
+				0.3,
+				0.75
+			]
+		},
+		"fertilisers": {
+			"icon": "химия",
+			"colour": [
+				0.3,
+				0.6,
+				0.25
+			]
+		},
+		"energy": {
+			"icon": "energy",
+			"colour": [
+				0.9,
+				0.55,
+				0.1
+			]
+		},
+		"retail": {
+			"icon": "retail",
+			"colour": [
+				0.85,
+				0.2,
+				0.45
+			]
+		},
+		"стройка": {
+			"icon": "стройка",
+			"colour": [
+				0.7,
+				0.5,
+				0.3
+			]
+		},
+		"авиа": {
+			"icon": "авиа",
+			"colour": [
+				0.2,
+				0.55,
+				0.8
+			]
+		},
+		"diamonds": {
+			"icon": "diamonds",
+			"colour": [
+				0.45,
+				0.75,
+				0.9
+			]
+		},
+		"pharma": {
+			"icon": "pharma",
+			"colour": [
+				0.85,
+				0.3,
+				0.45
+			]
+		},
+		"defence": {
+			"icon": "defence",
+			"colour": [
+				0.4,
+				0.47,
+				0.25
+			]
+		},
+		"авто": {
+			"icon": "авто",
+			"colour": [
+				0.75,
+				0.2,
+				0.2
+			]
+		},
+		"медиа": {
+			"icon": "медиа",
+			"colour": [
+				0.6,
+				0.25,
+				0.7
+			]
+		},
+		"ии": {
+			"icon": "ии",
+			"colour": [
+				0.55,
+				0.4,
+				0.95
+			]
+		},
+		"наука": {
+			"icon": "наука",
+			"colour": [
+				0.22,
+				0.55,
+				1.0
+			]
+		},
+		"космос": {
+			"icon": "космос",
+			"colour": [
+				0.3,
+				0.4,
+				0.85
+			]
+		}
+	},
+	"sites": {
+		"штаб": {
+			"name": {
+				"ru": "Штаб-квартира",
+				"en": "Headquarters"
+			},
+			"satisfaction": 5
+		},
+		"office": {
+			"name": {
+				"ru": "Региональный офис",
+				"en": "Regional office"
+			},
+			"satisfaction": 2
+		},
+		"нии": {
+			"name": {
+				"ru": "Исследовательский центр",
+				"en": "Research centre"
+			},
+			"satisfaction": 3
+		},
+		"завод": {
+			"name": {
+				"ru": "Завод",
+				"en": "Plant"
+			},
+			"satisfaction": -3
+		},
+		"датацентр": {
+			"name": {
+				"ru": "Дата-центр",
+				"en": "Data centre"
+			},
+			"satisfaction": 0
+		},
+		"промысел": {
+			"name": {
+				"ru": "Месторождение",
+				"en": "Field"
+			},
+			"satisfaction": -6
+		},
+		"logistics": {
+			"name": {
+				"ru": "Логистический узел",
+				"en": "Logistics hub"
+			},
+			"satisfaction": -2
+		},
+		"космодром": {
+			"name": {
+				"ru": "Космодром",
+				"en": "Spaceport"
+			},
+			"satisfaction": -2
+		}
+	}
+}

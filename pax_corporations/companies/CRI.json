@@ -1,0 +1,871 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Коста-Рика",
+	"iso": "CRI",
+	"data_date": "2026-03",
+	"average_wage": 1100,
+	"companies": [
+		{
+			"id": "ice",
+			"название": {
+				"ru": "ICE",
+				"en": "ICE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1949,
+			"description": {
+				"ru": "Государственные электричество и связь Коста-Рики — почти вся энергия из ГЭС.",
+				"en": "Costa Rica's state power and telecom — almost all power from hydro."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 150,
+				"debt": 4000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Коста-Рики",
+						"en": "The Costa Rican state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марко Акунья",
+					"en": "Marco Acuna"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 14000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан-Хосе",
+						"en": "San José"
+					},
+					"ш": 9.93,
+					"д": -84.08,
+					"province": 804,
+					"staff": 8000,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.grupoice.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "banco_nacional",
+			"название": {
+				"ru": "Banco Nacional de Costa Rica (BNCR) & Banco de Costa Rica (BCR)",
+				"en": "Banco Nacional de Costa Rica (BNCR) & Banco de Costa Rica (BCR)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие государственные коммерческие банки страны (активы каждого ~$12-15 млрд)",
+				"en": "Banco Nacional de Costa Rica (BNCR) & Banco de Costa Rica (BCR) — a financial company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 875,
+				"profit": 246,
+				"debt": 0,
+				"money": 0,
+				"dividends": 74
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2042
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Коста-Рика)",
+						"en": "The state (Costa Rica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9623,
+					"д": -84.1144,
+					"province": 804,
+					"staff": 750,
+					"fine": 773
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bac_credomatic",
+			"название": {
+				"ru": "BAC Credomatic (BAC San José / Grupo Aval)",
+				"en": "BAC Credomatic (BAC San José / Grupo Aval)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный коммерческий банк Коста-Рики и ведущая платежная система региона (активы ~$10 млрд)",
+				"en": "BAC Credomatic (BAC San José / Grupo Aval) — a financial company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 591,
+				"profit": 166,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1379
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1688,
+			"wage": 1807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9695,
+					"д": -84.065,
+					"province": 804,
+					"staff": 506,
+					"fine": 773
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "florida_ice",
+			"название": {
+				"ru": "Florida Ice and Farm Company (FIFCO)",
+				"en": "Florida Ice and Farm Company (FIFCO)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий частный конгломерат напитков, продуктов питания и ритейла (пиво Imperial, Pilsen, соки Kern's, сеть пекарен Musmanni; выручка ~.5 млрд, кап ~.8 млрд)",
+				"en": "Florida Ice and Farm Company (FIFCO) — a consumer and retail company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 306,
+				"profit": 24,
+				"debt": 71,
+				"money": 26,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 419
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 918,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9226,
+					"д": -84.0588,
+					"province": 804,
+					"staff": 275,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "dos_pinos",
+			"название": {
+				"ru": "Dos Pinos (Cooperativa de Productores de Leche Dos Pinos)",
+				"en": "Dos Pinos (Cooperativa de Productores de Leche Dos Pinos)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший молочный и агропромышленный кооператив региона (бренды Dos Pinos, Gallito; выручка ~.2 млрд)",
+				"en": "Dos Pinos (Cooperativa de Productores de Leche Dos Pinos) — a consumer and retail company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 257,
+				"profit": 20,
+				"debt": 59,
+				"money": 21,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 352
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 771,
+			"wage": 1222,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9672,
+					"д": -84.1008,
+					"province": 804,
+					"staff": 231,
+					"fine": 773
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "recope",
+			"название": {
+				"ru": "RECOPE (Refinadora Costarricense de Petróleo)",
+				"en": "RECOPE (Refinadora Costarricense de Petróleo)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная корпорация по импорту и оптовому распределению моторных топлив (выручка ~.5 млрд)",
+				"en": "RECOPE (Refinadora Costarricense de Petróleo) — a oil and gas company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 207,
+				"profit": 12,
+				"debt": 58,
+				"money": 20,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 129
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Коста-Рика)",
+						"en": "The state (Costa Rica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 181,
+			"wage": 1968,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9166,
+					"д": -84.1192,
+					"province": 804,
+					"staff": 54,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "intel_costa",
+			"название": {
+				"ru": "Intel Costa Rica (Эредия)",
+				"en": "Intel Costa Rica (Эредия)"
+			},
+			"sector": "semiconductors",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Латинской Америке центр тестирования, сборки микрочипов и R&D корпорации Intel (экспорт ~.5 млрд)",
+				"en": "Intel Costa Rica (Эредия) — a semiconductor company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 157,
+				"profit": 31,
+				"debt": 21,
+				"money": 45,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 685
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 220,
+			"wage": 2139,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9236,
+					"д": -84.0472,
+					"province": 804,
+					"staff": 66,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mediko_tehnologicheskiy",
+			"название": {
+				"ru": "Медико-технологический кластер (Medtronic, Boston Scientific, Abbott, Edwards Lifesciences)",
+				"en": "Медико-технологический кластер (Medtronic, Boston Scientific, Abbott, Edwards Lifesciences)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой экспортный хаб сердечно-сосудистых медицинских изделий (экспорт > млрд в год)",
+				"en": "Медико-технологический кластер (Medtronic, Boston Scientific, Abbott, Edwards Lifesciences) — a transport company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 107,
+				"profit": 7,
+				"debt": 54,
+				"money": 22,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 76
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 267,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9447,
+					"д": -84.0668,
+					"province": 804,
+					"staff": 80,
+					"fine": 773
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_monge",
+			"название": {
+				"ru": "Grupo Monge",
+				"en": "Grupo Monge"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в регионе розничная сеть электроники и бытовой техники (>500 магазинов)",
+				"en": "Grupo Monge — a energy company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 99,
+				"profit": 9,
+				"debt": 60,
+				"money": 13,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 176,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9136,
+					"д": -84.0713,
+					"province": 804,
+					"staff": 52,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "servicio_nacional",
+			"название": {
+				"ru": "Servicio Nacional de Guardacostas (SNG, Базы Кепос / Кальдера / Гольфито)",
+				"en": "Servicio Nacional de Guardacostas (SNG, Базы Кепос / Кальдера / Гольфито)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальная служба береговой охраны (морские патрульные корабли класса Libertador, операции против наркотрафика в Тихом океане и Карибском море)",
+				"en": "Servicio Nacional de Guardacostas (SNG, Базы Кепос / Кальдера / Гольфито) — a defence company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 39,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 73
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Коста-Рика)",
+						"en": "The state (Costa Rica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 117,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9243,
+					"д": -84.083,
+					"province": 804,
+					"staff": 35,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "servicio_de",
+			"название": {
+				"ru": "Servicio de Vigilancia Aérea (SVA, Сан-Хосе)",
+				"en": "Servicio de Vigilancia Aérea (SVA, Сан-Хосе)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Воздушная служба общественной безопасности (патрульные самолеты King Air, вертолеты Bell 407, MD 530, UH-1ST)",
+				"en": "Servicio de Vigilancia Aérea (SVA, Сан-Хосе) — a defence company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 2,
+				"debt": 9,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 66
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Коста-Рика)",
+						"en": "The state (Costa Rica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 105,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.9276,
+					"д": -84.0538,
+					"province": 804,
+					"staff": 31,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "unidad_especial",
+			"название": {
+				"ru": "Unidad Especial de Intervención (UEI) Technical Workshops",
+				"en": "Unidad Especial de Intervención (UEI) Technical Workshops"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Технические мастерские обслуживания тактического снаряжения, вооружения и связи Министерства общественной безопасности",
+				"en": "Unidad Especial de Intervención (UEI) Technical Workshops — a defence company of Costa Rica."
+			},
+			"fundamental": {
+				"выручка": 31,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 58
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Коста-Рика)",
+						"en": "The state (Costa Rica)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Коста-Рика"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 93,
+			"wage": 1650,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сан Хосе",
+						"en": "San José"
+					},
+					"ш": 9.8946,
+					"д": -84.0484,
+					"province": 804,
+					"staff": 27,
+					"fine": 776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

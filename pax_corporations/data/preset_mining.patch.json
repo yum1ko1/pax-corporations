@@ -1,0 +1,1918 @@
+{
+	"наше_время": {
+		"Израиль": [
+			{
+				"kind": "gas",
+				"name": "Chevron — Левиатан (терминал Дор)",
+				"name_en": "Chevron, Leviathan (Dor terminal)",
+				"extent": 0.55,
+				"shd": [
+					32.62,
+					34.93
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "Chevron — Тамар (Ашдод)",
+				"name_en": "Chevron, Tamar (Ashdod)",
+				"extent": 0.4,
+				"shd": [
+					31.8,
+					34.66
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "ICL — Dead Sea Magnesium",
+				"name_en": "ICL, Dead Sea Magnesium",
+				"extent": 0.25,
+				"shd": [
+					31.05,
+					35.37
+				]
+			},
+			{
+				"kind": "sun",
+				"name": "Солнечная станция Ашалим",
+				"name_en": "Ashalim solar station",
+				"extent": 0.3,
+				"shd": [
+					30.96,
+					34.71
+				]
+			}
+		],
+		"Катар": [
+			{
+				"kind": "gas",
+				"name": "QatarEnergy — Северное месторождение (Рас-Лаффан)",
+				"name_en": "QatarEnergy, North Field (Ras Laffan)",
+				"extent": 0.95,
+				"shd": [
+					25.9,
+					51.55
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "QatarEnergy — Духан",
+				"name_en": "QatarEnergy, Dukhan",
+				"extent": 0.4,
+				"shd": [
+					25.42,
+					50.78
+				]
+			}
+		],
+		"ОАЭ": [
+			{
+				"kind": "oil",
+				"name": "ADNOC — Верхний Закум (Рувайс)",
+				"name_en": "ADNOC, Upper Zakum (Ruwais)",
+				"extent": 0.8,
+				"shd": [
+					24.11,
+					52.73
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "ADNOC — газ Шах",
+				"name_en": "ADNOC, Shah gas",
+				"extent": 0.45,
+				"shd": [
+					23.7,
+					53.65
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "АЭС Барака",
+				"name_en": "Barakah nuclear plant",
+				"extent": 0.6,
+				"shd": [
+					23.97,
+					52.26
+				]
+			}
+		],
+		"Кувейт": [
+			{
+				"kind": "oil",
+				"name": "KOC — Большой Бурган",
+				"name_en": "KOC, Greater Burgan",
+				"extent": 0.8,
+				"shd": [
+					28.95,
+					47.95
+				]
+			}
+		],
+		"Ирак": [
+			{
+				"kind": "oil",
+				"name": "BP и INOC — Румайла",
+				"name_en": "BP and INOC, Rumaila",
+				"extent": 0.85,
+				"shd": [
+					30.5,
+					47.35
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "North Oil — Киркук",
+				"name_en": "North Oil, Kirkuk",
+				"extent": 0.5,
+				"shd": [
+					35.47,
+					44.39
+				]
+			}
+		],
+		"Оман": [
+			{
+				"kind": "oil",
+				"name": "PDO — Фахуд",
+				"name_en": "PDO, Fahud",
+				"extent": 0.5,
+				"shd": [
+					22.35,
+					56.48
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "Oman LNG — Калхат",
+				"name_en": "Oman LNG, Qalhat",
+				"extent": 0.35,
+				"shd": [
+					22.67,
+					59.38
+				]
+			}
+		],
+		"Бахрейн": [
+			{
+				"kind": "colored_metals",
+				"name": "Alba — алюминиевый завод",
+				"name_en": "Alba aluminium smelter",
+				"extent": 0.4,
+				"shd": [
+					26.11,
+					50.6
+				]
+			}
+		],
+		"Алжир": [
+			{
+				"kind": "gas",
+				"name": "Sonatrach — Хасси-Р'Мель",
+				"name_en": "Sonatrach, Hassi R'Mel",
+				"extent": 0.75,
+				"shd": [
+					32.93,
+					3.27
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "Sonatrach — Хасси-Мессауд",
+				"name_en": "Sonatrach, Hassi Messaoud",
+				"extent": 0.6,
+				"shd": [
+					31.68,
+					6.07
+				]
+			}
+		],
+		"Ливия": [
+			{
+				"kind": "oil",
+				"name": "NOC — Шарара",
+				"name_en": "NOC, Sharara",
+				"extent": 0.45,
+				"shd": [
+					26.55,
+					12.24
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "NOC — Эс-Сидер",
+				"name_en": "NOC, Es Sider",
+				"extent": 0.35,
+				"shd": [
+					30.63,
+					18.35
+				]
+			}
+		],
+		"Египет": [
+			{
+				"kind": "gas",
+				"name": "Eni — Зохр (Порт-Саид)",
+				"name_en": "Eni, Zohr (Port Said)",
+				"extent": 0.55,
+				"shd": [
+					31.25,
+					32.3
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "GUPCO — Суэцкий залив",
+				"name_en": "GUPCO, Gulf of Suez",
+				"extent": 0.3,
+				"shd": [
+					28.35,
+					33.1
+				]
+			},
+			{
+				"kind": "river",
+				"name": "Асуанская ГЭС",
+				"name_en": "Aswan High Dam",
+				"extent": 0.45,
+				"shd": [
+					23.97,
+					32.88
+				]
+			}
+		],
+		"Ангола": [
+			{
+				"kind": "oil",
+				"name": "Sonangol — Сойо",
+				"name_en": "Sonangol, Soyo",
+				"extent": 0.6,
+				"shd": [
+					-6.13,
+					12.37
+				]
+			}
+		],
+		"Мексика": [
+			{
+				"kind": "oil",
+				"name": "Pemex — Кантарелл (Сьюдад-дель-Кармен)",
+				"name_en": "Pemex, Cantarell (Ciudad del Carmen)",
+				"extent": 0.65,
+				"shd": [
+					18.65,
+					-91.8
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "Ternium — Монтеррей",
+				"name_en": "Ternium, Monterrey",
+				"extent": 0.4,
+				"shd": [
+					25.75,
+					-100.3
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Grupo México — Кананеа",
+				"name_en": "Grupo México, Cananea",
+				"extent": 0.4,
+				"shd": [
+					30.98,
+					-110.3
+				]
+			}
+		],
+		"Колумбия": [
+			{
+				"kind": "coal",
+				"name": "Cerrejón",
+				"name_en": "Cerrejón",
+				"extent": 0.6,
+				"shd": [
+					11.08,
+					-72.67
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "Ecopetrol — Рубьялес",
+				"name_en": "Ecopetrol, Rubiales",
+				"extent": 0.4,
+				"shd": [
+					3.78,
+					-71.95
+				]
+			}
+		],
+		"Перу": [
+			{
+				"kind": "colored_metals",
+				"name": "Антамина",
+				"name_en": "Antamina",
+				"extent": 0.6,
+				"shd": [
+					-9.53,
+					-77.05
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Freeport — Серро-Верде",
+				"name_en": "Freeport, Cerro Verde",
+				"extent": 0.5,
+				"shd": [
+					-16.53,
+					-71.6
+				]
+			}
+		],
+		"Аргентина": [
+			{
+				"kind": "oil",
+				"name": "YPF — Вака-Муэрта",
+				"name_en": "YPF, Vaca Muerta",
+				"extent": 0.6,
+				"shd": [
+					-38.4,
+					-69.0
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "TotalEnergies — Огненная Земля",
+				"name_en": "TotalEnergies, Tierra del Fuego",
+				"extent": 0.35,
+				"shd": [
+					-52.65,
+					-68.6
+				]
+			}
+		],
+		"Великобритания": [
+			{
+				"kind": "oil",
+				"name": "Северное море — терминал Саллом-Во",
+				"name_en": "North Sea, Sullom Voe terminal",
+				"extent": 0.45,
+				"shd": [
+					60.46,
+					-1.28
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "EDF — АЭС Хинкли-Пойнт",
+				"name_en": "EDF, Hinkley Point",
+				"extent": 0.5,
+				"shd": [
+					51.21,
+					-3.13
+				]
+			},
+			{
+				"kind": "wind",
+				"name": "Ørsted — Хорнси",
+				"name_en": "Ørsted, Hornsea",
+				"extent": 0.45,
+				"shd": [
+					53.88,
+					1.79
+				]
+			}
+		],
+		"Франция": [
+			{
+				"kind": "atom",
+				"name": "EDF — АЭС Гравлин",
+				"name_en": "EDF, Gravelines",
+				"extent": 0.8,
+				"shd": [
+					51.01,
+					2.13
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "EDF — АЭС Трикастен",
+				"name_en": "EDF, Tricastin",
+				"extent": 0.6,
+				"shd": [
+					44.33,
+					4.73
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "ArcelorMittal — Дюнкерк",
+				"name_en": "ArcelorMittal, Dunkirk",
+				"extent": 0.4,
+				"shd": [
+					51.03,
+					2.3
+				]
+			}
+		],
+		"Нидерланды": [
+			{
+				"kind": "gas",
+				"name": "NAM — Северное море (Ден-Хелдер)",
+				"name_en": "NAM, North Sea (Den Helder)",
+				"extent": 0.35,
+				"shd": [
+					52.95,
+					4.76
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "Tata Steel — Эймёйден",
+				"name_en": "Tata Steel, IJmuiden",
+				"extent": 0.45,
+				"shd": [
+					52.47,
+					4.6
+				]
+			}
+		],
+		"Япония": [
+			{
+				"kind": "atom",
+				"name": "TEPCO — Касивадзаки-Карива",
+				"name_en": "TEPCO, Kashiwazaki-Kariwa",
+				"extent": 0.4,
+				"shd": [
+					37.43,
+					138.6
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "Nippon Steel — Кимицу",
+				"name_en": "Nippon Steel, Kimitsu",
+				"extent": 0.65,
+				"shd": [
+					35.35,
+					139.88
+				]
+			},
+			{
+				"kind": "heat",
+				"name": "JERA — ТЭС Хеккинан",
+				"name_en": "JERA, Hekinan power station",
+				"extent": 0.5,
+				"shd": [
+					34.84,
+					136.96
+				]
+			}
+		],
+		"Южная Корея": [
+			{
+				"kind": "atom",
+				"name": "KHNP — АЭС Кори",
+				"name_en": "KHNP, Kori",
+				"extent": 0.7,
+				"shd": [
+					35.32,
+					129.29
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "POSCO — Пхохан",
+				"name_en": "POSCO, Pohang",
+				"extent": 0.7,
+				"shd": [
+					36.0,
+					129.38
+				]
+			}
+		],
+		"Испания": [
+			{
+				"kind": "atom",
+				"name": "АЭС Альмарас",
+				"name_en": "Almaraz nuclear plant",
+				"extent": 0.4,
+				"shd": [
+					39.81,
+					-5.7
+				]
+			},
+			{
+				"kind": "wind",
+				"name": "Iberdrola — ветропарки Арагона",
+				"name_en": "Iberdrola, Aragon wind farms",
+				"extent": 0.4,
+				"shd": [
+					41.6,
+					-1.0
+				]
+			}
+		],
+		"Италия": [
+			{
+				"kind": "gas",
+				"name": "Eni — Валь-д'Агри",
+				"name_en": "Eni, Val d'Agri",
+				"extent": 0.3,
+				"shd": [
+					40.3,
+					15.9
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "Acciaierie d'Italia — Таранто",
+				"name_en": "Acciaierie d'Italia, Taranto",
+				"extent": 0.35,
+				"shd": [
+					40.5,
+					17.2
+				]
+			}
+		],
+		"Швеция": [
+			{
+				"kind": "black_metals",
+				"name": "LKAB — Кируна",
+				"name_en": "LKAB, Kiruna",
+				"extent": 0.7,
+				"shd": [
+					67.85,
+					20.2
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Boliden — Айтик",
+				"name_en": "Boliden, Aitik",
+				"extent": 0.4,
+				"shd": [
+					67.07,
+					20.95
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "Vattenfall — Форсмарк",
+				"name_en": "Vattenfall, Forsmark",
+				"extent": 0.5,
+				"shd": [
+					60.4,
+					18.17
+				]
+			}
+		],
+		"Финляндия": [
+			{
+				"kind": "atom",
+				"name": "TVO — Олкилуото",
+				"name_en": "TVO, Olkiluoto",
+				"extent": 0.5,
+				"shd": [
+					61.24,
+					21.44
+				]
+			}
+		],
+		"Узбекистан": [
+			{
+				"kind": "gas",
+				"name": "Узбекнефтегаз — Шуртан",
+				"name_en": "Uzbekneftegaz, Shurtan",
+				"extent": 0.45,
+				"shd": [
+					38.33,
+					66.0
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Алмалыкский ГМК",
+				"name_en": "Almalyk MMC",
+				"extent": 0.5,
+				"shd": [
+					40.85,
+					69.6
+				]
+			}
+		],
+		"Туркмения": [
+			{
+				"kind": "gas",
+				"name": "Туркменгаз — Галкыныш",
+				"name_en": "Turkmengaz, Galkynysh",
+				"extent": 0.8,
+				"shd": [
+					37.5,
+					62.3
+				]
+			}
+		],
+		"Азербайджан": [
+			{
+				"kind": "oil",
+				"name": "BP — АЧГ (Сангачал)",
+				"name_en": "BP, ACG (Sangachal)",
+				"extent": 0.55,
+				"shd": [
+					40.18,
+					49.47
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "BP — Шах-Дениз",
+				"name_en": "BP, Shah Deniz",
+				"extent": 0.4,
+				"shd": [
+					40.2,
+					49.45
+				]
+			}
+		],
+		"ДР Конго": [
+			{
+				"kind": "colored_metals",
+				"name": "CMOC — Тенке-Фунгуруме",
+				"name_en": "CMOC, Tenke Fungurume",
+				"extent": 0.6,
+				"shd": [
+					-10.6,
+					26.15
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Glencore — Камото",
+				"name_en": "Glencore, Kamoto",
+				"extent": 0.5,
+				"shd": [
+					-10.73,
+					25.4
+				]
+			}
+		],
+		"Замбия": [
+			{
+				"kind": "colored_metals",
+				"name": "First Quantum — Кансанши",
+				"name_en": "First Quantum, Kansanshi",
+				"extent": 0.5,
+				"shd": [
+					-12.1,
+					26.43
+				]
+			}
+		],
+		"Вьетнам": [
+			{
+				"kind": "coal",
+				"name": "Vinacomin — Куангнинь",
+				"name_en": "Vinacomin, Quang Ninh",
+				"extent": 0.5,
+				"shd": [
+					21.0,
+					107.2
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "Vietsovpetro — Белый Тигр (Вунгтау)",
+				"name_en": "Vietsovpetro, White Tiger (Vung Tau)",
+				"extent": 0.4,
+				"shd": [
+					10.35,
+					107.08
+				]
+			}
+		],
+		"Малайзия": [
+			{
+				"kind": "gas",
+				"name": "Petronas — Бинтулу",
+				"name_en": "Petronas, Bintulu",
+				"extent": 0.6,
+				"shd": [
+					3.26,
+					113.07
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "Petronas — Керти",
+				"name_en": "Petronas, Kerteh",
+				"extent": 0.35,
+				"shd": [
+					4.51,
+					103.44
+				]
+			}
+		],
+		"Таиланд": [
+			{
+				"kind": "gas",
+				"name": "PTT — Мап-Та-Пхут",
+				"name_en": "PTT, Map Ta Phut",
+				"extent": 0.4,
+				"shd": [
+					12.68,
+					101.15
+				]
+			}
+		],
+		"Пакистан": [
+			{
+				"kind": "gas",
+				"name": "Sui Southern — Суи",
+				"name_en": "Sui Southern, Sui",
+				"extent": 0.4,
+				"shd": [
+					28.6,
+					69.2
+				]
+			},
+			{
+				"kind": "coal",
+				"name": "Сындх — угольное поле Тар",
+				"name_en": "Sindh, Thar coalfield",
+				"extent": 0.35,
+				"shd": [
+					24.8,
+					70.3
+				]
+			}
+		],
+		"Бангладеш": [
+			{
+				"kind": "gas",
+				"name": "Titas Gas — Титас",
+				"name_en": "Titas Gas, Titas",
+				"extent": 0.35,
+				"shd": [
+					24.0,
+					91.1
+				]
+			}
+		],
+		"Монголия": [
+			{
+				"kind": "colored_metals",
+				"name": "Rio Tinto — Оюу-Толгой",
+				"name_en": "Rio Tinto, Oyu Tolgoi",
+				"extent": 0.5,
+				"shd": [
+					43.0,
+					106.85
+				]
+			},
+			{
+				"kind": "coal",
+				"name": "Таван-Толгой",
+				"name_en": "Tavan Tolgoi",
+				"extent": 0.45,
+				"shd": [
+					43.6,
+					105.5
+				]
+			}
+		],
+		"Чехия": [
+			{
+				"kind": "coal",
+				"name": "Severní energetická — Мост",
+				"name_en": "Severní energetická, Most",
+				"extent": 0.4,
+				"shd": [
+					50.5,
+					13.6
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "ČEZ — Темелин",
+				"name_en": "ČEZ, Temelín",
+				"extent": 0.4,
+				"shd": [
+					49.18,
+					14.38
+				]
+			}
+		],
+		"Венгрия": [
+			{
+				"kind": "atom",
+				"name": "АЭС Пакш",
+				"name_en": "Paks nuclear plant",
+				"extent": 0.35,
+				"shd": [
+					46.57,
+					18.85
+				]
+			}
+		],
+		"Словакия": [
+			{
+				"kind": "atom",
+				"name": "Slovenské elektrárne — Моховце",
+				"name_en": "Slovenské elektrárne, Mochovce",
+				"extent": 0.3,
+				"shd": [
+					48.26,
+					18.46
+				]
+			}
+		],
+		"Румыния": [
+			{
+				"kind": "gas",
+				"name": "OMV Petrom — Плоешти",
+				"name_en": "OMV Petrom, Ploiești",
+				"extent": 0.35,
+				"shd": [
+					44.95,
+					26.0
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "АЭС Чернаводэ",
+				"name_en": "Cernavodă nuclear plant",
+				"extent": 0.3,
+				"shd": [
+					44.32,
+					28.05
+				]
+			}
+		],
+		"Болгария": [
+			{
+				"kind": "atom",
+				"name": "АЭС Козлодуй",
+				"name_en": "Kozloduy nuclear plant",
+				"extent": 0.3,
+				"shd": [
+					43.75,
+					23.77
+				]
+			},
+			{
+				"kind": "coal",
+				"name": "Марица-Изток",
+				"name_en": "Maritsa Iztok",
+				"extent": 0.3,
+				"shd": [
+					42.15,
+					26.0
+				]
+			}
+		],
+		"Греция": [
+			{
+				"kind": "coal",
+				"name": "PPC — Птолемаида",
+				"name_en": "PPC, Ptolemaida",
+				"extent": 0.3,
+				"shd": [
+					40.5,
+					21.7
+				]
+			}
+		],
+		"Сербия": [
+			{
+				"kind": "colored_metals",
+				"name": "Zijin — Бор",
+				"name_en": "Zijin, Bor",
+				"extent": 0.4,
+				"shd": [
+					44.08,
+					22.1
+				]
+			},
+			{
+				"kind": "coal",
+				"name": "EPS — Колубара",
+				"name_en": "EPS, Kolubara",
+				"extent": 0.35,
+				"shd": [
+					44.5,
+					20.2
+				]
+			}
+		],
+		"Беларусь": [
+			{
+				"kind": "atom",
+				"name": "Белорусская АЭС",
+				"name_en": "Belarusian nuclear plant",
+				"extent": 0.3,
+				"shd": [
+					54.76,
+					26.1
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "Белоруснефть — Речица",
+				"name_en": "Belorusneft, Rechytsa",
+				"extent": 0.2,
+				"shd": [
+					52.36,
+					30.39
+				]
+			}
+		],
+		"Бельгия": [
+			{
+				"kind": "atom",
+				"name": "Engie — АЭС Дул",
+				"name_en": "Engie, Doel",
+				"extent": 0.4,
+				"shd": [
+					51.32,
+					4.26
+				]
+			}
+		],
+		"Швейцария": [
+			{
+				"kind": "river",
+				"name": "Гранд-Диксанс",
+				"name_en": "Grande Dixence",
+				"extent": 0.35,
+				"shd": [
+					46.08,
+					7.4
+				]
+			},
+			{
+				"kind": "atom",
+				"name": "АЭС Гёсген",
+				"name_en": "Gösgen nuclear plant",
+				"extent": 0.3,
+				"shd": [
+					47.37,
+					7.97
+				]
+			}
+		],
+		"Австрия": [
+			{
+				"kind": "river",
+				"name": "Verbund — дунайские ГЭС",
+				"name_en": "Verbund, Danube plants",
+				"extent": 0.35,
+				"shd": [
+					48.2,
+					16.45
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "voestalpine — Линц",
+				"name_en": "voestalpine, Linz",
+				"extent": 0.4,
+				"shd": [
+					48.29,
+					14.33
+				]
+			}
+		],
+		"Грузия": [
+			{
+				"kind": "river",
+				"name": "Ингурская ГЭС",
+				"name_en": "Enguri dam",
+				"extent": 0.3,
+				"shd": [
+					42.75,
+					42.03
+				]
+			}
+		],
+		"Эфиопия": [
+			{
+				"kind": "river",
+				"name": "ГЭС «Возрождение»",
+				"name_en": "Grand Ethiopian Renaissance Dam",
+				"extent": 0.55,
+				"shd": [
+					11.21,
+					35.09
+				]
+			}
+		],
+		"Мозамбик": [
+			{
+				"kind": "coal",
+				"name": "Vulcan — Моатизе",
+				"name_en": "Vulcan, Moatize",
+				"extent": 0.4,
+				"shd": [
+					-16.13,
+					33.73
+				]
+			},
+			{
+				"kind": "river",
+				"name": "ГЭС Кахора-Баса",
+				"name_en": "Cahora Bassa",
+				"extent": 0.5,
+				"shd": [
+					-15.6,
+					32.7
+				]
+			}
+		],
+		"Гвинея": [
+			{
+				"kind": "colored_metals",
+				"name": "CBG — бокситы Сангареди",
+				"name_en": "CBG, Sangarédi bauxite",
+				"extent": 0.5,
+				"shd": [
+					11.1,
+					-13.8
+				]
+			}
+		],
+		"Эквадор": [
+			{
+				"kind": "oil",
+				"name": "Petroecuador — Сачá",
+				"name_en": "Petroecuador, Sacha",
+				"extent": 0.3,
+				"shd": [
+					-0.33,
+					-76.88
+				]
+			}
+		],
+		"Боливия": [
+			{
+				"kind": "gas",
+				"name": "YPFB — Сан-Альберто",
+				"name_en": "YPFB, San Alberto",
+				"extent": 0.35,
+				"shd": [
+					-21.6,
+					-63.7
+				]
+			}
+		],
+		"Тринидад и Тобаго": [
+			{
+				"kind": "gas",
+				"name": "Atlantic LNG — Пойнт-Фортин",
+				"name_en": "Atlantic LNG, Point Fortin",
+				"extent": 0.35,
+				"shd": [
+					10.17,
+					-61.68
+				]
+			}
+		],
+		"Гайана": [
+			{
+				"kind": "oil",
+				"name": "ExxonMobil — Стабрук (Джорджтаун)",
+				"name_en": "ExxonMobil, Stabroek (Georgetown)",
+				"extent": 0.45,
+				"shd": [
+					6.8,
+					-58.15
+				]
+			}
+		],
+		"Таджикистан": [
+			{
+				"kind": "river",
+				"name": "Нурекская ГЭС",
+				"name_en": "Nurek dam",
+				"extent": 0.35,
+				"shd": [
+					38.37,
+					69.35
+				]
+			}
+		],
+		"Киргизия": [
+			{
+				"kind": "river",
+				"name": "Токтогульская ГЭС",
+				"name_en": "Toktogul dam",
+				"extent": 0.3,
+				"shd": [
+					41.67,
+					72.65
+				]
+			}
+		],
+		"Филиппины": [
+			{
+				"kind": "colored_metals",
+				"name": "Nickel Asia — Суригао",
+				"name_en": "Nickel Asia, Surigao",
+				"extent": 0.35,
+				"shd": [
+					9.78,
+					125.5
+				]
+			},
+			{
+				"kind": "heat",
+				"name": "Meralco — ТЭС Масинлок",
+				"name_en": "Masinloc power station",
+				"extent": 0.3,
+				"shd": [
+					15.53,
+					119.93
+				]
+			}
+		],
+		"Новая Зеландия": [
+			{
+				"kind": "river",
+				"name": "Meridian — Манапоури",
+				"name_en": "Meridian, Manapouri",
+				"extent": 0.3,
+				"shd": [
+					-45.52,
+					167.28
+				]
+			},
+			{
+				"kind": "gas",
+				"name": "OMV — Мауи (Нью-Плимут)",
+				"name_en": "OMV, Maui (New Plymouth)",
+				"extent": 0.25,
+				"shd": [
+					-39.05,
+					174.05
+				]
+			}
+		],
+		"Намибия": [
+			{
+				"kind": "colored_metals",
+				"name": "Россинг — урановый рудник",
+				"name_en": "Rössing uranium mine",
+				"extent": 0.3,
+				"shd": [
+					-22.48,
+					15.05
+				]
+			}
+		],
+		"Ботсвана": [
+			{
+				"kind": "colored_metals",
+				"name": "Khoemacau — медь",
+				"name_en": "Khoemacau copper",
+				"extent": 0.3,
+				"shd": [
+					-20.5,
+					22.6
+				]
+			}
+		],
+		"Зимбабве": [
+			{
+				"kind": "colored_metals",
+				"name": "Zimplats — платина Нгези",
+				"name_en": "Zimplats, Ngezi platinum",
+				"extent": 0.35,
+				"shd": [
+					-18.6,
+					30.2
+				]
+			},
+			{
+				"kind": "coal",
+				"name": "Хванге",
+				"name_en": "Hwange colliery",
+				"extent": 0.3,
+				"shd": [
+					-18.37,
+					26.5
+				]
+			}
+		],
+		"Габон": [
+			{
+				"kind": "oil",
+				"name": "Perenco — Порт-Жантиль",
+				"name_en": "Perenco, Port-Gentil",
+				"extent": 0.35,
+				"shd": [
+					-0.72,
+					8.78
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Comilog — марганец Моанда",
+				"name_en": "Comilog, Moanda manganese",
+				"extent": 0.3,
+				"shd": [
+					-1.57,
+					13.2
+				]
+			}
+		],
+		"Республика Конго": [
+			{
+				"kind": "oil",
+				"name": "TotalEnergies — Пуэнт-Нуар",
+				"name_en": "TotalEnergies, Pointe-Noire",
+				"extent": 0.35,
+				"shd": [
+					-4.78,
+					11.86
+				]
+			}
+		],
+		"Экваториальная Гвинея": [
+			{
+				"kind": "gas",
+				"name": "Marathon — EG LNG (Бьоко)",
+				"name_en": "Marathon, EG LNG (Bioko)",
+				"extent": 0.3,
+				"shd": [
+					3.73,
+					8.72
+				]
+			}
+		],
+		"Судан": [
+			{
+				"kind": "oil",
+				"name": "Хеглиг",
+				"name_en": "Heglig field",
+				"extent": 0.3,
+				"shd": [
+					9.98,
+					29.4
+				]
+			}
+		],
+		"Южный Судан": [
+			{
+				"kind": "oil",
+				"name": "Палоич",
+				"name_en": "Paloich field",
+				"extent": 0.3,
+				"shd": [
+					10.47,
+					32.55
+				]
+			}
+		],
+		"Сирия": [
+			{
+				"kind": "oil",
+				"name": "Эль-Омар",
+				"name_en": "Al-Omar field",
+				"extent": 0.2,
+				"shd": [
+					35.03,
+					40.5
+				]
+			}
+		],
+		"Йемен": [
+			{
+				"kind": "gas",
+				"name": "Yemen LNG — Бальхаф",
+				"name_en": "Yemen LNG, Balhaf",
+				"extent": 0.25,
+				"shd": [
+					13.97,
+					48.17
+				]
+			}
+		],
+		"Тунис": [
+			{
+				"kind": "gas",
+				"name": "ETAP — Мискар (Габес)",
+				"name_en": "ETAP, Miskar (Gabès)",
+				"extent": 0.2,
+				"shd": [
+					33.88,
+					10.1
+				]
+			}
+		],
+		"Марокко": [
+			{
+				"kind": "colored_metals",
+				"name": "Managem — Бу-Аззер",
+				"name_en": "Managem, Bou Azzer",
+				"extent": 0.25,
+				"shd": [
+					30.53,
+					-6.9
+				]
+			},
+			{
+				"kind": "sun",
+				"name": "Солнечный комплекс Нур-Уарзазат",
+				"name_en": "Noor Ouarzazate solar complex",
+				"extent": 0.35,
+				"shd": [
+					31.0,
+					-6.86
+				]
+			}
+		],
+		"Гана": [
+			{
+				"kind": "oil",
+				"name": "Tullow — Джубили (Такоради)",
+				"name_en": "Tullow, Jubilee (Takoradi)",
+				"extent": 0.3,
+				"shd": [
+					4.9,
+					-1.76
+				]
+			},
+			{
+				"kind": "river",
+				"name": "ГЭС Акосомбо",
+				"name_en": "Akosombo dam",
+				"extent": 0.35,
+				"shd": [
+					6.3,
+					0.06
+				]
+			}
+		],
+		"Кот-д'Ивуар": [
+			{
+				"kind": "oil",
+				"name": "Eni — Баленн (Абиджан)",
+				"name_en": "Eni, Baleine (Abidjan)",
+				"extent": 0.25,
+				"shd": [
+					5.25,
+					-4.0
+				]
+			}
+		],
+		"Сенегал": [
+			{
+				"kind": "gas",
+				"name": "BP — Гранд-Тортю",
+				"name_en": "BP, Greater Tortue",
+				"extent": 0.25,
+				"shd": [
+					16.02,
+					-16.5
+				]
+			}
+		],
+		"Мавритания": [
+			{
+				"kind": "black_metals",
+				"name": "SNIM — Зуэрат",
+				"name_en": "SNIM, Zouérat",
+				"extent": 0.35,
+				"shd": [
+					22.73,
+					-12.47
+				]
+			}
+		],
+		"Нигер": [
+			{
+				"kind": "colored_metals",
+				"name": "Orano — урановые рудники Арлит",
+				"name_en": "Orano, Arlit uranium",
+				"extent": 0.3,
+				"shd": [
+					18.74,
+					7.39
+				]
+			}
+		],
+		"Чад": [
+			{
+				"kind": "oil",
+				"name": "Добá",
+				"name_en": "Doba field",
+				"extent": 0.25,
+				"shd": [
+					8.65,
+					16.85
+				]
+			}
+		],
+		"Камерун": [
+			{
+				"kind": "oil",
+				"name": "SNH — Кумба",
+				"name_en": "SNH, Kumba",
+				"extent": 0.2,
+				"shd": [
+					4.64,
+					9.45
+				]
+			}
+		],
+		"Танзания": [
+			{
+				"kind": "gas",
+				"name": "Сонго-Сонго",
+				"name_en": "Songo Songo",
+				"extent": 0.2,
+				"shd": [
+					-8.53,
+					39.5
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Barrick — Булянхулу",
+				"name_en": "Barrick, Bulyanhulu",
+				"extent": 0.25,
+				"shd": [
+					-3.2,
+					32.48
+				]
+			}
+		],
+		"Кения": [
+			{
+				"kind": "heat",
+				"name": "KenGen — геотермальная Олкария",
+				"name_en": "KenGen, Olkaria geothermal",
+				"extent": 0.3,
+				"shd": [
+					-0.88,
+					36.3
+				]
+			}
+		],
+		"Уганда": [
+			{
+				"kind": "river",
+				"name": "ГЭС Карума",
+				"name_en": "Karuma dam",
+				"extent": 0.25,
+				"shd": [
+					2.25,
+					32.24
+				]
+			}
+		],
+		"Мадагаскар": [
+			{
+				"kind": "colored_metals",
+				"name": "Sherritt — Амбатови",
+				"name_en": "Sherritt, Ambatovy",
+				"extent": 0.3,
+				"shd": [
+					-18.85,
+					48.3
+				]
+			}
+		],
+		"Папуа — Новая Гвинея": [
+			{
+				"kind": "gas",
+				"name": "ExxonMobil — PNG LNG",
+				"name_en": "ExxonMobil, PNG LNG",
+				"extent": 0.35,
+				"shd": [
+					-9.4,
+					147.05
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Ок-Теди",
+				"name_en": "Ok Tedi",
+				"extent": 0.3,
+				"shd": [
+					-5.21,
+					141.13
+				]
+			}
+		],
+		"Бруней": [
+			{
+				"kind": "oil",
+				"name": "Brunei Shell — Серия",
+				"name_en": "Brunei Shell, Seria",
+				"extent": 0.35,
+				"shd": [
+					4.6,
+					114.33
+				]
+			}
+		],
+		"Мьянма": [
+			{
+				"kind": "gas",
+				"name": "Ядана",
+				"name_en": "Yadana",
+				"extent": 0.3,
+				"shd": [
+					16.2,
+					97.6
+				]
+			}
+		],
+		"Шри-Ланка": [
+			{
+				"kind": "heat",
+				"name": "ТЭС Норочолай",
+				"name_en": "Norochcholai power station",
+				"extent": 0.25,
+				"shd": [
+					8.0,
+					79.8
+				]
+			}
+		],
+		"Дания": [
+			{
+				"kind": "wind",
+				"name": "Ørsted — Хорнс-Рев",
+				"name_en": "Ørsted, Horns Rev",
+				"extent": 0.4,
+				"shd": [
+					55.5,
+					8.1
+				]
+			},
+			{
+				"kind": "oil",
+				"name": "TotalEnergies — Тира (Эсбьерг)",
+				"name_en": "TotalEnergies, Tyra (Esbjerg)",
+				"extent": 0.25,
+				"shd": [
+					55.47,
+					8.45
+				]
+			}
+		],
+		"Португалия": [
+			{
+				"kind": "wind",
+				"name": "EDP — ветропарки Миньо",
+				"name_en": "EDP, Minho wind farms",
+				"extent": 0.3,
+				"shd": [
+					41.9,
+					-8.4
+				]
+			},
+			{
+				"kind": "river",
+				"name": "ГЭС Алкейва",
+				"name_en": "Alqueva dam",
+				"extent": 0.25,
+				"shd": [
+					38.2,
+					-7.5
+				]
+			}
+		],
+		"Ирландия": [
+			{
+				"kind": "gas",
+				"name": "Vermilion — Корриб",
+				"name_en": "Vermilion, Corrib",
+				"extent": 0.2,
+				"shd": [
+					54.2,
+					-9.8
+				]
+			}
+		],
+		"Исландия": [
+			{
+				"kind": "river",
+				"name": "Landsvirkjun — Каураухньюкар",
+				"name_en": "Landsvirkjun, Kárahnjúkar",
+				"extent": 0.3,
+				"shd": [
+					64.95,
+					-15.8
+				]
+			},
+			{
+				"kind": "colored_metals",
+				"name": "Alcoa Fjarðaál",
+				"name_en": "Alcoa Fjarðaál",
+				"extent": 0.3,
+				"shd": [
+					65.05,
+					-14.2
+				]
+			}
+		],
+		"Эстония": [
+			{
+				"kind": "coal",
+				"name": "Eesti Energia — сланцы Нарвы",
+				"name_en": "Eesti Energia, Narva oil shale",
+				"extent": 0.3,
+				"shd": [
+					59.3,
+					27.9
+				]
+			}
+		],
+		"Литва": [
+			{
+				"kind": "oil",
+				"name": "Orlen — Мажейкяй",
+				"name_en": "Orlen, Mažeikiai",
+				"extent": 0.25,
+				"shd": [
+					56.35,
+					22.3
+				]
+			}
+		],
+		"Латвия": [
+			{
+				"kind": "river",
+				"name": "Latvenergo — Плявиняс",
+				"name_en": "Latvenergo, Pļaviņas",
+				"extent": 0.2,
+				"shd": [
+					56.6,
+					25.7
+				]
+			}
+		],
+		"Словения": [
+			{
+				"kind": "atom",
+				"name": "АЭС Кршко",
+				"name_en": "Krško nuclear plant",
+				"extent": 0.25,
+				"shd": [
+					45.94,
+					15.52
+				]
+			}
+		],
+		"Хорватия": [
+			{
+				"kind": "gas",
+				"name": "INA — Молве",
+				"name_en": "INA, Molve",
+				"extent": 0.2,
+				"shd": [
+					46.1,
+					17.0
+				]
+			}
+		],
+		"Босния и Герцеговина": [
+			{
+				"kind": "coal",
+				"name": "Угляник Какань",
+				"name_en": "Kakanj coal",
+				"extent": 0.2,
+				"shd": [
+					44.13,
+					18.12
+				]
+			}
+		],
+		"Албания": [
+			{
+				"kind": "oil",
+				"name": "Bankers — Патос-Маринза",
+				"name_en": "Bankers, Patos-Marinza",
+				"extent": 0.2,
+				"shd": [
+					40.7,
+					19.62
+				]
+			}
+		],
+		"Армения": [
+			{
+				"kind": "atom",
+				"name": "Армянская АЭС (Мецамор)",
+				"name_en": "Armenian nuclear plant (Metsamor)",
+				"extent": 0.25,
+				"shd": [
+					40.18,
+					44.15
+				]
+			}
+		],
+		"Молдавия": [
+			{
+				"kind": "heat",
+				"name": "Молдавская ГРЭС",
+				"name_en": "Moldavskaya GRES",
+				"extent": 0.25,
+				"shd": [
+					46.62,
+					29.95
+				]
+			}
+		],
+		"Куба": [
+			{
+				"kind": "colored_metals",
+				"name": "Sherritt — Моа (никель)",
+				"name_en": "Sherritt, Moa nickel",
+				"extent": 0.3,
+				"shd": [
+					20.65,
+					-74.9
+				]
+			}
+		],
+		"Доминиканская Республика": [
+			{
+				"kind": "colored_metals",
+				"name": "Barrick — Пуэбло-Вьехо",
+				"name_en": "Barrick, Pueblo Viejo",
+				"extent": 0.25,
+				"shd": [
+					18.93,
+					-70.17
+				]
+			}
+		],
+		"Ямайка": [
+			{
+				"kind": "colored_metals",
+				"name": "Jamalco — бокситы",
+				"name_en": "Jamalco, bauxite",
+				"extent": 0.25,
+				"shd": [
+					17.93,
+					-77.3
+				]
+			}
+		],
+		"Суринам": [
+			{
+				"kind": "oil",
+				"name": "Staatsolie — Тамбаредьо",
+				"name_en": "Staatsolie, Tambaredjo",
+				"extent": 0.2,
+				"shd": [
+					5.85,
+					-55.75
+				]
+			}
+		],
+		"Парагвай": [
+			{
+				"kind": "river",
+				"name": "ГЭС Итайпу",
+				"name_en": "Itaipu dam",
+				"extent": 0.6,
+				"shd": [
+					-25.41,
+					-54.59
+				]
+			}
+		],
+		"Уругвай": [
+			{
+				"kind": "wind",
+				"name": "UTE — ветропарки",
+				"name_en": "UTE wind farms",
+				"extent": 0.25,
+				"shd": [
+					-34.0,
+					-55.0
+				]
+			},
+			{
+				"kind": "river",
+				"name": "ГЭС Сальто-Гранде",
+				"name_en": "Salto Grande dam",
+				"extent": 0.25,
+				"shd": [
+					-31.27,
+					-57.94
+				]
+			}
+		],
+		"Панама": [
+			{
+				"kind": "colored_metals",
+				"name": "First Quantum — Кобре-Панама",
+				"name_en": "First Quantum, Cobre Panamá",
+				"extent": 0.35,
+				"shd": [
+					8.83,
+					-80.63
+				]
+			}
+		],
+		"Сингапур": [
+			{
+				"kind": "oil",
+				"name": "Shell — НПЗ Пулау-Буком",
+				"name_en": "Shell, Pulau Bukom refinery",
+				"extent": 0.3,
+				"shd": [
+					1.23,
+					103.77
+				]
+			}
+		],
+		"Тайвань": [
+			{
+				"kind": "heat",
+				"name": "Taipower — ТЭС Тайчжун",
+				"name_en": "Taipower, Taichung power station",
+				"extent": 0.5,
+				"shd": [
+					24.21,
+					120.48
+				]
+			},
+			{
+				"kind": "black_metals",
+				"name": "China Steel — Гаосюн",
+				"name_en": "China Steel, Kaohsiung",
+				"extent": 0.45,
+				"shd": [
+					22.55,
+					120.33
+				]
+			}
+		],
+		"Афганистан": [
+			{
+				"kind": "colored_metals",
+				"name": "Айнак — медь",
+				"name_en": "Aynak copper",
+				"extent": 0.2,
+				"shd": [
+					34.27,
+					69.29
+				]
+			}
+		],
+		"Лаос": [
+			{
+				"kind": "river",
+				"name": "ГЭС Нам-Теун 2",
+				"name_en": "Nam Theun 2 dam",
+				"extent": 0.3,
+				"shd": [
+					17.98,
+					104.95
+				]
+			}
+		],
+		"Камбоджа": [
+			{
+				"kind": "river",
+				"name": "ГЭС Нижний Сесан 2",
+				"name_en": "Lower Sesan 2 dam",
+				"extent": 0.2,
+				"shd": [
+					13.55,
+					106.25
+				]
+			}
+		],
+		"Непал": [
+			{
+				"kind": "river",
+				"name": "ГЭС Кали-Гандаки",
+				"name_en": "Kali Gandaki dam",
+				"extent": 0.2,
+				"shd": [
+					27.98,
+					83.6
+				]
+			}
+		],
+		"Бутан": [
+			{
+				"kind": "river",
+				"name": "ГЭС Тала",
+				"name_en": "Tala hydropower",
+				"extent": 0.25,
+				"shd": [
+					27.08,
+					89.58
+				]
+			}
+		]
+	}
+}

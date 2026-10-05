@@ -1,0 +1,1334 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Танзания",
+	"iso": "TZA",
+	"data_date": "2026-03",
+	"average_wage": 150,
+	"companies": [
+		{
+			"id": "crdb",
+			"название": {
+				"ru": "CRDB Bank",
+				"en": "CRDB Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Крупнейший банк Танзании.",
+				"en": "Tanzania's largest bank."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 2600,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "DANIDA и частные",
+						"en": "DANIDA and private"
+					},
+					"type": "крупный",
+					"доля": 0.2
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.8
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдулмаджид Нсекела",
+					"en": "Abdulmajid Nsekela"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 3800,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дар-эс-Салам",
+						"en": "Dar es Salaam"
+					},
+					"ш": -6.8335,
+					"д": 39.3091,
+					"province": 670,
+					"staff": 2500,
+					"fine": 4173
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://crdbbank.co.tz/"
+		},
+		{
+			"id": "tanesco",
+			"название": {
+				"ru": "TANESCO",
+				"en": "TANESCO"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1964,
+			"description": {
+				"ru": "Государственная электроэнергия, плотина Джулиуса Ньерере.",
+				"en": "The state power utility, the Julius Nyerere dam."
+			},
+			"fundamental": {
+				"выручка": 800,
+				"profit": -100,
+				"debt": 3000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Танзании",
+						"en": "The Tanzanian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гиссима Ньямо-Ханга",
+					"en": "Gissima Nyamo-Hanga"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 7500,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дар-эс-Салам",
+						"en": "Dar es Salaam"
+					},
+					"ш": -6.8,
+					"д": 39.28,
+					"province": 670,
+					"staff": 2000,
+					"fine": 4173
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ГЭС Джулиуса Ньерере",
+						"en": "Julius Nyerere dam"
+					},
+					"ш": -7.8,
+					"д": 37.9,
+					"province": 763,
+					"staff": 1000,
+					"fine": 4177
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.tanesco.co.tz/"
+		},
+		{
+			"id": "vodacomtz",
+			"название": {
+				"ru": "Vodacom Tanzania",
+				"en": "Vodacom Tanzania"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Крупнейший оператор Танзании, M-Pesa.",
+				"en": "Tanzania's largest telecom, M-Pesa."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 30,
+				"debt": 100,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2240,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Vodacom (Vodafone)",
+						"en": "Vodacom (Vodafone)"
+					},
+					"type": "company",
+					"доля": 0.75,
+					"country": "Великобритания",
+					"company": "vodafone"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Филип Бесиимире",
+					"en": "Philip Besiimire"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 700,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дар-эс-Салам",
+						"en": "Dar es Salaam"
+					},
+					"ш": -6.78,
+					"д": 39.27,
+					"province": 670,
+					"staff": 700,
+					"fine": 4173
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://vodacom.co.tz/"
+		},
+		{
+			"id": "nmb_bank",
+			"название": {
+				"ru": "NMB Bank Plc",
+				"en": "NMB Bank Plc"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк Танзании по размеру активов и филиальной сети",
+				"en": "NMB Bank Plc — a financial company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 220,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ruth Zaipuna",
+					"en": "Ruth Zaipuna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3600,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1795,
+					"д": 35.7604,
+					"province": 764,
+					"staff": 1080,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.nmbbank.co.tz/"
+		},
+		{
+			"id": "tanzania_petroleum",
+			"название": {
+				"ru": "Tanzania Petroleum Development Corporation (TPDC)",
+				"en": "Tanzania Petroleum Development Corporation (TPDC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтегазовая корпорация, управляющая проектами шельфового газа и СПГ",
+				"en": "Tanzania Petroleum Development Corporation (TPDC) — a oil and gas company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 50,
+				"debt": 300,
+				"money": 80,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mussa Makame",
+					"en": "Mussa Makame"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1374,
+					"д": 35.7328,
+					"province": 764,
+					"staff": 180,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tpdc.co.tz/"
+		},
+		{
+			"id": "tanzania_telecommunicati",
+			"название": {
+				"ru": "Tanzania Telecommunications Corporation (TTCL)",
+				"en": "Tanzania Telecommunications Corporation (TTCL)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный оператор фиксированной связи, дата-центров и национальной ВОЛС-магистрали",
+				"en": "Tanzania Telecommunications Corporation (TTCL) — a IT and telecom company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 120,
+				"profit": 5,
+				"debt": 150,
+				"money": 20,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Maharage Chande",
+					"en": "Maharage Chande"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1655,
+					"д": 35.7418,
+					"province": 764,
+					"staff": 540,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ttcl.co.tz/"
+		},
+		{
+			"id": "tanzania_ports",
+			"название": {
+				"ru": "Tanzania Ports Authority (TPA)",
+				"en": "Tanzania Ports Authority (TPA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная портовая администрация, управляющая глубоководным морским портом Дар-эс-Салама",
+				"en": "Tanzania Ports Authority (TPA) — a transport company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 110,
+				"debt": 400,
+				"money": 120,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Plasduce Mbossa",
+					"en": "Plasduce Mbossa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1433,
+					"д": 35.7714,
+					"province": 764,
+					"staff": 1200,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ports.go.tz/"
+		},
+		{
+			"id": "tanzania_breweries",
+			"название": {
+				"ru": "Tanzania Breweries Limited (TBL)",
+				"en": "Tanzania Breweries Limited (TBL)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая пивоваренная компания страны, подразделение AB InBev",
+				"en": "Tanzania Breweries Limited (TBL) — a consumer and retail company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 520,
+				"profit": 85,
+				"debt": 60,
+				"money": 70,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jose Moran",
+					"en": "Jose Moran"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.2027,
+					"д": 35.7523,
+					"province": 764,
+					"staff": 450,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.ab-inbev.com/"
+		},
+		{
+			"id": "bakhresa_group",
+			"название": {
+				"ru": "Bakhresa Group (Said Salim Bakhresa & Co)",
+				"en": "Bakhresa Group (Said Salim Bakhresa & Co)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный агропромышленный конгломерат Восточной Африки (мука, напитки Azam, логистика)",
+				"en": "Bakhresa Group (Said Salim Bakhresa & Co) — a consumer and retail company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 90,
+				"debt": 200,
+				"money": 100,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Said Salim Bakhresa",
+					"en": "Said Salim Bakhresa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 10000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1801,
+					"д": 35.7293,
+					"province": 764,
+					"staff": 3000,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://bakhresa.com/"
+		},
+		{
+			"id": "air_tanzania",
+			"название": {
+				"ru": "Air Tanzania Company Limited (ATCL)",
+				"en": "Air Tanzania Company Limited (ATCL)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная флагманская авиакомпания Танзании с парком Boeing 787 Dreamliner и Airbus A220",
+				"en": "Air Tanzania Company Limited (ATCL) — a transport company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": -20,
+				"debt": 250,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ladislaus Matindi",
+					"en": "Ladislaus Matindi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 850,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1731,
+					"д": 35.762,
+					"province": 764,
+					"staff": 255,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.airtanzania.co.tz/"
+		},
+		{
+			"id": "tanzania_cigarette",
+			"название": {
+				"ru": "Tanzania Cigarette Public Limited Company (TCC)",
+				"en": "Tanzania Cigarette Public Limited Company (TCC)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий табачный производитель Танзании, дочерняя структура Japan Tobacco International",
+				"en": "Tanzania Cigarette Public Limited Company (TCC) — a consumer and retail company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 160,
+				"profit": 35,
+				"debt": 10,
+				"money": 25,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Michal Bachan",
+					"en": "Michal Bachan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1848,
+					"д": 35.7112,
+					"province": 764,
+					"staff": 150,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.jti.com/"
+		},
+		{
+			"id": "tanzania_portland",
+			"название": {
+				"ru": "Tanzania Portland Cement (Twiga Cement)",
+				"en": "Tanzania Portland Cement (Twiga Cement)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель цемента и стройматериалов (Scancem / Heidelberg Materials)",
+				"en": "Tanzania Portland Cement (Twiga Cement) — a construction company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 220,
+				"profit": 45,
+				"debt": 20,
+				"money": 40,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Alfonso Velez",
+					"en": "Alfonso Velez"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.2104,
+					"д": 35.712,
+					"province": 764,
+					"staff": 180,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.twigacement.com/"
+		},
+		{
+			"id": "geita_gold",
+			"название": {
+				"ru": "Geita Gold Mining Limited (GGML)",
+				"en": "Geita Gold Mining Limited (GGML)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Танзании золотодобывающий карьер и подземный рудник компании AngloGold Ashanti",
+				"en": "Geita Gold Mining Limited (GGML) — a metals and mining company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 250,
+				"debt": 100,
+				"money": 150,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Terry Strong",
+					"en": "Terry Strong"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Геита",
+						"en": "Geita"
+					},
+					"ш": -2.8628,
+					"д": 32.2194,
+					"province": 863,
+					"staff": 1350,
+					"fine": 4193
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.anglogoldashanti.com/"
+		},
+		{
+			"id": "tanzania_automotive",
+			"название": {
+				"ru": "Tanzania Automotive Technology Centre (TATC Nyumbu)",
+				"en": "Tanzania Automotive Technology Centre (TATC Nyumbu)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное военно-промышленное предприятие по выпуску армейских многоцелевых бронемашин Nyumbu и ремонту тяжелой техники",
+				"en": "Tanzania Automotive Technology Centre (TATC Nyumbu) — a defence company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General Francis Mbindi",
+					"en": "Brigadier General Francis Mbindi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.1531,
+					"д": 35.7632,
+					"province": 764,
+					"staff": 150,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://tatcnyumbu.go.tz/"
+		},
+		{
+			"id": "mzinga_holding",
+			"название": {
+				"ru": "Mzinga Holding Company (Mzinga Corporation)",
+				"en": "Mzinga Holding Company (Mzinga Corporation)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главное предприятие оборонного ведомства Танзании по производству стрелковых боеприпасов, гранат и пиротехнических средств в Морогоро",
+				"en": "Mzinga Holding Company (Mzinga Corporation) — a defence company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 4,
+				"debt": 12,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 55
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General Charles Mwanakatwe",
+					"en": "Brigadier General Charles Mwanakatwe"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 700,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Морогоро",
+						"en": "Morogoro"
+					},
+					"ш": -6.8039,
+					"д": 37.6856,
+					"province": 441,
+					"staff": 210,
+					"fine": 4174
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.modans.go.tz/"
+		},
+		{
+			"id": "jwtz_heavy",
+			"название": {
+				"ru": "JWTZ Heavy Technical Base Workshops (Morogoro)",
+				"en": "JWTZ Heavy Technical Base Workshops (Morogoro)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные мастерские материально-технического обеспечения Народных сил обороны Танзании по ремонту танков Type 59/63 и БТР",
+				"en": "JWTZ Heavy Technical Base Workshops (Morogoro) — a defence company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Juma Mrema",
+					"en": "Colonel Juma Mrema"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Морогоро",
+						"en": "Morogoro"
+					},
+					"ш": -6.8024,
+					"д": 37.6603,
+					"province": 441,
+					"staff": 180,
+					"fine": 4174
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.tpdf.mil.tz/"
+		},
+		{
+			"id": "tanzania_naval",
+			"название": {
+				"ru": "Tanzania Naval Command Base & Shipyard (Kigamboni)",
+				"en": "Tanzania Naval Command Base & Shipyard (Kigamboni)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морские мастерские и док по техническому обслуживанию патрульных катеров и катеров береговой обороны в Дар-эс-Саламе",
+				"en": "Tanzania Naval Command Base & Shipyard (Kigamboni) — a defence company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Captain Michael Malisa",
+					"en": "Captain Michael Malisa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Додома",
+						"en": "Dodoma"
+					},
+					"ш": -6.197,
+					"д": 35.6996,
+					"province": 764,
+					"staff": 120,
+					"fine": 4180
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.tpdf.mil.tz/"
+		},
+		{
+			"id": "tpdf_air",
+			"название": {
+				"ru": "TPDF Air Wing Engineering Depot (Mwanza Air Base)",
+				"en": "TPDF Air Wing Engineering Depot (Mwanza Air Base)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационная инженерно-техническая база обслуживания истребителей F-7TN, K-8 Karakorum и транспортных самолетов Y-12",
+				"en": "TPDF Air Wing Engineering Depot (Mwanza Air Base) — a defence company of Tanzania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Танзания)",
+						"en": "The state (Tanzania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Танзания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lieutenant Colonel Peter Mwakyusa",
+					"en": "Lieutenant Colonel Peter Mwakyusa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мванза",
+						"en": "Mwanza"
+					},
+					"ш": -2.4956,
+					"д": 32.9294,
+					"province": 862,
+					"staff": 105,
+					"fine": 4168
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.tpdf.mil.tz/"
+		}
+	]
+}

@@ -1,0 +1,1277 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Кувейт",
+	"iso": "KWT",
+	"data_date": "2026-03",
+	"average_wage": 3000,
+	"companies": [
+		{
+			"id": "kpc",
+			"название": {
+				"ru": "Kuwait Petroleum Corporation",
+				"en": "Kuwait Petroleum Corporation"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1980,
+			"description": {
+				"ru": "Нефть Кувейта — Бурган, второе месторождение мира.",
+				"en": "Kuwait's oil — Burgan, the world's second field."
+			},
+			"fundamental": {
+				"выручка": 75000,
+				"profit": 10000,
+				"debt": 8000,
+				"money": 10000,
+				"dividends": 9000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кувейта",
+						"en": "The Kuwaiti state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кувейт"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шейх Наваф аль-Сабах",
+					"en": "Sheikh Nawaf Al-Sabah"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "член правящей семьи",
+					"en": "член правящей семьи"
+				}
+			},
+			"staff": 20000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.37,
+					"д": 47.98,
+					"province": 156,
+					"staff": 5000,
+					"fine": 2170
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Бурган",
+						"en": "Burgan"
+					},
+					"ш": 28.95,
+					"д": 47.95,
+					"province": 156,
+					"staff": 8000,
+					"fine": 2172
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.kpc.com.kw/ | KPC Annual Report 2024; Ministry of Oil Kuwait; OPEC disclosures"
+		},
+		{
+			"id": "nbk",
+			"название": {
+				"ru": "National Bank of Kuwait",
+				"en": "National Bank of Kuwait"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1952,
+			"description": {
+				"ru": "Крупнейший банк Кувейта.",
+				"en": "Kuwait's largest bank."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 8300,
+				"market_cap": 26000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья аль-Сагр",
+						"en": "The Al-Saqr family"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Исам аль-Сагр",
+					"en": "Isam Al-Sager"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2014,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 7000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.38,
+					"д": 47.99,
+					"province": 156,
+					"staff": 4000,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.nbk.com/ | Boursa Kuwait: NBK Annual Report 2024; Central Bank of Kuwait"
+		},
+		{
+			"id": "kfh",
+			"название": {
+				"ru": "Kuwait Finance House",
+				"en": "Kuwait Finance House"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1977,
+			"description": {
+				"ru": "Крупный исламский банк, купил Ahli United.",
+				"en": "A big Islamic bank, bought Ahli United."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 17000,
+				"market_cap": 40000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государственные фонды",
+						"en": "State funds"
+					},
+					"type": "polity",
+					"доля": 0.25,
+					"country": "Кувейт"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Халед аль-Шамлан",
+					"en": "Khaled Al-Shamlan"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 15000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.37,
+					"д": 47.97,
+					"province": 156,
+					"staff": 4000,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kfh.com/ | Boursa Kuwait: KFH Annual Report 2024; Central Bank of Kuwait"
+		},
+		{
+			"id": "zain",
+			"название": {
+				"ru": "Zain",
+				"en": "Zain"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1983,
+			"description": {
+				"ru": "Мобильная связь Ближнего Востока и Африки.",
+				"en": "Mobile telecom of the Middle East and Africa."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 600,
+				"debt": 4000,
+				"money": 1000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 4330,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Omantel",
+						"en": "Omantel"
+					},
+					"type": "company",
+					"доля": 0.22,
+					"country": "Оман"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.78
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бадр аль-Харафи",
+					"en": "Bader Al-Kharafi"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2017,
+				"born_year": 1977,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 7000,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.35,
+					"д": 47.98,
+					"province": 156,
+					"staff": 2000,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.zain.com/ | Boursa Kuwait: ZAIN Annual Report 2024; Omantel disclosures"
+		},
+		{
+			"id": "agility",
+			"название": {
+				"ru": "Agility",
+				"en": "Agility"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1979,
+			"description": {
+				"ru": "Логистика и аэропортовые услуги (Menzies).",
+				"en": "Logistics and airport services (Menzies)."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 200,
+				"debt": 2000,
+				"money": 500,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 2550,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Тарек Султан",
+						"en": "Tarek Sultan"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тарек Султан",
+					"en": "Tarek Sultan"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2002,
+				"born_year": 1964,
+				"доля": 0.1,
+				"характер": {
+					"ru": "логист",
+					"en": "логист"
+				}
+			},
+			"staff": 60000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.33,
+					"д": 47.94,
+					"province": 156,
+					"staff": 3000,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.agility.com/ | Boursa Kuwait: AGLTY Annual Report 2024; DFM filings"
+		},
+		{
+			"id": "kipic",
+			"название": {
+				"ru": "KIPIC (Kuwait Integrated Petroleum Industries Company)",
+				"en": "KIPIC (Kuwait Integrated Petroleum Industries Company)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший нефтеперерабатывающий комплекс Аль-Зур (Al-Zour Refinery мощностью 615,000 баррелей в сутки — один из мощнейших НПЗ мира, и крупнейший в регионе терминал импорта СПГ; инвестиции свыше $16 млрд). https://www.kipic.com.kw/",
+				"en": "KIPIC (Kuwait Integrated Petroleum Industries Company) — a oil and gas company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 104,
+				"debt": 493,
+				"money": 166,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1089
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1530,
+			"wage": 5367,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3846,
+					"д": 47.9439,
+					"province": 156,
+					"staff": 459,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "equate_petrochemical",
+			"название": {
+				"ru": "Equate Petrochemical Company",
+				"en": "Equate Petrochemical Company"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный нефтехимический холдинг Кувейта (мировой лидер в производстве этиленгликоля и полиэтилена, глобальное совместное предприятие KPC/PIC и Dow Chemical; выручка свыше $3.5 млрд). https://www.equate.com/",
+				"en": "Equate Petrochemical Company — a oil and gas company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 208,
+				"debt": 986,
+				"money": 332,
+				"dividends": 62
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2177
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3060,
+			"wage": 5367,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.358,
+					"д": 47.9976,
+					"province": 156,
+					"staff": 918,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "boubyan_bank",
+			"название": {
+				"ru": "Boubyan Bank",
+				"en": "Boubyan Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий исламский коммерческий банк (дочерняя структура NBK, пионер цифрового мобильного исламского банкинга и цифрового банка Nomo; активы свыше $28 млрд, чистая прибыль ~$280 млн). https://boubyan.bankboubyan.com/",
+				"en": "Boubyan Bank — a financial company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1575,
+				"profit": 280,
+				"debt": 0,
+				"money": 0,
+				"dividends": 84
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3675
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3331,
+					"д": 47.9497,
+					"province": 156,
+					"staff": 1350,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gulf_bank",
+			"название": {
+				"ru": "Gulf Bank of Kuwait",
+				"en": "Gulf Bank of Kuwait"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из старейших коммерческих банков Кувейта (активы свыше $23 млрд, чистая прибыль ~$220 млн, Boursa Kuwait: GBK). https://www.e-gulfbank.com/",
+				"en": "Gulf Bank of Kuwait — a financial company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1488,
+				"profit": 220,
+				"debt": 0,
+				"money": 0,
+				"dividends": 66
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3472
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4251,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3608,
+					"д": 47.9397,
+					"province": 156,
+					"staff": 1275,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "burgan_bank",
+			"название": {
+				"ru": "Burgan Bank",
+				"en": "Burgan Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший банк диверсифицированного холдинга KIPCO (активы свыше $24 млрд, сеть банков в Турции, Алжире, Тунисе). https://www.burgan.com/",
+				"en": "Burgan Bank — a financial company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 394,
+				"debt": 0,
+				"money": 0,
+				"dividends": 118
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3267
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3647,
+					"д": 47.9726,
+					"province": 156,
+					"staff": 1200,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kipco",
+			"название": {
+				"ru": "KIPCO (Kuwait Projects Company Holding)",
+				"en": "KIPCO (Kuwait Projects Company Holding)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный многопрофильный инвестиционный холдинг Кувейта семьи Аль-Сабах (активы свыше $35 млрд; финансовые сервисы, Gulf Insurance Group, медиахолдинг OSN, промышленность). https://kipco.com/",
+				"en": "KIPCO (Kuwait Projects Company Holding) — a financial company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1312,
+				"profit": 369,
+				"debt": 0,
+				"money": 0,
+				"dividends": 111
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3061
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3748,
+			"wage": 4929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3983,
+					"д": 48.0124,
+					"province": 156,
+					"staff": 1124,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kuwait_airways",
+			"название": {
+				"ru": "Kuwait Airways",
+				"en": "Kuwait Airways"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная флагманская авиакомпания (базовый хаб — Международный аэропорт Кувейта, современный дальнемагистральный флот Boeing 777-300ER и Airbus A330-800neo). https://www.kuwaitairways.com/",
+				"en": "Kuwait Airways — a transport company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1225,
+				"profit": 82,
+				"debt": 619,
+				"money": 253,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 875
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кувейт)",
+						"en": "The state (Kuwait)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кувейт"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3062,
+			"wage": 4909,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3417,
+					"д": 48.0126,
+					"province": 156,
+					"staff": 918,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alshaya_group",
+			"название": {
+				"ru": "Alshaya Group (M.H. Alshaya Co.)",
+				"en": "Alshaya Group (M.H. Alshaya Co.)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из мировых лидеров международного ритейл-франчайзинга (управление более чем 70 ведущими брендами в регионе: Starbucks, H&M, Shake Shack, Victoria's Secret, Mothercare; свыше 70,000 сотрудников). https://www.alshaya.com/",
+				"en": "Alshaya Group (M.H. Alshaya Co.) — a consumer and retail company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 919,
+				"profit": 71,
+				"debt": 212,
+				"money": 77,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1259
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2757,
+			"wage": 3333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3692,
+					"д": 47.9763,
+					"province": 156,
+					"staff": 827,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mabanee_company",
+			"название": {
+				"ru": "Mabanee Company",
+				"en": "Mabanee Company"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший девелопер торговой и премиальной коммерческой недвижимости (создатель культового ТРЦ The Avenues Kuwait, проекты The Avenues в Эр-Рияде и Бахрейне; капитализация ~$3.5 млрд). https://www.mabanee.com/",
+				"en": "Mabanee Company — a construction company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 2775,
+				"profit": 231,
+				"debt": 1077,
+				"money": 364,
+				"dividends": 69
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8729,
+			"wage": 3837,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3778,
+					"д": 47.9746,
+					"province": 156,
+					"staff": 2618,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "stc_kuwait",
+			"название": {
+				"ru": "STC Kuwait",
+				"en": "STC Kuwait"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий по величине телекоммуникационный оператор Кувейта (дочерняя структура саудовской stc; выручка ~$1.1 млрд, передовая сеть 5G). https://www.stc.com.kw/",
+				"en": "STC Kuwait — a IT and telecom company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 142,
+				"debt": 350,
+				"money": 183,
+				"dividends": 43
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2083
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2913,
+			"wage": 5379,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.362,
+					"д": 47.9654,
+					"province": 156,
+					"staff": 873,
+					"fine": 2170
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tehniko_ekspluatatsionny",
+			"название": {
+				"ru": "Технико-эксплуатационные арсеналы Вооруженных сил Кувейта (Kuwait Armed Forces Maintenance & Supply Depots)",
+				"en": "Технико-эксплуатационные арсеналы Вооруженных сил Кувейта (Kuwait Armed Forces Maintenance & Supply Depots)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Технико-эксплуатационные арсеналы Вооруженных сил Кувейта (Kuwait Armed Forces Maintenance & Supply Depots) — a defence company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 262,
+				"profit": 17,
+				"debt": 67,
+				"money": 40,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 491
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кувейт)",
+						"en": "The state (Kuwait)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кувейт"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 786,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3774,
+					"д": 48.0103,
+					"province": 156,
+					"staff": 235,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_technology",
+			"название": {
+				"ru": "National Technology Enterprises Company (NTEC)",
+				"en": "National Technology Enterprises Company (NTEC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная технологическая корпорация Кувейта (разработка и интеграция систем военной кибербезопасности, защищенной правительственной связи, тактических БПЛА и мониторинга границ)",
+				"en": "National Technology Enterprises Company (NTEC) — a defence company of Kuwait."
+			},
+			"fundamental": {
+				"выручка": 249,
+				"profit": 17,
+				"debt": 64,
+				"money": 38,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 467
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кувейт)",
+						"en": "The state (Kuwait)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кувейт"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 747,
+			"wage": 4500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эль-Кувейт",
+						"en": "Kuwait City"
+					},
+					"ш": 29.3555,
+					"д": 48.0128,
+					"province": 156,
+					"staff": 224,
+					"fine": 2175
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

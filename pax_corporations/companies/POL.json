@@ -1,0 +1,2845 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Польша",
+	"iso": "POL",
+	"data_date": "2026-03",
+	"average_wage": 1900,
+	"companies": [
+		{
+			"id": "orlen",
+			"название": {
+				"ru": "Orlen",
+				"en": "Orlen"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1999,
+			"description": {
+				"ru": "Крупнейшая компания Польши: нефть, газ, АЗС в Центральной Европе.",
+				"en": "Poland's largest company: oil, gas, fuel stations in Central Europe."
+			},
+			"fundamental": {
+				"выручка": 80000,
+				"profit": 1500,
+				"debt": 8000,
+				"money": 4000,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1160,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.49,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Иренеуш Фонфара",
+					"en": "Ireneusz Fąfara"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "поставлен новым правительством",
+					"en": "поставлен новым правительством"
+				}
+			},
+			"staff": 60000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Плоцк",
+						"en": "Płock"
+					},
+					"ш": 52.55,
+					"д": 19.7,
+					"province": 122,
+					"staff": 8000,
+					"fine": 3261
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.0,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.orlen.pl/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pkobp",
+			"название": {
+				"ru": "PKO Bank Polski",
+				"en": "PKO Bank Polski"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1919,
+			"description": {
+				"ru": "Крупнейший банк Польши.",
+				"en": "Poland's largest bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 2400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1100
+			},
+			"рынок": {
+				"shares_mln": 1250,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.29,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.71
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Шимон Мидера",
+					"en": "Szymon Midera"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 25000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.01,
+					"province": 889,
+					"staff": 6000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pkobp.pl/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pzu",
+			"название": {
+				"ru": "PZU",
+				"en": "PZU"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1803,
+			"description": {
+				"ru": "Крупнейший страховщик Центральной Европы.",
+				"en": "Central Europe's largest insurer."
+			},
+			"fundamental": {
+				"выручка": 7000,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 864,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.34,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.66
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Артур Олех",
+					"en": "Artur Olech"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "вернулся руководить",
+					"en": "вернулся руководить"
+				}
+			},
+			"staff": 40000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 20.99,
+					"province": 889,
+					"staff": 4000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pzu.pl/relacje-inwestorskie | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pekao",
+			"название": {
+				"ru": "Bank Pekao",
+				"en": "Bank Pekao"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1929,
+			"description": {
+				"ru": "Второй банк Польши.",
+				"en": "Poland's second bank."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 1800,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1200
+			},
+			"рынок": {
+				"shares_mln": 262,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "PZU и PFR (государство)",
+						"en": "PZU and PFR (the state)"
+					},
+					"type": "polity",
+					"доля": 0.33,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.67
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цезарий Стыпулковски",
+					"en": "Cezary Stypułkowski"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеран-банкир",
+					"en": "ветеран-банкир"
+				}
+			},
+			"staff": 14000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.0,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.pekao.com.pl/en/investors-relations.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "kghm",
+			"название": {
+				"ru": "KGHM",
+				"en": "KGHM"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1961,
+			"description": {
+				"ru": "Медь и серебро Нижней Силезии.",
+				"en": "Copper and silver of Lower Silesia."
+			},
+			"fundamental": {
+				"выручка": 8500,
+				"profit": 800,
+				"debt": 2000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 200,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.32,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.68
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Анджей Шыдло",
+					"en": "Andrzej Szydło"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 34000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Любин",
+						"en": "Lubin"
+					},
+					"ш": 51.4,
+					"д": 16.2,
+					"province": 96,
+					"staff": 12000,
+					"fine": 3254
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Медеплавильный Глогув",
+						"en": "Głogów copper smelter"
+					},
+					"ш": 51.66,
+					"д": 16.08,
+					"province": 96,
+					"staff": 5000,
+					"fine": 3254
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://kghm.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pge",
+			"название": {
+				"ru": "PGE",
+				"en": "PGE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2007,
+			"description": {
+				"ru": "Крупнейший энергетик Польши: уголь и ветер.",
+				"en": "Poland's largest power company: coal and wind."
+			},
+			"fundamental": {
+				"выручка": 19000,
+				"profit": 500,
+				"debt": 6000,
+				"money": 2000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2240,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.6,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дариуш Марзец",
+					"en": "Dariusz Marzec"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "уводит от угля",
+					"en": "уводит от угля"
+				}
+			},
+			"staff": 40000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.02,
+					"province": 889,
+					"staff": 2000,
+					"fine": 3261
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Белхатув",
+						"en": "Bełchatów power plant"
+					},
+					"ш": 51.27,
+					"д": 19.33,
+					"province": 96,
+					"staff": 5000,
+					"fine": 3260
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gkpge.pl/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lpp",
+			"название": {
+				"ru": "LPP",
+				"en": "LPP"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Одежда Reserved, Sinsay, Cropp.",
+				"en": "Reserved, Sinsay, Cropp clothing."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 450,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1.85,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Основатели (фонды Пилецкого и Любянца)",
+						"en": "The founders (Pilecki and Lubianiec foundations)"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марек Пиехоцкий",
+					"en": "Marek Piechocki"
+				},
+				"роль": "founder",
+				"с_года": 1991,
+				"born_year": 1961,
+				"доля": 0.3,
+				"характер": {
+					"ru": "основатель, спорит с шортселлерами",
+					"en": "основатель, спорит с шортселлерами"
+				}
+			},
+			"staff": 44000,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гданьск",
+						"en": "Gdańsk"
+					},
+					"ш": 54.37,
+					"д": 18.62,
+					"province": 122,
+					"staff": 3000,
+					"fine": 3253
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.lpp.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "allegro",
+			"название": {
+				"ru": "Allegro",
+				"en": "Allegro"
+			},
+			"sector": "it",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Главный маркетплейс Польши.",
+				"en": "Poland's main marketplace."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 400,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1060,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Cinven и Permira",
+						"en": "Cinven and Permira"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Великобритания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марцин Кушмеж",
+					"en": "Marcin Kuśmierz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "технолог",
+					"en": "технолог"
+				}
+			},
+			"staff": 7000,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Познань",
+						"en": "Poznań"
+					},
+					"ш": 52.41,
+					"д": 16.93,
+					"province": 890,
+					"staff": 3000,
+					"fine": 3257
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://about.allegro.eu/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "dino",
+			"название": {
+				"ru": "Dino Polska",
+				"en": "Dino Polska"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Сеть сельских супермаркетов.",
+				"en": "A chain of rural supermarkets."
+			},
+			"fundamental": {
+				"выручка": 7300,
+				"profit": 400,
+				"debt": 500,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 98,
+				"market_cap": 10000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Томаш Бернацкий",
+						"en": "Tomasz Biernacki"
+					},
+					"type": "founder",
+					"доля": 0.51
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.49
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михал Краузе",
+					"en": "Michał Krauze"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "тихий расширитель",
+					"en": "тихий расширитель"
+				}
+			},
+			"staff": 50000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кротошин",
+						"en": "Krotoszyn"
+					},
+					"ш": 51.7,
+					"д": 17.44,
+					"province": 96,
+					"staff": 2000,
+					"fine": 3257
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://grupadino.pl/en/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "cdprojekt",
+			"название": {
+				"ru": "CD Projekt",
+				"en": "CD Projekt"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1994,
+			"description": {
+				"ru": "Разработчик «Ведьмака» и Cyberpunk 2077.",
+				"en": "The maker of The Witcher and Cyberpunk 2077."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 120,
+				"debt": 0,
+				"money": 350,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 100,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Марцин Ивиньский и основатели",
+						"en": "Marcin Iwiński and founders"
+					},
+					"type": "founder",
+					"доля": 0.25
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михал Новаковский и Адам Бадовский",
+					"en": "Michał Nowakowski & Adam Badowski"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2024,
+				"born_year": 1978,
+				"доля": 0.05,
+				"характер": {
+					"ru": "готовит Ведьмака 4",
+					"en": "готовит Ведьмака 4"
+				}
+			},
+			"staff": 1200,
+			"wage": 3500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.26,
+					"д": 21.02,
+					"province": 889,
+					"staff": 1000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cdprojekt.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "santanderpl",
+			"название": {
+				"ru": "Santander Bank Polska",
+				"en": "Santander Bank Polska"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Третий банк Польши, продаётся австрийской Erste.",
+				"en": "Poland's third bank, being sold to Austria's Erste."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 1300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 102,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Erste Group",
+						"en": "Erste Group"
+					},
+					"type": "company",
+					"доля": 0.49,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.51
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михал Гаевский",
+					"en": "Michał Gajewski"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2016,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 11000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.0,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.santander.pl/relacje-inwestorskie | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "mbank",
+			"название": {
+				"ru": "mBank",
+				"en": "mBank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1986,
+			"description": {
+				"ru": "Цифровой банк Польши, дочка Commerzbank.",
+				"en": "Poland's digital bank, a Commerzbank subsidiary."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 42,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Commerzbank",
+						"en": "Commerzbank"
+					},
+					"type": "company",
+					"доля": 0.69,
+					"country": "Германия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.31
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Цезары Кочик",
+					"en": "Cezary Kocik"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2021,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 7000,
+			"wage": 2800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.23,
+					"д": 21.0,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mbank.pl/relacje-inwestorskie/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "tauron",
+			"название": {
+				"ru": "Tauron",
+				"en": "Tauron"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 2006,
+			"description": {
+				"ru": "Энергетика Силезии.",
+				"en": "Silesia's power company."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 300,
+				"debt": 4000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1750,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гжегож Лот",
+					"en": "Grzegorz Lot"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 18000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Катовице",
+						"en": "Katowice"
+					},
+					"ш": 50.26,
+					"д": 19.02,
+					"province": 96,
+					"staff": 3000,
+					"fine": 3259
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.tauron.pl/relacje-inwestorskie | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "jsw",
+			"название": {
+				"ru": "JSW",
+				"en": "JSW"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1993,
+			"description": {
+				"ru": "Коксующийся уголь Силезии, в убытках.",
+				"en": "Silesian coking coal, losing money."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": -220,
+				"debt": 800,
+				"money": 850,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 117,
+				"market_cap": 850
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.55,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ричард Янта",
+					"en": "Ryszard Janta"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасает шахты",
+					"en": "спасает шахты"
+				}
+			},
+			"staff": 22000,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ястшембе-Здруй",
+						"en": "Jastrzębie-Zdrój"
+					},
+					"ш": 49.95,
+					"д": 18.6,
+					"province": 96,
+					"staff": 15000,
+					"fine": 3259
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.jsw.pl/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "asseco",
+			"название": {
+				"ru": "Asseco Poland",
+				"en": "Asseco Poland"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1991,
+			"description": {
+				"ru": "Крупнейший разработчик ПО Центральной Европы.",
+				"en": "Central Europe's largest software maker."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 250,
+				"debt": 1000,
+				"money": 600,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 83,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Constellation Software",
+						"en": "Constellation Software"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Канада"
+				},
+				{
+					"кто": {
+						"ru": "Адам Гура",
+						"en": "Adam Góral"
+					},
+					"type": "founder",
+					"доля": 0.09
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.81
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адам Гура",
+					"en": "Adam Góral"
+				},
+				"роль": "founder",
+				"с_года": 1991,
+				"born_year": 1962,
+				"доля": 0.09,
+				"характер": {
+					"ru": "founder",
+					"en": "founder"
+				}
+			},
+			"staff": 33000,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Жешув",
+						"en": "Rzeszów"
+					},
+					"ш": 50.04,
+					"д": 22.0,
+					"province": 889,
+					"staff": 2000,
+					"fine": 3265
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://relacje.asseco.com/en | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "polsat",
+			"название": {
+				"ru": "Cyfrowy Polsat",
+				"en": "Cyfrowy Polsat"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "ТВ, связь Plus и энергетика Зигмунта Солоржа.",
+				"en": "Zygmunt Solorz's TV, Plus mobile and energy."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 150,
+				"debt": 3000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 640,
+				"market_cap": 2300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Зигмунт Солорж",
+						"en": "Zygmunt Solorz"
+					},
+					"type": "founder",
+					"доля": 0.58
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.42
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мирослав Блащик",
+					"en": "Mirosław Błaszczyk"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "соратник основателя",
+					"en": "соратник основателя"
+				}
+			},
+			"staff": 7000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2,
+					"д": 20.94,
+					"province": 889,
+					"staff": 2000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://grupapolsatplus.pl/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "azoty",
+			"название": {
+				"ru": "Grupa Azoty",
+				"en": "Grupa Azoty"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "государственная",
+			"founded": 1927,
+			"description": {
+				"ru": "Удобрения и химия, в тяжёлых убытках.",
+				"en": "Fertilisers and chemicals, deep in losses."
+			},
+			"fundamental": {
+				"выручка": 3800,
+				"profit": -400,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 99,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 0.53,
+					"country": "Польша"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.47
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адам Лешкевич",
+					"en": "Adam Leszkiewicz"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "реструктуризатор",
+					"en": "реструктуризатор"
+				}
+			},
+			"staff": 14000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тарнув",
+						"en": "Tarnów"
+					},
+					"ш": 50.01,
+					"д": 20.99,
+					"province": 889,
+					"staff": 4000,
+					"fine": 3267
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Пулавы",
+						"en": "Puławy"
+					},
+					"ш": 51.42,
+					"д": 21.97,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3264
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://tarnow.grupaazoty.com/en/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "pgz",
+			"название": {
+				"ru": "PGZ",
+				"en": "PGZ"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2013,
+			"description": {
+				"ru": "Польская оборонная группа: танки, гаубицы Krab, ракеты Piorun.",
+				"en": "Polish Armaments Group: tanks, Krab howitzers, Piorun missiles."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 200,
+				"debt": 800,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Кшиштоф Трофиняк",
+					"en": "Krzysztof Trofiniak"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "наращивает выпуск",
+					"en": "наращивает выпуск"
+				}
+			},
+			"staff": 18000,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Радом",
+						"en": "Radom"
+					},
+					"ш": 51.4,
+					"д": 21.15,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Huta Stalowa Wola",
+						"en": "Huta Stalowa Wola"
+					},
+					"ш": 50.58,
+					"д": 22.05,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3265
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://pgz.pl/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "lot",
+			"название": {
+				"ru": "LOT Polish Airlines",
+				"en": "LOT Polish Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1929,
+			"description": {
+				"ru": "Национальная авиакомпания Польши.",
+				"en": "Poland's national airline."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 100,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Польши",
+						"en": "The Polish state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михал Фиёл",
+					"en": "Michał Fijoł"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 3500,
+			"wage": 3000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Шопена, Варшава",
+						"en": "Chopin Airport, Warsaw"
+					},
+					"ш": 52.17,
+					"д": 20.97,
+					"province": 889,
+					"staff": 3000,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://corporate.lot.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "budimex",
+			"название": {
+				"ru": "Budimex",
+				"en": "Budimex"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Крупнейший строитель Польши.",
+				"en": "Poland's largest builder."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 150,
+				"debt": 0,
+				"money": 800,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 25.5,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ferrovial",
+						"en": "Ferrovial"
+					},
+					"type": "company",
+					"доля": 0.5,
+					"country": "Испания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Артур Попко",
+					"en": "Artur Popko"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2019,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 7000,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2,
+					"д": 20.98,
+					"province": 889,
+					"staff": 1500,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://relacje.budimex.pl/en/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "inpost_s",
+			"название": {
+				"ru": "InPost S.A.",
+				"en": "InPost S.A."
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Краков — ведущая европейская логистическая платформа посылочных автоматов (Paczkomaty) и электронной коммерции (Польша, Великобритания, Франция Mondial Relay). [Выручка: 2 500 млн $ (9 800 млн PLN), Чистая прибыль: 240 млн $, Штат: 12 000 чел., Руководитель: Рафал Бжоска (Rafał Brzoska), с 2006 года, 1977 г.р.]. Официальные источники: https://inpost.eu/investors",
+				"en": "InPost S.A. — a energy company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1488,
+				"profit": 138,
+				"debt": 904,
+				"money": 190,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1962
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2647,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Краков",
+						"en": "Kraków"
+					},
+					"ш": 50.0304,
+					"д": 19.9757,
+					"province": 889,
+					"staff": 794,
+					"fine": 3267
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "abka_group",
+			"название": {
+				"ru": "Żabka Group",
+				"en": "Żabka Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Познань — крупнейшая сеть магазинов формата convenience в Польше и Центральной Европе (более 10 500 торговых точек, IPO на Варшавской бирже в 2024 году). [Выручка: 6 200 млн $ (24 000 млн PLN), Чистая прибыль: 120 млн $, Штат: 10 000 чел., Руководитель: Томаш Суханьский (Tomasz Suchański), с 2016 года, 1972 г.р.]. Официальные источники: https://zabkagroup.com/, https://zabkagroup.com/investors (Го",
+				"en": "Żabka Group — a financial company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 394,
+				"debt": 0,
+				"money": 0,
+				"dividends": 118
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3267
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 3121,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Познан",
+						"en": "Poznań"
+					},
+					"ш": 52.4308,
+					"д": 16.9442,
+					"province": 890,
+					"staff": 1200,
+					"fine": 3257
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pkp_group",
+			"название": {
+				"ru": "PKP Group (Polskie Koleje Państwowe)",
+				"en": "PKP Group (Polskie Koleje Państwowe)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Варшава — государственная железнодорожная группа Польши (PKP PLK — пути и инфраструктура, PKP Intercity, PKP Cargo). [Выручка: 3 400 млн $ (13 500 млн PLN), Чистая прибыль: 70 млн $, Штат: 65 000 чел., Руководитель: Алан Беруд (Alan Beroud), с 2024 года, 1984 г.р.]. Официальные источники: https://www.pkp.pl/, https://www.pkp.pl/investors (Годовой отчет / Раскрытие информации)",
+				"en": "PKP Group (Polskie Koleje Państwowe) — a metals and mining company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 156,
+				"debt": 467,
+				"money": 168,
+				"dividends": 47
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1680
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4044,
+			"wage": 3393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2172,
+					"д": 21.0088,
+					"province": 889,
+					"staff": 1213,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "enea_s",
+			"название": {
+				"ru": "Enea S.A.",
+				"en": "Enea S.A."
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Познань — один из четырех ведущих энергетических холдингов Польши (электростанции Козенице и Поланец, распределительные сети Западной Польши). [Выручка: 7 500 млн $ (30 000 млн PLN), Чистая прибыль: 250 млн $, Штат: 18 000 чел., Руководитель: Гжегож Кинельский (Grzegorz Kinelski), с 2024 года, 1972 г.р.]. Официальные источники: https://ir.enea.pl/, https://ir.enea.pl/investors (Годовой отчет / Рас",
+				"en": "Enea S.A. — a energy company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 129,
+				"debt": 851,
+				"money": 179,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1846
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2490,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Познан",
+						"en": "Poznań"
+					},
+					"ш": 52.3995,
+					"д": 16.9024,
+					"province": 890,
+					"staff": 747,
+					"fine": 3257
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupa_maspex",
+			"название": {
+				"ru": "Grupa Maspex",
+				"en": "Grupa Maspex"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Вадовице — крупнейшая частная продовольственная корпорация Центральной и Восточной Европы (соки Tymbark, Kubuś, макароны Lubella, водки Żubrówka, Soplica). [Выручка: 4 000 млн $ (16 000 млн PLN), Чистая прибыль: 250 млн $, Штат: 9 000 чел., Руководитель: Кшиштоф Павиньский (Krzysztof Pawiński), с 1990 года, 1965 г.р.]. Официальные источники: https://maspex.com/, https://maspex.com/investors (Годов",
+				"en": "Grupa Maspex — a consumer and retail company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1365,
+				"profit": 106,
+				"debt": 315,
+				"money": 114,
+				"dividends": 32
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1870
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4095,
+			"wage": 2111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2466,
+					"д": 20.9746,
+					"province": 889,
+					"staff": 1228,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "synthos",
+			"название": {
+				"ru": "Synthos",
+				"en": "Synthos"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Освенцим — ведущий европейский химический концерн (синтетические каучуки, полистирол, декарбонизация и развитие микро-АЭС BWRX-300). [Выручка: 2 300 млн $ (9 200 млн PLN), Чистая прибыль: 120 млн $, Штат: 3 600 чел., Руководитель: Збигнев Вармуз (Zbigniew Warmuz), с 2016 года, 1963 г.р.]. Официальные источники: https://www.synthosgroup.com/, https://www.synthosgroup.com/investors (Годовой отчет / ",
+				"en": "Synthos — a energy company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1330,
+				"profit": 123,
+				"debt": 808,
+				"money": 170,
+				"dividends": 37
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1754
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2366,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.1928,
+					"д": 20.9921,
+					"province": 889,
+					"staff": 709,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupa_ccc",
+			"название": {
+				"ru": "Grupa CCC",
+				"en": "Grupa CCC"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Польковице — один из крупнейших обувных и модных ритейлеров Европы (сети CCC, HalfPrice, eobuwie.pl, Modivo). [Выручка: 2 500 млн $ (10 000 млн PLN), Чистая прибыль: 80 млн $, Штат: 15 000 чел., Руководитель: Дариуш Милек (Dariusz Miłek), основатель и президент, 1968 г.р.]. Официальные источники: https://corporate.ccc.eu/relacje-inwestorskie, https://corporate.ccc.eu/investors (Годовой отчет / Рас",
+				"en": "Grupa CCC — a consumer and retail company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1278,
+				"profit": 99,
+				"debt": 295,
+				"money": 106,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1751
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3834,
+			"wage": 2111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2292,
+					"д": 21.0172,
+					"province": 889,
+					"staff": 1150,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "polpharma",
+			"название": {
+				"ru": "Polpharma",
+				"en": "Polpharma"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 2016,
+			"description": {
+				"ru": "Старогард Гданьски — лидер польской фармацевтической индустрии, крупнейший производитель дженериков и активных фармацевтических субстанций. [Выручка: 1 200 млн $, Чистая прибыль: 110 млн $, Штат: 7 500 чел., Руководитель: Маркус Зигер (Markus Sieger), президент с 2016 года, 1964 г.р.]. Официальные источники: https://polpharma.pl/, https://polpharma.pl/investors (Годовой отчет / Раскрытие информаци",
+				"en": "Polpharma — a pharmaceutical company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1225,
+				"profit": 184,
+				"debt": 570,
+				"money": 160,
+				"dividends": 55
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4547
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2237,
+			"wage": 2754,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2187,
+					"д": 21.0507,
+					"province": 889,
+					"staff": 671,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupa_k",
+			"название": {
+				"ru": "Grupa Kęty",
+				"en": "Grupa Kęty"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2005,
+			"description": {
+				"ru": "Кенты — ведущий переработчик алюминия, производитель экструдированных профилей и гибкой упаковки в Центральной Европе. [Выручка: 1 350 млн $ (5 300 млн PLN), Чистая прибыль: 140 млн $, Штат: 5 400 чел., Руководитель: Дариуш Манько (Dariusz Mańko), с 2005 года, 1966 г.р.]. Официальные источники: https://grupakety.com/relacje-inwestorskie/, https://grupakety.com/investors (Годовой отчет / Раскрытие ",
+				"en": "Grupa Kęty — a metals and mining company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1172,
+				"profit": 130,
+				"debt": 391,
+				"money": 141,
+				"dividends": 39
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1406
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3385,
+			"wage": 3393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2091,
+					"д": 20.9968,
+					"province": 889,
+					"staff": 1015,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "comarch",
+			"название": {
+				"ru": "Comarch",
+				"en": "Comarch"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Краков — международный разработчик IT-систем, телекоммуникационного ПО, ERP и облачной инфраструктуры. [Выручка: 480 млн $ (1 900 млн PLN), Чистая прибыль: 35 млн $, Штат: 6 500 чел., Руководитель: Анна Пруска (Anna Pruska), с 2024 года, 1978 г.р.]. Официальные источники: https://www.comarch.com/investors/",
+				"en": "Comarch — a IT and telecom company of Poland."
+			},
+			"fundamental": {
+				"выручка": 1120,
+				"profit": 145,
+				"debt": 356,
+				"money": 187,
+				"dividends": 44
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2121
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2966,
+			"wage": 3406,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Краков",
+						"en": "Kraków"
+					},
+					"ш": 50.0272,
+					"д": 19.9562,
+					"province": 889,
+					"staff": 889,
+					"fine": 3267
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "huta_stalowa",
+			"название": {
+				"ru": "Huta Stalowa Wola (HSW)",
+				"en": "Huta Stalowa Wola (HSW)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Сталёва-Воля — флагман бронетанкового и артиллерийского машиностроения PGZ: серийное производство 155-мм самоходных гаубиц Krab, 120-мм самоходных минометов Rak, тяжелых плавающих БМП Borsuk и минных заградителей Baobab-K. (Тяжелая бронетехника, самоходная артиллерия стандартов НАТО, автоматизированные минометы.) [Выручка: 900 млн $, Чистая прибыль: 65 млн $, Штат: 2 800 чел., Руководитель: Войцех",
+				"en": "Huta Stalowa Wola (HSW) — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 465,
+				"profit": 31,
+				"debt": 120,
+				"money": 72,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 872
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1395,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Воля",
+						"en": "Wola"
+					},
+					"ш": 52.2081,
+					"д": 20.9446,
+					"province": 889,
+					"staff": 418,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mesko_s",
+			"название": {
+				"ru": "Mesko S.A.",
+				"en": "Mesko S.A."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Скаржиско-Каменна — ведущее ракетостроительное и боеприпасное предприятие PGZ: выпуск ПЗРК Piorun и Grom, противотанковых ракетных комплексов Spike-LR, мало- и среднекалиберных боеприпасов для сухопутных войск и зенитных комплексов. (Зенитные управляемые ракеты малой дальности, ПТРК, высокоточные боеприпасы.) [Выручка: 450 млн $, Чистая прибыль: 35 млн $, Штат: 3 200 чел., Руководитель: Рената Гру",
+				"en": "Mesko S.A. — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 30,
+				"debt": 116,
+				"money": 69,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 844
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1350,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2386,
+					"д": 21.0498,
+					"province": 889,
+					"staff": 405,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rosomak_s",
+			"название": {
+				"ru": "Rosomak S.A.",
+				"en": "Rosomak S.A."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Семяновице-Слёнске — завод по производству колесной бронетехники: лицензионный выпуск и модернизация многоцелевых бронетранспортеров Rosomak 8x8 (на базе Patria AMV) в боевых версиях с башней ZSSW-30, командно-штабных и санитарных вариантах. (Колесные бронетранспортеры 8х8, баллистическая защита, боевые модули.) [Выручка: 300 млн $, Чистая прибыль: 20 млн $, Штат: 1 100 чел., Руководитель: Петр Ки",
+				"en": "Rosomak S.A. — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 435,
+				"profit": 29,
+				"debt": 112,
+				"money": 67,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 816
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1305,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Семяновице-Слёнске",
+						"en": "Siemianowice Śląskie"
+					},
+					"ш": 50.3293,
+					"д": 19.0311,
+					"province": 96,
+					"staff": 391,
+					"fine": 3259
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "wb_group",
+			"название": {
+				"ru": "WB Group (WB Electronics)",
+				"en": "WB Group (WB Electronics)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1997,
+			"description": {
+				"ru": "Ожарув-Мазовецки — крупнейший частный оборонный холдинг Польши: разведывательные дроны FlyEye, барражирующие боеприпасы Warmate, автоматизированная система управления огнем артиллерии TOPAZ и цифровые системы внутренней связи FONET. (Военные беспилотные летательные комплексы, тактические барражирующие боеприпасы, СУО и военная связь.) [Выручка: 400 млн $, Чистая прибыль: 60 млн $, Штат: 1 600 чел.",
+				"en": "WB Group (WB Electronics) — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.2164,
+					"д": 20.9905,
+					"province": 889,
+					"staff": 378,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "fabryka_broni",
+			"название": {
+				"ru": "Fabryka Broni «Łucznik» – Radom",
+				"en": "Fabryka Broni «Łucznik» – Radom"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Радом — старейший стрелковый завод Польши (в составе PGZ): модульная стрелковая система MSBS Grot (калибр 5.56х45 мм), штурмовые винтовки Beryl, армейские пистолеты VIS 100. (Автоматические винтовки MSBS Grot, снайперское оружие, служебные армейские пистолеты.) [Выручка: 110 млн $, Чистая прибыль: 12 млн $, Штат: 750 чел., Руководитель: Северин Фигурский (Seweryn Figurski), с 2024 года, 1977 г.р.]",
+				"en": "Fabryka Broni «Łucznik» – Radom — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Радом",
+						"en": "Radom"
+					},
+					"ш": 51.4127,
+					"д": 21.1865,
+					"province": 889,
+					"staff": 378,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pit_radwar",
+			"название": {
+				"ru": "PIT-RADWAR S.A.",
+				"en": "PIT-RADWAR S.A."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Варшава — головной разработчик радиолокационных систем и систем ПВО в структуре PGZ: трехкоординатные мобильные РЛС Bystra, Warta, системы управления огнем зенитных ракетно-артиллерийских комплексов Pilica+. (Радары ПВО раннего обнаружения, системы распознавания IFF «свой-чужой», артиллерийские СУО.) [Выручка: 250 млн $, Чистая прибыль: 22 млн $, Штат: 1 800 чел., Руководитель: Мацей Хойнацкий (Ma",
+				"en": "PIT-RADWAR S.A. — a defence company of Poland."
+			},
+			"fundamental": {
+				"выручка": 420,
+				"profit": 28,
+				"debt": 108,
+				"money": 65,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 788
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Польша)",
+						"en": "The state (Poland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Польша"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1260,
+			"wage": 2850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Варшава",
+						"en": "Warsaw"
+					},
+					"ш": 52.26,
+					"д": 21.0021,
+					"province": 889,
+					"staff": 378,
+					"fine": 3261
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

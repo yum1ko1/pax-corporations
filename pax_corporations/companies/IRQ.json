@@ -1,0 +1,1262 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ирак",
+	"iso": "IRQ",
+	"data_date": "2026-03",
+	"average_wage": 600,
+	"companies": [
+		{
+			"id": "basraoil",
+			"название": {
+				"ru": "Basra Oil Company",
+				"en": "Basra Oil Company"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Нефть юга Ирака — Румайла, Западная Курна.",
+				"en": "Southern Iraq's oil — Rumaila, West Qurna."
+			},
+			"fundamental": {
+				"выручка": 60000,
+				"profit": 10000,
+				"debt": 5000,
+				"money": 5000,
+				"dividends": 9000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирака",
+						"en": "The Iraqi state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Басим Абдель Карим",
+					"en": "Bassim Abdul Karim"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 40000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Басра",
+						"en": "Basra"
+					},
+					"ш": 30.51,
+					"д": 47.81,
+					"province": 221,
+					"staff": 10000,
+					"fine": 1840
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Румайла",
+						"en": "Rumaila"
+					},
+					"ш": 30.3,
+					"д": 47.3,
+					"province": 221,
+					"staff": 15000,
+					"fine": 1840
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://boc.oil.gov.iq/ | BOC Annual Reports / Ministry of Oil Iraq; S&P Global; MEES"
+		},
+		{
+			"id": "rafidain",
+			"название": {
+				"ru": "Rafidain Bank",
+				"en": "Rafidain Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1941,
+			"description": {
+				"ru": "Крупнейший банк Ирака, государственный.",
+				"en": "Iraq's largest bank, state-owned."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирака",
+						"en": "The Iraqi state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Али Карим Хусейн",
+					"en": "Ali Karim Hussein"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 12000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.31,
+					"д": 44.37,
+					"province": 403,
+					"staff": 5000,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://rafidain-bank.gov.iq/ | Rafidain Bank Reports / Ministry of Finance Iraq; CBI; Forbes Middle East"
+		},
+		{
+			"id": "asiacell",
+			"название": {
+				"ru": "Asiacell",
+				"en": "Asiacell"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Мобильная связь Ирака, контроль у Ooredoo.",
+				"en": "Iraq's mobile telecom, controlled by Ooredoo."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 400,
+				"debt": 200,
+				"money": 300,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 310,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ooredoo",
+						"en": "Ooredoo"
+					},
+					"type": "company",
+					"доля": 0.64,
+					"country": "Катар",
+					"company": "ooredoo"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.36
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Амер Сунна",
+					"en": "Amer Sunna"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 4000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сулеймания",
+						"en": "Sulaymaniyah"
+					},
+					"ш": 35.56,
+					"д": 45.43,
+					"province": 219,
+					"staff": 2000,
+					"fine": 1846
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.asiacell.com/ | ISX: TASC Annual Report 2024; Ooredoo Group Annual Report 2024"
+		},
+		{
+			"id": "somo",
+			"название": {
+				"ru": "SOMO (State Organization for Marketing of Oil)",
+				"en": "SOMO (State Organization for Marketing of Oil)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная корпорация Ирака по экспорту и сбыту нефти и нефтепродуктов (эксклюзивный национальный трейдер, через которого реализуется экспортная иракская нефть сортов Basrah Medium, Basrah Heavy и Kirkuk на сумму свыше $90 млрд в год). https://somooil.gov.iq/",
+				"en": "SOMO (State Organization for Marketing of Oil) — a oil and gas company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 31,
+				"debt": 148,
+				"money": 50,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 327
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 459,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Басра",
+						"en": "Basrah"
+					},
+					"ш": 30.5033,
+					"д": 47.7619,
+					"province": 221,
+					"staff": 137,
+					"fine": 1840
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "north_oil",
+			"название": {
+				"ru": "North Oil Company (NOC)",
+				"en": "North Oil Company (NOC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтедобывающая компания северного Ирака со штаб-квартирой в Киркуке (разработка крупнейших месторождений Киркук, Баба-Гургур, Джамбур, Хаббаз; добыча свыше 350-400 тыс. баррелей в сутки, 18,000 сотр.). https://noc.oil.gov.iq/",
+				"en": "North Oil Company (NOC) — a oil and gas company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 31,
+				"debt": 148,
+				"money": 50,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 327
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 459,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киркук",
+						"en": "Kirkuk"
+					},
+					"ш": 35.4806,
+					"д": 44.3814,
+					"province": 219,
+					"staff": 137,
+					"fine": 1833
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "missan_oil",
+			"название": {
+				"ru": "Missan Oil Company (MOC)",
+				"en": "Missan Oil Company (MOC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная нефтяная компания провинции Майсан (освоение гигантских месторождений Базирган, Факка, Абу-Гурап, Хальфая совместно с PetroChina; добыча до 400 тыс. б/с, 8,000 сотр.). https://moc.oil.gov.iq/",
+				"en": "Missan Oil Company (MOC) — a oil and gas company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 31,
+				"debt": 148,
+				"money": 50,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 327
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 459,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3512,
+					"д": 44.373,
+					"province": 403,
+					"staff": 137,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "south_gas",
+			"название": {
+				"ru": "South Gas Company (SGC) / Basrah Gas Company (BGC)",
+				"en": "South Gas Company (SGC) / Basrah Gas Company (BGC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная газовая компания и ключевое СП с Shell и Mitsubishi по сбору и переработке попутного нефтяного газа южных месторождений (выпуск товарного сухого газа, СУГ и конденсата; инвестиции свыше $5 млрд). https://www.sgc.oil.gov.iq/ | https://www.basrahgas.com/",
+				"en": "South Gas Company (SGC) / Basrah Gas Company (BGC) — a oil and gas company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 354,
+				"profit": 21,
+				"debt": 100,
+				"money": 34,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 309,
+			"wage": 1073,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Басра",
+						"en": "Basrah"
+					},
+					"ш": 30.4711,
+					"д": 47.8029,
+					"province": 221,
+					"staff": 92,
+					"fine": 1840
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "trade_bank",
+			"название": {
+				"ru": "Trade Bank of Iraq (TBI)",
+				"en": "Trade Bank of Iraq (TBI)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий государственный банк Ирака по международным расчетам, проектному финансированию и торговому эквайрингу (активы свыше $30 млрд, чистая прибыль ~$700 млн, обслуживание до 80% торговых аккредитивов страны). https://tbi.com.iq/",
+				"en": "Trade Bank of Iraq (TBI) — a financial company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 700,
+				"debt": 0,
+				"money": 0,
+				"dividends": 210
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 986,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3251,
+					"д": 44.3824,
+					"province": 403,
+					"staff": 157,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rasheed_bank",
+			"название": {
+				"ru": "Rasheed Bank",
+				"en": "Rasheed Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине государственный коммерческий и розничный банк Ирака после Rafidain Bank (сеть из более чем 140 отделений по всей стране, активы свыше $10 млрд). https://rasheedbank.gov.iq/",
+				"en": "Rasheed Bank — a financial company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 52,
+				"debt": 0,
+				"money": 0,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 429
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 986,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3077,
+					"д": 44.3841,
+					"province": 403,
+					"staff": 157,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zain_iraq",
+			"название": {
+				"ru": "Zain Iraq (Atheer)",
+				"en": "Zain Iraq (Atheer)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший по числу абонентов мобильный оператор Ирака (дочерняя структура кувейтской Zain Group; свыше 18 млн абонентов, выручка ~$900 млн). https://www.iq.zain.com/",
+				"en": "Zain Iraq (Atheer) — a IT and telecom company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 116,
+				"debt": 286,
+				"money": 150,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1704
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2384,
+			"wage": 1076,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3682,
+					"д": 44.4176,
+					"province": 403,
+					"staff": 715,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "general_company",
+			"название": {
+				"ru": "General Company for Ports of Iraq (GCPI)",
+				"en": "General Company for Ports of Iraq (GCPI)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная администрация портов Ирака (управление глубоководными морскими терминалами Умм-Каср, Хор аз-Зубейр, Абу-Флус и стратегическим проектом мегапорта Аль-Фао / Grand Faw Port). https://gcpi.gov.iq/",
+				"en": "General Company for Ports of Iraq (GCPI) — a transport company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 12,
+				"debt": 93,
+				"money": 38,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 460,
+			"wage": 982,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3686,
+					"д": 44.3868,
+					"province": 403,
+					"staff": 138,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "iraqi_airways",
+			"название": {
+				"ru": "Iraqi Airways",
+				"en": "Iraqi Airways"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная национальная авиакомпания Ирака (парк современных Boeing 787 Dreamliner, Boeing 737 MAX, Airbus A220; рейсы по Ближнему Востоку, Европе и Азии). https://www.iraqiairways.com.iq/",
+				"en": "Iraqi Airways — a transport company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 184,
+				"profit": 12,
+				"debt": 93,
+				"money": 38,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 460,
+			"wage": 982,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3291,
+					"д": 44.3991,
+					"province": 403,
+					"staff": 138,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "military_industrializati",
+			"название": {
+				"ru": "Military Industrialization Commission (MIC / هيئة التصنيع الحربي)",
+				"en": "Military Industrialization Commission (MIC / هيئة التصنيع الحربي)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральное государственное ведомство и холдинг военной промышленности Республики Ирак, воссозданный для возрождения национального ВПК",
+				"en": "Military Industrialization Commission (MIC / هيئة التصنيع الحربي) — a defence company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3254,
+					"д": 44.4172,
+					"province": 403,
+					"staff": 71,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "general_company_2",
+			"название": {
+				"ru": "General Company for Copper and Mechanical Industries",
+				"en": "General Company for Copper and Mechanical Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный завод тяжелого машиностроения и обработки цветных металлов (производство латунных гильз, корпусов снарядов, бронепластин и механических компонентов для военной техники)",
+				"en": "General Company for Copper and Mechanical Industries — a defence company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3215,
+					"д": 44.4285,
+					"province": 403,
+					"staff": 71,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "al_zawraa",
+			"название": {
+				"ru": "Al-Zawraa State Company",
+				"en": "Al-Zawraa State Company"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное предприятие в составе MIC / Министерства промышленности (разработка и обслуживание тактических систем военной радиосвязи, электроники, систем видеонаблюдения, оборудования РЭБ и контроля периметра)",
+				"en": "Al-Zawraa State Company — a defence company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 66,
+				"profit": 4,
+				"debt": 17,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 124
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 198,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3021,
+					"д": 44.4232,
+					"province": 403,
+					"staff": 59,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "al_yarmouk",
+			"название": {
+				"ru": "Al-Yarmouk State Factory / Al-Qaqaa complex",
+				"en": "Al-Yarmouk State Factory / Al-Qaqaa complex"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Исторические производственные комплексы по снаряжению взрывчатых веществ, производству твердотопливных зарядов, порохов и боевых частей для артиллерийских боеприпасов и неуправляемых ракет",
+				"en": "Al-Yarmouk State Factory / Al-Qaqaa complex — a defence company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 53,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 99
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 159,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3423,
+					"д": 44.4246,
+					"province": 403,
+					"staff": 47,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "taji_military",
+			"название": {
+				"ru": "Taji Military Base Workshops & Depots",
+				"en": "Taji Military Base Workshops & Depots"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные бронетанковые ремонтные мастерские Вооруженных сил Ирака (капитальный ремонт и модернизация танков Т-90С, Т-72М1, M1A1 Abrams, БМП-1, бронетранспортеров M113 и MRAP)",
+				"en": "Taji Military Base Workshops & Depots — a defence company of Iraq."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 3,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 75
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирак)",
+						"en": "The state (Iraq)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирак"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 120,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багдад",
+						"en": "Baghdad"
+					},
+					"ш": 33.3767,
+					"д": 44.4156,
+					"province": 403,
+					"staff": 36,
+					"fine": 1839
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

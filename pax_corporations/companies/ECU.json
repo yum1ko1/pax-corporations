@@ -1,0 +1,964 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Эквадор",
+	"iso": "ECU",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "petroecuador",
+			"название": {
+				"ru": "Petroecuador",
+				"en": "Petroecuador"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Государственная нефть Эквадора.",
+				"en": "Ecuador's state oil."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 300,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Эквадора",
+						"en": "The Ecuadorian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эквадор"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Себастьян Мааг Пардо",
+					"en": "Sebastián Maag Pardo"
+				},
+				"роль": "госслужащий",
+				"с_года": 2026,
+				"born_year": 1980,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 6000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.18,
+					"д": -78.48,
+					"province": 168,
+					"staff": 3000,
+					"fine": 949
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Амазония",
+						"en": "Amazonia"
+					},
+					"ш": -0.5,
+					"д": -76.5,
+					"province": 168,
+					"staff": 3000,
+					"fine": 948
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.eppetroecuador.ec/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "pichincha",
+			"название": {
+				"ru": "Banco Pichincha",
+				"en": "Banco Pichincha"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1906,
+			"description": {
+				"ru": "Крупнейший банк Эквадора.",
+				"en": "Ecuador's largest bank."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 150,
+				"debt": 0,
+				"money": 0,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фидель Эгас",
+						"en": "Fidel Egas"
+					},
+					"type": "founder",
+					"доля": 0.7
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.3
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алехандро Рибаденейра",
+					"en": "Alejandro Ribadeneira"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2026,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 7000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.2,
+					"д": -78.5,
+					"province": 554,
+					"staff": 4000,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.pichincha.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "corporaci_n",
+			"название": {
+				"ru": "Corporación Favorita",
+				"en": "Corporación Favorita"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный ритейлер и конгломерат Эквадора (сети супермаркетов Supermaxi, Megamaxi, Aki, строймаркеты Kywi, коммерческие центры). Выручка ~$2.5 млрд, чистая прибыль ~$160 млн, 15,000 сотр. Котируется на биржах Кито и Гуаякиля. https://www.corporacionfavorita.com/",
+				"en": "Corporación Favorita — a consumer and retail company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 160,
+				"debt": 577,
+				"money": 208,
+				"dividends": 48
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3425
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7500,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.2654,
+					"д": -78.513,
+					"province": 554,
+					"staff": 2250,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "corporaci_n_2",
+			"название": {
+				"ru": "Corporación El Rosado",
+				"en": "Corporación El Rosado"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине ритейлер страны (сети гипермаркетов Mi Comisariato, Ferrisariato, кинотеатры Supercines; холдинг семьи Чарко). Выручка ~$1.5 млрд, 12,000 сотр. https://www.elrosado.com/",
+				"en": "Corporación El Rosado — a media company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 276,
+				"debt": 333,
+				"money": 223,
+				"dividends": 83
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6571
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2063,
+			"wage": 863,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.2214,
+					"д": -78.49,
+					"province": 554,
+					"staff": 618,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banco_guayaquil",
+			"название": {
+				"ru": "Banco Guayaquil",
+				"en": "Banco Guayaquil"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк Эквадора (основан семьей экс-президента Гильермо Лассо). Активы ~$7.5 млрд, чистая прибыль ~$100 млн. https://www.bancoguayaquil.com/",
+				"en": "Banco Guayaquil — a financial company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1633
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2000,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гуаякил",
+						"en": "Guayaquil"
+					},
+					"ш": -2.1753,
+					"д": -79.8706,
+					"province": 803,
+					"staff": 600,
+					"fine": 943
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "produbanco",
+			"название": {
+				"ru": "Produbanco (Grupo Promerica)",
+				"en": "Produbanco (Grupo Promerica)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий коммерческий банк Эквадора (активы ~$7.0 млрд, чистая прибыль ~$90 млн). https://www.produbanco.com.ec/",
+				"en": "Produbanco (Grupo Promerica) — a financial company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 90,
+				"debt": 0,
+				"money": 0,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1225
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1500,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.2061,
+					"д": -78.5196,
+					"province": 554,
+					"staff": 450,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "celec_ep",
+			"название": {
+				"ru": "CELEC EP (Corporación Eléctrica del Ecuador)",
+				"en": "CELEC EP (Corporación Eléctrica del Ecuador)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная энергетическая корпорация, оператор каскадов ГЭС (Coca Codo Sinclair, Paute). Мощность 6,500+ МВт, выручка ~$1.0 млрд. https://www.celec.gob.ec/",
+				"en": "CELEC EP (Corporación Eléctrica del Ecuador) — a energy company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 92,
+				"debt": 608,
+				"money": 128,
+				"dividends": 28
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1319
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эквадор)",
+						"en": "The state (Ecuador)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эквадор"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1779,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.1972,
+					"д": -78.5572,
+					"province": 554,
+					"staff": 533,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "corporaci_n_3",
+			"название": {
+				"ru": "Corporación Noboa (Grupo Noboa)",
+				"en": "Corporación Noboa (Grupo Noboa)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в мире производитель и экспортер бананов (бренд Bonita Bananas) и логистический конгломерат семьи действующего президента Даниэля Нобоа. Выручка ~$1.0 млрд. https://www.bonita.com/",
+				"en": "Corporación Noboa (Grupo Noboa) — a transport company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 67,
+				"debt": 505,
+				"money": 207,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2500,
+			"wage": 818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.2522,
+					"д": -78.5084,
+					"province": 554,
+					"staff": 750,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pronaca",
+			"название": {
+				"ru": "Pronaca (Procesadora Nacional de Alimentos)",
+				"en": "Pronaca (Procesadora Nacional de Alimentos)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный лидер в пищевой промышленности и агробизнесе (Mr. Pollo, Indaves). Выручка ~$1.1 млрд, 8,000 сотр. https://www.pronaca.com/",
+				"en": "Pronaca (Procesadora Nacional de Alimentos) — a consumer and retail company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 86,
+				"debt": 254,
+				"money": 92,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1507
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3300,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.251,
+					"д": -78.5368,
+					"province": 554,
+					"staff": 990,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "conecel",
+			"название": {
+				"ru": "Conecel (Claro Ecuador / América Móvil)",
+				"en": "Conecel (Claro Ecuador / América Móvil)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший телекоммуникационный и мобильный оператор Эквадора (выручка ~$1.2 млрд). https://www.claro.com.ec/",
+				"en": "Conecel (Claro Ecuador / América Móvil) — a IT and telecom company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 155,
+				"debt": 381,
+				"money": 200,
+				"dividends": 46
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2272
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3178,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.1962,
+					"д": -78.5276,
+					"province": 554,
+					"staff": 953,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "astinave_ep",
+			"название": {
+				"ru": "ASTINAVE EP (Astilleros Navales Ecuatorianos, Гуаякиль)",
+				"en": "ASTINAVE EP (Astilleros Navales Ecuatorianos, Гуаякиль)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная военно-морская верфь (проектирование и постройка патрульных кораблей OPV, сторожевых катеров, ремонт и модернизация подводных лодок ВМС Эквадора типа 209/1300). Выручка ~$70 млн. https://www.astinave.com.ec/",
+				"en": "ASTINAVE EP (Astilleros Navales Ecuatorianos, Гуаякиль) — a defence company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 70,
+				"profit": 5,
+				"debt": 18,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 131
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эквадор)",
+						"en": "The state (Ecuador)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эквадор"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 210,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гуаякил",
+						"en": "Guayaquil"
+					},
+					"ш": -2.1664,
+					"д": -79.8514,
+					"province": 803,
+					"staff": 63,
+					"fine": 943
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "santa_b",
+			"название": {
+				"ru": "Santa Bárbara EP (Сангольки/Кито)",
+				"en": "Santa Bárbara EP (Сангольки/Кито)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное предприятие оборонной промышленности МО Эквадора (производство боеприпасов для стрелкового оружия и артиллерии, бронежилетов, баллистической экипировки, бронирование армейской техники). https://www.santabarbara.gob.ec/",
+				"en": "Santa Bárbara EP (Сангольки/Кито) — a defence company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 42,
+				"money": 25,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эквадор)",
+						"en": "The state (Ecuador)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эквадор"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 495,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кито",
+						"en": "Quito"
+					},
+					"ш": -0.233,
+					"д": -78.4894,
+					"province": 554,
+					"staff": 148,
+					"fine": 949
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "diaf",
+			"название": {
+				"ru": "DIAF (Dirección de la Industria Aeronáutica de la FAE, Амбато)",
+				"en": "DIAF (Dirección de la Industria Aeronáutica de la FAE, Амбато)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационное научно-производственное предприятие ВВС Эквадора (сборка легкомоторных учебно-тренировочных самолетов Gavilán, ремонт и обслуживание штурмовиков EMB-314 Super Tucano и вертолетов)",
+				"en": "DIAF (Dirección de la Industria Aeronáutica de la FAE, Амбато) — a defence company of Ecuador."
+			},
+			"fundamental": {
+				"выручка": 158,
+				"profit": 11,
+				"debt": 41,
+				"money": 24,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 296
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Эквадор)",
+						"en": "The state (Ecuador)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Эквадор"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 474,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Амбато",
+						"en": "Ambato"
+					},
+					"ш": -1.2607,
+					"д": -78.5981,
+					"province": 334,
+					"staff": 142,
+					"fine": 951
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

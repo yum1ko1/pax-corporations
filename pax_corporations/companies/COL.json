@@ -1,0 +1,1291 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Колумбия",
+	"iso": "COL",
+	"data_date": "2026-03",
+	"average_wage": 500,
+	"companies": [
+		{
+			"id": "ecopetrol",
+			"название": {
+				"ru": "Ecopetrol",
+				"en": "Ecopetrol"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1951,
+			"description": {
+				"ru": "Государственная нефть Колумбии — Петро запретил новую разведку.",
+				"en": "Colombia's state oil — Petro banned new exploration."
+			},
+			"fundamental": {
+				"выручка": 32000,
+				"profit": 3500,
+				"debt": 25000,
+				"money": 3000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 41100,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Колумбии",
+						"en": "The Colombian state"
+					},
+					"type": "polity",
+					"доля": 0.89,
+					"country": "Колумбия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.11
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рикардо Роа",
+					"en": "Ricardo Roa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ставленник Петро",
+					"en": "ставленник Петро"
+				}
+			},
+			"staff": 19000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6,
+					"д": -74.07,
+					"province": 361,
+					"staff": 4000,
+					"fine": 723
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Барранкабермеха",
+						"en": "Barrancabermeja refinery"
+					},
+					"ш": 7.07,
+					"д": -73.85,
+					"province": 809,
+					"staff": 4000,
+					"fine": 718
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.ecopetrol.com.co/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bancolombia",
+			"название": {
+				"ru": "Bancolombia",
+				"en": "Bancolombia"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Крупнейший банк Колумбии.",
+				"en": "Colombia's largest bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 962,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Grupo Sura",
+						"en": "Grupo Sura"
+					},
+					"type": "крупный",
+					"доля": 0.46,
+					"country": "Колумбия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хуан Карлос Мора",
+					"en": "Juan Carlos Mora"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2016,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 34000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Медельин",
+						"en": "Medellín"
+					},
+					"ш": 6.25,
+					"д": -75.57,
+					"province": 567,
+					"staff": 10000,
+					"fine": 715
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.grupobancolombia.com/relacion-inversionistas | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "isa",
+			"название": {
+				"ru": "Interconexión Eléctrica (ISA)",
+				"en": "Interconexión Eléctrica (ISA)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1967,
+			"description": {
+				"ru": "Электросети Колумбии, Перу, Бразилии и Чили.",
+				"en": "Power grids of Colombia, Peru, Brazil and Chile."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 600,
+				"debt": 8000,
+				"money": 1000,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 1100,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ecopetrol",
+						"en": "Ecopetrol"
+					},
+					"type": "company",
+					"доля": 0.52,
+					"country": "Колумбия",
+					"company": "ecopetrol"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хорхе Каррильо",
+					"en": "Jorge Carrillo"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1960,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 4500,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Медельин",
+						"en": "Medellín"
+					},
+					"ш": 6.21,
+					"д": -75.57,
+					"province": 567,
+					"staff": 2000,
+					"fine": 715
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.isa.co/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "gruposura",
+			"название": {
+				"ru": "Grupo Sura",
+				"en": "Grupo Sura"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1944,
+			"description": {
+				"ru": "Страхование и пенсии Латинской Америки.",
+				"en": "Insurance and pensions of Latin America."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 600,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 580,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Grupo Argos",
+						"en": "Grupo Argos"
+					},
+					"type": "крупный",
+					"доля": 0.3,
+					"country": "Колумбия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рикардо Харамильо",
+					"en": "Ricardo Jaramillo"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 25000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Медельин",
+						"en": "Medellín"
+					},
+					"ш": 6.24,
+					"д": -75.58,
+					"province": 567,
+					"staff": 3000,
+					"fine": 715
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.gruposura.com/en/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "nutresa",
+			"название": {
+				"ru": "Grupo Nutresa",
+				"en": "Grupo Nutresa"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1920,
+			"description": {
+				"ru": "Крупнейший производитель еды Колумбии, кофе.",
+				"en": "Colombia's largest food maker, coffee."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 250,
+				"debt": 1500,
+				"money": 200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 460,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Гилински",
+						"en": "The Gilinski family"
+					},
+					"type": "founder",
+					"доля": 0.86
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.14
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карлос Игнасио Гальего",
+					"en": "Carlos Ignacio Gallego"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2008,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "менеджер",
+					"en": "менеджер"
+				}
+			},
+			"staff": 48000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Медельин",
+						"en": "Medellín"
+					},
+					"ш": 6.21,
+					"д": -75.6,
+					"province": 567,
+					"staff": 5000,
+					"fine": 715
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://gruponutresa.com/inversionistas/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "avianca",
+			"название": {
+				"ru": "Avianca",
+				"en": "Avianca"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1919,
+			"description": {
+				"ru": "Вторая старейшая авиакомпания мира.",
+				"en": "The world's second oldest airline."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 300,
+				"debt": 4000,
+				"money": 800,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Abra Group (Константино и Эфромович)",
+						"en": "Abra Group"
+					},
+					"type": "крупный",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Фредерико Педрейра",
+					"en": "Frederico Pedreira"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 14000,
+			"wage": 1300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.7,
+					"д": -74.15,
+					"province": 361,
+					"staff": 8000,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.avianca.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "grupo_aval",
+			"название": {
+				"ru": "Grupo Aval (Луис Карлос Сармиенто)",
+				"en": "Grupo Aval (Луис Карлос Сармиенто)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный финансовый конгломерат Колумбии (Banco de Bogotá, Banco de Occidente, Banco AV Villas, пенсионный фонд Porvenir, Corficolombiana; выручка ~.5 млрд, активы > млрд)",
+				"en": "Grupo Aval (Луис Карлос Сармиенто) — a financial company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 2362,
+				"profit": 664,
+				"debt": 0,
+				"money": 0,
+				"dividends": 199
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5511
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6748,
+			"wage": 821,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6375,
+					"д": -74.0769,
+					"province": 361,
+					"staff": 2024,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_argos",
+			"название": {
+				"ru": "Grupo Argos",
+				"en": "Grupo Argos"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший инфраструктурный холдинг (Cementos Argos, Celsia — энергетика, Odinsa — платные автострады и аэропорт Боготы; выручка ~.5 млрд)",
+				"en": "Grupo Argos — a transport company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1925,
+				"profit": 128,
+				"debt": 972,
+				"money": 398,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4812,
+			"wage": 818,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.5985,
+					"д": -74.0698,
+					"province": 361,
+					"staff": 1443,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "terpel",
+			"название": {
+				"ru": "Terpel (Organización Terpel, Copec)",
+				"en": "Terpel (Organización Terpel, Copec)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая сеть АЗС и дистрибуции моторного и авиационного топлива в Колумбии, Панаме, Эквадоре и Перу (выручка ~.0 млрд)",
+				"en": "Terpel (Organización Terpel, Copec) — a oil and gas company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1837,
+				"profit": 109,
+				"debt": 518,
+				"money": 174,
+				"dividends": 33
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1143
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1606,
+			"wage": 894,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6331,
+					"д": -74.099,
+					"province": 361,
+					"staff": 481,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_xito",
+			"название": {
+				"ru": "Grupo Éxito",
+				"en": "Grupo Éxito"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая розничная сеть гипермаркетов и супермаркетов Колумбии (Éxito, Carulla; выручка ~.0 млрд)",
+				"en": "Grupo Éxito — a consumer and retail company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1750,
+				"profit": 136,
+				"debt": 404,
+				"money": 146,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2397
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5250,
+			"wage": 556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6329,
+					"д": -74.0885,
+					"province": 361,
+					"staff": 1575,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "empresas_p",
+			"название": {
+				"ru": "Empresas Públicas de Medellín (EPM)",
+				"en": "Empresas Públicas de Medellín (EPM)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммунально-энергетический холдинг страны (ГЭС Итуанго; выручка ~.5 млрд)",
+				"en": "Empresas Públicas de Medellín (EPM) — a energy company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1488,
+				"profit": 138,
+				"debt": 904,
+				"money": 190,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1962
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2647,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Меделин",
+						"en": "Medellín"
+					},
+					"ш": 6.2164,
+					"д": -75.5374,
+					"province": 567,
+					"staff": 794,
+					"fine": 715
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cerrej_n",
+			"название": {
+				"ru": "Cerrejón (Glencore) / Drummond Company",
+				"en": "Cerrejón (Glencore) / Drummond Company"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие в мире открытые экспортные угольные разрезы (выручка ~.0 млрд+)",
+				"en": "Cerrejón (Glencore) / Drummond Company — a metals and mining company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1225,
+				"profit": 136,
+				"debt": 408,
+				"money": 147,
+				"dividends": 41
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1470
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3538,
+			"wage": 893,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6029,
+					"д": -74.0627,
+					"province": 361,
+					"staff": 1061,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "claro_colombia",
+			"название": {
+				"ru": "Claro Colombia (América Móvil)",
+				"en": "Claro Colombia (América Móvil)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Лидер рынка телекоммуникаций и мобильной связи (выручка ~.8 млрд)",
+				"en": "Claro Colombia (América Móvil) — a IT and telecom company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 1026,
+				"profit": 132,
+				"debt": 326,
+				"money": 171,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1943
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2717,
+			"wage": 896,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.5907,
+					"д": -74.0622,
+					"province": 361,
+					"staff": 815,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "indumil",
+			"название": {
+				"ru": "INDUMIL (Industria Militar de Colombia, Богота)",
+				"en": "INDUMIL (Industria Militar de Colombia, Богота)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главное государственное оборонное предприятие: штурмовые винтовки Galil ACE / Córdova, стрелковые и артиллерийские боеприпасы (5.56 мм, 7.62 мм, 40 мм гранаты, 105 мм снаряды), авиабомбы XAEL, взрывчатка Indugel",
+				"en": "INDUMIL (Industria Militar de Colombia, Богота) — a defence company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 354,
+				"profit": 24,
+				"debt": 91,
+				"money": 54,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 664
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Колумбия)",
+						"en": "The state (Colombia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Колумбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1062,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.6136,
+					"д": -74.0777,
+					"province": 361,
+					"staff": 318,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cotecmar",
+			"название": {
+				"ru": "COTECMAR (Картахена)",
+				"en": "COTECMAR (Картахена)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военная верфь Колумбии: патрульные корабли открытого моря OPV-93 / OPV-80, речные боевые катера PAF-III, десантные суда BDA (экспорт в Бразилию, Гондурас, Гватемалу)",
+				"en": "COTECMAR (Картахена) — a defence company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 322,
+				"profit": 21,
+				"debt": 83,
+				"money": 50,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 604
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Колумбия)",
+						"en": "The state (Colombia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Колумбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 966,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Картахена",
+						"en": "Cartagena"
+					},
+					"ш": 10.4375,
+					"д": -75.4685,
+					"province": 568,
+					"staff": 289,
+					"fine": 734
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ciac",
+			"название": {
+				"ru": "CIAC (Corporación de la Industria Aeronáutica Colombiana, Мадрид)",
+				"en": "CIAC (Corporación de la Industria Aeronáutica Colombiana, Мадрид)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиастроительный и ремонтный комплекс ВВС Колумбии (модернизация A-29 Super Tucano, легкие самолеты T-90 Calima, БПЛА Quimbaya, капремонт C-130 Hercules и вертолетов UH-60 Black Hawk)",
+				"en": "CIAC (Corporación de la Industria Aeronáutica Colombiana, Мадрид) — a defence company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 289,
+				"profit": 19,
+				"debt": 74,
+				"money": 44,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 542
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Колумбия)",
+						"en": "The state (Colombia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Колумбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 867,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мадрид",
+						"en": "Madrid"
+					},
+					"ш": 4.7487,
+					"д": -74.2274,
+					"province": 361,
+					"staff": 260,
+					"fine": 722
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "codaltec",
+			"название": {
+				"ru": "CODALTEC",
+				"en": "CODALTEC"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка колумбийских военных радиолокационных станций (TADER, SINDER), систем C4ISR и тактических тренажеров",
+				"en": "CODALTEC — a defence company of Colombia."
+			},
+			"fundamental": {
+				"выручка": 282,
+				"profit": 19,
+				"debt": 73,
+				"money": 43,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 529
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Колумбия)",
+						"en": "The state (Colombia)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Колумбия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 846,
+			"wage": 750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Богота",
+						"en": "Bogotá"
+					},
+					"ш": 4.5852,
+					"д": -74.0804,
+					"province": 361,
+					"staff": 253,
+					"fine": 723
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

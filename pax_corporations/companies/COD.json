@@ -1,0 +1,1127 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "ДР Конго",
+	"iso": "COD",
+	"data_date": "2026-03",
+	"average_wage": 100,
+	"companies": [
+		{
+			"id": "gecamines",
+			"название": {
+				"ru": "Gécamines",
+				"en": "Gécamines"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1906,
+			"description": {
+				"ru": "Государственная медь и кобальт Катанги.",
+				"en": "Katanga's state copper and cobalt."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 100,
+				"debt": 2000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство ДР Конго",
+						"en": "The Congolese state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ги-Робер Лукама",
+					"en": "Guy-Robert Lukama"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пересматривает сделки с китайцами",
+					"en": "пересматривает сделки с китайцами"
+				}
+			},
+			"staff": 7000,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лубумбаши",
+						"en": "Lubumbashi"
+					},
+					"ш": -11.66,
+					"д": 27.48,
+					"province": 974,
+					"staff": 3000,
+					"fine": 688
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Колвези",
+						"en": "Kolwezi"
+					},
+					"ш": -10.72,
+					"д": 25.47,
+					"province": 974,
+					"staff": 3000,
+					"fine": 688
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://gecamines.cd/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "kamoto",
+			"название": {
+				"ru": "Kamoto Copper",
+				"en": "Kamoto Copper"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2006,
+			"description": {
+				"ru": "Медь и кобальт, контроль у Glencore.",
+				"en": "Copper and cobalt, controlled by Glencore."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 200,
+				"debt": 1500,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Glencore",
+						"en": "Glencore"
+					},
+					"type": "company",
+					"доля": 0.75,
+					"country": "Швейцария",
+					"company": "glencore"
+				},
+				{
+					"кто": {
+						"ru": "Gécamines",
+						"en": "Gécamines"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "ДР Конго",
+					"company": "gecamines"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Марк Дэвис",
+					"en": "Mark Davis"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2023,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк Glencore",
+					"en": "горняк Glencore"
+				}
+			},
+			"staff": 12000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Колвези",
+						"en": "Kolwezi"
+					},
+					"ш": -10.73,
+					"д": 25.46,
+					"province": 974,
+					"staff": 12000,
+					"fine": 688
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.glencore.com/what-we-do/metals-and-minerals/copper/kcc | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "tfm",
+			"название": {
+				"ru": "Tenke Fungurume Mining",
+				"en": "Tenke Fungurume Mining"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1996,
+			"description": {
+				"ru": "Медь и кобальт китайской CMOC — крупнейший кобальт мира.",
+				"en": "China's CMOC copper and cobalt — the world's largest cobalt."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 800,
+				"debt": 1000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "CMOC",
+						"en": "CMOC"
+					},
+					"type": "company",
+					"доля": 0.8,
+					"country": "Китай"
+				},
+				{
+					"кто": {
+						"ru": "Gécamines",
+						"en": "Gécamines"
+					},
+					"type": "company",
+					"доля": 0.2,
+					"country": "ДР Конго",
+					"company": "gecamines"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ли Цзюнь",
+					"en": "Li Jun"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "китайский горняк",
+					"en": "китайский горняк"
+				}
+			},
+			"staff": 10000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тенке",
+						"en": "Tenke"
+					},
+					"ш": -10.6,
+					"д": 26.12,
+					"province": 974,
+					"staff": 10000,
+					"fine": 688
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.cmoc.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "kamoa_kakula",
+			"название": {
+				"ru": "Kamoa-Kakula (Ivanhoe Mines / Zijin Mining / правительство ДРК)",
+				"en": "Kamoa-Kakula (Ivanhoe Mines / Zijin Mining / правительство ДРК)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Крупнейшее и самое высокосортное в мире медное месторождение (добыча >450 000 т меди в год, запуск собственного медеплавильного завода в 2024 г.; выручка ~.5 млрд, чистая прибыль ~.2 млрд)",
+				"en": "Kamoa-Kakula (Ivanhoe Mines / Zijin Mining / правительство ДРК) — a metals and mining company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 875,
+				"profit": 97,
+				"debt": 292,
+				"money": 105,
+				"dividends": 29
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1050
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2527,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3388,
+					"д": 15.2983,
+					"province": 40,
+					"staff": 758,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "kibali_gold",
+			"название": {
+				"ru": "Kibali Gold Mine (Barrick Gold / AngloGold Ashanti / SOKIMO)",
+				"en": "Kibali Gold Mine (Barrick Gold / AngloGold Ashanti / SOKIMO)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший золотодобывающий рудник Африки в провинции Верхнее Уэле (добыча ~750 000 унций золота в год; выручка ~.6 млрд)",
+				"en": "Kibali Gold Mine (Barrick Gold / AngloGold Ashanti / SOKIMO) — a metals and mining company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 78,
+				"debt": 233,
+				"money": 84,
+				"dividends": 23
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 840
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2022,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.344,
+					"д": 15.3018,
+					"province": 40,
+					"staff": 606,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mutanda_mining",
+			"название": {
+				"ru": "Mutanda Mining (Glencore)",
+				"en": "Mutanda Mining (Glencore)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в мире открытый карьер по добыче кобальта и меди",
+				"en": "Mutanda Mining (Glencore) — a metals and mining company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 525,
+				"profit": 58,
+				"debt": 175,
+				"money": 63,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 630
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1516,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.2847,
+					"д": 15.3149,
+					"province": 40,
+					"staff": 454,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "rawbank",
+			"название": {
+				"ru": "Rawbank (семья Равджи)",
+				"en": "Rawbank (семья Равджи)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший коммерческий банк ДР Конго (активы ~$5.0 млрд, чистая прибыль ~$60 млн)",
+				"en": "Rawbank (семья Равджи) — a financial company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 416,
+				"profit": 60,
+				"debt": 0,
+				"money": 0,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 971
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1188,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3658,
+					"д": 15.3152,
+					"province": 40,
+					"staff": 356,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "equity_bcdc",
+			"название": {
+				"ru": "Equity BCDC",
+				"en": "Equity BCDC"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк страны (активы ~.0 млрд)",
+				"en": "Equity BCDC — a financial company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 306,
+				"profit": 86,
+				"debt": 0,
+				"money": 0,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 714
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 874,
+			"wage": 164,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.289,
+					"д": 15.322,
+					"province": 40,
+					"staff": 262,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "snel",
+			"название": {
+				"ru": "SNEL (Société Nationale d'Electricité)",
+				"en": "SNEL (Société Nationale d'Electricité)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная электроэнергетическая корпорация (гидрокомплексы Инга-1 и Инга-2 на реке Конго, проект Гранд Инга)",
+				"en": "SNEL (Société Nationale d'Electricité) — a energy company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 276,
+				"profit": 26,
+				"debt": 168,
+				"money": 35,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 364
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 491,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3071,
+					"д": 15.3512,
+					"province": 40,
+					"staff": 147,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vodacom_congo",
+			"название": {
+				"ru": "Vodacom Congo / Airtel RDC / Orange RDC",
+				"en": "Vodacom Congo / Airtel RDC / Orange RDC"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие национальные операторы мобильной связи и финтех-сервисов (M-Pesa, Airtel Money)",
+				"en": "Vodacom Congo / Airtel RDC / Orange RDC — a IT and telecom company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 245,
+				"profit": 32,
+				"debt": 78,
+				"money": 41,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 464
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 649,
+			"wage": 179,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3646,
+					"д": 15.3103,
+					"province": 40,
+					"staff": 194,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bralima_bracongo",
+			"название": {
+				"ru": "Bralima (Heineken) / Bracongo (Castel)",
+				"en": "Bralima (Heineken) / Bracongo (Castel)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшие производители напитков и пивоварни",
+				"en": "Bralima (Heineken) / Bracongo (Castel) — a consumer and retail company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 214,
+				"profit": 17,
+				"debt": 49,
+				"money": 18,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 293
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 642,
+			"wage": 111,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.2882,
+					"д": 15.3365,
+					"province": 40,
+					"staff": 192,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_militaire",
+			"название": {
+				"ru": "Base Militaire de Kitona (Центральные ремонтные мастерские FARDC)",
+				"en": "Base Militaire de Kitona (Центральные ремонтные мастерские FARDC)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-технический и ремонтный комплекс сухопутных войск (восстановление и модернизация танков Т-72, Т-55, БМП-1, БТР-80, РСЗО БМ-21 Град)",
+				"en": "Base Militaire de Kitona (Центральные ремонтные мастерские FARDC) — a defence company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 79,
+				"profit": 5,
+				"debt": 20,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 148
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 237,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3482,
+					"д": 15.3496,
+					"province": 40,
+					"staff": 71,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_a_2",
+			"название": {
+				"ru": "Base Aérienne de Ndolo / N'djili (Киншаса)",
+				"en": "Base Aérienne de Ndolo / N'djili (Киншаса)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Комплекс технического обслуживания боевой авиации ВВС ДР Конго (штурмовики Су-25, боевые вертолеты Ми-24/35, транспортные Ми-8/17)",
+				"en": "Base Aérienne de Ndolo / N'djili (Киншаса) — a defence company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 71,
+				"profit": 5,
+				"debt": 18,
+				"money": 11,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 133
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 213,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3245,
+					"д": 15.3022,
+					"province": 40,
+					"staff": 63,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "afritec_drones",
+			"название": {
+				"ru": "Afritec Drones / Congo Drone Systems (Киншаса)",
+				"en": "Afritec Drones / Congo Drone Systems (Киншаса)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработка, сборка и техническое обслуживание разведывательных и ударных БПЛА для мониторинга восточных провинций (Северное и Южное Киву)",
+				"en": "Afritec Drones / Congo Drone Systems (Киншаса) — a defence company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 62,
+				"profit": 4,
+				"debt": 16,
+				"money": 10,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 116
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 186,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Киншаса",
+						"en": "Kinshasa"
+					},
+					"ш": -4.3095,
+					"д": 15.3083,
+					"province": 40,
+					"staff": 55,
+					"fine": 684
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "chantier_naval_3",
+			"название": {
+				"ru": "Chantier Naval de Boma / Matadi",
+				"en": "Chantier Naval de Boma / Matadi"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судоремонтная база патрульных катеров ВМС ДР Конго на реке Конго и озере Танганьика",
+				"en": "Chantier Naval de Boma / Matadi — a defence company of DR Congo."
+			},
+			"fundamental": {
+				"выручка": 54,
+				"profit": 4,
+				"debt": 14,
+				"money": 8,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 101
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (ДР Конго)",
+						"en": "The state (DR Congo)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "ДР Конго"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 162,
+			"wage": 150,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Матади",
+						"en": "Matadi"
+					},
+					"ш": -5.8379,
+					"д": 13.5019,
+					"province": 40,
+					"staff": 48,
+					"fine": 683
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

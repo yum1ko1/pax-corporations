@@ -1,0 +1,1232 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Уругвай",
+	"iso": "URY",
+	"data_date": "2026-03",
+	"average_wage": 1000,
+	"companies": [
+		{
+			"id": "ancap",
+			"название": {
+				"ru": "ANCAP",
+				"en": "ANCAP"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1931,
+			"description": {
+				"ru": "Государственная нефть, цемент и спирт Уругвая.",
+				"en": "Uruguay's state oil, cement and alcohol."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 50,
+				"debt": 800,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Уругвая",
+						"en": "The Uruguayan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алехандро Стипаничич",
+					"en": "Alejandro Stipanicic"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик",
+					"en": "химик"
+				}
+			},
+			"staff": 2300,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9,
+					"д": -56.19,
+					"province": 736,
+					"staff": 2000,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ancap.com.uy/"
+		},
+		{
+			"id": "ute",
+			"название": {
+				"ru": "UTE",
+				"en": "UTE"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1912,
+			"description": {
+				"ru": "Электроэнергия Уругвая — почти вся из ветра и воды.",
+				"en": "Uruguay's power — almost all from wind and water."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 300,
+				"debt": 1000,
+				"money": 200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Уругвая",
+						"en": "The Uruguayan state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сильвия Эмальди",
+					"en": "Silvia Emaldi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 6500,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9,
+					"д": -56.18,
+					"province": 736,
+					"staff": 3000,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.ute.com.uy/"
+		},
+		{
+			"id": "antel",
+			"название": {
+				"ru": "Antel (Administración Nacional de Telecomunicaciones)",
+				"en": "Antel (Administración Nacional de Telecomunicaciones)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный монополист фиксированной связи и ведущий мобильный оператор Уругвая",
+				"en": "Antel (Administración Nacional de Telecomunicaciones) — a IT and telecom company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 240,
+				"debt": 150,
+				"money": 200,
+				"dividends": 120
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Annabela Suburú",
+					"en": "Annabela Suburú"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9312,
+					"д": -56.1618,
+					"province": 736,
+					"staff": 1650,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.antel.com.uy/"
+		},
+		{
+			"id": "banco_de",
+			"название": {
+				"ru": "Banco de la República Oriental del Uruguay (BROU)",
+				"en": "Banco de la República Oriental del Uruguay (BROU)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший государственный коммерческий банк Уругвая, контролирующий около 40% банковской системы",
+				"en": "Banco de la República Oriental del Uruguay (BROU) — a financial company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 380,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Salvador Ferrer",
+					"en": "Salvador Ferrer"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3800,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9152,
+					"д": -56.2225,
+					"province": 736,
+					"staff": 1140,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.brou.com.uy/"
+		},
+		{
+			"id": "conaprole",
+			"название": {
+				"ru": "Conaprole (Cooperativa Nacional de Productores de Leche)",
+				"en": "Conaprole (Cooperativa Nacional de Productores de Leche)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий экспортер молочной продукции в Латинской Америке, объединяющий тысячи фермеров",
+				"en": "Conaprole (Cooperativa Nacional de Productores de Leche) — a consumer and retail company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 1050,
+				"profit": 35,
+				"debt": 180,
+				"money": 60,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Gabriel Valdés",
+					"en": "Gabriel Valdés"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2000,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8764,
+					"д": -56.2218,
+					"province": 736,
+					"staff": 600,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.conaprole.uy/"
+		},
+		{
+			"id": "ose",
+			"название": {
+				"ru": "OSE (Obras Sanitarias del Estado)",
+				"en": "OSE (Obras Sanitarias del Estado)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное предприятие питьевого водоснабжения и водоотведения по всей территории страны",
+				"en": "OSE (Obras Sanitarias del Estado) — a consumer and retail company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 480,
+				"profit": 20,
+				"debt": 350,
+				"money": 40,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Raúl Montero",
+					"en": "Raúl Montero"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4200,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8898,
+					"д": -56.1526,
+					"province": 736,
+					"staff": 1260,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "http://www.ose.com.uy/"
+		},
+		{
+			"id": "banco_santander",
+			"название": {
+				"ru": "Banco Santander Uruguay",
+				"en": "Banco Santander Uruguay"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный коммерческий банк Уругвая, подразделение международной группы Santander",
+				"en": "Banco Santander Uruguay — a financial company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 520,
+				"profit": 140,
+				"debt": 0,
+				"money": 0,
+				"dividends": 70
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Gustavo Trelles",
+					"en": "Gustavo Trelles"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9344,
+					"д": -56.2189,
+					"province": 736,
+					"staff": 360,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.santander.com.uy/"
+		},
+		{
+			"id": "montes_del",
+			"название": {
+				"ru": "Montes del Plata (Arauco & Stora Enso)",
+				"en": "Montes del Plata (Arauco & Stora Enso)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших в мире заводов по производству беленой эвкалиптовой целлюлозы в Пунта-Перейра",
+				"en": "Montes del Plata (Arauco & Stora Enso) — a consumer and retail company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 950,
+				"profit": 160,
+				"debt": 500,
+				"money": 90,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Diego Wollheim",
+					"en": "Diego Wollheim"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 2100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.872,
+					"д": -56.1894,
+					"province": 736,
+					"staff": 300,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.montesdelplata.com.uy/"
+		},
+		{
+			"id": "upm_uruguay",
+			"название": {
+				"ru": "UPM Uruguay (UPM-Kymmene)",
+				"en": "UPM Uruguay (UPM-Kymmene)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Оператор двух гигантских целлюлозных комбинатов в Фрай-Бентос и Пасо-де-лос-Торос",
+				"en": "UPM Uruguay (UPM-Kymmene) — a IT and telecom company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 280,
+				"debt": 1200,
+				"money": 150,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Marcos Battegazzore",
+					"en": "Marcos Battegazzore"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1400,
+			"wage": 2200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8861,
+					"д": -56.2058,
+					"province": 736,
+					"staff": 420,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.upm.uy/"
+		},
+		{
+			"id": "tienda_inglesa",
+			"название": {
+				"ru": "Tienda Inglesa",
+				"en": "Tienda Inglesa"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Премиальная сеть супермаркетов и гипермаркетов в Монтевидео и Пунта-дель-Эсте",
+				"en": "Tienda Inglesa — a consumer and retail company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 25,
+				"debt": 100,
+				"money": 45,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Juan Manuel Parada",
+					"en": "Juan Manuel Parada"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 1400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8779,
+					"д": -56.227,
+					"province": 736,
+					"staff": 1350,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tiendainglesa.com.uy/"
+		},
+		{
+			"id": "grupo_disco",
+			"название": {
+				"ru": "Grupo Disco Uruguay (GDU)",
+				"en": "Grupo Disco Uruguay (GDU)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший ритейлер страны, объединяющий гипермаркеты Géant, сети Disco и Devoto",
+				"en": "Grupo Disco Uruguay (GDU) — a consumer and retail company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 35,
+				"debt": 140,
+				"money": 60,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 650
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Jean Christophe Tijeras",
+					"en": "Jean Christophe Tijeras"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 1350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9146,
+					"д": -56.1841,
+					"province": 736,
+					"staff": 1800,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.disco.com.uy/"
+		},
+		{
+			"id": "corporaci_n_4",
+			"название": {
+				"ru": "Corporación América Uruguay (Aeropuertos Uruguay)",
+				"en": "Corporación América Uruguay (Aeropuertos Uruguay)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Оператор международного аэропорта Карраско (Монтевидео) и аэропорта Пунта-дель-Эсте",
+				"en": "Corporación América Uruguay (Aeropuertos Uruguay) — a transport company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 40,
+				"debt": 150,
+				"money": 45,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 550
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Diego Arrosa",
+					"en": "Diego Arrosa"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9054,
+					"д": -56.1949,
+					"province": 736,
+					"staff": 240,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://aeropuertosuruguay.com.uy/"
+		},
+		{
+			"id": "scra_armada",
+			"название": {
+				"ru": "SCRA Armada Nacional (Dique de la Armada)",
+				"en": "SCRA Armada Nacional (Dique de la Armada)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судостроительное и судоремонтное предприятие ВМС Уругвая, сухой док в Монтевидео для патрульных фрегатов и тральщиков",
+				"en": "SCRA Armada Nacional (Dique de la Armada) — a defence company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 6,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Capitán de Navío José Luis Elisburu",
+					"en": "Capitán de Navío José Luis Elisburu"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9248,
+					"д": -56.1818,
+					"province": 736,
+					"staff": 135,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.armada.mil.uy/"
+		},
+		{
+			"id": "servicio_de_3",
+			"название": {
+				"ru": "Servicio de Material y Armamento del Ejército (SMA)",
+				"en": "Servicio de Material y Armamento del Ejército (SMA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный арсенал сухопутных войск: регламент танков Ti-67, БМП M113, стрелкового оружия и утилизация боеприпасов",
+				"en": "Servicio de Material y Armamento del Ejército (SMA) — a defence company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 4,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Coronel Alejandro Echeverría",
+					"en": "Coronel Alejandro Echeverría"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 400,
+			"wage": 1700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8684,
+					"д": -56.199,
+					"province": 736,
+					"staff": 120,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.ejercito.mil.uy/"
+		},
+		{
+			"id": "base_a_12",
+			"название": {
+				"ru": "Base Aérea Capitán Boiso Lanza (Mantenimiento FAU)",
+				"en": "Base Aérea Capitán Boiso Lanza (Mantenimiento FAU)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Техническая ремонтная база ВВС Уругвая, обслуживающая легкие штурмовики A-37B Dragonfly и вертолеты Bell 212",
+				"en": "Base Aérea Capitán Boiso Lanza (Mantenimiento FAU) — a defence company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 3,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Coronel Aviador Fernando De Soisa",
+					"en": "Coronel Aviador Fernando De Soisa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 1800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.9072,
+					"д": -56.1997,
+					"province": 736,
+					"staff": 105,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.fau.mil.uy/"
+		},
+		{
+			"id": "servicio_de_4",
+			"название": {
+				"ru": "Servicio de Intendencia del Ejército (SIE)",
+				"en": "Servicio de Intendencia del Ejército (SIE)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-производственное объединение тылового снабжения: баллистическая защита, военная форма, палаточный фонд и снаряжение",
+				"en": "Servicio de Intendencia del Ejército (SIE) — a defence company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 2,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Уругвай)",
+						"en": "The state (Uruguay)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Уругвай"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Coronel Álvaro García",
+					"en": "Coronel Álvaro García"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 1600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8852,
+					"д": -56.1574,
+					"province": 736,
+					"staff": 90,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.ejercito.mil.uy/"
+		},
+		{
+			"id": "astillero_tsakos",
+			"название": {
+				"ru": "Astillero Tsakos Industrias Navales (Montevideo)",
+				"en": "Astillero Tsakos Industrias Navales (Montevideo)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Частная судоремонтная верфь с плавучим доком в порту Монтевидео, выполняющая ремонт военных кораблей Уругвая и зарубежных ВМС",
+				"en": "Astillero Tsakos Industrias Navales (Montevideo) — a defence company of Uruguay."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 2,
+				"debt": 10,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Germán Aguirrezabala",
+					"en": "Germán Aguirrezabala"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 1900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Монтевидео",
+						"en": "Montevideo"
+					},
+					"ш": -34.8785,
+					"д": -56.2061,
+					"province": 736,
+					"staff": 105,
+					"fine": 4351
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://www.tsakos.com.uy/"
+		}
+	]
+}

@@ -1,0 +1,1833 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Нигерия",
+	"iso": "NGA",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "nnpc",
+			"название": {
+				"ru": "NNPC",
+				"en": "NNPC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1977,
+			"description": {
+				"ru": "Государственная нефтяная компания Нигерии.",
+				"en": "Nigeria's state oil company."
+			},
+			"fundamental": {
+				"выручка": 45000,
+				"profit": 3000,
+				"debt": 20000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Нигерии",
+						"en": "The Nigerian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Башир Байо Оджулари",
+					"en": "Bashir Bayo Ojulari"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник из Shell",
+					"en": "нефтяник из Shell"
+				}
+			},
+			"staff": 8000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуджа",
+						"en": "Abuja"
+					},
+					"ш": 9.06,
+					"д": 7.49,
+					"province": 857,
+					"staff": 3000,
+					"fine": 2932
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Дельта Нигера",
+						"en": "Niger Delta"
+					},
+					"ш": 4.8,
+					"д": 6.3,
+					"province": 573,
+					"staff": 3000,
+					"fine": 2901
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.nnpcgroup.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "dangote",
+			"название": {
+				"ru": "Dangote Industries",
+				"en": "Dangote Industries"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1981,
+			"description": {
+				"ru": "Цемент, сахар и крупнейший НПЗ Африки Алико Данготе.",
+				"en": "Aliko Dangote's cement, sugar and Africa's largest refinery."
+			},
+			"fundamental": {
+				"выручка": 12000,
+				"profit": 1500,
+				"debt": 15000,
+				"money": 1000,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Алико Данготе",
+						"en": "Aliko Dangote"
+					},
+					"type": "founder",
+					"доля": 0.86
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.14
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алико Данготе",
+					"en": "Aliko Dangote"
+				},
+				"роль": "founder",
+				"с_года": 1981,
+				"born_year": 1957,
+				"доля": 0.86,
+				"характер": {
+					"ru": "богатейший африканец",
+					"en": "богатейший африканец"
+				}
+			},
+			"staff": 30000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.45,
+					"д": 3.42,
+					"province": 138,
+					"staff": 3000,
+					"fine": 2906
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Данготе, Лекки",
+						"en": "Dangote refinery, Lekki"
+					},
+					"ш": 6.45,
+					"д": 3.99,
+					"province": 858,
+					"staff": 5000,
+					"fine": 2906
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Цементный Обаджана",
+						"en": "Obajana cement"
+					},
+					"ш": 7.93,
+					"д": 6.44,
+					"province": 858,
+					"staff": 3000,
+					"fine": 2921
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.dangote.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "mtnng",
+			"название": {
+				"ru": "MTN Nigeria",
+				"en": "MTN Nigeria"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Крупнейший оператор связи Нигерии.",
+				"en": "Nigeria's largest telecom."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": -300,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 20350,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "MTN Group",
+						"en": "MTN Group"
+					},
+					"type": "company",
+					"доля": 0.76,
+					"country": "ЮАР",
+					"company": "mtn"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.24
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карл Тоэ",
+					"en": "Karl Toriola"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 2000,
+			"wage": 800,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос, Икойи",
+						"en": "Lagos, Ikoyi"
+					},
+					"ш": 6.45,
+					"д": 3.43,
+					"province": 138,
+					"staff": 2000,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.mtn.ng | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "zenith",
+			"название": {
+				"ru": "Zenith Bank",
+				"en": "Zenith Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Один из крупнейших банков Нигерии.",
+				"en": "One of Nigeria's largest banks."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 41000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Джим Овех (основатель)",
+						"en": "Jim Ovia (founder)"
+					},
+					"type": "founder",
+					"доля": 0.1
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Адаора Умеох",
+					"en": "Adaora Umeoji"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 7000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос, Виктория-Айленд",
+						"en": "Lagos, Victoria Island"
+					},
+					"ш": 6.43,
+					"д": 3.42,
+					"province": 138,
+					"staff": 3000,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.zenithbank.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "access",
+			"название": {
+				"ru": "Access Holdings",
+				"en": "Access Holdings"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1989,
+			"description": {
+				"ru": "Крупнейший банк Нигерии по активам, экспансия по Африке.",
+				"en": "Nigeria's largest bank by assets, expanding across Africa."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 53000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роосевельт Огбонна",
+					"en": "Roosevelt Ogbonna"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 28000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.44,
+					"д": 3.41,
+					"province": 138,
+					"staff": 4000,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://theaccesscorpholdings.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "gtco",
+			"название": {
+				"ru": "GTCO",
+				"en": "GTCO"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1990,
+			"description": {
+				"ru": "Самый прибыльный банк Нигерии.",
+				"en": "Nigeria's most profitable bank."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 900,
+				"debt": 0,
+				"money": 0,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 36000,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сегун Агбадже",
+					"en": "Segun Agbaje"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2011,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 5000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.43,
+					"д": 3.43,
+					"province": 138,
+					"staff": 2500,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.gtcoplc.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "seplat",
+			"название": {
+				"ru": "Seplat Energy",
+				"en": "Seplat Energy"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2009,
+			"description": {
+				"ru": "Нигерийская нефтедобыча, купила активы ExxonMobil.",
+				"en": "Nigerian oil producer, bought ExxonMobil's assets."
+			},
+			"fundamental": {
+				"выручка": 1900,
+				"profit": 150,
+				"debt": 1000,
+				"money": 400,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 600,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Роджер Браун",
+					"en": "Roger Brown"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "британский нефтяник",
+					"en": "британский нефтяник"
+				}
+			},
+			"staff": 1000,
+			"wage": 2000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.45,
+					"д": 3.4,
+					"province": 138,
+					"staff": 400,
+					"fine": 2906
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Дельта Нигера",
+						"en": "Niger Delta"
+					},
+					"ш": 5.5,
+					"д": 6.0,
+					"province": 573,
+					"staff": 600,
+					"fine": 2916
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://seplatenergy.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bua",
+			"название": {
+				"ru": "BUA Group",
+				"en": "BUA Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1988,
+			"description": {
+				"ru": "Цемент и сахар Абдулсамада Рабиу — соперник Данготе.",
+				"en": "Abdulsamad Rabiu's cement and sugar — Dangote's rival."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 500,
+				"debt": 1000,
+				"money": 200,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Абдулсамад Рабиу",
+						"en": "Abdul Samad Rabiu"
+					},
+					"type": "founder",
+					"доля": 0.9
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдулсамад Рабиу",
+					"en": "Abdul Samad Rabiu"
+				},
+				"роль": "founder",
+				"с_года": 1988,
+				"born_year": 1960,
+				"доля": 0.9,
+				"характер": {
+					"ru": "магнат",
+					"en": "магнат"
+				}
+			},
+			"staff": 8000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.438,
+					"д": 3.4497,
+					"province": 138,
+					"staff": 1000,
+					"fine": 2906
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Цементный Сокото",
+						"en": "Sokoto cement"
+					},
+					"ш": 13.06,
+					"д": 5.24,
+					"province": 276,
+					"staff": 2000,
+					"fine": 2927
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.buagroup.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "nigeria_lng",
+			"название": {
+				"ru": "Nigeria LNG Limited (NLNG)",
+				"en": "Nigeria LNG Limited (NLNG)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Сжиженный природный газ (крупнейший в Африке СПГ-комплекс на острове Бонни, 6 действующих линий мощностью 22 млн тонн/год, строительство Line 7 до 30 млн тонн — Philip Mshelbila), Управляющий директор и СЕО с 2021 года, родился в 1966 году.]. Официальные источники: https://www.nigerialng.com, https://www.nigerialng.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "Nigeria LNG Limited (NLNG) — a oil and gas company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 1600,
+				"debt": 2500,
+				"money": 1500,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Д-р Филип Мшелбила (Dr",
+					"en": "Д-р Филип Мшелбила (Dr"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6995,
+			"wage": 537,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0331,
+					"д": 7.4918,
+					"province": 857,
+					"staff": 2098,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "united_bank",
+			"название": {
+				"ru": "United Bank for Africa (UBA Group)",
+				"en": "United Bank for Africa (UBA Group)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банковские и финансовые услуги (панафриканский финансовый конгломерат Тони Элумелу, присутствие в 20 странах Африки, Нью-Йорке, Лондоне, Париже, Дубае — Элумелу (Tony O. Elumelu, председатель, родился в 1963 году).]. Официальные источники: https://www.ubagroup.com, https://www.ubagroup.com/investors (Годовой отчет / Раскрытие информации)",
+				"en": "United Bank for Africa (UBA Group) — a financial company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 850,
+				"debt": 18000,
+				"money": 0,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Оливер Алавуба (Oliver Alawuba), Управляющий директор группы с 2022 года, родился в 1966 году; Тони О",
+					"en": "Оливер Алавуба (Oliver Alawuba), Управляющий директор группы с 2022 года, родился в 1966 году; Тони О"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9142,
+			"wage": 493,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0397,
+					"д": 7.4638,
+					"province": 857,
+					"staff": 2742,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "fbn_holdings",
+			"название": {
+				"ru": "FBN Holdings Plc (First Bank of Nigeria)",
+				"en": "FBN Holdings Plc (First Bank of Nigeria)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Банковские и финансовые услуги (старейший коммерческий банк страны с 1894 года, свыше 42 млн клиентов — ) [Выручка: $2,500 млн (NGN 1.5+ трлн), Чистая прибыль: $500 млн (NGN 310 млрд), Долг: $0 (активы $16 млрд), Деньги: $0, Дивиденды: $150 млн, Капитализация: $1,800 млн (NGX: FBNH), Штат: 16,000 чел., Зарплата: $950/мес, Руководитель: Ннамди Оконкво (Nnamdi Okonkwo), Управляющий директор холдинга",
+				"en": "FBN Holdings Plc (First Bank of Nigeria) — a financial company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 500,
+				"debt": 16000,
+				"money": 0,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7142,
+			"wage": 493,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0741,
+					"д": 7.4962,
+					"province": 857,
+					"staff": 2142,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "airtel_nigeria",
+			"название": {
+				"ru": "Airtel Nigeria (Airtel Africa plc)",
+				"en": "Airtel Nigeria (Airtel Africa plc)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Телекоммуникации и мобильный банкинг SmartCash PSB (второй мобильный оператор Нигерии, свыше 60 млн абонентов — ) [Выручка: $2,200 млн, Чистая прибыль: $450 млн, Долг: $800 млн, Деньги: $250 млн, Дивиденды: $200 млн, Капитализация: $6,500 млн (LSE / NGX: AIRTELAFRI), Штат: 2,500 чел., Зарплата: $1,200/мес, Руководитель: Карл Круз (Carl Cruz), Главный исполнительный директор Airtel Nigeria с 2023 г",
+				"en": "Airtel Nigeria (Airtel Africa plc) — a IT and telecom company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 450,
+				"debt": 800,
+				"money": 250,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5827,
+			"wage": 538,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0412,
+					"д": 7.516,
+					"province": 857,
+					"staff": 1748,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "flour_mills",
+			"название": {
+				"ru": "Flour Mills of Nigeria Plc (FMN)",
+				"en": "Flour Mills of Nigeria Plc (FMN)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Пищевая промышленность и агробизнес (крупнейший в Западной Африке производитель муки, макарон Golden Penny, сахара, масел — ) [Выручка: $2,000 млн (NGN 2.3 трлн), Чистая прибыль: $80 млн, Долг: $350 млн, Деньги: $120 млн, Дивиденды: $30 млн, Капитализация: $600 млн (NGX: FLOURMILL), Штат: 12,000 чел., Зарплата: $600/мес, Руководитель: Бойе Олусанья (Boye Olusanya), Управляющий директор группы с 20",
+				"en": "Flour Mills of Nigeria Plc (FMN) — a consumer and retail company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 80,
+				"debt": 350,
+				"money": 120,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0689,
+					"д": 7.5072,
+					"province": 857,
+					"staff": 1800,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "oando_plc",
+			"название": {
+				"ru": "Oando PLC",
+				"en": "Oando PLC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 2001,
+			"description": {
+				"ru": "Нефтегазовая промышленность (крупнейшая частная добывающая компания Нигерии, завершила покупку нигерийских onshore-активов Eni / NAOC — ) [Выручка: $2,800 млн, Чистая прибыль: $120 млн, Долг: $1,100 млн, Деньги: $200 млн, Дивиденды: $0, Капитализация: $1,500 млн (NGX: OANDO), Штат: 1,500 чел., Зарплата: $1,800/мес, Руководитель: Адевале Тинубу (Adewale Tinubu), Главный исполнительный директор груп",
+				"en": "Oando PLC — a oil and gas company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 120,
+				"debt": 1100,
+				"money": 200,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2448,
+			"wage": 537,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0738,
+					"д": 7.5344,
+					"province": 857,
+					"staff": 734,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nigerian_breweries",
+			"название": {
+				"ru": "Nigerian Breweries Plc",
+				"en": "Nigerian Breweries Plc"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Пивоваренная промышленность (Star Lager, Gulder, Heineken, Legend Extra Stout, дочерняя компания Heineken N.V. — ) [Выручка: $750 млн (NGN 600 млрд), Чистая прибыль: $40 млн, Долг: $150 млн, Деньги: $50 млн, Дивиденды: $25 млн, Капитализация: $1,000 млн (NGX: NB), Штат: 3,200 чел., Зарплата: $800/мес, Руководитель: Ханс Эссаади (Hans Essaadi), Управляющий директор с 2021 года, родился в 1966 году.",
+				"en": "Nigerian Breweries Plc — a consumer and retail company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 40,
+				"debt": 150,
+				"money": 50,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2250,
+			"wage": 333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0874,
+					"д": 7.501,
+					"province": 857,
+					"staff": 675,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "nestl_nigeria",
+			"название": {
+				"ru": "Nestlé Nigeria Plc",
+				"en": "Nestlé Nigeria Plc"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Продукты питания и напитки (бульонные кубики Maggi, напиток Milo, детское питание Cerelac, Golden Morn — ) [Выручка: $700 млн (NGN 550 млрд), Чистая прибыль: $50 млн, Долг: $100 млн, Деньги: $60 млн, Дивиденды: $40 млн, Капитализация: $1,800 млн (NGX: NESTLE), Штат: 2,300 чел., Зарплата: $900/мес, Руководитель: Вассим Эльхуссейни (Wassim Elhusseini), Управляющий директор с 2020 года, родился в 197",
+				"en": "Nestlé Nigeria Plc — a consumer and retail company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 50,
+				"debt": 100,
+				"money": 60,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2100,
+			"wage": 333,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0851,
+					"д": 7.4986,
+					"province": 857,
+					"staff": 630,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "lafarge_africa",
+			"название": {
+				"ru": "Lafarge Africa Plc",
+				"en": "Lafarge Africa Plc"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Строительные материалы (цемент Elephant Cement, Wapco, заводы в Эвекоро, Сагаму, Мфомоси, AshakaCem; группа Holcim — ) [Выручка: $600 млн (NGN 405 млрд), Чистая прибыль: $90 млн, Долг: $80 млн, Деньги: $110 млн, Дивиденды: $50 млн, Капитализация: $1,200 млн (NGX: WAPCO), Штат: 1,800 чел., Зарплата: $850/мес, Руководитель: Лолу Аладе-Акиньеми (Lolu Alade-Akinyemi), Главный исполнительный директор с",
+				"en": "Lafarge Africa Plc — a construction company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 90,
+				"debt": 80,
+				"money": 110,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1887,
+			"wage": 384,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0842,
+					"д": 7.5195,
+					"province": 857,
+					"staff": 566,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "geregu_power",
+			"название": {
+				"ru": "Geregu Power Plc",
+				"en": "Geregu Power Plc"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2020,
+			"description": {
+				"ru": "Электроэнергетика (ведущая независимая тепловая электростанция Нигерии мощностью 435 МВт в штате Коги, Феми Отедола — ) [Выручка: $250 млн (NGN 150 млрд), Чистая прибыль: $80 млн (NGN 50 млрд), Долг: $70 млн, Деньги: $60 млн, Дивиденды: $50 млн, Капитализация: $2,500 млн (NGX: GEREGU), Штат: 350 специалистов, Зарплата: $1,500/мес, Руководитель: Акин Акинфемива (Akin Akinfemiwa), Главный исполнител",
+				"en": "Geregu Power Plc — a energy company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 250,
+				"profit": 80,
+				"debt": 70,
+				"money": 60,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 444,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0529,
+					"д": 7.5232,
+					"province": 857,
+					"staff": 133,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "defence_industries",
+			"название": {
+				"ru": "Defence Industries Corporation of Nigeria (DICON Kaduna)",
+				"en": "Defence Industries Corporation of Nigeria (DICON Kaduna)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный государственный оборонно-промышленный комплекс Министерства обороны Нигерии — Официальные источники: https://dicon.gov.ng, https://dicon.gov.ng/defense (Оборонные программы)",
+				"en": "Defence Industries Corporation of Nigeria (DICON Kaduna) — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": 5,
+				"debt": 21,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал-майор, Генеральный директор DICON (Major General / Director General DICON)]",
+					"en": "Генерал-майор, Генеральный директор DICON (Major General / Director General DICON)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 240,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кадуна",
+						"en": "Kaduna"
+					},
+					"ш": 10.5382,
+					"д": 7.461,
+					"province": 856,
+					"staff": 72,
+					"fine": 2920
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "naval_dockyard",
+			"название": {
+				"ru": "Naval Dockyard Limited (NDL Victoria Island)",
+				"en": "Naval Dockyard Limited (NDL Victoria Island)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная государственная верфь военного судостроения и судоремонта ВМС Нигерии (Nigerian Navy — Официальные источники: https://navaldockyard.gov.ng, https://navaldockyard.gov.ng/defense (Оборонные программы)",
+				"en": "Naval Dockyard Limited (NDL Victoria Island) — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 375,
+				"profit": 25,
+				"debt": 96,
+				"money": 58,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 703
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Контр-адмирал, Управляющий директор Naval Dockyard (Rear Admiral / Admiral Superintendent)]",
+					"en": "Контр-адмирал, Управляющий директор Naval Dockyard (Rear Admiral / Admiral Superintendent)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1125,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.4394,
+					"д": 3.3976,
+					"province": 138,
+					"staff": 337,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "proforce_limited",
+			"название": {
+				"ru": "Proforce Limited (Proforce Armoured Vehicles)",
+				"en": "Proforce Limited (Proforce Armoured Vehicles)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший в Западной Африке частный производитель современной военной колесной бронетехники и штурмовых машин стандарта НАТО — Официальные источники: https://proforcedefence.com",
+				"en": "Proforce Limited (Proforce Armoured Vehicles) — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 100,
+				"profit": 7,
+				"debt": 26,
+				"money": 15,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 188
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аде Огундийн (Ade Ogundeyin), Основатель и Главный исполнительный директор Proforce]",
+					"en": "Аде Огундийн (Ade Ogundeyin), Основатель и Главный исполнительный директор Proforce]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 300,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лагос",
+						"en": "Lagos"
+					},
+					"ш": 6.4659,
+					"д": 3.4235,
+					"province": 138,
+					"staff": 90,
+					"fine": 2906
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "air_force",
+			"название": {
+				"ru": "Air Force Research and Development Center (AFRDC / NAF Kaduna & Makurdi)",
+				"en": "Air Force Research and Development Center (AFRDC / NAF Kaduna & Makurdi)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-авиационный научно-производственный центр и ремонтные авиабазы ВВС Нигерии — Официальные источники: https://airforce.mil.ng",
+				"en": "Air Force Research and Development Center (AFRDC / NAF Kaduna & Makurdi) — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 330,
+				"profit": 22,
+				"debt": 85,
+				"money": 51,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 619
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Маршал авиации, Начальник штаба ВВС Нигерии (Air Marshal Hasan Abubakar, Chief of Air Staff)]",
+					"en": "Маршал авиации, Начальник штаба ВВС Нигерии (Air Marshal Hasan Abubakar, Chief of Air Staff)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 990,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кадуна",
+						"en": "Kaduna"
+					},
+					"ш": 10.5382,
+					"д": 7.4724,
+					"province": 856,
+					"staff": 297,
+					"fine": 2920
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "command_engineering",
+			"название": {
+				"ru": "Command Engineering Depot (CED Rigachikun)",
+				"en": "Command Engineering Depot (CED Rigachikun)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бронетанковый инженерный завод Сухопутных войск Нигерии — Официальные источники: https://army.mil.ng",
+				"en": "Command Engineering Depot (CED Rigachikun) — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 315,
+				"profit": 21,
+				"debt": 81,
+				"money": 48,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 591
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал-майор, Командир инженерного депо Сухопутных войск]",
+					"en": "Генерал-майор, Командир инженерного депо Сухопутных войск]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 945,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кадуна",
+						"en": "Kaduna"
+					},
+					"ш": 10.5286,
+					"д": 7.4764,
+					"province": 856,
+					"staff": 283,
+					"fine": 2920
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "epenal_group",
+			"название": {
+				"ru": "Epenal Group of Companies",
+				"en": "Epenal Group of Companies"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Верфь композитных боевых катеров и речных десантных судов — Официальные источники: https://epenal.org, https://epenal.org/defense (Оборонные программы)",
+				"en": "Epenal Group of Companies — a defence company of Nigeria."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 20,
+				"debt": 77,
+				"money": 46,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 562
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Нигерия)",
+						"en": "The state (Nigeria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Нигерия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дирекция Epenal Group]",
+					"en": "Дирекция Epenal Group]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 900,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Абуҷа",
+						"en": "Abuja"
+					},
+					"ш": 9.0596,
+					"д": 7.4721,
+					"province": 857,
+					"staff": 270,
+					"fine": 2932
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

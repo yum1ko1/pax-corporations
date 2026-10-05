@@ -1,0 +1,1260 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Зимбабве",
+	"iso": "ZWE",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "econet",
+			"название": {
+				"ru": "Econet Wireless Zimbabwe",
+				"en": "Econet Wireless Zimbabwe"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Крупнейший оператор Зимбабве Стрива Масийивы.",
+				"en": "Strive Masiyiwa's largest telecom of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 50,
+				"debt": 100,
+				"money": 30,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 2600,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Стрив Масийива",
+						"en": "Strive Masiyiwa"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дуглас Мбовени",
+					"en": "Douglas Mboweni"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2002,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 1700,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.83,
+					"д": 31.05,
+					"province": 457,
+					"staff": 1700,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.econet.co.zw/"
+		},
+		{
+			"id": "zimplats",
+			"название": {
+				"ru": "Zimplats",
+				"en": "Zimplats"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 1998,
+			"description": {
+				"ru": "Платина Великой Дайки, дочка Impala Platinum.",
+				"en": "Great Dyke platinum, an Impala Platinum subsidiary."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 100,
+				"debt": 100,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 108,
+				"market_cap": 700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Impala Platinum",
+						"en": "Impala Platinum"
+					},
+					"type": "company",
+					"доля": 0.87,
+					"country": "ЮАР"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.13
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александр Мхембере",
+					"en": "Alexander Mhembere"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2007,
+				"born_year": 1962,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 6000,
+			"wage": 700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.82,
+					"д": 31.04,
+					"province": 457,
+					"staff": 200,
+					"fine": 4588
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Нгези (Великая Дайка)",
+						"en": "Ngezi (Great Dyke)"
+					},
+					"ш": -18.6,
+					"д": 30.35,
+					"province": 732,
+					"staff": 5800,
+					"fine": 4596
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.zimplats.com/"
+		},
+		{
+			"id": "delta_corporation",
+			"название": {
+				"ru": "Delta Corporation Limited",
+				"en": "Delta Corporation Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель лагерного пива (Castle, Lion), традиционного соргового пива Chibuku и безалкогольных напитков Coca-Cola",
+				"en": "Delta Corporation Limited — a consumer and retail company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 750,
+				"profit": 100,
+				"debt": 80,
+				"money": 90,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Matlhogonolo Valela",
+					"en": "Matlhogonolo Valela"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5500,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8126,
+					"д": 31.0196,
+					"province": 457,
+					"staff": 1650,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.delta.co.zw/"
+		},
+		{
+			"id": "cbz_holdings",
+			"название": {
+				"ru": "CBZ Holdings Limited",
+				"en": "CBZ Holdings Limited"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая банковско-финансовая группа Зимбабве, ключевой кредитор сельского хозяйства и инфраструктуры",
+				"en": "CBZ Holdings Limited — a financial company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 85,
+				"debt": 0,
+				"money": 0,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lawrence Nyazema",
+					"en": "Lawrence Nyazema"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2200,
+			"wage": 550,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8492,
+					"д": 31.0228,
+					"province": 457,
+					"staff": 660,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.cbz.co.zw/"
+		},
+		{
+			"id": "zesa_holdings",
+			"название": {
+				"ru": "ZESA Holdings (Zimbabwe Electricity Supply Authority)",
+				"en": "ZESA Holdings (Zimbabwe Electricity Supply Authority)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный энергетический холдинг, управляющий угольной ТЭС Хванге и ГЭС Кариба-Юг",
+				"en": "ZESA Holdings (Zimbabwe Electricity Supply Authority) — a energy company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": -80,
+				"debt": 1800,
+				"money": 60,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Cletus Nyachowe",
+					"en": "Cletus Nyachowe"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хванге",
+						"en": "Hwange"
+					},
+					"ш": -18.3766,
+					"д": 26.462,
+					"province": 143,
+					"staff": 2400,
+					"fine": 4589
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.zesa.co.zw/"
+		},
+		{
+			"id": "national_oil",
+			"название": {
+				"ru": "National Oil Infrastructure Company of Zimbabwe (NOIC)",
+				"en": "National Oil Infrastructure Company of Zimbabwe (NOIC)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный оператор нефтепродуктопровода Бейра — Хараре и сети резервуарных парков",
+				"en": "National Oil Infrastructure Company of Zimbabwe (NOIC) — a oil and gas company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 220,
+				"profit": 35,
+				"debt": 60,
+				"money": 40,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Wilfred Matukeni",
+					"en": "Wilfred Matukeni"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.7925,
+					"д": 31.0828,
+					"province": 457,
+					"staff": 180,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.noic.co.zw/"
+		},
+		{
+			"id": "mimosa_mining",
+			"название": {
+				"ru": "Mimosa Mining Company",
+				"en": "Mimosa Mining Company"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокоэффективный платиновый рудник на Великой Дайке, совместное предприятие Sibanye-Stillwater и Impala Platinum",
+				"en": "Mimosa Mining Company — a metals and mining company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 65,
+				"debt": 50,
+				"money": 70,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Fungai Makoni",
+					"en": "Fungai Makoni"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 850,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.7959,
+					"д": 31.0132,
+					"province": 457,
+					"staff": 1050,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.mimosa.co.zw/"
+		},
+		{
+			"id": "kuvimba_mining",
+			"название": {
+				"ru": "Kuvimba Mining House",
+				"en": "Kuvimba Mining House"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный горнорудный гигант: золоторудные месторождения Freda Rebecca, Shamva, никелевая шахта Trojan и литий",
+				"en": "Kuvimba Mining House — a metals and mining company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 550,
+				"profit": 80,
+				"debt": 200,
+				"money": 90,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Trevor Barnard",
+					"en": "Trevor Barnard"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.831,
+					"д": 31.0369,
+					"province": 457,
+					"staff": 1800,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.kuvimbamininghouse.com/"
+		},
+		{
+			"id": "dairibord_holdings",
+			"название": {
+				"ru": "Dairibord Holdings Limited",
+				"en": "Dairibord Holdings Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший переработчик молока, производитель йогуртов, мороженого и соков в Зимбабве",
+				"en": "Dairibord Holdings Limited — a consumer and retail company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 130,
+				"profit": 12,
+				"debt": 20,
+				"money": 15,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Mercy Ndoro",
+					"en": "Mercy Ndoro"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1800,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.7889,
+					"д": 31.0369,
+					"province": 457,
+					"staff": 540,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://dairibord.com/"
+		},
+		{
+			"id": "innscor_africa",
+			"название": {
+				"ru": "Innscor Africa Limited",
+				"en": "Innscor Africa Limited"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущая производственно-потребительская группа: хлебопечение (Bakers Inn), птицеводство (Irvine's), переработка мяса (Colcom)",
+				"en": "Innscor Africa Limited — a consumer and retail company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 55,
+				"debt": 90,
+				"money": 60,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Julian Schonken",
+					"en": "Julian Schonken"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11000,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8646,
+					"д": 31.0663,
+					"province": 457,
+					"staff": 3300,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://innscorafrica.com/"
+		},
+		{
+			"id": "netone_cellular",
+			"название": {
+				"ru": "NetOne Cellular",
+				"en": "NetOne Cellular"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине оператор сотовой связи в стране, находящийся в государственной собственности",
+				"en": "NetOne Cellular — a IT and telecom company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": -15,
+				"debt": 120,
+				"money": 15,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Raphael Mushanawani",
+					"en": "Raphael Mushanawani"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1100,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8008,
+					"д": 31.0494,
+					"province": 457,
+					"staff": 330,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.netone.co.zw/"
+		},
+		{
+			"id": "national_railways",
+			"название": {
+				"ru": "National Railways of Zimbabwe (NRZ)",
+				"en": "National Railways of Zimbabwe (NRZ)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная железнодорожная система, соединяющая порты Мозамбика и ЮАР с промышленными центрами страны",
+				"en": "National Railways of Zimbabwe (NRZ) — a transport company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 95,
+				"profit": -20,
+				"debt": 300,
+				"money": 10,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Respina Zinyanduko",
+					"en": "Respina Zinyanduko"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8002,
+					"д": 31.0744,
+					"province": 457,
+					"staff": 1350,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.nrz.co.zw/"
+		},
+		{
+			"id": "zimbabwe_defence",
+			"название": {
+				"ru": "Zimbabwe Defence Industries (ZDI)",
+				"en": "Zimbabwe Defence Industries (ZDI)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное предприятие ВПК в Хараре: производство стрелковых патронов 7.62-мм, минометных мин и военной униформы",
+				"en": "Zimbabwe Defence Industries (ZDI) — a defence company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Tshinga Dube",
+					"en": "Colonel Tshinga Dube"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8213,
+					"д": 31.0823,
+					"province": 457,
+					"staff": 180,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mod.gov.zw/"
+		},
+		{
+			"id": "zimbabwe_national",
+			"название": {
+				"ru": "Zimbabwe National Army Heavy Engineering Workshops (Inkomo Barracks)",
+				"en": "Zimbabwe National Army Heavy Engineering Workshops (Inkomo Barracks)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральный бронетанковый ремонтный завод: капитальный ремонт танков Type 59/69, бронемашин EE-9 Cascavel и БТР WZ-551",
+				"en": "Zimbabwe National Army Heavy Engineering Workshops (Inkomo Barracks) — a defence company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 6,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 30
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Brigadier General Joe Muzvidziwa",
+					"en": "Brigadier General Joe Muzvidziwa"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8469,
+					"д": 31.0717,
+					"province": 457,
+					"staff": 150,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.zna.gov.zw/"
+		},
+		{
+			"id": "air_force_2",
+			"название": {
+				"ru": "Air Force of Zimbabwe Aircraft Maintenance Depot (Manyame / Thornhill)",
+				"en": "Air Force of Zimbabwe Aircraft Maintenance Depot (Manyame / Thornhill)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Авиационно-техническая база в Гверу и Хараре по регламенту реактивных УБС K-8 Karakorum, истребителей F-7 и вертолетов Ми-35",
+				"en": "Air Force of Zimbabwe Aircraft Maintenance Depot (Manyame / Thornhill) — a defence company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 22,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Air Commodore Peter Zimondi",
+					"en": "Air Commodore Peter Zimondi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 450,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8584,
+					"д": 31.0916,
+					"province": 457,
+					"staff": 135,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.afz.gov.zw/"
+		},
+		{
+			"id": "zna_mechanical",
+			"название": {
+				"ru": "ZNA Mechanical Electrical Engineers Base (Harare Logistics Depot)",
+				"en": "ZNA Mechanical Electrical Engineers Base (Harare Logistics Depot)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонт средств военной связи, полевых электрогенераторов, тяжелых артиллерийских орудий Д-30 и РСЗО «Град»",
+				"en": "ZNA Mechanical Electrical Engineers Base (Harare Logistics Depot) — a defence company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 4,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Colonel Tendai Makuyana",
+					"en": "Colonel Tendai Makuyana"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.814,
+					"д": 31.0151,
+					"province": 457,
+					"staff": 105,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.zna.gov.zw/"
+		},
+		{
+			"id": "defence_forces_2",
+			"название": {
+				"ru": "Defence Forces Medical & Logistics Manufacturing Unit (Cranborne Barracks)",
+				"en": "Defence Forces Medical & Logistics Manufacturing Unit (Cranborne Barracks)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-медицинское производство фармацевтических препаратов первой помощи, перевязочных материалов и полевых медкомплектов",
+				"en": "Defence Forces Medical & Logistics Manufacturing Unit (Cranborne Barracks) — a defence company of Zimbabwe."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 3,
+				"money": 2,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 18
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Зимбабве)",
+						"en": "The state (Zimbabwe)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Зимбабве"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Lieutenant Colonel Blessing Chirenje",
+					"en": "Lieutenant Colonel Blessing Chirenje"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 250,
+			"wage": 360,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хараре",
+						"en": "Harare"
+					},
+					"ш": -17.8636,
+					"д": 31.0132,
+					"province": 457,
+					"staff": 75,
+					"fine": 4588
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "http://www.mod.gov.zw/"
+		}
+	]
+}

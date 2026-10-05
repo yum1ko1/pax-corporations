@@ -1,0 +1,1174 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Туркмения",
+	"iso": "TKM",
+	"data_date": "2026-03",
+	"average_wage": 300,
+	"companies": [
+		{
+			"id": "turkmengaz",
+			"название": {
+				"ru": "Туркменгаз",
+				"en": "Türkmengaz"
+			},
+			"sector": "oil_gas",
+			"profile": "gas",
+			"type": "государственная",
+			"founded": 1996,
+			"description": {
+				"ru": "Галкыныш — второе газовое месторождение мира, газ в Китай.",
+				"en": "Galkynysh — the world's second gas field, gas to China."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 3000,
+				"debt": 3000,
+				"money": 2000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Туркмении",
+						"en": "The Turkmen state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Максат Бабаев",
+					"en": "Maksat Babayev"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1974,
+				"доля": 0.0,
+				"характер": {
+					"ru": "газовик",
+					"en": "газовик"
+				}
+			},
+			"staff": 30000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.95,
+					"д": 58.38,
+					"province": 217,
+					"staff": 3000,
+					"fine": 4001
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Галкыныш",
+						"en": "Galkynysh"
+					},
+					"ш": 37.2,
+					"д": 62.4,
+					"province": 214,
+					"staff": 5000,
+					"fine": 4004
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://oilgas.gov.tm/"
+		},
+		{
+			"id": "goskontsern_turkmennebit",
+			"название": {
+				"ru": "Госконцерн «Туркменнебит» (Türkmennebit)",
+				"en": "Госконцерн «Туркменнебит» (Türkmennebit)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный концерн, контролирующий разведку, бурение и добычу нефти в Туркменистане",
+				"en": "Госконцерн «Туркменнебит» (Türkmennebit) — a oil and gas company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 1100,
+				"debt": 1500,
+				"money": 900,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Гуванч Агаджанов",
+					"en": "Гуванч Агаджанов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 25000,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9591,
+					"д": 58.3852,
+					"province": 217,
+					"staff": 7500,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://oilgas.gov.tm/"
+		},
+		{
+			"id": "goskontsern_turkmenhimiy",
+			"название": {
+				"ru": "Госконцерн «Туркменхимия» (Türkmenhimiýa)",
+				"en": "Госконцерн «Туркменхимия» (Türkmenhimiýa)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный химический холдинг, управляющий азотными, карбамидными и калийными заводами",
+				"en": "Госконцерн «Туркменхимия» (Türkmenhimiýa) — a metals and mining company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 350,
+				"debt": 900,
+				"money": 300,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Доврангельди Сапбаев",
+					"en": "Доврангельди Сапбаев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12000,
+			"wage": 340,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9838,
+					"д": 58.3933,
+					"province": 217,
+					"staff": 3600,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://turkmenhimiya.gov.tm/"
+		},
+		{
+			"id": "turkmenbashinskiy_komple",
+			"название": {
+				"ru": "Туркменбашинский комплекс НПЗ (ТКНПЗ / TCOR)",
+				"en": "Туркменбашинский комплекс НПЗ (ТКНПЗ / TCOR)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагман нефтеперерабатывающей промышленности Туркменистана на побережье Каспийского моря",
+				"en": "Туркменбашинский комплекс НПЗ (ТКНПЗ / TCOR) — a oil and gas company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 3200,
+				"profit": 700,
+				"debt": 1100,
+				"money": 600,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Керим Гурбанов",
+					"en": "Керим Гурбанов"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8500,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9612,
+					"д": 58.4167,
+					"province": 217,
+					"staff": 2550,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://tcor.gov.tm/"
+		},
+		{
+			"id": "gkb_dayhanbank",
+			"название": {
+				"ru": "ГКБ «Дайханбанк» (Dayhanbank)",
+				"en": "ГКБ «Дайханбанк» (Dayhanbank)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный коммерческий банк, обеспечивающий кредитование агропромышленного комплекса Туркменистана",
+				"en": "ГКБ «Дайханбанк» (Dayhanbank) — a financial company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 90,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Реджепгельди Сейитназаров",
+					"en": "Реджепгельди Сейитназаров"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 360,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9597,
+					"д": 58.3446,
+					"province": 217,
+					"staff": 1350,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.dayhanbank.gov.tm/"
+		},
+		{
+			"id": "vneshekonombank_turkmeni",
+			"название": {
+				"ru": "Внешэкономбанк Туркменистана (TFEB)",
+				"en": "Внешэкономбанк Туркменистана (TFEB)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный агент по обслуживанию внешних заимствований и инвестиционных кредитов",
+				"en": "Внешэкономбанк Туркменистана (TFEB) — a financial company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 120,
+				"debt": 0,
+				"money": 0,
+				"dividends": 80
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Рахимберди Джепбаров",
+					"en": "Рахимберди Джепбаров"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9498,
+					"д": 58.4107,
+					"province": 217,
+					"staff": 360,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tfeb.gov.tm/"
+		},
+		{
+			"id": "aviakompaniya_turkmenist",
+			"название": {
+				"ru": "Авиакомпания «Туркменистан» (Turkmenistan Airlines)",
+				"en": "Авиакомпания «Туркменистан» (Turkmenistan Airlines)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный авиаперевозчик с современным парком широкофюзеляжных лайнеров Boeing",
+				"en": "Авиакомпания «Туркменистан» (Turkmenistan Airlines) — a transport company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 40,
+				"debt": 300,
+				"money": 80,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Довран Сабуров",
+					"en": "Довран Сабуров"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3500,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9577,
+					"д": 58.3528,
+					"province": 217,
+					"staff": 1050,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://turkmenistanairlines.tm/"
+		},
+		{
+			"id": "agentstvo_turkmendemirel",
+			"название": {
+				"ru": "Агентство «Туркмендемирёллары» (Türkmendemirýollary)",
+				"en": "Агентство «Туркмендемирёллары» (Türkmendemirýollary)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный железнодорожный оператор, связывающий коридор Север — Юг",
+				"en": "Агентство «Туркмендемирёллары» (Türkmendemirýollary) — a IT and telecom company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 380,
+				"profit": 30,
+				"debt": 250,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Азат Атамырадов",
+					"en": "Азат Атамырадов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 16000,
+			"wage": 320,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9337,
+					"д": 58.3718,
+					"province": 217,
+					"staff": 4800,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://railway.gov.tm/"
+		},
+		{
+			"id": "ke_turkmentelekom",
+			"название": {
+				"ru": "КЭ «Туркментелеком» (Türkmentelekom)",
+				"en": "КЭ «Туркментелеком» (Türkmentelekom)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная компания электросвязи, национальный интернет-провайдер и оператор магистральных каналов",
+				"en": "КЭ «Туркментелеком» (Türkmentelekom) — a IT and telecom company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 60,
+				"debt": 90,
+				"money": 70,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хаджимурат Худайгулыев",
+					"en": "Хаджимурат Худайгулыев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9854,
+					"д": 58.4096,
+					"province": 217,
+					"staff": 1800,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://telecom.tm/"
+		},
+		{
+			"id": "gkb_turkmenistan",
+			"название": {
+				"ru": "ГКБ «Туркменистан» (State Commercial Bank Turkmenistan)",
+				"en": "ГКБ «Туркменистан» (State Commercial Bank Turkmenistan)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупный государственный банк, предоставляющий универсальные финансовые услуги населению и бизнесу",
+				"en": "ГКБ «Туркменистан» (State Commercial Bank Turkmenistan) — a financial company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 300,
+				"profit": 75,
+				"debt": 0,
+				"money": 0,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мердан Байрамов",
+					"en": "Мердан Байрамов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9829,
+					"д": 58.3617,
+					"province": 217,
+					"staff": 900,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://www.tnb.gov.tm/"
+		},
+		{
+			"id": "gek_turkmenenergo",
+			"название": {
+				"ru": "ГЭК «Туркменэнерго» (Türkmenenergo)",
+				"en": "ГЭК «Туркменэнерго» (Türkmenenergo)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственная энергетическая корпорация, производящая и экспортирующая электроэнергию в соседние страны",
+				"en": "ГЭК «Туркменэнерго» (Türkmenenergo) — a energy company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 150,
+				"debt": 800,
+				"money": 120,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Аннагельди Сапаров",
+					"en": "Аннагельди Сапаров"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 14000,
+			"wage": 330,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9468,
+					"д": 58.3509,
+					"province": 217,
+					"staff": 4200,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)"
+			],
+			"source": "https://minenergo.gov.tm/"
+		},
+		{
+			"id": "sudoremontnyy_zavod",
+			"название": {
+				"ru": "Судоремонтный завод «Балкан» (Balkan Shipyard / ВМС Туркменистана)",
+				"en": "Судоремонтный завод «Балкан» (Balkan Shipyard / ВМС Туркменистана)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Судостроительное и судоремонтное предприятие в Туркменбаши, обслуживающее ракетно-артиллерийские и патрульные катера ВМС и Береговой охраны",
+				"en": "Судоремонтный завод «Балкан» (Balkan Shipyard / ВМС Туркменистана) — a defence company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 8,
+				"debt": 40,
+				"money": 15,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Батыр Аннаев",
+					"en": "Батыр Аннаев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9489,
+					"д": 58.3982,
+					"province": 217,
+					"staff": 360,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://balkan.com.tm/"
+		},
+		{
+			"id": "tsentralnye_bronetankovy",
+			"название": {
+				"ru": "Центральные бронетанковые мастерские МО Туркменистана (Ashgabat Armour Workshops)",
+				"en": "Центральные бронетанковые мастерские МО Туркменистана (Ashgabat Armour Workshops)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированный завод по капитальному ремонту танков Т-90С, Т-72, БМП-3 и бронеавтомобилей ВС Туркменистана",
+				"en": "Центральные бронетанковые мастерские МО Туркменистана (Ashgabat Armour Workshops) — a defence company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 35,
+				"profit": 3,
+				"debt": 10,
+				"money": 5,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник Гуванч Бердиев",
+					"en": "Полковник Гуванч Бердиев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 800,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9477,
+					"д": 58.356,
+					"province": 217,
+					"staff": 240,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://milligosun.gov.tm/"
+		},
+		{
+			"id": "aviaremontnaya_baza",
+			"название": {
+				"ru": "Авиаремонтная база ВВС МО Туркменистана (Мары-2)",
+				"en": "Авиаремонтная база ВВС МО Туркменистана (Мары-2)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонтная авиационная база, выполняющая регламентные и восстановительные работы для штурмовиков Су-25, истребителей МиГ-29 и вертолетов Ми-17/24",
+				"en": "Авиаремонтная база ВВС МО Туркменистана (Мары-2) — a defence company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 40,
+				"profit": 4,
+				"debt": 15,
+				"money": 8,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 70
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Подполковник Мердан Оразов",
+					"en": "Подполковник Мердан Оразов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 750,
+			"wage": 420,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мары",
+						"en": "Mary"
+					},
+					"ш": 37.6106,
+					"д": 61.8307,
+					"province": 214,
+					"staff": 225,
+					"fine": 4004
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://milligosun.gov.tm/"
+		},
+		{
+			"id": "zavod_sredstv",
+			"название": {
+				"ru": "Завод средств связи и РЭБ МО Туркменистана (Military Electronics Plant Ashgabat)",
+				"en": "Завод средств связи и РЭБ МО Туркменистана (Military Electronics Plant Ashgabat)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ремонт и модернизация тактических систем радиосвязи, РЛС ПВО и комплексов радиоэлектронной борьбы",
+				"en": "Завод средств связи и РЭБ МО Туркменистана (Military Electronics Plant Ashgabat) — a defence company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 25,
+				"profit": 2,
+				"debt": 8,
+				"money": 4,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 40
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майор Довлет Чарыев",
+					"en": "Майор Довлет Чарыев"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 500,
+			"wage": 390,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9182,
+					"д": 58.3897,
+					"province": 217,
+					"staff": 150,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://milligosun.gov.tm/"
+		},
+		{
+			"id": "gnpo_millet",
+			"название": {
+				"ru": "ГНПО «Миллет» (Millet Defense Enterprise)",
+				"en": "ГНПО «Миллет» (Millet Defense Enterprise)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственное оборонное научно-производственное объединение: производство стрелковых боеприпасов, экипировки и легких БПЛА",
+				"en": "ГНПО «Миллет» (Millet Defense Enterprise) — a defence company of Turkmenistan."
+			},
+			"fundamental": {
+				"выручка": 30,
+				"profit": 3,
+				"debt": 12,
+				"money": 6,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 50
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Туркмения)",
+						"en": "The state (Turkmenistan)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Туркмения"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Полковник Сердар Аманов",
+					"en": "Полковник Сердар Аманов"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 600,
+			"wage": 380,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Ашхабад",
+						"en": "Ashgabat"
+					},
+					"ш": 37.9562,
+					"д": 58.3827,
+					"province": 217,
+					"staff": 180,
+					"fine": 4001
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)"
+			],
+			"source": "https://milligosun.gov.tm/"
+		}
+	]
+}

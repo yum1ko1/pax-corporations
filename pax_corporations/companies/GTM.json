@@ -1,0 +1,796 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Гватемала",
+	"iso": "GTM",
+	"data_date": "2026-03",
+	"average_wage": 450,
+	"companies": [
+		{
+			"id": "cmi",
+			"название": {
+				"ru": "Corporación Multi Inversiones",
+				"en": "Corporación Multi Inversiones"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1920,
+			"description": {
+				"ru": "Крупнейший многопрофильный конгломерат Центральной Америки семьи Гутьеррес Бош: агробизнес, сеть фастфуда Pollo Campero, мельницы, энергетика ВИЭ и девелопмент.",
+				"en": "Central America's largest family conglomerate: agribusiness, Pollo Campero restaurant chain, flour mills, renewable energy, and real estate."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 300,
+				"debt": 1500,
+				"money": 200,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Гутьеррес Бош",
+						"en": "The Gutiérrez Bosch family"
+					},
+					"type": "founder",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хуан Луис Бош",
+					"en": "Juan Luis Bosch"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1990,
+				"born_year": 1953,
+				"доля": 0.5,
+				"характер": {
+					"ru": "патриарх семейного бизнеса",
+					"en": "патриарх"
+				}
+			},
+			"staff": 40000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.63,
+					"д": -90.51,
+					"province": 324,
+					"staff": 10000,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://somoscmi.com/ | Отчёты CMI 2024–2025; https://somoscmi.com/"
+		},
+		{
+			"id": "banco_industrial",
+			"название": {
+				"ru": "Banco Industrial (Corporación Bi)",
+				"en": "Banco Industrial (Corporación Bi)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая финансовая группа и системообразующий банк Гватемалы и Центральной Америки (лидер по объему депозитов, корпоративного кредитования и торгового финансирования; активы свыше $24 млрд, выручка ~$1.8 млрд, чистая прибыль ~$350 млн, 15,000 сотр.). https://www.corporacionbi.com/",
+				"en": "Banco Industrial (Corporación Bi) — a financial company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 350,
+				"debt": 0,
+				"money": 0,
+				"dividends": 105
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5142,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6094,
+					"д": -90.4908,
+					"province": 324,
+					"staff": 1542,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banrural",
+			"название": {
+				"ru": "BANRURAL (Banco de Desarrollo Rural)",
+				"en": "BANRURAL (Banco de Desarrollo Rural)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Второй по величине коммерческий банк страны с широчайшей филиальной сетью, специализирующийся на сельском хозяйстве, микрофинансировании и денежных переводах диаспоры (активы свыше $14 млрд, выручка ~$1.2 млрд, 10,000 сотр.). https://www.banrural.com.gt/",
+				"en": "BANRURAL (Banco de Desarrollo Rural) — a financial company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 338,
+				"debt": 0,
+				"money": 0,
+				"dividends": 101
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3428,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6208,
+					"д": -90.4813,
+					"province": 324,
+					"staff": 1028,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "grupo_progreso",
+			"название": {
+				"ru": "Grupo Progreso (Cementos Progreso)",
+				"en": "Grupo Progreso (Cementos Progreso)"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий транснациональный производитель цемента, строительных материалов и сборных конструкций в Центральной Америке (заводы Сан-Мигель, Сан-Габриэль; экспансия в Панаму, Коста-Рику, Сальвадор и Колумбию; выручка ~$1.5 млрд, 5,000 сотр.). https://www.progreso.com/",
+				"en": "Grupo Progreso (Cementos Progreso) — a construction company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 125,
+				"debt": 582,
+				"money": 197,
+				"dividends": 38
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1892
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4718,
+			"wage": 576,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6521,
+					"д": -90.5155,
+					"province": 324,
+					"staff": 1415,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cbc_cervecer",
+			"название": {
+				"ru": "CBC (Central America Beverage Corporation) / Cervecería Centro Americana",
+				"en": "CBC (Central America Beverage Corporation) / Cervecería Centro Americana"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший конгломерат напитков в регионе. Cervecería Centro Americana производит национальный бренд пива Cerveza Gallo; CBC — старейший боттлер PepsiCo с дистрибуцией в 16 странах Америки (выручка ~$2.2 млрд, 10,000 сотр.). https://www.cbc.co/ | https://www.cerveceriacentroamericana.com/",
+				"en": "CBC (Central America Beverage Corporation) / Cervecería Centro Americana — a consumer and retail company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 2200,
+				"profit": 171,
+				"debt": 508,
+				"money": 183,
+				"dividends": 51
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3014
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 6600,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6404,
+					"д": -90.4824,
+					"province": 324,
+					"staff": 1980,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pantaleon_group",
+			"название": {
+				"ru": "Pantaleon Group (Ingenio Pantaleon)",
+				"en": "Pantaleon Group (Ingenio Pantaleon)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из крупнейших агропромышленных сахарных холдингов Латинской Америки (производство сахара-сырца, рафинада, биоэтанола и когенерация «зеленой» электроэнергии из багассы сахарного тростника в Гватемале, Мексике, Бразилии и Чили; выручка ~$1.0 млрд). https://pantaleon.com/",
+				"en": "Pantaleon Group (Ingenio Pantaleon) — a consumer and retail company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 78,
+				"debt": 231,
+				"money": 83,
+				"dividends": 23
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1370
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.641,
+					"д": -90.4966,
+					"province": 324,
+					"staff": 900,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tigo_guatemala",
+			"название": {
+				"ru": "Tigo Guatemala (Comcel / Millicom)",
+				"en": "Tigo Guatemala (Comcel / Millicom)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Абсолютный лидер рынка сотовой связи, широкополосного интернета и цифровых платежей Tigo Money в Гватемале (доля рынка свыше 60%, абонентская база более 11 млн пользователей; выручка ~$1.6 млрд). https://www.tigo.com.gt/",
+				"en": "Tigo Guatemala (Comcel / Millicom) — a IT and telecom company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 1600,
+				"profit": 206,
+				"debt": 509,
+				"money": 267,
+				"dividends": 62
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3029
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4238,
+			"wage": 807,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6592,
+					"д": -90.5491,
+					"province": 324,
+					"staff": 1271,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eegsa",
+			"название": {
+				"ru": "EEGSA (Empresa Eléctrica de Guatemala S.A.)",
+				"en": "EEGSA (Empresa Eléctrica de Guatemala S.A.)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая электрораспределительная монополия столичного региона Гватемалы и департаментов Сакатепекес и Эскуинтла (в составе колумбийской группы EPM; выручка ~$900 млн). https://eegsa.com/",
+				"en": "EEGSA (Empresa Eléctrica de Guatemala S.A.) — a energy company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 83,
+				"debt": 547,
+				"money": 115,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1187
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гватемала)",
+						"en": "The state (Guatemala)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гватемала"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1601,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Эскуинтла",
+						"en": "Escuintla"
+					},
+					"ш": 14.3215,
+					"д": -90.7939,
+					"province": 324,
+					"staff": 480,
+					"fine": 1558
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "expogranel_asazgua",
+			"название": {
+				"ru": "EXPOGRANEL / ASAZGUA",
+				"en": "EXPOGRANEL / ASAZGUA"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокотехнологичный глубоководный терминал по перевалке сахара и мелассы в порту Пуэрто-Кетсаль, обеспечивающий рекордную скорость погрузки балкеров в мире. https://www.azucar.com.gt/",
+				"en": "EXPOGRANEL / ASAZGUA — a transport company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 542,
+				"profit": 36,
+				"debt": 274,
+				"money": 112,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 387
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1355,
+			"wage": 736,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6412,
+					"д": -90.5362,
+					"province": 324,
+					"staff": 406,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "f_brica_2",
+			"название": {
+				"ru": "Fábrica de Municiones del Ejército (FAME)",
+				"en": "Fábrica de Municiones del Ejército (FAME)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный военный патронный завод Министерства национальной обороны Гватемалы (Сан-Хосе-Пинула)",
+				"en": "Fábrica de Municiones del Ejército (FAME) — a defence company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 225,
+				"profit": 15,
+				"debt": 58,
+				"money": 35,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 422
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гватемала)",
+						"en": "The state (Guatemala)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гватемала"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 675,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6363,
+					"д": -90.4856,
+					"province": 324,
+					"staff": 202,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "servicio_de_2",
+			"название": {
+				"ru": "Servicio de Material de Guerra & Talleres Generales del Ejército",
+				"en": "Servicio de Material de Guerra & Talleres Generales del Ejército"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Servicio de Material de Guerra & Talleres Generales del Ejército — a defence company of Guatemala."
+			},
+			"fundamental": {
+				"выручка": 202,
+				"profit": 13,
+				"debt": 52,
+				"money": 31,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 379
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Гватемала)",
+						"en": "The state (Guatemala)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Гватемала"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 606,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Гватемала",
+						"en": "Guatemala City"
+					},
+					"ш": 14.6499,
+					"д": -90.549,
+					"province": 324,
+					"staff": 181,
+					"fine": 1559
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

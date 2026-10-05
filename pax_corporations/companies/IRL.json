@@ -1,0 +1,1690 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Ирландия",
+	"iso": "IRL",
+	"data_date": "2026-03",
+	"average_wage": 5000,
+	"companies": [
+		{
+			"id": "accenture",
+			"название": {
+				"ru": "Accenture",
+				"en": "Accenture"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1989,
+			"description": {
+				"ru": "Крупнейшая консалтинговая и IT-сервисная компания мира.",
+				"en": "The world's largest consulting and IT services firm."
+			},
+			"fundamental": {
+				"выручка": 68000,
+				"profit": 7700,
+				"debt": 5000,
+				"money": 9000,
+				"dividends": 3700
+			},
+			"рынок": {
+				"shares_mln": 625,
+				"market_cap": 200000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джули Суит",
+					"en": "Julie Sweet"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "юрист, ставит на ИИ",
+					"en": "юрист, ставит на ИИ"
+				}
+			},
+			"staff": 780000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.34,
+					"д": -6.26,
+					"province": 795,
+					"staff": 5000,
+					"fine": 1776
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Бангалор",
+						"en": "Bangalore"
+					},
+					"ш": 12.97,
+					"д": 77.59,
+					"province": 795,
+					"staff": 150000,
+					"fine": 1740
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.accenture.com/ | Отчёты Accenture 2024–2025; https://www.accenture.com/"
+		},
+		{
+			"id": "medtronic",
+			"название": {
+				"ru": "Medtronic",
+				"en": "Medtronic"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1949,
+			"description": {
+				"ru": "Крупнейший производитель медицинских изделий.",
+				"en": "The largest medical device maker."
+			},
+			"fundamental": {
+				"выручка": 33500,
+				"profit": 4700,
+				"debt": 25000,
+				"money": 8000,
+				"dividends": 3600
+			},
+			"рынок": {
+				"shares_mln": 1280,
+				"market_cap": 115000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джефф Марта",
+					"en": "Geoff Martha"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "американский менеджер",
+					"en": "американский менеджер"
+				}
+			},
+			"staff": 95000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.34,
+					"д": -6.24,
+					"province": 795,
+					"staff": 500,
+					"fine": 1776
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Миннеаполис (операционный центр)",
+						"en": "Minneapolis (operations)"
+					},
+					"ш": 45.04,
+					"д": -93.29,
+					"province": 795,
+					"staff": 10000,
+					"fine": 4360
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.medtronic.com/ | Отчёты Medtronic 2024–2025; https://www.medtronic.com/"
+		},
+		{
+			"id": "crh",
+			"название": {
+				"ru": "CRH",
+				"en": "CRH"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1970,
+			"description": {
+				"ru": "Крупнейший производитель стройматериалов в Северной Америке.",
+				"en": "The largest building materials maker in North America."
+			},
+			"fundamental": {
+				"выручка": 35500,
+				"profit": 3500,
+				"debt": 13000,
+				"money": 4000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 680,
+				"market_cap": 65000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джим Минтерн",
+					"en": "Jim Mintern"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 79000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.33,
+					"д": -6.25,
+					"province": 795,
+					"staff": 500,
+					"fine": 1776
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Атланта",
+						"en": "Atlanta"
+					},
+					"ш": 33.75,
+					"д": -84.39,
+					"province": 795,
+					"staff": 3000,
+					"fine": 4389
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.crh.com/ | Отчёты CRH 2024–2025; https://www.crh.com/"
+		},
+		{
+			"id": "ryanair",
+			"название": {
+				"ru": "Ryanair",
+				"en": "Ryanair"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Крупнейший лоукостер Европы.",
+				"en": "Europe's largest low-cost airline."
+			},
+			"fundamental": {
+				"выручка": 14500,
+				"profit": 1900,
+				"debt": 3000,
+				"money": 4000,
+				"dividends": 450
+			},
+			"рынок": {
+				"shares_mln": 1090,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Майкл О'Лири",
+						"en": "Michael O'Leary"
+					},
+					"type": "крупный",
+					"доля": 0.04,
+					"country": "Ирландия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.96
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майкл О'Лири",
+					"en": "Michael O'Leary"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 1994,
+				"born_year": 1961,
+				"доля": 0.04,
+				"характер": {
+					"ru": "грубиян и гений экономии",
+					"en": "грубиян и гений экономии"
+				}
+			},
+			"staff": 27000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин, аэропорт",
+						"en": "Dublin airport"
+					},
+					"ш": 53.42,
+					"д": -6.24,
+					"province": 795,
+					"staff": 5000,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.ryanair.com/ | Отчёты Ryanair 2024–2025; https://investor.ryanair.com/"
+		},
+		{
+			"id": "kerry",
+			"название": {
+				"ru": "Kerry Group",
+				"en": "Kerry Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1972,
+			"description": {
+				"ru": "Вкусовые добавки и ингредиенты для еды.",
+				"en": "Taste and nutrition ingredients."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 850,
+				"debt": 2500,
+				"money": 500,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 170,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Kerry Co-op",
+						"en": "Kerry Co-op"
+					},
+					"type": "крупный",
+					"доля": 0.1,
+					"country": "Ирландия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эдмонд Скэнлон",
+					"en": "Edmond Scanlon"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ирландец-технолог",
+					"en": "ирландец-технолог"
+				}
+			},
+			"staff": 21000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Трали",
+						"en": "Tralee"
+					},
+					"ш": 52.27,
+					"д": -9.7,
+					"province": 795,
+					"staff": 2000,
+					"fine": 1790
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kerry.com/ | Отчёты Kerry Group 2024–2025; https://www.kerry.com/"
+		},
+		{
+			"id": "aib",
+			"название": {
+				"ru": "AIB Group",
+				"en": "AIB Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "смешанная",
+			"founded": 1966,
+			"description": {
+				"ru": "Крупнейший банк Ирландии, государство выходит из капитала.",
+				"en": "Ireland's largest bank, the state is selling out."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 2600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 2300,
+				"market_cap": 18000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирландии",
+						"en": "The Irish state"
+					},
+					"type": "polity",
+					"доля": 0.1,
+					"country": "Ирландия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.9
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Колин Хант",
+					"en": "Colin Hunt"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший госэкономист",
+					"en": "бывший госэкономист"
+				}
+			},
+			"staff": 10000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.34,
+					"д": -6.25,
+					"province": 795,
+					"staff": 4000,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://aib.ie/ | Отчёты AIB Group 2024–2025; https://aib.ie/"
+		},
+		{
+			"id": "boi",
+			"название": {
+				"ru": "Bank of Ireland",
+				"en": "Bank of Ireland"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1783,
+			"description": {
+				"ru": "Старейший банк Ирландии.",
+				"en": "Ireland's oldest bank."
+			},
+			"fundamental": {
+				"выручка": 5500,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 800
+			},
+			"рынок": {
+				"shares_mln": 990,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майлз О’Грейди",
+					"en": "Myles O’Grady"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 11000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.34,
+					"д": -6.23,
+					"province": 795,
+					"staff": 4000,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.bankofireland.com/ | Отчёты Bank of Ireland 2024–2025; https://www.bankofireland.com/"
+		},
+		{
+			"id": "smurfitwestrock",
+			"название": {
+				"ru": "Smurfit Westrock",
+				"en": "Smurfit Westrock"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Крупнейший производитель бумажной упаковки.",
+				"en": "The largest paper packaging maker."
+			},
+			"fundamental": {
+				"выручка": 31000,
+				"profit": 700,
+				"debt": 13000,
+				"money": 1000,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 520,
+				"market_cap": 22000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тони Смурфит",
+					"en": "Tony Smurfit"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2024,
+				"born_year": 1963,
+				"доля": 0.01,
+				"характер": {
+					"ru": "наследник династии",
+					"en": "наследник династии"
+				}
+			},
+			"staff": 100000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3,
+					"д": -6.29,
+					"province": 795,
+					"staff": 1500,
+					"fine": 1774
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.smurfitwestrock.com/ | Отчёты Smurfit Westrock 2024–2025; https://www.smurfitwestrock.com/"
+		},
+		{
+			"id": "kingspan",
+			"название": {
+				"ru": "Kingspan",
+				"en": "Kingspan"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1965,
+			"description": {
+				"ru": "Утеплительные панели и крыши.",
+				"en": "Insulated panels and roofs."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 900,
+				"debt": 3000,
+				"money": 800,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 182,
+				"market_cap": 16000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мёрфи (Юджин Мёрфи)",
+						"en": "The Murphy family (Eugene Murphy)"
+					},
+					"type": "founder",
+					"доля": 0.16
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.84
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Джин Мёрта",
+					"en": "Gene Murtagh"
+				},
+				"роль": "founder",
+				"с_года": 2005,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "сын основателя",
+					"en": "сын основателя"
+				}
+			},
+			"staff": 25000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Кингскурт",
+						"en": "Kingscourt"
+					},
+					"ш": 53.9,
+					"д": -6.8,
+					"province": 795,
+					"staff": 1500,
+					"fine": 1800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.kingspan.com/ | Отчёты Kingspan Group 2024–2025; https://www.kingspan.com/"
+		},
+		{
+			"id": "esb",
+			"название": {
+				"ru": "ESB",
+				"en": "ESB"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1927,
+			"description": {
+				"ru": "Государственная электроэнергетика Ирландии.",
+				"en": "Ireland's state power company."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 700,
+				"debt": 7000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Ирландии",
+						"en": "The Irish state"
+					},
+					"type": "polity",
+					"доля": 0.97,
+					"country": "Ирландия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.03
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Пэдди Хейс",
+					"en": "Paddy Hayes"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 8000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.33,
+					"д": -6.25,
+					"province": 795,
+					"staff": 3000,
+					"fine": 1776
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Мани-Пойнт",
+						"en": "Moneypoint power station"
+					},
+					"ш": 52.61,
+					"д": -9.42,
+					"province": 795,
+					"staff": 300,
+					"fine": 1797
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://esb.ie/ | Отчёты ESB 2024–2025; https://esb.ie/"
+		},
+		{
+			"id": "dcc_plc",
+			"название": {
+				"ru": "DCC plc",
+				"en": "DCC plc"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Международный диверсифицированный холдинг продаж, маркетинга и дистрибуции в сфере энергетики (DCC Energy: СУГ, биотопливо, солнечные панели), здравоохранения (DCC Healthcare) и потребительских технологий (штаб-квартира в Дублине, котируется на LSE; выручка ~$25 млрд, операционная прибыль ~$850 млн). https://www.dcc.ie/",
+				"en": "DCC plc — a energy company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 25000,
+				"profit": 850,
+				"debt": 15192,
+				"money": 3199,
+				"dividends": 255
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 32971
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 44477,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.372,
+					"д": -6.2865,
+					"province": 795,
+					"staff": 13343,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "glanbia_plc",
+			"название": {
+				"ru": "Glanbia plc (Optimum Nutrition / Glanbia Nutritionals)",
+				"en": "Glanbia plc (Optimum Nutrition / Glanbia Nutritionals)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой лидер в области спортивного питания, ингредиентов для здорового питания и молочных изолятов (бренды Optimum Nutrition / Gold Standard, BSN, Isopure, think!; капитализация ~$5.0 млрд, выручка ~$4.5 млрд). https://www.glanbia.com/",
+				"en": "Glanbia plc (Optimum Nutrition / Glanbia Nutritionals) — a transport company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 300,
+				"debt": 2273,
+				"money": 931,
+				"dividends": 90
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 11250,
+			"wage": 8182,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.296,
+					"д": -6.2422,
+					"province": 795,
+					"staff": 3375,
+					"fine": 1777
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aercap_holdings",
+			"название": {
+				"ru": "AerCap Holdings N.V.",
+				"en": "AerCap Holdings N.V."
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в мире авиационная лизинговая компания (штаб-квартира в Дублине, портфель из более 1,700 магистральных самолетов, вертолетов и двигателей, более 300 клиентов-авиакомпаний по всему миру; активы свыше $70 млрд, выручка ~$7.5 млрд, чистая прибыль ~$3.0 млрд). https://www.aercap.com/",
+				"en": "AerCap Holdings N.V. — a transport company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 7500,
+				"profit": 3000,
+				"debt": 3788,
+				"money": 1552,
+				"dividends": 900
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5357
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 18750,
+			"wage": 8182,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3449,
+					"д": -6.2494,
+					"province": 795,
+					"staff": 5625,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "flutter_entertainment",
+			"название": {
+				"ru": "Flutter Entertainment plc (Paddy Power / Betfair / FanDuel)",
+				"en": "Flutter Entertainment plc (Paddy Power / Betfair / FanDuel)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая в мире игорная и беттинговая группа, зародившаяся в Дублине (бренды FanDuel, Paddy Power, Betfair, PokerStars, Sisal; глобальный лидер онлайн-букмекерства; капитализация ~$45 млрд, выручка ~$14 млрд). https://www.flutter.com/",
+				"en": "Flutter Entertainment plc (Paddy Power / Betfair / FanDuel) — a metals and mining company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 14000,
+				"profit": 1556,
+				"debt": 4667,
+				"money": 1680,
+				"dividends": 467
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 45000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 40444,
+			"wage": 8929,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.347,
+					"д": -6.2534,
+					"province": 795,
+					"staff": 12133,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "greencore_group",
+			"название": {
+				"ru": "Greencore Group",
+				"en": "Greencore Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупжнейший производитель готовых охлажденных продуктов питания (food-to-go), свежих сэндвичей, салатов и соусов для крупнейших торговых сетей Великобритании и Ирландии (M&S, Sainsbury's, Tesco; выручка ~$2.4 млрд). https://www.greencore.com/",
+				"en": "Greencore Group — a consumer and retail company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 2400,
+				"profit": 187,
+				"debt": 554,
+				"money": 200,
+				"dividends": 56
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3288
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7200,
+			"wage": 5556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.344,
+					"д": -6.2172,
+					"province": 795,
+					"staff": 2160,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "musgrave_group",
+			"название": {
+				"ru": "Musgrave Group (SuperValu / Centra)",
+				"en": "Musgrave Group (SuperValu / Centra)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая национальная продовольственная ритейл-оптовая группа Ирландии (сети франчайзинговых супермаркетов и минимаркетов SuperValu, Centra, Donnybrook Fair; выручка ~$5.0 млрд, более 40,000 сотрудников в сети). https://www.musgravegroup.com/",
+				"en": "Musgrave Group (SuperValu / Centra) — a consumer and retail company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 389,
+				"debt": 1154,
+				"money": 417,
+				"dividends": 117
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6849
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 15000,
+			"wage": 5556,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3448,
+					"д": -6.2151,
+					"province": 795,
+					"staff": 4500,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aer_lingus",
+			"название": {
+				"ru": "Aer Lingus (International Airlines Group - IAG)",
+				"en": "Aer Lingus (International Airlines Group - IAG)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Национальный флагманский авиаперевозчик Ирландии (базовый трансатлантический хаб в аэропорту Дублина с пунктом предварительного таможенного контроля США US Preclearance; флот Airbus A330 и A321LR). https://www.aerlingus.com/",
+				"en": "Aer Lingus (International Airlines Group - IAG) — a transport company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 2888,
+				"profit": 193,
+				"debt": 1459,
+				"money": 598,
+				"dividends": 58
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2063
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7220,
+			"wage": 8182,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3024,
+					"д": -6.2232,
+					"province": 795,
+					"staff": 2166,
+					"fine": 1777
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eir",
+			"название": {
+				"ru": "Eir (eircom)",
+				"en": "Eir (eircom)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Старейший национальный оператор фиксированной связи, широкополосного оптоволоконного интернета и мобильной связи (eir mobile) в Ирландии (выручка ~$1.4 млрд). https://www.eir.ie/",
+				"en": "Eir (eircom) — a IT and telecom company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 181,
+				"debt": 445,
+				"money": 233,
+				"dividends": 54
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2651
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирландия)",
+						"en": "The state (Ireland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3708,
+			"wage": 8964,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3318,
+					"д": -6.2228,
+					"province": 795,
+					"staff": 1112,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "timoney_technology",
+			"название": {
+				"ru": "Timoney Technology (Наван)",
+				"en": "Timoney Technology (Наван)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Всемирно известное конструкторское бюро и разработчик независимых подвесок, систем рулевого управления и полноприводных шасси для тяжелой колесной бронетехники (4x4, 6x6, 8x8)",
+				"en": "Timoney Technology (Наван) — a defence company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирландия)",
+						"en": "The state (Ireland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Наван",
+						"en": "Navan"
+					},
+					"ш": 53.6888,
+					"д": -6.6917,
+					"province": 795,
+					"staff": 1012,
+					"fine": 1781
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "moog_ireland",
+			"название": {
+				"ru": "Moog Ireland & Curtiss-Wright Industrial (Дублин / Карлоу)",
+				"en": "Moog Ireland & Curtiss-Wright Industrial (Дублин / Карлоу)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокоточные оборонные приводы и электромеханика",
+				"en": "Moog Ireland & Curtiss-Wright Industrial (Дублин / Карлоу) — a defence company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 1125,
+				"profit": 75,
+				"debt": 289,
+				"money": 173,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2109
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирландия)",
+						"en": "The state (Ireland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3375,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3495,
+					"д": -6.2204,
+					"province": 795,
+					"staff": 1012,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "schivo_medical",
+			"название": {
+				"ru": "Schivo Medical & Defence (Уотерфорд)",
+				"en": "Schivo Medical & Defence (Уотерфорд)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Высокоточная обработка сложных компонентов из титана, инконеля и спецсплавов для ракетных систем, турбин авиадвигателей и авионики. https://www.schivomedical.com/",
+				"en": "Schivo Medical & Defence (Уотерфорд) — a defence company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 1012,
+				"profit": 67,
+				"debt": 260,
+				"money": 156,
+				"dividends": 20
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1898
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирландия)",
+						"en": "The state (Ireland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3036,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3364,
+					"д": -6.2695,
+					"province": 795,
+					"staff": 910,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "defence_forces",
+			"название": {
+				"ru": "Defence Forces Workshops (Curragh Camp & Haulbowline Naval Base)",
+				"en": "Defence Forces Workshops (Curragh Camp & Haulbowline Naval Base)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "",
+				"en": "Defence Forces Workshops (Curragh Camp & Haulbowline Naval Base) — a defence company of Ireland."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 60,
+				"debt": 231,
+				"money": 138,
+				"dividends": 18
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1688
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Ирландия)",
+						"en": "The state (Ireland)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Ирландия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2700,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Дублин",
+						"en": "Dublin"
+					},
+					"ш": 53.3329,
+					"д": -6.2423,
+					"province": 795,
+					"staff": 810,
+					"fine": 1776
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1820 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Австрия",
+	"iso": "AUT",
+	"data_date": "2026-03",
+	"average_wage": 4500,
+	"companies": [
+		{
+			"id": "omv",
+			"название": {
+				"ru": "OMV",
+				"en": "OMV"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "смешанная",
+			"founded": 1956,
+			"description": {
+				"ru": "Нефтегазовая компания Австрии, владеет Petrom и Borealis.",
+				"en": "Austria's oil and gas company, owns Petrom and Borealis."
+			},
+			"fundamental": {
+				"выручка": 43000,
+				"profit": 2100,
+				"debt": 8000,
+				"money": 6000,
+				"dividends": 1500
+			},
+			"рынок": {
+				"shares_mln": 327,
+				"market_cap": 15500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Австрии (ÖBAG)",
+						"en": "The Austrian state (ÖBAG)"
+					},
+					"type": "polity",
+					"доля": 0.315,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "ADNOC",
+						"en": "ADNOC"
+					},
+					"type": "company",
+					"доля": 0.249,
+					"country": "ОАЭ"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.436
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Альфред Штерн",
+					"en": "Alfred Stern"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "химик, строит Borouge Group",
+					"en": "химик, строит Borouge Group"
+				}
+			},
+			"staff": 23000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.21,
+					"д": 16.4,
+					"province": 118,
+					"staff": 2000,
+					"fine": 182
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "НПЗ Швехат",
+						"en": "Schwechat refinery"
+					},
+					"ш": 48.14,
+					"д": 16.5,
+					"province": 118,
+					"staff": 1500,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.omv.com/en/investor-relations | Отчет 2024–2025: выручка €39.5B (), чистая прибыль €1.95B (.1B), капитализация .5B"
+		},
+		{
+			"id": "erste",
+			"название": {
+				"ru": "Erste Group",
+				"en": "Erste Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1819,
+			"description": {
+				"ru": "Крупнейший банк Австрии и Центральной Европы, покупает Santander Polska.",
+				"en": "Austria's and Central Europe's largest bank, buying Santander Polska."
+			},
+			"fundamental": {
+				"выручка": 12200,
+				"profit": 3400,
+				"debt": 0,
+				"money": 0,
+				"dividends": 1300
+			},
+			"рынок": {
+				"shares_mln": 410,
+				"market_cap": 26000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Erste",
+						"en": "Erste Foundation"
+					},
+					"type": "сама",
+					"доля": 0.23
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.77
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Петер Бозек",
+					"en": "Peter Bosek"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "расширяется на восток",
+					"en": "расширяется на восток"
+				}
+			},
+			"staff": 46000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.19,
+					"д": 16.38,
+					"province": 118,
+					"staff": 5000,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.erstegroup.com/en/investors | Отчет 2024–2025: чистая прибыль €3.13B (.4B), доход €11.2B (.2B), CEO Peter Bosek"
+		},
+		{
+			"id": "verbund",
+			"название": {
+				"ru": "Verbund",
+				"en": "Verbund"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1947,
+			"description": {
+				"ru": "Гидроэнергетика Австрии.",
+				"en": "Austria's hydropower."
+			},
+			"fundamental": {
+				"выручка": 9300,
+				"profit": 2000,
+				"debt": 4000,
+				"money": 1000,
+				"dividends": 1400
+			},
+			"рынок": {
+				"shares_mln": 347,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Австрии",
+						"en": "The Austrian state"
+					},
+					"type": "polity",
+					"доля": 0.51,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Земельные энергокомпании",
+						"en": "Regional utilities"
+					},
+					"type": "polity",
+					"доля": 0.3,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.19
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михаэль Штругль",
+					"en": "Michael Strugl"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший земельный политик",
+					"en": "бывший земельный политик"
+				}
+			},
+			"staff": 4000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.21,
+					"д": 16.37,
+					"province": 118,
+					"staff": 1000,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.verbund.com/en-at/about-verbund/investor-relations | Отчет 2024–2025: выручка €8.5B (.3B), чистая прибыль €1.84B (.0B)"
+		},
+		{
+			"id": "rbi",
+			"название": {
+				"ru": "Raiffeisen Bank International",
+				"en": "Raiffeisen Bank International"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1927,
+			"description": {
+				"ru": "Банк с крупнейшей дочкой в России среди западных.",
+				"en": "The bank with the largest Russian subsidiary among Western ones."
+			},
+			"fundamental": {
+				"выручка": 10000,
+				"profit": 2600,
+				"debt": 0,
+				"money": 0,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 329,
+				"market_cap": 8200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Земельные банки Райффайзен",
+						"en": "Regional Raiffeisen banks"
+					},
+					"type": "крупный",
+					"доля": 0.59,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.41
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йохан Штробль",
+					"en": "Johann Strobl"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "пытается уйти из России",
+					"en": "пытается уйти из России"
+				}
+			},
+			"staff": 44000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.2,
+					"д": 16.4,
+					"province": 118,
+					"staff": 4000,
+					"fine": 182
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Райффайзенбанк, Москва",
+						"en": "Raiffeisenbank, Moscow"
+					},
+					"ш": 55.73,
+					"д": 37.63,
+					"province": 118,
+					"staff": 8000,
+					"fine": 3401
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.rbinternational.com/en/investors.html | Отчет 2024–2025: консолидированная прибыль €2.39B (.6B), операционный доход €9.2B ()"
+		},
+		{
+			"id": "voestalpine",
+			"название": {
+				"ru": "voestalpine",
+				"en": "voestalpine"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1938,
+			"description": {
+				"ru": "Высококачественная сталь, переход на «зелёную» сталь.",
+				"en": "High-grade steel, moving to green steel."
+			},
+			"fundamental": {
+				"выручка": 18200,
+				"profit": 350,
+				"debt": 4000,
+				"money": 1200,
+				"dividends": 350
+			},
+			"рынок": {
+				"shares_mln": 178,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Raiffeisenlandesbank OÖ",
+						"en": "Raiffeisenlandesbank OÖ"
+					},
+					"type": "company",
+					"доля": 0.14,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Сотрудники",
+						"en": "Employees"
+					},
+					"type": "сама",
+					"доля": 0.14
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.72
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Герберт Айбенштайнер",
+					"en": "Herbert Eibensteiner"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "металлург",
+					"en": "металлург"
+				}
+			},
+			"staff": 51000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Линц",
+						"en": "Linz"
+					},
+					"ш": 48.29,
+					"д": 14.33,
+					"province": 118,
+					"staff": 10000,
+					"fine": 178
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Донавиц",
+						"en": "Donawitz"
+					},
+					"ш": 47.37,
+					"д": 15.07,
+					"province": 118,
+					"staff": 3000,
+					"fine": 176
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.voestalpine.com/group/en/investors/ | Отчет 2024–2025: выручка €16.7B (.2B), прибыль €320M ()"
+		},
+		{
+			"id": "andritz",
+			"название": {
+				"ru": "Andritz",
+				"en": "Andritz"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1852,
+			"description": {
+				"ru": "Оборудование для ГЭС, целлюлозы и металлов.",
+				"en": "Equipment for hydropower, pulp and metals."
+			},
+			"fundamental": {
+				"выручка": 9500,
+				"profit": 560,
+				"debt": 1000,
+				"money": 1500,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 104,
+				"market_cap": 6600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Вольфганг Лайтнер",
+						"en": "Wolfgang Leitner"
+					},
+					"type": "крупный",
+					"доля": 0.31,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.69
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йоахим Шёнбек",
+					"en": "Joachim Schönbeck"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 30000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Грац",
+						"en": "Graz"
+					},
+					"ш": 47.07,
+					"д": 15.44,
+					"province": 118,
+					"staff": 3000,
+					"fine": 176
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.andritz.com/group-en/investors | Отчет 2024–2025: выручка €8.7B (.5B), прибыль €510M ()"
+		},
+		{
+			"id": "wienerberger",
+			"название": {
+				"ru": "Wienerberger",
+				"en": "Wienerberger"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1819,
+			"description": {
+				"ru": "Крупнейший производитель кирпича в мире.",
+				"en": "The world's largest brick maker."
+			},
+			"fundamental": {
+				"выручка": 4900,
+				"profit": 360,
+				"debt": 2000,
+				"money": 300,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 112,
+				"market_cap": 4000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хаймо Шойх",
+					"en": "Heimo Scheuch"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2009,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 19000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.19,
+					"д": 16.34,
+					"province": 118,
+					"staff": 500,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.wienerberger.com/en/investors.html | Отчет 2024–2025 (с Terreal): выручка €4.5B (.9B), чистая прибыль €330M ()"
+		},
+		{
+			"id": "redbull",
+			"название": {
+				"ru": "Red Bull",
+				"en": "Red Bull"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1984,
+			"description": {
+				"ru": "Энергетики, спортивная и медиаимперия.",
+				"en": "Energy drinks, a sports and media empire."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 2000,
+				"debt": 0,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 35000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Наследник Матешица (Марк Матешиц)",
+						"en": "The Mateschitz heir (Mark Mateschitz)"
+					},
+					"type": "founder",
+					"доля": 0.49
+				},
+				{
+					"кто": {
+						"ru": "Семья Ювидья",
+						"en": "The Yoovidhya family"
+					},
+					"type": "крупный",
+					"доля": 0.51,
+					"country": "Таиланд"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Франц Ватцлавик",
+					"en": "Franz Watzlawick"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "управляющий напитками",
+					"en": "управляющий напитками"
+				}
+			},
+			"staff": 18000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Фушль-ам-Зее",
+						"en": "Fuschl am See"
+					},
+					"ш": 47.8,
+					"д": 13.3,
+					"province": 118,
+					"staff": 2000,
+					"fine": 179
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.redbull.com/ | Продажи 12.2B банок: выручка €11.5B (.5B), прибыль ~.0B, оценка ~"
+		},
+		{
+			"id": "vig",
+			"название": {
+				"ru": "Vienna Insurance Group",
+				"en": "Vienna Insurance Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1824,
+			"description": {
+				"ru": "Страховщик Центральной и Восточной Европы.",
+				"en": "The insurer of Central and Eastern Europe."
+			},
+			"fundamental": {
+				"выручка": 15200,
+				"profit": 600,
+				"debt": 2000,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 128,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Wiener Städtische Versicherungsverein",
+						"en": "Wiener Städtische Versicherungsverein"
+					},
+					"type": "сама",
+					"доля": 0.72
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.28
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хартвиг Лёгер",
+					"en": "Hartwig Löger"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший министр финансов",
+					"en": "бывший министр финансов"
+				}
+			},
+			"staff": 30000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.21,
+					"д": 16.37,
+					"province": 118,
+					"staff": 2000,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vig.com/en/investor-relations.html | Отчет 2024–2025: объем премий €14.0B (.2B), чистая прибыль €550M ()"
+		},
+		{
+			"id": "telekomaustria",
+			"название": {
+				"ru": "A1 Telekom Austria",
+				"en": "A1 Telekom Austria"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1998,
+			"description": {
+				"ru": "Связь Австрии и Балкан, контроль у América Movil.",
+				"en": "Telecom of Austria and the Balkans, controlled by América Movil."
+			},
+			"fundamental": {
+				"выручка": 5800,
+				"profit": 710,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 280
+			},
+			"рынок": {
+				"shares_mln": 665,
+				"market_cap": 6400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "América Movil (Карлос Слим)",
+						"en": "America Movil (Carlos Slim)"
+					},
+					"type": "company",
+					"доля": 0.51,
+					"country": "Мексика",
+					"company": "americamovil"
+				},
+				{
+					"кто": {
+						"ru": "Государство Австрии (ÖBAG)",
+						"en": "The Austrian state (ÖBAG)"
+					},
+					"type": "polity",
+					"доля": 0.29,
+					"country": "Австрия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.2
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Алехандро Плейтер",
+					"en": "Alejandro Plater"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2018,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "аргентинец Слима",
+					"en": "аргентинец Слима"
+				}
+			},
+			"staff": 17000,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.19,
+					"д": 16.38,
+					"province": 118,
+					"staff": 3000,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.a1.group/en/investor-relations/ | Отчет 2024–2025: выручка €5.3B (.8B), чистая прибыль €650M ()"
+		},
+		{
+			"id": "strabag_se",
+			"название": {
+				"ru": "STRABAG SE",
+				"en": "STRABAG SE"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Строительство и инфраструктура — один из крупнейших строительных холдингов Европы (выручка >€19 млрд / ~$21 млрд, штат >86 000 чел., семья Хазельштайнер)",
+				"en": "STRABAG SE — a construction company of Austria."
+			},
+			"fundamental": {
+				"выручка": 21000,
+				"profit": 1750,
+				"debt": 8147,
+				"money": 2755,
+				"dividends": 525
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 26489
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 86000,
+			"wage": 5756,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.1805,
+					"д": 16.4086,
+					"province": 118,
+					"staff": 25800,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, зарплата"
+			]
+		},
+		{
+			"id": "borealis_ag",
+			"название": {
+				"ru": "Borealis AG",
+				"en": "Borealis AG"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Нефтехимия / Полиолефины — мировой лидер производства полиэтилена и полипропилена (Вена, выручка >€8 млрд, СП OMV и ADNOC)",
+				"en": "Borealis AG — a oil and gas company of Austria."
+			},
+			"fundamental": {
+				"выручка": 8640,
+				"profit": 514,
+				"debt": 2434,
+				"money": 821,
+				"dividends": 154
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5374
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7555,
+			"wage": 8050,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.1758,
+					"д": 16.3326,
+					"province": 118,
+					"staff": 2266,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bawag_group",
+			"название": {
+				"ru": "BAWAG Group",
+				"en": "BAWAG Group"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Банки и финансы — 3-й по величине коммерческий банк Австрии (листинг WBAG: BG, чистая прибыль >€700 млн, капитализация ~$7 млрд)",
+				"en": "BAWAG Group — a financial company of Austria."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 756,
+				"debt": 0,
+				"money": 0,
+				"dividends": 227
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 7000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8571,
+			"wage": 7393,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.1813,
+					"д": 16.341,
+					"province": 118,
+					"staff": 2571,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mayr_melnhof",
+			"название": {
+				"ru": "Mayr-Melnhof Karton (MM Group)",
+				"en": "Mayr-Melnhof Karton (MM Group)"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Упаковка / Картон — крупнейший в Европе производитель переработанного картона (выручка >€4.2 млрд)",
+				"en": "Mayr-Melnhof Karton (MM Group) — a consumer and retail company of Austria."
+			},
+			"fundamental": {
+				"выручка": 4536,
+				"profit": 353,
+				"debt": 1047,
+				"money": 378,
+				"dividends": 106
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 6214
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 13608,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.2054,
+					"д": 16.3906,
+					"province": 118,
+					"staff": 4082,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ktm_ag",
+			"название": {
+				"ru": "KTM AG / Pierer Mobility",
+				"en": "KTM AG / Pierer Mobility"
+			},
+			"sector": "auto_industry",
+			"profile": "авто",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мотоциклы: KTM, Husqvarna, GASGAS — мировой лидер производства спортивных мотоциклов (выручка >€2.6 млрд)",
+				"en": "KTM AG / Pierer Mobility — a automotive company of Austria."
+			},
+			"fundamental": {
+				"выручка": 2808,
+				"profit": 152,
+				"debt": 842,
+				"money": 358,
+				"dividends": 46
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1560
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4860,
+			"wage": 6429,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.228,
+					"д": 16.3829,
+					"province": 118,
+					"staff": 1458,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "lenzing_ag",
+			"название": {
+				"ru": "Lenzing AG",
+				"en": "Lenzing AG"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Химические волокна / Текстиль — мировой лидер эко-волокон TENCEL (выручка >€2.5 млрд)",
+				"en": "Lenzing AG — a consumer and retail company of Austria."
+			},
+			"fundamental": {
+				"выручка": 2700,
+				"profit": 210,
+				"debt": 623,
+				"money": 225,
+				"dividends": 63
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3699
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8100,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.2472,
+					"д": 16.4092,
+					"province": 118,
+					"staff": 2430,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "swarovski",
+			"название": {
+				"ru": "Swarovski (D. Swarovski KG)",
+				"en": "Swarovski (D. Swarovski KG)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ювелирные изделия / Оптика — всемирно известный производитель кристаллов и высокоточной оптики (выручка >€1.8 млрд)",
+				"en": "Swarovski (D. Swarovski KG) — a metals and mining company of Austria."
+			},
+			"fundamental": {
+				"выручка": 1944,
+				"profit": 216,
+				"debt": 648,
+				"money": 233,
+				"dividends": 65
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2333
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5616,
+			"wage": 8036,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.2198,
+					"д": 16.4023,
+					"province": 118,
+					"staff": 1684,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "glock_ges",
+			"название": {
+				"ru": "GLOCK Ges.m.b.H.",
+				"en": "GLOCK Ges.m.b.H."
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стрелковое оружие — мировой лидер в производстве пистолетов (Glock 17, 19, 45), состоящих на вооружении армий и спецслужб более 50 стран мира (выручка >€800 млн)",
+				"en": "GLOCK Ges.m.b.H. — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 864,
+				"profit": 58,
+				"debt": 222,
+				"money": 133,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1620
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2592,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.1723,
+					"д": 16.3454,
+					"province": 118,
+					"staff": 777,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "steyr_arms",
+			"название": {
+				"ru": "Steyr Arms (ранее Steyr Mannlicher)",
+				"en": "Steyr Arms (ранее Steyr Mannlicher)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Стрелковое оружие — легендарный производитель штурмовых винтовок (Steyr AUG/StG 77), снайперских винтовок (SSG 08, HS .50) и гранатометов",
+				"en": "Steyr Arms (ранее Steyr Mannlicher) — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 1346,
+				"profit": 90,
+				"debt": 346,
+				"money": 207,
+				"dividends": 27
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2524
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4038,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штайр",
+						"en": "Steyr"
+					},
+					"ш": 48.0304,
+					"д": 14.4597,
+					"province": 118,
+					"staff": 1211,
+					"fine": 178
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "general_dynamics",
+			"название": {
+				"ru": "General Dynamics European Land Systems - Steyr (GDELS-Steyr)",
+				"en": "General Dynamics European Land Systems - Steyr (GDELS-Steyr)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Бронетехника — производитель боевых бронированных машин (колесные БТР Pandur Evolution 6x6, Pandur II 8x8, гусеничные БМП Ulan/Pizarro)",
+				"en": "General Dynamics European Land Systems - Steyr (GDELS-Steyr) — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 1296,
+				"profit": 86,
+				"debt": 333,
+				"money": 199,
+				"dividends": 26
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2430
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3888,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Штайр",
+						"en": "Steyr"
+					},
+					"ш": 48.0085,
+					"д": 14.3828,
+					"province": 118,
+					"staff": 1166,
+					"fine": 178
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "schiebel_electronic",
+			"название": {
+				"ru": "Schiebel Electronic Devices GmbH",
+				"en": "Schiebel Electronic Devices GmbH"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "БПЛА вертолетного типа / Миноискатели — мировой лидер разработки и производства палубных и сухопутных беспилотных вертолетов Camcopter S-100",
+				"en": "Schiebel Electronic Devices GmbH — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 1083,
+				"profit": 72,
+				"debt": 278,
+				"money": 167,
+				"dividends": 22
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2031
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3249,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.2034,
+					"д": 16.389,
+					"province": 118,
+					"staff": 974,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "hirtenberger_defence",
+			"название": {
+				"ru": "Hirtenberger Defence Systems (HDS)",
+				"en": "Hirtenberger Defence Systems (HDS)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Минометы / Боеприпасы — разработчик и производитель 60-мм, 81-мм и 120-мм гладкоствольных минометов и высокоточных выстрелов",
+				"en": "Hirtenberger Defence Systems (HDS) — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 870,
+				"profit": 58,
+				"debt": 224,
+				"money": 134,
+				"dividends": 17
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1631
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2610,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.1829,
+					"д": 16.3724,
+					"province": 118,
+					"staff": 783,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "diamond_aircraft",
+			"название": {
+				"ru": "Diamond Aircraft Industries",
+				"en": "Diamond Aircraft Industries"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военные самолеты спецназначения — производство патрульных самолетов разведки и наблюдения DA42 MPP Guardian, учебно-тренировочных DART-550",
+				"en": "Diamond Aircraft Industries — a defence company of Austria."
+			},
+			"fundamental": {
+				"выручка": 802,
+				"profit": 53,
+				"debt": 206,
+				"money": 123,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1504
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Австрия)",
+						"en": "The state (Austria)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Австрия"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2406,
+			"wage": 6750,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вена",
+						"en": "Vienna"
+					},
+					"ш": 48.173,
+					"д": 16.364,
+					"province": 118,
+					"staff": 721,
+					"fine": 182
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

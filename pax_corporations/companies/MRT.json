@@ -1,0 +1,1179 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Мавритания",
+	"iso": "MRT",
+	"data_date": "2026-03",
+	"average_wage": 200,
+	"companies": [
+		{
+			"id": "snim",
+			"название": {
+				"ru": "SNIM",
+				"en": "SNIM"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Железная руда Мавритании — поезд в 2,5 км длиной.",
+				"en": "Mauritania's iron ore — the 2.5 km long train."
+			},
+			"fundamental": {
+				"выручка": 1200,
+				"profit": 150,
+				"debt": 500,
+				"money": 100,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Мавритании",
+						"en": "The Mauritanian state"
+					},
+					"type": "polity",
+					"доля": 0.78,
+					"country": "Мавритания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.22
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мохамед Валль ульд Тельмиди",
+					"en": "Mohamed Vall Ould Telmidy"
+				},
+				"роль": "госслужащий",
+				"с_года": 2021,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 6000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуадибу",
+						"en": "Nouadhibou"
+					},
+					"ш": 20.94,
+					"д": -17.04,
+					"province": 580,
+					"staff": 2000,
+					"fine": 2797
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Зуэрат",
+						"en": "Zouérat"
+					},
+					"ш": 22.73,
+					"д": -12.47,
+					"province": 427,
+					"staff": 4000,
+					"fine": 2795
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.snim.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "tasiast_mauritanie",
+			"название": {
+				"ru": "Tasiast Mauritanie Limited SA (Kinross Gold)",
+				"en": "Tasiast Mauritanie Limited SA (Kinross Gold)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 2021,
+			"description": {
+				"ru": "Золотодобывающая промышленность (крупнейший в Западной Африке открытый карьер Тасиаст в пустыне региона Иншири, дочерняя компания Kinross Gold — Paul Rollinson, CEO Kinross Gold).]. Официальные источники: https://www.kinrosstasiast.com, https://www.kinross.com",
+				"en": "Tasiast Mauritanie Limited SA (Kinross Gold) — a metals and mining company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 300,
+				"debt": 100,
+				"money": 120,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Брахим ульд М'Барек (Brahim Ould M'Bareck), Вице-президент и Президент Tasiast Mauritanie с 2021 года, родился в 1968 году; Джей Пол Роллинсон (J",
+					"en": "Брахим ульд М'Барек (Brahim Ould M'Bareck), Вице-президент и Президент Tasiast Mauritanie с 2021 года, родился в 1968 году; Джей Пол Роллинсон (J"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2888,
+			"wage": 357,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0843,
+					"д": -15.9732,
+					"province": 444,
+					"staff": 866,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_7",
+			"название": {
+				"ru": "Société Mauritanienne des Hydrocarbures (SMH)",
+				"en": "Société Mauritanienne des Hydrocarbures (SMH)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1974,
+			"description": {
+				"ru": "Нефтегазовая промышленность (национальная государственная углеводородная корпорация, долевой партнер в морском СПГ-проекте Greater Tortue Ahmeyim - GTA совместно с BP и Kosmos Energy — ) [Выручка: $180 млн (фаза запуска экспорта СПГ), Чистая прибыль: $40 млн, Долг: $300 млн, Деньги: $60 млн, Дивиденды: $15 млн, Капитализация: $1,200 млн (100% госсобственность), Штат: 250 специалистов, Зарплата: $9",
+				"en": "Société Mauritanienne des Hydrocarbures (SMH) — a oil and gas company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 40,
+				"debt": 300,
+				"money": 60,
+				"dividends": 15
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 157,
+			"wage": 358,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0742,
+					"д": -15.9814,
+					"province": 444,
+					"staff": 47,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "somelec",
+			"название": {
+				"ru": "SOMELEC (Société Mauritanienne d'Electricité)",
+				"en": "SOMELEC (Société Mauritanienne d'Electricité)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1972,
+			"description": {
+				"ru": "Электроэнергетика (государственная монополия генерации и распределения: ТЭС Нуакшота, ветропарк Буленуар, солнечные станции — ) [Выручка: $220 млн, Чистая прибыль: -$20 млн (субсидии на дизельное топливо), Долг: $350 млн, Деньги: $25 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 2,200 чел., Зарплата: $400/мес, Руководитель: Шейх Абдаллахи ульд Бдда (Cheikh Abdallahi Ould Bdd",
+				"en": "SOMELEC (Société Mauritanienne d'Electricité) — a energy company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 220,
+				"profit": -20,
+				"debt": 350,
+				"money": 25,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 290
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 391,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.065,
+					"д": -15.9603,
+					"province": 444,
+					"staff": 117,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "mauritel_sa",
+			"название": {
+				"ru": "Mauritel SA",
+				"en": "Mauritel SA"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1970,
+			"description": {
+				"ru": "Телекоммуникации (национальный лидер мобильной и фиксированной связи, 51% принадлежит Maroc Telecom, 46% — государству — ) [Выручка: $180 млн, Чистая прибыль: $35 млн, Долг: $20 млн, Деньги: $25 млн, Дивиденды: $25 млн, Капитализация: $300 млн, Штат: 600 чел., Зарплата: $600/мес, Руководитель: Заки Мансур (Zaki Mansour), Генеральный директор, родился в 1970 году.]. Официальные источники: https://w",
+				"en": "Mauritel SA — a IT and telecom company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 180,
+				"profit": 35,
+				"debt": 20,
+				"money": 25,
+				"dividends": 25
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 300
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 476,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.081,
+					"д": -15.946,
+					"province": 444,
+					"staff": 142,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "chinguitel",
+			"название": {
+				"ru": "Chinguitel",
+				"en": "Chinguitel"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Мобильная связь и передача данных (второй по величине оператор мобильной сети, входит в суданский холдинг Sudatel Telecom Group — ) [Выручка: $110 млн, Чистая прибыль: $15 млн, Долг: $30 млн, Деньги: $15 млн, Дивиденды: $8 млн, Капитализация: $150 млн, Штат: 450 чел., Зарплата: $550/мес, Руководитель: Хани Араби (Hani Arabi), Главный исполнительный директор, родился в 1975 году.]. Официальные исто",
+				"en": "Chinguitel — a IT and telecom company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 15,
+				"debt": 30,
+				"money": 15,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 291,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0766,
+					"д": -16.002,
+					"province": 444,
+					"staff": 87,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_nationale",
+			"название": {
+				"ru": "Banque Nationale de Mauritanie (BNM)",
+				"en": "Banque Nationale de Mauritanie (BNM)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1960,
+			"description": {
+				"ru": "Банковские и финансовые услуги (крупнейший частный коммерческий банк страны по депозитам и активам — ) [Выручка: $90 млн, Чистая прибыль: $25 млн, Долг: $0 (активы $1.2 млрд), Деньги: $0, Дивиденды: $12 млн, Капитализация: $180 млн, Штат: 750 чел., Зарплата: $650/мес, Руководитель: Мохамед ульд Нуэйгед (Mohamed Ould Noueigued), Председатель совета директоров и СЕО, родился в 1960 году.]. Официальн",
+				"en": "Banque Nationale de Mauritanie (BNM) — a financial company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 90,
+				"profit": 25,
+				"debt": 1200,
+				"money": 0,
+				"dividends": 12
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 180
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 257,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0511,
+					"д": -15.9917,
+					"province": 444,
+					"staff": 77,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "port_autonome_5",
+			"название": {
+				"ru": "Port Autonome de Nouakchott «Port de l'Amitié» (PANPA)",
+				"en": "Port Autonome de Nouakchott «Port de l'Amitié» (PANPA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1971,
+			"description": {
+				"ru": "Портовое хозяйство и логистика («Порт Дружбы» в Нуакшоте, главный глубоководный порт страны для генеральных грузов и контейнеров — ) [Выручка: $75 млн, Чистая прибыль: $20 млн, Долг: $80 млн, Деньги: $20 млн, Дивиденды: $8 млн, Капитализация: $250 млн (государственное предприятие), Штат: 900 чел., Зарплата: $450/мес, Руководитель: Ахмед Салем ульд Мохамед Валль (Ahmed Salem Ould Mohamed Vall), Ген",
+				"en": "Port Autonome de Nouakchott «Port de l'Amitié» (PANPA) — a transport company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 75,
+				"profit": 20,
+				"debt": 80,
+				"money": 20,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 250
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 187,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0639,
+					"д": -15.9972,
+					"province": 444,
+					"staff": 56,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "mattel",
+			"название": {
+				"ru": "Mattel (Mauritano-Tunisienne des Télécommunications)",
+				"en": "Mattel (Mauritano-Tunisienne des Télécommunications)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1973,
+			"description": {
+				"ru": "Мобильная связь (первый частный оператор GSM в стране, дочерняя структура Tunisie Telecom — ) [Выручка: $65 млн, Чистая прибыль: $8 млн, Долг: $15 млн, Деньги: $10 млн, Дивиденды: $4 млн, Капитализация: $100 млн, Штат: 350 чел., Зарплата: $500/мес, Руководитель: Элиес Бен Сасси (Elyes Ben Sassi), Генеральный директор, родился в 1973 году.]. Официальные источники: https://www.mattel.mr, https://www",
+				"en": "Mattel (Mauritano-Tunisienne des Télécommunications) — a IT and telecom company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 65,
+				"profit": 8,
+				"debt": 15,
+				"money": 10,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 172,
+			"wage": 359,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.052,
+					"д": -15.9572,
+					"province": 444,
+					"staff": 51,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "mauritania_airlines",
+			"название": {
+				"ru": "Mauritania Airlines",
+				"en": "Mauritania Airlines"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1970,
+			"description": {
+				"ru": "Пассажирские авиаперевозки (национальный авиаперевозчик, флот Boeing 737-800/MAX8 и Embraer 175 — ) [Выручка: $80 млн, Чистая прибыль: -$5 млн, Долг: $60 млн, Деньги: $12 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 450 чел., Зарплата: $750/мес, Руководитель: Ахмед Салем ульд Буна Моктар (Ahmed Salem Ould Bouna Moktar), Генеральный директор, родился в 1970 году.]. Официальн",
+				"en": "Mauritania Airlines — a transport company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 80,
+				"profit": -5,
+				"debt": 60,
+				"money": 12,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 57
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 200,
+			"wage": 327,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.1083,
+					"д": -15.9684,
+					"province": 444,
+					"staff": 60,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "soci_t_8",
+			"название": {
+				"ru": "Société Générale Mauritanie (SGM)",
+				"en": "Société Générale Mauritanie (SGM)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1968,
+			"description": {
+				"ru": "Банки и финансовые услуги (корпоративный банкинг, обслуживание горнодобывающих и внешнеторговых корпораций — ) [Выручка: $60 млн, Чистая прибыль: $18 млн, Долг: $0 (активы $650 млн), Деньги: $0, Дивиденды: $10 млн, Капитализация: $120 млн, Штат: 400 чел., Зарплата: $700/мес, Руководитель: Жан-Филипп Гийом (Jean-Philippe Guillaume), Генеральный директор, родился в 1968 году.]. Официальные источники",
+				"en": "Société Générale Mauritanie (SGM) — a financial company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 60,
+				"profit": 18,
+				"debt": 650,
+				"money": 0,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 120
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 171,
+			"wage": 329,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.088,
+					"д": -15.9563,
+					"province": 444,
+					"staff": 51,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "tablissement_central",
+			"название": {
+				"ru": "Établissement Central de Réserve et de Réparation du Matériel (ECRRM Nouakchott)",
+				"en": "Établissement Central de Réserve et de Réparation du Matériel (ECRRM Nouakchott)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный военно-ремонтный комплекс вооружения, бронетехники и пустынных транспортных средств Вооруженных сил Мавритании — Официальные источники: https://armee.mr, https://armee.mr/defense (Оборонные программы)",
+				"en": "Établissement Central de Réserve et de Réparation du Matériel (ECRRM Nouakchott) — a defence company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Директор службы вооружения и автобронетанковой службы Генерального штаба (Colonel / Directeur du Materiel des Armees)]",
+					"en": "Директор службы вооружения и автобронетанковой службы Генерального штаба (Colonel / Directeur du Materiel des Armees)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.0877,
+					"д": -15.9621,
+					"province": 444,
+					"staff": 18,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "base_navale_3",
+			"название": {
+				"ru": "Base Navale de Nouadhibou et Chantiers Navals Militaires",
+				"en": "Base Navale de Nouadhibou et Chantiers Navals Militaires"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морская база, пункт базирования и судоремонтный центр ВМС Мавритании — Официальные источники: https://armee.mr, https://armee.mr/defense (Оборонные программы)",
+				"en": "Base Navale de Nouadhibou et Chantiers Navals Militaires — a defence company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Контр-адмирал, Командующий ВМС Мавритании (Contre-amiral / Chef d'Etat-Major de la Marine Nationale)]",
+					"en": "Контр-адмирал, Командующий ВМС Мавритании (Contre-amiral / Chef d'Etat-Major de la Marine Nationale)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуадибу",
+						"en": "Nouadhibou"
+					},
+					"ш": 20.9305,
+					"д": -17.0169,
+					"province": 580,
+					"staff": 18,
+					"fine": 2797
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ateliers_a",
+			"название": {
+				"ru": "Ateliers Aéronautiques de la Base Aérienne de Nouakchott",
+				"en": "Ateliers Aéronautiques de la Base Aérienne de Nouakchott"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральная база материально-технического обслуживания и ремонта авиатехники ВВС Мавритании — Официальные источники: https://armee.mr, https://armee.mr/defense (Оборонные программы)",
+				"en": "Ateliers Aéronautiques de la Base Aérienne de Nouakchott — a defence company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Бригадный генерал авиации, Командующий ВВС (General de Brigade Aerienne / Chef d'Etat-Major de l'Armee de l'Air)]",
+					"en": "Бригадный генерал авиации, Командующий ВВС (General de Brigade Aerienne / Chef d'Etat-Major de l'Armee de l'Air)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.1118,
+					"д": -15.994,
+					"province": 444,
+					"staff": 18,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "groupements_sp",
+			"название": {
+				"ru": "Groupements Spéciaux d'Intervention - Ateliers Tactiques du Désert (GSI Atar)",
+				"en": "Groupements Spéciaux d'Intervention - Ateliers Tactiques du Désert (GSI Atar)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированные мастерские высокомобильных групп специального назначения по борьбе с терроризмом в условиях Сахары — Официальные источники: https://armee.mr, https://armee.mr/defense (Оборонные программы)",
+				"en": "Groupements Spéciaux d'Intervention - Ateliers Tactiques du Désert (GSI Atar) — a defence company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Командир специальных групп вмешательства (Colonel GSI)]",
+					"en": "Командир специальных групп вмешательства (Colonel GSI)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Атар",
+						"en": "Atar"
+					},
+					"ш": 20.5088,
+					"д": -13.0279,
+					"province": 580,
+					"staff": 18,
+					"fine": 2804
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "d_p_4",
+			"название": {
+				"ru": "Dépôt Central des Munitions et d'Armement (Camp Militaire d'Akjoujt)",
+				"en": "Dépôt Central des Munitions et d'Armement (Camp Militaire d'Akjoujt)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главный стратегический арсенал боеприпасов и взрывчатых веществ Вооруженных сил — Официальные источники: https://armee.mr, https://armee.mr/defense (Оборонные программы)",
+				"en": "Dépôt Central des Munitions et d'Armement (Camp Militaire d'Akjoujt) — a defence company of Mauritania."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Мавритания)",
+						"en": "The state (Mauritania)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Мавритания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Комендант центрального арсенала FAM]",
+					"en": "Комендант центрального арсенала FAM]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нуакшот",
+						"en": "Nouakchott"
+					},
+					"ш": 18.073,
+					"д": -16.0096,
+					"province": 444,
+					"staff": 18,
+					"fine": 2799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

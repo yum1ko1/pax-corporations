@@ -1,0 +1,1671 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Египет",
+	"iso": "EGY",
+	"data_date": "2026-03",
+	"average_wage": 250,
+	"companies": [
+		{
+			"id": "suezcanal",
+			"название": {
+				"ru": "Суэцкий канал",
+				"en": "Suez Canal Authority"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1956,
+			"description": {
+				"ru": "Суэцкий канал — доходы упали из-за хуситов в Красном море.",
+				"en": "The Suez Canal — revenue fell because of the Houthis in the Red Sea."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 3000,
+				"debt": 1000,
+				"money": 1000,
+				"dividends": 2500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Египта",
+						"en": "The Egyptian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Усама Рабиа",
+					"en": "Osama Rabie"
+				},
+				"роль": "госслужащий",
+				"с_года": 2019,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "адмирал",
+					"en": "адмирал"
+				}
+			},
+			"staff": 20000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Исмаилия",
+						"en": "Ismailia"
+					},
+					"ш": 30.6,
+					"д": 32.27,
+					"province": 400,
+					"staff": 10000,
+					"fine": 960
+				},
+				{
+					"type": "logistics",
+					"name": {
+						"ru": "Порт-Саид",
+						"en": "Port Said"
+					},
+					"ш": 31.26,
+					"д": 32.3,
+					"province": 400,
+					"staff": 5000,
+					"fine": 967
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.suezcanal.gov.eg/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "egpc",
+			"название": {
+				"ru": "EGPC",
+				"en": "EGPC"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "государственная",
+			"founded": 1956,
+			"description": {
+				"ru": "Государственная нефтяная корпорация Египта.",
+				"en": "Egypt's state oil corporation."
+			},
+			"fundamental": {
+				"выручка": 20000,
+				"profit": 500,
+				"debt": 15000,
+				"money": 1000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Египта",
+						"en": "The Egyptian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Салах Абдель Керим",
+					"en": "Salah Abdel Karim"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "нефтяник",
+					"en": "нефтяник"
+				}
+			},
+			"staff": 20000,
+			"wage": 400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.06,
+					"д": 31.24,
+					"province": 801,
+					"staff": 3000,
+					"fine": 962
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Суэцкий залив",
+						"en": "Gulf of Suez"
+					},
+					"ш": 28.5,
+					"д": 33.0,
+					"province": 400,
+					"staff": 3000,
+					"fine": 982
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.petroleum.gov.eg/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "nbe",
+			"название": {
+				"ru": "National Bank of Egypt",
+				"en": "National Bank of Egypt"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1898,
+			"description": {
+				"ru": "Крупнейший банк Египта, государственный.",
+				"en": "Egypt's largest bank, state-owned."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 2000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Египта",
+						"en": "The Egyptian state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мохамед Эль-Етреби",
+					"en": "Mohamed El-Etreby"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 25000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.05,
+					"д": 31.24,
+					"province": 801,
+					"staff": 5000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.nbe.com.eg/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "cib",
+			"название": {
+				"ru": "Commercial International Bank",
+				"en": "Commercial International Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1975,
+			"description": {
+				"ru": "Крупнейший частный банк Египта.",
+				"en": "Egypt's largest private bank."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 1100,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 3070,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хишам Эззелдин",
+					"en": "Hisham Ezz Al-Arab"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1956,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 8000,
+			"wage": 600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.05,
+					"д": 31.23,
+					"province": 801,
+					"staff": 3000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.cibeg.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "elsewedy",
+			"название": {
+				"ru": "Elsewedy Electric",
+				"en": "Elsewedy Electric"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1938,
+			"description": {
+				"ru": "Кабели и электростанции по всей Африке.",
+				"en": "Cables and power plants across Africa."
+			},
+			"fundamental": {
+				"выручка": 5000,
+				"profit": 450,
+				"debt": 1000,
+				"money": 500,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 2180,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Эльсуэди",
+						"en": "The Elsewedy family"
+					},
+					"type": "founder",
+					"доля": 0.6
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ахмед Эльсуэди",
+					"en": "Ahmed El Sewedy"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2006,
+				"born_year": 1965,
+				"доля": 0.1,
+				"характер": {
+					"ru": "промышленник",
+					"en": "промышленник"
+				}
+			},
+			"staff": 20000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.04,
+					"д": 31.35,
+					"province": 801,
+					"staff": 3000,
+					"fine": 962
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Десятое Рамадана",
+						"en": "10th of Ramadan City"
+					},
+					"ш": 30.3,
+					"д": 31.74,
+					"province": 400,
+					"staff": 6000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.elsewedyelectric.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "telecomegypt",
+			"название": {
+				"ru": "Telecom Egypt",
+				"en": "Telecom Egypt"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1998,
+			"description": {
+				"ru": "Фиксированная связь Египта, доля в Vodafone Egypt.",
+				"en": "Egypt's fixed-line telecom, a stake in Vodafone Egypt."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 400,
+				"debt": 1500,
+				"money": 200,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1700,
+				"market_cap": 1600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Египта",
+						"en": "The Egyptian state"
+					},
+					"type": "polity",
+					"доля": 0.8,
+					"country": "Египет"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.2
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Тамер Эль-Махди",
+					"en": "Tamer El Mahdi"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 50000,
+			"wage": 350,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Новая административная столица",
+						"en": "New Administrative Capital"
+					},
+					"ш": 30.02,
+					"д": 31.72,
+					"province": 400,
+					"staff": 5000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.te.eg/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "tmg",
+			"название": {
+				"ru": "Talaat Moustafa Group",
+				"en": "Talaat Moustafa Group"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2007,
+			"description": {
+				"ru": "Крупнейший застройщик Египта: города Мадинати и Аль-Рехаб.",
+				"en": "Egypt's largest developer: Madinaty and Al Rehab cities."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 300,
+				"debt": 500,
+				"money": 400,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 2060,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Мустафа",
+						"en": "The Moustafa family"
+					},
+					"type": "founder",
+					"доля": 0.55
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.45
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хишам Талаат Мустафа",
+					"en": "Hisham Talaat Moustafa"
+				},
+				"роль": "акционер_владелец",
+				"с_года": 2007,
+				"born_year": 1959,
+				"доля": 0.4,
+				"характер": {
+					"ru": "девелопер с тёмным прошлым",
+					"en": "девелопер с тёмным прошлым"
+				}
+			},
+			"staff": 5000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Новый Каир",
+						"en": "New Cairo"
+					},
+					"ш": 30.1,
+					"д": 31.64,
+					"province": 400,
+					"staff": 3000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://tmg.com.eg/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "orascom",
+			"название": {
+				"ru": "Orascom Construction",
+				"en": "Orascom Construction"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1950,
+			"description": {
+				"ru": "Строитель Египта и Ближнего Востока семьи Савирис.",
+				"en": "The Sawiris family's builder of Egypt and the Middle East."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 150,
+				"debt": 500,
+				"money": 800,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 110,
+				"market_cap": 800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Савирис",
+						"en": "The Sawiris family"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Усама Бишай",
+					"en": "Osama Bishai"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2015,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "строитель",
+					"en": "строитель"
+				}
+			},
+			"staff": 60000,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.08,
+					"д": 31.33,
+					"province": 801,
+					"staff": 2000,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://orascom.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "banque_misr",
+			"название": {
+				"ru": "Banque Misr",
+				"en": "Banque Misr"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1920,
+			"description": {
+				"ru": "Второй по величине государственный банк Египта (активы ~$90 млрд, чистая прибыль ~$1.2 млрд, основан в 1920 г., CEO Hisham Okasha). https://www.banquemisr.com/",
+				"en": "Banque Misr — a financial company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1488,
+				"profit": 1200,
+				"debt": 0,
+				"money": 0,
+				"dividends": 360
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3472
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4251,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.089,
+					"д": 31.2827,
+					"province": 801,
+					"staff": 1275,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "banque_du",
+			"название": {
+				"ru": "Banque du Caire",
+				"en": "Banque du Caire"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Третий ведущий государственный коммерческий банк страны (активы ~$12 млрд). https://www.bdc.com.eg/",
+				"en": "Banque du Caire — a financial company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1400,
+				"profit": 394,
+				"debt": 0,
+				"money": 0,
+				"dividends": 118
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3267
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4000,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0808,
+					"д": 31.2858,
+					"province": 801,
+					"staff": 1200,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "ezz_steel",
+			"название": {
+				"ru": "Ezz Steel (Al Ezz Dekheila Steel)",
+				"en": "Ezz Steel (Al Ezz Dekheila Steel)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель стали и арматуры на Ближнем Востоке и в Северной Африке (мощность 7 млн тонн стали; выручка ~$3.0 млрд, основатель Ахмед Эзз). https://ezzsteel.com/",
+				"en": "Ezz Steel (Al Ezz Dekheila Steel) — a metals and mining company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 333,
+				"debt": 1000,
+				"money": 360,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3600
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 8666,
+			"wage": 446,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.087,
+					"д": 31.2802,
+					"province": 801,
+					"staff": 2599,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "eastern_company",
+			"название": {
+				"ru": "Eastern Company SAE",
+				"en": "Eastern Company SAE"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший национальный производитель табачных изделий в регионе MENA (бренд Cleopatra). Выручка ~$1.5 млрд, капитализация ~$2.0 млрд. https://www.easternegypt.com/",
+				"en": "Eastern Company SAE — a consumer and retail company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 117,
+				"debt": 346,
+				"money": 125,
+				"dividends": 35
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0253,
+					"д": 31.223,
+					"province": 801,
+					"staff": 1350,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "egyptair",
+			"название": {
+				"ru": "EgyptAir (Holding Company)",
+				"en": "EgyptAir (Holding Company)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1932,
+			"description": {
+				"ru": "Государственный национальный авиаперевозчик (основан в 1932 г., член Star Alliance, флот 70+ ВС; выручка ~$1.8 млрд). https://www.egyptair.com/",
+				"en": "EgyptAir (Holding Company) — a transport company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 909,
+				"money": 372,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1286
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 409,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0415,
+					"д": 31.2222,
+					"province": 801,
+					"staff": 1350,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "qnb_alahli",
+			"название": {
+				"ru": "QNB AlAhli (Qatar National Bank Egypt)",
+				"en": "QNB AlAhli (Qatar National Bank Egypt)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный международный банк в стране (активы ~$22 млрд). https://www.qnbalahli.com/",
+				"en": "QNB AlAhli (Qatar National Bank Egypt) — a financial company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 980,
+				"profit": 276,
+				"debt": 0,
+				"money": 0,
+				"dividends": 83
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2287
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2800,
+			"wage": 411,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0435,
+					"д": 31.2825,
+					"province": 801,
+					"staff": 840,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "juhayna_food",
+			"название": {
+				"ru": "Juhayna Food Industries",
+				"en": "Juhayna Food Industries"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий производитель молочной продукции и напитков (семья Сабет; выручка ~$450 млн). https://www.juhayna.com/",
+				"en": "Juhayna Food Industries — a consumer and retail company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 450,
+				"profit": 35,
+				"debt": 104,
+				"money": 38,
+				"dividends": 10
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 616
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1350,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.052,
+					"д": 31.235,
+					"province": 801,
+					"staff": 405,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "edita_food",
+			"название": {
+				"ru": "Edita Food Industries",
+				"en": "Edita Food Industries"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший производитель фасованных снеков и выпечки (Molto, Todo, Bake Rolz; выручка ~$400 млн). https://edita.com.eg/",
+				"en": "Edita Food Industries — a consumer and retail company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 31,
+				"debt": 92,
+				"money": 33,
+				"dividends": 9
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 548
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1200,
+			"wage": 278,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0928,
+					"д": 31.2476,
+					"province": 801,
+					"staff": 360,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "e_finance",
+			"название": {
+				"ru": "e-finance",
+				"en": "e-finance"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий оператор цифровых платежей и электронного правительства (капитализация ~$1.5 млрд). https://efinance.com.eg/",
+				"en": "e-finance — a IT and telecom company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 792,
+				"profit": 102,
+				"debt": 252,
+				"money": 132,
+				"dividends": 31
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2098,
+			"wage": 448,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0453,
+					"д": 31.267,
+					"province": 801,
+					"staff": 629,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aoi",
+			"название": {
+				"ru": "AOI (Arab Organization for Industrialization)",
+				"en": "AOI (Arab Organization for Industrialization)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший военно-промышленный холдинг Египта (12 военных заводов: лицензионное производство учебно-боевых самолетов K-8E, БПЛА, неуправляемых ракет и РСЗО «Сакр», аэродромных РЛС, систем РЭБ; выручка ~$1.8 млрд, 15,000+ сотр.). https://www.aoi.org.eg/",
+				"en": "AOI (Arab Organization for Industrialization) — a defence company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 120,
+				"debt": 463,
+				"money": 277,
+				"dividends": 36
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 3375
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 5400,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0288,
+					"д": 31.2857,
+					"province": 801,
+					"staff": 1620,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "nomp",
+			"название": {
+				"ru": "NOMP (National Organization for Military Production / Министерство военной продукции)",
+				"en": "NOMP (National Organization for Military Production / Министерство военной продукции)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный конгломерат из 16 военных заводов (Factory 200 — лицензионная сборка основных боевых танков M1A1 Abrams и гусеничных БМП Sena 200; Factory 999 — полевая ствольная артиллерия и тяжелые РСЗО; химические заводы боеприпасов и взрывчатых веществ; выручка ~$1.5 млрд, 30,000 сотр.)",
+				"en": "NOMP (National Organization for Military Production / Министерство военной продукции) — a defence company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 100,
+				"debt": 386,
+				"money": 231,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2812
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0324,
+					"д": 31.2465,
+					"province": 801,
+					"staff": 1350,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "alexandria_shipyard",
+			"название": {
+				"ru": "Alexandria Shipyard (Александрийская верфь)",
+				"en": "Alexandria Shipyard (Александрийская верфь)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Главная военно-морская верфь Египта (лицензионная постройка многоцелевых корветов класса Gowind 2500 по проекту Naval Group, фрегатов MEKO A200, скоростных патрульных катеров). https://www.alexshipyard.com.eg/",
+				"en": "Alexandria Shipyard (Александрийская верфь) — a defence company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 270,
+				"profit": 18,
+				"debt": 69,
+				"money": 42,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 506
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 810,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Александрия",
+						"en": "Alexandria"
+					},
+					"ш": 31.224,
+					"д": 29.9322,
+					"province": 801,
+					"staff": 243,
+					"fine": 972
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "benha_electronics",
+			"название": {
+				"ru": "Benha Electronics (Factory 144)",
+				"en": "Benha Electronics (Factory 144)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Специализированный завод военной электроники (трехкоординатные РЛС раннего предупреждения, системы защищенной тактической радиосвязи, приборы ночного видения и оптроника)",
+				"en": "Benha Electronics (Factory 144) — a defence company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 248,
+				"profit": 17,
+				"debt": 64,
+				"money": 38,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 465
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 744,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0645,
+					"д": 31.235,
+					"province": 801,
+					"staff": 223,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "abu_zaabal",
+			"название": {
+				"ru": "Abu Zaabal Company for Specialized Industries (Factory 300)",
+				"en": "Abu Zaabal Company for Specialized Industries (Factory 300)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Флагман по выпуску боеприпасов всех калибров (патроны 7.62/9/12.7 мм, танковые и артиллерийские выстрелы 120/122/155 мм) и стрелкового оружия (автоматы Maadi)",
+				"en": "Abu Zaabal Company for Specialized Industries (Factory 300) — a defence company of Egypt."
+			},
+			"fundamental": {
+				"выручка": 225,
+				"profit": 15,
+				"debt": 58,
+				"money": 35,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 422
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Египет)",
+						"en": "The state (Egypt)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Египет"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 675,
+			"wage": 375,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Каир",
+						"en": "Cairo"
+					},
+					"ш": 30.0677,
+					"д": 31.245,
+					"province": 801,
+					"staff": 202,
+					"fine": 962
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

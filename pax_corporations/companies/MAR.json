@@ -1,0 +1,1693 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Марокко",
+	"iso": "MAR",
+	"data_date": "2026-03",
+	"average_wage": 450,
+	"companies": [
+		{
+			"id": "ocp",
+			"название": {
+				"ru": "OCP Group",
+				"en": "OCP Group"
+			},
+			"sector": "oil_gas",
+			"profile": "fertilisers",
+			"type": "государственная",
+			"founded": 1920,
+			"description": {
+				"ru": "Крупнейший в мире экспортёр фосфатов и фосфорных удобрений.",
+				"en": "The world's largest phosphate and phosphate fertiliser exporter."
+			},
+			"fundamental": {
+				"выручка": 9000,
+				"profit": 1500,
+				"debt": 7000,
+				"money": 2000,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Марокко",
+						"en": "The Moroccan state"
+					},
+					"type": "polity",
+					"доля": 0.95,
+					"country": "Марокко"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.05
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мустафа Террав",
+					"en": "Mostafa Terrab"
+				},
+				"роль": "госслужащий",
+				"с_года": 2006,
+				"born_year": 1955,
+				"доля": 0.0,
+				"характер": {
+					"ru": "технократ короля",
+					"en": "технократ короля"
+				}
+			},
+			"staff": 21000,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.57,
+					"д": -7.59,
+					"province": 579,
+					"staff": 2000,
+					"fine": 2432
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Хурибга — фосфаты",
+						"en": "Khouribga — phosphates"
+					},
+					"ш": 32.88,
+					"д": -6.9,
+					"province": 579,
+					"staff": 8000,
+					"fine": 2431
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Джорф-Ласфар",
+						"en": "Jorf Lasfar"
+					},
+					"ш": 33.1,
+					"д": -8.64,
+					"province": 579,
+					"staff": 5000,
+					"fine": 2439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.ocpgroup.ma | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "attijariwafa",
+			"название": {
+				"ru": "Attijariwafa Bank",
+				"en": "Attijariwafa Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1904,
+			"description": {
+				"ru": "Крупнейший банк Марокко, королевский холдинг Al Mada.",
+				"en": "Morocco's largest bank, the royal holding Al Mada."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 1000,
+				"debt": 0,
+				"money": 0,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 215,
+				"market_cap": 13000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Al Mada (королевская семья)",
+						"en": "Al Mada (the royal family)"
+					},
+					"type": "крупный",
+					"доля": 0.46,
+					"country": "Марокко"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.54
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мохамед Эль-Кеттани",
+					"en": "Mohamed El Kettani"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2007,
+				"born_year": 1958,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир короля",
+					"en": "банкир короля"
+				}
+			},
+			"staff": 21000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.59,
+					"д": -7.62,
+					"province": 579,
+					"staff": 5000,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.attijariwafabank.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "maroctelecom",
+			"название": {
+				"ru": "Maroc Telecom",
+				"en": "Maroc Telecom"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "смешанная",
+			"founded": 1998,
+			"description": {
+				"ru": "Связь Марокко и Западной Африки, контроль у e&.",
+				"en": "Morocco's and West Africa's telecom, controlled by e&."
+			},
+			"fundamental": {
+				"выручка": 3500,
+				"profit": 300,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 879,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "e& (Etisalat)",
+						"en": "e& (Etisalat)"
+					},
+					"type": "company",
+					"доля": 0.53,
+					"country": "ОАЭ",
+					"company": "eand"
+				},
+				{
+					"кто": {
+						"ru": "Государство Марокко",
+						"en": "The Moroccan state"
+					},
+					"type": "polity",
+					"доля": 0.22,
+					"country": "Марокко"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Мохамед Бенчаабун",
+					"en": "Mohamed Benchaâboun"
+				},
+				"роль": "госслужащий",
+				"с_года": 2025,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "бывший министр финансов",
+					"en": "бывший министр финансов"
+				}
+			},
+			"staff": 11000,
+			"wage": 1000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.0,
+					"д": -6.85,
+					"province": 787,
+					"staff": 3000,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.iam.ma | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "bcpmaroc",
+			"название": {
+				"ru": "Banque Centrale Populaire",
+				"en": "Banque Centrale Populaire"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1961,
+			"description": {
+				"ru": "Кооперативный народный банк Марокко.",
+				"en": "Morocco's cooperative popular bank."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 500,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 203,
+				"market_cap": 6000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Региональные народные банки",
+						"en": "Regional popular banks"
+					},
+					"type": "сама",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Назиха Белькезиз",
+					"en": "Naziha Belkeziz"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "первая женщина во главе банка",
+					"en": "банкир"
+				}
+			},
+			"staff": 17000,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.59,
+					"д": -7.61,
+					"province": 579,
+					"staff": 3000,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.groupebcp.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "ram",
+			"название": {
+				"ru": "Royal Air Maroc",
+				"en": "Royal Air Maroc"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 1957,
+			"description": {
+				"ru": "Национальная авиакомпания, закупает 200 самолётов.",
+				"en": "The national airline, buying 200 aircraft."
+			},
+			"fundamental": {
+				"выручка": 2000,
+				"profit": 50,
+				"debt": 1500,
+				"money": 300,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Марокко",
+						"en": "The Moroccan state"
+					},
+					"type": "polity",
+					"доля": 0.98,
+					"country": "Марокко"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.02
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Абдельхамид Адду",
+					"en": "Abdelhamid Addou"
+				},
+				"роль": "госслужащий",
+				"с_года": 2016,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "авиаменеджер",
+					"en": "авиаменеджер"
+				}
+			},
+			"staff": 5000,
+			"wage": 1500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Аэропорт Касабланки",
+						"en": "Casablanca airport"
+					},
+					"ш": 33.37,
+					"д": -7.59,
+					"province": 579,
+					"staff": 3000,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.royalairmaroc.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "managem",
+			"название": {
+				"ru": "Managem",
+				"en": "Managem"
+			},
+			"sector": "metallurgy",
+			"profile": "gold",
+			"type": "частная",
+			"founded": 1930,
+			"description": {
+				"ru": "Золото, серебро и кобальт Марокко и Африки.",
+				"en": "Gold, silver and cobalt of Morocco and Africa."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 150,
+				"debt": 800,
+				"money": 100,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 12,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Al Mada (королевская семья)",
+						"en": "Al Mada (the royal family)"
+					},
+					"type": "крупный",
+					"доля": 0.81,
+					"country": "Марокко"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.19
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Имад Туми",
+					"en": "Imad Toumi"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2016,
+				"born_year": 1963,
+				"доля": 0.0,
+				"характер": {
+					"ru": "горняк",
+					"en": "горняк"
+				}
+			},
+			"staff": 6000,
+			"wage": 1100,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.58,
+					"д": -7.6,
+					"province": 579,
+					"staff": 500,
+					"fine": 2432
+				},
+				{
+					"type": "промысел",
+					"name": {
+						"ru": "Рудник Бу-Аззер (кобальт)",
+						"en": "Bou Azzer mine (cobalt)"
+					},
+					"ш": 30.5,
+					"д": -6.9,
+					"province": 426,
+					"staff": 1500,
+					"fine": 2437
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.managemgroup.com | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "al_mada",
+			"название": {
+				"ru": "Al Mada (ранее SNI - Société Nationale d'Investissement)",
+				"en": "Al Mada (ранее SNI - Société Nationale d'Investissement)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 2014,
+			"description": {
+				"ru": "Многоотраслевой королевский инвестиционный фонд (контролирует Attijariwafa Bank, Managem, Nareva, Marjane, LafargeHolcim Maroc, Optorg — ) [Выручка: $4,500 млн, Чистая прибыль: $450 млн, Долг: $2,000 млн, Деньги: $800 млн, Дивиденды: $180 млн, Капитализация: $8,500 млн (частный фонд королевской семьи), Штат: 70,000+ чел. (суммарно по дочерним структурам), Зарплата: $1,200/мес, Руководитель: Хассан",
+				"en": "Al Mada (ранее SNI - Société Nationale d'Investissement) — a financial company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 450,
+				"debt": 2000,
+				"money": 800,
+				"dividends": 180
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 8500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 12857,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.0156,
+					"д": -6.8147,
+					"province": 787,
+					"staff": 3857,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "onee",
+			"название": {
+				"ru": "ONEE (Office National de l'Electricité et de l'Eau Potable)",
+				"en": "ONEE (Office National de l'Electricité et de l'Eau Potable)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 2024,
+			"description": {
+				"ru": "Электроэнергетика и водоснабжение (национальный государственный монополист генерации, ЛЭП и гидроинфраструктуры — ) [Выручка: $4,200 млн (MAD 41 млрд), Чистая прибыль: -$200 млн (субсидируемые государственные тарифы), Долг: $7,000 млн, Деньги: $400 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 15,000 чел., Зарплата: $1,100/мес, Руководитель: Тарик Хамане (Tarik Hamane), Гене",
+				"en": "ONEE (Office National de l'Electricité et de l'Eau Potable) — a energy company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": -200,
+				"debt": 7000,
+				"money": 400,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 5539
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 7472,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.0242,
+					"д": -6.8516,
+					"province": 787,
+					"staff": 2241,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "oncf",
+			"название": {
+				"ru": "ONCF (Office National des Chemins de Fer)",
+				"en": "ONCF (Office National des Chemins de Fer)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2004,
+			"description": {
+				"ru": "Железнодорожный транспорт (национальный железнодорожный оператор, эксплуатирует скоростную магистраль Al Boraq TGV — ) [Выручка: $500 млн (MAD 5+ млрд), Чистая прибыль: $25 млн, Долг: $4,000 млн (инфраструктурные займы под скоростную сеть), Деньги: $200 млн, Дивиденды: $0, Капитализация: $0 (100% госсобственность), Штат: 7,800 чел., Зарплата: $1,200/мес, Руководитель: Мохамед Раби Хлие (Mohamed Ra",
+				"en": "ONCF (Office National des Chemins de Fer) — a transport company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 500,
+				"profit": 25,
+				"debt": 4000,
+				"money": 200,
+				"dividends": 8
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 357
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1250,
+			"wage": 736,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.0312,
+					"д": -6.8074,
+					"province": 787,
+					"staff": 375,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: капитализация, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bank_of_2",
+			"название": {
+				"ru": "Bank of Africa (BMCE Group)",
+				"en": "Bank of Africa (BMCE Group)"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1931,
+			"description": {
+				"ru": "Банковские и финансовые услуги (третий по величине финансовый конгломерат Марокко, сеть в 32 странах — ) [Выручка: $1,700 млн, Чистая прибыль: $260 млн, Долг: $0 (активы свыше $40 млрд), Деньги: $0, Дивиденды: $110 млн, Капитализация: $4,200 млн (Casablanca Stock Exchange: BOA), Штат: 15,200 чел., Зарплата: $1,050/мес, Руководитель: Отман Бенжеллун (Othman Benjelloun), Основатель, Председатель и Г",
+				"en": "Bank of Africa (BMCE Group) — a financial company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 1700,
+				"profit": 260,
+				"debt": 40000,
+				"money": 0,
+				"dividends": 110
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4200
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4857,
+			"wage": 739,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5586,
+					"д": -7.6266,
+					"province": 579,
+					"staff": 1457,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: деньги, штат, зарплата"
+			]
+		},
+		{
+			"id": "marjane_group",
+			"название": {
+				"ru": "Marjane Group",
+				"en": "Marjane Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2015,
+			"description": {
+				"ru": "Ритейл, сеть гипермаркетов и супермаркетов (крупнейшая торговая сеть Марокко, входит в Al Mada — ) [Выручка: $1,500 млн (MAD 15 млрд), Чистая прибыль: $60 млн, Долг: $200 млн, Деньги: $80 млн, Дивиденды: $30 млн, Капитализация: $900 млн, Штат: 12,000 чел., Зарплата: $700/мес, Руководитель: Аюб Азами (Ayoub Azami), Главный исполнительный директор с 2015 года, родился в 1971 году.]. Официальные исто",
+				"en": "Marjane Group — a consumer and retail company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 1500,
+				"profit": 60,
+				"debt": 200,
+				"money": 80,
+				"dividends": 30
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 900
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 4500,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.026,
+					"д": -6.8286,
+					"province": 787,
+					"staff": 1350,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "lafargeholcim_maroc",
+			"название": {
+				"ru": "LafargeHolcim Maroc",
+				"en": "LafargeHolcim Maroc"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 2022,
+			"description": {
+				"ru": "Производство цемента, бетона и строительных материалов (крупнейший производитель стройматериалов королевства — ) [Выручка: $900 млн (MAD 8.8 млрд), Чистая прибыль: $180 млн, Долг: $500 млн, Деньги: $120 млн, Дивиденды: $140 млн, Капитализация: $4,500 млн (Casablanca Stock Exchange: LHM), Штат: 2,500 чел., Зарплата: $1,300/мес, Руководитель: Хосе Антонио Примо (José Antonio Primo), Главный исполнит",
+				"en": "LafargeHolcim Maroc — a construction company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 900,
+				"profit": 180,
+				"debt": 500,
+				"money": 120,
+				"dividends": 140
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 2831,
+			"wage": 576,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.555,
+					"д": -7.5752,
+					"province": 579,
+					"staff": 849,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "afriquia_gaz",
+			"название": {
+				"ru": "Afriquia Gaz / Akwa Group",
+				"en": "Afriquia Gaz / Akwa Group"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1966,
+			"description": {
+				"ru": "Сжиженный нефтяной газ (LPG — , сеть АЗС и дистрибуция нефтепродуктов (крупнейшая частная ТЭК-группа премьер-министра Азиза Аханнуша)) [Выручка: $1,800 млн, Чистая прибыль: $85 млн, Долг: $300 млн, Деньги: $90 млн, Дивиденды: $45 млн, Капитализация: $1,800 млн (Casablanca: GAZR), Штат: 4,500 чел., Зарплата: $950/мес, Руководитель: Маджид Эль-Якуби (Majid El Yacoubi), Генеральный директор Afriquia ",
+				"en": "Afriquia Gaz / Akwa Group — a oil and gas company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 1800,
+				"profit": 85,
+				"debt": 300,
+				"money": 90,
+				"dividends": 45
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1800
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1574,
+			"wage": 805,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5706,
+					"д": -7.5938,
+					"province": 579,
+					"staff": 472,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "nareva_holding",
+			"название": {
+				"ru": "Nareva Holding",
+				"en": "Nareva Holding"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 2017,
+			"description": {
+				"ru": "Возобновляемая энергетика и независимая генерация (крупнейшие ветропарки Тарфая, Мидельт, угольная станция Сафи — ) [Выручка: $650 млн, Чистая прибыль: $90 млн, Долг: $1,200 млн, Деньги: $150 млн, Дивиденды: $40 млн, Капитализация: $1,400 млн, Штат: 800 чел., Зарплата: $1,600/мес, Руководитель: Айман Тод (Aymane Taud), Главный исполнительный директор с 2017 года, родился в 1974 году.]. Официальные",
+				"en": "Nareva Holding — a energy company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 650,
+				"profit": 90,
+				"debt": 1200,
+				"money": 150,
+				"dividends": 40
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1156,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сафи",
+						"en": "Safi"
+					},
+					"ш": 32.3106,
+					"д": -9.2584,
+					"province": 579,
+					"staff": 346,
+					"fine": 2439
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "tanger_med",
+			"название": {
+				"ru": "Tanger Med Special Agency (TMSA)",
+				"en": "Tanger Med Special Agency (TMSA)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "государственная",
+			"founded": 2013,
+			"description": {
+				"ru": "Портовая и логистическая инфраструктура (крупнейший контейнерный порт Средиземноморья и Африки — ) [Выручка: $400 млн, Чистая прибыль: $110 млн, Долг: $800 млн, Деньги: $200 млн, Дивиденды: $50 млн, Капитализация: $2,500 млн (государственное агентство), Штат: 1,500 чел., Зарплата: $1,400/мес, Руководитель: Мехди Тази Риффи (Mehdi Tazi Riffi), Генеральный директор с 2013 года, родился в 1973 году.]",
+				"en": "Tanger Med Special Agency (TMSA) — a transport company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 110,
+				"debt": 800,
+				"money": 200,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1000,
+			"wage": 736,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Рабат",
+						"en": "Rabat"
+					},
+					"ш": 34.0472,
+					"д": -6.8196,
+					"province": 787,
+					"staff": 300,
+					"fine": 2433
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "cosumar",
+			"название": {
+				"ru": "Cosumar",
+				"en": "Cosumar"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 2023,
+			"description": {
+				"ru": "Сахарная промышленность и агропром (национальный переработчик сахарной свеклы и тростника, второй экспортер белого сахара в Африке — ) [Выручка: $1,100 млн (MAD 10.5 млрд), Чистая прибыль: $95 млн, Долг: $220 млн, Деньги: $60 млн, Дивиденды: $60 млн, Капитализация: $1,700 млн (Casablanca: CSR), Штат: 2,000 чел., Зарплата: $850/мес, Руководитель: Хассан Мунир (Hassan Mounir), Генеральный директор с",
+				"en": "Cosumar — a consumer and retail company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 1100,
+				"profit": 95,
+				"debt": 220,
+				"money": 60,
+				"dividends": 60
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1700
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3300,
+			"wage": 500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5546,
+					"д": -7.5879,
+					"province": 579,
+					"staff": 990,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: штат, зарплата"
+			]
+		},
+		{
+			"id": "moroccan_royal",
+			"название": {
+				"ru": "Moroccan Royal Armed Forces Heavy Maintenance & Modernization Depots (ERM / ERMA)",
+				"en": "Moroccan Royal Armed Forces Heavy Maintenance & Modernization Depots (ERM / ERMA)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные военные бронетанковые и артиллерийские заводы Королевских вооруженных сил Марокко (FAR — Официальные источники: https://www.far-maroc.com, https://www.far-maroc.com/defense (Оборонные программы)",
+				"en": "Moroccan Royal Armed Forces Heavy Maintenance & Modernization Depots (ERM / ERMA) — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 262,
+				"profit": 17,
+				"debt": 67,
+				"money": 40,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 491
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Главный инспектор бронетанковых войск и директор тылового обеспечения FAR (General de Division / Inspecteur du Materiel)]",
+					"en": "Главный инспектор бронетанковых войск и директор тылового обеспечения FAR (General de Division / Inspecteur du Materiel)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 786,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5917,
+					"д": -7.6164,
+					"province": 579,
+					"staff": 235,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_moroccan",
+			"название": {
+				"ru": "Royal Moroccan Air Force Depot & Overhaul Facilities (FRA Benslimane / Sidi Slimane)",
+				"en": "Royal Moroccan Air Force Depot & Overhaul Facilities (FRA Benslimane / Sidi Slimane)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные авиаремонтные и сервисные авиабазы Королевских ВВС Марокко — Официальные источники: https://www.far-maroc.com, https://www.far-maroc.com/defense (Оборонные программы)",
+				"en": "Royal Moroccan Air Force Depot & Overhaul Facilities (FRA Benslimane / Sidi Slimane) — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 255,
+				"profit": 17,
+				"debt": 66,
+				"money": 39,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 478
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Генерал-инспектор Королевских ВВС (General de Division Mohammed Gadih, Inspecteur des Forces Royales Air)]",
+					"en": "Генерал-инспектор Королевских ВВС (General de Division Mohammed Gadih, Inspecteur des Forces Royales Air)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 765,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сиди-Слимане",
+						"en": "Sidi Slimane"
+					},
+					"ш": 34.2378,
+					"д": -5.9269,
+					"province": 787,
+					"staff": 229,
+					"fine": 2430
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tata_advanced_2",
+			"название": {
+				"ru": "Tata Advanced Systems Maroc (TASM Berrechid Plant)",
+				"en": "Tata Advanced Systems Maroc (TASM Berrechid Plant)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Первый в Марокко крупный серийный завод тяжелой колесной бронетехники стандарта НАТО — Официальные источники: https://www.tataadvancedsystems.com, https://www.tataadvancedsystems.com/defense (Оборонные программы)",
+				"en": "Tata Advanced Systems Maroc (TASM Berrechid Plant) — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 240,
+				"profit": 16,
+				"debt": 62,
+				"money": 37,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 450
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Дирекция Tata Advanced Systems Defence Projects]",
+					"en": "Дирекция Tata Advanced Systems Defence Projects]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 720,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.6074,
+					"д": -7.6423,
+					"province": 579,
+					"staff": 216,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aerodrive_engineering",
+			"название": {
+				"ru": "Aerodrive Engineering Services (AES)",
+				"en": "Aerodrive Engineering Services (AES)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1986,
+			"description": {
+				"ru": "Марокканский разработчик и серийный производитель военных беспилотных летательных аппаратов и барражирующих боеприпасов — Локация: Касабланка (Aeropole Nouaceur); Продукция: Разведывательные БПЛА тактического радиуса действия ATLAS I и ATLAS II (вертикальный взлет и посадка VTOL, до 8 часов дежурства), воздушные мишени для ПВО, легкие дроны-камикадзе [Штат: ~100 авиационных инженеров, Руководитель",
+				"en": "Aerodrive Engineering Services (AES) — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 225,
+				"profit": 15,
+				"debt": 58,
+				"money": 35,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 422
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 675,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5694,
+					"д": -7.6248,
+					"province": 579,
+					"staff": 202,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bluebird_aero",
+			"название": {
+				"ru": "BlueBird Aero Systems Maroc / IAI Defense Joint Venture",
+				"en": "BlueBird Aero Systems Maroc / IAI Defense Joint Venture"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Совместное мароккано-израильское высокотехнологичное производство барражирующих боеприпасов и дронов поля боя — Официальные источники: https://bluebird-uav.com, https://bluebird-uav.com/defense (Оборонные программы)",
+				"en": "BlueBird Aero Systems Maroc / IAI Defense Joint Venture — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 195,
+				"profit": 13,
+				"debt": 50,
+				"money": 30,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 366
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ронен Надир (Ronen Nadir), СЕО BlueBird Aero Systems]",
+					"en": "Ронен Надир (Ronen Nadir), СЕО BlueBird Aero Systems]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 585,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.6111,
+					"д": -7.6296,
+					"province": 579,
+					"staff": 175,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "royal_moroccan_2",
+			"название": {
+				"ru": "Royal Moroccan Navy Dockyards & Repair Base (ERMN Casablanca & Ksar Sghir)",
+				"en": "Royal Moroccan Navy Dockyards & Repair Base (ERMN Casablanca & Ksar Sghir)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Военно-морские судоремонтные верфи и сухие доки Королевского ВМФ Марокко — Официальные источники: https://www.far-maroc.com, https://www.far-maroc.com/defense (Оборонные программы)",
+				"en": "Royal Moroccan Navy Dockyards & Repair Base (ERMN Casablanca & Ksar Sghir) — a defence company of Morocco."
+			},
+			"fundamental": {
+				"выручка": 165,
+				"profit": 11,
+				"debt": 42,
+				"money": 25,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 309
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Марокко)",
+						"en": "The state (Morocco)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Марокко"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Контр-адмирал, Инспектор Королевского флота (Vice-amiral Mostafa El-Alami, Inspecteur de la Marine Royale)]",
+					"en": "Контр-адмирал, Инспектор Королевского флота (Vice-amiral Mostafa El-Alami, Inspecteur de la Marine Royale)]"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 495,
+			"wage": 675,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Касабланка",
+						"en": "Casablanca"
+					},
+					"ш": 33.5574,
+					"д": -7.6068,
+					"province": 579,
+					"staff": 148,
+					"fine": 2432
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

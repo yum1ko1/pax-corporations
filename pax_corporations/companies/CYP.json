@@ -1,0 +1,1267 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Кипр",
+	"iso": "CYP",
+	"data_date": "2026-03",
+	"average_wage": 2300,
+	"companies": [
+		{
+			"id": "bankofcyprus",
+			"название": {
+				"ru": "Bank of Cyprus",
+				"en": "Bank of Cyprus"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1899,
+			"description": {
+				"ru": "Крупнейший банк Кипра, бывший приют российских денег.",
+				"en": "Cyprus's largest bank, once a haven for Russian money."
+			},
+			"fundamental": {
+				"выручка": 1300,
+				"profit": 550,
+				"debt": 0,
+				"money": 0,
+				"dividends": 300
+			},
+			"рынок": {
+				"shares_mln": 445,
+				"market_cap": 3500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Паникос Николау",
+					"en": "Panicos Nicolaou"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "чистит клиентов",
+					"en": "чистит клиентов"
+				}
+			},
+			"staff": 2800,
+			"wage": 2600,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.17,
+					"д": 33.36,
+					"province": 500,
+					"staff": 2000,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.bankofcyprus.com/en-gb/group/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "hellenicbank",
+			"название": {
+				"ru": "Hellenic Bank",
+				"en": "Hellenic Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1976,
+			"description": {
+				"ru": "Второй банк Кипра, купил Eurobank.",
+				"en": "Cyprus's second bank, bought by Eurobank."
+			},
+			"fundamental": {
+				"выручка": 600,
+				"profit": 250,
+				"debt": 0,
+				"money": 0,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 400,
+				"market_cap": 2000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Eurobank",
+						"en": "Eurobank"
+					},
+					"type": "company",
+					"доля": 0.93,
+					"country": "Греция"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.07
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Михалис Луис",
+					"en": "Michalis Louis"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2024,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 2500,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.16,
+					"д": 33.37,
+					"province": 500,
+					"staff": 1500,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.hellenicbank.com/en/personal/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "cyta",
+			"название": {
+				"ru": "Cyta",
+				"en": "Cyta"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1961,
+			"description": {
+				"ru": "Государственная связь Кипра.",
+				"en": "Cyprus's state telecom."
+			},
+			"fundamental": {
+				"выручка": 400,
+				"profit": 30,
+				"debt": 50,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кипра",
+						"en": "The Cypriot state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреас Неоклеус",
+					"en": "Andreas Neokleous"
+				},
+				"роль": "госслужащий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "телеком",
+					"en": "телеком"
+				}
+			},
+			"staff": 1800,
+			"wage": 2300,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.15,
+					"д": 33.38,
+					"province": 500,
+					"staff": 1500,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.cyta.com.cy/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "frontline",
+			"название": {
+				"ru": "Frontline",
+				"en": "Frontline"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1985,
+			"description": {
+				"ru": "Танкерный флот Джона Фредриксена, прописан на Кипре.",
+				"en": "John Fredriksen's tanker fleet, registered in Cyprus."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 600,
+				"debt": 3500,
+				"money": 400,
+				"dividends": 500
+			},
+			"рынок": {
+				"shares_mln": 223,
+				"market_cap": 5000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Джон Фредриксен (Hemen)",
+						"en": "John Fredriksen (Hemen)"
+					},
+					"type": "founder",
+					"доля": 0.4
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.6
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларс Барстад",
+					"en": "Lars Barstad"
+				},
+				"роль": "ставленник_владельца",
+				"с_года": 2020,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "норвежец",
+					"en": "норвежец"
+				}
+			},
+			"staff": 90,
+			"wage": 5000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лимасол",
+						"en": "Limassol"
+					},
+					"ш": 34.68,
+					"д": 33.04,
+					"province": 500,
+					"staff": 90,
+					"fine": 803
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.frontlineplc.cy/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "eac",
+			"название": {
+				"ru": "Electricity Authority of Cyprus",
+				"en": "Electricity Authority of Cyprus"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1952,
+			"description": {
+				"ru": "Электроэнергетика Кипра на мазуте.",
+				"en": "Cyprus's oil-fired power utility."
+			},
+			"fundamental": {
+				"выручка": 1000,
+				"profit": 20,
+				"debt": 300,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Кипра",
+						"en": "The Cypriot state"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Андреас Марангос",
+					"en": "Andreas Marangos"
+				},
+				"роль": "госслужащий",
+				"с_года": 2024,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 2300,
+			"wage": 2400,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.18,
+					"д": 33.36,
+					"province": 500,
+					"staff": 800,
+					"fine": 800
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "ТЭС Василикос",
+						"en": "Vasilikos power station"
+					},
+					"ш": 34.72,
+					"д": 33.3,
+					"province": 500,
+					"staff": 600,
+					"fine": 799
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется",
+				"глава.имя"
+			],
+			"source": "https://www.eac.com.cy/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется; глава.имя"
+		},
+		{
+			"id": "wargaming_group",
+			"название": {
+				"ru": "Wargaming Group (Никосия)",
+				"en": "Wargaming Group (Никосия)"
+			},
+			"sector": "медиа",
+			"profile": "медиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировой разработчик и издатель видеоигр со штаб-квартирой на Кипре (World of Tanks; выручка ~.0 млрд+)",
+				"en": "Wargaming Group (Никосия) — a media company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 350,
+				"profit": 64,
+				"debt": 78,
+				"money": 52,
+				"dividends": 19
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1533
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 481,
+			"wage": 3970,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1574,
+					"д": 33.3367,
+					"province": 500,
+					"staff": 144,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "gdev_inc",
+			"название": {
+				"ru": "GDEV Inc. (Nexters) / Playrix / Outfit7",
+				"en": "GDEV Inc. (Nexters) / Playrix / Outfit7"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущие игровые и мобильные технологические корпорации с главными офисами и студиями в Лимасоле (выручка Playrix ~.5 млрд)",
+				"en": "GDEV Inc. (Nexters) / Playrix / Outfit7 — a IT and telecom company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 280,
+				"profit": 36,
+				"debt": 89,
+				"money": 47,
+				"dividends": 11
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 530
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 741,
+			"wage": 4124,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1358,
+					"д": 33.3555,
+					"province": 500,
+					"staff": 222,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "columbia_shipmanagement",
+			"название": {
+				"ru": "Columbia Shipmanagement & Bernhard Schulte Shipmanagement (BSM Cyprus)",
+				"en": "Columbia Shipmanagement & Bernhard Schulte Shipmanagement (BSM Cyprus)"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Мировые лидеры коммерческого и технического менеджмента морского флота (>1 000 судов под управлением)",
+				"en": "Columbia Shipmanagement & Bernhard Schulte Shipmanagement (BSM Cyprus) — a transport company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 210,
+				"profit": 14,
+				"debt": 106,
+				"money": 43,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 150
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 525,
+			"wage": 3764,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1743,
+					"д": 33.3926,
+					"province": 500,
+					"staff": 157,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "logicom_public",
+			"название": {
+				"ru": "Logicom Public",
+				"en": "Logicom Public"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая международная IT-дистрибьюторская и инжиниринговая корпорация (Cisco, Microsoft; выручка ~.3 млрд, листинг на CSE)",
+				"en": "Logicom Public — a IT and telecom company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 175,
+				"profit": 23,
+				"debt": 56,
+				"money": 29,
+				"dividends": 7
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 331
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 463,
+			"wage": 4124,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1961,
+					"д": 33.3181,
+					"province": 500,
+					"staff": 138,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "vassiliko_cement",
+			"название": {
+				"ru": "Vassiliko Cement Works",
+				"en": "Vassiliko Cement Works"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший цементный завод острова с собственным глубоководным портом (выручка ~$140 млн)",
+				"en": "Vassiliko Cement Works — a transport company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 9,
+				"debt": 71,
+				"money": 29,
+				"dividends": 3
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 100
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 350,
+			"wage": 3764,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1875,
+					"д": 33.3761,
+					"province": 500,
+					"staff": 105,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "city_of",
+			"название": {
+				"ru": "City of Dreams Mediterranean / Melco Cyprus",
+				"en": "City of Dreams Mediterranean / Melco Cyprus"
+			},
+			"sector": "tourism",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший интегрированный курорт-казино в Европе (инвестиции ~$650 млн)",
+				"en": "City of Dreams Mediterranean / Melco Cyprus — a tourism company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 131,
+				"profit": 20,
+				"debt": 56,
+				"money": 95,
+				"dividends": 6
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 154
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1786,
+			"wage": 3105,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1926,
+					"д": 33.3474,
+					"province": 500,
+					"staff": 535,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "petrolina",
+			"название": {
+				"ru": "Petrolina (Holdings)",
+				"en": "Petrolina (Holdings)"
+			},
+			"sector": "oil_gas",
+			"profile": "oil",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая национальная сеть АЗС и нефтетерминалов",
+				"en": "Petrolina (Holdings) — a oil and gas company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 122,
+				"profit": 7,
+				"debt": 34,
+				"money": 12,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 76
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 106,
+			"wage": 4114,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.135,
+					"д": 33.3772,
+					"province": 500,
+					"staff": 31,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "swarmly_ltd",
+			"название": {
+				"ru": "Swarmly LTD (Лимасол)",
+				"en": "Swarmly LTD (Лимасол)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производитель военных тактических БПЛА вертикального взлета и посадки (VTOL) Poseidon H10 и Poseidon H12",
+				"en": "Swarmly LTD (Лимасол) — a defence company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 47,
+				"profit": 3,
+				"debt": 12,
+				"money": 7,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 88
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кипр)",
+						"en": "The state (Cyprus)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 141,
+			"wage": 3450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.2026,
+					"д": 33.3928,
+					"province": 500,
+					"staff": 42,
+					"fine": 798
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "signalgenerix",
+			"название": {
+				"ru": "SignalGeneriX (Лимасол)",
+				"en": "SignalGeneriX (Лимасол)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик систем радиоэлектронной борьбы (РЭБ), защищенной тактической военной радиосвязи и цифровой обработки сигналов для оборонных программ ЕС (EDF)",
+				"en": "SignalGeneriX (Лимасол) — a defence company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 42,
+				"profit": 3,
+				"debt": 11,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 79
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кипр)",
+						"en": "The state (Cyprus)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 126,
+			"wage": 3450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.158,
+					"д": 33.3862,
+					"province": 500,
+					"staff": 37,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "cyric",
+			"название": {
+				"ru": "CyRIC (Cyprus Research & Innovation Center)",
+				"en": "CyRIC (Cyprus Research & Innovation Center)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Роботизированные беспилотные наземные/воздушные комплексы и военные сенсоры",
+				"en": "CyRIC (Cyprus Research & Innovation Center) — a defence company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 37,
+				"profit": 2,
+				"debt": 10,
+				"money": 6,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 69
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кипр)",
+						"en": "The state (Cyprus)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 111,
+			"wage": 3450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Никосия",
+						"en": "Nicosia"
+					},
+					"ш": 35.1648,
+					"д": 33.38,
+					"province": 500,
+					"staff": 33,
+					"fine": 800
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "national_guard",
+			"название": {
+				"ru": "National Guard Technical & Armament Base (Пафос / Агландзия)",
+				"en": "National Guard Technical & Armament Base (Пафос / Агландзия)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Центральные технические мастерские Национальной гвардии Кипра (обслуживание танков Т-80У, БМП-3, ЗРК Тор-М1/Бук-М1-2, вертолетов H145M/Ми-35П)",
+				"en": "National Guard Technical & Armament Base (Пафос / Агландзия) — a defence company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 32,
+				"profit": 2,
+				"debt": 8,
+				"money": 5,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кипр)",
+						"en": "The state (Cyprus)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 96,
+			"wage": 3450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Пафос",
+						"en": "Paphos"
+					},
+					"ш": 34.7773,
+					"д": 32.4212,
+					"province": 500,
+					"staff": 28,
+					"fine": 801
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "limassol_naval",
+			"название": {
+				"ru": "Limassol Naval Facility (ВМС Кипра)",
+				"en": "Limassol Naval Facility (ВМС Кипра)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "База обслуживания и ремонта морских патрульных кораблей (класс Commodore Andreas Ioannides)",
+				"en": "Limassol Naval Facility (ВМС Кипра) — a defence company of Cyprus."
+			},
+			"fundamental": {
+				"выручка": 29,
+				"profit": 2,
+				"debt": 7,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 54
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Кипр)",
+						"en": "The state (Cyprus)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Кипр"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 87,
+			"wage": 3450,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Лимассол",
+						"en": "Limassol"
+					},
+					"ш": 34.6948,
+					"д": 33.0249,
+					"province": 500,
+					"staff": 26,
+					"fine": 803
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

@@ -1,0 +1,1024 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Босния и Герцеговина",
+	"iso": "BIH",
+	"data_date": "2026-03",
+	"average_wage": 800,
+	"companies": [
+		{
+			"id": "epbih",
+			"название": {
+				"ru": "Elektroprivreda BiH",
+				"en": "Elektroprivreda BiH"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1945,
+			"description": {
+				"ru": "Энергетика Боснии и Герцеговины.",
+				"en": "Power of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 700,
+				"profit": 20,
+				"debt": 500,
+				"money": 50,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 400
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Федерация Боснии и Герцеговины",
+						"en": "The Federation of Bosnia and Herzegovina"
+					},
+					"type": "polity",
+					"доля": 0.9,
+					"country": "Босния и Герцеговина"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.1
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Санел Булюбашич",
+					"en": "Sanel Buljubasic"
+				},
+				"роль": "госслужащий",
+				"с_года": 2023,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "энергетик",
+					"en": "энергетик"
+				}
+			},
+			"staff": 4500,
+			"wage": 900,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.86,
+					"д": 18.41,
+					"province": 184,
+					"staff": 1500,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.epbih.ba/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "bingo_d",
+			"название": {
+				"ru": "Bingo d.o.o. Tuzla",
+				"en": "Bingo d.o.o. Tuzla"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейшая частная компания и ритейлер Боснии и Герцеговины (сеть гипермаркетов, агропроизводство, пищевая промышленность, стройматериалы; выручка ~.1 млрд, штат >9 000 чел., владелец Сенад Джамбич)",
+				"en": "Bingo d.o.o. Tuzla — a consumer and retail company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 2100,
+				"profit": 163,
+				"debt": 485,
+				"money": 175,
+				"dividends": 49
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 2877
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 9000,
+			"wage": 889,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Тузла",
+						"en": "Tuzla"
+					},
+					"ш": 44.5428,
+					"д": 18.6956,
+					"province": 184,
+					"staff": 2700,
+					"fine": 421
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, зарплата"
+			]
+		},
+		{
+			"id": "arcelormittal_zenica",
+			"название": {
+				"ru": "ArcelorMittal Zenica",
+				"en": "ArcelorMittal Zenica"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший металлургический комбинат страны (арматура, катанка, сортовой прокат; выручка ~–600 млн)",
+				"en": "ArcelorMittal Zenica — a metals and mining company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 490,
+				"profit": 54,
+				"debt": 163,
+				"money": 59,
+				"dividends": 16
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 588
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 1415,
+			"wage": 1429,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Зеница",
+						"en": "Zenica"
+					},
+					"ш": 44.2006,
+					"д": 17.915,
+					"province": 184,
+					"staff": 424,
+					"fine": 422
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "aluminij_industries",
+			"название": {
+				"ru": "Aluminij Industries / M.T. Abraham Group (Мостар)",
+				"en": "Aluminij Industries / M.T. Abraham Group (Мостар)"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ведущий производитель и экспортер первичного алюминия и сплавов (выручка ~$140 млн)",
+				"en": "Aluminij Industries / M.T. Abraham Group (Мостар) — a metals and mining company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 16,
+				"debt": 47,
+				"money": 17,
+				"dividends": 5
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 168
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 404,
+			"wage": 1429,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Мостар",
+						"en": "Mostar"
+					},
+					"ш": 43.3769,
+					"д": 17.7892,
+					"province": 184,
+					"staff": 121,
+					"fine": 420
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "elektroprivreda_republik",
+			"название": {
+				"ru": "Elektroprivreda Republike Srpske (ERS)",
+				"en": "Elektroprivreda Republike Srpske (ERS)"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Государственный энергетический холдинг Республики Сербской (ТЭС Углевик, ТЭС Гацко, ГЭС на Дрине и Требишнице; выручка ~$140 млн)",
+				"en": "Elektroprivreda Republike Srpske (ERS) — a energy company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 140,
+				"profit": 13,
+				"debt": 85,
+				"money": 18,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 185
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 249,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8601,
+					"д": 18.381,
+					"province": 184,
+					"staff": 74,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "asa_group",
+			"название": {
+				"ru": "ASA Group / Prevent CEE",
+				"en": "ASA Group / Prevent CEE"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший частный промышленный конгломерат (автокомпоненты для мирового автопрома, банковская группа ASA Banka, частная медицина)",
+				"en": "ASA Group / Prevent CEE — a financial company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 172,
+				"profit": 48,
+				"debt": 0,
+				"money": 0,
+				"dividends": 14
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 401
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 491,
+			"wage": 1314,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8647,
+					"д": 18.3718,
+					"province": 184,
+					"staff": 147,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bh_telecom",
+			"название": {
+				"ru": "BH Telecom & Telekom Srpske (m:tel)",
+				"en": "BH Telecom & Telekom Srpske (m:tel)"
+			},
+			"sector": "it",
+			"profile": "it",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Ключевые национальные операторы фиксированной и мобильной связи",
+				"en": "BH Telecom & Telekom Srpske (m:tel) — a IT and telecom company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 116,
+				"profit": 15,
+				"debt": 37,
+				"money": 19,
+				"dividends": 4
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 220
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 307,
+			"wage": 1434,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8814,
+					"д": 18.3815,
+					"province": 184,
+					"staff": 92,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (MISSING_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "igman_d",
+			"название": {
+				"ru": "Igman d.d. Konjic",
+				"en": "Igman d.d. Konjic"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Один из ведущих европейских производителей боеприпасов для стрелкового оружия всех калибров (5.56 мм, 7.62 мм, 12.7 мм). Выручка ~$110 млн, экспорт в 50+ стран мира",
+				"en": "Igman d.d. Konjic — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 110,
+				"profit": 7,
+				"debt": 28,
+				"money": 17,
+				"dividends": 2
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 206
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 330,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8178,
+					"д": 18.3715,
+					"province": 184,
+					"staff": 99,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "unis_ginex",
+			"название": {
+				"ru": "UNIS Ginex d.d. Goražde",
+				"en": "UNIS Ginex d.d. Goražde"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Крупнейший европейский производитель капсюлей-воспламенителей и пиропатронов для боеприпасов военного и гражданского назначения (стратегический поставщик заводов стран НАТО)",
+				"en": "UNIS Ginex d.d. Goražde — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 23,
+				"profit": 2,
+				"debt": 6,
+				"money": 4,
+				"dividends": 1
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 43
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 69,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8218,
+					"д": 18.377,
+					"province": 184,
+					"staff": 20,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "pretis_d",
+			"название": {
+				"ru": "Pretis d.d. Vogošća (Сараево)",
+				"en": "Pretis d.d. Vogošća (Сараево)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Завод тяжелых артиллерийских боеприпасов (122-мм, 152-мм, 155-мм снаряды НАТО), минометных мин (82/120 мм) и авиабомб",
+				"en": "Pretis d.d. Vogošća (Сараево) — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8744,
+					"д": 18.3675,
+					"province": 184,
+					"staff": 18,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "bnt_tmih",
+			"название": {
+				"ru": "BNT TMiH (Bratstvo Novi Travnik)",
+				"en": "BNT TMiH (Bratstvo Novi Travnik)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство артиллерийских систем и стволов (самоходные гаубицы 155 мм, минометы 60/82/120 мм)",
+				"en": "BNT TMiH (Bratstvo Novi Travnik) — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Травник",
+						"en": "Travnik"
+					},
+					"ш": 44.2538,
+					"д": 17.6379,
+					"province": 184,
+					"staff": 18,
+					"fine": 418
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "binas_d",
+			"название": {
+				"ru": "Binas d.d. Bugojno",
+				"en": "Binas d.d. Bugojno"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Гранатометные выстрелы (40×46 мм НАТО, ВОГ-17, ВОГ-25), ручные гранаты и взрыватели",
+				"en": "Binas d.d. Bugojno — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 21,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 39
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 63,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Бугойно",
+						"en": "Bugojno"
+					},
+					"ш": 44.0545,
+					"д": 17.4749,
+					"province": 184,
+					"staff": 18,
+					"fine": 418
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "zrak_d",
+			"название": {
+				"ru": "Zrak d.d. Sarajevo",
+				"en": "Zrak d.d. Sarajevo"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Оптико-электронные прицелы, приборы ночного видения и системы наведения для бронетехники и артиллерии",
+				"en": "Zrak d.d. Sarajevo — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8426,
+					"д": 18.3194,
+					"province": 184,
+					"staff": 18,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		},
+		{
+			"id": "tehni_ki",
+			"название": {
+				"ru": "Tehnički Remont Bratunac (TRB)",
+				"en": "Tehnički Remont Bratunac (TRB)"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Производство бронемашин Despot и Vihor, пистолетов RS-9 Vampire",
+				"en": "Tehnički Remont Bratunac (TRB) — a defence company of Bosnia and Herzegovina."
+			},
+			"fundamental": {
+				"выручка": 20,
+				"profit": 1,
+				"debt": 5,
+				"money": 3,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 38
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Босния и Герцеговина)",
+						"en": "The state (Bosnia and Herzegovina)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Босния и Герцеговина"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 60,
+			"wage": 1200,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сараево",
+						"en": "Sarajevo"
+					},
+					"ш": 43.8424,
+					"д": 18.3486,
+					"province": 184,
+					"staff": 18,
+					"fine": 423
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}

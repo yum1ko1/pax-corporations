@@ -1,0 +1,1713 @@
+{
+	"_как_это_работает": "Компании страны. Суммы — в миллионах долларов за год, цена акции — в долларах. Данные — по отчётам 2024–2025 годов, собраны приблизительно («оценка»). «ш»/«д» — координаты, «провинция» — id провинции из data/regions.json игры.",
+	"country": "Дания",
+	"iso": "DNK",
+	"data_date": "2026-03",
+	"average_wage": 5800,
+	"companies": [
+		{
+			"id": "novonordisk",
+			"название": {
+				"ru": "Novo Nordisk",
+				"en": "Novo Nordisk"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1923,
+			"description": {
+				"ru": "Лекарства от диабета и ожирения: Ozempic, Wegovy.",
+				"en": "Diabetes and obesity drugs: Ozempic, Wegovy."
+			},
+			"fundamental": {
+				"выручка": 42000,
+				"profit": 14500,
+				"debt": 14000,
+				"money": 3000,
+				"dividends": 7000
+			},
+			"рынок": {
+				"shares_mln": 4450,
+				"market_cap": 280000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Novo Nordisk (Novo Holdings)",
+						"en": "Novo Nordisk Foundation (Novo Holdings)"
+					},
+					"type": "сама",
+					"доля": 0.28
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.72
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Майк Дустдар",
+					"en": "Mike Doustdar"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "режет штат после проигрыша Lilly",
+					"en": "режет штат после проигрыша Lilly"
+				}
+			},
+			"staff": 76000,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багсверд",
+						"en": "Bagsværd"
+					},
+					"ш": 55.76,
+					"д": 12.45,
+					"province": 686,
+					"staff": 12000,
+					"fine": 853
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Калуннборг",
+						"en": "Kalundborg"
+					},
+					"ш": 55.68,
+					"д": 11.09,
+					"province": 686,
+					"staff": 5000,
+					"fine": 854
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.novonordisk.com/investors.html | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "maersk",
+			"название": {
+				"ru": "A.P. Moller-Maersk",
+				"en": "A.P. Moller-Maersk"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1904,
+			"description": {
+				"ru": "Второй контейнерный перевозчик мира.",
+				"en": "The world's second container line."
+			},
+			"fundamental": {
+				"выручка": 55000,
+				"profit": 6000,
+				"debt": 15000,
+				"money": 20000,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 16,
+				"market_cap": 28000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "A.P. Moller Holding",
+						"en": "A.P. Moller Holding"
+					},
+					"type": "founder",
+					"доля": 0.52
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.48
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Винсент Клерк",
+					"en": "Vincent Clerc"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "француз, логист",
+					"en": "француз, логист"
+				}
+			},
+			"staff": 108000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.69,
+					"д": 12.6,
+					"province": 686,
+					"staff": 3000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.maersk.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "dsv",
+			"название": {
+				"ru": "DSV",
+				"en": "DSV"
+			},
+			"sector": "авиа",
+			"profile": "авиа",
+			"type": "частная",
+			"founded": 1976,
+			"description": {
+				"ru": "Логистика, купила DB Schenker.",
+				"en": "Logistics, bought DB Schenker."
+			},
+			"fundamental": {
+				"выручка": 30000,
+				"profit": 1600,
+				"debt": 12000,
+				"money": 1000,
+				"dividends": 250
+			},
+			"рынок": {
+				"shares_mln": 240,
+				"market_cap": 50000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йенс Лунд",
+					"en": "Jens Lund"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1969,
+				"доля": 0.0,
+				"характер": {
+					"ru": "собиратель компаний",
+					"en": "собиратель компаний"
+				}
+			},
+			"staff": 150000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хедехусене",
+						"en": "Hedehusene"
+					},
+					"ш": 55.66,
+					"д": 12.2,
+					"province": 686,
+					"staff": 2000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://investor.dsv.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "orsted",
+			"название": {
+				"ru": "Ørsted",
+				"en": "Ørsted"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "смешанная",
+			"founded": 1972,
+			"description": {
+				"ru": "Крупнейший застройщик морских ветряков, в кризисе.",
+				"en": "The largest offshore wind developer, in crisis."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": -1000,
+				"debt": 16000,
+				"money": 3000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1200,
+				"market_cap": 20000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство Дании",
+						"en": "The Danish state"
+					},
+					"type": "polity",
+					"доля": 0.5,
+					"country": "Дания"
+				},
+				{
+					"кто": {
+						"ru": "Equinor",
+						"en": "Equinor"
+					},
+					"type": "company",
+					"доля": 0.1,
+					"country": "Норвегия"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.4
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Расмус Эрбо",
+					"en": "Rasmus Errboe"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2025,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "спасает баланс",
+					"en": "спасает баланс"
+				}
+			},
+			"staff": 8000,
+			"wage": 7500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Фредерисия",
+						"en": "Fredericia"
+					},
+					"ш": 55.56,
+					"д": 9.75,
+					"province": 652,
+					"staff": 1500,
+					"fine": 851
+				},
+				{
+					"type": "office",
+					"name": {
+						"ru": "Гентофте",
+						"en": "Gentofte"
+					},
+					"ш": 55.75,
+					"д": 12.55,
+					"province": 686,
+					"staff": 2500,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://orsted.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "vestas",
+			"название": {
+				"ru": "Vestas",
+				"en": "Vestas"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1945,
+			"description": {
+				"ru": "Крупнейший производитель ветряков.",
+				"en": "The largest wind turbine maker."
+			},
+			"fundamental": {
+				"выручка": 18500,
+				"profit": 500,
+				"debt": 3000,
+				"money": 3000,
+				"dividends": 100
+			},
+			"рынок": {
+				"shares_mln": 1010,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Хенрик Андерсен",
+					"en": "Henrik Andersen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1967,
+				"доля": 0.0,
+				"характер": {
+					"ru": "выводит в прибыль",
+					"en": "выводит в прибыль"
+				}
+			},
+			"staff": 30000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Орхус",
+						"en": "Aarhus"
+					},
+					"ш": 56.15,
+					"д": 10.2,
+					"province": 652,
+					"staff": 3000,
+					"fine": 850
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Лем",
+						"en": "Lem"
+					},
+					"ш": 56.02,
+					"д": 8.4,
+					"province": 652,
+					"staff": 2000,
+					"fine": 850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.vestas.com/en/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "carlsberg",
+			"название": {
+				"ru": "Carlsberg",
+				"en": "Carlsberg"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1847,
+			"description": {
+				"ru": "Третий пивовар Европы, купил Britvic.",
+				"en": "Europe's third brewer, bought Britvic."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 1200,
+				"debt": 11000,
+				"money": 1000,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 137,
+				"market_cap": 17000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Карлсберг",
+						"en": "Carlsberg Foundation"
+					},
+					"type": "сама",
+					"доля": 0.3
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.7
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Якоб Орунд",
+					"en": "Jacob Aarup-Andersen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1978,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир в пивоварне",
+					"en": "банкир в пивоварне"
+				}
+			},
+			"staff": 40000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.67,
+					"д": 12.53,
+					"province": 686,
+					"staff": 2000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.carlsberggroup.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "danske",
+			"название": {
+				"ru": "Danske Bank",
+				"en": "Danske Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1871,
+			"description": {
+				"ru": "Крупнейший банк Дании.",
+				"en": "Denmark's largest bank."
+			},
+			"fundamental": {
+				"выручка": 8000,
+				"profit": 3300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 2000
+			},
+			"рынок": {
+				"shares_mln": 830,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "A.P. Moller Holding",
+						"en": "A.P. Moller Holding"
+					},
+					"type": "company",
+					"доля": 0.22,
+					"country": "Дания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.78
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Карстен Эгериис",
+					"en": "Carsten Egeriis"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2021,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "после скандала с отмыванием",
+					"en": "после скандала с отмыванием"
+				}
+			},
+			"staff": 20000,
+			"wage": 7000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.68,
+					"д": 12.58,
+					"province": 686,
+					"staff": 5000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://danskebank.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "coloplast",
+			"название": {
+				"ru": "Coloplast",
+				"en": "Coloplast"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1957,
+			"description": {
+				"ru": "Медицинские изделия для стомы и урологии.",
+				"en": "Ostomy and urology medical devices."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 800,
+				"debt": 2000,
+				"money": 200,
+				"dividends": 700
+			},
+			"рынок": {
+				"shares_mln": 225,
+				"market_cap": 25000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Лоуитц",
+						"en": "The Louis-Hansen family"
+					},
+					"type": "founder",
+					"доля": 0.35
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.65
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларс Расмуссен",
+					"en": "Lars Rasmussen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1959,
+				"доля": 0.0,
+				"характер": {
+					"ru": "ветеран",
+					"en": "ветеран"
+				}
+			},
+			"staff": 16000,
+			"wage": 6000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хумлебек",
+						"en": "Humlebæk"
+					},
+					"ш": 55.96,
+					"д": 12.53,
+					"province": 686,
+					"staff": 2000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.coloplast.com/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "pandora",
+			"название": {
+				"ru": "Pandora",
+				"en": "Pandora"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1982,
+			"description": {
+				"ru": "Крупнейший ювелирный бренд мира по штукам.",
+				"en": "The world's largest jewellery brand by pieces."
+			},
+			"fundamental": {
+				"выручка": 4200,
+				"profit": 750,
+				"debt": 1000,
+				"money": 150,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 80,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Александер Лачик",
+					"en": "Alexander Lacik"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2019,
+				"born_year": 1965,
+				"доля": 0.0,
+				"характер": {
+					"ru": "маркетолог",
+					"en": "маркетолог"
+				}
+			},
+			"staff": 37000,
+			"wage": 4000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.68,
+					"д": 12.59,
+					"province": 686,
+					"staff": 1000,
+					"fine": 853
+				},
+				{
+					"type": "завод",
+					"name": {
+						"ru": "Ювелирные фабрики Таиланда",
+						"en": "Thai jewellery factories"
+					},
+					"ш": 14.03,
+					"д": 100.61,
+					"province": 686,
+					"staff": 15000,
+					"fine": 3955
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://pandoragroup.com/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "genmab",
+			"название": {
+				"ru": "Genmab",
+				"en": "Genmab"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1999,
+			"description": {
+				"ru": "Антитела против рака.",
+				"en": "Cancer antibodies."
+			},
+			"fundamental": {
+				"выручка": 3000,
+				"profit": 1100,
+				"debt": 0,
+				"money": 4000,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 64,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ян ван де Винкель",
+					"en": "Jan van de Winkel"
+				},
+				"роль": "founder",
+				"с_года": 1999,
+				"born_year": 1961,
+				"доля": 0.0,
+				"характер": {
+					"ru": "основатель-учёный",
+					"en": "основатель-учёный"
+				}
+			},
+			"staff": 2600,
+			"wage": 8000,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.7,
+					"д": 12.58,
+					"province": 686,
+					"staff": 800,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://ir.genmab.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "novonesis",
+			"название": {
+				"ru": "Novonesis",
+				"en": "Novonesis"
+			},
+			"sector": "pharma",
+			"profile": "химия",
+			"type": "частная",
+			"founded": 2024,
+			"description": {
+				"ru": "Ферменты и микробы для еды и промышленности.",
+				"en": "Enzymes and microbes for food and industry."
+			},
+			"fundamental": {
+				"выручка": 4500,
+				"profit": 800,
+				"debt": 3000,
+				"money": 300,
+				"dividends": 400
+			},
+			"рынок": {
+				"shares_mln": 467,
+				"market_cap": 30000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Novo Holdings",
+						"en": "Novo Holdings"
+					},
+					"type": "company",
+					"доля": 0.25,
+					"country": "Дания"
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.75
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Эстер Байхет",
+					"en": "Ester Baiget"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1971,
+				"доля": 0.0,
+				"характер": {
+					"ru": "испанка-химик",
+					"en": "испанка-химик"
+				}
+			},
+			"staff": 10000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Багсверд",
+						"en": "Bagsværd"
+					},
+					"ш": 55.76,
+					"д": 12.44,
+					"province": 686,
+					"staff": 3000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.novonesis.com/en/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "demant",
+			"название": {
+				"ru": "Demant",
+				"en": "Demant"
+			},
+			"sector": "pharma",
+			"profile": "pharma",
+			"type": "частная",
+			"founded": 1904,
+			"description": {
+				"ru": "Слуховые аппараты Oticon.",
+				"en": "Oticon hearing aids."
+			},
+			"fundamental": {
+				"выручка": 3400,
+				"profit": 400,
+				"debt": 2000,
+				"money": 100,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 220,
+				"market_cap": 9000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Фонд Уильяма Деманта",
+						"en": "William Demant Foundation"
+					},
+					"type": "сама",
+					"доля": 0.58
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.42
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Сёрен Нильсен",
+					"en": "Søren Nielsen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1973,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 21000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Смёрум",
+						"en": "Smørum"
+					},
+					"ш": 55.74,
+					"д": 12.3,
+					"province": 686,
+					"staff": 1500,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.demant.com/investor-relations | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "tryg",
+			"название": {
+				"ru": "Tryg",
+				"en": "Tryg"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1731,
+			"description": {
+				"ru": "Крупнейший страховщик Скандинавии по имуществу.",
+				"en": "Scandinavia's largest property insurer."
+			},
+			"fundamental": {
+				"выручка": 6000,
+				"profit": 700,
+				"debt": 1500,
+				"money": 0,
+				"dividends": 600
+			},
+			"рынок": {
+				"shares_mln": 610,
+				"market_cap": 14000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "TryghedsGruppen",
+						"en": "TryghedsGruppen"
+					},
+					"type": "сама",
+					"доля": 0.47
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.53
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Юхан Кирстейн",
+					"en": "Johan Kirstein Brammer"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "страховщик",
+					"en": "страховщик"
+				}
+			},
+			"staff": 7500,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Баллеруп",
+						"en": "Ballerup"
+					},
+					"ш": 55.73,
+					"д": 12.36,
+					"province": 686,
+					"staff": 2000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://tryg.com/en/investor | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "iss",
+			"название": {
+				"ru": "ISS",
+				"en": "ISS"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1901,
+			"description": {
+				"ru": "Уборка и обслуживание зданий по всему миру.",
+				"en": "Cleaning and facility services worldwide."
+			},
+			"fundamental": {
+				"выручка": 12500,
+				"profit": 350,
+				"debt": 2500,
+				"money": 700,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 180,
+				"market_cap": 4500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Каспер Фангель",
+					"en": "Kasper Fangel"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1976,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финансист",
+					"en": "финансист"
+				}
+			},
+			"staff": 330000,
+			"wage": 2500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Сёборг",
+						"en": "Søborg"
+					},
+					"ш": 55.73,
+					"д": 12.5,
+					"province": 686,
+					"staff": 500,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.inv.issworld.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "jyske",
+			"название": {
+				"ru": "Jyske Bank",
+				"en": "Jyske Bank"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1967,
+			"description": {
+				"ru": "Второй банк Дании.",
+				"en": "Denmark's second bank."
+			},
+			"fundamental": {
+				"выручка": 2500,
+				"profit": 850,
+				"debt": 0,
+				"money": 0,
+				"dividends": 200
+			},
+			"рынок": {
+				"shares_mln": 63,
+				"market_cap": 5500
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ларс Стенсгор Мёрк",
+					"en": "Lars Stensgaard Mørch"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2023,
+				"born_year": 1972,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 4000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Силькеборг",
+						"en": "Silkeborg"
+					},
+					"ш": 56.17,
+					"д": 9.55,
+					"province": 652,
+					"staff": 1500,
+					"fine": 850
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://investor.jyskebank.com/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "rockwool",
+			"название": {
+				"ru": "Rockwool",
+				"en": "Rockwool"
+			},
+			"sector": "строительство",
+			"profile": "стройка",
+			"type": "частная",
+			"founded": 1937,
+			"description": {
+				"ru": "Каменная вата для утепления.",
+				"en": "Stone wool insulation."
+			},
+			"fundamental": {
+				"выручка": 4000,
+				"profit": 550,
+				"debt": 100,
+				"money": 700,
+				"dividends": 150
+			},
+			"рынок": {
+				"shares_mln": 21,
+				"market_cap": 8000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Кяхлер (фонд)",
+						"en": "The Kähler family (foundation)"
+					},
+					"type": "founder",
+					"доля": 0.5
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.5
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Йес Мунк Хансен",
+					"en": "Jes Munk Hansen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2024,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "производственник",
+					"en": "производственник"
+				}
+			},
+			"staff": 12000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Хедехусене",
+						"en": "Hedehusene"
+					},
+					"ш": 55.65,
+					"д": 12.2,
+					"province": 686,
+					"staff": 1000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"глава.имя"
+			],
+			"source": "https://www.rockwool.com/group/about-us/investors/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; глава.имя"
+		},
+		{
+			"id": "flsmidth",
+			"название": {
+				"ru": "FLSmidth",
+				"en": "FLSmidth"
+			},
+			"sector": "metallurgy",
+			"profile": "metals",
+			"type": "частная",
+			"founded": 1882,
+			"description": {
+				"ru": "Оборудование для горной добычи и цемента.",
+				"en": "Mining and cement equipment."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 150,
+				"debt": 500,
+				"money": 300,
+				"dividends": 50
+			},
+			"рынок": {
+				"shares_mln": 57,
+				"market_cap": 3000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 1.0
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Микко Кето",
+					"en": "Mikko Keto"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2022,
+				"born_year": 1970,
+				"доля": 0.0,
+				"характер": {
+					"ru": "финн",
+					"en": "финн"
+				}
+			},
+			"staff": 8500,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Вальбю",
+						"en": "Valby"
+					},
+					"ш": 55.66,
+					"д": 12.51,
+					"province": 686,
+					"staff": 1500,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage"
+			],
+			"source": "https://www.flsmidth.com/en-gb/company/investors | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage"
+		},
+		{
+			"id": "lego",
+			"название": {
+				"ru": "LEGO Group",
+				"en": "LEGO Group"
+			},
+			"sector": "retail",
+			"profile": "retail",
+			"type": "частная",
+			"founded": 1932,
+			"description": {
+				"ru": "Крупнейший производитель игрушек мира.",
+				"en": "The world's largest toymaker."
+			},
+			"fundamental": {
+				"выручка": 11000,
+				"profit": 2800,
+				"debt": 0,
+				"money": 2000,
+				"dividends": 1000
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 60000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Кирк Кристиансен (KIRKBI)",
+						"en": "The Kirk Kristiansen family (KIRKBI)"
+					},
+					"type": "founder",
+					"доля": 0.75
+				},
+				{
+					"кто": {
+						"ru": "Фонд LEGO",
+						"en": "LEGO Foundation"
+					},
+					"type": "сама",
+					"доля": 0.25
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Нильс Кристиансен",
+					"en": "Niels B. Christiansen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1966,
+				"доля": 0.0,
+				"характер": {
+					"ru": "тихий строитель роста",
+					"en": "тихий строитель роста"
+				}
+			},
+			"staff": 29000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Биллунд",
+						"en": "Billund"
+					},
+					"ш": 55.73,
+					"д": 9.12,
+					"province": 652,
+					"staff": 5000,
+					"fine": 851
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.lego.com/en-us/aboutus/financial-reporting | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "nykredit",
+			"название": {
+				"ru": "Nykredit",
+				"en": "Nykredit"
+			},
+			"sector": "banks",
+			"profile": "bank",
+			"type": "частная",
+			"founded": 1851,
+			"description": {
+				"ru": "Крупнейший ипотечный банк Дании.",
+				"en": "Denmark's largest mortgage bank."
+			},
+			"fundamental": {
+				"выручка": 2800,
+				"profit": 1300,
+				"debt": 0,
+				"money": 0,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 12000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Ассоциация Forenet Kredit",
+						"en": "Forenet Kredit association"
+					},
+					"type": "сама",
+					"доля": 0.79
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.21
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Микаэль Рассмуссен",
+					"en": "Michael Rasmussen"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2018,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "банкир",
+					"en": "банкир"
+				}
+			},
+			"staff": 4000,
+			"wage": 6500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.68,
+					"д": 12.59,
+					"province": 686,
+					"staff": 2000,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.nykredit.com/en-gb/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "danfoss",
+			"название": {
+				"ru": "Danfoss",
+				"en": "Danfoss"
+			},
+			"sector": "энергетика",
+			"profile": "energy",
+			"type": "частная",
+			"founded": 1933,
+			"description": {
+				"ru": "Приводы, гидравлика, теплотехника.",
+				"en": "Drives, hydraulics, heating technology."
+			},
+			"fundamental": {
+				"выручка": 11500,
+				"profit": 800,
+				"debt": 3000,
+				"money": 500,
+				"dividends": 0
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 15000
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Семья Клаусен (Bitten & Mads Clausen Foundation)",
+						"en": "The Clausen family (foundation)"
+					},
+					"type": "founder",
+					"доля": 0.86
+				},
+				{
+					"кто": {
+						"ru": "Частные акционеры и фонды",
+						"en": "Free float and funds"
+					},
+					"type": "частные",
+					"доля": 0.14
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Ким Фаусинг",
+					"en": "Kim Fausing"
+				},
+				"роль": "наёмный_управляющий",
+				"с_года": 2017,
+				"born_year": 1964,
+				"доля": 0.0,
+				"характер": {
+					"ru": "инженер",
+					"en": "инженер"
+				}
+			},
+			"staff": 40000,
+			"wage": 5500,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Нордборг",
+						"en": "Nordborg"
+					},
+					"ш": 55.05,
+					"д": 9.74,
+					"province": 652,
+					"staff": 6000,
+					"fine": 851
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"всё — оценка по отчётам 2024–2025",
+				"сотрудники в точках",
+				"wage",
+				"рынок — не торгуется"
+			],
+			"source": "https://www.danfoss.com/en/about-danfoss/investor-relations/ | Оценочно: всё — оценка по отчётам 2024–2025; сотрудники в точках; wage; рынок — не торгуется"
+		},
+		{
+			"id": "mydefence",
+			"название": {
+				"ru": "MyDefence",
+				"en": "MyDefence"
+			},
+			"sector": "defence",
+			"profile": "defence",
+			"type": "государственная",
+			"founded": 1995,
+			"description": {
+				"ru": "Разработчик передовых портативных и носимых систем обнаружения и нейтрализации БПЛА (детекторы дронов WINGMAN, глушители PITBULL)",
+				"en": "MyDefence — a defence company of Denmark."
+			},
+			"fundamental": {
+				"выручка": 1050,
+				"profit": 70,
+				"debt": 270,
+				"money": 162,
+				"dividends": 21
+			},
+			"рынок": {
+				"shares_mln": 1000,
+				"market_cap": 1969
+			},
+			"owners": [
+				{
+					"кто": {
+						"ru": "Государство (Дания)",
+						"en": "The state (Denmark)"
+					},
+					"type": "polity",
+					"доля": 1.0,
+					"country": "Дания"
+				}
+			],
+			"глава": {
+				"name": {
+					"ru": "Руководство компании",
+					"en": "The management"
+				},
+				"роль": "госслужащий",
+				"с_года": 2020,
+				"born_year": 1968,
+				"доля": 0.0,
+				"характер": {
+					"ru": "",
+					"en": ""
+				}
+			},
+			"staff": 3150,
+			"wage": 8700,
+			"sites": [
+				{
+					"type": "штаб",
+					"name": {
+						"ru": "Копенгаген",
+						"en": "Copenhagen"
+					},
+					"ш": 55.6928,
+					"д": 12.5412,
+					"province": 686,
+					"staff": 945,
+					"fine": 853
+				}
+			],
+			"промыслы": [],
+			"оценка": [
+				"добавлена по каталогу 2026 (DEFENCE_COMPANIES.md)",
+				"оценка: выручка, прибыль, капитализация, долг, деньги, дивиденды, штат, зарплата"
+			]
+		}
+	]
+}
